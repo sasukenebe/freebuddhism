@@ -160,6 +160,22 @@ def render_html(config: dict, body: str) -> str:
             f'Next: {html.escape(config["next_label"])}</a></li>'
         )
     source_label = config.get("source_label", f'SuttaCentral · {config["canonical_id"]}')
+    canonical_id = config["canonical_id"].strip()
+    display_title = config["title"].strip()
+    if display_title.casefold().startswith(canonical_id.casefold()):
+        display_title = display_title[len(canonical_id):].lstrip(" \t:—–-")
+    if display_title.casefold().endswith(canonical_id.casefold()):
+        display_title = display_title[:-len(canonical_id)].rstrip(" \t:—–-")
+    display_title = f"{canonical_id} — {display_title}" if display_title else canonical_id
+    breadcrumb_items = config.get("breadcrumbs") or [
+        {"label": "Tipitaka", "href": config.get("tipitaka_href", "")},
+        {"label": config["collection_label"], "href": config["collection_href"]},
+    ]
+    breadcrumbs = " → ".join(
+        f'<a href="{esc(item["href"])}">{html.escape(item["label"])}</a>'
+        for item in breadcrumb_items
+    )
+    breadcrumbs += f' → <span aria-current="page">{html.escape(canonical_id)}</span>'
     metadata_notes = config.get("metadata_notes", [])
     details_html = (
         '<details><summary>Edition details</summary><ul>'
@@ -177,32 +193,18 @@ def render_html(config: dict, body: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(config["canonical_id"] + " — " + config["title"])}</title>
+<title>{html.escape(display_title)}</title>
 <style>
-:root {{ color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.65; }}
-*, *::before, *::after {{ box-sizing: border-box; }}
-body {{ margin: 0 auto; width: min(100%, 76ch); padding: 1rem; color: #202124; }}
-a {{ color: #174ea6; }}
-a:focus-visible {{ outline: 3px solid #174ea6; outline-offset: 3px; }}
-nav, section, footer {{ margin-block: 1.5rem; }}
-nav ul {{ display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; padding-left: 1.25rem; }}
-.downloads a {{ display: inline-block; margin: .25rem 1rem .25rem 0; }}
-.source-text {{ white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }}
-dl {{ display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: .25rem 1rem; }}
-dd {{ margin: 0; overflow-wrap: anywhere; }}
-@media (max-width: 32rem) {{ dl {{ grid-template-columns: 1fr; }} }}
-@media print {{ body {{ width: auto; max-width: none; }} nav, .downloads {{ display: none; }} }}
+.source-text {{ white-space: pre-wrap; font: inherit; }}
+@media print {{ nav, .downloads {{ display: none; }} }}
 </style>
 </head>
 <body>
 <nav aria-label="Breadcrumb">
-<a href="{esc(config.get('home_href', '../../../site/index.html'))}">Home</a> →
-<a href="{esc(config.get('tipitaka_href', '../../../site/tipitaka.html'))}">Tipitaka</a> →
-<a href="{esc(config['collection_href'])}">{html.escape(config['collection_label'])}</a> →
-<span aria-current="page">{html.escape(config['canonical_id'])}</span>
+{breadcrumbs}
 </nav>
 <header>
-<h1>{html.escape(config['canonical_id'] + " — " + config['title'])}</h1>
+<h1>{html.escape(display_title)}</h1>
 <p>English translation by {html.escape(config['translator'])}.</p>
 </header>
 <section aria-labelledby="translation-heading">

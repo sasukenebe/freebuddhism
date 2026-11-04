@@ -257,6 +257,18 @@ def route_for(from_path: Path, to_path: Path) -> str:
     return Path(os.path.relpath(to_path, start=from_path.parent)).as_posix()
 
 
+def display_text_title(canonical_id: str, title: str) -> str:
+    canonical_id = canonical_id.strip()
+    title = title.strip()
+    if title.casefold() == canonical_id.casefold():
+        return canonical_id
+    if title.casefold().startswith(canonical_id.casefold()):
+        title = title[len(canonical_id):].lstrip(" \t:—–-")
+    if title.casefold().endswith(canonical_id.casefold()):
+        title = title[:-len(canonical_id)].rstrip(" \t:—–-")
+    return f"{canonical_id} — {title}" if title else canonical_id
+
+
 def index_records(records: list[dict]) -> dict:
     by_text: dict[tuple[str, str, str], list[dict]] = {}
     by_collection: dict[tuple[str, str], list[dict]] = {}
@@ -304,13 +316,37 @@ def config_for(record: dict, reader_index: dict) -> dict:
             else:
                 target = neighbor["entry_page"]
             nav[f"{key}_href"] = route_for(record["site_path"], target)
-            nav[f"{key}_label"] = f"{neighbor_id} — {neighbor['title']}"
+            nav[f"{key}_label"] = display_text_title(neighbor_id, neighbor["title"])
 
     row = record["row"]
     text_href = route_for(record["site_path"], record["text_path"])
     html_href = record["html_path"].name
     pdf_href = record["pdf_path"].name
     tipitaka_site = TIPITAKA / "site"
+    breadcrumbs = [
+        {"label": "Home", "href": route_for(record["site_path"], tipitaka_site / "index.html")},
+        {"label": "Tipitaka", "href": route_for(record["site_path"], tipitaka_site / "tipitaka.html")},
+    ]
+    if record["kind"] == "sutta":
+        breadcrumbs.append({
+            "label": "Sutta Pitaka",
+            "href": route_for(record["site_path"], tipitaka_site / "sutta.html"),
+        })
+        parts = record["collection"].split("/")
+        for length in range(1, len(parts) + 1):
+            path_key = "/".join(parts[:length])
+            label = COLLECTION_TITLES.get(path_key, parts[length - 1].replace("-", " ").title())
+            target = TIPITAKA / "sutta" / Path(*parts[:length]) / "index.html"
+            breadcrumbs.append({"label": label, "href": route_for(record["site_path"], target)})
+    else:
+        breadcrumbs.append({
+            "label": "Vinaya Pitaka",
+            "href": route_for(record["site_path"], TIPITAKA / "vinaya" / "index.html"),
+        })
+        breadcrumbs.append({
+            "label": record["collection_label"],
+            "href": route_for(record["site_path"], record["collection_page"]),
+        })
     return {
         "canonical_id": record["canonical_id"],
         "title": record["title"],
@@ -334,6 +370,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "html_download_href": html_href,
         "pdf_download_href": pdf_href,
         "translations": translation_links,
+        "breadcrumbs": breadcrumbs,
         "home_href": route_for(record["site_path"], tipitaka_site / "index.html"),
         "tipitaka_href": route_for(record["site_path"], tipitaka_site / "tipitaka.html"),
     }

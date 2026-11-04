@@ -11,12 +11,18 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 sys.path.insert(0, str(ROOT / "tools"))
 from render_cc0_reader import ReaderParser, render_html, render_pdf, verify_pdf_body  # noqa: E402
+from build_eligible_readers import display_text_title  # noqa: E402
 from build_deploy_site import (  # noqa: E402
     local_link_errors,
     safe_output_destination,
     _replace_sutta_coverage_intro,
     _replace_tipitaka_coverage_summary,
     _strip_unavailable_embeds,
+    _display_canonical_title,
+    _sutta_breadcrumb_markup,
+    _text_group_label,
+    _write_collection_browsers,
+    _write_continuous_reader,
     _load_anguttara_menu,
     _load_vinaya_khandhaka_menu,
     _parse_an_range,
@@ -475,11 +481,129 @@ class PublicReleasePolicyTests(unittest.TestCase):
         parser.feed(page)
         self.assertEqual("".join(parser.source_parts), body)
         self.assertIn('name="viewport"', page)
-        self.assertIn("width: min(100%, 76ch)", page)
-        self.assertIn("@media print { body { width: auto; max-width: none; }", page)
+        self.assertNotIn("width: min(100%, 76ch)", page)
+        self.assertNotIn("font-family:", page)
         self.assertIn("white-space: pre-wrap", page)
-        self.assertIn("overflow-wrap: anywhere", page)
-        self.assertIn("@media (max-width: 32rem)", page)
+        self.assertIn("font: inherit", page)
+        self.assertNotIn("overflow-wrap: anywhere", page)
+
+    def test_reader_has_full_breadcrumb_and_deduplicates_reference_title(self):
+        self.assertEqual(display_text_title("AN 1.10", "AN 1.10"), "AN 1.10")
+        self.assertEqual(display_text_title("AN 1.10", "AN 1.10 — Title"), "AN 1.10 — Title")
+        self.assertEqual(
+            display_text_title("AN 5.140", "AN 5.140 — Sota Sutta (Attentive Listener) AN 5.140"),
+            "AN 5.140 — Sota Sutta (Attentive Listener)",
+        )
+        self.assertEqual(
+            _display_canonical_title("AN 5.140", "AN 5.140 — Sota Sutta (Attentive Listener) AN 5.140"),
+            "AN 5.140 — Sota Sutta (Attentive Listener)",
+        )
+        config = {
+            "canonical_id": "AN 1.11", "title": "AN 1.11", "translator": "Bhikkhu Sujato",
+            "source_url": "https://example.invalid/source", "source_repository": "",
+            "source_revision": "", "license": "CC0-1.0", "license_url": "",
+            "collection_href": "../index.html", "collection_label": "Anguttara Nikaya",
+            "breadcrumbs": [
+                {"label": "Tipitaka", "href": "../../../site/tipitaka.html"},
+                {"label": "Sutta Pitaka", "href": "../../../site/sutta.html"},
+                {"label": "Anguttara Nikaya", "href": "../index.html"},
+            ],
+            "local_text_href": "text.txt", "html_download_href": "text.html", "pdf_download_href": "text.pdf",
+            "translations": [{"label": "Bhikkhu Sujato", "href": "text.html", "current": True}],
+        }
+        page = render_html(config, "Text")
+        self.assertIn("Tipitaka</a> →", page)
+        self.assertIn("Sutta Pitaka</a> →", page)
+        self.assertIn("Anguttara Nikaya</a> →", page)
+        self.assertEqual(page.count("<h1>AN 1.11</h1>"), 1)
+        self.assertNotIn("AN 1.11 — AN 1.11", page)
+        config["title"] = "AN 1.11 — A Title AN 1.11"
+        page = render_html(config, "Text")
+        self.assertIn("<h1>AN 1.11 — A Title</h1>", page)
+
+    def test_collection_navigation_has_tree_search_and_continuous_reader_entry(self):
+        self.assertEqual(_text_group_label("AN 1.11"), "AN 1")
+        self.assertEqual(_text_group_label("Dhp 31"), "Dhp 26–50")
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "theravada" / "tipitaka"
+            index = root / "sutta/majjhima-nikaya/index.html"
+            index.parent.mkdir(parents=True)
+            index.write_text(
+                '<!doctype html><html><body><h1>Majjhima Nikaya</h1>'
+                '<p><a href="../../downloads/majjhima-nikaya.zip">Download this collection</a></p>'
+                '<table><tr><th>ID</th></tr><tr><td>MN 1</td></tr></table></body></html>',
+                encoding="utf-8",
+            )
+            pages = {
+                "sutta/majjhima-nikaya/mn01/index.html": {
+                    "canonical_id": "MN 1", "collection": "majjhima-nikaya", "title": "MN 1",
+                    "eligible": [{"version_label": "Bhikkhu Sujato translation"}],
+                },
+                "sutta/majjhima-nikaya/mn02/index.html": {
+                    "canonical_id": "MN 2", "collection": "majjhima-nikaya", "title": "MN 2",
+                    "eligible": [],
+                },
+            }
+            self.assertEqual(_write_collection_browsers(root, pages, {"majjhima-nikaya": []}), 1)
+            result = index.read_text(encoding="utf-8")
+            self.assertIn("Browse this collection", result)
+            self.assertIn('data-mode="tree"', result)
+            self.assertIn('data-mode="list"', result)
+            self.assertIn("Read continuously", result)
+            self.assertIn("no eligible local edition", result)
+            self.assertIn("Full existing index and collection notes", result)
+            self.assertIn('aria-label="Breadcrumb"', result)
+            text_breadcrumb = _sutta_breadcrumb_markup(
+                root, root / "sutta/majjhima-nikaya/mn01/index.html", "majjhima-nikaya", "MN 1"
+            )
+            self.assertIn("Sutta Piṭaka</a>", text_breadcrumb)
+            self.assertIn("Majjhima Nikaya</a>", text_breadcrumb)
+            self.assertIn('<span aria-current="page">MN 1</span>', text_breadcrumb)
+
+    def test_continuous_reader_preferences_keep_global_default_and_hide_overrides(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "theravada" / "tipitaka"
+            allowed = {}
+            self.assertEqual(_write_continuous_reader(root, {}, allowed), 0)
+            page = (root / "site/read.html").read_text(encoding="utf-8")
+            self.assertIn('id="customize-editions" aria-expanded="false"', page)
+            self.assertIn("freebuddhism-reading-default\"", page)
+            self.assertIn("freebuddhism-reading-overrides\"", page)
+            self.assertIn("Text +", page)
+            self.assertIn("font:inherit", page)
+            self.assertNotIn("Loading translations", page)
+            self.assertNotIn("font-family:", page)
+
+    def test_continuous_reader_manifest_contains_only_eligible_editions(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output_root = root / "reader-output"
+            page_root = root / "web" / "theravada" / "tipitaka"
+            record = {
+                "version": "sujato", "version_label": "Bhikkhu Sujato translation",
+                "translator": "Bhikkhu Sujato", "output_root": output_root,
+                "html_path": output_root / "theravada/tipitaka/sutta/majjhima-nikaya/mn01/mn01-sujato.html",
+            }
+            pages = {
+                "sutta/majjhima-nikaya/mn01/index.html": {
+                    "canonical_id": "MN 1", "collection": "majjhima-nikaya", "title": "MN 1",
+                    "eligible": [record],
+                },
+                "sutta/majjhima-nikaya/mn02/index.html": {
+                    "canonical_id": "MN 2", "collection": "majjhima-nikaya", "title": "MN 2",
+                    "eligible": [],
+                },
+            }
+            allowed = {}
+            self.assertEqual(_write_continuous_reader(page_root, pages, allowed), 1)
+            manifest = (page_root / "site/reading-index.json").read_text(encoding="utf-8")
+            reader = (page_root / "site/read.html").read_text(encoding="utf-8")
+            self.assertIn('"canonical_id":"MN 1"', manifest)
+            self.assertNotIn('"canonical_id":"MN 2"', manifest)
+            self.assertIn("freebuddhism-reading-overrides", reader)
+            self.assertIn("No edition will be substituted automatically", reader)
+            self.assertIn(Path("site/reading-index.json"), allowed)
+            self.assertIn(Path("site/read.html"), allowed)
 
     def test_parallel_reader_pdf_rendering_is_safe(self):
         config = {
