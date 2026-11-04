@@ -2,10 +2,9 @@
 
 Updated: 2026-11-04
 
-Status: first-release implementation complete on the review branch; broader
-Tipiṭaka scope and easier-expander comparison remain open
-`codex/navigation-reading-experience-20261104`. The user has requested push
-and production deployment after validation.
+Status: the first Sutta release is live from the review branch; broader
+Tipiṭaka scope and easier-expander comparison remain open on
+`codex/navigation-reading-experience-20261104`.
 
 This is the durable handoff for simplifying Free Buddhism's Tipiṭaka browsing
 and reading experience. It records the requested behavior, phased work, visual
@@ -225,12 +224,21 @@ release.
 The first Sutta release is implemented on
 `codex/navigation-reading-experience-20261104`. Baseline checks confirmed
 production was pinned to an older source snapshot and served an "Enter site"
-root page; the source has a direct landing page. AN 1.11 Sujato is locally
-eligible under CC0; the issue was its narrow system-font reader layout, not
-missing text. The strict local bundle validated 6,352 eligible readers,
-6,692 Sutta index entries, 15,453 HTML routes, and zero broken local links;
-the focused public-release suite passed 30 tests. After deployment, continue
-with the open scope above and the deferred tree-control usability comparison.
+root page; the source now opens directly to the library. AN 1.11 Sujato is
+locally eligible under CC0. Its local metadata has no individual title beyond
+the reference number; the collection index supplies its parent chapter name.
+Do not invent a per-sutta title. The strict bundle validates 6,352 eligible
+readers, 6,692 Sutta index entries, 15,453 HTML routes, and zero broken local
+links; all 32 public-release tests pass.
+
+Deployment record: source commit `f66ecfe6` is deployed via production review
+branch `codex/freebuddhism-navigation-deploy-20261104` at `9d13b2d`. The first
+attempt was automatically rolled back after detecting that the temporary
+webroot was not traversable by nginx. The build now normalizes generated
+directories to 755 and files to 644, with a regression test. The retry passed
+production preflight and returned HTTP 200 for both public hostnames. Retained
+rollback point: `20261104T231531Z-4108804`. Continue with the open scope above
+and the deferred tree-control usability comparison.
 
 ## Review examples
 
