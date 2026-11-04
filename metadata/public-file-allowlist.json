@@ -165,7 +165,7 @@
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "de2e8a424605daf3a25d70200cc4d47b36974aff3c36343b2438af773433a27c",
+      "sha256": "e29b4560d9f9ad7ec6367dfe85dabe0b24abfac06844b8151bb6a0f441a692c9",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -90429,7 +90429,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/render_cc0_reader.py",
-      "sha256": "38101ddef064162bef9eb0b8472e41df066f434bd89fb5c29bee67e415c6a4d8",
+      "sha256": "695622d1aa651581303b3db04d4545e175c96b1dd99cf5e8685acc25276520ad",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

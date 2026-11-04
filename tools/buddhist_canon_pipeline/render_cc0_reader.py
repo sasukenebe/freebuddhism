@@ -20,6 +20,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[2]
 CC0_URL = "https://creativecommons.org/publicdomain/zero/1.0/"
 _FONT_LOCK = threading.Lock()
+_PDF_RENDER_LOCK = threading.Lock()
 _FONT_PATHS: tuple[str, str] | None = None
 
 
@@ -321,7 +322,10 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
         kwargs["invariant"] = 1
         return Canvas(*args, **kwargs)
 
-    document.build(story, canvasmaker=invariant_canvas)
+    # ReportLab reads shared TTFont file handles while building a PDF. Protect
+    # that section when the eligible-reader builder renders PDFs concurrently.
+    with _PDF_RENDER_LOCK:
+        document.build(story, canvasmaker=invariant_canvas)
 
 
 def normalized(value: str) -> str:

@@ -2,6 +2,7 @@ import json
 import sys
 import tempfile
 import unittest
+from concurrent.futures import ThreadPoolExecutor
 from xml.etree import ElementTree
 from pathlib import Path
 
@@ -9,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 sys.path.insert(0, str(ROOT / "tools"))
-from render_cc0_reader import ReaderParser, render_html  # noqa: E402
+from render_cc0_reader import ReaderParser, render_html, render_pdf, verify_pdf_body  # noqa: E402
 from build_deploy_site import (  # noqa: E402
     local_link_errors,
     safe_output_destination,
@@ -479,6 +480,24 @@ class PublicReleasePolicyTests(unittest.TestCase):
         self.assertIn("white-space: pre-wrap", page)
         self.assertIn("overflow-wrap: anywhere", page)
         self.assertIn("@media (max-width: 32rem)", page)
+
+    def test_parallel_reader_pdf_rendering_is_safe(self):
+        config = {
+            "canonical_id": "TEST 1", "title": "Concurrent rendering", "translator": "Test fixture",
+            "source_url": "https://example.invalid/source", "source_revision": "", "license": "CC0-1.0",
+            "license_url": "", "metadata_notes": [],
+        }
+        bodies = [f"Saññā, Mahākhandhaka, pācittiya — reader {index}.\n" * 12 for index in range(8)]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+
+            def render(index, body):
+                pdf = root / f"reader-{index}.pdf"
+                render_pdf(config, body, pdf)
+                verify_pdf_body(pdf, body)
+
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                list(pool.map(lambda item: render(*item), enumerate(bodies)))
 
 
 if __name__ == "__main__":
