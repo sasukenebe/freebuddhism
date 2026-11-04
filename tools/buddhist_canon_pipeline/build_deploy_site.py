@@ -2279,6 +2279,24 @@ def safe_output_destination(output: Path | None = None) -> Path:
     return destination
 
 
+def normalize_webroot_permissions(root: Path) -> None:
+    """Make the static bundle traversable/readable by an unprivileged web server."""
+    for directory, subdirectories, filenames in os.walk(root, followlinks=False):
+        current = Path(directory)
+        if current.is_symlink():
+            raise RuntimeError(f"refusing a symlink in the generated webroot: {current}")
+        current.chmod(0o755)
+        for name in subdirectories:
+            child = current / name
+            if child.is_symlink():
+                raise RuntimeError(f"refusing a symlink in the generated webroot: {child}")
+        for name in filenames:
+            child = current / name
+            if child.is_symlink():
+                raise RuntimeError(f"refusing a symlink in the generated webroot: {child}")
+            child.chmod(0o644)
+
+
 def managed_webroot_marker_is_valid() -> bool:
     return (
         not BUILD_MARKER.is_symlink()
@@ -2306,6 +2324,7 @@ def build(reader_jobs: int = 2, output: Path | None = None) -> Path:
     staging = Path(tempfile.mkdtemp(prefix=".site-root-", dir=destination.parent))
     try:
         report = assemble_webroot(staging)
+        normalize_webroot_permissions(staging)
         if destination.exists():
             destination = safe_output_destination(destination)
             if destination != default_destination or not managed_webroot_marker_is_valid():

@@ -14,6 +14,7 @@ from render_cc0_reader import ReaderParser, render_html, render_pdf, verify_pdf_
 from build_eligible_readers import display_text_title  # noqa: E402
 from build_deploy_site import (  # noqa: E402
     local_link_errors,
+    normalize_webroot_permissions,
     safe_output_destination,
     _replace_sutta_coverage_intro,
     _replace_tipitaka_coverage_summary,
@@ -453,6 +454,23 @@ class PublicReleasePolicyTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "symlink in the site output path"):
                 safe_output_destination(link)
             self.assertTrue(protected.is_dir())
+
+    def test_generated_webroot_permissions_allow_unprivileged_static_server(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "site-root"
+            nested = root / "theravada"
+            nested.mkdir(parents=True)
+            page = nested / "index.html"
+            page.write_text("<h1>Local site</h1>", encoding="utf-8")
+            root.chmod(0o700)
+            nested.chmod(0o700)
+            page.chmod(0o600)
+
+            normalize_webroot_permissions(root)
+
+            self.assertEqual(root.stat().st_mode & 0o777, 0o755)
+            self.assertEqual(nested.stat().st_mode & 0o777, 0o755)
+            self.assertEqual(page.stat().st_mode & 0o777, 0o644)
 
     def test_local_link_check_resolves_within_bundle_without_path_escape(self):
         with tempfile.TemporaryDirectory() as temporary:
