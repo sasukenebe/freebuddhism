@@ -1,0 +1,57 @@
+Ja 185: Anabhirati Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja185.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Thick, muddy water,” etc.—This story the Master told while staying in Jetavana, and it was about a young brahmin.
+
+A young brahmin, as they say, belonging to Savatthi, had mastered the Three Vedas, and used to teach sacred verses to a number of young brahmins and kshatriyas. In time he settled down as a married man. His thoughts being now busy with wealth and ornaments, serving men and serving women, lands and substance, kine and buffaloes, sons and daughters, he became subject to passion, error, folly. This obscured his wits, so that he forgot how to repeat his formulae in due order, and every now and then the charms did not come clear in his mind. This man one day procured a quantity of flowers and sweet scents, and these he took to the Master in Jetavana Park. After his greeting, he sat down on one side. The Master talked pleasantly to him. “Well, young Sir, you are a teacher of the sacred verses. Do you know them all by heart?” “Well, Sir, I used to know them all right, but since I married my mind has been darkened, and I don’t know them any longer.” “Ah, young Sir,” the Master said, “just the same happened before; at first your mind was clear, and you knew all your verses perfectly, but when your mind was obscured by passions and lusts, you could no longer clearly see them.” Then at his request the Master told the following story.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born in the family of a brahmin magnifico. When he grew up, it studied under a far-famed teacher of Takkasila, where he learnt all magic charms. After returning to Benares he taught these charms to a large number of Brahmin and kshatriya youths.
+
+Amongst these youths was one young brahmin who had learnt the Three Vedas by heart; he became a master of ritual, and could repeat the whole of the sacred texts without stumbling in a single line. By and bye he married and settled down. Then household cares clouded his mind, and no longer could he repeat the sacred verses.
+
+One day his teacher paid him a visit. “Well, young Sir,” he enquired, “do you know all your verses off by heart?” “Since, l have been the head of a household,” was the reply, “my mind has been clouded, and I cannot repeat them.” “My son,” said his teacher, “when the mind is clouded, no matter how perfectly the scriptures have been learnt, they will not stand out clear. But when the mind is serene there is no forgetting them.” And thereupon he repeated the two verses following:
+
+“Thick, muddy water will not show
+
+Fish or shell or sand or gravel that may lie below :
+
+So with a clouded wit:
+
+Nor your nor other’s good is seen in it.
+
+“Clear, quiet waters ever show
+
+All, be it fish or shell, that lies below;
+
+So with unclouded wit:
+
+Both your and other’s good shows clear in it.”
+
+When the Master had finished this discourse, he declared the Truths, and identified the Birth—at the conclusion of the Truths the young Brahmin entered upon the Fruit of the First Path—“In those days, this youth was the young brahmin, and I was his teacher.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

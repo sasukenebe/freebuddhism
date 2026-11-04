@@ -1,0 +1,12 @@
+{
+  "name": "SuttaCentral Bilara data",
+  "repository": "https://github.com/suttacentral/bilara-data.git",
+  "branch": "published",
+  "commit": "3bc8665e0e28e70518eba94304a2fafcab80f933",
+  "translation_path": "translation/en/sujato/sutta",
+  "html_path": "html/pli/ms/sutta",
+  "translator": "Bhikkhu Sujato",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "audited": "2026-09-12"
+}

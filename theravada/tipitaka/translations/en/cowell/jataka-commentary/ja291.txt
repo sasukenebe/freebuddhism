@@ -1,0 +1,65 @@
+Ja 291: Bhadra-Ghata Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja291.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “A ne’er-do-well did once,” etc.—This story the Master told at Jetavana, about a nephew of Anathapindika. This person had squandered an inheritance of forty crores of gold. Then the visited his uncle, who gave him a thousand, and bade him trade with it. The man squandered this, and then came again; and once more he was given five hundred. Having squandered this like the rest, next time his uncle gave him two coarse garments; and when he had worn these out, and once more applied, his uncle had him taken by the neck and turned out of doors. The fellow was helpless, and fell down by a side-wall and died. They dragged him outside and threw him down there. Anathapindika went and told the Buddha what had happened to his nephew. Said the Master, “How could you expect to satisfy the man whom I long ago failed to satisfy, even when I gave him the Wishing Cup?” and at his request, he proceeded to tell him an old-world tale.
+
+Once upon a time, when Brahmadatta was reigning in Benares, the Bodhisatta was born as a rich merchant’s son; and after his father’s death, took his place. In his house was buried a treasure of four hundred million. He had an only son. The Bodhisatta gave alms and did good until he died, and then he came to life again as Sakka, king of the gods. His son proceeded to make a pavilion across the road, and sat down with many friends round him, to drink. He paid a thousand pieces to runners and tumblers, singers and dancers, and passed his time in drinking, gluttony, and debauchery; he wandered about, asking only for song, music, and dancing, devoted to his boon-companions, sunk in sloth. So in a short time he squandered all his treasure of four hundred millions, all his property, goods, and furniture, and got so poor and miserable that he had to go about clad in rags.
+
+Sakka, as he meditated, became aware how poor he was. Overcome with love for his son, he gave him a Wishing Cup, with these words: “Son, take care not to break this cup. So long as you keep it, your wealth will never come to an end. So take good care of it!” and then he returned to heaven.
+
+After that the man did nothing but drink out of it. One day, he was drunk, and threw the cup into the air, catching it as it fell. But once he missed it. Down it fell upon the earth, and smashed! Then he got poor again, and went about in rags, begging, bowl in hand, till at last he lay down by a wall, and died.
+
+When the Master had finished this tale, he went on—
+
+“A ne’er-do-well did once a Bowl acquire,
+
+A Bowl that gave hire all his heart’s desire.
+
+And of this Bowl so long as he took care,
+
+His fortunes were all fair.
+
+“When, proud and drunken, in a careless hour,
+
+He broke the Bowl that gave him all this power,
+
+Naked, poor fool! in rags and tatters, he
+
+Fell in great misery.
+
+“Not otherwise whoso great fortune owes,
+
+But in the enjoying it no measure knows,
+
+Is scorched anon, even as the knave—poor soul!—
+
+That broke his Wishing Bowl.”
+
+Repeating these stanzas in his perfect wisdom, he identified the Birth: “At that time Anathapindika’s nephew was the rascal who broke the Lucky Cup, but I myself was Sakka.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

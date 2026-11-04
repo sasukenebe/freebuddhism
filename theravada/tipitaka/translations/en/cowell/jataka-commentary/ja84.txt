@@ -1,0 +1,45 @@
+Ja 84: Atthassadvara Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja84.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Seek health.”—This story was told by the Master while at Jetavana, about a boy who was sage in matters relating to spiritual welfare. When he was only seven years old, the boy, who was the son of a very wealthy Treasurer, manifested great intelligence and anxiety for his spiritual welfare; and one day came to his father to ask what were the Paths leading to spiritual welfare. The father could not answer, but he thought to himself,—“This is a very difficult question; from highest heaven to nethermost hell there is none that can answer it, save only the All-knowing Buddha.” So he took the child with him to Jetavana, with a quantity of perfumes and flowers and unguents. Arrived there, he did reverence to the Master, bowed down before him, and seating himself on one side, spoke as follows to the Blessed One—“Sir, this boy of mine, who is intelligent and anxious for his spiritual welfare, has asked me what are the Paths leading to spiritual welfare; and as I did not know, I came to you. Vouchsafe, O Blessed One, to resolve this question.” “Lay-brother,” said the Master, “this selfsame question was asked me by this very child in former times, and I answered it for him. He knew the answer in bygone days, but now he has forgotten because of change of birth.” Then, at the father’s request, he told this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was a very wealthy Treasurer; and he had a son who, when only seven years old, manifested great intelligence and anxiety for his spiritual welfare. One day the child came to his father to ask what were the Paths leading to spiritual welfare. And his father answered him by repeating this stanza—
+
+Seek Health, the supreme good; be virtuous;
+
+Hearken to elders; from the scriptures learn;
+
+Conform to Truth; and burst Attachment’s bonds.
+
+—For chiefly these six Paths to Welfare lead.
+
+ In this wise did the Bodhisatta answer his son’s question as to the Paths that lead to spiritual welfare; and the boy from that time forward followed those six rules. After a life spent in charity and other good works, the Bodhisatta passed away to fare thereafter according to his deserts.
+
+His lesson ended, the Master identified the Birth by saying, “This child was also the child of those days, and I myself the Lord Treasurer.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

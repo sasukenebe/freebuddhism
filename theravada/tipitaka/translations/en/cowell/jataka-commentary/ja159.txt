@@ -1,0 +1,121 @@
+Ja 159: Mora Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja159.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “There he rises, king all-seeing,” etc. This story the Master told at Jetavana about a backsliding Brother. This Brother was led by some others before the Master, who asked, “Is it true, Brother, as I hear, that you have backslidden?” “Yes, Sir.” “What have you seen that should make you do so?” “A woman drest up in magnificent attire.” Then said the Master, “What wonder that womankind should trouble the wits of a man like you! Even wise men, who for seven hundred years have done no sin, on hearing a woman’s voice have transgressed in a moment; even the holy become impure; even they who have attained the highest honour have thus come to disgrace—how much more the unholy!” and he told a story of the olden time.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta came into this world as a Peacock. The egg which contained him had a shell as yellow as a kanikara bud; and when he broke the shell, he became a Golden Peacock, fair and lovely, with beautiful red lines under his wings. To preserve his life, he traversed three ranges of hills, and in the fourth he settled, on a plateau of a golden hill in Dandaka. When day dawned, as he sat upon the hill, watching the sun rise, he composed a Brahma spell to preserve himself safe in his own feeding-ground, the charm beginning “There he rises”—
+
+“There he rises, king all-seeing,
+
+Making all things bright with his golden light.
+
+Thee I worship, glorious being,
+
+Making all things bright with thy golden light,
+
+Keep me safe, I pray,
+
+Through the coming day.”
+
+ Worshipping the sun on this wise by the verse here recited, he repeats another in worship of the Buddhas who have passed away, and all their virtues:
+
+“All saints, the righteous, wise in holy lore,
+
+These do I honour, and their aid implore:
+
+All honour to the wise, to wisdom honour be,
+
+To freedom, and to all that freedom has made free.”
+
+Uttering this charm to keep himself from harm, the Peacock went a-feeding.
+
+ So after flying about all day, he came back at even and sat or the he hilltop to see the sun go down; then as he meditated, he uttered another spell to preserve himself and keep off evil, the one beginning “There he sets”—
+
+“There he sets, the king all-seeing,
+
+He that makes all bright with his golden light.
+
+Thee I worship, glorious being,
+
+Making all things bright with thy golden light.
+
+Through the night, as through the day,
+
+Keep me safe, I pray.
+
+“All saints, the righteous, wise in holy lore,
+
+These do I honour and their aid implore:
+
+All honour to the wise, to wisdom honour be,
+
+To freedom, and to all that freedom has made free.”
+
+Uttering this charm to keep himself from harm, the Peacock fell a-sleeping.
+
+ Now there was a savage who lived in a certain village of wild huntsmen, near Benares. Wandering about among the Himalaya hills he noticed the Bodhisatta perched upon the golden hill of Dandaka, and told it to his son.
+
+It so befel that on a day one of the wives of the king of Benares, Khema by name, saw in a dream a golden peacock holding a religious discourse. This she told to the king, saying that she longed to hear the discourse of the golden peacock. The king asked his courtiers about it; and the courtiers said, “The Brahmins will be sure to know.” The Brahmins said: “Yes, there are golden peacocks.” When asked, where? they replied, “The hunters will be sure to know.” The king called the hunters together and asked them. Then this hunter answered, “O lord king, there is a golden hill in Dandaka; and there a golden peacock lives.” “Then bring it here—kill it not, but just take it alive.”
+
+The hunter set snares in the peacock’s feeding-ground. But even when the peacock stepped upon it, the snare would not close. This the hunter tried for seven years, but catch him he could not; and there he died. And Queen Khema too died without obtaining her wish.
+
+The king was wroth because his Queen had died for the sake of a peacock. He caused an inscription to be made upon a golden plate to this effect: “Among the Himalaya mountains is a golden hill in Dandaka. There lives a golden peacock; and whoso eats of its flesh becomes ever young and immortal.” This he enclosed in a casket.
+
+After his death, the next king read this inscription: and thought he, “I will become ever young and immortal;” so he sent another hunter. Like the first, this hunter failed to capture the peacock, and died in the quest. In the same way the kingdom was ruled by six successive kings.
+
+Then a seventh arose, who also sent forth a hunter. The hunter observed that when the Golden Peacock came into the snare, it did not shut to, and also that he recited a charm before setting out in search of food. Off he went to the marches, and caught a peahen, which he trained to dance when he clapped his hands, and at snap of finger to utter her cry. Then, taking her along with him, he set the snare, fixing its uprights in the ground, early in the morning, before the peacock had recited his charm. Then he made the peahen utter a cry. This unwonted sound—the female’s note—woke desire in the peacock’s breast; leaving his charm unsaid, he came towards her; and was caught in the net. Then the hunter took hold of him and conveyed him to the king of Benares.
+
+The king was delighted at the peacock’s beauty; and ordered a seat to be placed for him. Sitting on the proffered seat, the Bodhisatta asked, “Why did you have me caught, O king?”
+
+“Because they say all that eat of you become immortal and have eternal youth. So I wish to gain youth eternal and immortality by eating of you,” said the king.
+
+“So be it—granted that all who eat of me become immortal and have eternal youth. But that means that I must die!”
+
+“Of course it does,” said the king.
+
+“Well—and if I die, how can my flesh give immortality to those that eat of it?
+
+“Your colour is golden; therefore (so it is said) those who eat your flesh become young and live so for ever.”
+
+“Sir,” replied the bird, “there is a very good reason for my golden colour. Long ago, I held imperial sway over the whole world, reigning in this very city; I kept the Five Commandments, and made all people of the world keep the same. For that I was born again after death in the World of the Thirty-Three Archangels; there I lived out my life, but in my next birth I became a peacock in consequence of some sin; however, golden I became because I had aforetime kept the Commandments.”
+
+“What? Incredible! You an imperial ruler, who kept the Commandments! born gold-coloured as the fruit of them! A proof, prithee!”
+
+ “I have one, Sire.”
+
+“What is it?”
+
+“Well, Sire, when I was monarch, I used to pass through mid-air seated in a jewelled car, which now lies buried in the earth beneath the waters of the royal lake. Dig it up from beneath the lake, and that shall be my proof.”
+
+The king approved the plan; he caused the lake to be drained, and dug out the chariot, and believed the Bodhisatta. Then the Bodhisatta addressed him thus:
+
+“Sire, except Nirvana, which is everlasting, all things else, being composite in their nature, are unsubstantial, transient, and subject to living and death.” Discoursing on this theme he established the king in keeping of the Commandments. Peace filled the king’s heart; he bestowed his kingdom upon the Bodhisatta, and showed him the highest respect. The Bodhisatta returned the gift; and after a few days’ sojourn, he rose up in the air, and flew back to the golden hill of Dandaka, with a parting word of advice—“O king, be careful!” And the king on his part clave to the Bodhisatta’s advice; and after giving alms and doing good, passed away to fare according to his deeds.
+
+This discourse ended, the Master declared the Truths, and identified the Birth—now after the Truths the backsliding Brother became a Saint—“Ananda was the king of those days, and I myself was the Golden Peacock.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

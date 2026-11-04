@@ -1,0 +1,33 @@
+{
+  "policy_id": "cc0-or-verified-public-domain-only",
+  "version": 1,
+  "new_publication": {
+    "allow": [
+      {
+        "license": "CC0-1.0",
+        "evidence_required": "Pinned source manifest and matching source-file record"
+      },
+      {
+        "license": "Public Domain (original English edition, published 1895–1907)",
+        "scope": "Cowell et al. Jātaka edition; verified public domain in the United States",
+        "evidence_required": "Edition-specific publication and rights evidence"
+      },
+      {
+        "license": "Public domain in the United States",
+        "scope": "The two identified 1890 and 1894 Milinda scans only",
+        "evidence_required": "Edition-specific publication and rights evidence"
+      }
+    ],
+    "default": "deny",
+    "no_blanket_relicensing": true
+  },
+  "completeness": {
+    "independent_of_rights": true,
+    "statuses": ["COMPLETE", "PARTIAL", "UNKNOWN"],
+    "unknown_is_not_complete": true
+  },
+  "original_material": {
+    "code": "0BSD",
+    "documentation_and_project_metadata": "CC0-1.0"
+  }
+}

@@ -1,0 +1,73 @@
+Ja 383: Kukkuta Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja383.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Bird with wings,” etc.—The Master told this tale in Jetavana, concerning a Brother who longed for the world. The Master asked him, “Why do you long for the world?” “Lord, through passion, for I saw a woman adorned.” “Brother, women are like cats, deceiving and cajoling to bring to ruin one who has come into their power,” so he told an old tale.
+
+Once upon a time when Brahmadatta was king in Benares, the Bodhisatta was born as a cock and lived in the forest with a retinue of many hundred cocks. Not far away lived a she-cat: and she deceived by devices the other cocks except the Bodhisatta and ate them: but the Bodhisatta did not fall into her power. She thought, “This cock is very crafty, but he knows not that I am crafty and skilful in device: it is good that I cajole him, saying, “I will be your wife,” and so eat him when he comes into my power.” She went to the root of the tree where he perched, and praying him in a speech preceded by praise of his beauty, she spoke the first stanza:
+
+Bird with wings that flash so gaily, crest that droops so gracefully,
+
+I will be your wife for nothing, leave the bough and come to me.
+
+The Bodhisatta hearing her thought, “She has eaten all my relatives; now she wishes to cajole me and eat me: I will get rid of her.” So he spoke the second stanza:
+
+Lady fair and winning, you have four feet, I have only two:
+
+Beasts and birds should never marry: for some other husband sue.
+
+ Then she thought, “He is exceedingly crafty; by some device or other I will deceive him and eat him “; so she spoke the third stanza:
+
+I will bring thee youth and beauty, pleasant speech and courtesy:
+
+Honoured wife or simple slave-girl, at thy pleasure deal with me.
+
+Then the Bodhisatta thought, “It is best to revile her and drive her away,” so he spoke the fourth stanza:
+
+Thou hast drunk my kindred’s blood, and robbed and slain them cruelly:
+
+“Honoured wife”! there is no honour in your heart when wooing me.
+
+She was driven away and did not endure to look at him again.
+
+So when they see a hero, women sly,
+
+(Compare the cat and cock,) to tempt him try.
+
+He that to great occasion fails to rise
+
+‘Neath foeman’s feet in sorrow prostrate lies.
+
+ One prompt a crisis in his fate to see,
+
+As cock from cat, escapes his enemy.
+
+These are stanzas inspired by Perfect Wisdom.
+
+His lesson ended, the Master declared the Truths and identified the Birth—after the Truths, the backsliding Brother was established in the fruition of the First Path—“At that time the cock was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

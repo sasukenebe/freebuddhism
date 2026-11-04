@@ -1,0 +1,61 @@
+Ja 247: Padanjali Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja247.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Surely this lad,” etc.—This story the Master told while dwelling in Jetavana, about the Elder Laludayi.
+
+One day, it is said, the two chief disciples were discussing a question. The Brethren who heard the discussion praised the Elders. Elder Laludayi, who sat amongst the company, curled his lip with the thought—“What is their knowledge compared with mine?” When the Brethren noticed this, they left him. The company broke up.
+
+The Brethren were talking about it in the Hall of Truth. “Friend, did you see how Laludayi curled his lip in scorn of the two chief disciples?” On hearing which the Master said, “Brethren, in olden days, as now, Laludayi had no other answer but a curl of the lip.” Then he told them an old-world tale.
+
+ Once upon a time, when king Brahmadatta was reigning in Benares, the Bodhisatta was his adviser in things spiritual and temporal. Now the king had a son, Padanjali by name, an idle lazy loafer. By and bye the king died. His obsequies over, the courtiers talked of consecrating his son Padanjali to be king. But the Bodhisatta said,
+
+“’Tis a lazy fellow, an idle loafer,—shall we take and consecrate him king?”
+
+The courtiers held a trial. They sat the youth down before them, and made a wrong decision. They adjudged something to the wrong owner, and asked him, “Young sir, do we decide rightly?”
+
+The lad curled his lip.
+
+“He is a wise lad, I think,” thought the Bodhisatta; “he must know that we have decided wrongly:” and he recited the first verse—
+
+“Surely the lad is wise beyond all men.
+
+He curls his lip—he must see through us, then!”
+
+Next day, as before, they arranged a trial, but this time judged it aright. Again they asked him what he thought of it.
+
+Again he curled his lip. Then the Bodhisatta perceived that he was blind fool, and repeated the second verse—
+
+“Not right from wrong, nor bad from good he knows:
+
+He curls his lip—but no more sense he shows.”
+
+The courtiers became aware that the young man Padanjali was a fool, and they made the Bodhisatta king.
+
+When the Master had ended this discourse, he identified the Birth: “Laludayi was Padanjali, and I was the wise courtier.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

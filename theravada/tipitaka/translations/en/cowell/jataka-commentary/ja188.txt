@@ -1,0 +1,57 @@
+Ja 188: Sihakotthuka Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja188.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Lion’s claws and lion’s paws,” etc.—This is a story told by the Master whilst at Jetavana, about Kokalika. They say that Kokalika one day hearing a number of wise Brethren preaching, desired to preach himself; all the rest is like the circumstances given in a previous tale. This time again the Master on hearing of it said, “Not this once only has Kokalika been shown up for what he was worth by means of his own voice; the very same thing happened before.” And he told a story.
+
+Once on a time, when Brahmadatta was king of Benares, the Bodhisatta was a Lion in the Himalaya mountains, and he had a cub by a she jackal who mated with him. The cub was just like his sire in toes, claws, mane, colour, figure—all these; but in voice he was like his dam.
+
+One day, after a shower of rain, all the Lions were gambolling together and roaring; the cub thought he would like to roar too, and yelped like a jackal. On hearing which all the Lions fell silent at once! Another cub of the same sire, own brother of this one, heard the sound, and said, “Father, yon lion is like us in colour and everything except in voice. Who’s he?” in asking which question he repeated the first stanza:
+
+“Lion’s claws and lion’s paws,
+
+Lion’s feet to stand upon;
+
+But the bellow of this fellow
+
+Sounds not like a lion’s son!”
+
+ In answer the Bodhisatta said, “It’s your brother, the Jackal’s cub; like me in form, but in voice like his dam.” Then he gave a word of advice to the other cub—“My dear son, as long as you live here keep a quiet tongue in your head. If you give tongue again, they’ll all find out that you are a Jackal.” To drive the advice home he repeated the second stanza—
+
+“All will see what kind you be
+
+If you yelp as once before;
+
+So don’t try it, but keep quiet:
+
+Yours is not a lion’s roar.”
+
+After this advice the creature never again so much as tried to roar.
+
+When the Master had finished this discourse, he identified the Birth—“In those days Kokalika was the Jackal, Rahula was the brother cub, and the king of beasts was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,51 @@
+Ja 184: Giridanta Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja184.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Thanks to the groom,” etc.—This story the Master told while staying in Veluvana Park, about keeping bad company. The circumstances have been already recounted under the Mahilamukha Jataka. Again, as before, the Master said: “In former days this Brother kept bad company just as he does now.” Then he told an old story.
+
+Once upon a time, there was a king named Sama, the Black, reigning in Benares. In those days the Bodhisatta was one of a courtier’s family, and grew up to be the king’s temporal and spiritual adviser. Now the king had a state horse named Pandava, and one Giridanta was his trainer, a lame man. The horse used to watch him as he tramped on and on in front, holding the halter; and knowing him to be his trainer, imitated him and limped too.
+
+Somebody told the king how the horse was limping. The king sent surgeons. They examined the horse, but found him perfectly sound; and so accordingly made report. Then the king sent the Bodhisatta. “Go, friend,” said he, “and find out all about it.” He soon found out that the horse was lame because he went about with a lame trainer. So he told the king what it was. “It’s a case of bad company,” said he, and went on to repeat the first stanza—
+
+“Thanks to the groom, poor Pandava is in a parlous state:
+
+No more displays his former ways, but needs must imitate.”
+
+“Well, now, my friend,” said the king, “what’s to be done?” “Get a good groom,” replied the Bodhisatta, “and the horse will be as good as ever.” Then he repeated the second stanza—
+
+“Find but a fit and proper groom, on whom you can depend,
+
+To bridle him and exercise, the horse will quickly mend;
+
+His sorry plight will be set right; he imitates his friend.”
+
+The king did so. The horse became as good as before. The king showed great honour to the Bodhisatta, being pleased that he knew even the ways of animals.
+
+The Master, when this discourse was ended, identified the Birth—“Devadatta was Giridanta in those days; the Brother who keeps bad company was the horse; and the wise counsellor was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

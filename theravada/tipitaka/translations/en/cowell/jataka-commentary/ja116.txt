@@ -1,0 +1,47 @@
+Ja 116: Dubbaca Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja116.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Too much.”—This story was told by the Master while at Jetavana, about an unruly Brother whose-own story will be given in the Ninth Book in the Gijjha-jataka.
+
+The Master rebuked him in these words—“As now, so in former days wert thou unruly, Brother, disregarding the counsels of the wise and good. Wherefore, by a javelin thou didst die.” So saying, he told this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was born into an acrobat’s family. When he grew up, he was a very wise and clever fellow. From another acrobat he learned the javelin dance, and with his master used to travel about exhibiting his skill. Now this master of his knew the four javelin dance but not the five; but one day when performing in a certain village, he, being in liquor, had five javelins set up in a row and gave out that he would dance through the lot.
+
+Said the Bodhisatta, “You can’t manage all five javelins, master. Have one taken away. If you try the five, you will be run through by the fifth and die.”
+
+“Then you don’t know what I can do when I try,” said the drunken fellow; and paying no heed to the Bodhisatta’s words, he danced through four of the javelins only to impale himself on the fifth like the Bassia flower on its stalk. And there he lay groaning. Said the Bodhisatta, “This calamity comes of your disregarding the counsels of the wise and good”; and he uttered this stanza—
+
+ Too much—though sore against my will—you tried;
+
+Clearing the four, upon the fifth you died.
+
+So saying, he lifted his master from off the javelin point and duly performed the last offices to his body.
+
+His story done, the Master identified the Birth by saying, “This unruly Brother was the master of those days, and I the pupil.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

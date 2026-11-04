@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": {
+    "url": "https://suttacentral.net/api/menu/pli-tv-kd",
+    "license": "CC0-1.0 reference metadata",
+    "license_basis_url": "https://suttacentral.net/licensing",
+    "retrieved_on": "2026-11-03"
+  },
+  "chapters": [
+    {"uid": "pli-tv-kd1", "pali_title": "Mahākhandhaka", "english_title": "The great chapter", "group": "mahavagga"},
+    {"uid": "pli-tv-kd2", "pali_title": "Uposathakkhandhaka", "english_title": "The chapter on the observance day", "group": "mahavagga"},
+    {"uid": "pli-tv-kd3", "pali_title": "Vassūpanāyikakkhandhaka", "english_title": "The chapter on entering the rainy-season residence", "group": "mahavagga"},
+    {"uid": "pli-tv-kd4", "pali_title": "Pavāraṇākkhandhaka", "english_title": "The chapter on the invitation ceremony", "group": "mahavagga"},
+    {"uid": "pli-tv-kd5", "pali_title": "Cammakkhandhaka", "english_title": "The chapter on skins", "group": "mahavagga"},
+    {"uid": "pli-tv-kd6", "pali_title": "Bhesajjakkhandhaka", "english_title": "The chapter on medicines", "group": "mahavagga"},
+    {"uid": "pli-tv-kd7", "pali_title": "Kathinakkhandhaka", "english_title": "The chapter on the robe-making ceremony", "group": "mahavagga"},
+    {"uid": "pli-tv-kd8", "pali_title": "Cīvarakkhandhaka", "english_title": "The chapter on robes", "group": "mahavagga"},
+    {"uid": "pli-tv-kd9", "pali_title": "Campeyyakkhandhaka", "english_title": "The chapter on legal procedures", "group": "mahavagga"},
+    {"uid": "pli-tv-kd10", "pali_title": "Kosambakakkhandhaka", "english_title": "The chapter on division in the Sangha", "group": "mahavagga"},
+    {"uid": "pli-tv-kd11", "pali_title": "Kammakkhandhaka", "english_title": "The chapter on penalty procedures", "group": "cullavagga"},
+    {"uid": "pli-tv-kd12", "pali_title": "Pārivāsikakkhandhaka", "english_title": "The chapter on the proper conduct for those who have committed an offense entailing suspension", "group": "cullavagga"},
+    {"uid": "pli-tv-kd13", "pali_title": "Samuccayakkhandhaka", "english_title": "The chapter on legal procedures in relation to offenses entailing suspension", "group": "cullavagga"},
+    {"uid": "pli-tv-kd14", "pali_title": "Samathakkhandhaka", "english_title": "The chapter on the settling of legal issues", "group": "cullavagga"},
+    {"uid": "pli-tv-kd15", "pali_title": "Khuddakavatthukkhandhaka", "english_title": "The chapter on minor topics", "group": "cullavagga"},
+    {"uid": "pli-tv-kd16", "pali_title": "Senāsanakkhandhaka", "english_title": "The chapter on resting places", "group": "cullavagga"},
+    {"uid": "pli-tv-kd17", "pali_title": "Saṁghabhedakakkhandhaka", "english_title": "The chapter on schism in the Sangha", "group": "cullavagga"},
+    {"uid": "pli-tv-kd18", "pali_title": "Vattakkhandhaka", "english_title": "The chapter on proper conduct", "group": "cullavagga"},
+    {"uid": "pli-tv-kd19", "pali_title": "Pātimokkhaṭṭhapanakkhandhaka", "english_title": "The chapter on the cancellation of the Monastic Code", "group": "cullavagga"},
+    {"uid": "pli-tv-kd20", "pali_title": "Bhikkhunikkhandhaka", "english_title": "The chapter on nuns", "group": "cullavagga"},
+    {"uid": "pli-tv-kd21", "pali_title": "Pañcasatikakkhandhaka", "english_title": "The chapter on the first council", "group": "cullavagga"},
+    {"uid": "pli-tv-kd22", "pali_title": "Sattasatikakkhandhaka", "english_title": "The chapter on the second council", "group": "cullavagga"}
+  ]
+}

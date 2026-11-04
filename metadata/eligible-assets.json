@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "collection": "khuddaka-nikaya/milindapanha",
+      "title": "The Questions of King Milinda, Parts I–II",
+      "translator": "T. W. Rhys Davids",
+      "label": "Part I — Sacred Books of the East, volume 35 (1890)",
+      "source_url": "https://archive.org/details/questionsofkingm01davi",
+      "publisher_url": "",
+      "license": "Public domain in the United States",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "jurisdiction": "United States",
+      "local_path": "theravada/tipitaka/translations/en/public-domain-sutta-books/milinda-part-i.pdf",
+      "sha256": "323cf6da66dec4f8f512165fe08987dcc808a67e39597bb300121e7f258ca421"
+    },
+    {
+      "collection": "khuddaka-nikaya/milindapanha",
+      "title": "The Questions of King Milinda, Parts I–II",
+      "translator": "T. W. Rhys Davids",
+      "label": "Part II — Sacred Books of the East, volume 36 (1894)",
+      "source_url": "https://archive.org/details/questionsofkingm02davi",
+      "publisher_url": "",
+      "license": "Public domain in the United States",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "jurisdiction": "United States",
+      "local_path": "theravada/tipitaka/translations/en/public-domain-sutta-books/milinda-part-ii.pdf",
+      "sha256": "54bff738e45d89f1eb6a49d57be713707daeeccae51cc9c8fbcf17abb1b19b7c"
+    }
+  ]
+}

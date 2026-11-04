@@ -1,0 +1,75 @@
+Ja 307: Palasa Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja307.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Why, Brahmin, though,” etc.—The Master, when he was stretched upon the bed of death, told this story of the Elder Ananda.
+
+The venerable man, knowing that the Master on this very night at eventide would die, said to himself, “I am still under discipline and have duties to perform, and my Master is certainly going to die, and then the service I have rendered to him for five-and-twenty years will be fruitless.” And so being overwhelmed with sorrow he leaned upon the monkey-head which formed the bolt of the garden store-room and burst into tears.
+
+And the Master, missing Ananda, asked the Brethren where he was, and on hearing what was the matter he sent for him and addressed him as follows: “Ananda, thou hast laid up a store of merit. Continue to strive earnestly and thou wilt soon be free from human passion. Grieve not thyself. Wherefore should the service thou hast rendered me prove fruitless now, seeing that thy former services in the days of thy sinfulness were not without their reward?” Then he told a legend of the past.
+
+Once upon a time when Brahmadatta reigned in Benares, the Bodhisatta came to life in the form of a Judas-tree sprite. Now at this time all the inhabitants of Benares were devoted to the worship of such deities, and constantly engaged in religious offerings and the like.
+
+And a certain poor brahmin thought, “I too will watch over some divinity.” So he found a big Judas-tree growing on high ground, and by sprinkling gravel and sweeping all round it, he kept its root smooth and free from grass. Then he presented it with a scented wreath of five sprays and lighting a lamp made an offering of flowers and perfume and incense. And after a reverential salutation he said, “Peace be with thee,” and then went his way. On the next day he came quite early and asked after its welfare. Now one day it occurred to the tree-sprite, “This brahmin is very attentive to me. I will test him and find out why he thus worships me, and grant him his desire.” So when the brahmin came and was sweeping about the root of the tree, the spirit stood near him disguised as an aged brahmin and repeated the first stanza:
+
+ Why, brahmin, though thyself with reason blest,
+
+Hast thou this dull insensate tree addressed?
+
+Vain is thy prayer, thy kindly greeting vain,
+
+From this dull wood no answer wilt thou gain.
+
+On hearing this the brahmin replied in a second stanza:
+
+Long on this spot a famous tree has stood,
+
+Meet dwelling-place for spirits of the wood;
+
+With deepest awe such beings I revere,
+
+They guard, methinks, some sacred treasure here.
+
+The tree-sprite on hearing these words was so pleased with the brahmin that he said, “O brahmin, I was born as the divinity of this tree. Fear not. I will grant you this treasure.” And to reassure him, by a great manifestation of divine power, he stood suspended in the air at the entrance of his celestial mansion, while he recited two more stanzas:
+
+O brahmin, I have marked thy act of love;
+
+A pious deed can never fruitless prove.
+
+Lo! where yon fig-tree casts its ample shade,
+
+Due sacrifice and gifts of old were paid.
+
+Beneath this fig a buried treasure lies,
+
+The gold unearth, and claim it as thy prize.
+
+ The spirit moreover added these words: “O brahmin, thou wouldst be weary, if thou hadst to dig up the treasure and carry it away with thee. Do thou therefore go thy way, and I will bring it to thy house and deposit it in such and such a place. Then do thou enjoy it all thy life long, and give alms and keep the moral law.” And after thus admonishing the brahmin, the tree-sprite, by an exercise of divine power, conveyed the treasure into the brahmin’s house.
+
+The Master here brought his lesson to an end and identified the Birth: “At that time Ananda was the Brahmin, and I myself was the Tree-sprite.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

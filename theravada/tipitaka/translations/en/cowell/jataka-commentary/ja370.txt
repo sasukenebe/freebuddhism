@@ -1,0 +1,85 @@
+Ja 370: Palasa Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja370.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“The goose said to the Judas tree,” etc.—This was a story told by the Master, whilst residing at Jetavana, concerning the rebuke of sin. The incident that led to the story will be set forth in the Panna Birth. But on this occasion the Master addressing the Brethren said, “Brothers, sin ought to be regarded with suspicion. Though it be as small as a banyan shoot, it may prove fatal. Sages of old too suspected whatever was open to suspicion.” And with this he related a story of the past.
+
+Once upon a time in the reign of Brahmadatta, king of Benares, the Bodhisatta came to life as a golden gosling, and when he came to be a full-grown goose, he lived in a golden cave, in the Cittakuta mountain in the Himalaya region, and used to go constantly and eat the wild paddy that grew on a natural lake. On the way by which he went to and fro was a big Judas tree. Both in going and returning, he would always stop and rest there. So a friendship sprang up between him and the divinity that dwelt in that tree. By and bye a certain fowl, after eating the ripe fruit of a banyan, came and perched on the Judas tree, and dropped its excrement into the fork of it. Thence there sprang up a young banyan, which grew to the height of four inches and was bright with red shoots and greenery. The royal goose, on seeing this, addressed the guardian deity of the tree and said, “My good friend, every tree on which a banyan shoot springs up is destroyed by its growth. Do not suffer this to grow, or it will destroy your place of abode. Go back at once, and root it up and throw it away. One ought to suspect that which justifies suspicion.” And thus conversing with the tree-sprite the goose uttered the first stanza:
+
+ The goose said to the Judas tree,
+
+“A banyan shoot is threatening thee:
+
+What thou dost in thy bosom rear
+
+Will rend thee limb from limb, I fear.”
+
+On hearing this the tree-god, not heeding his words, repeated the second stanza:
+
+Well! let it grow, and should I be
+
+A refuge to the banyan tree,
+
+And tend it with a parent’s love,
+
+It will to me a blessing prove.
+
+Then the goose uttered the third stanza:
+
+It is a cursed shoot, I fear,
+
+Thou dost within thy bosom rear.
+
+I say goodbye and off I flee,
+
+This growth alas! misliketh me.
+
+With these words the royal goose spread out his wings and made straight for mount Cittakuta. Thenceforth he came not back any more. By and bye the banyan shoot grew up. This tree also had its guardian deity. And in its growth, it broke down the Judas tree, and with a branch the abode of the tree-god also fell. At this moment reflecting on the words of the royal goose, the tree-god thought, “The king of the geese foresaw this danger in the future and warned me of it, but I did not hearken unto his words.” And thus lamenting, he uttered the fourth stanza:
+
+A spectre grim like Meru’s height
+
+Has brought me to a fearful plight;
+
+Scorning the words friend goosey said,
+
+I now am overwhelmed with dread.
+
+Thus did the banyan, as it grew up, break down all the Judas tree and reduce it to a mere stump, and the dwelling place of the tree-god wholly disappeared.
+
+Wise men abhor the parasitic thing
+
+That chokes the form to which it loves to cling.
+
+The wise, suspecting danger from the weed,
+
+Destroy the root before it comes to seed.
+
+This was the fifth stanza, inspired by Perfect Wisdom.
+
+The Master here, his lesson ended, revealed the Truths and identified the Birth—At the conclusion of the Truths five hundred Brethren attained Sainthood—“At that time I myself was the golden goose.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

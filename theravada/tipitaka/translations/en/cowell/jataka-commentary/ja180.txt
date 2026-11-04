@@ -1,0 +1,47 @@
+Ja 180: Duddada Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja180.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Tis hard to do as good men do,” etc.—This story the Master told whilst in Jetavana, about alms given in common. Two friends at Savatthi, young men of good position, made a collection, providing all the necessaries to give the Buddha and his followers. They invited them all, provided bounty for seven days, and on the seventh presented them with all their requisites. The eldest of these saluted the Master, and said, sitting beside him, “Sir, amongst the givers some gave much and some gave little; but let it bear much fruit for all alike.” Then he offered the gift. The Master’s reply was: “In giving these things to the Buddha and his followers, you, my lay friends, have done a great deed. In days of old wise men gave their bounty thus, and thus offered their gifts.” Then at his request he told a story.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born into a brahmin family of Kasi. When he grew up, he was thoroughly educated at Takkasila; after which he renounced the world, and took up the religious life, and with a band of disciples went to live in Himalaya. There he lived a long time.
+
+Once having need to procure salt and seasoning, he went on pilgrimage through the country-side, and in course of it he arrived at Benares. There he settled in the king’s park; and on the following morning he and his company went a-begging to some village outside the gates. The people gave him alms. Next day he sought alms in the city. The people were all glad to give him their alms. They clubbed together and made a collection; and provided plenty for the band of anchorites. After the presentation their spokesman offered his gift with the same words as above. The Bodhisatta replied, “Friend, where faith is, no gift is small.” And he returned his thanks in these verses following:
+
+“’Tis hard to do as good men do, to give as they can give,
+
+Bad men can hardly imitate the life which good men live.
+
+“And so, when good and evil go to pass away from earth,
+
+The bad are born in hell below, in heaven the good have birth.”
+
+This was his thanksgiving. He remained in the place for the four months of the rains, and then returned to Himalaya; where he practised all the modes of holy meditation, and without a single interruption continued in them until he joined the hosts of heaven.
+
+When this discourse came to an end the Master identified the Birth: “At that time,” said he, “the Buddha’s company was the body of ascetics, and I myself was their leader.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

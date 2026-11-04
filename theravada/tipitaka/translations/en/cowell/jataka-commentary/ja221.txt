@@ -1,0 +1,63 @@
+Ja 221: Kasava Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja221.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“If any man,” etc.—This story the Master told while staying at Jetavana, about Devadatta.
+
+It was occasioned by something that happened at Rajagaha. At one period the Captain of the Faith was living with five hundred brethren at the Bamboo Grove. And Devadatta, with a body of men wicked like himself, lived at Gayasisa.
+
+At that time the citizens of Rajagaha used to club together for the purpose of almsgiving. A trader, who had come there on business, brought a magnificent perfumed yellow robe, asking that he might become one of them, and give this garment as his contribution. The townspeople brought plenty of gifts. All that was contributed by those who had clubbed together consisted of ready money. There was this garment left. The crowd which had come together said, “Here is this beautiful perfumed robe left over. Who shall have it—Elder Sariputta, or Devadatta?” Some were in favour of Sariputta; others said, “Elder Sariputta will stay here a few days, and then go travelling at his own sweet will; but Devadatta always lives near our city; he is our refuge in good fortune or ill. Devadatta shall have it!” They made a division, and those who voted for Devadatta were in the majority. So to Devadatta they gave it. He had it cut in strips, and sewn together, and coloured like gold, and so he wore it upon him.
+
+At the same time, thirty Brethren went from Savatthi to salute the Master. After greetings had been exchanged, they told him all this affair, adding, “And so, sir, Devadatta wears this mark of the saint, which suits him ill enough.” “Brethren,” said the Master, “this is not the first time that Devadatta has put on the garb of a saint, a most unsuitable dress. He slid the same before.” And then he told them an old-world tale.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta came into this world as an Elephant in the Himalaya region. Lord of a herd that numbered eighty thousand wild elephants, he dwelt in the forest land.
+
+A poor man that lived in Benares, seeing the workers of ivory in the ivory bazaar making bangles and all manner of ivory trinkets, he asked them would they buy an elephant’s tusks, if he should get them. To which they answered, Yes.
+
+So he took a weapon, and clothing himself in a yellow robe, he put on the guise of a Pacceka-Buddha, with a covering band about his head. Taking his stand in the path of the elephants, he slew one of them with his weapon, and sold the tusks of it in Benares; and in this manner he made a living. After this he began always to slay the very last elephant in the Bodhisatta’s troop. Day by day the elephants grew fewer and fewer. Then they went and asked the Bodhisatta how it was that their numbers dwindled. He perceived the reason. “Some man,” thought he, “stands in the place where the elephants go, having made himself like a Pacceka-Buddha in appearance. Now can it be he that slays the elephants? I will find him out.” So one day he sent the others on before him and he followed after. The man saw the Bodhisatta, and made a rush at him with his weapon. The Bodhisatta turned and stood. “I will beat him to the earth, and kill him!” thought he: and stretched out his trunk,—when he saw the yellow robes which the man wore. “I ought to pay respect to those sacred robes!” said he. So drawing back his trunk, he cried—“O man! Is not that dress, the flag of sainthood, unsuitable to you? Why do you wear it?” and he repeated these lines:
+
+“If any man, yet full of sin, should dare
+
+To don the yellow robe, in whom no care
+
+For temperance is found, or love of truth,
+
+He is not worthy such a robe to wear.
+
+He who has speed out sin, who everywhere
+
+Is firm in virtue, and whose chiefest care
+
+Is to control his passions, and be true,
+
+He well deserves the yellow robe to wear.”
+
+ With these words, the Bodhisatta rebuked the man, and bade him never come there again, else he should die for it. Thus he drove him away.
+
+After this discourse was ended, the Master identified the Birth—“Devadatta was the man who killed the elephants, and the head of the herd was I.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

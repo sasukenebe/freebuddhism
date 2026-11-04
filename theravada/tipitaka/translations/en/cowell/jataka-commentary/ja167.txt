@@ -1,0 +1,67 @@
+Ja 167: Samiddhi Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja167.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Begging Brother, do you know,” etc.—This story was told by the Master whilst he was staying in Tapoda Park near Rajagaha, about Elder Samiddhi, or Goodluck.
+
+Once Father Goodluck had been wrestling in the spirit all night long. At sunrise he bathed; then he stood with his under garment on, holding the other in his hand, as he dried his body, all yellow as gold. Like a golden statue of exquisite workmanship he was, the perfection of beauty; and that is why he was called Goodluck.
+
+A daughter of the gods, seeing the Elder’s surpassing beauty, fell in love with him, and addressed him thus. “You are young, Brother, and fresh, a mere are with stripling, with black hair, bless you! you have youth, you are lovely and pleasant to the eyes. Why should a man like you turn religious without a little enjoyment? Take your pleasure first, and then you shall become religious and do what the hermits do!” He replied, “Nymph, at some time or other I must die, and the time of my death I know not; that time is hid from me. Therefore in the freshness of my youth I will follow the solitary life, and make an end of pain.”
+
+Finding she received no encouragement, the goddess at once vanished. The Elder went and told his Master about it. Then the Master said, “Not now alone, Goodluck, are you tempted by a nymph. In olden days, as now, nymphs tempted ascetics.” And then at his request the Master told an old-world tale.
+
+Once upon a time, when Brahmadatta was king in Benares, the Bodhisatta became a brahmin’s son in a village of Kasi. Coming of years, he attained perfection in all his studies, and embraced the religious life; and he lived in Himalaya, hard by a natural lake, cultivating the Faculties and the Attainments.
+
+All night long he had wrestled in the spirit; and at sunrise he bathed him, and with one bark garment on and the other in his hand, he stood, letting the water dry off his body. At the moment a daughter of the gods observed his perfect beauty, and fell in love with him. Tempting him, she repeated this first stanza—
+
+“Begging brother, do you know
+
+What of joy the world can show?
+
+Now’s the time—there is no other:
+
+Pleasure first, then—begging brother!”
+
+ The Bodhisatta listened to the nymph’s address, and then replied, declaring his set purpose, by repeating the second stanza—
+
+“The time is hid—I cannot know
+
+When is the time that I must go:
+
+Now is the time: there is no other:
+
+So I am now a begging brother.”
+
+When the nymph heard the Bodhisatta’s words, she vanished at once.
+
+After this discourse the Master identified the Birth: “The nymph is the same in both stories, and the hermit at that time was I myself.”
+
+“Life, sickness, death, the putting off the flesh,
+
+Re-birth—these five are hidden in this world.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

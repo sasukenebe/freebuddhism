@@ -1,0 +1,59 @@
+Ja 217: Seggu Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja217.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“All the world’s on pleasure bent,” etc.—This story the Master told, while dwelling at Jetavana, about a greengrocer who was a lay-brother.
+
+The circumstances have been already given in the First Book. Here again the Master asked him where he had been so long; and he replied, “My daughter, Sir, is always smiling. After testing her, I gave her in marriage to a young gentleman. As this had to be done, I had no opportunity of paying you a visit.” To this the Master answered, “Not now only is your daughter virtuous, but virtuous she was in days of yore; and as you have tested her now, so you tested her in those days.” And at the man’s request he told an old-world tale.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was a tree-spirit.
+
+This same pious greengrocer took it into his head to test his daughter. He led her into the woods, and seized her by the hand, making as though he had conceived a passion for her. And as she cried out in woe, he addressed her in the words of the first stanza—
+
+“All the world’s on pleasure bent;
+
+Ah, my baby innocent!
+
+Now I’ve caught you, pray don’t cry;
+
+As the town does, so do I.”
+
+When she heard it, she answered, “Dear Father, I am a maid, and I know not the ways of sin:” and weeping she uttered the second stanza—
+
+“He that should keep me safe from all distress,
+
+The same betrays me in my loneliness;
+
+My father, who should be my sure defence,
+
+Here in the forest offers violence.”
+
+And the greengrocer, after testing his daughter thus, took her home, and gave her in marriage to a young man. Afterwards he passed away according to his deeds.
+
+When the Master had ended this discourse, he declared the Truths and identified the Birth—at the end of the Truths the greengrocer entered on the Fruit of the First Path—“In those days, father and daughter were the snore as now, and the tree-spirit that saw it all was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

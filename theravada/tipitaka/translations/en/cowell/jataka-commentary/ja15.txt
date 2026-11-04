@@ -1,0 +1,51 @@
+Ja 15: Kharadiya Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja15.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“For when a deer.”—This story was told by the Master while at Jetavana about an unruly Brother. Tradition says that this Brother was unruly and would not heed admonition. Accordingly, the Master asked him, saying, “Is it true, as they say, that you are unruly and will not heed admonition?”
+
+“It is true, Blessed One,” was the reply.
+
+“So too in bygone days,” said the Master, “you were unruly and would not heed the admonition of the wise and good,—with the result that you were caught in a gin and met your death.” And so saying, he told this story of the past.
+
+Once on a time when Brahmadatta was in Benares the Bodhisatta was born a deer and dwelt in the forest at the head of a herd of deer. His sister brought her son to him, saying, “Brother, this is your nephew; teach him deer’s ruses.” And thus she placed her son under the Bodhisatta’s care. Said the latter to his nephew, “Come at such and such a time and I will give you a lesson.” But the nephew made no appearance at the time appointed. And, as on that day, so on seven days did he skip his lesson and fail to learn the ruses of deer; and at last, as he was roaming about, he was caught in a gin. His mother came and said to the Bodhisatta, “Brother, was not your nephew taught deer’s ruses?”
+
+“Take no thought for the unteachable rascal,” said the Bodhisatta; “your son failed to learn the ruses of deer.” And so saying, having lost all desire to advise the scapegrace even in his deadly peril, he repeated this stanza:
+
+For when a deer has twice four hoofs to run
+
+And branching antlers armed with countless tines,
+
+And when by seven tricks he’s saved himself,
+
+I teach him then, Kharadiya, no more.
+
+But the hunter killed the self-willed deer that was caught in the snare, and departed with its flesh.
+
+When the Master had ended this lesson in support of what he had said as to the unruliness of the Brother in bygone days as well as in the present, he shewed the connexion, and identified the Birth, by saying “In those days this unruly Brother was the nephew-deer, Uppala-vanna was the sister, and I myself the deer who gave the admonition.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

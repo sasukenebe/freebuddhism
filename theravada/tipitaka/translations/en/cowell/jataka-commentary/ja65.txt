@@ -1,0 +1,51 @@
+Ja 65: Anabhirati Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja65.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Like highways.”—This story was told by the Master while at Jetavana, about just such another lay-brother as the last. This man, when on enquiry he assured himself of his wife’s misconduct, came to words with her, with the result that he was so upset that for seven or eight days he failed in his attendance. One day he came to the monastery, made his bow to the Blessed One and took his seat. Being asked why he had been absent for seven or eight days, he replied, “Sir, my wife has misconducted herself, and I have been so upset about her that I did not come.”
+
+“Lay-brother,” said the Master, “long ago the wise and good told you not to be angered at the naughtiness found in women, but to preserve your equanimity this, however, you have forgotten, because re-birth has hidden it from you.” And so saying, he told—at that lay-brother’s request—this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was a teacher of world-wide reputation, as in the foregoing story. And a pupil of his, finding his wife unfaithful, was so affected by the discovery that he stayed away for some days, but being asked one day by his teacher what was the reason of his absence, he made a clean breast of it, Then said his teacher, “My son, there is no private property in women: they are common to all. And therefore wise men knowing their frailty, are nod excited to anger against them.” And so saying, he repeated this stanza for his pupil’s edification—
+
+Like highways, rivers, courtyards, hostelries,
+
+Or taverns, which to all alike extend
+
+One universal hospitality,
+
+Is womankind; and wise men never stoop
+
+To wrath at frailty in a sex so frail.
+
+Such was the instruction which the Bodhisatta imparted to his pupil, who thenceforward grew indifferent to what women did. And as for his wife, she was so changed by hearing that the teacher knew what she was, that she gave up her naughtiness thenceforth.
+
+So too that lay-brother’s wife, when she heard that the Master knew what she was, gave up her naughtiness thenceforth.
+
+His lesson ended, the Master preached the Truths, at the close whereof the lay-brother won the Fruit of the First Path. Also the Master shewed the connexion and identified the Birth by saying, “This husband and wife were also the husband and wife of those days, and I myself the brahmin teacher.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

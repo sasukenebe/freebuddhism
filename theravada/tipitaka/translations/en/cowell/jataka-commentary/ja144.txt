@@ -1,0 +1,49 @@
+Ja 144: Nanguttha Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja144.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Vile Jataveda.”—This story was told by the Master while at Jetavana, touching the false austerity of the Ajivikas, or naked ascetics. Tradition tells us that behind Jetavana they used to practise false austerities. A number of the Brethren seeing them there painfully squatting on their heels, swinging in the air like bats, reclining on thorns, scorching themselves with five fires, and so forth in their various false austerities,—were moved to ask the Blessed One whether any good resulted therefrom. “None whatsoever,” answered the Master. “In days gone by, the wise and good went into the forest with their birth-fire, thinking to profit by such austerities; but, finding themselves no better for all their sacrifices to Fire and for all similar practices, straightway doused the birth-fire with water till it went out. By an act of Meditation the Knowledges and Attainments were gained and a title won to the Brahma Realm.” So saying he told this story of the past.
+
+ Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was born a brahmin in the North country, and on the day of his birth his parents lit a birth-fire.
+
+In his sixteenth year they addressed him thus, “Son, on the day of your birth we lit a birth-fire for you. Now therefore choose. If you wish to lead a family life, learn the Three Vedas; but if you wish to attain to the Brahma Realm, take your fire with you into the forest and there tend it, so as to win Maha-Brahma’s favour and hereafter to enter into the Brahma Realm.”
+
+Telling his parents that a family life had no charms for him, he went into the forest and dwelt in a hermitage tending his fire. An ox was given him as a fee one day in a border-village, and when he had driven it home to his hermitage, the thought came to him to sacrifice a cow to the Lord of Fire. But finding that he had no salt, and feeling that the Lord of Fire could not eat his meat-offering without it, he resolved to go back and bring a supply from the village for the purpose. So he tied up the ox and set off again to the village.
+
+While he was gone, a band of hunters came up and, seeing the ox, killed it and cooked themselves a dinner. And what they did not eat they carried off, leaving only the tail and hide and the shanks. Finding only these sorry remains on his return, the brahmin exclaimed, “As this Lord of Fire cannot so much as look after his own, how shall he look after me? It is a waste of time to serve him, bringing neither good nor profit.” Having thus lost all desire to worship Fire, he said—“My Lord of Fire, if you cannot manage to protect yourself, how shall you protect me? The meat being gone, you must make shift to fare on this offal.” So saying, he threw on the fire the tail and the rest of the robbers’ leavings and uttered this stanza—
+
+Vile Jataveda, here’s the tail for you;
+
+And think yourself in luck to get so much!
+
+The prime meat’s gone; put up with tail to-day.
+
+So saying the Great Being put the fire out with water and departed to become a recluse. And he won the Knowledges and Attainments, and ensured his re-birth in the Brahma Realm.
+
+His lesson ended, the Master identified the Birth by saying, “I was the ascetic who in those days quenched the fire.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,53 @@
+Ja 331: Kokalika Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja331.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“They that with speech inopportune,” etc.—This story was told by the Master at Jetavana about Kokalika. The introductory story is told in full in the Takkarika Birth.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta was his valued minister. Now the king was very talkative. Thought the Bodhisatta, “I will put an end to his talkativeness,” and went about looking for an apt illustration. So one day the king came to his garden and sat down on the royal slab of stone. Above his head was a mango tree and there in a crow’s nest a black cuckoo had laid her egg and gone off. The female crow watched over that cuckoo’s egg. By and bye a young cuckoo came forth from it The crow thinking it was her own offspring took care of it, bringing food for it in her beak. The young bird while still unfledged uttered a cuckoo cry prematurely. The crow thought, “This young bird even now utters a strange note. What will it do, when it is older?” And so she killed it by pecking it with her beak and threw it out of the nest, and it fell at the king’s feet. The king asked the Bodhisatta, “What is the meaning of this, my friend?” Thought the Bodhisatta, “I am seeking for an illustration to teach the king a lesson, and now I have got one.” So he said, “Garrulous folk, Great King, who talk too much out of season, meet with a fate like this. This young cuckoo, sire, being fostered by the crow, while yet unfledged, uttered a premature cry. So the crow knew it was not her offspring and killed it by pecking it with her beak and threw it out of the nest. All those that are too talkative out of season, be they men or beasts, suffer like trouble.” And with these words he recited these stanzas:
+
+They that with speech inopportune offend
+
+Like the young cuckoo meet untimely end.
+
+Nor deadly poison, nor sharp-whetted sword
+
+Is half so fatal as ill-spoken word.
+
+The sage his measured words discreetly guides,
+
+Nor rashly to his second self confides:
+
+Before he speaks will prudent counsel take,
+
+His foes to trap, as Garuda the snake.
+
+ The king, after hearing the religious teaching of the Bodhisatta, thenceforth became more measured in his words, and increasing the glory of the Bodhisatta ever gave him more and more.
+
+The Master, having brought his lesson to an end, identified the Birth: “Kokalika in those days was the young cuckoo, and I myself was the wise minister.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

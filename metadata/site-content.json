@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "scope": "Only owner-approved project-authored pages with CC0-1.0 rights are included.",
+  "files": [
+    {
+      "path": "site-entry/index.html",
+      "sha256": "52ddb2901e387ecc03f7aa6f54610302e92e99b042ca8cfa02fd425fdbdcce5c",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/dhamma.html",
+      "sha256": "d9549946c375eac5568ec5f6880aa136b613d781acd038fcff497c8fd0f46a22",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/downloads.html",
+      "sha256": "6b5e120f73685a23b0148b40045a72c036d86dc5d848df47d0f88ec92d0eebd9",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/eightfold-path.html",
+      "sha256": "f846c460ec59a9b4292caa029a8b8819f144922758612e184a9e87993f9eac07",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/four-noble-truths.html",
+      "sha256": "40516c6031f63de69eab7772a1a991a4e1a04be12600426c6e4491049564bc0d",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/glossary.html",
+      "sha256": "cee927d9abec3417400f825b41923b948858e6300894a0a35a3d012ec16a490f",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/index.html",
+      "sha256": "a4b69ab58eb45c369ed89583417c1db5ad57361467761c85b9313f5e850f1683",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-action.html",
+      "sha256": "b977659a7e20a3e89187f9b1932f78bc9fc038713884bd092f64ec1103e6540b",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-concentration.html",
+      "sha256": "ec0e8976d96b1347d6a4f94241a8d8fbe22be2b9520ff336d4bfe891aaab0ce9",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-effort.html",
+      "sha256": "7c4454e4f82a5c777ac5ffebe033b3052ae850197d356ef21a2aaafa32bddc0b",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-intention.html",
+      "sha256": "15109aafb11a83c5eae0d37d29a99242390c772d6bf74f6da10707221c7e05bf",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-livelihood.html",
+      "sha256": "74afca4ba5e8ab7f355f84f8c85d051c7339e30277879ee70ddbdebdf13678af",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-mindfulness.html",
+      "sha256": "2d730abc625c3912429ce0ca9fc457cbb5f11af9dd74fda57aaaf0ae8d96907d",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-speech.html",
+      "sha256": "837957024e64b5274a3da5449a706bae6a1a25dcc91dd7d7313e5bac4e34531d",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/path/right-view.html",
+      "sha256": "6b74afc2c30a8a85758a695da71a30a5768e356979f11399b074929d0ed4a5f2",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice.html",
+      "sha256": "d95708d6864715c377c16ed2d3ff807951f450c90dbd8b7304fbc87e8df1d9b5",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/five-hindrances.html",
+      "sha256": "51a29b4d8e97b8f86629ab55a907ff518ad3884078254177d87dbee7eb448129",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/five-precepts.html",
+      "sha256": "7fd7b7af71a3995166bb2526a6d4c505b6cd9b2caf586c891fd4a942f14ae2ac",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/five-recollections.html",
+      "sha256": "72bfd2ad5d1539bb2b8f4c3dc866375aec291810e8499ffdd69cc305a565e730",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/four-foundations-of-mindfulness.html",
+      "sha256": "671cdbbed1dfeecb764475d738270579b98254acbed4a7e1232e714f16fff512",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/four-jhanas.html",
+      "sha256": "f7403393bad6ad26a45ca5873f085eceb8409b649a21b5468813241eff80c088",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/practice/seven-awakening-factors.html",
+      "sha256": "273f996843daa0588016217986b8d8d6b804d3e2cd669872d2fe86c5b6533886",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/sutta-audio.html",
+      "sha256": "3961c4f67adcd00170965e51f522ca762a0a2a2c025c803a7fd96d9da04a1d7c",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/sutta-texts.html",
+      "sha256": "f30a372ffe51583fad45330de588bea019316f430b6dc4297a9c216b10adc289",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/sutta.html",
+      "sha256": "058cdc6051ed531bf1009a625b7792af334415e9473fa88f1538978f6202959d",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings.html",
+      "sha256": "f8aa39d84c03cc9ad28f7c970b5b693b2a0efbdfaf29a71f3c88cacc7d7978c9",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/dependent-origination.html",
+      "sha256": "56097647e5486baa87585ca149bd61da854e7a49c52baba9feb744d1add73f41",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/five-aggregates.html",
+      "sha256": "ff6a4a442f22c1d1110bab8147f6f9137228eb04ff466ac4704ce7c58cbe10bf",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/kamma.html",
+      "sha256": "1911b828323bab4715a6a5f0315fb62ae39ff2dafc275e683c789ba0017767f0",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/nibbana.html",
+      "sha256": "f9d64ed1bd50dc226ba512f6f9b497f5c8fd61adb23318324e87b3dd016eb129",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/rebirth.html",
+      "sha256": "f3be5d244805201c3930e834f4b27ada6cca0785bd9cedf5b3369ed353f4385a",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/ten-fetters.html",
+      "sha256": "2b55e78cba577ec0452e65bd0614f5297a9033ce78aa464bc02cb5a041351fc5",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/teachings/three-characteristics.html",
+      "sha256": "84aadc63a0ea2bdbced2ceae28fd4ecda744b0659dd4c5c0ea33789cfb569417",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/theravada.html",
+      "sha256": "bb194d176f5ff4f732e2f96d8b7ad3aec1d7f7a7f928916d30e31535763e440a",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    },
+    {
+      "path": "theravada/tipitaka/site/tipitaka.html",
+      "sha256": "d1dca19567781ba8db5859c5ad1516abc19a36bf9affc32165bc86e7c15a2b73",
+      "license_scope": "CC0-1.0 project-authored website content",
+      "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
+    }
+  ]
+}

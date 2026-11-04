@@ -1,0 +1,63 @@
+Ja 171: Kalyana-Dhamma Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja171.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“O king, when people hail us,” etc.—This story the Master told in Jetavana, about a deaf mother-in-law.
+
+It is said that there was a squire in Savatthi, one of the faith, a true believer, who had fled to the Three Refuges, endowed with the Five Virtues. One day he set out to listen to the Master at Jetavana, bearing plenteous ghee and condiments of all sorts, flowers, perfumes, etc. At the same time, his wife’s mother started to visit her daughter, and brought a present of solid food and gruel. She was a little hard of hearing.
+
+After dinner—one feels a little drowsy after a meal—she said, by way of keeping herself awake—“Well, and does your husband live happily with you? do you agree together?” “Why, mother, what a thing to ask! you could hardly find a holy hermit who is so good and virtuous as he!” The good woman did not quite take in what her daughter said, but she caught the word—“Hermit” and cries she—“O dear, why has your husband turned hermit!” and a great to-do she made. Everybody who lived in that house heard it, and cried, “News—the squire has turned hermit!” People heard the noise, and a crowd gathered at the door to find out what it was. “The squire who lives here has turned hermit!” was all they heard.
+
+Our Squire listened to the Buddha’s sermon, then left the monastery to return to the city. Midway a man met him, who cried—“Why, master, they do say you’ve turned hermit, and all your family and servants are crying at home!” Then these thoughts passed through his mind. “People say I have turned hermit when I have done nothing of the kind. A lucky speech must not be neglected; this day a hermit I must be.” Then and there he turned right round, and went back to the Master. “You paid your visit to the Buddha,” the Master said, “and went away. What brings you back here again?” The man told him about it, adding, “A lucky speech, Sir, must not be neglected. So here I am, and I wish to become a hermit.” Then he received the lesser and the greater orders, and lived a good life; and very soon he attained to sainthood.
+
+The story got known amongst the community. One day they were discussing it all together in the Hall of Truth, on this fashion: “I say, friend, Squire So-and-so took orders because he said ‘a lucky speech must never be neglected,’ and now he has attained to sainthood!” The Master came in and wanted to know what it was they were talking about. They told him. Said he, “Brethren, wise men in days long past also entered the Brotherhood because they said that a lucky speech must never be neglected;” and then he told them a story of olden days.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta came into the world as a rich merchant’s son; and when he grew up and his father died he took his father’s place.
+
+Once he had gone to pay his respects to the king: and his mother-in-law came on a visit to her daughter. She was a little hard of hearing, and all happened just as it has happened now. The husband was on his way back from paying his respects to the king, when he was met by a man, who said, “They say you have turned hermit, and there’s such a hullabaloo in your house!” The Bodhisatta, thinking that lucky words must never be neglected, turned right round and went back to the king. The king asked what brought him back again. “My lord,” said he, “all my people are bewailing me, as I am told, because I have turned hermit, when I have done nothing of the kind. But lucky words must not be neglected, and a hermit I will be. I crave your permission to become a hermit!” And he explained the circumstances by the following verses:
+
+“O king, when people hail us by the name
+
+Of holy, we must make our acts the same:
+
+We must not waver nor fall short of it;
+
+We must take up the yoke for very shame.
+
+“O king, this name has been bestowed on me:
+
+To-day they cry how holy I must be:
+
+Therefore I would a hermit live and die;
+
+I have no taste for joy and revelry.”
+
+Thus did the Bodhisatta ask the king’s leave to embrace the religious life. Then he went away to the Himalayas, and becoming an ascetic he cultivated the Faculties and the Attainments and at last came to Brahma’s heaven.
+
+The Master, having ended this discourse, identified the Birth: “Ananda was king in those days, and I myself was the rich Benares merchant.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

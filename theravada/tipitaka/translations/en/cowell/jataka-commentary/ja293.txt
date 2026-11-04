@@ -1,0 +1,57 @@
+Ja 293: Kaya-Vicchinda Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja293.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Down smitten with a direful illness,” etc.—This story the Master told at Jetavana about a certain man. We learn that there lived at Savatthi a man tormented by jaundice, given up by the doctors as a hopeless case. His wife and son wondered who could be found to cure him. The man thought, “If I can only get rid of this disease, I will take to the religious life.” Now it happened that some days after he took something that did him good, and got well. Then he went to Jetavana, and asked admission into the Order. He received the lesser and greater orders from the Master, and before long attained to sainthood. One day after this the brethren were talking together in the Hall of Truth: “Friend, So and so had jaundice, and vowed that if he got well he would embrace the religious life; he did so, and now he has attained sainthood.” The Master came in, and asked what they talked about, sitting there together. They told him. Then he said: “Brothers, this is not the only man who has done so. Long ago wise men, recovering from sickness, embraced a religious life, and secured their own advantage.” And he told an old-world tale.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born in a Brahmin family. He grew up, and began to amass wealth: but he fell sick of the jaundice. Even the physicians could do nothing for him, and his wife and family were in despair. He resolved that if he ever got well, he would embrace the religious life; and having taken something that did him good, he did get well, whereupon he went away to Himalaya and became a religious. He cultivated the Faculties and the Attainments, and dwelt in ecstatic happiness. “All this time,” thought he, “I have been without this great happiness!” and he breathed out this aspiration:
+
+“Down smitten with a direful illness, I
+
+In utter torment and affliction lie,
+
+My body quickly withers, like a flower
+
+Laid in the sun upon the dust to dry.
+
+“The noble seems ignoble, and pure the impure seems,
+
+He that is blind, all beautiful a sink of foulness deems.
+
+“Shame on that sickly body, shame, I say,
+
+Loathsome, impure, and full of foul decay!
+
+When fools are indolent, they fail to win
+
+New birth in heaven, and wander from the way.”
+
+ Thus did the Great Being describe in various ways the nature of impurity and constant disease, and being disgusted with the body and all its parts, cultivated all his life the four excellent conditions of life, till he went to Brahma’s world.
+
+When the Master had ended this discourse, he proclaimed the Truths, and identified the Birth—many were they who attained the fruition of the First Path, and so forth—“At that time I myself was the ascetic.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

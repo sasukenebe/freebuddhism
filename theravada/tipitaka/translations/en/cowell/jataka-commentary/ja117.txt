@@ -1,0 +1,51 @@
+Ja 117: Tittira Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja117.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“As died the partridge.”—This story was told by the Master while at Jetavana, about Kokalika, whose story will be found in the Thirteenth Book in the Takkariya Jataka.
+
+Said the Master, “As now, Brethren, so likewise in former times, Kokalika’s tongue has worked his destruction.”
+
+So saying, he told this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was born a brahmin in the North country. When he grew up, he received a complete education at Takkasila, and, renouncing Lusts, gave up the world to become a hermit. He won the Five Knowledges and the Eight Attainments, and all the recluses of the Himalayas to the number of five hundred assembled together and followed him as their master.
+
+Insight was his as he dwelt amid his disciples in the Himalayas.
+
+In those days there was an ascetic suffering from jaundice who was chopping wood with an axe. And a chattering Brother came and sat by him, and directed his work, bidding him give here a chop and there a chop, till the jaundiced ascetic lost his temper. In a rage he cried, “Who are you to teach me how to chop wood?” and lifting up his keen-edged axe stretched the other dead with a single blow. And the Bodhisatta had the body buried.
+
+Now on an ant-hill hard by the hermitage there dwelt a partridge which early and late was always piping on the top of the ant-hill. Recognising the note of a partridge, a sportsman killed the bird and took it off with him. Missing the bird’s note, the Bodhisatta asked the hermits why they did not hear their neighbour the partridge now. Then they told him what had happened, and he linked the two events together in this stanza—
+
+As died the partridge for her clamorous cry,
+
+So prate and chatter doomed this fool to die.
+
+Having developed within himself the four Perfect States, the Bodhisatta thus became destined to rebirth in the Brahma Realm.
+
+ Said the Master, “Brethren, as now, so likewise in former days Kokalika’s tongue has worked his destruction.” And at the close of this lesson he identified the Birth by saying, “Kokalika was the meddling ascetic of those days, my followers the band of hermits, and I their master.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

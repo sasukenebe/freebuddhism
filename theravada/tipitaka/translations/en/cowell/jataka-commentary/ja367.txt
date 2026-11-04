@@ -1,0 +1,67 @@
+Ja 367: Saliya Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja367.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Who got his friend,” etc.—This was a story told by the Master, whilst living in the Bamboo Grove, in reference to a saying that Devadatta could not even inspire alarm.
+
+When Brahmadatta was reigning in Benares, the Bodhisatta was born in the family of a village householder, and when he was young he played with other boys at the foot of a banyan tree, at the entrance of the village. A poor old doctor at that time who had no practice strayed out of the village to this spot, and saw a snake asleep in the fork of a tree, with its head tucked in. He thought, “There is nothing to be got in the village. I will cajole these boys and make the snake bite them, and then I shall get somewhat for curing them.” So he said to the Bodhisatta, “If you were to see a young hedgehog, would you seize it?” “Yes, I would,” said he.
+
+ “See, here is one lying in the fork of this tree,” said the old man.
+
+The Bodhisatta, not knowing it was a snake, climbed up the tree and seized it by the neck, but when he found it was a snake, he did not allow it to turn upon him, but getting a good grip of it, he hastily flung it from him. It fell on the neck of the old doctor, and coiling round him, it bit him so severely that its teeth met in his flesh and the old man fell down dead on the spot, and the snake made its escape. People gathered together about him, and the Great Being, in expounding the Law to the assembled multitude, repeated these verses:
+
+Who got his friend to seize
+
+A deadly snake, as hedgehog, if you please,
+
+By the snake’s bite was killed
+
+As one that evil to his neighbour willed.
+
+He that to strike is fain
+
+The man that never striketh back again,
+
+Is struck and lieth low,
+
+E’en as this knave sore hurt by deadly blow.
+
+So dust that should be thrown
+
+Against the wind, back in one’s face is blown;
+
+And ill designed to one
+
+That holy is, and has no evil done,
+
+On the fool’s pate at last
+
+Recoils, like dust when thrown against the blast.
+
+The Master here ended his lesson and identified the Birth: “At that time the poor old doctor was Devadatta, the wise youth was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

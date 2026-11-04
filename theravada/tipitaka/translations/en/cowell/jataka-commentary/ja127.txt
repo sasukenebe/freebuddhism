@@ -1,0 +1,49 @@
+Ja 127: Kalanduka Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja127.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“You vaunt.”—This story was told by the Master once at Jetavana, about a boastful Brother. (The introductory story and the story of the past in this case are like those of Katahaka related above. )
+
+Kalanduka was in this case the name of the slave of the Treasurer of Benares. And when he had run away and was living in luxury with the daughter of the border-merchant, the Treasurer missed him and could not discover his whereabouts. So he sent a young pet parrot to search for the runaway. And off flew the parrot in quest of Kalanduka, and searched for him far and wide, till at last the bird came to the town where he dwelt. And just at that very time Kalanduka was enjoying himself on the river with his wife in a boat well-stocked with dainty fare and with flowers and perfumes. Now the nobles of that land at their water-parties make a point of taking milk with a pungent drug to drink, and so escape suffering from cold after their pastime on the water. But when our Kalanduka tasted this milk, he hawked and spat it out; and in so doing spat on the head of the merchant’s daughter. At this moment up flew the parrot, and saw all this from the bough of a fig-tree on the bank. “Come, come, slave Kalanduka,” cried the bird; “remember who and what you are, and don’t spit on the head of this young gentlewoman. Know your place, fellow.” So saying, he uttered the following stanza—
+
+You vaunt your high descent, your high degree,
+
+With lying tongue. Though but a bird, I know
+
+The truth. You’ll soon be caught, you runaway.
+
+Scorn not the milk then, slave Kalanduka.
+
+Recognizing the parrot, Kalanduka grew afraid of being exposed, and exclaimed, “Ah! good master, when did you arrive?”
+
+Thought the parrot, “It is not friendliness, but a wish to wring my neck, that prompts this kindly interest.” So he replied that he did not stand in need of Kalanduka’s services, and flew off to Benares, where he told the Lord Treasurer everything he had seen.
+
+“The rascal!” cried the Treasurer, and ordered Kalanduka to be hauled back to Benares where he had once more to put up with a slave’s fare.
+
+His lesson ended, the Master identified the Birth by saying, “This Brother was Kalanduka in the story, and I the Treasurer of Benares.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

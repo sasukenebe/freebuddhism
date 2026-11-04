@@ -1,0 +1,51 @@
+Ja 165: Nakula Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja165.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Creature, your egg-born enemy,” etc.—This story the Master told during a sojourn at Jetavana, about two officers who had a quarrel. The circumstances have been given above in the Uraga Birth. Here, as before, the Master said, “This is not the first time, Brethren, these two nobles have been reconciled by me; in former times I reconciled them too.” Then he told an old story.
+
+Once on a time, when Brahmadatta was king of Benares, the Bodhisatta was born in a certain village as one of a brahmin family. When he came of age, he was educated at Takkasila; then, renouncing the world he became a recluse, cultivated the Faculties and the Attainments, and dwelt in the region of Himalaya, living upon wild roots and fruits which he picked up in his goings to and fro.
+
+At the end of his cloistered walk lived a Mongoose in an ant-heap; and not far off, a Snake lived in a hollow tree. These two, Snake and Mongoose, were perpetually quarrelling. The Bodhisatta preached to them the misery of quarrels and the blessing of peace, and reconciled the two together, saying, “You ought to cease your quarrelling and live together at one.”
+
+When the Serpent was abroad, the Mongoose at the end of the walk lay with his head out of the hole in his ant-hill, and his mouth open, and thus fell asleep, heavily drawing his breath in and out. The Bodhisatta saw him sleeping there, and asking him, “Why, what are you afraid of?” repeated the first stanza:
+
+“Creature, your egg-born enemy a faithful friend is made:
+
+Why sleep you there with teeth all bare? of what are you afraid?”
+
+“Father,” said the Mongoose, “never despise a former enemy, but always suspect him “: and he repeated the second stanza:
+
+“Never despise an enemy nor ever trust a friend:
+
+A fear that springs from unfeared things uproots and makes an end.”
+
+ “Fear not,” replied the Bodhisatta. “I have persuaded the Snake to do you no harm; distrust him no more.” With this advice, he proceeded to cultivate the Four Excellences, and set his face toward Brahma’s heaven. And the others too passed away to fare hereafter according to their deeds.
+
+Then this lesson ended, the Master identified the Birth: “The two noblemen were at that time Snake and Mongoose, and I was myself the ascetic.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

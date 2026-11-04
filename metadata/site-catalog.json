@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "content_policy": "Navigation and edition metadata only; no translation bodies.",
+  "abhidhamma_books": [
+    [
+      "dhammasangani",
+      "Dhammasaṅgaṇī",
+      "Enumeration of Phenomena",
+      "An enumeration and classification of phenomena."
+    ],
+    [
+      "vibhanga",
+      "Vibhaṅga",
+      "Book of Analysis",
+      "Analyses of principal categories of the teachings."
+    ],
+    [
+      "dhatukatha",
+      "Dhātukathā",
+      "Discussion of Elements",
+      "An examination of relationships between categories of phenomena."
+    ],
+    [
+      "puggalapannatti",
+      "Puggalapaññatti",
+      "Designation of Persons",
+      "Classifications of types of persons."
+    ],
+    [
+      "kathavatthu",
+      "Kathāvatthu",
+      "Points of Controversy",
+      "Debates about interpretations of Buddhist doctrine."
+    ],
+    [
+      "yamaka",
+      "Yamaka",
+      "Pairs",
+      "Paired questions examining doctrinal categories."
+    ],
+    [
+      "patthana",
+      "Paṭṭhāna",
+      "Conditional Relations",
+      "An extensive analysis of conditional relationships."
+    ]
+  ],
+  "collection_titles": {
+    "digha-nikaya": "Digha Nikaya",
+    "majjhima-nikaya": "Majjhima Nikaya",
+    "samyutta-nikaya": "Samyutta Nikaya",
+    "anguttara-nikaya": "Anguttara Nikaya",
+    "khuddaka-nikaya/dhammapada": "Dhammapada",
+    "khuddaka-nikaya/khuddakapatha": "Khuddakapatha",
+    "khuddaka-nikaya/udana": "Udana",
+    "khuddaka-nikaya/itivuttaka": "Itivuttaka",
+    "khuddaka-nikaya/sutta-nipata": "Sutta Nipata",
+    "khuddaka-nikaya/theragatha": "Theragatha",
+    "khuddaka-nikaya/therigatha": "Therigatha",
+    "khuddaka-nikaya/jataka": "Jataka",
+    "khuddaka-nikaya/vimanavatthu": "Vimānavatthu",
+    "khuddaka-nikaya/cariyapitaka": "Cariyapitaka",
+    "khuddaka-nikaya/milindapanha": "Milindapanha",
+    "khuddaka-nikaya/nettipakarana": "Nettipakaraṇa (The Guide)",
+    "khuddaka-nikaya/petakopadesa": "Peṭakopadesa (The Piṭaka-Disclosure)",
+    "khuddaka-nikaya/petavatthu": "Petavatthu",
+    "khuddaka-nikaya/apadana": "Apadana",
+    "khuddaka-nikaya/patisambhidamagga": "Paṭisambhidāmagga"
+  },
+  "sutta_node_info": {
+    "sutta": [
+      "Sutta Piṭaka",
+      "Discourses",
+      "Discourses and other works preserved in five collections."
+    ],
+    "digha-nikaya": [
+      "Dīgha Nikāya",
+      "Long Discourses",
+      "Long discourses covering teachings, practice, and discussions."
+    ],
+    "majjhima-nikaya": [
+      "Majjhima Nikāya",
+      "Middle-Length Discourses",
+      "Middle-length discourses on teachings and practice."
+    ],
+    "samyutta-nikaya": [
+      "Saṁyutta Nikāya",
+      "Connected Discourses",
+      "Discourses grouped by topic or by the people involved."
+    ],
+    "anguttara-nikaya": [
+      "Aṅguttara Nikāya",
+      "Numbered Discourses",
+      "Discourses arranged around numbered sets of teachings."
+    ],
+    "khuddaka-nikaya": [
+      "Khuddaka Nikāya",
+      "Minor Collection",
+      "A varied collection of short texts, verses, and other works; its extent varies by edition."
+    ],
+    "khuddaka-nikaya/khuddakapatha": [
+      "Khuddakapāṭha",
+      "Short Readings",
+      "Short passages for recitation and basic instruction."
+    ],
+    "khuddaka-nikaya/dhammapada": [
+      "Dhammapada",
+      "Verses of the Dhamma",
+      "Verses on conduct, practice, and wisdom."
+    ],
+    "khuddaka-nikaya/udana": [
+      "Udāna",
+      "Inspired Sayings",
+      "Inspired utterances with accounts of their occasions."
+    ],
+    "khuddaka-nikaya/itivuttaka": [
+      "Itivuttaka",
+      "Thus It Was Said",
+      "Short teachings combining prose and verse."
+    ],
+    "khuddaka-nikaya/sutta-nipata": [
+      "Suttanipāta",
+      "Collection of Discourses",
+      "Discourses largely in verse."
+    ],
+    "khuddaka-nikaya/vimanavatthu": [
+      "Vimānavatthu",
+      "Heavenly Mansions",
+      "Verses about heavenly rebirth and the actions leading to it."
+    ],
+    "khuddaka-nikaya/petavatthu": [
+      "Petavatthu",
+      "Ghost Stories",
+      "Verses about departed beings and the consequences of actions."
+    ],
+    "khuddaka-nikaya/theragatha": [
+      "Theragāthā",
+      "Verses of the Senior Monks",
+      "Verses attributed to early Buddhist monks."
+    ],
+    "khuddaka-nikaya/therigatha": [
+      "Therīgāthā",
+      "Verses of the Senior Nuns",
+      "Verses attributed to early Buddhist nuns."
+    ],
+    "khuddaka-nikaya/jataka": [
+      "Jātaka",
+      "Birth Stories",
+      "Canonical verses about the Buddha’s previous lives, preserved with their traditional commentary stories in a complete six-volume English translation."
+    ],
+    "khuddaka-nikaya/niddesa": [
+      "Niddesa",
+      "Exposition",
+      "Explanations of parts of the Suttanipāta."
+    ],
+    "khuddaka-nikaya/patisambhidamagga": [
+      "Paṭisambhidāmagga",
+      "Path of Discrimination",
+      "Analyses of knowledge and the path of practice."
+    ],
+    "khuddaka-nikaya/apadana": [
+      "Apadāna",
+      "Legends",
+      "Verse accounts of past deeds associated with monks and nuns."
+    ],
+    "khuddaka-nikaya/buddhavamsa": [
+      "Buddhavaṃsa",
+      "Chronicle of Buddhas",
+      "Accounts of earlier Buddhas and the bodhisatta’s aspirations."
+    ],
+    "khuddaka-nikaya/cariyapitaka": [
+      "Cariyāpiṭaka",
+      "Basket of Conduct",
+      "Verse accounts illustrating the bodhisatta’s conduct."
+    ],
+    "khuddaka-nikaya/milindapanha": [
+      "Milindapañha",
+      "Questions of King Milinda",
+      "A dialogue text included in some Theravāda editions; the separate SuttaCentral/Kelly segment alignment remains incomplete."
+    ],
+    "khuddaka-nikaya/nettipakarana": [
+      "Nettipakaraṇa",
+      "The Guide",
+      "A work on methods for interpreting and explaining the Buddha’s teaching; included in some Theravāda editions."
+    ],
+    "khuddaka-nikaya/petakopadesa": [
+      "Peṭakopadesa",
+      "The Piṭaka-Disclosure",
+      "A work on interpreting and organizing the Buddha’s teaching; included in some Theravāda editions."
+    ]
+  },
+  "whole_book_pdf_sources": {
+    "khuddaka-nikaya/khuddakapatha": {
+      "title": "The Minor Readings and The Illustrator of Ultimate Meaning",
+      "translator": "Bhikkhu Ñāṇamoli",
+      "edition": "Pali Text Society, translation first published 1960; 2005 reprint",
+      "pdf_path": "translations/en/licensed-sutta-books/nanamoli-minor-readings-illustrator.pdf",
+      "page_path": "sutta/khuddaka-nikaya/khuddakapatha/nanamoli-minor-readings.html",
+      "parent_page": "sutta/khuddaka-nikaya/khuddakapatha/index.html",
+      "parent_label": "Khuddakapāṭha",
+      "description": "Complete English translation of Khuddakapāṭha with its traditional commentary.",
+      "source_url": "https://classicaltheravada.org/uploads/short-url/qR4bmqifCifXa5RIjsfsNaPkw5c.pdf",
+      "publisher_url": "https://palitextsociety.org/product/the-minor-readings-and-the-illustrator-of-ultimate-meaning/",
+      "license": "CC BY-NC 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "license_evidence_url": "https://palitextsociety.org/copyright-information/",
+      "scope": "Complete 387-page book: all nine Khuddakapāṭha readings and the full Illustrator of Ultimate Meaning commentary, with introductions and indexes.",
+      "format_note": "The source is preserved as one complete PDF. It contains an OCR text layer, but the OCR has visible recognition errors; no unverified transcript is published.",
+      "print_notice_note": "The scan retains its original all-rights-reserved notice. The current PTS copyright page lists this title under CC BY-NC 4.0.",
+      "edition_specific": false
+    },
+    "khuddaka-nikaya/petakopadesa": {
+      "title": "The Piṭaka-Disclosure (Peṭakopadesa)",
+      "translator": "Bhikkhu Ñāṇamoli",
+      "edition": "Pali Text Society, 1964; 1979 reprint",
+      "pdf_path": "translations/en/licensed-sutta-books/nanamoli-petakopadesa.pdf",
+      "source_url": "https://ancient-buddhist-texts.net/Reference/PTS/Nyanamoli-Pitaka-Disclosure.pdf",
+      "publisher_url": "https://palitextsociety.org/product/pi%E1%B9%ADaka-disclosure/",
+      "license": "CC BY-NC 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "license_evidence_url": "https://palitextsociety.org/copyright-information/",
+      "scope": "Complete English text in all nine SuttaCentral sections Pe 1–9, matched to all nine Pali text IDs, plus the 223-page scan of the printed edition through page 402, including all eight divisions, indexes, glossary, and appendix.",
+      "format_note": "SuttaCentral labels this electronic translation unproofread. The nine source HTML pages are preserved; PTS page-reference labels are hidden in the reading text. Pe 7 continues into Pe 8. The section texts are not aligned line by line to Pali. The companion PDF is an image-only PDF scan with no searchable text layer.",
+      "print_notice_note": "The scan retains its original printed notice; the Pali Text Society now licenses this translation under CC BY-NC 4.0.",
+      "download_label": "complete English text and scan (TXT + PDF)"
+    },
+    "khuddaka-nikaya/milindapanha": {
+      "title": "The Questions of King Milinda, Parts I–II",
+      "translator": "T. W. Rhys Davids",
+      "edition": "Sacred Books of the East, volumes 35–36; Clarendon Press, 1890 and 1894",
+      "pdfs": [
+        {
+          "path": "translations/en/public-domain-sutta-books/milinda-part-i.pdf",
+          "label": "Part I — Sacred Books of the East, volume 35 (1890)",
+          "source_url": "https://archive.org/details/questionsofkingm01davi"
+        },
+        {
+          "path": "translations/en/public-domain-sutta-books/milinda-part-ii.pdf",
+          "label": "Part II — Sacred Books of the East, volume 36 (1894)",
+          "source_url": "https://archive.org/details/questionsofkingm02davi"
+        }
+      ],
+      "page_path": "sutta/khuddaka-nikaya/milindapanha/rhys-davids-complete.html",
+      "parent_page": "sutta/khuddaka-nikaya/milindapanha/index.html",
+      "parent_label": "Milindapañha",
+      "description": "A complete two-volume English translation of the seven-book Milindapañha edition translated from Pali by T. W. Rhys Davids.",
+      "edition_specific": true,
+      "collection_link_label": "Complete two-volume 1890–94 translation",
+      "collection_note": "This is a complete historical English edition, not a segment-aligned translation; the separate SuttaCentral/Kelly alignment remains incomplete.",
+      "rights_note": "The 1890 and 1894 editions are public domain in the United States. The scans preserve the original books; source and public-domain records are linked below.",
+      "rights_evidence": [
+        {
+          "label": "Public-domain scan record, volume 35",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Questions_Of_King_Milinda_(IA_questionsofkingm028266mbp).pdf"
+        },
+        {
+          "label": "Public-domain scan record, volume 36",
+          "url": "https://commons.wikimedia.org/wiki/File:The_sacred_books_of_the_East_(IA_1922707.0036.001.umich.edu).pdf"
+        }
+      ],
+      "scope": "Complete two-volume translation of Books I–VII, including introductions, appendixes, and indexes. It is preserved as whole books and is not aligned segment by segment to the site's Pali text.",
+      "format_note": "Both original scanned volumes are provided intact. Their OCR text layers are not republished as transcripts.",
+      "print_notice_note": "The two original volumes retain their 1890 and 1894 printed notices; the scans are identified as public domain in the United States by the linked records.",
+      "source_note": "Internet Archive scans of the Clarendon Press editions.",
+      "license": "Public domain in the United States",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  }
+}

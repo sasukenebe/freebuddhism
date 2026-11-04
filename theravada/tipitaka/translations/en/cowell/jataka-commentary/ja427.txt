@@ -1,0 +1,87 @@
+Ja 427: Gijjha Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja427.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Formed of rough logs;” etc.—This story the Master told at Jetavana concerning a, disobedient Brother. He was, they say, of gentle birth, and though ordained in the doctrine that leads to Salvation, was admonished by his well-wishers, masters, teachers, and fellow-students to this effect: “Thus must you advance and thus retreat; thus look at or away from objects; thus must the arm be stretched out or drawn back; thus are the inner and outer garment to be worn; thus is the bowl to be held, and when you have received sufficient food to sustain life, after self-examination, thus are you to partake of it, keeping guard over the door of the senses; in eating you are to be moderate and exercise watchfulness; you are to recognize such and such duties towards Brethren who come to or go from the monastery; these are the fourteen sets of priestly duties, and the eighty great duties to duly performed; these are the thirteen Dhuta practices; all these are to be scrupulously performed.” Yet was he disobedient and impatient, and did not receive instruction respectfully, but refused to listen to them, saying, “I do not find fault with you. Why do you speak thus to me? I shall know what is for my good, and what is not.” Then the Brethren, hearing of his disobedience, sat in the Hall of Truth, telling of his faults. The Master came and asked them what it was they were discussing, and sent for the Brother and said, “Is it true, Brother, that you are disobedient?” And when he confessed that it was so, the Master said, “Why, Brother, after being ordained in so excellent a doctrine that leads to Salvation, do you not listen to the voice of your well-wishers? Formerly too you disobeyed the voice of the wise, and were blown into atoms by the Veramba wind.” And herewith he told a story of the past.
+
+Once upon a time the Bodhisatta came to life as a young vulture on Vulture Mountain. Now his offspring Supatta, the king of the vultures, was strong and lusty and had a following of many thousands of vultures, and he fed the parent birds. And owing to his strength he used to fly to a very great distance. So his father admonished him and said, “My son, you must not go beyond such and such a point.” He said, “Very good,” but one day when it rained, he flew up with the other vultures, and leaving the rest behind, and going beyond the prescribed limit, he came within the range of the Veramba wind, and was blown into atoms.
+
+The Master, in his Perfect Wisdom, to illustrate this incident, uttered these verses:
+
+Formed of rough logs, an ancient pathway led
+
+To dizzy heights, where a young vulture fed
+
+The parent birds. Lusty and strong of wing
+
+He oft to them would fat of serpents bring;
+
+And when his father saw him flying high
+
+And venturing far afield, he thus would cry,
+
+“My son, when thou canst scan from thy look out
+
+Earth’s rounded sphere by ocean girt about,
+
+No farther go, but straight return, I pray.”
+
+Then would this king of birds speed on his way,
+
+And bending o’er the earth, with piercing sight
+
+He viewed below forest and mountain height:
+
+And earth would, as his sire described, appear
+
+Amid the encircling sea a rounded sphere.
+
+But when beyond these limits he had passed,
+
+Strong bird though he might be, a raging blast
+
+Swept him away to an untimely death,
+
+Powerless to cope with storm-wind’s fiery breath.
+
+ Thus did the bird by disobedience prove
+
+Fatal to those dependent on his love:
+
+So perish all that scornful of old age
+
+Deride the warnings uttered by the sage,
+
+As the young vulture Wisdom’s voice defied
+
+And scorned the limits set to bound his pride.
+
+ “ Therefore, Brother, be not like unto this vulture, but do the bidding of your well-wishers.” And being thus admonished by the Master, he thenceforth became obedient.
+
+The Master, his lesson ended, identified the Birth: “The disobedient vulture of those days is now the disobedient Brother. The parent vulture was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

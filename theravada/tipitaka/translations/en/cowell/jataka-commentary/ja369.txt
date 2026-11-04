@@ -1,0 +1,83 @@
+Ja 369: Mittavinda Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja369.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“What was the evil,” etc.—This story the Master whilst living at Jetavana told concerning an unruly Brother. The incident that led to the story will be found in the Mahamittavinda Birth.
+
+Now this Mittavindaka, when cast into the sea, showed himself very covetous, and going on to still greater excess came to the place of torment inhabited by beings doomed to hell. And he made his way into the Ussada hell, taking it to be a city, and there he got a wheel as sharp as a razor fixed upon his head. Then the Bodhisatta in the shape of a god went on a mission to Ussada. On seeing him, Mittavindaka repeated the first stanza in the form of a question—
+
+What was the evil wrought by me,
+
+Thus to provoke the curse of heaven,
+
+That my poor head should ever be
+
+With circling wheel of torture riven?
+
+ The Bodhisatta, on hearing this, uttered the second stanza:
+
+Forsaking homes of joy and bliss,
+
+That decked with pearls, with crystal this,
+
+And halls of gold and silver sheen,
+
+What brought thee to this gloomy scene?
+
+Then Mittavindaka replied in a third stanza:
+
+“Far fuller joys I there shall gain
+
+Than any these poor worlds can show.”
+
+This was the thought that proved my bane
+
+And brought me to this scene of woe.
+
+The Bodhisatta then repeated the remaining stanzas:
+
+From four to eight, to sixteen thence, and so
+
+To thirty-two insatiate greed doth grow.
+
+Thus on and on thou, greedy soul, wert led
+
+Till doomed to wear this wheel upon thy head.
+
+So all, pursuing covetous desire,
+
+Insatiate still, yet more and more require:
+
+The broadening path of appetite they tread,
+
+And, like thee, bear this wheel upon their head.
+
+But while Mittavindaka was still speaking, the wheel fell upon him and crushed him, so that he could say no more. But the divine being returned straight to his celestial abode.
+
+ The Master, his lesson ended, identified the Birth: “At that time the unruly Brother was Mittavindaka, and I myself was the divine being.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

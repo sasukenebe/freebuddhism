@@ -1,0 +1,47 @@
+Ja 94: Lomahamsa Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja94.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Now scorched.”—This story the Master told while at Patikarama near Vesali, about Sunakkhatta.
+
+For at that time Sunakkhatta, having become an adherent of the Master, was travelling about the country as a Brother with bowl and robes, when he was perverted to the tenets of Kora the Kshatriya. So he returned to the Blessed Buddha his bowl and robes-and reverted to a lay life by reason of Kora the Kshatriya, about the time when this latter had been re-born as the offspring of the Kalakanjaka Asura. And he went about within the three walls of Vesali defaming the Master by affirming that there was nothing superhuman about the sage Gotama, who was not distinguished from other men by preaching a saving faith; that the sage Gotama had simply worked out a system which was the outcome of his own individual thought and study; and that the ideal for the attainment of which his doctrine was preached, did not lead to the destruction of sorrow in those who followed it.
+
+Now the reverend Sariputta was on his round for alms when he heard Sunakkhatta’s blasphemies; and on his return from his round he reported this to the Blessed One. Said the Master, “Sunakkhatta is a hot-headed person, Sariputta, and speaks idle words. His hot-headedness has led him to talk like this and to deny the saving grace of my doctrine. Unwittingly, this foolish person is extolling me; I say unwittingly, for he has no knowledge of my efficacy. In me, Sariputta, dwell the Six Knowledges, and herein am more than human; the Ten Powers are within me, and the Four Grounds of Confidence. I know the limits of the four types of earthly existence and the five states of possible re-birth after earthly death. This too is a superhuman quality in me; and whose denies it must retract his words, change his belief, and renounce his heresy, or he will without ado be cast into hell.” Having thus magnified the superhuman nature and power which existed within him, the Master went on to say, “Sunakkhatta, I hear, Sariputta, took delight in the misguided self-mortifications of the asceticism of Kora the Kshatriya; and therefore it was that he could take no pleasure in me. Ninety-one aeons ago I lived the higher life in ail its four forms, examining into that false asceticism to discover whether the truth abode therein. An ascetic was I, the chief of ascetics; worn and emaciated was I, beyond all others; loathing of comfort had I, a loathing surpassing that of all others; I dwelt apart, and unapproachable was my passion for solitude.” Then, at the Elder’s request, he told this story of the past.
+
+Once on a time, ninety-one aeons ago, the Bodhisatta set himself to examine into the false asceticism. So he became a recluse, according to the Naked Ascetics (Ajivikas),—unclothed and covered with dust, solitary and lonely, fleeing like a deer from the face of men; his food was small fish, cowdung, and other refuse; and in order that his vigil might not be disturbed, he took up his abode in a dread thicket in the jungle. In the snows of winter, he came forth by night from the sheltering thicket to the open air, returning with the sun-rise to his thicket again; and, as he was wet with the driving snows by night, so in the day time he was drenched by the drizzle from the branches of the thicket. Thus day and night alike he endured the extremity of cold. In summer, he abode by day in the open air, and by night in the forest—scorched by the blazing sun by day, and fanned by no cooling breezes by night, so that the sweat streamed from him. And there presented itself to his mind this stanza, which was new and never uttered before—
+
+Now scorched, now frore, lone in the lonesome woods,
+
+Beside no fire, but all afire within,
+
+Naked, the hermit wrestles for the Truth.
+
+ But when after a life spent in the rigours of this asceticism, the vision of hell rose before the Bodhisatta as he lay dying, he realised the worthlessness of all his austerities, and in that supreme moment broke away from his delusions, laid hold of the real truth, and was re-born in the Heaven of Devas.
+
+His lesson ended, the Master identified the Birth by saying, “I was the naked ascetic of those days.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

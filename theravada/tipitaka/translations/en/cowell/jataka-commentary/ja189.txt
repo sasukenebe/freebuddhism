@@ -1,0 +1,59 @@
+Ja 189: Sihacamma Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja189.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Nor lion, nor tiger I see,” etc.—This story, like the last, was about Kokalika, told by the Master in Jetavana. This time he wanted to intone. The Master. on hearing of it told the following story.
+
+Once upon a time, when Brahmadatta was reigning in Benares, the Bodhisatta was born in a farmer’s family, and when he grew up he got a livelihood by tillage.
+
+At the same time there was a Merchant who used to go about hawking goods, which a donkey carried for him. Wherever he went, he used to take his bundle off the ass, and throw a lionskin over him, and then turn him loose in the rice and barley fields. When the watchmen saw this creature, they imagined him to be a lion, and so durst not come near him.
+
+One day this hawker stopped at a certain village, and while he was getting his own breakfast cooked, he turned the ass loose in a barley field with the lionskin on. The watchmen thought it was a lion, and durst not come near, but fled home and gave the alarm. All the villagers armed themselves, and hurried to the field, shouting and blowing on conchs and beating drums. The ass was frightened out of his wits, and gave a hee-haw! Then the Bodhisatta, seeing that it was a donkey, repeated the first stanza:
+
+“Nor lion nor tiger I see,
+
+Not even a leopard is he:
+
+But a donkey—the wretched old hack!
+
+With a lionskin over his back!”
+
+As soon as the villagers learnt that it was only an ass, they cudgelled him till they broke his bones, and then went off with the lionskin. When the Merchant appeared, and found that his ass had come to grief, he repeated the second stanza—
+
+“The donkey, if he had been wise,
+
+Might long the green barley have eaten;
+
+A lionskin was his disguise:
+
+But he gave a hee-haw, and got beaten!”
+
+As he was in the act of uttering these words, the ass expired. The Merchant left him, and went his way.
+
+After this discourse was ended, the Master identified the Birth—“At that time Kokalika was the ass, and the wise farmer was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,49 @@
+Ja 200: Sadhusila Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja200.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“One is good,” etc.—This story the Master told while dwelling at Jetavana, about a brahmin.
+
+This man, we are told, had four daughters. Four suitors wooed them; one was fine and handsome, one was old and well advanced in years, the third a man of family, and the fourth was good. He thought to himself, “When a man is settling his daughters and disposing of them, whom should he give them to? the handsome man or the oldish man, or one of the other two, the highly born or the very virtuous man?” Ponder as he would, he could not decide. So he thought he would tell the matter to the Supreme Buddha, who would be sure to know; and then he would give the girls to the most suitable wooer. So he had a quantity of perfumes and garlands prepared, and visited the monastery. Saluting the Master, he sat on one side, and told him everything from beginning to end; then he asked, “To which of these four should I give my daughters?” To this the Master replied, “In olden days, as now, wise men asked this question; but now that rebirth has confused your memory, you cannot remember the case.” And then at his request the Master told an old-world tale.
+
+Once upon a time, when Brahmadatta ruled in Benares, the Bodhisatta was born as a brahmin’s son. He came of age, and received his education at Takkasila; then on returning he became a famous teacher.
+
+Now there was a brahmin who had four daughters. These four were wooed by four persons as told above. The brahmin could not decide to whom to give them. “I will enquire of the teacher,” he thought, “and then he shall have them to whom they should be given.” So he came into the teacher’s presence, and repeated the first couplet:
+
+“One is good, and one is noble; one has beauty, one has years. Answer me this question, brahmin; of the four, which best appears?”
+
+ Hearing this, the teacher replied, “Even though there be beauty and the like qualities, a man is to be despised if he fail in virtue. Therefore the former is not the measure of a man; those that I like are the virtuous.” And in explanation of this matter, he repeated the second couplet:
+
+“Good is beauty: to the aged show respect, for this is right:
+
+Good is noble birth; but virtue—virtue, that is my delight.”
+
+When the brahmin heard this, he gave all his daughters to the virtuous wooer.
+
+ The Master, when this discourse was ended, declared the Truths and identified the Birth—at the conclusion of the Truths the brahmin attained the Fruit of the First Path—“This brahmin was the brahmin then, and the famous teacher was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

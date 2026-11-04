@@ -1,0 +1,57 @@
+Ja 9: Makhadeva Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja9.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Lo! these grey hairs.”—This story was told by the Master while at Jetavana about the Great Renunciation, which has already been related in the Nidana-Katha.
+
+On this occasion the Brethren sat praising the Renunciation of the Lord of Wisdom. Entering the Hall of Truth and seating himself on the Buddha-seat, the Master thus addressed the Brethren—“What is your theme, Brethren, as you sit here in conclave?”
+
+“It is naught else, sir, than the praise of your own Renunciation.” “Brethren,” rejoined the Master, “not only in these latter days has the Tathagata made a Renunciation; in bygone days too he similarly renounced the world.”
+
+The Brethren asked the Blessed One for an explanation of this. The Blessed One made clear what had been concealed from them by re-birth.
+
+ Once on a time in Mithila in the realm of Videha there was a king named Makhadeva, who was righteous and ruled righteously. For successive periods of eighty-four thousand years he had respectively amused himself as prince, ruled as viceroy, and reigned as king. All these long years had he lived, when one day he said to his barber,—“Tell me, friend barber, when you see any grey hairs in my head.” So one day, years and years after, the barber did find among the raven locks of the king a single grey hair, and he told the king so. “Pull it out, my friend,” said the king; “and lay it in my palm.” The barber accordingly plucked the hair out with his golden tongs, and laid it in the king’s hand. The king had at that time still eighty-four thousand years more to live; but nevertheless at the sight of that one grey hair he was filled with deep emotion. He seemed to see the King of Death standing over him, or to be cooped within a blazing but of leaves. “Foolish Makhadeva!” he cried; “grey hairs have come upon you before you have been able to rid yourself of depravities.” And as he thought and thought about the appearance of his grey hair, he grew aflame within; the sweat rolled down from his body; whilst his raiment oppressed him and seemed intolerable. “This very day,” thought he, “will I renounce the world for the Brother’s life.”
+
+To his barber he gave the grant of a village, which yielded a hundred thousand pieces of money. He sent for his eldest son and said to him, “My son, grey hairs are come upon me, and I am become old. I have had my fill of human joys, and fain would taste the joys divine; the time for my renunciation has come. Take the sovereignty upon yourself; as for me, I will take up my abode in the pleasaunce called Makhadeva’s Mango-grove, and there tread the ascetic’s path.”
+
+As he was thus bent on leading the Brother’s life, his ministers drew near and said, “What is the reason, sire, why you adopt the Brother’s life?”
+
+Taking the grey hair in his hand, the king repeated this stanza to his ministers—
+
+Lo, these grey hairs that on my head appear
+
+Are Death’s own messengers that come to rob
+
+My life. ’Tis time I turned from worldly things,
+
+And in the hermit’s path sought saving peace.
+
+ And after these words, he renounced his sovereignty that self-same day and became a recluse. Dwelling in that very Mango-grove of Makhadeva, he there during eighty-four thousand years fostered the Four Perfect States within himself, and, dying with insight full and unbroken, was reborn in the Realm of Brahma. Passing thence, he became a king again in Mithila, under the name of Nimi, and after uniting his scattered family, once more became a hermit in that same Mango-grove, winning the Four Perfect States and passing thence once more to the Realm of Brahma.
+
+After repeating his statement that he had similarly renounced the world in bygone days, the Master at the end of his lesson preached the Four Truths. Some entered the First Path, some the Second, and some the Third. Having told the two stories, the Master shewed the connexion between them and identified the Birth, by saying—“In those days Ananda was the barber, Rahula the son, and I myself King Makhadeva.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,63 @@
+Ja 161: Indasamanagotta Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja161.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Friendship with evil,” etc.—This is a story told by the Master while at Jetavana, about a headstrong person; and the circumstances will be found in the Vulture Birth, of the Ninth Book. The Master said to this Brother—“In olden days, as now, you were trampled to death by a mad elephant because you were so headstrong and careless of wise men’s advice.” And he told the old story.
+
+Once upon a time, while Brahmadatta was king of Benares, the Bodhisatta was born of a brahmin family. On growing up he left his worldly home and took to the religious life, and in time became the leader of a company of five hundred anchorites, who all lived together in the region of Himalaya.
+
+Amongst these anchorites was a headstrong and unteachable person named Indasamanagotta. He had a pet elephant. The Bodhisatta sent for him when he found this out, and asked if he really did keep a young elephant? Yes, the man said, he had an elephant which had lost its dam. “Well,” the Bodhisatta said, “when elephants grow up they kill even those who foster them; so you had better not keep it any longer.” “But I can’t live without him, my Teacher!” was the reply. “Oh, well,” said the Bodhisatta, “you’ll live to repent it.”
+
+Howbeit he still reared the creature, and by and bye it grew to an immense size.
+
+It happened once that the anchorites had all gone far afield to gather roots and fruits in the forest, and they were absent for several days. At the first breath of the south wind this elephant fell in a frenzy. “Destruction to this hut!” thought he, “I’ll smash the water-jar! I’ll overturn the stone bench! I’ll tear up the pallet! I’ll kill the hermit, and then off I’ll go!” So he sped into the jungle, and waited watching for their return.
+
+The master came first, laden with food for his pet. As soon as he saw him, he hastened up, thinking all was well. Out rushed the elephant from the thicket, and seizing him in his trunk, dashed him to the ground, then with a blow on the head crushed the life out of him; and madly trumpeting, he scampered into the forest.
+
+The other anchorites brought this news to the Bodhisatta. Said he, “We should have no dealings with the bad;” and then he repeated these two verses—
+
+“Friendship with evil let the good eschew,
+
+The good, who know what duty bids them do:
+
+They will work mischief, be it soon or late,
+
+Even as the elephant his master slew.”
+
+“But if a kindred spirit thou shalt see,
+
+In virtue, wisdom, learning like to thee,
+
+Choose such an one to be thy own true friend;
+
+Good friends and blessing go in company.”
+
+ In this way the Bodhisatta showed his band of anchorites that it is well to be docile and not obstinate. Then he performed Indasamanagotta’s obsequies, and cultivating the Excellences, came at last into Brahma’s heaven.
+
+After concluding this discourse, the Master identified the Birth: “This unruly fellow was then Indasamanagotta, and I was myself the teacher of the anchorite band.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

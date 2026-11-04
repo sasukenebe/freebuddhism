@@ -1,0 +1,59 @@
+Ja 242: Sunakha Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja242.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Foolish Dog,” etc. This story the Master told whilst living in Jetavana, about a dog that used to be fed in the resting hall by the Ambala tower.
+
+It is said that from a puppy this dog had been kept there and fed by some water-carriers. In course of time it grew up there to be a big dog. Once a villager happened to see him; and he bought him from the water-carriers for an upper garment and a rupee; then, fastening him to a chain, led the dog away. The dog was led away, unresisting, making no sound, and followed and followed the new master, eating whatever was offered. “He’s fond of me, no doubt,” thought the man; and let him free from the chain. No sooner did the dog find himself free, than off he went, and never stopped until he came back to the place he started from.
+
+Seeing him, the Brethren guessed what had happened; and in the evening, when they were gathered in the Hall of Truth, they began talking about it. “Friend—here’s the dog back again in our resting hall! how clever he must have been, to get rid of his chain! No sooner free, than back he ran!” The Master, entering, asked what they were all talking about as they sat together. They told him. He rejoined, “Brethren, this is not the first time our dog was clever at getting rid of his chain; he was just the same before.” And he told them an old-world tale.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born in a rich family of the kingdom of Kasi; and when he grew up, he set up a house of his own. There was a man in Benares who had a dog which had been fed on rice till it grew fat. And a certain villager who had come to Benares saw the dog; and to the owner he gave a fine garment and a piece of money for the dog, which he led off bound by a strap. Arrived at the outskirts of a forest, he entered a hut, tied up the dog, and lay down to sleep. At that moment the Bodhisatta entered the forest on some errand, and beheld the dog made fast by a thong; whereat he uttered the first stanza—
+
+“Foolish Dog! why don’t you bite
+
+Through that strap that holds you tight?
+
+In a trice you would be free,
+
+Scampering off merrily!”
+
+On hearing this stanza, the Dog uttered the second—
+
+“Resolute—determined, I
+
+Wait my opportunity:
+
+Careful watch and ward I keep
+
+Till the people are asleep.”
+
+So spake he; and when the company were asleep, he gnawed through the strap, and returned to his master’s house in great glee.
+
+ When this discourse was ended, the Master identified the Birth—“The dogs are the same, and I was the wise man.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

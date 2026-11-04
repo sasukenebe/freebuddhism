@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "source": {
+    "url": "https://suttacentral.net/api/menu/an",
+    "license": "CC0-1.0 reference metadata",
+    "license_basis_url": "https://suttacentral.net/licensing",
+    "retrieved_on": "2026-11-03"
+  },
+  "books": [
+    {
+      "uid": "an1",
+      "pali_title": "Ekakanipāta",
+      "english_title": "The Book of the Ones",
+      "range": "AN 1",
+      "chapters": [
+        {
+          "uid": "an1-cittapariyadanavagga",
+          "pali_title": "Cittapariyādānavagga",
+          "english_title": "The Chapter on What Occupies the Mind",
+          "range": "AN 1.1–10"
+        },
+        {
+          "uid": "an1-nivaranappahanavagga",
+          "pali_title": "Nīvaraṇappahānavagga",
+          "english_title": "The Chapter on Giving Up the Hindrances",
+          "range": "AN 1.11–20"
+        },
+        {
+          "uid": "an1-akammaniyavagga",
+          "pali_title": "Akammaniyavagga",
+          "english_title": "The Chapter on the Useless Mind",
+          "range": "AN 1.21–30"
+        },
+        {
+          "uid": "an1-adantavagga",
+          "pali_title": "Adantavagga",
+          "english_title": "The Chapter on the Wild Mind",
+          "range": "AN 1.31–40"
+        },
+        {
+          "uid": "an1-panihitaacchavagga",
+          "pali_title": "Paṇihitaacchavagga",
+          "english_title": "The Chapter on a Spike",
+          "range": "AN 1.41–50"
+        },
+        {
+          "uid": "an1-accharasanghatavagga",
+          "pali_title": "Accharāsaṅghātavagga",
+          "english_title": "The Chapter on a Finger-Snap",
+          "range": "AN 1.51–60"
+        },
+        {
+          "uid": "an1-viriyarambhadivagga",
+          "pali_title": "Vīriyārambhādivagga",
+          "english_title": "The Chapter on Arousing Energy",
+          "range": "AN 1.61–70"
+        },
+        {
+          "uid": "an1-kalyanamittadivagga",
+          "pali_title": "Kalyāṇamittādivagga",
+          "english_title": "The Chapter on Good Friends",
+          "range": "AN 1.71–81"
+        },
+        {
+          "uid": "an1-pamadadivagga",
+          "pali_title": "Pamādādivagga",
+          "english_title": "The Chapter on Negligence",
+          "range": "AN 1.82–97"
+        },
+        {
+          "uid": "an1-dutiyapamadadivagga",
+          "pali_title": "Dutiyapamādādivagga",
+          "english_title": "The Chapter on Negligence (2nd)",
+          "range": "AN 1.98–139"
+        },
+        {
+          "uid": "an1-adhammavagga",
+          "pali_title": "Adhammavagga",
+          "english_title": "The Chapter on Not the Teaching",
+          "range": "AN 1.140–149"
+        },
+        {
+          "uid": "an1-anapattivagga",
+          "pali_title": "Anāpattivagga",
+          "english_title": "The Chapter on Non-offense",
+          "range": "AN 1.150–169"
+        },
+        {
+          "uid": "an1-ekapuggalavagga",
+          "pali_title": "Ekapuggalavagga",
+          "english_title": "The Chapter on One Individual",
+          "range": "AN 1.170–187"
+        },
+        {
+          "uid": "an1-etadaggavagga",
+          "pali_title": "Etadaggavagga",
+          "english_title": "Seven Chapters on the Foremost Individuals",
+          "range": "AN 1.188–267"
+        },
+        {
+          "uid": "an1-atthana",
+          "pali_title": "Aṭṭhānavagga",
+          "english_title": "Three Chapters on the Impossible",
+          "range": "AN 1.268–295"
+        },
+        {
+          "uid": "an1-ekadhamma",
+          "pali_title": "Ekadhammavagga",
+          "english_title": "Four Chapters on One Thing",
+          "range": "AN 1.296–377"
+        },
+        {
+          "uid": "an1-pasadakaradhammavagga",
+          "pali_title": "Pasādakaradhammavagga",
+          "english_title": "The Chapter on Inspiring Qualities",
+          "range": "AN 1.378–393"
+        },
+        {
+          "uid": "an1-aparaaccharasanghatavagga",
+          "pali_title": "Aparaaccharāsaṅghātavagga",
+          "english_title": "Another Chapter on a Finger-Snap",
+          "range": "AN 1.394–574"
+        },
+        {
+          "uid": "an1-kayagatasativagga",
+          "pali_title": "Kāyagatāsativagga",
+          "english_title": "The Chapter on Mindfulness of the Body",
+          "range": "AN 1.575–615"
+        },
+        {
+          "uid": "an1-amatavagga",
+          "pali_title": "Amatavagga",
+          "english_title": "The Chapter on Freedom From Death",
+          "range": "AN 1.616–627"
+        }
+      ]
+    },
+    {
+      "uid": "an2",
+      "pali_title": "Dukanipāta",
+      "english_title": "The Book of the Twos",
+      "range": "AN 2",
+      "chapters": [
+        {
+          "uid": "an2-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 2.1–51"
+        },
+        {
+          "uid": "an2-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 2.52–117"
+        },
+        {
+          "uid": "an2-tatiyapannasaka",
+          "pali_title": "Tatiyapaṇṇāsaka",
+          "english_title": "The Third Fifty",
+          "range": "AN 2.118–179"
+        },
+        {
+          "uid": "an2-peyyala",
+          "pali_title": "Peyyāla",
+          "english_title": "Abbreviated Texts",
+          "range": "AN 2.180–479"
+        }
+      ]
+    },
+    {
+      "uid": "an3",
+      "pali_title": "Tikanipāta",
+      "english_title": "The Book of the Threes",
+      "range": "AN 3",
+      "chapters": [
+        {
+          "uid": "an3-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 3.1–50"
+        },
+        {
+          "uid": "an3-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 3.51–102"
+        },
+        {
+          "uid": "an3-tatiyapannasaka",
+          "pali_title": "Tatiyapaṇṇāsaka",
+          "english_title": "The Third Fifty",
+          "range": "AN 3.103–352"
+        }
+      ]
+    },
+    {
+      "uid": "an4",
+      "pali_title": "Catukkanipāta",
+      "english_title": "The Book of the Fours",
+      "range": "AN 4",
+      "chapters": [
+        {
+          "uid": "an4-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 4.1–50"
+        },
+        {
+          "uid": "an4-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 4.51–100"
+        },
+        {
+          "uid": "an4-tatiyapannasaka",
+          "pali_title": "Tatiyapaṇṇāsaka",
+          "english_title": "The Third Fifty",
+          "range": "AN 4.101–150"
+        },
+        {
+          "uid": "an4-catutthapannasaka",
+          "pali_title": "Catutthapaṇṇāsaka",
+          "english_title": "The Fourth Fifty",
+          "range": "AN 4.151–200"
+        },
+        {
+          "uid": "an4-pancamapannasaka",
+          "pali_title": "Pañcamapaṇṇāsaka",
+          "english_title": "The Fifth Fifty",
+          "range": "AN 4.201–783"
+        }
+      ]
+    },
+    {
+      "uid": "an5",
+      "pali_title": "Pañcakanipāta",
+      "english_title": "The Book of the Fives",
+      "range": "AN 5",
+      "chapters": [
+        {
+          "uid": "an5-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 5.1–50"
+        },
+        {
+          "uid": "an5-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 5.51–100"
+        },
+        {
+          "uid": "an5-tatiyapannasaka",
+          "pali_title": "Tatiyapaṇṇāsaka",
+          "english_title": "The Third Fifty",
+          "range": "AN 5.101–150"
+        },
+        {
+          "uid": "an5-catutthapannasaka",
+          "pali_title": "Catutthapaṇṇāsaka",
+          "english_title": "The Fourth Fifty",
+          "range": "AN 5.151–200"
+        },
+        {
+          "uid": "an5-pancamapannasaka",
+          "pali_title": "Pañcamapaṇṇāsaka",
+          "english_title": "The Fifth Fifty",
+          "range": "AN 5.201–250"
+        },
+        {
+          "uid": "an5-chatthapannasaka",
+          "pali_title": "Chaṭṭhapaṇṇāsaka",
+          "english_title": "The Sixth Fifty",
+          "range": "AN 5.251–1152"
+        }
+      ]
+    },
+    {
+      "uid": "an6",
+      "pali_title": "Chakkanipāta",
+      "english_title": "The Book of the Sixes",
+      "range": "AN 6",
+      "chapters": [
+        {
+          "uid": "an6-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 6.1–54"
+        },
+        {
+          "uid": "an6-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 6.55–649"
+        }
+      ]
+    },
+    {
+      "uid": "an7",
+      "pali_title": "Sattakanipāta",
+      "english_title": "The Book of the Sevens",
+      "range": "AN 7",
+      "chapters": [
+        {
+          "uid": "an7-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 7.1–53"
+        },
+        {
+          "uid": "an7-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 7.54–1124"
+        }
+      ]
+    },
+    {
+      "uid": "an8",
+      "pali_title": "Aṭṭhakanipāta",
+      "english_title": "The Book of the Eights",
+      "range": "AN 8",
+      "chapters": [
+        {
+          "uid": "an8-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 8.1–50"
+        },
+        {
+          "uid": "an8-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 8.51–627"
+        }
+      ]
+    },
+    {
+      "uid": "an9",
+      "pali_title": "Navakanipāta",
+      "english_title": "The Book of the Nines",
+      "range": "AN 9",
+      "chapters": [
+        {
+          "uid": "an9-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 9.1–51"
+        },
+        {
+          "uid": "an9-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 9.52–432"
+        }
+      ]
+    },
+    {
+      "uid": "an10",
+      "pali_title": "Dasakanipāta",
+      "english_title": "The Book of the Tens",
+      "range": "AN 10",
+      "chapters": [
+        {
+          "uid": "an10-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 10.1–50"
+        },
+        {
+          "uid": "an10-dutiyapannasaka",
+          "pali_title": "Dutiyapaṇṇāsaka",
+          "english_title": "The Second Fifty",
+          "range": "AN 10.51–100"
+        },
+        {
+          "uid": "an10-tatiyapannasaka",
+          "pali_title": "Tatiyapaṇṇāsaka",
+          "english_title": "The Third Fifty",
+          "range": "AN 10.101–154"
+        },
+        {
+          "uid": "an10-catutthapannasaka",
+          "pali_title": "Catutthapaṇṇāsaka",
+          "english_title": "The Fourth Fifty",
+          "range": "AN 10.155–210"
+        },
+        {
+          "uid": "an10-pancamapannasaka",
+          "pali_title": "Pañcamapaṇṇāsaka",
+          "english_title": "The Fifth Fifty",
+          "range": "AN 10.211–746"
+        }
+      ]
+    },
+    {
+      "uid": "an11",
+      "pali_title": "Ekādasakanipāta",
+      "english_title": "The Book of the Elevens",
+      "range": "AN 11",
+      "chapters": [
+        {
+          "uid": "an11-pathamapannasaka",
+          "pali_title": "Paṭhamapaṇṇāsaka",
+          "english_title": "The First Fifty",
+          "range": "AN 11.1–1151"
+        }
+      ]
+    }
+  ]
+}

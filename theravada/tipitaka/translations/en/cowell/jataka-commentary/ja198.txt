@@ -1,0 +1,65 @@
+Ja 198: Rādha Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja198.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“I come, my son,” etc.—This story the Master told whilst living at Jetavana, about a brother who was a backslider
+
+We hear that the Master asked him if he really were a backslider; and he replied, yes, he was. Being asked the reason, he replied, “Because my passions were aroused on seeing a woman in her finery.” Then the Master said, “Brother, there is no watching women. In days of yore, watchers were placed to guard the doors, and yet they could not keep them safe; even when you have got them, you cannot keep them.” And he told an old-world tale.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta came into the world as a young parrot. His name was Radha, and his youngest brother was named Potthapada. While they were yet quite young, both of them were caught by a fowler and handed over to a brahmin in Benares. The brahmin cared for them as if they were his children. But the brahmin’s wife was a wicked woman; there was no watching her.
+
+The husband had to go away on business, and addressed his young parrots thus. “Little dears, I am going away on business. Keep watch on your mother in season and out of season; observe whether or not any man visits her.” So off he went, leaving his wife in charge of the young parrots.
+
+As soon as he was gone, the woman began to do wrong; night and day the visitors came and went—there was no end to them. Potthapada, observing this, said to Radha—“Our master gave this woman into our charge, and here she is doing wickedness. I will speak to her.”
+
+“Don’t,” said Radha. But the other would not listen. “Mother,” said he, “why do you commit sin?”
+
+How she longed to kill him! But making as though she would fondle him, she called him to her.
+
+“Little one, you are my son! I will never do it again! Here, then, the dear!” So he came out; then she seized him crying,
+
+“What! you preach to me! you don’t know your measure!” and she wrung his neck, and threw him into the oven.
+
+The brahmin returned. When he had rested, he asked the Bodhisatta:
+
+“Well, my dear, what about your mother—does she do wrong, or no?” and as he asked the question, he repeated the first couplet—
+
+“I come, my son, the journey done, and now I am at home again:
+
+Come tell me; is your mother true? does she make love to other men?”
+
+Radha answered, “Father dear, the wise speak not of things which do not conduce to blessing, whether they have happened or not”; and he explained this by repeating the second couplet:
+
+“For what he said he now lies dead, burnt up beneath the ashes there:
+
+It is not well the truth to tell, lest Potthapada’s fate I share.”
+
+Thus did the Bodhisatta hold forth to the Brahmin; and he went on—“This is no place for me to live in either”; then bidding the brahmin farewell, he flew away to the woods.
+
+When the Master had ended this discourse, he declared the Truths, and identified the Birth—at the conclusion of the Truths the backsliding Brother reached the Fruit of the First Path—“Ananda was Potthapada, and I myself was Radha.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,43 @@
+Ja 119: Akalaravi Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja119.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“No parents trained.”—This story was told by the Master while at Jetavana, about a Brother who used to be noisy at wrong seasons. He is said to have come of a good Savatthi family and to have given up the world for the Truth, but to have neglected his duties and despised instruction. He never took count of the hours for duties, for ministry or for reciting the texts. Throughout the three watches of the night, as well as the hours of waking, he was never quiet; so that the other Brethren could not get a wink of sleep. Accordingly, the Brethren in the Hall of Truth censured his conduct. Entering the Hall and learning on enquiry what they were talking about, the Master said, “Brethren, as now, so in past times, this Brother was noisy out of season, and for his unseasonable conduct was strangled.” So saying he told this story of the past.
+
+ Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was born into a northern brahmin family, and when he grew up, learned all knowledge and became a teacher of world-wide fame with five hundred young brahmins studying under him. Now these young brahmins had a cock who crowed betimes and roused them to their studies. And this cock died. So they looked all about for another, and one of their number, when picking up firewood in the cemetery-grove, saw a cock there which he brought home and kept in a coop. But, as this second cock had been bred in a cemetery, he had no knowledge of times and seasons, and used to crow casually,—at midnight as well as at daybreak. Roused by his crowing at midnight, the young brahmins fell to their studies; by dawn they were tired out and could not for sleepiness keep their attention on the subject; and when he fell a-crowing in broad day they did not get a chance of quiet for repeating their lesson. And ‘as it was the cock’s crowing both at midnight and by day which had brought their studies to a standstill, they took the bird and wrung his neck. Then they told their teacher that they had killed the cock that crowed in and out of season.
+
+Said their teacher, for their edification, “It was his bad bringing up that brought this cock to his end.” So saying, he uttered this stanza—
+
+No parents trained, no teacher taught this bird:
+
+Both in and out of season was he heard.
+
+Such was the Bodhisatta’s teaching on the matter; and when he had lived his allotted time on earth, he passed away to fare according to his deserts.
+
+His lesson ended, the Master identified the Birth as follows,—“This Brother was the cock of those times, who did not know when not to crow; my disciples were the young brahmins; and I their teacher.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

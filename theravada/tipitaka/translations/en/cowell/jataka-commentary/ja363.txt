@@ -1,0 +1,71 @@
+Ja 363: Hiri Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja363.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Who spite of honour,” etc.—This story the Master, when dwelling at Jetavana, told concerning a rich merchant, a friend of Anathapindika, who lived in a border province. Both the introductory story and the story of the past are related in full in the concluding Birth of the ninth division of the first book, but in this version when the merchant of Benares was told that the followers of the foreign merchant were mulcted of all their property and, after losing everything they possessed, had to take to flight, he said, “Because they failed to do what they ought for the strangers who came to them, they find no one ready to do them a good turn.” And so saying he repeated these verses:
+
+Who spite of honour, while he plays the part
+
+Of humble servant, loathes thee in his heart,
+
+Poor in good works and rich in words alone—
+
+Ah! such a friend thou surely wouldst not own.
+
+Be thou in deed to every promise true,
+
+Refuse to promise what thou canst not do;
+
+Wise men on empty braggarts look askew.
+
+No friend suspects a quarrel without cause,
+
+For ever watching to discover flaws:
+
+But he that trustful on a friend can rest,
+
+As little child upon its mother’s breast,
+
+Will ne’er by any stranger’s deed or word,
+
+Be separated from his bosom’s lord.
+
+Who draws the yoke of human friendship well,
+
+Of bliss increased and honoured life can tell:
+
+But one that tastes the joys of calm repose,
+
+Drinking sweet draughts of Truth—he only knows
+
+Escape from bonds of sin and all his woes.
+
+ Thus did the Great Being, disgusted by coming into contact with evil associates, through the power of solitude, bring his teaching to a climax and lead men to the eternal Nirvana.
+
+The Master, his lesson ended, thus identified the Birth: “At that time I myself was the merchant of Benares.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

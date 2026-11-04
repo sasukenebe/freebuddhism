@@ -1,0 +1,51 @@
+Ja 89: Kuhaka Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja89.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“How plausible.” This story was told by the Master while at Jetavana about a knave. The details of his knavery will be related in the Uddala-jataka.
+
+Once on a time when Brahmadatta was reigning in Benares, there lived hard by a certain little village a shifty rascal of an ascetic, of the class which wears long, matted hair. The squire of the place had a hermitage built in the forest for him to dwell in, and used to provide excellent fare for him in his own house. Taking the matted-haired rascal to be a model of goodness, and living as he did in fear of robbers, the squire brought a hundred pieces of gold to the hermitage and there buried them, bidding the ascetic keep watch over them. “No need to say that, sir, to a man who has renounced the world; we hermits never covet other folks’ goods.” “It is well, sir,” said the squire, who went off with full confidence in the other’s protestations. Then the rascally ascetic thought to himself, “there’s enough here to keep a man all his life long.” Allowing a few days to elapse first, he removed the gold and buried it by the wayside, returning to dwell as before in his hermitage. Next day, after a meal of rice at the squire’s house, the ascetic said, “It is now a, long time, sir, since I began to be supported by you; and to live long in one place is. like living in the world,—which is forbidden to professed ascetics. Wherefore I must needs depart.” And though the squire pressed him to stay, nothing could overcome this determination.
+
+“Well, then, if it must be so, go your way, sir,” said the squire; and he escorted the ascetic to the outskirts before he left him. After going a little way the ascetic thought that it would be a good thing to cajole the squire; so, putting a straw in his matted hair, back he turned again. “What brings you back?” asked the squire. “A straw from your roof, sir, had stuck in my hair; and, as we hermits may not take anything which is not bestowed upon us, I have brought it back to you.” “Throw it down, sir, and go your way,” said the squire, who thought, to himself, “Why, he won’t take so much as a straw which does not belong to him! What a sensitive nature!” Highly delighted with the ascetic, the squire bade him farewell.
+
+Now at that time it chanced that the Bodhisatta, who was on his way to the border-district for trading purposes, had halted for the night at that village. Hearing what the ascetic said, the suspicion was aroused in his mind that the rascally ascetic must have robbed the squire of something; and he asked the latter whether he had deposited anything in the ascetic’s care.
+
+“Yes,—a hundred pieces of gold.”
+
+“Well, just go and see if it’s all safe.”
+
+Away went the squire to the hermitage, and looked, and found his money gone. Running back to the Bodhisatta, he cried, “It’s not there.” “The thief is none other than that long-haired rascal of an ascetic,” said the Bodhisatta; “let us pursue and catch him.” So away they hastened in hot pursuit. When they caught the rascal they kicked and cuffed him, till he discovered to them where he had hidden the money. When he procured the gold, the Bodhisatta, looking at it, scornfully remarked to the ascetic, “So a hundred pieces of gold didn’t trouble your conscience so much as that straw!” And he rebuked him in this stanza—
+
+How plausible the story that the rascal told!
+
+How heedful of the straw! How heedless of the gold!
+
+ When the Bodhisatta had rebuked the fellow in this wise, he added,—“And now take care, you hypocrite, that you don’t play such a trick again.” When his life ended, the Bodhisatta passed away to fare thereafter according to his deserts.
+
+His lesson ended, the Master said, “Thus you see, Brethren, that this Brother was as knavish in the past as he is to-day.” And he identified the Birth by saying, “This knavish Brother was the knavish ascetic of those days, and I the wise and good man.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

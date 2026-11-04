@@ -1,0 +1,161 @@
+Ja 269: Sujata Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja269.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Those who are dowered,” etc.—This story the Master told while living in Jetavana about one Sujata, a daughter-in-law of Anatha-pindika, daughter of the great merchant Dhananjaya, and youngest sister of Visakha.
+
+We are told that she entered the house of Anatha-pindika full of haughtiness, thinking how great a family she had come from, and she was obstinate, violent, passionate, and cruel; refused to do her part towards her new father and mother, or her husband; and went about the house with harsh words and hard blows for everyone.
+
+One day, the Master and five hundred brothers visited Anatha-pindika’s house, and took their seats. The great merchant sat beside the Blessed One, hearkening to his discourse. At the same time Sujata happened to be scolding the servants.
+
+The Master ceased speaking, and asked what that noise was. The merchant explained that it was his rude daughter-in-law; that she did not behave properly towards her husband or his parents, she gave no alms, and had no good points; faithless and unbelieving, she went about the house scolding day and night. The Master bade send for her.
+
+The woman came, and after saluting the Master, she stood on one side. Then the Master addressed her thus:
+
+“Sujata, there are seven kinds of wife a man may have; of which sort are you?” She replied, “Sir, you speak too shortly for me to understand; please explain.” “Well,” said the Master, “listen attentively,” and he uttered the following verses:
+
+“One is bad-hearted, nor compassionates
+
+The good; loves others, but her lord she hates.
+
+Destroying all that her lord’s wealth obtains,
+
+This wife the title of Destroyer gains.
+
+“Whate’er the husband gets for her by trade,
+
+Or skilled profession, or the farmer’s spade,
+
+ She tries to filch a little out of it.
+
+For such a wife the title Thief is fit.
+
+“Careless of duty, lazy, passionate,
+
+Greedy, foul-mouthed, and full of wrath and hate,
+
+Tyrannical to all her underlings
+
+All this the title High and Mighty brings.
+
+“Who evermore compassionates the good,
+
+Cares for her husband as a mother would,
+
+Guards all the wealth her husband may obtain—
+
+This wife the title Motherly will gain.
+
+“She who respects her husband in the way
+
+Young sisters reverence to elders pay,
+
+Modest, obedient to her husband’s will,
+
+The Sisterly is this wife’s title still.
+
+“She whom her husband’s sight will always please
+
+As friend that friend after long absence sees,
+
+High-bred and virtuous, giving up hen life
+
+To him—this one is called the Friendly wife.
+
+“Calm when abused, afraid of violence,
+
+No passion, full of dogged patience,
+
+True-hearted, bending to her husband’s will,
+
+Slave is the title given to her still.”
+
+ “These, Sujata, are the seven wives a man may have. Three of these, the Destructive wife, the Dishonest wife, and Madam High and Mighty are reborn in hell; the other four in the Fifth Heaven.
+
+“They who are called Destroyer in this life,
+
+The High and Mighty, or the Thievish wife,
+
+Being angry, wicked, disrespectful, go
+
+Out of the body into hell below.
+
+“They who are called the Friendly in this life,
+
+Motherly, Sisterly, or Slavish wife,
+
+By virtue and their long self-mastery
+
+Pass into heaven when their bodies die.”
+
+Whilst the Master was explaining these seven kinds of wives, Sujata attained to the Fruit of the First Path; and when the Master asked to which class she belonged, she answered, “I am a slave, Sir!” and respectfully saluting the Buddha, gained pardon of him.
+
+Thus by one admonition the Master tamed the shrew; and after the meal, when he had declared their duties amidst the Brotherhood, he entered his scented chamber.
+
+Now the Brethren gathered together in the Hall of Truth, and sang the Master’s praises. “Friend, by a single admonition the Master has tamed a shrew, and raised her to Fruition of the First Path!” The Master entered, and asked what they were talking of as they sat together. They told him. Said he, “Brethren, this is not the first time that I have tamed Sujata by a single admonition.” And he proceeded to tell an old-world tale.
+
+Once upon a time, while Brahmadatta reigned over Benares, the Bodhisatta was born as the son of his Queen Consort. When he grew up he received his education at Takkasila, and after the death of his father, became king and ruled in righteousness.
+
+His mother was a passionate woman, cruel, harsh, shrewish, ill-tongued. The son wished to admonish his mother; but he felt he must not do anything so disrespectful; so he kept on the look-out for a chance of dropping a hint.
+
+One day he went down into the grounds, and his mother went with him. A blue jay screeched on the road. At this all the courtiers stopped their ears, crying—
+
+“What a harsh voice, what a shriek!—don’t make that noise!”
+
+While the Bodhisatta was walking through the park with his mother, and a company of players, a cuckoo, perched amid the thick leaves of a sal tree, sang with a sweet note. All the bystanders were delighted at her voice; clasping their hands, and stretching them out, they besought leer—“Oh, what a soft voice, what a kind voice, what a gentle voice!—sing away, birdie, sing away!” and there they stood, stretching their necks, eagerly listening.
+
+The Bodhisatta, noting these two things, thought that here was a chance to drop a hint to the queen-mother. “Mother,” said he, “when they heard the jay’s cry on the road, every body stopped their ears, and called out—Don’t make that noise! don’t make that noise! and stopped up their ears: for harsh sounds are liked by no body.” And he repeated the following stanzas:
+
+“Those who are dowered with a lovely-hue,
+
+Though ne’er so fair and beautiful to view,
+
+Yet if they have a voice all harsh to hear
+
+Neither in this world nor the next are dear.
+
+“There is a bird that you may often see;
+
+Ill-favoured, black, and speckled though it be,
+
+Yet its soft voice is pleasant to the ear:
+
+How many creatures hold the cuckoo dear!
+
+“Therefore your voice should gentle be and sweet,
+
+Wise-speaking, not puffed up with self-conceit.
+
+And such a voice—how sweet the sound of it!—
+
+Explains the meaning of the Holy Writ.”
+
+When the Bodhisatta had thus admonished his mother with these three verses, he won her over to his. way of thinking; and ever afterwards sin followed a right course of living. And he having by one word made his mother a self-denying woman afterwards passed away to fare according to his deeds.
+
+ When the Master had ended this discourse, he thus identified the Birth: “Sujata was the mother of the king of Benares, and I was the king himself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

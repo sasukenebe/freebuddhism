@@ -1,0 +1,63 @@
+Ja 394: Vattaka Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja394.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Oil and butter,” etc.—The Master told this while dwelling in Jetavana, concerning a greedy Brother. Finding that he was greedy the Master said to him, “This is not the first time you are greedy: once before through greed in Benares you were not satisfied with carcases of elephants, oxen, horses and men; and in hopes of getting better food you went to the forest;” and so he told an old tale.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta was born as a quail and lived in the forest on rude grass and seeds. At the time there was in Benares a greedy crow who, not content with carcases of elephants and other animals, went to the forest in hopes of better food: eating wild fruits there he saw the Bodhisatta and thinking “This quail is very fat: I fancy he eats sweet food, I will ask him of his food and eating it become fat myself,” he perched on a bough above the Bodhisatta. The Bodhisatta , without being asked, gave him greeting and spoke the first stanza—
+
+Oil and butter are your victuals, nuncle; rich your food, I trow:
+
+Tell me then what is the reason of your leanness, master crow.
+
+Hearing his words the crow spoke three stanzas—
+
+I dwell in midst of many foes, my heart goes pit-a-pat
+
+In terror as I seek my food: how can a crow be fat?
+
+Crows spend their lives in fear, their wits for mischief ever keen;
+
+The bits they pick are not enough; good quail, that’s why I’m lean.
+
+Rude grass and seeds are all your food: there’s little richness there:
+
+Then tell me why you’re fat, good quail, on such a scanty fare.
+
+The Bodhisatta hearing him spoke these stanzas, explaining the reason of his fatness—
+
+I have content and easy mind, short distances to go,
+
+I live on anything I get, and so I’m fat, good crow.
+
+Content of mind, and happiness with little care of heart,
+
+A standard easily attained: that life’s the better part.
+
+ After the lesson, the Master declared the Truths, and identified the Birth—At the end of the Truths the Brother was established in the fruition of the First Path: “At that time the crow was the greedy Brother, the quail was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

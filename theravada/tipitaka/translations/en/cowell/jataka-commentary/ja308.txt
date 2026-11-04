@@ -1,0 +1,75 @@
+Ja 308: Javasakuna Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja308.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Kindness as much,” etc.—This story was told by the Master while dwelling at Jetavana, about the ingratitude of Devadatta.
+
+He ended it by saying, “Not only now, but in former days did Devadatta show ingratitude,” and with these words he told a story of the past.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta came to life as a woodpecker in the Himalaya country.
+
+ Now a certain lion, while devouring his prey, had a bone stick in his throat. His throat swelled up so that he could not take any food and severe pains set in. Then this woodpecker, while intent on seeking its own food, as it was perched on a bough, saw the lion and asked him, saying, “Friend, what ails you?” He told him what was the matter, and the bird said, “I would take the bone out of your throat, friend, but I dare not put my head into your mouth, for fear you should eat me up.”
+
+“Do not be afraid, friend; I will not eat you up. Only save my life.”
+
+“All right,” said the bird, and ordered the lion to lie down upon his side. Then it thought: “Who knows what this fellow will be about?” And to prevent his closing his mouth, it fixed a stick between his upper and lower jaw, and then putting its head into the lion’s mouth, it struck the end of the bone with its beak. The bone fell out and disappeared. And then the woodpecker drew out its head from the lion’s mouth, and with a blow from its beak knocked out the stick, and hopping off sat on the top of a bough.
+
+The lion recovered from his sickness, and one day was devouring a wild buffalo which he had killed. Thought the woodpecker: “I will now put him to the test,” and perching on a bough above the lion’s head, it fell to conversing with him and uttered the first stanza:
+
+Kindness as much as in us lay,
+
+To thee, my lord, we once did show:
+
+On us in turn, we humbly pray,
+
+Do thou a trifling boon bestow.
+
+On hearing this the lion repeated the second stanza:
+
+To trust thy head to a lion’s jaw.
+
+A creature red in tooth and claw,
+
+To dare such a deed and be living still,
+
+Is token enough of my good will.
+
+The woodpecker on hearing this uttered two more stanzas
+
+From the base ingrate hope not to obtain
+
+The due requital of good service done;
+
+From bitter thought and angry word refrain,
+
+But haste the presence of the wretch to shun.
+
+With these words the woodpecker flew away.
+
+The Master, his lesson ended, identified the Birth: “At that time Devadatta was the Lion, and I myself was the Woodpecker.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

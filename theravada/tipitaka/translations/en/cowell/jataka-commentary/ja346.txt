@@ -1,0 +1,101 @@
+Ja 346: Kesava Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja346.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Thou that of late,” etc.—This story the Master while at Jetavana told concerning the Feast of Friendship.
+
+In the house of Anathapindika, they say, five hundred Brethren were constantly fed. The house was continually like a place of refreshment for the assembly of the Brethren, bright with the sheen of their yellow robes and blown upon with saintly odours. So one day the king in making a solemn procession round the city caught sight of the assembly of the Brethren in the Treasurer’s house, and thinking, “I too will grant a perpetual alms to the assembly of saints,” he went to the monastery and after greeting the Master he instituted perpetual alms for five hundred Brethren. Thenceforth there is a perpetual giving of alms in the king’s house, even choice food of rice with the perfume of the rain upon it, but there are none to give it with their own hands, with marks of affection and love, but the king’s ministers dispense the food, and the Brethren do not care to sit down and eat it, but taking the various dainty foods, they go each to the house of his own retainers, and giving them the food, themselves eat whatever is set before them, whether coarse or dainty.
+
+Now one day much wild fruit was brought to the king. The king said, “Give it to the Order of the Brethren.”
+
+They went to the refectory and came and told the king, “There is not a single Brother there.”
+
+“What, is it not time yet?” said the king.
+
+“Yes it is time,” they said, “but the Brethren take the food in your house, and then go to the abode of their trusty servitors, and give the food to them, and themselves eat whatsoever is served up to them, whether it be coarse or dainty.”
+
+The king said, “Our food is dainty. Why in the world do they abstain from ours and eat some other food?” And thinking, “I will inquire of the Master,” he went to the monastery and asked him.
+
+The Master said, “The best food is that which is given in love. Owing to the absence of those who by giving in love establish friendly feeling, the Brethren take the food and eat it in some friendly place of their own. There is no flavour, Sire, equal to that of love. That which is given without love, though it be composed of the four sweet things, is not worth so much as wild rice given with love. Wise men of old, when sickness arose amongst them, though the king with his five families of leeches provided remedies, if the sickness were not thus assuaged, repaired to their intimate friends and by eating broth of wild rice and millet, without salt, or even leaves without salt, sprinkled with water only, were healed of their sickness.” And with these words at their request he told them a story of the past.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta was born in a brahmin family in the kingdom of Kasi, and they called him young Kappa. When he came of age, he acquired all the arts at Takkasila and afterwards adopted the religious life. At this time an ascetic named Kesava attended by five hundred other ascetics became the teacher of a band of disciples and abode in the Himalayas. The Bodhisatta came to him and becoming the senior of the five hundred pupils, dwelt there and shewed a friendly feeling and affection for Kesava. And they became very intimate one with another.
+
+By and bye Kesava accompanied by these ascetics went to Benares to procure salt and vinegar and lodged in the king’s garden. Next day he went into the city and came to the palace door. When the king saw the band of holy men, he invited them in and fed them in his own house, and exacting the usual promise from them, he lodged them in his garden. So when the rainy season was over, Kesava took leave of the king. The king said, “Holy Sir, you are an old man. Do you now dwell near us, and send the young ascetics to the Himalayas.” He agreed and sent them with the head disciple to the Himalayas and himself was left quite alone. Kappa went to the Himalayas and dwelt there with the ascetics. Kesava was unhappy at being deprived of the society of Kappa, and in his desire to see him got no sleep, and in consequence of losing his sleep, his food was not properly digested. A bloody flux set in, followed by severe pains. The king with his five families of leeches watched over the ascetic, but his sickness abated not.
+
+The ascetic asked the king, “Do you, Sire, wish for me to die or to recover?”
+
+“To recover, Sir,” he answered.
+
+“Then send me to the Himalayas,” he said.
+
+“Agreed,” said the king, and sent to a minister named Narada, and bade him go with some foresters and take the holy man to the Himalayas. Narada took him there and returned home. But by the mere sight of Kappa, Kesava’s mental disorder ceased and his unhappiness subsided. So Kappa gave him broth made of millet and wild rice together with leaves sprinkled with water, without salt and spices, and at that very instant the dysentery was assuaged. The king again sent Narada saying, “Go and learn tidings of the ascetic Kesava.” He came and finding him recovered said, “Reverend Sir, the king of Benares treating you with his five families of leeches could not heal your sickness. How did Kappa treat you?” And herewith he uttered the first stanza:
+
+Thou that of late with lord of men didst dwell,
+
+A king prepared to grant thy heart’s desire,
+
+What is the charm of Kappa’s hermit cell
+
+That blessed Kesava should here retire?
+
+Kesava on hearing this repeated the second stanza:
+
+All here is charming: e’en the very trees
+
+O Narada, my fancy take,
+
+And Kappa’s words that never fail to please
+
+A grateful echo in my heart awake.
+
+After these words he said: “Kappa by way of pleasing me gave me to drink broth made of millet and wild rice mixed with leaves sprinkled with water, and without salt and spices, and therewith was my bodily sickness stayed and I was healed.”
+
+Narada, hearing this, repeated the third stanza:
+
+Thou that but now the purest rice didst eat
+
+Boiled with a dainty flavouring of meat,
+
+How canst thou relish such insipid fare
+
+And millet and wild rice with hermits share?
+
+ On hearing this Kesava uttered the fourth stanza:
+
+The food may coarse or dainty prove,
+
+May scanty be or much abound,
+
+Yet if the meal is blest with love,
+
+Love the best sauce by far is found.
+
+Narada on hearing his words returned to the king and told him, “Kesava says thus and thus.”
+
+The Master, having ended his lesson, identified the Birth: “At that time the king was Ananda, Narada was Sariputta, Kesava was Bakabrahma, Kappa was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

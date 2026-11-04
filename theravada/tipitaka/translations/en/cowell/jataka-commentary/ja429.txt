@@ -1,0 +1,121 @@
+Ja 429: Mahasuka Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja429.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Wherever fruitful trees,” etc.—This story the Master dwelling at Jetavana told concerning a certain Brother. The story goes that he lived in a forest near a border village in the Kosala country, and received instruction in forms of meditation from the Master. The people made him a dwelling-place on a site where men continually passed to and fro, providing him with day and night quarters, and attentively ministered to him. In the very first month after he had entered upon the rainy season the village was burned down and the people had not so much as a seed left and were unable to supply his alms-bowl with savoury food; and though he was in a pleasant place of abode, he was so distressed for alms that he could not enter upon the Path or its Fruition. So when at the end of three months he went to visit the Master, after words of kindly greeting the Master hoped that though distressed for alms he had a pleasant place to live in. The Brother told him how matters stood. The Master on hearing that he had pleasant quarters said, “Brother, if this is so, an ascetic ought to lay aside covetous ways, and be content to eat whatever food he can get, and to fulfil all the duties of a priest. Sages of old when born into the world as animals, though they lived on the powdered dust of the decayed tree in which they had their abode, laid aside greedy desires and were contented to stay where they were, and fulfilled the law of love. Why then do you abandon a pleasant dwelling-place, because the food you receive is scanty and coarse?” And at his request the Master told a story of the past.
+
+Once upon a time many myriads of parrots lived in the Himalaya country on the banks of the Ganges in a grove of fig-trees. A king of the parrots there, when the fruit of the tree in which he dwelt had come to an end, ate whatever was left, whether shoot or leaf or bark or rind, and drank of water from the Ganges, and being very happy and contented he kept where he was. Owing to his happy and contented state the abode of Sakka was shaken. Sakka reflecting on the cause saw the parrot, and to test his virtue, by his supernatural power he withered up the tree, which became a mere stump perforated with holes, and stood to be buffeted by every blast of wind, and from the holes dust came out. The parrot king ate this dust and drank the water of the Ganges, and going nowhere else sat perched on the top of the fig-stump, reeking nought of wind and sun.
+
+Sakka noticed how very contented the parrot was, and said, “After hearing him speak of the virtue of friendship, I will come and give him his choice of a boon, and cause the fig-tree to bear ambrosial fruit.” So he took the form of a royal goose, and preceded by Suja in the shape of an Asura nymph, he went to the grove of fig-trees, and perching on the bough of a tree close by, he entered into conversation with the parrot and spoke the first stanza:
+
+Wherever fruitful trees abound,
+
+A flock of hungry birds is found:
+
+But should the trees all withered be,
+
+Away at once the birds will flee.
+
+ And after these words, to drive the parrot thence, he spoke the second stanza:
+
+Haste thee, Sir Redbeak, to be gone;
+
+Why dost thou sit and dream alone?
+
+Come tell me, prithee, bird of spring,
+
+To this dead stump why dost thou cling?
+
+Then the parrot said, “O goose, from a feeling of gratitude, I forsake not this tree,” and he repeated two stanzas:
+
+They who have been close friends from youth,
+
+Mindful of goodness and of truth,
+
+In life and death, in weal and woe
+
+The claims of friendship ne’er forego.
+
+I too would fain be kind and good
+
+To one that long my friend has stood;
+
+I wish to live, but have no heart
+
+From this old tree, though dead, to part.
+
+Sakka on hearing what he said was delighted, and praising him wished to offer him a choice, and uttered two stanzas:
+
+ I know thy friendship and thy grateful love,
+
+Virtues that wise men surely must approve.
+
+I offer thee whate’er thou wilt for choice;
+
+Parrot, what boon would most thy heart rejoice?
+
+On hearing this, the king parrot making his choice spoke the seventh stanza:
+
+If thou, O goose, what most I crave wouldst give,
+
+Grant that the tree I love, again may live.
+
+Let it once more with its old vigour shoot,
+
+Gather fresh sweetness and bear goodly fruit.
+
+Then Sakka, granting the boon, spoke the eighth stanza:
+
+Lo! friend, a fruitful and right noble tree,
+
+Well fitted for thy dwelling-place to be.
+
+Let it once more with its old vigour shoot,
+
+Gather fresh sweetness and bear goodly fruit.
+
+ With these words Sakka quitted his present form, and manifesting the supernatural power of himself and Suja, he took up water from the Ganges in his hand and dashed it against the fig-tree stump. Straightway the tree rose up rich in branch, and stem, and with honey-sweet fruit, and stood a charming sight, like unto the bare Jewel-Mount. The parrot king on seeing it was highly pleased, and singing the praises of Sakka he spoke the ninth stanza:
+
+May Sakka and all loved by Sakka blessed be,
+
+As I to-day am blest this goodly sight to see!
+
+Sakka, after granting the parrot his choice, and causing the fig-tree to bear ambrosial fruit, returned with Sujata to his own abode.
+
+In illustration of this story these stanzas inspired by Perfect Wisdom were added at the close:
+
+Soon as king parrot wisely made his choice,
+
+The tree once more put forth its fruit again;
+
+Then Sakka with his queen did fly amain
+
+To where in Nandana the gods rejoice.
+
+The Master, his lesson ended, said, “Thus, Brother, sages of old though born in animal forms were free from covetousness. Why then do you, after being ordained under so excellent a dispensation, follow greedy ways? So and dwell in the same place.” And he gave him a form of meditation, and thus identified the Birth—The Brother went back and by spiritual insight attained to Sainthood—“At that time Sakka was Anuruddha, and the parrot king was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

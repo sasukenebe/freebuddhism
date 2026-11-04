@@ -1,0 +1,65 @@
+Ja 280: Puta-Dusaka Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja280.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“No doubt the king,” etc.—This story the Master told in Jetavana, about one who destroyed pottles. At Savatthi, we learn, a certain courtier invited the Buddha and his company, and made them sit in his park. As he was distributing to them, during the meal, he said, “Let those who wish to walk about the park, do so.” The Brothers walked about the park. At that time the gardener climbed up a tree which had leaves upon it, and said, taking hold of some of the large leaves, “This will do for flowers, this one for fruit,” and making them into potties he dropt them to the foot of the tree. His little son destroyed each as soon as it fell. The Brothers told this to the Master. “Brothers,” said the Master, “this is not the first time that this lad has destroyed pottles: he did it before.” And he told them an old-world tale.
+
+ Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born in a certain family of Benares. When he grew up, and was living in the world as a householder, it happened that for some reason he went into a park, where a number of monkeys lived. The gardener was throwing down his pottles as we have described, and the chief of the monkeys was destroying them as they fell. The Bodhisatta, addressing him, said, “As the gardener drops his pottles, the monkey thinks he is trying to please him by tearing them up,” and repeated the first stanza:
+
+No doubt the king of beasts is clever
+
+In pottle-making; he would never
+
+Destroy what’s made with so much pother,
+
+Unless he meant to make another.”
+
+On hearing this the Monkey repeated the second stanza:
+
+“Neither my father nor my mother
+
+Nor I myself could make another.
+
+What others make, we tear to pieces:
+
+The proper way of monkeys, this is!”
+
+ And the Bodhisatta responded with the third:
+
+If this is proper monkey nature,
+
+What’s the improper way of such a creature!
+
+Be off—it does not matter whether
+
+You’re proper or improper—both together!”
+
+and with these words of blame he departed.
+
+When the Master had ended this discourse, he identified the Birth: “At that time the monkey was the boy who has been destroying the potties; but the wise man was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,55 @@
+Ja 99: Parosahassa Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja99.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Far better than a thousand fools.”—This story was told by the Master when at Jetavana, concerning the question of the unconverted.
+
+(The incidents will be related in the Sarabhanga-jataka. )
+
+On a certain occasion the Brethren met in the Hall of Truth and praised the wisdom of Sariputta, the Captain of the Faith, who had expounded the meaning of the Buddha’s pithy saying. Entering the hall, the Master asked and was told what the Brethren were talking about. “This is not the first time, Brethren,” said he, “that the meaning of a pithy saying of mine has been brought out by Sariputta. He did the like in times gone by.” So saying, he told this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was born a Northern brahmin and perfected his education at Takkasila. Putting Lusts from him and renouncing the world for the hermit’s life, he won the Five Knowledges and the Eight Attainments, and dwelt in the Himalayas, where five ‘hundred hermits gathered round him. One rainy season, his chief disciple went with half the hermits to the haunts of men to get salt and vinegar. And that was the time when the Bodhisatta should die. And his disciples, wishing to know his spiritual attainment, said to him, “What excellence have you won?”
+
+“Won?” said he; “I have won Nothing.” So saying, he died, but was reborn in the Brahma Realm of Radiant Devils. (For Bodhisattas even though they may have attained to the highest state are never reborn in the Formless World, because they are incapable of passing beyond the Realm of Form.) Mistaking his meaning, his disciples concluded that he had failed to win any spiritual attainment. So they did not pay the customary honours at cremation.
+
+On his return the chief disciple learnt that the master was dead, and asked whether they had asked what he had won. “He said he had won nothing,” said they. “So we did not pay him the usual honours at cremation.”
+
+“You understood not his meaning,” said that chief disciple. “Our master meant that he had attained to the insight called the insight into the Nothingness of Things.” But though he explained this again and again to the disciples, they believed him not.
+
+Knowing their unbelief, the Bodhisatta cried, “Fools! they do not believe my chief disciple. I will make this thing plain unto them.” And he came from the Brahma Realm and by virtue of his mighty powers rested in mid-air above the hermitage and uttered this stanza in praise of the wisdom of the chief disciple—
+
+Far better than a thousand fools, though they
+
+Cry out a hundred years unceasingly,
+
+Is one who, hearing, straightway understands.
+
+Thus did the Great Being from mid-air proclaim the Truth and rebuke the band of hermits. Then he passed back to the Brahma Realm, and all those hermits too qualified themselves for rebirth in the same Realm.
+
+His lesson ended, the Master identified the Birth by saying, “Sariputta was the chief disciple of those days, and I Maha-Brahma.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

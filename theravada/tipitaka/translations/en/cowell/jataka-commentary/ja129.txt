@@ -1,0 +1,57 @@
+Ja 129: Aggika Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja129.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“’Twas greed.”..This story was told by the Master while at Jetavana, about another hypocrite.
+
+Once on a time when Brahmadatta was reigning in Benares, the Bodhisatta was King of the Rats and dwelt in the forest. Now a fire broke out in the forest, and a jackal who could not run away put his head against a tree and let the flames sweep by him. The fire singed the hair off his body everywhere, and left him perfectly bald, except for a tuft like a scalp-knot where the crown of his head was pressed against the tree. Drinking one day in a rocky pool, he caught sight of this top-knot reflected in the water. “At last I’ve got wherewithal to go to market,” thought he. Coming in the course of his wanderings in the forest to the rats’ cave, he said to himself, “I’ll hoodwink those rats and devour them;” and with this intent he took up his stand hard by, just as in the foregoing story.
+
+On his way out in quest of food, the Bodhisatta observed the jackal and, crediting the beast with virtue and goodness, came to him and asked what his name was.
+
+“Bharadvaja, Votary of the Fire-God.”
+
+“Why have you come here?”
+
+“In order to guard you and yours.”
+
+“What will you do to guard us?”
+
+“I know how to count on my fingers, and will count your numbers both morning and evening, so as to be sure that as many came home at night, as went out in the morning. That’s how I’ll guard you.”
+
+“Then stay, uncle, and watch over us.”
+
+And accordingly, as the rats were starting in the morning he set about counting them “One, two, three;” and so again when they came back at night. And every time he counted them, he seized and ate the hindmost. Everything came to pass as in the foregoing story, except that here the King of the Rats turned and said to the jackal, “It is not sanctity, Bharadvaja, Votary of the Fire-God, but gluttony that has decked your crown with that top-knot.” So saying, he uttered this stanza—
+
+’Twas greed, not virtue, furnished you this crest.
+
+Our dwindling numbers fail to work out right;
+
+We’ve had enough, Fire-votary, of you.
+
+His lesson ended, the Master identified the Birth by saying, “This Brother was the jackal of those days, and I the King of the Rats.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

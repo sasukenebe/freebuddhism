@@ -1,0 +1,77 @@
+Ja 323: Brahmadatta Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja323.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Such is the quality,” etc.—This story was told by the Master, while dwelling in the Aggalava shrine near Alavi, concerning the regulations to be observed in the building of cells.
+
+The introductory story has been already set forth in the Manikantha Birth, but on this occasion the Master said, “Is it true, Brethren, that you live here by your importunity in asking and begging for alms?” And when they answered “Yes,” he reproved them and said, “Wise men of old, when offered their choice by the king, though they were longing to ask for a pair of single-soled shoes, through fear of doing violence to their sensitive and scrupulous nature, did not venture to say a word in the presence of the people, but spoke in private.” And so saying he told them an old-world legend.
+
+ Once upon a time in the Kampillaka kingdom, when a Pancala king was reigning in a North Pancala city, the Bodhisatta was born into a brahmin family, in a certain market town. And when he was grown up, he acquired a knowledge of the arts at Takkasila. Afterwards taking orders as an ascetic and dwelling in the Himalaya country, he lived for a long time by what he could glean—feeding on wild fruits and roots. And wandering into the haunts of men for the purpose of procuring salt and vinegar, he came to a city of North Pancala and took up his abode in the king’s garden. Next day he went into the city to beg alms, and came to the king’s gate. The king was so pleased with his deportment and behaviour that be seated him on the dais and fed him with food worthy of a king. And he bound him by a solemn promise and assigned him a lodging in the garden.
+
+He lived constantly in the king’s house, and at the end of the rainy season, being anxious to return to the Himalayas, he thought, “If I go upon this journey, I must get a pair of single-soled shoes and a parasol of leaves. I will beg them of the king.” One day he came to the garden, and finding the king sitting there, he saluted him and resolved he would ask him for the shoes and parasol. But his second thought was, “A man who begs of another, saying, “Give me so and so,” is apt to weep. And the other man also when he refuses, saying, “I have it not,” in his turn weeps.” And that the people might not see either him or the king weeping, he thought, “We will both weep quietly in some secret place.” So he said, “Great King, I am anxious to speak with you in private.” The royal attendants on hearing this departed. Thought the Bodhisatta, “If the king should refuse my prayer, our friendship will be at an end. So I will not ask a boon of him.” That day, not venturing to mention the subject, he said, “Go now, Great King, I will see about this matter by and bye.” Another day on the king’s coming to the garden, saying, as before, first this and then that, he could not frame his request. And so twelve years elapsed.
+
+Then the king thought, “This priest said, “I wish to speak in private,” and when the courtiers are departed, he has not the courage to speak. And while he is longing to do so, twelve years have elapsed. After living a religious life so long, I suspect, he is regretting the world. He is eager to enjoy pleasures and is longing for sovereignty. But being unable to frame the word “kingdom,” he keeps silent. To-day now I will offer him whatever he desires, from my kingdom downwards.”So he went to the garden and sitting down saluted him. The Bodhisatta asked to speak to him in private, and when the courtiers had departed, he could not utter a word. The king said, “For twelve years you have asked to speak to me in private, and when you have had the opportunity, you have not been able to say a word. I offer you everything, beginning with my kingdom. Do not be afraid, but ask for whatever you please.”
+
+“Great King,” he said, “will you give me what I want?” “Yes, Reverend Sir, I will.”
+
+“Great King, when I go on my journey, I must have a pair of single-soled shoes and a parasol of leaves.”
+
+“Have you not been able, Sir, for twelve years to ask for such a trifle as this?”
+
+“That is so, Great King.”
+
+“Why, Sir, did you act thus?”
+
+“Great King, the man who says “Give me so and so,” sheds tears, and the one who refuses and says “I have it not,” in his turn weeps. If, when I begged, you should have refused me, I feared the people might see us mingling our tears. This is why I asked for a secret interview.” Then from the beginning he repeated three stanzas:
+
+Such is the quality of prayer, O king,
+
+’Twill a rich gift or a refusal bring.
+
+Who beg, Pancala lord, to weep are fain,
+
+They who refuse are apt to weep again.
+
+Lest people see us shed the idle tear,
+
+My prayer I whisper in thy secret ear.
+
+ The king, being charmed with this mark of respect on the part of the Bodhisatta, granted him the boon and spoke the fourth stanza:
+
+Brahmin, I offer thee a thousand kine,
+
+Red kine, and eke the leader of the herd;
+
+Hearing but now these generous words of thine,
+
+I too in turn to generous deed am stirred.
+
+But the Bodhisatta said, “I do not, Sire, desire material pleasures. Give me that only which I ask for.” And he took a pair of single-soled shoes and the parasol of leaves, and exhorted the king to be zealous in religion and to keep the moral law and observe fast days. And though the king begged hint to stay, he went off to the Himalayas, where he developed all the Faculties and Attainments, and was destined to birth in the Brahma-world.
+
+The Master, having ended his lesson, identified the Birth: “At that time Ananda was the king, and I myself was the ascetic.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

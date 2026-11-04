@@ -1,0 +1,67 @@
+Ja 265: Khurappa Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja265.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“When many a bow,” etc.—This story the Master told in Jetavana, about a Brother who had lost all energy. The Master asked, was it true that this Brother had lost his energy. Yes, he replied. “Why,” asked he, “have you slackened your energy, after embracing this doctrine of salvation? In days of yore, wise men were energetic even in matters which do not lead to salvation;” and so saying he told an old-world tale.
+
+ Once on a time, while Brahmadatta was king of Benares, the Bodhisatta was born into the family of a forester. When he grew up, he took the lead of a band of five hundred foresters, and lived in a village at the entrance to the forest. He used to hire himself out to guide men through it.
+
+Now one day a man of Benares, a merchant’s son, arrived at that village with a caravan of five hundred waggons. Sending for the Bodhisatta, he offered him a thousand pieces to be his guide through the forest. He agreed, and received the money from the merchant’s hand; and as he took it, he mentally devoted his life to the merchant’s service. Then he guided him into the forest.
+
+In the midst of the forest, up rose five hundred robbers. As for the rest of the company, no sooner did they see these robbers, than they grovelled upon their belly: the head forester alone, shouting and leaping and dealing blows, put to flight all the five hundred robbers, and led the merchant across the wood in safety. Once across the forest, the merchant encamped his caravan; he gave the chief forester choice meats of every kind, and himself having broken his fast, sat pleasantly by him, and talked with him thus: “Tell me,” said he, “how it was that even when five hundred robbers, with arms in their hands, were spread all around, you felt not even any fear in your heart?” And he uttered the first stanza:
+
+“When many a bow the shaft at speed let fly—
+
+Hands grasping blades of tempered steel were nigh—
+
+When Death had marshalled all his dread array—
+
+Why, ‘mid such terror, felt you no dismay?”
+
+On hearing this the forester repeated the two verses following:
+
+“When many a bow the shaft at speed let fly—
+
+Hands grasping blades of tempered steel were nigh—
+
+When Death had marshalled all his dread array—
+
+I felt a great and mighty joy this day.
+
+“And this my joy gave me the victory;
+
+I was resolved to die, if need should be;
+
+He must contemn his life, who would fulfil
+
+Heroic deeds and be a hero still.”
+
+ Thus did he send forth his words like a shower of arrows; and having explained how he had done heroically through being free from the desire to live, he parted from the young merchant, and returned to his own village; where after giving alms and doing good he passed away to fare according to his deserts.
+
+When the Master had ended this discourse, he declared the Truths, and identified the Birth—at the conclusion of the Truths the disheartened Brother attained to Sainthood—“At that time I was the chief of the foresters.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

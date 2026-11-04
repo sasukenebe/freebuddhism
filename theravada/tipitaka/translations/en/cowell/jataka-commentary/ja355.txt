@@ -1,0 +1,77 @@
+Ja 355: Ghata Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja355.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“While others weep,” etc.—This story the Master, dwelling at Jetavana, told concerning a minister of the king of Kosala. The introductory story is identical with one already given. But in this case the king after bestowing great honour on a minister who served him well, gave ear to certain mischief-makers and had him seized and thrown into prison. While he was lying there, he entered upon the First Path. The king, becoming aware of his great merit, released him. He took a scented garland and coming into the presence of the Master, saluted him and sat down. Then the Master asked if some evil had not befallen him. “Yes, Reverend Sir,” he answered, “but through evil good has come to me. I have entered on the First Path.” “Verily,” said the Master, “not you only, but sages of old got good out of evil.” And herewith at his request he told a story of the past.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta was born to him as the son of his queen-consort. And they called him prince Ghata. He afterwards acquired a knowledge of the arts at Takkasila and ruled his kingdom righteously.
+
+Now a certain minister misconducted himself in the royal harem. The king, after witnessing the offence with his own eyes, banished him from his kingdom. At that time a king named Vanka ruled in Savatthi. The minister went to him and entering his service, just as in the former story, gained the king’s ear and got him to seize on the kingdom of Benares. After gaining possession of the kingdom, he had the Bodhisatta bound in chains and threw him into prison. The Bodhisatta entered on an ecstatic meditation and sat cross-legged in the air. A burning heat sprang up in the body of Vanka. He came and beheld the countenance of the Bodhisatta radiant with the beauty of a full-blown lotus, like to a golden mirror, and in the form of a question repeated the first stanza—
+
+While others weep and wail, their cheeks with tears bestained,
+
+Why still with smiling face, has Ghata ne’er complained?
+
+Then the Bodhisatta, to explain why he did not grieve, recited the remaining stanzas—
+
+To change the past all sorrow is but vain,
+
+It has no blessing for a future state:
+
+Why should I, Vanka, of my woes complain?
+
+Grief is no helpmeet fit with us to mate.
+
+One that is sick with sorrow pines away,
+
+His food insipid and distasteful grows,
+
+Pierced as with arrows, to his grief a prey,
+
+He sinks a laughing-stock to all his foes.
+
+Whether my home be on dry land or sea,
+
+Be it in village, or some forest drear,
+
+No sorrow ever shall come nigh to me,
+
+A soul converted can have nought to fear.
+
+But he that lacks completion in himself
+
+And is with lust of things of sense a-fire,
+
+Not the whole world, with all its sordid pelf,
+
+Can e’er suffice for such a man’s desire.
+
+ Vanka therefore, after hearing these four stanzas, asked forgiveness of the Bodhisatta, and restored him to his kingdom and went his way. But the Bodhisatta handed over the kingdom to his ministers, and retreating to the Himalayas became an ascetic, and without any break in his ecstatic meditation was destined to birth in the world of Brahma.
+
+The Master, having ended his lesson, identified the Birth: “At that time Ananda was king Vanka, and I myself was king Ghata.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

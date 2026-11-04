@@ -1,0 +1,59 @@
+Ja 230: Dutiya-Palayi Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja230.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Countless are my banners,” etc.— This story the Master told whilst living at Jetavana, about this same gadabout mendicant.
+
+At that time, the Master, with a large company round him, sitting on the beautifully adorned throne of the truth, upon a vermilion dais, was discoursing like a young lion roaring with a lion’s roar. The mendicant, seeing the Buddha’s form like the form of Brahma, his face like the glory of the full moon, and his forehead like a plate of gold, turned round where he had come, in the midst of the crowd, and ran off, saying, “Who could overcome a man like this?”
+
+The crowd went in chase, then came back and told the Master. He said, “Not only now has this mendicant fled at the mere sight of my golden face; he did the same before.” And he told an old-world tale.
+
+Once on a time, the Bodhisatta was king in Benares, and in Takkasila reigned a certain king of Gandhara. This king, desiring to capture Benares, went and compassed the city about with a complete army of four divisions. And taking his stand at the city gate, he looked upon his army, and said he, “Who shall be able to conquer so great an army as this?” and describing his army, he uttered the first stanza—
+
+“Countless are my banners: rival none they own:
+
+Flocks of crows can never stem the rolling sea—
+
+Never can the storm-blast beat a mountain down—
+
+So, of all the living none can conquer me!”
+
+ Then the Bodhisatta disclosed his own glorious countenance, in fashion as the full moon; and threatening him, thus spoke: “Fool, babble not vainly! Now will I destroy your host, as a maddened elephant crushes a thicket of reeds!” and he repeated the second stanza:
+
+“Fool! and hast thou never yet a rival found?
+
+Thou art hot with fever, if thou seekst to wound
+
+Solitary savage elephants like me!
+
+As they crush a reed-stalk so will I crush thee!”
+
+When the king of Gandhara heard him threaten thus, he looked up, and beholding his wide forehead like a plate of gold, for fear of being captured himself he turned and ran away, and came again even unto his own city.
+
+This discourse ended, the Master identified the Birth—“The vagrant gadabout was at that time the king of Gandhara, and the king of Benares was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

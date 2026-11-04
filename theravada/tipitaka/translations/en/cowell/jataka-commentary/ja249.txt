@@ -1,0 +1,61 @@
+Ja 249: Salaka Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja249.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Like my own son,” etc.—This story the Master told whilst living in Jetavana, about a distinguished Elder.
+
+It is said that he had ordained a youth, whom he treated unkindly. The novice at last could stand it no longer, and returned to the world. Then the Elder tried to coax him. “Look here, lad,” said he, “your robe shall be your own, and your bowl too; I have another bowl and robe which I’ll give you. Join us again!” At first he refused, but at last after much asking he did so. From the day he joined the brotherhood the Elder maltreated him as before. Again the lad found it too much, and left the order. As the Elder begged him again several times to join, the lad replied, “You can neither do with me nor without me; let me alone—I will not join!”
+
+The Brethren got talking about this in the Hall of Truth. “Friend,” said they, “a sensitive lad that! He knew the Elder too well to join us.” The Master came in and asked what they were talking about. They told him. He rejoined, “Not only is the lad sensitive now, Brethren, but he was just the same of old; when once he saw the faults of that man, he would not accept him again.” And he told a story of the olden time.
+
+Once upon a time, in the reign of Brahmadatta king of Benares, the Bodhisatta was born into a landowner’s family, and gained a living by selling corn. Another man, a snake-charmer, had trained a monkey, made him swallow an antidote, and making a snake play with the monkey he gained his livelihood in this way.
+
+A merrymaking had been proclaimed; this man wished to make merry at the feast, and he entrusted the monkey to this merchant, bidding him not neglect it. Seven days after he cane to the merchant, and asked for his monkey. The monkey heard his master’s voice, and came out quickly from the grain shop. At once the man beat him over the back with a piece of bamboo; then he took him off to the woods, tied him up and fell asleep. So soon as the monkey saw that he was asleep, he loosed his bonds, scampered off and climbed a mango tree. He ate a mango, and dropped the stone upon the snake-charmer’s head. The man awoke, and looked up: there was the monkey. “I’ll wheedle him!” he thought, “and when he comes down from the tree, I’ll catch him! “So to wheedle him, he repeated the first verse—
+
+“Like my own son you shall be,
+
+Master in our family:
+
+ Come down, Nuncle from the tree—
+
+Come and hurry home with me?”
+
+The monkey listened, and repeated the second verse—
+
+“You are laughing in your sleeve!
+
+Have you quite forgot that beating?
+
+Here I am content to live
+
+(So good-bye) ripe mangoes eating.”
+
+Up he arose, and was soon lost in the wood; while the snake-charmer returned to his house in high dudgeon.
+
+When this discourse was ended, the Master identified the Birth: “Our novice was the Monkey. The Elder was the snake-charmer, and I myself was the corn-merchant.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

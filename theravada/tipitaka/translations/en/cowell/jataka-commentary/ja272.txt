@@ -1,0 +1,75 @@
+Ja 272: Vyaggha Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja272.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“What time the nearness,” etc.— This story the Master told whilst living at Jetavana, about Kokalika. The circumstances of this story will be given in the Thirteenth Book, and the Takkariya-jataka. Here again Kokalika said, “I will take Sariputta and Moggallana with me.” So having left Kokalika’s country, he travelled to Jetavana, greeted the Master, and went on to the Elders. He said, “Friends, the citizens of Kokalika’s country summon you. Let us go thither!!” “Go yourself, friend, we won’t,” was the answer. After this refusal he went away by himself.
+
+The Brethren got talking about this in the Hall of Truth. “Friend! Kokalika can’t live either with Sariputta and Moggallana, or without them! He can’t put up with their room or their company!” The Master came in, and enquired what they were all talking about together. They told him. He said, “In olden days, just as now, Kokalika couldn’t live with Sariputta and Moggallana, or without them.” And he told a story.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was a tree-spirit living in a wood. Not far from his abode lived another tree-spirit, in a great monarch of the forest. In the same forest dwelt a lion and a tiger. For fear of them no one durst till the earth, or cut down a tree, no one could even pause to look at it, And the lion and tiger used to kill and eat all manner of creatures; and what remained after eating, they left on the spot and departed, so that the forest was full of foul decaying stench.
+
+The other spirit, being foolish and knowing neither reason nor unreason, one day bespoke thus the Bodhisatta:
+
+“Good friend, the forest is full of foul stench all because of this lion and this tiger. I will drive then away.”
+
+Said he, “Good friend, it is just these two creatures that protect our homes. Once they are driven off, our homes will be made desolate. If men see not the lion and the tiger tracks, they will cut all the forest down, make it all one open space, and till the land. Please do not do this thing! “and then he uttered the first two stanzas:
+
+“What time the nearness of a bosom friend
+
+Threatens your peace to end,
+
+If you are wise, guard your supremacy
+
+Like the apple of your eye.
+
+“But when your bosom friend does more increase
+
+The measure of your peace,
+
+Let your friend’s life in everything right through
+
+Be dear as yours to you.”
+
+When the Bodhisatta had thus explained the matter, the foolish sprite notwithstanding did not lay it to heart, but one day assumed an awful shape, and drove away the lion and tiger. The people, no longer seeing the footmarks of these, divined that the lion and tiger must have gone to another wood, and cut down one side of this wood. Then the sprite came up to the Bodhisatta and said to him,
+
+“All, friend, I did not do as you said, but drove the creatures away; and now men have found out that they are gone, and they are cutting down the wood! What is to be done?” The reply was, that they were gone to live in such and such a wood; the sprite must go and fetch them back. This the sprite did; and, standing in front of them, repeated the third stanza, with a respectful salute:
+
+“Come back, O Tigers! to the wood again,
+
+And let it not be levelled with the plain;
+
+For, without you, the axe will lay it low;
+
+You, without it, for ever homeless go.”
+
+This request they refused, saying, “Go away! we will not come.” The sprite returned to the forest alone. And the men after a very few
+
+(lays cut down all the wood, made fields, and brought them under cultivation.
+
+When the sprite had ended this discourse, he declared the Truths and identified the Birth—“Kokalika was then the foolish Sprite, Sariputta the Lion, Moggallana the Tiger, and the wise Sprite was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

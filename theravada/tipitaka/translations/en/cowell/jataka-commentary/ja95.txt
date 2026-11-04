@@ -1,0 +1,59 @@
+Ja 95: Mahasudassana Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja95.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“How transient.”—This story was told by the Master as he lay on his death-bed, concerning Ananda’s words, “O Blessed One, suffer not your end to be in this sorry little town.”
+
+“When the Buddha was dwelling at Jetavana,” thought the Master, “the Elder Sariputta, who was born in Nala village, died at Varaka in the month of Kattika, when the moon was at the full; and in the selfsame month, when the moon was on the wane, the great Moggallana died. My two chief disciples being dead, I too will pass away, in Kusinara.”—So thought the Blessed One; and coming in his alms-pilgrimage to Kusinara, there upon the Northward bench between the twin Sal-trees he lay down never to rise again. Then said the Elder Ananda, “O Blessed One, suffer not your end to be in this sorry little town, this rough little town in the jungle, this little suburban town. Shall not Rajagaha or some other large city be the death-place of the Buddha?”
+
+“Nay, Ananda,” said the Master; “call not this a sorry little town, a little town in the jungle, a little suburban town. In bygone days, in the days of Sudassana’s universal monarchy, it was in this town that I had my dwelling. It was then a mighty city encompassed by jewelled walls twelve leagues round.” Therewithal, at the Elder’s request, he told this story of the past and uttered the Maha-Sudassana Sutta.
+
+Then it was that Sudassana’s queen Subhadda marked how, after coming down from the Palace of Truth, her lord was lying hard by on his right side on the couch prepared for him in the Palm-grove which was all of gold and jewels,—that couch from which he was not to rise again. And she said, “Eighty-four thousand cities, chief of which is the royal-city of Kusavati, own your sovereignty, sire. Set your heart on them.”
+
+“Say not so, my queen,” said Sudassana; “rather exhort me, saying, ‘Keep your heart set on this town, and yearn not after those others’.”
+
+“Why so, my lord?”
+
+“Because I shall die to-day,” answered the king.
+
+In tears, wiping her streaming eyes, the queen managed to sob out the words the king bade her say. Then she broke into weeping and lamentation; and the other women of the harem, to the number of eighty-four thousand, also wept and wailed; nor could any of the courtiers forbear, but all alike joined in one universal lament.
+
+“Peace!” said the Bodhisatta; and at his word their lamentation was stilled. Then, turning to the queen, he said,—“Weep not, my queen, nor wail. For, even down to a tiny seed of sesamum, there is no such thing as a compound thing which is permanent; all are transient, all must break up.” Then, for the queen’s behoof, he uttered this stanza—
+
+How transient are all component things!
+
+Growth is their nature and decay:
+
+They are produced, they are dissolved again:
+
+And then is best,—when they have sunk to rest.
+
+ Thus did the great Sudassana lead his discourse up to ambrosial Nirvana as its goal. Moreover, to the rest of the multitude he gave the exhortation to be charitable, to obey the Commandments, and to keep hallowed the fast days. The destiny be won was to be re-born thereafter in the Realm of Devas.
+
+His lesson ended, the Master identified the Birth by saying, “The mother of Rahula was the Queen Subhadda of those days; Rahula was the King’s eldest son; the disciples of the Buddha were his courtiers; and I myself the great Sudassana.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,17 @@
+{
+  "name": "SuttaCentral Kovilo Petavatthu batch",
+  "commit": "6a395ceb6f28549111d7d96859f7f6f6610afc01",
+  "publication_id": "scpub106",
+  "translator_id": "kovilo",
+  "translator": "Kovilo Bhikkhu",
+  "collection": "kn/pv",
+  "source_ids": ["pv1"],
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "snapshot_dir": "metadata/source-snapshots/suttacentral-kovilo-pv",
+  "output_dir": "theravada/tipitaka/translations/en/suttacentral/kovilo/sutta/kn/pv",
+  "ledger": "theravada/tipitaka/sutta/suttacentral-kovilo-text-ledger.tsv",
+  "audited": "2026-10-27",
+  "scope": "PV 1 complete; the wider Petavatthu translation is in progress.",
+  "use_note": "Website text and downloads. Respect the translator's request against AI training."
+}

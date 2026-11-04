@@ -1,0 +1,17 @@
+{
+  "name": "SuttaCentral Kelly Milindapanha initial questions",
+  "commit": "6a395ceb6f28549111d7d96859f7f6f6610afc01",
+  "publication_id": "scpub92",
+  "translator_id": "kelly",
+  "translator": "John Kelly",
+  "collection": "kn/mil",
+  "source_ids": ["mil3.1.1", "mil3.1.2", "mil3.1.3", "mil3.1.4", "mil3.1.5", "mil3.1.6", "mil3.1.7", "mil3.1.8"],
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "snapshot_dir": "metadata/source-snapshots/suttacentral-kelly-mil",
+  "output_dir": "theravada/tipitaka/translations/en/suttacentral/kelly/sutta/kn/mil",
+  "ledger": "theravada/tipitaka/sutta/suttacentral-kelly-text-ledger.tsv",
+  "audited": "2026-10-27",
+  "scope": "Eight complete units; the full translation remains incomplete. Milindapanha is an edition-specific Theravada inclusion.",
+  "use_note": "Website text and downloads. Respect the translator's request against AI training."
+}

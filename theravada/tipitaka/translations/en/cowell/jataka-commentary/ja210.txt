@@ -1,0 +1,59 @@
+Ja 210: Kandagalaka Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja210.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“O friend,” etc.—This was told by the Master, during a stay in Veluvana, about Devadatta’s attempts to imitate him. When he heard of these attempts to imitate him, the Master said, “This is not the first time Devadatta has destroyed himself by imitating me; the same thing happened before.” Then he told this story.
+
+ Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta entered into life as a Woodpecker. In a wood of acacia trees he lived, and his name was Khadiravaniya, the Bird of the Acacia Wood. He had a comrade named Kandagalaka, or Eatbulb, who got his food in a wood full of good fruit.
+
+One day the friend went to visit Khadiravaniya. “My friend is come!” thought Khadiravaniya; and he led him into the acacia wood, and pecked at the tree-trunks until the insects came out, which he gave to his friend. As each was given him, the friend pecked it up, and ate it, as if it were a honey cake. As he ate, pride arose in his heart. “This bird is a woodpecker,” thought he, “and so am I. What need for me to be fed by him? I will get nay own food in this acacia wood!” So he said to Khadiravaniya,
+
+“Friend, don’t trouble yourself,—I will get my own food in the acacia wood.”
+
+Then said the other, “You belong to a tribe of birds which finds its food in a forest of pithless silk-cotton trees, and trees that bear abundant fruit; but the acacia is full of pith, and hard. Please do not do so!”
+
+“What!” said Kandagalaka—“am I not a woodpecker?” And he would not listen, but pecked at an acacia trunk. In a moment his beak snapped off, and his eyes bade fair to fall out of his head, and his head split. So not being able to hold fast to the tree, he fell to the ground, repeating the first verse:
+
+“O friend, what is this thorny, cool-leaved tree
+
+Which at one blow has broke my beak for me?”
+
+Having heard this, Khadiravaniya recited the second stanza:
+
+“This bird was good for rotten wood
+
+And soft; but once he tried,
+
+By some ill hap, hard trees to tap;
+
+And broke his skull, and died.”
+
+ So said Khadiravaniya; and added, “O Kandagalaka, the tree where you broke your head is hard and strong!” But the other perished then and there.
+
+When the Master had ended this discourse, he identified the Birth—“Devadatta was Kandagalaka, but Khadiravaniya was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

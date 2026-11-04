@@ -1,0 +1,77 @@
+Ja 403: Atthisena Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja403.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Atthisena, many beggars,” etc.—The Master told this when dwelling in the shrine called Aggalava near Alavi, concerning the regulations for the building of cells. The occasion was told in the Manikantha Birth above. The Master addressed the Brethren, saying, “Brethren, formerly before Buddha was born in the world, priests of other religions, even though offered their choice by kings, never asked for alms, holding that begging from others was not agreeable or pleasant,” and so he told the tale of old time.
+
+Once upon a time when Brahmadatta was reigning in Benares, the Bodhisatta was born in a brahmin household in a certain village, and they called his name young Atthisena. When he grew up, he learned all the arts at Takkasila, and afterwards seeing the misery of desires he took the religious life, and reaching the higher Faculties and Attainments, he dwelt long in the Himalaya: then coming down among men to get salt and vinegar, he reached Benares, and after staying in a garden he came begging next day to the king’s court. The king, being pleased with his bearing and manner, sent for him, and set him on a seat on the terrace, giving him good food: then receiving his thanks he was pleased, and exacting a promise made the Bodhisatta dwell in the royal garden, and went to wait on him two or three times each day. One day, being pleased with his preaching of the law, he gave him a choice, saying, “Tell me whatever you desire, beginning from my kingdom.” The Bodhisatta did not say, “Give me so and so.” Others ask for whatever they desire, saying, “Give me this,” and the king gives it, if not attached to it. One day the king thought, “Other suitors and mendicants ask me to give them so and so; but the noble Atthisena, ever since I offered him a choice, asks for nothing; he is wise and skilful in device: I will ask him.” So one day after the early meal he sat on one side, and asking him as to the cause of other men’s making suits and his own making none, he spoke the first stanza—
+
+Atthisena, many beggars, though they’re strangers utterly,
+
+Throng to me with their petitions: why hast thou no suit to me?
+
+ Hearing him the Bodhisatta spoke the second stanza—
+
+Neither suitor, nor rejector of a suit, can pleasant be:
+
+That’s the reason, be not angry, why I have no suit to thee.
+
+Hearing his words the king spoke three stanzas—
+
+He who lives by sueing, and has not at proper season sued,
+
+Makes another fall from merit, fails to gain a livelihood.
+
+He who lives by sueing, and has aye at proper season sued,
+
+Makes another man win merit, gains himself a livelihood.
+
+Men of wisdom are not angry when they see the suitors throng;
+
+Speak, my holy friend; the boon thou askest never can be wrong.
+
+ So the Bodhisatta, even though given the choice of the kingdom, made no suit. When the king’s wish had been so expressed, the Bodhisatta to show him the priests’ way said, “O great king, these suits are preferred by men of worldly desires and householders, not by priests: from their ordination priests must have a pure life unlike a householder: “ and so showing the priests’ way, he spoke the sixth stanza—
+
+Sages never make petitions, worthy laymen ought to know:
+
+Silent stands the noble suitor: sages make petition so.
+
+ The king hearing the Bodhisatta’s words said, “Sir, if a wise attendant of his own knowledge gives what ought to be given to his friend, so I give to you such and such a thing,” and so he spoke the seventh stanza—
+
+Brahmin, I offer thee a thousand kine,
+
+Red kine, and eke the leader of the herd:
+
+Hearing but now those generous deeds of thine,
+
+I too in turn to generous deeds am stirred.
+
+When he said this, the Bodhisatta refused, saying, “Great king, I took the religious life free from defilement: I have no need of cows.” The king abode by his admonition; doing alms and other good works he became destined for heaven, and not falling away from his meditation, was born in the Brahma world.
+
+After the lesson, the Master declared the Truths and identified the Birth—After the Truths many were established in the fruition of the First Path—“At that time the king was Ananda, Atthisena was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

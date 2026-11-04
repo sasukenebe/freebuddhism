@@ -1,0 +1,55 @@
+Ja 187: Catumatta Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja187.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Sit and sing,” etc.—This story the Master told while staying at Jetavana, about an old Brother. Once, we are told, two of the chief disciples were sitting together, questioning and answering; when up came au old Brother, and made a third. Taking a seat, he said, “I have a question too, Sirs, which I should like to ask you: and if you have any difficulty, you may put it to me.” The Elders were disgusted; they rose up and left him. The congregation who listened to the discourse of the Elders, after the meeting broke up, came to the Master; he asked what brought them there untimely and they told him what had happened. He replied, “This is not the first time, Brethren, that Sariputta and Moggallana have been disgusted with this man, and left him without a word; it was just the same in olden days.” And he proceeded to tell a story of the past.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta became a tree-sprite that lived in a forest. Two young Geese flew down from Mount Cittakuta and perched upon this tree. They flew about in search of food, returned thither again, and after resting flew back to their mountain home. As time went on and on, the sprite struck up a friendship with them. Coming and going, they were great friends, and used to talk of religion to one another before they parted.
+
+It happened one day as the birds sat on the treetop, talking with the Bodhisatta, that a Jackal, halting at the foot of the tree, addressed the young Geese in the words of the following stanza:
+
+“Sit and sing upon the tree
+
+If in private you would be.
+
+Sit upon the ground, and sing
+
+Verses to the beasts’ own king!”
+
+Filled with disgust, the young Geese took wing and flew back to Cittakuta. When they were gone, the Bodhisatta repeated the second stanza for the Jackal’s benefit—
+
+“Fairwing here to fairwing sings,
+
+God to god sweet converse brings;
+
+Perfect beauty, you must then
+
+Back into your hole again!”
+
+ When the Master had ended this discourse, he identified the Birth—“In those times the old man was the Jackal, Sariputta and Moggallana the two young Geese, and I myself was the tree-sprite.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

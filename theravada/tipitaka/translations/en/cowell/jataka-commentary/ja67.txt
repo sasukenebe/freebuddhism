@@ -1,0 +1,61 @@
+Ja 67: Ucchanga Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja67.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“A son’s an easy find.”—This story was told by the Master while at Jetavana, about a certain country-woman.
+
+For it fell out once in Kosala that three men were ploughing on the outskirts of a certain forest, and that robbers plundered folk in that forest and made their escape. The victims came, in the course of a fruitless search for the rascals, to where the three men were ploughing. “Here are the forest robbers, disguised as husbandmen,” they cried, and hauled the trio off as prisoners to the King of Kosala. Now time after time there came to the king’s palace a woman who with loud lamentations begged for “wherewith to be covered.” Hearing her cry, the king ordered a shift to be given her; but she refused it, saying this was not what she meant. So the king’s servants came back to his majesty and said that what the woman wanted was not clothes but a husband. Then the king had the woman brought into his presence and asked her whether she really did mean a husband.
+
+“Yes, sire,” she answered; “for a husband is a woman’s real covering, and she that lacks a husband—even though she be clad in garments costing a thousand pieces—goes bare and naked indeed.”
+
+(And to enforce this truth, the following Sutta should be recited here—
+
+Like kingless kingdoms, like a stream run dry,
+
+So bare and naked is a woman seen,
+
+Who, having brothers ten, yet lacks a mate.)
+
+Pleased with the woman’s answer, the king asked what relation the three prisoners were to her. And she said that one was her husband, one her brother, and one her son. “Well, to mark my favour,” said the king, “I give you one of the three. Which will you take?” “Sire,” was her answer, “if I live, I can get another husband and another son; but as my parents are dead, I can never get another brother. So give me my brother, Sire.” Pleased with the woman, the king set all three men at liberty; and thus this one woman was the means of saving three persons from peril.
+
+When the matter came to the knowledge of the Brotherhood, they were lauding the woman in the Hall of Truth, when the Master entered. Learning on enquiry what was the subject of their talk, he said, “This is not the first time, Brethren, that this woman has saved those three from peril; she did the same in days gone by.” And, so saying, he told this story of the past.
+
+Once on a time when Brahmadatta was reigning in Benares, three men were ploughing on the outskirts of a forest, and everything came to pass as above.
+
+Being asked by the king which of the three she would take, the woman said, “Cannot your majesty give me all three?” “No,” said the king, “I cannot.” “Well, if I cannot have all three, give me my brother.” “Take your husband or your son,” said the king. “What matters a brother?” “The two former I can readily replace,” answered the woman, “but a brother never.” And so saying, she repeated this stanza—
+
+A son ‘s an easy find; of husbands too
+
+An ample choice throngs public ways. But where
+
+Will all my pains another brother find?
+
+“She is quite right,” said the king, well-pleased. And he bade all three men be fetched from the prison and given over to the woman. She took them all three and went her way.
+
+ “So you see, Brethren,” said the Master, “that this same woman once before saved these same three men from peril.” His lesson ended, he made the connexion and identified the Birth by saying, “The woman and the three men of to-day were also the woman and men of those bygone days; and I was then the king.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

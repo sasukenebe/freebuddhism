@@ -1,0 +1,91 @@
+Ja 468: Janasandha Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 4, 1901
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol4/ja468.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Thus spake,” etc. This story the Master told while dwelling at Jetavana, for the instruction of the King of Kosala.
+
+At one time, they say the king, intoxicated with power, and devoted to the pleasures of sin, held no court of justice, and grew remiss in attending upon the Buddha. One day he remembered the Dasabala; thought he, “I must visit him.” So after breaking his fast, he ascended his magnificent chariot, and proceeding to the monastery, greeted him and took a seat. “How is it, great King,” asked the Bodhisatta, “that you have not showed yourself for so long?” “O, sir,” replied the king, “I have been so busy, that there has been no opportunity of waiting upon you.” “Great King,” quoth he, “not meet is it to neglect such as I am, who can give admonition, Supreme Buddhas, dwelling too in a monastery in front. A king ought to rule vigilant in all kingly duties, to his subjects like mother or father, forsaking all evil courses, never omitting the ten virtues of a king. When a king is righteous, those who surround him are righteous also. No marvel were it, in truth, if under my instruction you were to rule in righteousness; but wise men of old, even when there was no teacher to instruct them, by their own understanding established in the threefold practice of well-doing, declared the Law to a great multitude of people, and with all their attendants went to swell the hosts of heaven.” With these words, at his request, the Master told a story of the past.
+
+Once upon a time, when Brahmadatta was king in Benares, the Bodhisatta was born as son of his Queen Consort. They gave him the name of Prince Janasandha. Now when he came of age, and had returned from Takkasila, where he had been educated in all accomplishments, the king gave a general pardon to all prisoners, and gave him the viceroyalty. Afterwards when his father died, he became king, and then he caused to be built six almonries: at the four gates of the city, in the midst of it, and at the palace gate. There day by day he used to distribute six hundred thousand pieces of money, and stirred up all India with his almsgiving: the prison doors he opened for good and all, the places of execution he destroyed, all the world he protected with the four sorts of beneficence, he kept the five virtues, observed the holy fast-day, and ruled in righteousness. From time to time he would gather together his subjects, and declare the Law to them: “Give alms, practise virtue, righteously follow your business and calling, educate yourselves in the days of your youth, gain wealth, do not behave like a village cheat or a dog, be not harsh nor cruel, do your duty in caring for mother and for father, in family life honour your elders.” Thus he confirmed multitudes of people in good living.
+
+Once on the holy day, fifteenth of the fortnight, having undertaken to keep the holy day, he thought to himself, “I will declare the Law to the multitudes, for the continual increase of good and blessing to them, and to make them vigilant in their life.” Then he caused the drum to beat, and beginning with the women of his own household, gathered together all the people of the city. In the courtyard of his palace he sat, on a splendid couch set apart, beneath a pavilion adorned with jewels, and declared the Law in these words: “O people of the city! to you I will declare the practices that will cause you suffering, and these which will not. Be vigilant, and hear with care and attention.”
+
+The Master opened his mouth, a precious jewel among mouths, full of truth, and with a voice sweet as honey explained this address of the king of Kosala:
+
+“Thus spake King Janasandha: Ten things in truth there be,
+
+Which if a man omit to do, he suffers presently.
+
+“Not to have got nor gathered store in time, the heart torments;
+
+To think he sought no wealth before he afterwards repents.
+
+“How hard is life for men untaught! he thinks, repenting sore
+
+That learning, which he now might use, he would not learn before.
+
+“A slanderer once, dishonest once, a backbiter unkind,
+
+Cruel, and harsh was I: good cause for sorrow now I find.
+
+ “A slayer was I, merciless, and to no creature gave,
+
+Contemptible: for this (quoth he) much sorrow now I have.
+
+“When I had many wives (thinks he) to whom I owed their due,
+
+I left them for another’s wife; which now I dearly rue.
+
+“When plenteous store of food and drink there was, he sorrows sore,
+
+To think he never gave a gift in the old time before.
+
+“He grieves to think that when he could, he would not care and tend
+
+Mother and father, now grown old, their youth now at an end.
+
+“To have slighted teacher, monitor, or father, who would try
+
+To gratify his every wish, causes deep misery.
+
+“To have treated brahmins with neglect, ascetics many a one
+
+Holy, and learned, in the past, makes him repent anon.
+
+“Sweet is austerity performed, a good man honoured well:
+
+That he did no such thing before ’Tis sad to have to tell.
+
+“Who these ten things in wisdom brings to full accomplishment,
+
+And to all men his duty does, will never need repent.”
+
+ Thus twice in the month did the Great Being discourse in the same way to the multitude. And the multitude, established in his admonition, fulfilled these ten things, and became destined for heaven.
+
+When the Master had ended this discourse, he said, “Thus, O great king, wise men of old, untaught and from their own intelligence, declared the Law, and established multitudes in the way to heaven.” With these words, he identified the Birth: “At that time the Buddha’s followers were the people, and I was myself King Janasandha.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

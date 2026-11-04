@@ -1,0 +1,63 @@
+Ja 381: Migalopa Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja381.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Your ways, my son,” etc.—The Master told this tale in Jetavana, of an unruly Brother. The Master asked the Brother, “Are you really unruly?” He said, “Yes, lord”: and the Master saying, “You are not unruly for the first time; formerly too through unruliness you did not the bidding of the wise and met your death by the Verambha winds,” told an old-world tale.
+
+Once upon a time when Brahmadatta was king in Benares, the Bodhisatta was born as a vulture by name Aparannagijjha, and dwelt among a retinue of vultures in Gijjhapabbata (Vulture Mountain). His son, Migalopa by name, was exceedingly strong and mighty; he flew high above the reach of the other vultures. They told their king that his son flew very far. He called Migalopa, and saying, “Son, they say you fly too high: if you do, you will bring death on yourself,” spoke three stanzas:
+
+Your ways, my son, to me unsafe appear,
+
+You soar too high, above our proper sphere.
+
+When earth is but a square field to your sight,
+
+Turn back, my son, and dare no higher flight.
+
+Other birds on soaring pinions lofty flight e’er now have tried,
+
+Struck by furious wind and tempest they have perished in their pride.
+
+ Migalopa through disobedience did not do his father’s bidding, but rising and rising he passed the limit his father told him, clove even the Black Winds when he met them, and flew upwards till he met the Verambha winds in the face. They struck him, and at their mere stroke he fell into pieces and disappeared in the air.
+
+His aged father’s wise commands disdained,
+
+Beyond the Black, Verambha Winds he gained.
+
+His wife, his children, all his household herd,
+
+All came to ruin through that froward bird.
+
+So they who heed not what their elders say,
+
+Like this proud vulture beyond bounds astray,
+
+Meet ruin, when right rules they disobey.
+
+After the lesson the Master identified the Birth: “At that time Migalopa was the unruly Brother, Aparanna was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

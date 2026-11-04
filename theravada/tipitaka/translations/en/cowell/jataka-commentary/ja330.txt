@@ -1,0 +1,75 @@
+Ja 330: Silavimamsa Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja330.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Power on earth,” etc.—This was a story told by the Master when at Jetavana, about a brahmin who was ever proving his virtue. Two similar stories have been told before. In this case the Bodhisatta was the family priest of the king of Benares.
+
+In testing his virtue he for three days took a coin from the royal treasurer’s board. They informed against him as a thief, and when brought before the king, he said:
+
+Power on earth beyond compare,
+
+Virtue owns a wondrous charm:
+
+Putting on a virtuous air
+
+Deadly snakes avoid all harm.
+
+After thus praising virtue in the first stanza, he gained the king’s consent and adopted the ascetic life. Now a hawk seized a piece of meat in a butcher’s shop and darted up into the air. The other birds surrounded him and struck at him with feet, claws and beaks. Unable to bear the pain he dropped the piece of meat. Another bird seized it. It too in like manner being hard pressed let the meat fall. Then another bird pounced on it, and whosoever got the meat was pursued by the rest, and whosoever let it go was left in peace. The Bodhisatta on seeing this thought, “These desires of ours are like pieces of meat. To those that grasp at them is sorrow, and to those that let them go is peace.” And he repeated the second stanza:
+
+While the hawk had aught to eat,
+
+Birds of prey pecked at him sore,
+
+When perforce he dropped the meat,
+
+Then they pecked at him no more.
+
+ The ascetic going forth from the city, in the course of his journey came to a village, and at evening lay down in a certain man’s house. Now a female slave there named Pingala made an assignation with a man, saying, “You are to come at such and such an hour.” After she had bathed the feet of her master and his family, when they had lain down, she sat on the threshold, looking out for the coming of her lover, and passed the first and the middle watch, repeating to herself, “Now he will be coming,” but at daybreak, losing hope, she said, “He will not come now,” and lay down and fell asleep. The Bodhisatta seeing this happen said, “This woman sat ever so long in the hope that her lover would come, but now that she knows he will not come, in her despair, she slumbers peacefully.” And with the thought that while hope in a sinful world brings sorrow, despair brings peace, he uttered the third stanza:
+
+The fruit of hope fulfilled is bliss;
+
+How differs loss of hope from this?
+
+Though dull despair her hope destroys,
+
+Lo! Pingala calm sleep enjoys.
+
+Next day going forth from that village he entered into a forest, and beholding a hermit seated on the ground and indulging in meditation he thought, “Both in this world and in the next there is no happiness beyond the bliss of meditation.” And he repeated the fourth stanza:
+
+In this world and in worlds to be
+
+Nought can surpass ecstatic joy:
+
+To holy calm a devotee,
+
+Himself unharmed, will none annoy.
+
+ Then he went into the forest and adopted the ascetic life of a Rishi and developed the higher knowledge born of meditation, and became destined to birth in the Brahma-World.
+
+The Master, having ended his lesson, identified the Birth: “At that time I myself was the family priest.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

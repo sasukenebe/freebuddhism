@@ -1,0 +1,71 @@
+Ja 204: Viraka Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja204.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“O have you seen,” etc.—This story the Master told, while dwelling at Jetavana, about imitating the Buddha.
+
+When the Elders had gone with their followers to visit Devadatta, the Master asked Sariputta what Devadatta had done when he saw them. The reply was that he had imitated the Buddha. The Master rejoined, “Not now only has Devadatta imitated me and thereby come to ruin; he did just the same before.” Then, at the Elder’s request, he told an old-world tale.
+
+ Once upon a time, while Brahmadatta reigned as king in Benares, the Bodhisatta became a marsh crow, and dwelt by a certain pool. His name was Viraka, the Strong.
+
+There arose a famine in Kasi. Men could not spare food for the crows, nor make offering to goblins and snakes. One by one the crows left the famine-stricken land, and betook them to the woods.
+
+A certain crow named Savitthaka, who lived at Benares, took with him his lady crow and went to the place where Viraka lived, making his abode beside the same pool.
+
+One day, this crow was seeking food about the pool. He saw how Viraka went down into it, and made a meal off some fish; and afterwards came up out of the water again, and stood drying his feathers. “Under the wing of that crow,” thought he, “plenty of fish are to be got. I will become his servant.” So he drew near.
+
+“What is it, Sir?” asked Viraka.
+
+“I want to be your servant, my lord!” was the reply.
+
+Viraka agreed, and from that time the other served him. And from that time, Viraka used to eat enough fish to keep him alive, and the rest he gave to Savitthaka as soon as he had caught them; and when Savitthaka had eaten enough to keep him alive, he gave what was over to his wife.
+
+After a while pride came into his heart. “This crow,” said he, “is black, and so am I: in eyes and beak and feet, too, there is no difference between us. I don’t want his fish; I will catch my own!” So he told Viraka that for the future he intended to go down to the water and catch fish himself. Then Viraka said, “Good friend, you do not belong to a tribe of such crows as are born to go into water and catch fish. Don’t destroy yourself!
+
+But in spite of this attempt to dissuade him, Savitthaka did not take the warning to heart. Down he went to the pool, down into the water; but he could not make his way through the weeds and come out again—there he was, entangled in the weeds, with only the tip of his beak appearing above the water. So not being able to breathe he perished there beneath the water.
+
+ His mate noticed that he did not return, and went to Viraka to ask news of him. “My lord,” she asked, “Savitthaka is not to be seen: where is he?” And as she asked him this, she repeated the first stanza:
+
+“O have you seen Savitthaka, O Viraka, have you seen
+
+My sweet-voiced mate whose neck is like the peacock in its sheen?”
+
+When Viraka heard it, he replied, “Yes, I know where he is gone,” and recited the second stanza—
+
+“He was not born to dive beneath the wave,
+
+But what he could not do he needs must try;
+
+So the poor bird has found a watery grave,
+
+Entangled in the weeds, and left to die.”
+
+When the Lady-crow heard it, weeping, she returned to Benares.
+
+After this discourse was ended, the Master identified the Birth: “Devadatta was then incarnate as Savitthaka, and I myself was Viraka.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

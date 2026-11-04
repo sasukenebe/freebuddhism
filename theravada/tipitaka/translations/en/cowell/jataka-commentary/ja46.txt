@@ -1,0 +1,65 @@
+Ja 46: Aramadusaka Jātaka
+Translated by Robert Chalmers
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 1, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol1/ja46.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“’Tis knowledge.”—This story was told by the Master in a certain hamlet of Kosala about one who spoiled a pleasaunce.
+
+Tradition says that, in the course of an alms-journey among the people of Kosala, the Master came to a certain hamlet. A squire of the place invited the Buddha to take the mid-day meal at his house, and had his guest seated in the pleasaunce, where he shewed hospitality to the Brotherhood with the Buddha at its head, and courteously gave them leave to stroll at will about his grounds. So the Brethren rose up and walked about the grounds with the gardener. Ob-serving in their walk a bare space, they said to the gardener, “Lay-disciple, elsewhere in the pleasaunce there is abundant shade; but here there’s neither tree nor shrub. How comes this?”
+
+“Sirs,” replied the man, “when these grounds were being laid out, a village lad, who was doing the watering, pulled up all the young trees hereabouts and then gave them much or little water according to the size of their roots. So the young trees withered and died off; and that is why this space is bare.”
+
+Drawing near to the Master, the Brethren told him this. “Yes, Brethren,” said he, “this is not the first time that village lad has spoiled a pleasaunce; he did precisely the same in bygone times also.” And so saying, he told this story of the past.
+
+Once on a time when Brahmadatta was king of Benares, a festival was proclaimed in the city; and at the first summoning notes of the festal drum out poured the townsfolk to keep holiday.
+
+Now in those days, a tribe of monkeys was living in the king’s pleasaunce; and the king’s gardener thought to himself, “They ‘re holiday-making up in the city. I’ll get the monkeys to do the watering for me, and be off to enjoy myself with the rest.” So saying, he went to the king of the monkeys, and, first dwelling on the benefits his majesty and his subjects enjoyed from residence in the pleasaunce in the way of flowers and fruit and young shoots to eat, ended by saying, “To-day there’s holiday-making up in the city, and I’m off to enjoy myself. Couldn’t you water the young trees while I’m away?”
+
+“Oh! yes,” said the monkey.
+
+“Only mind you do,” said the gardener; and off he went, giving the monkeys the water-skins and wooden watering-pots to do the work with.
+
+Then the monkeys took the water-skins and watering pots, and fell to watering the young trees. “But we must mind not to waste the water,” observed their king; “as you water, first pull each young tree up and look at the size of its roots. Then give plenty of water to those whose roots strike deep, but only a little to those with tiny roots. When this water is all gone, we shall be hard put to it to get more.”
+
+“To be sure,” said the other monkeys, and did as he bade them.
+
+At this juncture a certain wise man, seeing the monkeys thus engaged, asked them why they pulled up tree after tree and watered them according to the size of their roots.
+
+“Because such are our king’s commands,” answered the monkeys.
+
+Their reply moved the wise man to reflect how, with every desire to do good, the ignorant and foolish only succeed in doing harm. And he recited this stanza:
+
+’Tis knowledge crowns endeavour with success,
+
+For fools are thwarted by their foolishness,
+
+—Witness the ape that killed the garden trees.
+
+With this rebuke to the king of the monkeys, the wise man departed with his followers from the pleasaunce.
+
+Said the Master, “This is not the first time, Brethren, that this village lad has spoiled pleasaunces; he was just the same in bygone times also.” His lesson ended, he shewed the connexion and identified the Birth by saying, “The village lad who spoiled this pleasaunce was the king of the monkeys in those days, and I was myself the wise and good man.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

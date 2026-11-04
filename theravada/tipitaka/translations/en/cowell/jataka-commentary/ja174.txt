@@ -1,0 +1,57 @@
+Ja 174: Dubhiya-Makkata Jātaka
+Translated by W. H. D. Rouse
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 2, 1895
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol2/ja174.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+ “Plenty of water,” etc.—This story the Master told in his sojourn at Veluvana, about Devadatta. One day it happened that the Brethren were talking in the Hall of Truth about Devadatta’s ingratitude and treachery to his friends, when the Master broke in, “Not this once only, Brethren, has Devadatta been ungrateful and treacherous to his own friends. He was just the same before.” Then he told them an old story.
+
+Once upon a time, when Brahmadatta was king of Benares, the Bodhisatta was born into a brahmin family in a certain Kasi village, and when he grew of age, married and settled down. Now in those clays there was a certain deep well by the highway in Kasi-land, which had no way down to it. The people who passed by that way, to win merit, used to draw water by a long rope and a bucket, and fill a trough for the animals; thus they gave the animals water to drink. All around lay a mighty forest, wherein troops of monkeys dwelt.
+
+It happened by a chance that for two or three days the supply of water ceased which wayfarers used to draw; and the creatures could get nothing to drink. A Monkey, tormented with thirst, walked up and down by the well looking for water.
+
+Now the Bodhisatta came that way on some errand, drew water for himself, drank it, and washed his hands; then he noticed our Monkey. Seeing how thirsty he was, the traveller drew water from the well and filled the trough for him. Then he sat down under a tree, to see what the creature would do.
+
+The Monkey drank, sat down near, and pulled a monkey-grimace, to frighten the Bodhisatta. “Ah, you bad monkey!” said he, at this—“when you were thirsty and miserable, I gave you plenty of water; and now you make monkey-faces at me. Well, well, help a rascal and you waste your pains.” And he repeated the first stanza:
+
+“Plenty of water did I give to you
+
+When you were chafing hot and thirsty too:
+
+Now full of mischief you sit chattering,—
+
+With wicked people best have nought to do.”
+
+Then this spite-friend monkey replied, “I suppose you think that’s all I can do. Now I’ll drop something on your head before I go.” Then, repeating the second stanza, he went on—
+
+“A well-conducted monkey who did ever hear or see
+
+I leave my droppings on your head; for such our manners he.”
+
+As soon as he heard this the Bodhisatta got up to go. But at the very instant this Monkey from the branch where he sat dropt it like a festoon upon his head; and then made off into the forest shrieking. The Bodhisatta washed, and went his way.
+
+ When the Master had ended this discourse, after saying “It is not only now that Devadatta is so, but in former days also he would not acknowledge a kindness which I showed him,” he identified the Birth: “Devadatta was the Monkey then, and the brahmin was I myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

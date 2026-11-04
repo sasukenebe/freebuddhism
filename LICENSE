@@ -1,0 +1,11 @@
+License scope for this repository
+
+Original software: 0BSD, as provided in LICENSES/0BSD.txt.
+Original documentation and original explanatory website material: CC0-1.0,
+as provided in LICENSES/CC0-1.0.txt.
+
+Imported Buddhist texts are not covered by either license above. Their actual
+CC0 or verified-public-domain status, source, translator, and scope are recorded
+in metadata/eligible-texts.json. Third-party source terms remain in force.
+Excluded-source metadata does not include the excluded texts and does not
+change their rights.

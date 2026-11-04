@@ -1,0 +1,2 @@
+canonical_id	collection_path	txt_path	label	version_label	source_url	license	source_commit	upstream_file
+Mil 5.2.1	khuddaka-nikaya/milindapanha	theravada/tipitaka/translations/en/suttacentral/kelly/sutta/kn/mil/mil5.2.1.txt	1. Question on the Lesser and Minor Rules	John Kelly translation (CC0-1.0)	https://suttacentral.net/mil5.2.1/en/kelly	CC0-1.0	da23a8afdd1be12267ecf4a0ff94af5187093702	sutta/kn/mil/mil5.2.1_translation-en-kelly.json

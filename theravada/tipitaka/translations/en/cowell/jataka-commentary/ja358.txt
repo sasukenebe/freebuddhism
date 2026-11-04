@@ -1,0 +1,93 @@
+Ja 358: Culladhammapala Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja358.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Mahapatapa’s wretched queen,” etc.—This story the Master, when dwelling n. the Bamboo Grove, told concerning the going about of Devadatta to slay the Bodhisatta. In all other Births Devadatta failed to excite so much as an atom of fear in the Bodhisatta, but in the Culladhammapala Birth, when the Bodhisatta was only seven months old, he had his hands and feet and head cut off and his body encircled with sword cuts, as it were with a garland. In the Daddara Birth he killed him by twisting his neck, and roasted his flesh in an oven and ate it. In the Khantivadi Birth he had him scourged with two thousand strokes of a whip, and ordered his hands and feet and ears and nose to be cut off, and then had him seized by the hair of his head and dragged along, and when he was stretched at full length on his back, he kicked him in the belly and made off, and that very day the Bodhisatta died. But both in the Cullanandaka and the Vevatiyakapi Births he merely had him put to death. Thus did Devadatta for a long time go about to slay him, and continued to do so, even after he became a Buddha. So one day they raised a discussion in the Hall of Truth, saying, “Sirs, Devadatta is continually forming plots to slay the Buddhas. Being minded to kill the Supreme Buddha, he suborned archers to shoot him, he threw down a rock upon him, and let loose the elephant Nalagiri on him.” When the Master came and inquired what subject the Brethren were assembled to discuss, on hearing what it was he said, “Brethren, not now only, but formerly too he went about to kill me, but now he fails to excite a particle of fear in me, though formerly when I was prince Dhammapala he brought about my death, though I was his own son, by encircling my body with sword cuts, as it were with a garland.” And so saying, he related a story of the past.
+
+Once upon a time when Mahapatapa was reigning in Benares, the Bodhisatta came to life as the son of his queen-consort Canda and they named him Dhammapala. When he was seven months old, his mother had him bathed in scented water and richly dressed and sat playing with him. The king came to the place of her abode. And as she was playing with the boy, being filled with a mother’s love for her child, she omitted to rise up on seeing the king. He thought, “Even now this woman is filled with pride on account of her boy, and does not value me a straw, but as the boy grows up, she will think, “I have a man for my son,” and will take no notice of me. I will have him put to death at once.” So he returned home, and sitting on his throne summoned the executioner into his presence, with all the instruments of his office. The man put on his yellow robe and wearing a crimson wreath laid his axe upon his shoulder, and carrying a block and a bowl in his hands, came and stood before the king, and saluting him said, “What is your pleasure, Sire?”
+
+“Go to the royal closet of the queen, and bring hither Dhammapala,” said the king.
+
+But the queen knew that the king had left her in a rage, and laid the Bodhisatta on her bosom and sat weeping. The executioner came and giving her a blow in the back snatched the boy out of her arms and took him to the king and said, “What is your pleasure, Sire?” The king had a board brought and put down before him, and said, “Lay him down on it.” The man did so. But queen Canda came and stood just behind her son, weeping. Again the executioner said, “What is your pleasure, Sire?” “Cut off Dhammapala’s hands,” said the king. Queen Canda said, “Great king, my boy is only a child, seven months old. He knows nothing. The fault is not his. If there be any fault, it is mine. Therefore bid my hands to be cut off.” And to make her meaning clear, she uttered the first stanza—
+
+Mahapatapa’s wretched queen,
+
+’Tis I alone to blame have been.
+
+Bid Dhammapala, Sire, go free,
+
+And off with hands of luckless me.
+
+The king looked at the executioner. “What is your pleasure, Sire?” “Without further delay, off with his hands,” said the king. At this moment the executioner took a sharp axe, and lopped off the boy’s two hands, as if they had been young bamboo shoots. The boy, when his hands were cut off, neither wept nor lamented, but moved by patience and charity bore it with resignation. But the queen Canda put the tips of his fingers in her lap and stained with blood went about lamenting. Again the executioner asked, “What is your pleasure, Sire?” “Off with his feet,” said the king. On hearing this, Canda uttered the second stanza—
+
+Mahapatapa’s wretched queen,
+
+’Tis I alone to blame have been.
+
+Bid Dhammapala, Sire, go free,
+
+And off with feet of luckless me.
+
+But the king gave a sign to the executioner, and he cut off both his feet. Queen Canda put his feet also in her lap, and stained with blood, lamented and said, “My lord Mahapatapa, his feet and hands are cut off. A mother is bound to support her children. I will work for wages and support my son. Give him to me.” The executioner said, “Sire, is the king’s pleasure fulfilled? Is my service finished?” “Not yet,” said the king. “What then is your pleasure, Sire?” “Off with his head,” said the king. Then Canda repeated the third stanza—
+
+Mahapatapa’s wretched queen,
+
+’Tis I alone to blame have been.
+
+Bid Dhammapala, Sire, go free,
+
+And off with head of luckless me.
+
+And with these words she offered her own head. Again the executioner asked, “What is your pleasure, Sire?” “Off with his head,” said the king. So he cut off his head and asked, “Is the king’s pleasure fulfilled?” “Not yet,” said the king. “What further am I to do, Sire?” “Catching him with the edge of the sword,” said the king, “encircle him with sword cuts as it were with a garland.” Then he threw the body of the boy up into the air, and catching it with the edge of his sword, encircled him with sword cuts, as it were with a garland, and scattered the bits on the dais. Canda placed the flesh of the Bodhisatta in her lap, and as she sat on the dais lamenting, she repeated these stanzas—
+
+ No friendly councillors advise the king,
+
+“Slay not the heir that from thy loins did spring”:
+
+No loving kinsmen urge the tender plea,
+
+“Slay not the boy that owes his life to thee.”
+
+Moreover after speaking these two stanzas queen Canda, pressing both her hands upon her heart, repeated the third stanza—
+
+Thou, Dhammapala, wert by right of birth
+
+The lord of earth:
+
+Thy arms, once bathed in oil of sandal wood,
+
+Lie steeped in blood.
+
+My fitful breath alas! is choked with sighs
+
+And broken cries.
+
+While she was thus lamenting, her heart broke, as a bamboo snaps, when the grove is on fire, and she fell dead on the spot. The king too being unable to remain on his throne fell down on the dais. An abyss was cleft asunder in the ground, and straightway he fell into it. Then the solid earth, though many myriads more than two hundred thousand leagues in thickness, being unable to bear with his wickedness, clave asunder and opened a chasm. A flame arose out of the Avici hell, and seizing upon him, wrapped him about, as with a royal woollen garment, and plunged him into Avici. His ministers performed the funeral rites of Canda and the Bodhisatta.
+
+The Master, having brought this discourse to an end, identified the Birth: “At that time Devadatta was the king, Mahapajapati was Canda, and I myself was prince Dhammapala.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

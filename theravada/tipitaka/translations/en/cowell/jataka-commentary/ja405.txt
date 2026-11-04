@@ -1,0 +1,107 @@
+Ja 405: Baka-Brahma Jātaka
+Translated by H. T. Francis and R. A. Neil
+Edited by E. B. Cowell
+Original edition: Cambridge University Press, volume 3, 1897
+Source HTML: https://raw.githubusercontent.com/suttacentral/sc-data/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ja/vol3/ja405.html
+Pinned source revision: https://github.com/suttacentral/sc-data/commit/2d9ca8da858f94302ed6783e2717bf73d651881b
+License: Public Domain (original English edition, published 1895–1907)
+Scope: Complete numbered source article from the traditional Jātaka commentary; canonical verses appear in story context. This is not a verse-only edition.
+Changes: Converted the pinned SuttaCentral HTML article to plain text; removed inline print page-reference labels and normalized whitespace. The original source retains references.
+
+“Seventy and two,” etc.—The Master told this tale while dwelling in Jetavana, concerning the brahma Baka. In him a false doctrine arose, namely, “This present existence is perpetual, permanent, eternal, unchanging: apart from it there is no salvation or release at all.” In a former birth this brahma had once practised meditation, so he was born in the Vehapphala heaven. Having spent there an existence of five hundred kalpas, he was born in the Subhakinna heaven; after sixty-four kalpas there he passed and was born in the Abhassara heaven, where existence is for eight kalpas. It was there that this false doctrine arose in him. He forgot that he had passed from higher Brahmaloka heavens and had been born in that heaven, and perceiving neither of these things had taken up the false doctrine. The Lord, understanding his reflections, as easily as a strong man can extend his bent arm or bend his extended arm, disappearing from Jetavana, appeared in that Brahmaloka. The brahma, seeing the Lord, said, “Come hither, my lord; welcome, my lord; it is a long time, my lord, since thou hast taken this opportunity, even for coming hither; this world, my lord, is perpetual, it is permanent, it is eternal, it is absolute, it is unchanging; this world is not born, it decays not, it dies not, it passes not away, it is not born again: apart from this world there is no other salvation beyond.” When this was said, the Lord said to Baka the brahma, “Baka the brahma has come to ignorance, he has come to ignorance, when he will say that a thing which is not permanent is permanent, and so on, and that there is no other salvation apart from this when there is another salvation.” Hearing this the brahma thought, “This one presses me hard, finding out exactly what I say,” and as a timid thief, after receiving a few blows, says, “Am I the only thief? so and so and so and so are thieves too,” showing his associates; so he, in fear of the Lord’s questioning, showing that others were his associates, spoke the first stanza—
+
+Seventy and two, O Gotama, are we
+
+Righteous and great, from birth and age we’re free:
+
+Our heaven is wisdom’s home, there’s nought above:
+
+And many others will this view approve.
+
+Hearing his words, the Master spoke the second stanza—
+
+ Short your existence in this world: ’Tis wrong,
+
+Baka, to think existence here is long:
+
+A hundred thousand aeons past and gone
+
+All your existence well to me is known.
+
+Hearing this, Baka spoke the third stanza—
+
+Of wisdom infinite, O Lord, am I:
+
+Birth, age, and sorrow, all beneath me lie:
+
+What should I do with good works, long ago?
+
+Yet tell me something, Lord, that I should know.
+
+Then the Lord, relating and showing him things of past time, spoke four stanzas—
+
+To many a man of old thou gavest drink
+
+For thirst and parching drought ready to sink:
+
+That virtuous deed of thine so long ago
+
+Remembering, as if waked from sleep, I know.
+
+ By Eni’s bank thou sett’st the people free
+
+When chained and held in close captivity:
+
+That virtuous deed of thine so long ago
+
+Remembering, as if waked from sleep, I know.
+
+By Ganges’ stream the man thou didst set free,
+
+Whose boat was seized by naga, cruelly
+
+Lusting for flesh, and save him mightily:
+
+That virtuous deed of thine, so long ago
+
+Remembering, as if waked from sleep, I know.
+
+And I was Kappa, thy disciple true,
+
+Thy wisdom and thy virtues all I knew:
+
+And now those deeds of thine so long ago
+
+Remembering, as if waked from sleep, I know.
+
+ Hearing his own deeds from the Master’s discourse, Baka gave thanks and spoke this last stanza—
+
+Thou knowest every life that hath been mine:
+
+Buddha thou art, all wisdom sure is thine:
+
+And sure thy glorious majesty and state
+
+Even this Brahma world illuminate.
+
+So the Master, making known his quality as Buddha and expounding the Law, shewed forth the Truths. At the end the thoughts of ten thousand brahmas were freed from attachments and sins. So the Lord became the refuge of many brahmas, and going back from Brahmaloka to Jetavana preached the law in the way described and identified the Birth: “At that time Baka the brahma was the ascetic Kesava, Kappa the disciple was myself.”
+
+The Jātaka, or Stories of the Buddha’s Former Births, edited by E.B. Cowell, published by The Cambridge University Press.
+
+Vol. 1, translated by Robert Chalmers, 1895.
+
+Vol. 2, translated by W.H.D. Rouse, 1895.
+
+Vol. 3, translated by H.T. Francis and R.A. Neil, 1897.
+
+Vol. 4, translated by W.H.D. Rouse, 1901.
+
+Vol. 5, translated by H.T. Francis, 1905.
+
+Vol. 6, translated by E.B. Cowell and W.H.D. Rouse, 1907.
+
+These translations are in the public domain. You are free to do whatever you like with them.
+
+Scanned, proofed and formatted at sacred-texts.com, January 2006–February 2010, by John Bruno Hare and others. Thanks to the Sacred Texts Archive for making these texts available in digital form.
+
+Prepared for SuttaCentral by Bhikkhu Sujato.

@@ -1,0 +1,2 @@
+canonical_id	collection_path	txt_path	label	version_label	source_url	license	source_commit	upstream_file
+Pv 1	khuddaka-nikaya/petavatthu	theravada/tipitaka/translations/en/suttacentral/kovilo/sutta/kn/pv/pv1.txt	1. The Simile of the Field	Kovilo Bhikkhu translation (CC0-1.0)	https://suttacentral.net/pv1/en/kovilo	CC0-1.0	6a395ceb6f28549111d7d96859f7f6f6610afc01	sutta/kn/pv/pv1_translation-en-kovilo.json

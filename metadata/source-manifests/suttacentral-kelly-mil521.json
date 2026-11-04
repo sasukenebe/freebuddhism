@@ -1,0 +1,25 @@
+{
+  "name": "SuttaCentral Kelly Milindapanha, first question of Chapter 5.2",
+  "commit": "da23a8afdd1be12267ecf4a0ff94af5187093702",
+  "publication_id": "scpub92",
+  "translator_id": "kelly",
+  "translator": "John Kelly",
+  "collection": "kn/mil",
+  "source_ids": [
+    "mil5.2.1"
+  ],
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "snapshot_dir": "metadata/source-snapshots/suttacentral-kelly-mil521",
+  "output_dir": "theravada/tipitaka/translations/en/suttacentral/kelly/sutta/kn/mil",
+  "ledger": "theravada/tipitaka/sutta/suttacentral-kelly-mil521-text-ledger.tsv",
+  "audited": "2026-10-28",
+  "scope": "One complete, newly published Milindapanha source unit. The wider work remains incomplete; existing translations retain their recorded revisions.",
+  "use_note": "Website text and downloads. Respect the translator's request against AI training.",
+  "snapshot_sha256": {
+    "publication.json": "51c51923f4b6535d881d4222dd85421ab038eba3501ce476f03862a2bdc4c653",
+    "mil5.2.1-pali.json": "f7d005c2aad03eb057e50ec46913d815d2247d5587086ae8c1bef54612c66fe9",
+    "mil5.2.1-english.json": "30a9dca2772f5b14cfc73114fcf8053b8c094e6e641fc4d9a387991a54a8b7bd",
+    "mil5.2.1-html.json": "cee7d943eb6a3394326ce6f3328d0454db4a356f3d998bbb8cd3dfaa9f9a307d"
+  }
+}
