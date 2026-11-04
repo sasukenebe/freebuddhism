@@ -259,6 +259,7 @@ def _source_rows(page: str) -> list[dict[str, str]]:
             "title": html.unescape(match.group("title")),
             "route": Path(*parts).as_posix(),
             "collection": "/".join(parts[1:-2]),
+            "audio": html.unescape(match.group("audio")).strip().casefold(),
         })
     if not rows:
         raise ValueError("The existing Sutta text index contains no parseable entries")
@@ -633,7 +634,7 @@ def _collection_browse_markup(
         if not availability:
             status = "no eligible local edition"
         listing.append(
-            f'<li data-search="{search}"><a href="{href}">{label_text}</a> — {status}</li>'
+            f'<li data-search="{search}"><a href="{href}">Open text page: {label_text}</a> — {status}</li>'
         )
 
     read_url = "/theravada/tipitaka/site/read.html?collection=" + quote(collection, safe="/-")
@@ -641,15 +642,15 @@ def _collection_browse_markup(
     browse = (
         '<section id="collection-browser" aria-labelledby="collection-browser-title">'
         '<h2 id="collection-browser-title">Browse this collection</h2>'
-        '<p>Display as: '
+        '<nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
-        '<button type="button" data-mode="list" aria-pressed="false">List</button> '
-        f'<a href="{html.escape(read_url, quote=True)}">Read continuously</a></p>'
+        '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
+        f'<a href="{html.escape(read_url, quote=True)}">Read</a></nav>'
         '<div data-view="tree" aria-label="Collection tree">'
         f'<p>{count} indexed texts. Expand a group to browse; use its separate link to open a collection page.</p>'
         f'{tree}</div>'
         '<div data-view="list" hidden>'
-        '<p>Search all texts in this collection and its subcollections.</p>'
+        '<h3>Flat list</h3><p>Search all texts in this collection and its subcollections.</p>'
         '<label>Search titles and numbers: '
         '<input type="search" data-list-search autocomplete="off"></label>'
         '<ul data-list-results>' + "\n".join(listing) + "</ul></div>"
@@ -657,6 +658,10 @@ def _collection_browse_markup(
         'const root=document.getElementById("collection-browser");if(!root)return;'
         'const buttons=root.querySelectorAll("button[data-mode]");'
         'const panes=root.querySelectorAll("[data-view]");'
+        'const requestedMode=new URLSearchParams(location.search).get("view");'
+        'const initialMode=requestedMode==="list"?"list":"tree";'
+        'buttons.forEach(function(button){button.setAttribute("aria-pressed",String(button.dataset.mode===initialMode));});'
+        'panes.forEach(function(pane){pane.hidden=pane.dataset.view!==initialMode;});'
         'buttons.forEach(function(button){button.addEventListener("click",function(){'
         'const mode=button.dataset.mode;buttons.forEach(function(item){'
         'item.setAttribute("aria-pressed",String(item===button));});'
@@ -734,6 +739,17 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       if(index)crumbs.append(document.createTextNode(" → "));
       const link=document.createElement("a");link.href=item[1];link.textContent=item[0];crumbs.append(link);
     });
+    const collectionIndexUrl=selectedCollection==="sutta"
+      ?"/theravada/tipitaka/site/sutta.html"
+      :"/theravada/tipitaka/sutta/"+selectedCollection+"/index.html";
+    const viewSwitch=document.getElementById("reader-view-switcher");
+    [["Tree",collectionIndexUrl],["Flat list",collectionIndexUrl+"?view=list"]].forEach(function(item,index){
+      if(index)viewSwitch.append(document.createTextNode(" · "));
+      const link=document.createElement("a");link.href=item[1];link.textContent=item[0];viewSwitch.append(link);
+    });
+    viewSwitch.append(document.createTextNode(" · "));
+    const currentView=document.createElement("span");currentView.setAttribute("aria-current","page");
+    currentView.textContent="Read";viewSwitch.append(currentView);
     const texts=data.texts.filter(function(item){
       return selectedCollection==="sutta"||item.collection===selectedCollection||item.collection.startsWith(selectedCollection+"/");
     });
@@ -747,18 +763,22 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     const savedDefault=getStored("freebuddhism-reading-default");
     const sujato=[...data.texts.flatMap(function(item){return item.editions;})]
       .find(function(edition){return /sujato/i.test(edition.translator+" "+edition.label);});
+    const orderedChoices=[...allChoices.entries()].sort(function(a,b){
+      const aSujato=/sujato/i.test(a[1]);const bSujato=/sujato/i.test(b[1]);
+      if(aSujato!==bSujato)return aSujato?-1:1;
+      return a[1].localeCompare(b[1]);
+    });
     defaultSelect.add(new Option("Choose a default translation", ""));
-    [...allChoices.entries()].sort(function(a,b){return a[1].localeCompare(b[1]);})
-      .forEach(function(item){defaultSelect.add(new Option(item[1],item[0]));});
-    defaultSelect.value=savedDefault||((sujato&&sujato.id)||"");
-    if(savedDefault&&!allChoices.has(savedDefault))defaultSelect.value="";
+    orderedChoices.forEach(function(item){defaultSelect.add(new Option(item[1],item[0]));});
+    const initialDefault=savedDefault&&allChoices.has(savedDefault)
+      ?savedDefault:(sujato?sujato.id:(orderedChoices[0]&&orderedChoices[0][0])||"");
+    defaultSelect.value=initialDefault;
     const contents=document.getElementById("reader-contents");
     const sections=document.getElementById("reader-texts");
     const overridesKey="freebuddhism-reading-overrides";
     function getOverrides(){try{return JSON.parse(getStored(overridesKey)||"{}");}catch(_){return {};}}
     if(!texts.length){setStatus("No eligible local texts are available in this collection.");return;}
-    if(!sujato)setStatus("Choose a locally available translation. No edition will be substituted automatically.");
-    else setStatus("Bhikkhu Sujato is selected by default where that exact eligible edition exists. Choose an alternative explicitly for other texts.");
+    setStatus("The chosen translation is used where available; otherwise the next eligible edition is used and labeled.");
     const observer="IntersectionObserver" in window?new IntersectionObserver(function(entries){
       entries.forEach(function(entry){if(entry.isIntersecting){
         entry.target.dataset.visited="true";entry.target._load();observer.unobserve(entry.target);
@@ -783,9 +803,16 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
         const overrides=getOverrides();
         const choice=overrides[item.key]||defaultSelect.value;
         select.value=overrides[item.key]||"";
-        const edition=item.editions.find(function(entry){return entry.id===choice;});
+        const fallbackIds=[choice,defaultSelect.value,sujato&&sujato.id]
+          .concat(orderedChoices.map(function(entry){return entry[0];}));
+        const seenIds=new Set();
+        const edition=fallbackIds.filter(function(id){
+          if(!id||seenIds.has(id))return false;seenIds.add(id);return true;
+        }).map(function(id){
+          return item.editions.find(function(entry){return entry.id===id;});
+        }).find(function(entry){return Boolean(entry);});
         generation++;const currentGeneration=generation;body.replaceChildren();
-        if(!edition){notice.textContent="No collection-default edition is available for this text. Choose one of the listed translations; none is substituted.";return;}
+        if(!edition){notice.textContent="No eligible translation is available for this text.";return;}
         notice.textContent="Loading "+edition.label+"…";
         try{
           const response=await fetch(edition.url);if(!response.ok)throw new Error("HTTP "+response.status);
@@ -804,7 +831,9 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
           });
           if(currentGeneration!==generation)return;
           body.replaceChildren(copy);
-          notice.textContent="Translation: "+edition.label+".";
+          notice.textContent=edition.id===choice
+            ?"Translation: "+edition.label+"."
+            :"Fallback translation: "+edition.label+" (the chosen translation is not available for this text).";
         }catch(error){
           if(currentGeneration!==generation)return;
           notice.textContent="Could not load this text here. Open the eligible edition directly: ";
@@ -831,12 +860,12 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     defaultSelect.addEventListener("change",function(){
       setStored("freebuddhism-reading-default",defaultSelect.value);
       texts.forEach(function(item){if(item.section.dataset.visited)item.display();});
-      setStatus("Site-wide default saved on this device. Texts without that edition remain unselected; no substitution occurs.");
+      setStatus("Default saved on this device. Texts without it use the next eligible edition, labeled under the text.");
     });
     document.getElementById("apply-default").addEventListener("click",function(){
       setStored("freebuddhism-reading-default",defaultSelect.value);
       texts.forEach(function(item){if(item.section.dataset.visited)item.display();});
-      setStatus("Site-wide default applied where that exact edition is available. Individual overrides are unchanged.");
+      setStatus("Default applied where available; other texts use the next eligible edition. Individual overrides are unchanged.");
     });
     document.getElementById("customize-editions").addEventListener("click",function(event){
       const expanded=event.currentTarget.getAttribute("aria-expanded")!=="true";
@@ -856,8 +885,6 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       const term=event.target.value.trim().toLocaleLowerCase();
       contents.querySelectorAll("li").forEach(function(item){item.hidden=!item.textContent.toLocaleLowerCase().includes(term);});
     });
-    document.getElementById("omissions-note").textContent=
-      "This continuous view contains "+texts.length+" locally eligible texts. Texts without a locally eligible edition are not reproduced; use the collection index to inspect all canonical entries.";
   }catch(error){setStatus(error.message||"The continuous reader could not be prepared.");}
 })();
 </script>'''
@@ -924,12 +951,12 @@ def _write_continuous_reader(
         '<a href="tipitaka.html">Tipitaka</a> · <a href="sutta.html">Sutta Pitaka</a></nav>\n'
         '<nav id="reader-breadcrumbs" aria-label="Breadcrumb"></nav>\n'
         '<main><h1 id="reader-title">Read continuously</h1>\n'
+        '<nav id="reader-view-switcher" aria-label="Collection views"></nav>\n'
         '<p id="reader-status" role="status">Preparing the continuous reader…</p>\n'
-        '<p id="omissions-note"></p>\n'
         '<section><h2>Reading preferences</h2>\n'
         '<label>Default translation: <select id="default-translation"></select></label> '
         '<button type="button" id="apply-default">Apply to available texts</button>\n'
-        '<p>Preferences are saved in this browser only. The default applies across collections; texts without the chosen edition remain unselected.</p>\n'
+        '<p>Preferences are saved in this browser. If the chosen translation is missing, Sujato is tried next; otherwise the first eligible edition in the list is used. The translation used is labeled under each text.</p>\n'
         '<button type="button" id="customize-editions" aria-expanded="false">Customize individual texts</button> '
         '<button type="button" id="text-smaller" aria-label="Make text smaller">Text −</button> '
         '<button type="button" id="text-larger" aria-label="Make text larger">Text +</button></section>\n'
@@ -1459,13 +1486,15 @@ def _write_navigation_pages(
             "title": title or canonical_id,
             "eligible": [],
             "restricted": [],
+            "audio_available": False,
         })
         if title and info["title"] == info["canonical_id"] and title != canonical_id:
             info["title"] = title
         return info
 
     for row in source_rows:
-        page_info(row["route"], row["canonical_id"], row["collection"], row["title"])
+        info = page_info(row["route"], row["canonical_id"], row["collection"], row["title"])
+        info["audio_available"] = row["audio"] == "yes"
 
     collection_row_re = re.compile(
         r'<tr><td>(?P<canonical_id>.*?)</td><td><a href="(?P<href>[^"]+)">(?P<title>.*?)</a></td><td>\d+</td></tr>',
@@ -1616,6 +1645,18 @@ def _write_navigation_pages(
             body.append("</ul>")
         else:
             body.append("<p>No edition for this text is currently available locally under the CC0 or verified-public-domain policy.</p>")
+        audio_page = tipitaka_root / "site/sutta-audio.html"
+        audio_collection = info["collection"].split("/", 1)[0]
+        if info.get("audio_available") and audio_page.is_file():
+            audio_source = audio_page.read_text(encoding="utf-8")
+            if re.search(r'<h2\b[^>]*id="' + re.escape(audio_collection) + r'"', audio_source):
+                audio_title = COLLECTION_TITLES.get(audio_collection, audio_collection.replace("-", " ").title())
+                audio_href = html.escape(_relative_href(page, audio_page) + "#" + audio_collection, quote=True)
+                body.append(
+                    "<h2>Collection audio</h2>"
+                    f'<p><a href="{audio_href}">Open {html.escape(audio_title)} recordings</a> '
+                    "(recordings may cover groups of texts).</p>"
+                )
         restricted = sorted(info["restricted"], key=lambda row: (row.get("source_group", "").casefold(), row.get("title", "").casefold()))
         if restricted:
             body.append("<h2>Not included in this build</h2><ul>")

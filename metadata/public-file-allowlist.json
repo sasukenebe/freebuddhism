@@ -33,7 +33,7 @@
     },
     {
       "path": "docs/tasks/navigation-reading-experience.md",
-      "sha256": "7f4464897f813f2a8746b25fb6604dd8a94e4a2d12979d9b223ddaf39f2b88b8",
+      "sha256": "2e41133fc050b7d3d817f42248efc7753c431aaf286b97dd295cc636b941b7bf",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -171,7 +171,7 @@
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "9a86e22fd63fda7e92e1cd1f3d9ee21a26ef4e6cefc718b6dde28c49c4432436",
+      "sha256": "ee60e1c220ef81affaf1add09c02eb35d19c0fb26cdd9d6ed739945e8a1b4ad1",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -90405,7 +90405,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "d35a5eae1740b2fd1f57aaa6e29d055ded5bc7c9d7927bb394405059cd65942b",
+      "sha256": "94a0504bd834ae929aaf11194e960b8156db67866530af34629af7c5c2c30f9f",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

@@ -19,6 +19,7 @@ from build_deploy_site import (  # noqa: E402
     _replace_tipitaka_coverage_summary,
     _strip_unavailable_embeds,
     _display_canonical_title,
+    _source_rows,
     _sutta_breadcrumb_markup,
     _text_group_label,
     _write_collection_browsers,
@@ -71,6 +72,16 @@ class PublicReleasePolicyTests(unittest.TestCase):
         self.assertEqual(_update_tipitaka_tree_counts(updated, {
             "../sutta/anguttara-nikaya/index.html": "2,034 indexed entries; 2,034 eligible editions",
         }), updated)
+
+    def test_sutta_source_rows_keep_node_routes_and_audio_availability(self):
+        page = (
+            '<tr><td>AN 1.2</td><td><a href="../sutta/anguttara-nikaya/an01-02/index.html">'
+            'AN 1.2 — Example title</a></td><td>1</td><td>yes</td></tr>'
+        )
+        row = _source_rows(page)[0]
+        self.assertEqual(row["route"], "sutta/anguttara-nikaya/an01-02/index.html")
+        self.assertEqual(row["title"], "AN 1.2 — Example title")
+        self.assertEqual(row["audio"], "yes")
 
     def test_anguttara_index_uses_verified_bilingual_chapter_titles(self):
         menu = _load_anguttara_menu()
@@ -521,7 +532,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
         page = render_html(config, "Text")
         self.assertIn("<h1>AN 1.11 — A Title</h1>", page)
 
-    def test_collection_navigation_has_tree_search_and_continuous_reader_entry(self):
+    def test_collection_navigation_has_tree_flat_list_read_and_text_page_links(self):
         self.assertEqual(_text_group_label("AN 1.11"), "AN 1")
         self.assertEqual(_text_group_label("Dhp 31"), "Dhp 26–50")
         with tempfile.TemporaryDirectory() as temporary:
@@ -549,7 +560,10 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn("Browse this collection", result)
             self.assertIn('data-mode="tree"', result)
             self.assertIn('data-mode="list"', result)
-            self.assertIn("Read continuously", result)
+            self.assertIn("Flat list", result)
+            self.assertIn('>Read</a>', result)
+            self.assertIn("Open text page: MN 1", result)
+            self.assertIn('href="mn01/index.html">Open text page: MN 1</a>', result)
             self.assertIn("no eligible local edition", result)
             self.assertIn("Full existing index and collection notes", result)
             self.assertIn('aria-label="Breadcrumb"', result)
@@ -569,6 +583,12 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn('id="customize-editions" aria-expanded="false"', page)
             self.assertIn("freebuddhism-reading-default\"", page)
             self.assertIn("freebuddhism-reading-overrides\"", page)
+            self.assertIn('id="reader-view-switcher"', page)
+            self.assertIn('aria-label="Collection views"', page)
+            self.assertIn("Fallback translation:", page)
+            self.assertIn("If the chosen translation is missing", page)
+            self.assertNotIn('id="omissions-note"', page)
+            self.assertNotIn("This continuous view contains", page)
             self.assertIn("Text +", page)
             self.assertIn("font:inherit", page)
             self.assertNotIn("Loading translations", page)
@@ -601,7 +621,10 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn('"canonical_id":"MN 1"', manifest)
             self.assertNotIn('"canonical_id":"MN 2"', manifest)
             self.assertIn("freebuddhism-reading-overrides", reader)
-            self.assertIn("No edition will be substituted automatically", reader)
+            self.assertIn('collectionIndexUrl+"?view=list"', reader)
+            self.assertIn('currentView.textContent="Read"', reader)
+            self.assertIn("Fallback translation:", reader)
+            self.assertIn('"title":"MN 1"', manifest)
             self.assertIn(Path("site/reading-index.json"), allowed)
             self.assertIn(Path("site/read.html"), allowed)
 

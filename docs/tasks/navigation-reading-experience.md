@@ -26,7 +26,7 @@ for each Nikāya or book.
   that same structure.
 - Offer three modes at every collection node:
   - **Tree:** expand and collapse descendants.
-  - **List:** searchable flat list of descendant texts.
+  - **Flat list:** searchable list of descendant texts.
   - **Read:** actual text in canonical order, not a list of links.
 - Make expanding a branch visibly different from opening its page. Prototype
   the three requested controls on identical content: (A) large full-width
@@ -44,16 +44,21 @@ for each Nikāya or book.
   static chapter-sized pages or chunks and load them as needed; do not create
   one enormous page.
 - Offer an optional Read setup: choose a collection and one default
-  translation, then read continuously. Sujato is the preferred default only
-  where that exact edition is already cleared and locally available. Allow
-  “apply to all available texts” and optional per-text overrides; keep the
-  individual choices hidden until the reader asks to customize them. Do not
-  prompt for a translation on every text. The flow is Collection → Translation
-  → Apply to available texts → optional Customize individual texts → Read.
+  translation, then read continuously. Sujato is the preferred initial default
+  where that exact edition is cleared and locally available. Allow “apply to
+  all available texts” and optional per-text overrides; keep individual
+  choices hidden until requested. Do not prompt for a translation on every
+  text. The flow is Collection → Translation → Apply to available texts →
+  optional Customize individual texts → Read.
 - Remember translation preferences and overrides in local browser storage;
-  require no account. Never silently switch translators. If the selected
-  translation is missing, say so and explicitly offer another eligible
-  edition, if one exists.
+  require no account. Use the selected edition where available. If absent for a
+  text, automatically fall back to Sujato when eligible, then to the first
+  eligible edition alphabetically. Clearly label the translator used under
+  every text; never hide a substitution.
+- Make every Flat list text link open its canonical node page. That page links
+  to eligible text editions and, where mapped, the related collection audio.
+  Include a text's supplied name in its heading and list label; do not invent
+  titles when the source only provides a reference number.
 - A link to a translation must lead to actual text. Missing or restricted
   translations are plain status text, not dead-end links. Keep “no locally
   eligible text” distinct from “no translation exists.”
@@ -101,10 +106,15 @@ mapped Nikāya and nested collection pages. The current branch implements:
 - A continuous Sutta reader with canonical-order contents and stable text
   anchors. It contains only locally eligible editions and lazy-loads each
   existing reader page as it is approached.
+- Tree, Flat list, and Read controls; the reader keeps visible links back to
+  Tree and Flat list. Flat-list links open the canonical text node, which
+  links to its eligible editions and mapped collection audio.
 - A site-wide translation default saved in browser storage, Sujato as the
-  initial choice where that exact edition is eligible, and optional per-text
-  overrides revealed by “Customize individual texts.” Missing editions are
-  never silently replaced.
+  initial choice where eligible, and optional per-text overrides revealed by
+  “Customize individual texts.” Missing editions fall back automatically in
+  the stated order, and the actual translator is labeled under each text.
+- Text headings and index labels include supplied titles when available;
+  reference-only source records remain reference-only.
 - Plain browser-default typography and page flow, with simple text-size
   controls that retain the same font; full Sutta breadcrumbs on collection,
   canonical text, and translation-reader pages; deduplicated reference/title
