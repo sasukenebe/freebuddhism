@@ -16,6 +16,8 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from public_site_catalog import site_navigation
+
 
 ROOT = Path(__file__).resolve().parents[2]
 CC0_URL = "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -132,9 +134,9 @@ def render_html(config: dict, body: str) -> str:
     if not config["translations"] or sum(bool(item.get("current")) for item in config["translations"]) != 1:
         raise ValueError("Translation list must contain exactly one selected version")
     translations = "\n".join(
-        f'<li><a href="{esc(item["href"])}"'
-        f'{" aria-current=\"page\"" if item.get("current") else ""}>'
-        f'{html.escape(item["label"])}</a></li>'
+        f'<li><span aria-current="page">{html.escape(item["label"])}</span></li>'
+        if item.get("current") else
+        f'<li><a href="{esc(item["href"])}">{html.escape(item["label"])}</a></li>'
         for item in config["translations"]
     )
     source_link = f'{esc(config["source_url"])}'
@@ -200,10 +202,11 @@ def render_html(config: dict, body: str) -> str:
 </style>
 </head>
 <body>
+{site_navigation()}
+<header>
 <nav aria-label="Breadcrumb">
 {breadcrumbs}
 </nav>
-<header>
 <h1>{html.escape(display_title)}</h1>
 <p>English translation by {html.escape(config['translator'])}.</p>
 </header>

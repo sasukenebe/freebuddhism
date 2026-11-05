@@ -17,7 +17,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-from public_site_catalog import COLLECTION_TITLES, canonical_slug, natural_key, slug
+from public_site_catalog import COLLECTION_TITLES, canonical_slug, collection_breadcrumbs, navigation_nodes, natural_key, slug
 from render_cc0_reader import ReaderParser, normalized, render_html, render_pdf, verify_pdf_body
 
 
@@ -323,30 +323,12 @@ def config_for(record: dict, reader_index: dict) -> dict:
     html_href = record["html_path"].name
     pdf_href = record["pdf_path"].name
     tipitaka_site = TIPITAKA / "site"
-    breadcrumbs = [
-        {"label": "Home", "href": route_for(record["site_path"], tipitaka_site / "index.html")},
-        {"label": "Tipitaka", "href": route_for(record["site_path"], tipitaka_site / "tipitaka.html")},
-    ]
+    nodes = navigation_nodes([record["collection"]] if record["kind"] == "sutta" else [])
     if record["kind"] == "sutta":
-        breadcrumbs.append({
-            "label": "Sutta Pitaka",
-            "href": route_for(record["site_path"], tipitaka_site / "sutta.html"),
-        })
-        parts = record["collection"].split("/")
-        for length in range(1, len(parts) + 1):
-            path_key = "/".join(parts[:length])
-            label = COLLECTION_TITLES.get(path_key, parts[length - 1].replace("-", " ").title())
-            target = TIPITAKA / "sutta" / Path(*parts[:length]) / "index.html"
-            breadcrumbs.append({"label": label, "href": route_for(record["site_path"], target)})
+        collection_id = record["collection"]
     else:
-        breadcrumbs.append({
-            "label": "Vinaya Pitaka",
-            "href": route_for(record["site_path"], TIPITAKA / "vinaya" / "index.html"),
-        })
-        breadcrumbs.append({
-            "label": record["collection_label"],
-            "href": route_for(record["site_path"], record["collection_page"]),
-        })
+        collection_id = "vinaya/" + record["collection_page"].parent.name
+    breadcrumbs = collection_breadcrumbs(collection_id, nodes)
     return {
         "canonical_id": record["canonical_id"],
         "title": record["title"],
@@ -431,7 +413,12 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
         parsed = urlsplit(href)
         if parsed.scheme or parsed.netloc or not parsed.path:
             continue
-        target = (record["site_path"].parent / unquote(parsed.path)).resolve()
+        if parsed.path == "/":
+            target = ROOT / "site-entry/index.html"
+        elif parsed.path.startswith("/theravada/tipitaka/"):
+            target = ROOT / unquote(parsed.path).lstrip("/")
+        else:
+            target = (record["site_path"].parent / unquote(parsed.path)).resolve()
         try:
             target.relative_to(ROOT.resolve())
         except ValueError as error:

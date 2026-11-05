@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import html
 import re
 from pathlib import Path
 
@@ -14,6 +15,78 @@ ABHIDHAMMA_BOOKS = tuple(tuple(row) for row in _CATALOG["abhidhamma_books"])
 COLLECTION_TITLES = _CATALOG["collection_titles"]
 SUTTA_NODE_INFO = _CATALOG["sutta_node_info"]
 WHOLE_BOOK_PDF_SOURCES = _CATALOG["whole_book_pdf_sources"]
+
+
+def site_navigation() -> str:
+    return (
+        '<nav aria-label="Site"><a href="/">Home</a> · '
+        '<a href="/theravada/tipitaka/site/dhamma.html">Dhamma</a> · '
+        '<a href="/theravada/tipitaka/site/tipitaka.html">Buddhist Texts</a></nav>'
+    )
+
+
+def navigation_nodes(extra_collections=()) -> dict[str, dict]:
+    """One collection hierarchy for browsing, breadcrumbs, and continuous reading."""
+    nodes = {}
+
+    def add(key, title, route, parent=None, label=None):
+        nodes[key] = {"id": key, "title": title, "label": label or title,
+                      "route": route, "parent": parent, "order": len(nodes)}
+
+    add("tipitaka", "Buddhist Texts", "site/tipitaka.html", label="Tipiṭaka")
+    add("vinaya", "Vinaya Piṭaka", "vinaya/index.html", "tipitaka")
+    for key, title, parent in (
+        ("sutta-vibhanga", "Sutta Vibhaṅga (Analysis of the Rules)", "vinaya"),
+        ("bhikkhu-vibhanga", "Mahā Vibhaṅga (Monks’ Analysis)", "vinaya/sutta-vibhanga"),
+        ("bhikkhuni-vibhanga", "Bhikkhunī Vibhaṅga (Nuns’ Analysis)", "vinaya/sutta-vibhanga"),
+        ("khandhaka", "Khandhaka (Chapters)", "vinaya"),
+        ("mahavagga", "Mahāvagga (Great Chapter)", "vinaya/khandhaka"),
+        ("cullavagga", "Cullavagga (Lesser Chapter)", "vinaya/khandhaka"),
+        ("parivara", "Parivāra (Vinaya Compendium)", "vinaya"),
+    ):
+        add("vinaya/" + key, title, "vinaya/" + key + "/index.html", parent)
+    add("sutta", "Sutta Piṭaka", "site/sutta.html", "tipitaka")
+    names = list(dict.fromkeys([*SUTTA_NODE_INFO, *COLLECTION_TITLES, *extra_collections]))
+    for name in names:
+        if name == "sutta":
+            continue
+        parts = name.split("/")
+        for length in range(1, len(parts) + 1):
+            key = "/".join(parts[:length])
+            if key in nodes:
+                continue
+            title = SUTTA_NODE_INFO[key][0] if key in SUTTA_NODE_INFO else COLLECTION_TITLES.get(key, parts[length - 1].replace("-", " ").title())
+            parent = "/".join(parts[:length - 1]) if length > 1 else "sutta"
+            add(key, title, "sutta/" + key + "/index.html", parent)
+    add("abhidhamma", "Abhidhamma Piṭaka", "abhidhamma/index.html", "tipitaka")
+    for key, title, english, _description in ABHIDHAMMA_BOOKS:
+        add("abhidhamma/" + key, title + " (" + english + ")", "abhidhamma/" + key + "/index.html", "abhidhamma")
+    return nodes
+
+
+def collection_path(collection: str, nodes: dict[str, dict]) -> list[dict]:
+    path = []
+    while collection:
+        node = nodes[collection]
+        path.append(node)
+        collection = node["parent"]
+    return list(reversed(path))
+
+
+def collection_breadcrumbs(collection: str, nodes: dict[str, dict]) -> list[dict]:
+    return [{"label": "Home", "href": "/"}] + [
+        {"label": node["label"], "href": "/theravada/tipitaka/" + node["route"]}
+        for node in collection_path(collection, nodes)
+    ]
+
+
+def breadcrumb_markup(items: list[dict]) -> str:
+    parts = [
+        f'<a href="{html.escape(item["href"], quote=True)}">{html.escape(item["label"])}</a>'
+        if index < len(items) - 1 else f'<span aria-current="page">{html.escape(item["label"])}</span>'
+        for index, item in enumerate(items)
+    ]
+    return '<nav aria-label="Breadcrumb">' + " → ".join(parts) + '</nav>'
 
 
 def canonical_slug(canonical_id: str) -> str:

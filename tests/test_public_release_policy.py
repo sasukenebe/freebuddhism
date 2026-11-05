@@ -20,6 +20,7 @@ from build_deploy_site import (  # noqa: E402
     _replace_tipitaka_coverage_summary,
     _strip_unavailable_embeds,
     _display_canonical_title,
+    _finish_page_navigation,
     _source_rows,
     _sutta_breadcrumb_markup,
     _text_group_label,
@@ -49,6 +50,7 @@ from buddhist_canon_pipeline.public_html_policy import (  # noqa: E402
     sha256_file,
     validate_site_content_manifest,
 )
+from public_site_catalog import collection_path, navigation_nodes  # noqa: E402
 
 
 class PublicReleasePolicyTests(unittest.TestCase):
@@ -477,7 +479,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
             root = Path(temporary)
             (root / "docs").mkdir()
             (root / "index.html").write_text(
-                "<a href='docs/'>Docs</a><a href='../escape.html'>Escape</a><a href='missing.txt'>Missing</a>",
+                "<a href='/'>Home</a><a href='./'>Home again</a><a href='docs/'>Docs</a><a href='../escape.html'>Escape</a><a href='missing.txt'>Missing</a>",
                 encoding="utf-8",
             )
             (root / "docs/index.html").write_text("<h1>Docs</h1>", encoding="utf-8")
@@ -538,7 +540,10 @@ class PublicReleasePolicyTests(unittest.TestCase):
                 {"label": "Anguttara Nikaya", "href": "../index.html"},
             ],
             "local_text_href": "text.txt", "html_download_href": "text.html", "pdf_download_href": "text.pdf",
-            "translations": [{"label": "Bhikkhu Sujato", "href": "text.html", "current": True}],
+            "translations": [
+                {"label": "Bhikkhu Sujato", "href": "text.html", "current": True},
+                {"label": "Alternate edition", "href": "alternate.html", "current": False},
+            ],
         }
         page = render_html(config, "Text")
         self.assertIn("Tipitaka</a> →", page)
@@ -546,13 +551,17 @@ class PublicReleasePolicyTests(unittest.TestCase):
         self.assertIn("Anguttara Nikaya</a> →", page)
         self.assertEqual(page.count("<h1>AN 1.11</h1>"), 1)
         self.assertNotIn("AN 1.11 — AN 1.11", page)
+        self.assertIn('<span aria-current="page">Bhikkhu Sujato</span>', page)
+        self.assertNotIn('href="text.html" aria-current', page)
+        self.assertIn('href="alternate.html">Alternate edition</a>', page)
         config["title"] = "AN 1.11 — A Title AN 1.11"
         page = render_html(config, "Text")
         self.assertIn("<h1>AN 1.11 — A Title</h1>", page)
 
     def test_collection_navigation_has_tree_flat_list_read_and_text_page_links(self):
         self.assertEqual(_text_group_label("AN 1.11"), "AN 1")
-        self.assertEqual(_text_group_label("Dhp 31"), "Dhp 26–50")
+        self.assertEqual(_text_group_label("Dhp 31"), "")
+        self.assertEqual(_text_group_label("MN 26"), "")
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary) / "theravada" / "tipitaka"
             index = root / "sutta/majjhima-nikaya/index.html"
@@ -573,15 +582,25 @@ class PublicReleasePolicyTests(unittest.TestCase):
                     "eligible": [],
                 },
             }
+            for number in (25, 26, 152):
+                pages[f"sutta/majjhima-nikaya/mn{number:02d}/index.html"] = {
+                    "canonical_id": f"MN {number}", "collection": "majjhima-nikaya", "title": f"MN {number}",
+                    "eligible": [{"version_label": "Bhikkhu Sujato translation"}],
+                }
             self.assertEqual(_write_collection_browsers(root, pages, {"majjhima-nikaya": []}), 1)
             result = index.read_text(encoding="utf-8")
             self.assertIn("Browse this collection", result)
             self.assertIn('data-mode="tree"', result)
             self.assertIn('data-mode="list"', result)
             self.assertIn("Flat list", result)
-            self.assertIn('>Read</a>', result)
-            self.assertIn("Open text page: MN 1", result)
-            self.assertIn('href="mn01/index.html">Open text page: MN 1</a>', result)
+            self.assertIn('>All Text on One Page</a>', result)
+            self.assertNotIn("Open text page:", result)
+            self.assertIn('href="mn01/index.html">MN 1</a>', result)
+            self.assertNotIn('href="mn02/index.html"', result)
+            self.assertNotIn("MN 1–25", result)
+            self.assertNotIn("MN 151–175", result)
+            self.assertLess(result.index('>MN 25</a>'), result.index('>MN 26</a>'))
+            self.assertLess(result.index('aria-label="Breadcrumb"'), result.index('<h1>'))
             self.assertIn("no eligible local edition", result)
             self.assertIn("Full existing index and collection notes", result)
             self.assertIn('aria-label="Breadcrumb"', result)
@@ -589,7 +608,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
                 root, root / "sutta/majjhima-nikaya/mn01/index.html", "majjhima-nikaya", "MN 1"
             )
             self.assertIn("Sutta Piṭaka</a>", text_breadcrumb)
-            self.assertIn("Majjhima Nikaya</a>", text_breadcrumb)
+            self.assertIn("Majjhima Nikāya</a>", text_breadcrumb)
             self.assertIn('<span aria-current="page">MN 1</span>', text_breadcrumb)
 
     def test_continuous_reader_preferences_keep_global_default_and_hide_overrides(self):
@@ -607,7 +626,9 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn("If the chosen translation is missing", page)
             self.assertNotIn('id="omissions-note"', page)
             self.assertNotIn("This continuous view contains", page)
-            self.assertIn("Text +", page)
+            self.assertIn("Font Size +", page)
+            self.assertIn("Font Size -", page)
+            self.assertIn('<summary><h2>Contents</h2></summary>', page)
             self.assertIn("font:inherit", page)
             self.assertNotIn("Loading translations", page)
             self.assertNotIn("font-family:", page)
@@ -640,11 +661,61 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertNotIn('"canonical_id":"MN 2"', manifest)
             self.assertIn("freebuddhism-reading-overrides", reader)
             self.assertIn('collectionIndexUrl+"?view=list"', reader)
-            self.assertIn('currentView.textContent="Read"', reader)
+            self.assertIn('currentView.textContent="All Text on One Page"', reader)
+            self.assertNotIn('heading.append(anchor)', reader)
             self.assertIn("Fallback translation:", reader)
             self.assertIn('"title":"MN 1"', manifest)
             self.assertIn(Path("site/reading-index.json"), allowed)
             self.assertIn(Path("site/read.html"), allowed)
+
+    def test_navigation_is_shared_by_vinaya_and_sutta_and_preserves_reader_body(self):
+        nodes = navigation_nodes()
+        path = collection_path("vinaya/bhikkhu-vibhanga", nodes)
+        self.assertEqual([node["id"] for node in path], [
+            "tipitaka", "vinaya", "vinaya/sutta-vibhanga", "vinaya/bhikkhu-vibhanga"
+        ])
+        with tempfile.TemporaryDirectory() as temporary:
+            webroot = Path(temporary)
+            tipitaka = webroot / "theravada/tipitaka"
+            route = "vinaya/texts/index/pli-tv-bu-vb-pc1/index.html"
+            reader_route = "vinaya/texts/pages/pli-tv-bu-vb-pc1/index.html"
+            reader = tipitaka / reader_route
+            reader.parent.mkdir(parents=True)
+            body = "An unchanged passage.\n\nAnother paragraph."
+            reader.write_text(
+                '<html><head><title>Old</title></head><body><nav>Old global menu</nav>'
+                '<p><a href="../../../index.html">Vinaya</a></p><h1>Old heading</h1>'
+                '<nav aria-label="Breadcrumb">Old breadcrumb</nav>'
+                '<a href="/theravada/tipitaka/vinaya/texts/index/unavailable/index.html">Missing text</a>'
+                '<pre class="source-text">' + body + '</pre></body></html>', encoding="utf-8")
+            record = {"html_path": webroot / "readers/theravada/tipitaka" / reader_route,
+                      "output_root": webroot / "readers", "version": "brahmali",
+                      "version_label": "Bhikkhu Brahmali translation", "translator": "Bhikkhu Brahmali"}
+            pages = {route: {"canonical_id": "pli-tv-bu-vb-pc1", "title": "A named rule",
+                             "display_title": "Bhikkhu Pācittiya 1 — A named rule",
+                             "collection": "vinaya/bhikkhu-vibhanga", "eligible": [record]}}
+            _finish_page_navigation(webroot, pages, nodes, [], {Path("vinaya/texts/index/unavailable/index.html")})
+            result = reader.read_text(encoding="utf-8")
+            parser = ReaderParser()
+            parser.feed(result)
+            self.assertEqual("".join(parser.source_parts), body)
+            self.assertEqual(result.count('aria-label="Site"'), 1)
+            self.assertEqual(result.count('aria-label="Breadcrumb"'), 1)
+            self.assertNotIn("Old global menu", result)
+            self.assertNotIn("Old breadcrumb", result)
+            self.assertNotIn('href="../../../index.html"', result)
+            self.assertNotIn('href="/theravada/tipitaka/vinaya/texts/index/unavailable/index.html"', result)
+            self.assertIn('<span class="unavailable">Missing text</span>', result)
+            self.assertLess(result.index('aria-label="Site"'), result.index('aria-label="Breadcrumb"'))
+            self.assertLess(result.index('aria-label="Breadcrumb"'), result.index('<h1>'))
+            self.assertIn("Sutta Vibhaṅga (Analysis of the Rules)</a>", result)
+            allowed = {}
+            _write_continuous_reader(tipitaka, pages, allowed, nodes)
+            manifest = json.loads((tipitaka / "site/reading-index.json").read_text(encoding="utf-8"))
+            text = manifest["texts"][0]
+            self.assertEqual(text["title"], "Bhikkhu Pācittiya 1 — A named rule")
+            self.assertEqual(text["ancestors"], [node["id"] for node in path])
+            self.assertNotIn("sutta", text["ancestors"])
 
     def test_parallel_reader_pdf_rendering_is_safe(self):
         config = {

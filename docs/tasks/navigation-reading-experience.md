@@ -1,10 +1,12 @@
 # Navigation and reading experience
 
-Updated: 2026-11-04
+Updated: 2026-11-05
 
 Status: the first Sutta release is live from the review branch; broader
 Tipiṭaka scope and easier-expander comparison remain open on
 `codex/navigation-reading-experience-20261104`.
+The recursive navigation corrections below are implemented and undergoing
+release validation before the next publication.
 
 This is the durable handoff for simplifying Free Buddhism's Tipiṭaka browsing
 and reading experience. It records the requested behavior, phased work, visual
@@ -97,6 +99,54 @@ silently substitute it; show the actual eligible choices.
 
 ## First implementation scope
 
+### Recursive correction pass — 2026-11-05
+
+The owner requested the following corrections throughout the library and
+authorized pushing and publishing the completed corrections:
+
+1. Remove the invented groups of 25. Retain actual numbered books or source
+   subdivisions where recorded; otherwise list texts directly in order.
+2. Show the global Home / Dhamma / Buddhist Texts menu on every HTML page.
+   Consolidate the collection breadcrumb immediately before the page title,
+   removing the redundant standalone parent link and displaced breadcrumb.
+3. Use the same collection title and breadcrumb in Tree, Flat list, and
+   continuous reading. Extend these modes to the Tipiṭaka root, Vinaya,
+   Sutta Vibhaṅga and the other mapped collection branches.
+4. Render the current translation as a plain selected label. Keep genuine
+   alternate-edition links.
+5. Remove the "Open text page:" prefix from text labels.
+6. Display unavailable texts, empty collection branches and notice-only
+   downloads without links. Preserve their routes for existing external URLs
+   and retain the full underlying structure and availability records.
+7. Rename Read to "All Text on One Page" throughout the browsing controls.
+8. Give Contents the same heading level and size as Reading preferences.
+   Text headings within the continuous page are plain headings; the contents
+   list retains useful links that scroll to those headings.
+9. Label the font controls "Font Size +" and "Font Size -".
+
+Release chunks:
+- Shared headers and controls: implemented.
+- Recursive collection views, individual text/edition views, and unavailable
+  link cleanup: implemented.
+- Meaningful regression coverage for full Vinaya ancestry, unavailable link
+  removal, ordering across the old 25-item boundary, current-edition labels,
+  and unchanged source bodies: implemented; 33 tests pass.
+- Full build, browser checks, source push, pinned deployment and live review:
+  in progress.
+
+Browser verification passes for matching headers across all modes, every
+collection URL, Majjhima ordering/search, the Tipiṭaka root, Vinaya and Sutta
+Vibhaṅga descendants, unavailable labels, automatic translation fallback,
+Contents jumps, font controls, the Milindapañha node/edition/single-text flow,
+and mobile width. The full deployment build remains the publication gate.
+The link verifier now resolves both `/` and `./` to the built root index.
+Collection coverage totals are computed once per collection rather than once
+per text; this retains the same totals while avoiding repeated full scans.
+
+The A/B/C expander comparison remains the separate follow-on task below.
+
+### Original first release — 2026-11-04
+
 The first release is deliberately centered on the Sutta Pitaka, including its
 mapped Nikāya and nested collection pages. The current branch implements:
 
@@ -119,10 +169,10 @@ mapped Nikāya and nested collection pages. The current branch implements:
   canonical text, and translation-reader pages; deduplicated reference/title
   labels; direct root landing page.
 
-This does not yet implement Tree/List/Read for the Tipiṭaka basket root or
-non-Sutta hierarchies, a mobile Contents panel, the A/B/C expander comparison,
-or full assistive-technology and device testing. Track those separately; do
-not describe the first release as complete across every canonical node.
+The original first release did not cover the Tipiṭaka root or non-Sutta
+hierarchies; those are covered by the recursive correction pass. A mobile
+Contents panel, the A/B/C expander comparison and full assistive-technology
+and device testing remain follow-on work.
 
 ## Work chunks
 

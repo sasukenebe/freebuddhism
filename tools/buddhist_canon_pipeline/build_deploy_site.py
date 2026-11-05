@@ -29,7 +29,12 @@ from public_site_catalog import (
     SUTTA_NODE_INFO,
     WHOLE_BOOK_PDF_SOURCES,
     canonical_slug,
+    breadcrumb_markup,
+    collection_breadcrumbs,
+    collection_path,
+    navigation_nodes,
     natural_key,
+    site_navigation,
     slug,
     whole_book_pdfs,
 )
@@ -136,7 +141,7 @@ def local_link_errors(webroot: Path) -> list[str]:
                 errors.append(f"{page_relative}: link escapes webroot: {url}")
                 continue
             if parsed.path.endswith("/") or normalized in directories:
-                normalized = posixpath.join(normalized, "index.html")
+                normalized = posixpath.normpath(posixpath.join(normalized, "index.html"))
             if normalized not in files:
                 errors.append(f"{page_relative}: missing local target: {url}")
     return errors
@@ -511,14 +516,11 @@ def _update_collection_index(
 def _text_group_label(canonical_id: str) -> str:
     match = re.match(r"^(\D+?)\s*(\d+)(?:\.(\d+))?", canonical_id)
     if not match:
-        return canonical_id
+        return ""
     prefix, number, subsection = match.groups()
     if subsection:
         return f"{prefix.strip()} {int(number)}"
-    value = int(number)
-    start = ((value - 1) // 25) * 25 + 1
-    end = start + 24
-    return f"{prefix.strip()} {start}–{end}"
+    return ""
 
 
 def _display_canonical_title(canonical_id: str, title: str) -> str:
@@ -541,26 +543,76 @@ def _sutta_breadcrumb_markup(
     canonical_id: str | None = None,
 ) -> str:
     """Render the full Sutta hierarchy for a collection or canonical text page."""
-    items = [
-        ("Home", tipitaka_root / "site/index.html"),
-        ("Tipiṭaka", tipitaka_root / "site/tipitaka.html"),
-        ("Sutta Piṭaka", tipitaka_root / "site/sutta.html"),
-    ]
-    if collection != "sutta":
-        parts = collection.split("/")
-        for length in range(1, len(parts) + 1):
-            node = "/".join(parts[:length])
-            label = COLLECTION_TITLES.get(node, parts[length - 1].replace("-", " ").title())
-            items.append((label, tipitaka_root / "sutta" / Path(*parts[:length]) / "index.html"))
-    links = [
-        f'<a href="{html.escape(_relative_href(current_page, target), quote=True)}">{html.escape(label)}</a>'
-        for label, target in items
-    ]
+    items = collection_breadcrumbs(collection, navigation_nodes([collection]))
     if canonical_id:
-        links.append(f'<span aria-current="page">{html.escape(canonical_id)}</span>')
-    else:
-        links[-1] = f'<span aria-current="page">{html.escape(items[-1][0])}</span>'
-    return '<nav aria-label="Breadcrumb">' + " → ".join(links) + "</nav>"
+        items.append({"label": canonical_id, "href": ""})
+    return breadcrumb_markup(items)
+
+
+def _standardize_header(source: str, items: list[dict], title: str | None = None) -> str:
+    """Consolidate navigation above the first title without touching the text body."""
+    source = re.sub(r'<nav\b[^>]*aria-label="Breadcrumb"[^>]*>.*?</nav>', "", source, flags=re.DOTALL)
+    if title:
+        source = re.sub(r'<title>.*?</title>', '<title>' + html.escape(title) + '</title>', source, count=1, flags=re.DOTALL)
+    if 'id="navigation-controls-style"' not in source:
+        source = source.replace('</head>', '<style id="navigation-controls-style">button,input,select{font:inherit}</style>\n</head>', 1)
+    body = re.search(r'<body\b[^>]*>', source, re.IGNORECASE)
+    heading = re.search(r'<h1\b[^>]*>.*?</h1>', source, re.IGNORECASE | re.DOTALL)
+    if not body:
+        raise ValueError("Generated page has no body element")
+    end = heading.start() if heading else body.end()
+    prefix = source[body.end():end]
+    prefix = re.sub(r'<nav\b[^>]*>.*?</nav>', "", prefix, flags=re.DOTALL | re.IGNORECASE)
+
+    def remove_legacy_navigation(match):
+        content = re.sub(r'<a\b[^>]*>.*?</a>', "", match.group(1), flags=re.DOTALL)
+        return "" if not html.unescape(content).strip(" \t\r\n|·→›>") else match.group(0)
+
+    prefix = re.sub(r'<p\b[^>]*>(.*?)</p>', remove_legacy_navigation, prefix, flags=re.DOTALL | re.IGNORECASE)
+    remainder = source[end:]
+    if title and heading:
+        remainder = re.sub(r'(<h1\b[^>]*>).*?(</h1>)', lambda m: m[1] + html.escape(title) + m[2], remainder, count=1, flags=re.DOTALL)
+    return (source[:body.end()] + '\n' + site_navigation() + '\n' + prefix.strip()
+            + ('\n' + breadcrumb_markup(items) if items else '') + '\n' + remainder)
+
+
+_BROWSE_SCRIPT = '''<script>(function(){
+const root=document.getElementById("collection-browser");if(!root)return;
+const buttons=root.querySelectorAll("button[data-mode]");
+const panes=root.querySelectorAll("[data-view]");
+function show(mode){
+  buttons.forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.mode===mode)));
+  panes.forEach(pane=>pane.hidden=pane.dataset.view!==mode);
+}
+show(new URLSearchParams(location.search).get("view")==="list"?"list":"tree");
+buttons.forEach(button=>button.addEventListener("click",()=>{
+  show(button.dataset.mode);
+  const url=new URL(location.href);url.searchParams.set("view",button.dataset.mode);history.replaceState(null,"",url);
+}));
+const search=root.querySelector("[data-list-search]");
+if(search)search.addEventListener("input",()=>{
+  const term=search.value.trim().toLocaleLowerCase();
+  root.querySelectorAll("[data-list-results] li").forEach(item=>item.hidden=!item.dataset.search.includes(term));
+});})();</script>'''
+
+
+def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
+    page = tipitaka_root / route
+    editions = []
+    for record in info["eligible"]:
+        reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
+        href = html.escape(_relative_href(page, tipitaka_root / reader), quote=True)
+        editions.append(f'<li><a href="{href}">{html.escape(record["version_label"])}</a></li>')
+    listing = '<ul>' + ''.join(editions) + '</ul>'
+    read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
+    return (
+        '<section id="collection-browser"><h2>Translations</h2><nav aria-label="Collection views">'
+        '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
+        '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
+        f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
+        '<div data-view="tree"><details open><summary>Translations</summary>' + listing + '</details></div>'
+        '<div data-view="list" hidden>' + listing + '</div>' + _BROWSE_SCRIPT + '</section>'
+    )
 
 
 def _collection_browse_markup(
@@ -568,29 +620,27 @@ def _collection_browse_markup(
     collection: str,
     canonical_pages: dict[str, dict],
     collection_names: set[str],
+    nodes: dict[str, dict] | None = None,
 ) -> str:
-    index_path = (
-        tipitaka_root / "site/sutta.html" if collection == "sutta"
-        else tipitaka_root / "sutta" / collection / "index.html"
-    )
+    nodes = nodes or navigation_nodes(collection_names)
+    index_path = tipitaka_root / nodes[collection]["route"]
+    descendant_ids = {key for key in nodes if collection in [node["id"] for node in collection_path(key, nodes)]}
     descendants = [
         (route, info) for route, info in canonical_pages.items()
-        if collection == "sutta"
-        or info["collection"] == collection
-        or info["collection"].startswith(collection + "/")
+        if info["collection"] in descendant_ids
     ]
-    descendants.sort(key=lambda pair: natural_key(pair[1]["canonical_id"]))
+    descendants.sort(key=lambda pair: (nodes[pair[1]["collection"]]["order"], natural_key(pair[1]["canonical_id"])))
     def render_tree(node: str) -> str:
         output: list[str] = []
         children = sorted(
-            [name for name in collection_names
-             if (node == "sutta" and name != "sutta" and "/" not in name)
-             or (name.startswith(node + "/") and "/" not in name[len(node) + 1:])],
-            key=natural_key,
+            [name for name in nodes if nodes[name]["parent"] == node],
+            key=lambda name: nodes[name]["order"],
         )
         for child in children:
-            child_index = tipitaka_root / "sutta" / child / "index.html"
-            child_title = COLLECTION_TITLES.get(child, child.rsplit("/", 1)[-1].replace("-", " ").title())
+            child_index = tipitaka_root / nodes[child]["route"]
+            if not child_index.is_file():
+                continue
+            child_title = nodes[child]["title"]
             href = html.escape(_relative_href(index_path, child_index), quote=True)
             output.append(
                 f'<details><summary>{html.escape(child_title)} — expand</summary>'
@@ -606,18 +656,21 @@ def _collection_browse_markup(
             groups[_text_group_label(info["canonical_id"])].append((route, info))
         for label, rows in sorted(groups.items(), key=lambda pair: natural_key(pair[0])):
             rows.sort(key=lambda pair: natural_key(pair[1]["canonical_id"]))
-            output.append(f'<details><summary>{html.escape(label)} — expand ({len(rows)} texts)</summary><ul>')
+            if label:
+                output.append(f'<details><summary>{html.escape(label)} — expand ({len(rows)} texts)</summary>')
+            output.append('<ul>')
             for route, info in rows:
                 href = html.escape(_relative_href(index_path, tipitaka_root / route), quote=True)
-                label_text = html.escape(_display_canonical_title(info["canonical_id"], info["title"]))
+                label_text = html.escape(info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"]))
                 count = len(info["eligible"])
                 availability = f"{count} eligible edition{'s' if count != 1 else ''}"
                 if not count:
                     availability = "no eligible local edition"
-                output.append(
-                    f'<li><a href="{href}">{label_text}</a> — {availability}</li>'
-                )
-            output.append("</ul></details>")
+                text = f'<a href="{href}">{label_text}</a>' if count else label_text
+                output.append(f'<li>{text} — {availability}</li>')
+            output.append("</ul>")
+            if label:
+                output.append('</details>')
         if not output:
             output.append("<p>No indexed texts or subcollections are mapped here.</p>")
         return "\n".join(output)
@@ -627,17 +680,22 @@ def _collection_browse_markup(
     for route, info in descendants:
         href = html.escape(_relative_href(index_path, tipitaka_root / route), quote=True)
         title = info["title"].strip()
-        label_text = html.escape(_display_canonical_title(info["canonical_id"], info["title"]))
+        display_title = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
+        label_text = html.escape(display_title)
         availability = len(info["eligible"])
-        search = html.escape(f'{info["canonical_id"]} {title}'.casefold(), quote=True)
+        search = html.escape(f'{info["canonical_id"]} {display_title}'.casefold(), quote=True)
         status = f"{availability} eligible edition{'s' if availability != 1 else ''}"
         if not availability:
             status = "no eligible local edition"
-        listing.append(
-            f'<li data-search="{search}"><a href="{href}">Open text page: {label_text}</a> — {status}</li>'
-        )
+        text = f'<a href="{href}">{label_text}</a>' if availability else label_text
+        listing.append(f'<li data-search="{search}">{text} — {status}</li>')
 
     read_url = "/theravada/tipitaka/site/read.html?collection=" + quote(collection, safe="/-")
+    read_control = (
+        f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a>'
+        if any(info["eligible"] for _route, info in descendants)
+        else '<span aria-disabled="true">All Text on One Page</span>'
+    )
     count = len(descendants)
     browse = (
         '<section id="collection-browser" aria-labelledby="collection-browser-title">'
@@ -645,7 +703,7 @@ def _collection_browse_markup(
         '<nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
-        f'<a href="{html.escape(read_url, quote=True)}">Read</a></nav>'
+        + read_control + '</nav>'
         '<div data-view="tree" aria-label="Collection tree">'
         f'<p>{count} indexed texts. Expand a group to browse; use its separate link to open a collection page.</p>'
         f'{tree}</div>'
@@ -654,34 +712,13 @@ def _collection_browse_markup(
         '<label>Search titles and numbers: '
         '<input type="search" data-list-search autocomplete="off"></label>'
         '<ul data-list-results>' + "\n".join(listing) + "</ul></div>"
-        '<script>(function(){'
-        'const root=document.getElementById("collection-browser");if(!root)return;'
-        'const buttons=root.querySelectorAll("button[data-mode]");'
-        'const panes=root.querySelectorAll("[data-view]");'
-        'const requestedMode=new URLSearchParams(location.search).get("view");'
-        'const initialMode=requestedMode==="list"?"list":"tree";'
-        'buttons.forEach(function(button){button.setAttribute("aria-pressed",String(button.dataset.mode===initialMode));});'
-        'panes.forEach(function(pane){pane.hidden=pane.dataset.view!==initialMode;});'
-        'buttons.forEach(function(button){button.addEventListener("click",function(){'
-        'const mode=button.dataset.mode;buttons.forEach(function(item){'
-        'item.setAttribute("aria-pressed",String(item===button));});'
-        'panes.forEach(function(pane){pane.hidden=pane.dataset.view!==mode;});});});'
-        'const search=root.querySelector("[data-list-search]");'
-        'if(search)search.addEventListener("input",function(){const term=search.value.trim().toLocaleLowerCase();'
-        'root.querySelectorAll("[data-list-results] li").forEach(function(item){'
-        'item.hidden=!item.dataset.search.includes(term);});});})();</script></section>'
+        + _BROWSE_SCRIPT + '</section>'
     )
 
     source = index_path.read_text(encoding="utf-8")
     if 'id="collection-browser"' in source:
         return ""
-    if 'aria-label="Breadcrumb"' not in source:
-        heading_end = source.lower().find("</h1>")
-        if heading_end < 0:
-            raise ValueError(f"Collection index has no h1 heading: {index_path}")
-        heading_end += len("</h1>")
-        breadcrumb = _sutta_breadcrumb_markup(tipitaka_root, index_path, collection)
-        source = source[:heading_end] + "\n" + breadcrumb + source[heading_end:]
+    source = _standardize_header(source, collection_breadcrumbs(collection, nodes), nodes[collection]["title"])
     body_end = source.lower().rfind("</body>")
     if body_end < 0:
         raise ValueError(f"Collection index has no body end tag: {index_path}")
@@ -711,7 +748,7 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
 (async function(){
   const dataUrl="/theravada/tipitaka/site/reading-index.json";
   const params=new URLSearchParams(location.search);
-  const selectedCollection=params.get("collection")||"";
+  const selectedCollection=params.get("collection")||"tipitaka";
   const status=document.getElementById("reader-status");
   function setStatus(message){status.textContent=message;}
   try {
@@ -721,27 +758,23 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     const collectionMap=new Map(data.collections.map(item=>[item.id,item]));
     const current=collectionMap.get(selectedCollection);
     if(!current)throw new Error("Choose a collection from its contents page.");
-    document.title=current.title+" — Read continuously";
-    document.getElementById("reader-title").textContent=current.title;
+    const selectedText=params.get("text");
+    const currentText=selectedText?data.texts.find(item=>item.key===selectedText):null;
+    if(selectedText&&!currentText)throw new Error("This text is not available here.");
+    const title=currentText?currentText.title:current.title;
+    document.title=title;
+    document.getElementById("reader-title").textContent=title;
     const crumbs=document.getElementById("reader-breadcrumbs");
-    const crumbItems=[
-      ["Home","/theravada/tipitaka/site/index.html"],
-      ["Tipitaka","/theravada/tipitaka/site/tipitaka.html"],
-      ["Sutta Pitaka","/theravada/tipitaka/site/sutta.html"]
-    ];
-    const pieces=selectedCollection==="sutta"?[]:selectedCollection.split("/");
-    pieces.forEach(function(_part,index){
-      const id=pieces.slice(0,index+1).join("/");
-      const node=collectionMap.get(id);
-      if(node)crumbItems.push([node.title,"/theravada/tipitaka/sutta/"+id+"/index.html"]);
-    });
+    const crumbItems=current.breadcrumbs.slice();
+    if(currentText)crumbItems.push({label:currentText.title,href:currentText.url});
     crumbItems.forEach(function(item,index){
       if(index)crumbs.append(document.createTextNode(" → "));
-      const link=document.createElement("a");link.href=item[1];link.textContent=item[0];crumbs.append(link);
+      const element=document.createElement(index===crumbItems.length-1?"span":"a");
+      element.textContent=item.label;
+      if(index===crumbItems.length-1)element.setAttribute("aria-current","page");else element.href=item.href;
+      crumbs.append(element);
     });
-    const collectionIndexUrl=selectedCollection==="sutta"
-      ?"/theravada/tipitaka/site/sutta.html"
-      :"/theravada/tipitaka/sutta/"+selectedCollection+"/index.html";
+    const collectionIndexUrl=currentText?currentText.url:current.url;
     const viewSwitch=document.getElementById("reader-view-switcher");
     [["Tree",collectionIndexUrl],["Flat list",collectionIndexUrl+"?view=list"]].forEach(function(item,index){
       if(index)viewSwitch.append(document.createTextNode(" · "));
@@ -749,9 +782,9 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     });
     viewSwitch.append(document.createTextNode(" · "));
     const currentView=document.createElement("span");currentView.setAttribute("aria-current","page");
-    currentView.textContent="Read";viewSwitch.append(currentView);
+    currentView.textContent="All Text on One Page";viewSwitch.append(currentView);
     const texts=data.texts.filter(function(item){
-      return selectedCollection==="sutta"||item.collection===selectedCollection||item.collection.startsWith(selectedCollection+"/");
+      return currentText?item.key===currentText.key:item.ancestors.includes(selectedCollection);
     });
     const allChoices=new Map();
     data.texts.forEach(function(item){item.editions.forEach(function(edition){
@@ -778,7 +811,7 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     const overridesKey="freebuddhism-reading-overrides";
     function getOverrides(){try{return JSON.parse(getStored(overridesKey)||"{}");}catch(_){return {};}}
     if(!texts.length){setStatus("No eligible local texts are available in this collection.");return;}
-    setStatus("The chosen translation is used where available; otherwise the next eligible edition is used and labeled.");
+    setStatus(texts.length+" text"+(texts.length===1?"":"s")+".");
     const observer="IntersectionObserver" in window?new IntersectionObserver(function(entries){
       entries.forEach(function(entry){if(entry.isIntersecting){
         entry.target.dataset.visited="true";entry.target._load();observer.unobserve(entry.target);
@@ -788,8 +821,7 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       const section=document.createElement("section");section.className="continuous-text";
       section.id=item.slug;
       const heading=document.createElement("h2");heading.id=item.slug+"-heading";
-      const anchor=document.createElement("a");anchor.href="#"+item.slug;
-      anchor.textContent=item.title;heading.append(anchor);section.append(heading);
+      heading.textContent=item.title;section.append(heading);
       const label=document.createElement("label");label.className="edition-choice";label.hidden=true;
       label.append(document.createTextNode("Translation for this text: "));
       const select=document.createElement("select");select.setAttribute("aria-label","Translation for "+item.canonical_id);
@@ -857,6 +889,14 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       return section;
     }
     texts.forEach(function(item){sections.append(makeSection(item));});
+    function showLinkedText(){
+      const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if(target&&target.classList.contains("continuous-text")){
+        if(!target.dataset.visited){target.dataset.visited="true";target._load();}
+        target.scrollIntoView();
+      }
+    }
+    showLinkedText();window.addEventListener("hashchange",showLinkedText);
     defaultSelect.addEventListener("change",function(){
       setStored("freebuddhism-reading-default",defaultSelect.value);
       texts.forEach(function(item){if(item.section.dataset.visited)item.display();});
@@ -894,22 +934,17 @@ def _write_continuous_reader(
     tipitaka_root: Path,
     canonical_pages: dict[str, dict],
     allowed: dict[Path, dict],
+    nodes: dict[str, dict] | None = None,
 ) -> int:
-    collection_names = set(COLLECTION_TITLES) | {"sutta"}
-    for info in canonical_pages.values():
-        parts = info["collection"].split("/")
-        collection_names.update("/".join(parts[:length]) for length in range(1, len(parts) + 1))
-    for name in sorted(collection_names):
-        collection_names.update(
-            "/".join(name.split("/")[:length]) for length in range(1, len(name.split("/")) + 1)
-        )
+    nodes = nodes or navigation_nodes(info["collection"] for info in canonical_pages.values())
     collection_rows = [
-        {"id": name, "title": "Sutta Pitaka" if name == "sutta" else COLLECTION_TITLES.get(name, name.rsplit("/", 1)[-1].replace("-", " ").title())}
-        for name in sorted(collection_names, key=natural_key)
+        {"id": name, "title": node["title"], "url": TIPITAKA_URL_PREFIX + node["route"],
+         "breadcrumbs": collection_breadcrumbs(name, nodes)}
+        for name, node in nodes.items()
     ]
     text_rows = []
     for route, info in sorted(
-        canonical_pages.items(), key=lambda pair: (natural_key(pair[1]["canonical_id"]), pair[1]["collection"])
+        canonical_pages.items(), key=lambda pair: (nodes[pair[1]["collection"]]["order"], natural_key(pair[1]["canonical_id"]))
     ):
         if not info["eligible"]:
             continue
@@ -922,11 +957,13 @@ def _write_continuous_reader(
                 "translator": record["translator"],
                 "url": "/theravada/tipitaka/" + reader.as_posix(),
             })
-        display = _display_canonical_title(info["canonical_id"], info["title"])
+        display = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         text_rows.append({
             "canonical_id": info["canonical_id"],
             "title": display,
             "collection": info["collection"],
+            "ancestors": [node["id"] for node in collection_path(info["collection"], nodes)],
+            "url": TIPITAKA_URL_PREFIX + route,
             "slug": canonical_slug(info["canonical_id"]),
             "key": route.removesuffix("/index.html"),
             "editions": editions,
@@ -946,21 +983,20 @@ def _write_continuous_reader(
     page.write_text(
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        '<title>Read continuously</title>\n<style>.reader-text{font-size:var(--reader-text-size,1em)}.reader-text pre{font:inherit;white-space:pre-wrap}</style>\n'
-        '</head>\n<body>\n<nav><a href="index.html">Home</a> · '
-        '<a href="tipitaka.html">Tipitaka</a> · <a href="sutta.html">Sutta Pitaka</a></nav>\n'
+        '<title>All Text on One Page</title>\n<style>.reader-text{font-size:var(--reader-text-size,1em)}.reader-text pre{font:inherit;white-space:pre-wrap}summary>h2{display:inline}button,input,select{font:inherit}</style>\n'
+        '</head>\n<body>\n' + site_navigation() + '\n<header>\n'
         '<nav id="reader-breadcrumbs" aria-label="Breadcrumb"></nav>\n'
-        '<main><h1 id="reader-title">Read continuously</h1>\n'
+        '<h1 id="reader-title">All Text on One Page</h1></header>\n<main>\n'
         '<nav id="reader-view-switcher" aria-label="Collection views"></nav>\n'
         '<p id="reader-status" role="status">Preparing the continuous reader…</p>\n'
         '<section><h2>Reading preferences</h2>\n'
         '<label>Default translation: <select id="default-translation"></select></label> '
         '<button type="button" id="apply-default">Apply to available texts</button>\n'
-        '<p>Preferences are saved in this browser. If the chosen translation is missing, Sujato is tried next; otherwise the first eligible edition in the list is used. The translation used is labeled under each text.</p>\n'
+        '<p>Preferences are saved in this browser. If the chosen translation is missing, the next available edition is used and labeled below.</p>\n'
         '<button type="button" id="customize-editions" aria-expanded="false">Customize individual texts</button> '
-        '<button type="button" id="text-smaller" aria-label="Make text smaller">Text −</button> '
-        '<button type="button" id="text-larger" aria-label="Make text larger">Text +</button></section>\n'
-        '<details><summary>Contents</summary><label>Search contents: '
+        '<button type="button" id="text-smaller">Font Size -</button> '
+        '<button type="button" id="text-larger">Font Size +</button></section>\n'
+        '<details><summary><h2>Contents</h2></summary><label>Search contents: '
         '<input type="search" id="contents-search" autocomplete="off"></label>\n'
         '<ol id="reader-contents"></ol></details>\n'
         '<div id="reader-texts"></div></main>\n'
@@ -975,19 +1011,148 @@ def _write_collection_browsers(
     tipitaka_root: Path,
     canonical_pages: dict[str, dict],
     collections: dict[str, list],
+    nodes: dict[str, dict] | None = None,
 ) -> int:
-    names = set(collections) | set(COLLECTION_TITLES) | {"sutta"}
+    nodes = nodes or navigation_nodes(collections)
+    names = set(nodes)
     written = 0
     for collection in sorted(names, key=natural_key):
-        index_path = (
-            tipitaka_root / "site/sutta.html" if collection == "sutta"
-            else tipitaka_root / "sutta" / collection / "index.html"
-        )
+        index_path = tipitaka_root / nodes[collection]["route"]
         if not index_path.is_file():
             continue
-        _collection_browse_markup(tipitaka_root, collection, canonical_pages, names)
+        _collection_browse_markup(tipitaka_root, collection, canonical_pages, names, nodes)
         written += 1
     return written
+
+
+def _browse_data(tipitaka_root: Path, canonical_pages: dict, records: list[dict], collections: dict) -> tuple[dict, dict]:
+    pages = dict(canonical_pages)
+    by_id = defaultdict(list)
+    for record in records:
+        if record["kind"] == "vinaya":
+            by_id[record["canonical_id"]].append(record)
+    manifest = json.loads((ROOT / "metadata/source-manifests/suttacentral-brahmali-vinaya.json").read_text(encoding="utf-8"))
+    chapters = _load_vinaya_khandhaka_menu()
+    for source_id in sorted(set(by_id) | set(manifest["needs_review_source_ids"]), key=natural_key):
+        group = _vinaya_source_group(source_id)
+        if group == "khandhaka":
+            group = chapters[source_id]["group"]
+        group = {"bhikkhu-patimokkha": "bhikkhu-vibhanga", "bhikkhuni-patimokkha": "bhikkhuni-vibhanga"}.get(group, group)
+        editions = by_id[source_id]
+        reference, _category = _vinaya_reference(source_id)
+        title = editions[0]["title"] if editions else ""
+        if source_id in chapters:
+            title = chapters[source_id]["pali_title"] + " (" + chapters[source_id]["english_title"] + ")"
+        display = _display_canonical_title(reference, title or reference)
+        route = "vinaya/texts/index/" + slug(source_id) + "/index.html"
+        pages[route] = {"canonical_id": source_id, "title": title or reference,
+                        "display_title": display, "collection": "vinaya/" + group, "eligible": editions}
+    nodes = navigation_nodes(collections)
+    for node in nodes.values():
+        page = tipitaka_root / node["route"]
+        if page.is_file():
+            heading = re.search(r'<h1\b[^>]*>(.*?)</h1>', page.read_text(encoding="utf-8"), re.DOTALL)
+            if heading:
+                node["title"] = html.unescape(re.sub(r'<[^>]+>', '', heading[1])).strip()
+    return pages, nodes
+
+
+def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records: list[dict], unavailable: set[Path]) -> dict:
+    """Apply the same headers and remove links to unavailable text pages everywhere."""
+    tipitaka_root = destination / "theravada/tipitaka"
+    contexts = {node["route"]: (key, None) for key, node in nodes.items()}
+    routes_by_info = {id(info): route for route, info in pages.items()}
+    unavailable_routes = {path.as_posix() for path in unavailable}
+    available_collections = {node["id"] for info in pages.values() if info["eligible"]
+                             for node in collection_path(info["collection"], nodes)}
+    for collection, book in WHOLE_BOOK_PDF_SOURCES.items():
+        if book.get("license") == US_PD_BOOK_LICENSE and collection in nodes:
+            available_collections.update(node["id"] for node in collection_path(collection, nodes))
+    for route, info in pages.items():
+        contexts[route] = (info["collection"], info)
+        if not info["eligible"]:
+            unavailable_routes.add(route)
+        for record in info["eligible"]:
+            reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
+            contexts[reader.as_posix()] = (info["collection"], info)
+    unavailable_routes.update(node["route"] for key, node in nodes.items() if key not in available_collections)
+    replaced_links = 0
+    normalized_headers = 0
+    anchors = re.compile(r'<a\b(?P<attrs>[^>]*)>(?P<label>.*?)</a>', re.DOTALL | re.IGNORECASE)
+    hrefs = re.compile(r'\bhref\s*=\s*([\'"])(.*?)\1', re.DOTALL | re.IGNORECASE)
+    for page in sorted(destination.rglob("*.html")):
+        relative = page.relative_to(tipitaka_root).as_posix() if page.is_relative_to(tipitaka_root) else ""
+        source = page.read_text(encoding="utf-8")
+        if relative != "site/read.html":
+            heading = re.search(r'<h1\b[^>]*>(.*?)</h1>', source, re.DOTALL)
+            title = html.unescape(re.sub(r'<[^>]+>', '', heading[1])).strip() if heading else page.stem
+            context = contexts.get(relative)
+            if context is None:
+                candidates = [key for key, node in nodes.items()
+                              if node["route"].startswith(("sutta/", "vinaya/", "abhidhamma/"))
+                              and relative.startswith(node["route"].removesuffix("index.html"))]
+                key = max(candidates, key=lambda key: len(nodes[key]["route"])) if candidates else None
+                if relative in {"site/sutta-texts.html", "site/sutta-audio.html"}:
+                    key = "sutta"
+                items = collection_breadcrumbs(key, nodes) if key else []
+                if items:
+                    items.append({"label": title, "href": ""})
+            else:
+                key, info = context
+                items = collection_breadcrumbs(key, nodes)
+                if info:
+                    title = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
+                    items.append({"label": title, "href": ""})
+                else:
+                    title = nodes[key]["title"]
+            source = _standardize_header(source, items, title)
+            if context and context[1] and context[1]["eligible"]:
+                info = context[1]
+                if relative in pages:
+                    panel = _text_node_browser(tipitaka_root, relative, info)
+                    source = re.sub(r'<h2>(?:Locally available editions|Available local editions)</h2><ul>.*?</ul>', lambda _m: panel, source, count=1, flags=re.DOTALL)
+                else:
+                    route = routes_by_info[id(info)]
+                    node_url = TIPITAKA_URL_PREFIX + route
+                    read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
+                    controls = (
+                        '<nav aria-label="Collection views">'
+                        f'<a href="{html.escape(node_url, quote=True)}">Tree</a> · '
+                        f'<a href="{html.escape(node_url, quote=True)}?view=list">Flat list</a> · '
+                        f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
+                    )
+                    source = re.sub(r'</h1>', '</h1>\n' + controls, source, count=1)
+            normalized_headers += 1
+
+        def remove_unavailable_link(match):
+            nonlocal replaced_links
+            href = hrefs.search(match["attrs"])
+            if not href:
+                return match[0]
+            parsed = urlsplit(html.unescape(href[2]))
+            if parsed.netloc and parsed.netloc not in {"freebuddhism.org", "www.freebuddhism.org"}:
+                return match[0]
+            if parsed.scheme and parsed.scheme not in {"http", "https"}:
+                return match[0]
+            if not parsed.path:
+                return match[0]
+            path = unquote(parsed.path)
+            if path.startswith(TIPITAKA_URL_PREFIX):
+                target = path[len(TIPITAKA_URL_PREFIX):]
+            elif path.startswith("/"):
+                return match[0]
+            else:
+                target = posixpath.normpath(posixpath.join(posixpath.dirname(relative), path))
+            if target.endswith("/"):
+                target += "index.html"
+            if target in unavailable_routes:
+                replaced_links += 1
+                return '<span class="unavailable">' + match["label"] + '</span>'
+            return match[0]
+
+        source = anchors.sub(remove_unavailable_link, source)
+        page.write_text(source, encoding="utf-8", newline="\n")
+    return {"page_headers_normalized": normalized_headers, "unavailable_page_links_removed": replaced_links}
 
 
 def _register_generated_page(allowed: dict[Path, dict], tipitaka_root: Path, path: Path, collection: str | None) -> None:
@@ -1897,8 +2062,7 @@ def _write_navigation_pages(
         "sutta.html": f"5 collections; {len(source_rows)} indexed text entries",
         "../abhidhamma/index.html": "7 books; no eligible local translations",
     }
-    for route, info in canonical_pages.items():
-        collection = info["collection"]
+    for collection in sorted({info["collection"] for info in canonical_pages.values()}, key=natural_key):
         if collection not in {"digha-nikaya", "majjhima-nikaya", "samyutta-nikaya", "anguttara-nikaya", "khuddaka-nikaya"} and not collection.startswith("khuddaka-nikaya/"):
             continue
         count = sum(
@@ -1929,13 +2093,18 @@ def _write_navigation_pages(
     tipitaka_html = _update_tipitaka_tree_counts(tipitaka_html, tree_counts)
     tipitaka_page.write_text(tipitaka_html, encoding="utf-8", newline="\n")
 
-    continuous_reader_entries = _write_continuous_reader(tipitaka_root, canonical_pages, allowed)
-    collection_browsers = _write_collection_browsers(tipitaka_root, canonical_pages, collections)
+    browse_pages, browse_nodes = _browse_data(tipitaka_root, canonical_pages, records, collections)
+    continuous_reader_entries = _write_continuous_reader(tipitaka_root, browse_pages, allowed, browse_nodes)
+    collection_browsers = _write_collection_browsers(tipitaka_root, browse_pages, collections, browse_nodes)
 
     return {
         "archive_content": archive_content,
         "blocked_file_paths": blocked_file_paths,
         "blocked_reader_routes": set(blocked_reader_routes),
+        "unavailable_reader_routes": {relative for relative, item in blocked_reader_routes.items()
+                                      if item.get("rights_status") not in {"ELIGIBLE_PD", "ELIGIBLE_CC0"}},
+        "browse_pages": browse_pages,
+        "browse_nodes": browse_nodes,
         "disabled_restricted_links": disabled_restricted_links,
         "collection_index_rows_updated": updated_collection_rows,
         "localized_source_links": localized_source_links,
@@ -2188,6 +2357,10 @@ def assemble_webroot(
     archive_names = sorted(set(archive_names))
     navigation_report = _write_navigation_pages(tipitaka_root, selected, allowed, impact_map, archive_names)
     _copy_allowlisted_files(tipitaka_root, allowed)
+    unavailable = navigation_report["unavailable_reader_routes"] | {
+        Path("downloads") / name for name, has_content in navigation_report["archive_content"].items() if not has_content
+    }
+    header_report = _finish_page_navigation(destination, navigation_report["browse_pages"], navigation_report["browse_nodes"], selected, unavailable)
     archive_content = _write_archives(tipitaka_root, allowed, archive_names, content_collections | set(COLLECTION_TITLES) | set(WHOLE_BOOK_PDF_SOURCES))
     if archive_content != navigation_report["archive_content"]:
         raise ValueError("Download-page archive labels differ from the built archive contents")
@@ -2249,7 +2422,7 @@ def assemble_webroot(
             "collection_index_rows_updated": navigation_report["collection_index_rows_updated"],
             "external_story_links_localized": navigation_report["localized_source_links"],
             "sitemap_html_routes": sum(1 for _ in destination.rglob("*.html")),
-            "broken_local_links": 0}
+            "broken_local_links": 0, **header_report}
 
 
 def hashlib_sha256(path: Path) -> str:
