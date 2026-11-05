@@ -2,11 +2,10 @@
 
 Updated: 2026-11-05
 
-Status: the first Sutta release is live from the review branch; broader
-Tipiṭaka scope and easier-expander comparison remain open on
-`codex/navigation-reading-experience-20261104`.
-The recursive navigation corrections below are implemented and undergoing
-release validation before the next publication.
+Status: the recursive navigation corrections are live from source commit
+`2c0e99d2` on `codex/navigation-reading-experience-20261104`. The easier-expander
+comparison, mobile Contents panel and broader assistive-technology testing
+remain follow-on work.
 
 This is the durable handoff for simplifying Free Buddhism's Tipiṭaka browsing
 and reading experience. It records the requested behavior, phased work, visual
@@ -23,12 +22,12 @@ for each Nikāya or book.
 ## Adopted behavior
 
 - Keep one canonical hierarchy from Tipiṭaka through basket, collection, book,
-  chapter, and individual text. Tree, List, and Read are different views of
-  that same structure.
+  chapter, and individual text. Tree, Flat list, and All Text on One Page are
+  different views of that same structure.
 - Offer three modes at every collection node:
   - **Tree:** expand and collapse descendants.
   - **Flat list:** searchable list of descendant texts.
-  - **Read:** actual text in canonical order, not a list of links.
+  - **All Text on One Page:** actual text in canonical order, not a list of links.
 - Make expanding a branch visibly different from opening its page. Prototype
   the three requested controls on identical content: (A) large full-width
   expandable rows, preferred; (B) a traditional indented tree with larger
@@ -132,13 +131,19 @@ Release chunks:
   removal, ordering across the old 25-item boundary, current-edition labels,
   and unchanged source bodies: implemented; 33 tests pass.
 - Full build, browser checks, source push, pinned deployment and live review:
-  in progress.
+  complete. Source `2c0e99d2` was deployed from production commit `4477813`;
+  both review branches are pushed. The release verified 15,453 HTML routes,
+  31 archives and zero broken local links. It normalized 15,452 static page
+  headers (the continuous reader uses the shared header template) and removed
+  3,495 residual links to unavailable pages or notice-only downloads.
 
 Browser verification passes for matching headers across all modes, every
 collection URL, Majjhima ordering/search, the Tipiṭaka root, Vinaya and Sutta
 Vibhaṅga descendants, unavailable labels, automatic translation fallback,
 Contents jumps, font controls, the Milindapañha node/edition/single-text flow,
-and mobile width. The full deployment build remains the publication gate.
+and mobile width. The same browser checks pass on the public site, including
+the Mil 2 edition page. Both public hostnames returned HTTP 200. Retained
+rollback point: `20261105T192820Z-4150489`.
 The link verifier now resolves both `/` and `./` to the built root index.
 Collection coverage totals are computed once per collection rather than once
 per text; this retains the same totals while avoiding repeated full scans.
@@ -218,9 +223,9 @@ and device testing remain follow-on work.
 
 ### 3. Build the reusable collection views
 
-- Apply Tree, List, and Read to the same recursive collection interface at all
-  hierarchy depths. Search the flat list; keep expansion controls large and
-  keyboard operable.
+- Apply Tree, Flat list, and All Text on One Page to the same recursive
+  collection interface at all hierarchy depths. Search the flat list; keep
+  expansion controls large and keyboard operable.
 - Ensure Tree/List/Read never imply that unavailable text exists. Where a
   collection has no locally eligible text, explain that directly instead of
   showing an empty reader or dead-end link.
@@ -270,6 +275,13 @@ baseline. This is a later usability investigation, not a reason to delay this
 release.
 
 ## Resume point
+
+The 2026-11-05 recursive correction pass is published and verified. Source
+commit `2c0e99d2` and production commit `4477813` identify the deployed build.
+The owner can review the public navigation now. The later A/B/C expander
+comparison remains a separate usability task; keep the plain font and layout.
+
+### Previous first-release record — 2026-11-04
 
 The first Sutta release is implemented on
 `codex/navigation-reading-experience-20261104`. Baseline checks confirmed
