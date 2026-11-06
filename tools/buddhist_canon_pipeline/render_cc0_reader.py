@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render an audited CC0 or public-domain text as a uniform reader."""
+"""Render an audited rights-cleared text as a uniform reader."""
 
 from __future__ import annotations
 
@@ -190,6 +190,10 @@ def render_html(config: dict, body: str) -> str:
         f'{html.escape(config["source_revision"])}</a></dd>'
         if config.get("source_revision") and config.get("source_repository") else ""
     )
+    original_book = (
+        f'<p><a href="{esc(config["original_book_href"])}">Original book PDF and complete permission notice</a></p>'
+        if config.get("original_book_href") else ""
+    )
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -239,6 +243,7 @@ def render_html(config: dict, body: str) -> str:
 {revision_row}
 </dl>
 {details_html}
+{original_book}
 </footer>
 </body>
 </html>

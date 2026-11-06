@@ -1,9 +1,9 @@
 # Theravāda Buddhist Text Library
 
-Public-release candidate for a locally readable, freely reusable English
-Theravāda collection. The repository contains only texts cleared as CC0 or
-verified public domain, their provenance, original site material, and build
-tools. Excluded editions appear as metadata only.
+Locally readable English Theravāda collection. The repository contains texts
+with documented redistribution rights: CC0, verified public domain, or an
+explicit source-specific grant. Some works permit free, unaltered distribution
+but not modification or sale. Excluded editions appear as metadata only.
 
 ## Rights
 
@@ -12,6 +12,9 @@ tools. Excluded editions appear as metadata only.
 - Each imported text keeps its own recorded license and source attribution.
 - Public-domain status is scoped and evidenced; no repository-wide license
   overrides third-party rights.
+- Explicit grants are reviewed for each exact work, not inferred from a free
+  download or from another work by the same author. Candana's included books
+  retain their free-distribution/no-alteration terms and original PDFs.
 - Rights and translation completeness are separate fields. Unknown completeness
   is not represented as complete.
 - `metadata/excluded-sources.json` records excluded editions and assets without
@@ -25,6 +28,10 @@ and `pdftotext` commands. Then run
 static site in `build/site-root/`. The build does not publish or deploy. It
 rebuilds downloads from the allowlist and checks links, text integrity, archive
 members, and blocked routes.
+
+Candana extraction review also uses MuPDF's `mutool` for an independent text
+comparison. The source-collection timer stages raw text with both engines in
+the ignored build cache; those drafts are never automatically published.
 
 Run `python tools/validate_public_tree.py` and
 `python -m unittest discover -s tests` before review. The repository file

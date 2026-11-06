@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build uniform local readers only for audited CC0 or public-domain editions."""
+"""Build uniform readers for editions with documented redistribution rights."""
 
 from __future__ import annotations
 
@@ -17,8 +17,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-from public_site_catalog import COLLECTION_TITLES, canonical_slug, collection_breadcrumbs, navigation_nodes, natural_key, slug
+from public_site_catalog import COLLECTION_TITLES, canonical_slug, collection_breadcrumbs, navigation_nodes, natural_key, slug, edition_priority
 from render_cc0_reader import ReaderParser, normalized, render_html, render_pdf, verify_pdf_body
+from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -247,9 +248,46 @@ def collect_records(output_root: Path = ROOT) -> list[dict]:
                 "metadata_notes": metadata_notes,
             }
             records.append(record)
+    records.extend(collect_candana_records(output_root))
     keys = [(record["kind"], record["collection"], record["canonical_id"], record["version"]) for record in records]
     if len(keys) != len(set(keys)):
         raise ValueError("Eligible ledgers contain duplicate text/version identifiers")
+    return records
+
+
+def collect_candana_records(output_root: Path) -> list[dict]:
+    manifest = candana_manifest(require_review=True)
+    books = {row["id"]: row for row in manifest["books"]}
+    records = []
+    for item in manifest["texts"]:
+        row = {**item, "collection_path": item["collection"], "txt_path": item["local_path"],
+               "version_slug": "candana", "label": item["title"],
+               "version_label": "Bhikkhu Candana translation"}
+        folder, base_name, output_html = sutta_output_paths(row, output_root)
+        site_path = ROOT / output_html.relative_to(output_root)
+        entry_page = TIPITAKA / "sutta" / item["collection"] / canonical_slug(item["canonical_id"]) / "index.html"
+        text_path = repo_path(item["local_path"])
+        source, body, notes, translator, body_hash = parse_source_text(text_path, row, CANDANA_LICENSE)
+        book = books[item["book"]]
+        records.append({
+            "kind": "sutta", "policy": None, "manifest": manifest, "row": row,
+            "canonical_id": item["canonical_id"], "collection": item["collection"],
+            "collection_label": COLLECTION_TITLES[item["collection"]],
+            "collection_page": TIPITAKA / "sutta" / item["collection"] / "index.html",
+            "folder": folder, "base_name": base_name, "html_path": output_html,
+            "site_path": site_path, "output_root": output_root,
+            "pdf_path": folder / f"{base_name}-reader.pdf", "entry_page": entry_page,
+            "entry_href": route_for(entry_page, site_path), "version": "candana",
+            "version_label": "Bhikkhu Candana translation", "translator": translator,
+            "title": item["title"], "source_url": item["source_url"],
+            "source_repository": "", "source_revision": item["source_revision"],
+            "upstream_file": book["local_path"], "license": CANDANA_LICENSE,
+            "license_url": book["source_url"], "source_label": "Mind Released · Aṅguttara Book 1",
+            "text_path": text_path, "source_sha256": hashlib.sha256(source.encode()).hexdigest(),
+            "body": body, "body_sha256": body_hash, "metadata_notes": notes,
+            "original_book_path": repo_path(book["local_path"]),
+            "original_book_url": book["source_url"],
+        })
     return records
 
 
@@ -280,7 +318,7 @@ def index_records(records: list[dict]) -> dict:
     for items in by_collection.values():
         items.sort(key=lambda item: (natural_key(item["canonical_id"]), item["version_label"]))
     for items in by_text.values():
-        items.sort(key=lambda item: item["version_label"])
+        items.sort(key=edition_priority)
     positions = {}
     for collection_key, items in by_collection.items():
         canonical_order = []
@@ -340,6 +378,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "license_url": record["license_url"],
         "source_label": record["source_label"],
         "metadata_notes": record["metadata_notes"],
+        "original_book_href": record.get("original_book_url", ""),
         "collection_label": record["collection_label"],
         "collection_href": route_for(record["site_path"], record["collection_page"]),
         "contents_href": route_for(record["site_path"], record["collection_page"]),
@@ -429,7 +468,19 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
         if not target.is_file():
             if not check_pdf and parsed.path.endswith("-reader.pdf"):
                 continue
+            # Canonical nodes for newly imported source numbers are generated
+            # during bundle assembly. The final whole-site verifier checks them.
+            canonical_root = TIPITAKA / "sutta" / record["collection"]
+            if (target.name == "index.html" and target.is_relative_to(canonical_root)
+                    and target.parent.parent == canonical_root):
+                continue
             raise ValueError(f"Reader link target missing from {path.relative_to(ROOT)}: {href}")
+    # New permission-cleared editions can introduce source-numbered texts absent
+    # from the legacy navigation. Their canonical pages are built in the bundle.
+    if record.get("version") == "candana":
+        if check_pdf:
+            verify_pdf_body(record["pdf_path"], record["body"])
+        return
     if not record["entry_page"].is_file():
         raise ValueError(f"Reader index missing: {record['entry_page'].relative_to(ROOT)}")
     entry = ReaderParser()

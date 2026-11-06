@@ -19,6 +19,10 @@ from buddhist_canon_pipeline.public_html_policy import (
     SITE_SCOPE,
     validate_site_content_manifest,
 )
+from buddhist_canon_pipeline.import_candana import (
+    LICENSE as CANDANA_LICENSE, RIGHTS_BASIS as CANDANA_RIGHTS_BASIS,
+    verified_manifest as candana_manifest,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,6 +50,7 @@ LARGE_INDEX_LINK_TEXT_BUDGETS = {
     "theravada/tipitaka/vinaya/bhikkhuni-vibhanga/index.html": 5228,
 }
 RIGHTS_BASIS_BY_SCOPE = {
+    CANDANA_LICENSE: CANDANA_RIGHTS_BASIS,
     "0BSD": "Original project code and test fixtures are released under 0BSD in LICENSE.",
     "License text": "Standard 0BSD and CC0-1.0 license texts are included as license notices.",
     "CC0-1.0 project documentation": "Owner-authored project documentation is released under CC0-1.0 in LICENSE.",
@@ -573,6 +578,16 @@ def check() -> dict:
     expected_texts = {entry["local_path"] for entry in eligible["texts"]}
     assets = json.loads(ASSETS.read_text(encoding="utf-8"))
     expected_assets = {entry["local_path"] for entry in assets["assets"]}
+    candana = candana_manifest(require_review=True)
+    expected_candana = {entry["local_path"]: entry for entry in candana["texts"]}
+    listed_candana = {entry["local_path"]: entry for entry in eligible["texts"] if entry.get("version") == "candana"}
+    if listed_candana != expected_candana:
+        raise ValueError("Eligible Candana texts differ from the reviewed permission manifest")
+    for book in candana["books"]:
+        matching = [entry for entry in assets["assets"] if entry["local_path"] == book["local_path"]]
+        if (len(matching) != 1 or matching[0]["sha256"] != book["sha256"]
+                or matching[0]["license"] != CANDANA_LICENSE):
+            raise ValueError("Eligible Candana book differs from its reviewed permission manifest")
     content_root = ROOT / "theravada" / "tipitaka"
     actual_sources = {
         path.relative_to(ROOT).as_posix()

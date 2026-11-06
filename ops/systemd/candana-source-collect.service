@@ -1,0 +1,17 @@
+[Unit]
+Description=Collect one Candana written source with persistent rate limiting
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/repos/personal/freebuddhism
+ExecStart=/usr/bin/python3 %h/repos/personal/freebuddhism/tools/buddhist_canon_pipeline/candana_queue.py tick
+TimeoutStartSec=90
+Nice=10
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=%h/repos/personal/freebuddhism/build/candana-audit
+Environment=PYTHONDONTWRITEBYTECODE=1
+StandardOutput=journal
+StandardError=journal

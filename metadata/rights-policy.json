@@ -1,8 +1,15 @@
 {
-  "policy_id": "cc0-or-verified-public-domain-only",
-  "version": 1,
+  "policy_id": "documented-redistribution-permission",
+  "version": 2,
   "new_publication": {
     "allow": [
+      {
+        "license": "Candana — free distribution, unaltered contents",
+        "scope": "Only the exact works and source hashes reviewed in metadata/source-manifests/candana.json",
+        "evidence_required": "Explicit grant inside each source PDF; attribution, complete notice and original PDF retained",
+        "conditions": ["Copies must be available free of charge", "Do not alter the contents"],
+        "not_authorized": ["Blanket reuse of other works or recordings", "Relicensing as CC0", "Abridging or rewriting the translation"]
+      },
       {
         "license": "CC0-1.0",
         "evidence_required": "Pinned source manifest and matching source-file record"

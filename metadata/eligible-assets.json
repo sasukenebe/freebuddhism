@@ -26,6 +26,56 @@
       "jurisdiction": "United States",
       "local_path": "theravada/tipitaka/translations/en/public-domain-sutta-books/milinda-part-ii.pdf",
       "sha256": "54bff738e45d89f1eb6a49d57be713707daeeccae51cc9c8fbcf17abb1b19b7c"
+    },
+    {
+      "id": "an-book1",
+      "title": "Aṅguttara Nikāya — Book of the Ones",
+      "collection": "anguttara-nikaya",
+      "translator": "Bhikkhu Candana",
+      "source_url": "https://www.mindreleased.com/s/Book-1_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/books/an-book1.pdf",
+      "sha256": "807db762b939fded1ed24be52c1aaf4d3f4a702c45cb9c4327a9329b7eab56fc",
+      "license": "Candana — free distribution, unaltered contents",
+      "permission_pages": [
+        3
+      ],
+      "conditions": [
+        "Copies must be available free of charge",
+        "Do not alter the contents"
+      ],
+      "formats": [
+        "Original PDF",
+        "Unaltered text in another medium"
+      ],
+      "plain_text_status": "VERIFIED_NUMBERED_EXTRACTION",
+      "label": "Aṅguttara Nikāya — Book of the Ones — Bhikkhu Candana (original PDF)",
+      "license_url": "https://www.mindreleased.com/s/Book-1_Anguttara-Nikya-A-New-Translation.pdf",
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED"
+    },
+    {
+      "id": "sutta-nipata",
+      "title": "Sutta Nipāta — A New Translation",
+      "collection": "khuddaka-nikaya/sutta-nipata",
+      "translator": "Bhikkhu Candana",
+      "source_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-sm.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/books/sutta-nipata.pdf",
+      "sha256": "bcb67ef9adbf34fd48b1458a6a05b151553b983e4ac35c7e90b2074e4b21fff6",
+      "license": "Candana — free distribution, unaltered contents",
+      "permission_pages": [
+        7
+      ],
+      "conditions": [
+        "Copies must be available free of charge",
+        "Do not alter the contents"
+      ],
+      "formats": [
+        "Original PDF",
+        "Unaltered text in another medium"
+      ],
+      "plain_text_status": "HOLD_EXTRACTION_QUALITY",
+      "label": "Sutta Nipāta — A New Translation — Bhikkhu Candana (original PDF)",
+      "license_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-sm.pdf",
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED"
     }
   ]
 }

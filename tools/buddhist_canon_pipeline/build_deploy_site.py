@@ -22,6 +22,7 @@ from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlsplit
 
 from build_eligible_readers import VINAYA_CONTENTS, collect_records
+from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
 from public_html_policy import NAVIGATION_SCOPE, SITE_SCOPE, require_allowlisted_page, validate_site_content_manifest
 from public_site_catalog import (
     ABHIDHAMMA_BOOKS,
@@ -34,6 +35,8 @@ from public_site_catalog import (
     collection_path,
     navigation_nodes,
     natural_key,
+    edition_priority,
+    PREFERRED_TRANSLATORS,
     site_navigation,
     slug,
     whole_book_pdfs,
@@ -159,7 +162,7 @@ def _replace_sutta_coverage_intro(page: str, intro: str) -> str:
     existing_intro = re.search(
         r"<p>(?:\d+ available texts for \d+ suttas, grouped by collection\."
         r"|Source index: \d+ entries across \d+ IDs\. This build includes "
-        r"\d+ CC0 or verified-public-domain editions across \d+ IDs\. A zero means "
+        r"\d+ (?:CC0 or verified-public-domain|rights-cleared) editions across \d+ IDs\. A zero means "
         r"no edition cleared for local redistribution; it does not mean no translation exists\.)</p>",
         page,
     )
@@ -173,7 +176,7 @@ def _replace_tipitaka_coverage_summary(page: str, summary: str) -> str:
     pattern = re.compile(
         r"<p>(?:The Sutta Piṭaka section contains .*?"
         r"|The text index retains \d+ source entries across \d+ IDs\. This build includes "
-        r"\d+ CC0 or verified-public-domain Sutta editions across \d+ IDs\. The Vinaya source ledger lists "
+        r"\d+ (?:CC0 or verified-public-domain|rights-cleared) Sutta editions across \d+ IDs\. The Vinaya source ledger lists "
         r"\d+ files; \d+ eligible files are hosted locally\. No Abhidhamma book currently clears the reuse policy\. "
         r"Text availability and translation completeness are separate; unavailable entries remain in the navigation\.)</p>",
         re.DOTALL,
@@ -209,6 +212,11 @@ def _record_relative_path(record: dict, key: str, output_root: Path, repo_root: 
 def _record_license_is_allowed(record: dict) -> bool:
     if record.get("kind") == "sutta" and record.get("license") in {CC0_LICENSE, COWELL_PD_LICENSE}:
         return True
+    if record.get("kind") == "sutta" and record.get("license") == CANDANA_LICENSE:
+        manifest = record.get("manifest", {})
+        return any(row["canonical_id"] == record.get("canonical_id")
+                   and row["sha256"] == record.get("source_sha256")
+                   for row in manifest.get("texts", []))
     return record.get("kind") == "vinaya" and record.get("license") == CC0_LICENSE
 
 
@@ -417,7 +425,7 @@ def _localize_suttafriends_story_links(
                 _write_unavailable_page(
                     target_page,
                     f"{canonical_id} — {story_title or visible}",
-                    "This listed English translation is not included because its source does not establish CC0 or verified public-domain redistribution rights.",
+                    "This listed English translation is not included because its redistribution permission has not been verified for this exact edition.",
                     tipitaka_root,
                 )
                 _register_generated_page(allowed, tipitaka_root, target_page, collection)
@@ -440,7 +448,7 @@ def _update_collection_index(
 ) -> int:
     """Preserve existing collection page content while correcting its edition counts."""
     source = page.read_text(encoding="utf-8")
-    updated = source.replace("<th>Texts</th>", "<th>CC0/PD editions</th>")
+    updated = source.replace("<th>Texts</th>", "<th>Local editions</th>").replace("<th>CC0/PD editions</th>", "<th>Local editions</th>")
     row_re = re.compile(
         r'<tr><td>(?P<canonical_id>.*?)</td><td><a href="(?P<href>[^"]+)">(?P<title>.*?)</a></td><td>\d+</td></tr>',
         re.DOTALL,
@@ -478,27 +486,27 @@ def _update_collection_index(
         return f'<a{match.group("attrs")}>{match.group("body")} — no eligible files; notice only</a>'
 
     updated = anchor_re.sub(label_empty_download, updated)
-    if changed_rows and "<th>CC0/PD editions</th>" not in updated:
+    if changed_rows and "<th>Local editions</th>" not in updated:
         raise ValueError(f"Could not relabel edition counts in {relative_page}")
     if relative_page.as_posix() == "sutta/khuddaka-nikaya/jataka/index.html":
         updated = updated.replace(
             "Individual revised stories are available on each story page.",
-            "The revised stories are not hosted in this build because their license is CC BY-SA 4.0, outside the CC0/public-domain policy.",
+            "These revised stories have not yet been reviewed for inclusion under their CC BY-SA 4.0 terms.",
         )
     if relative_page.as_posix() == "sutta/khuddaka-nikaya/petakopadesa/index.html":
         updated = updated.replace(
             "Complete English text in all nine SuttaCentral sections Pe 1–9, matched to all nine Pali text IDs, plus the 223-page scan of the printed edition through page 402, including all eight divisions, indexes, glossary, and appendix.",
-            "The complete source text and scan are not included here because their CC BY-NC license does not meet the CC0/public-domain policy.",
+            "This edition has not yet been reviewed for inclusion under its CC BY-NC terms.",
         )
     for collection in ("petavatthu", "vimanavatthu"):
         if relative_page.as_posix() == f"sutta/khuddaka-nikaya/{collection}/index.html":
             updated = updated.replace(
                 "this site hosts each complete individual sutta under that permission and links to the full collection rather than reproducing it as a book.",
-                "this strict build does not host those translations because the permission is not a CC0 or public-domain license.",
+                "these translations have not yet been reviewed against their source-specific permission conditions.",
             )
             updated = re.sub(
                 r"All (?:51|85) complete Sutta Friends .*?stories are hosted as separate texts under its individual-sutta sharing permission\.",
-                "Sutta Friends translations are not hosted in this build under the CC0/public-domain-only policy.",
+                "Sutta Friends translations await review against their source-specific permission conditions.",
                 updated,
                 count=1,
             )
@@ -794,17 +802,15 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     function getStored(key){try{return localStorage.getItem(key);}catch(_){return null;}}
     function setStored(key,value){try{localStorage.setItem(key,value);}catch(_){setStatus("Browser storage is unavailable; choices will last only while this page is open.");}}
     const savedDefault=getStored("freebuddhism-reading-default");
-    const sujato=[...data.texts.flatMap(function(item){return item.editions;})]
-      .find(function(edition){return /sujato/i.test(edition.translator+" "+edition.label);});
+    const preferred=data.preferred_translators||[];
+    function rank(id){const position=preferred.indexOf(id);return position<0?preferred.length:position;}
     const orderedChoices=[...allChoices.entries()].sort(function(a,b){
-      const aSujato=/sujato/i.test(a[1]);const bSujato=/sujato/i.test(b[1]);
-      if(aSujato!==bSujato)return aSujato?-1:1;
-      return a[1].localeCompare(b[1]);
+      return rank(a[0])-rank(b[0])||a[1].localeCompare(b[1]);
     });
     defaultSelect.add(new Option("Choose a default translation", ""));
     orderedChoices.forEach(function(item){defaultSelect.add(new Option(item[1],item[0]));});
     const initialDefault=savedDefault&&allChoices.has(savedDefault)
-      ?savedDefault:(sujato?sujato.id:(orderedChoices[0]&&orderedChoices[0][0])||"");
+      ?savedDefault:((orderedChoices[0]&&orderedChoices[0][0])||"");
     defaultSelect.value=initialDefault;
     const contents=document.getElementById("reader-contents");
     const sections=document.getElementById("reader-texts");
@@ -821,7 +827,8 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       const section=document.createElement("section");section.className="continuous-text";
       section.id=item.slug;
       const heading=document.createElement("h2");heading.id=item.slug+"-heading";
-      heading.textContent=item.title;section.append(heading);
+      const nodeLink=document.createElement("a");nodeLink.href=item.url;
+      nodeLink.textContent=item.title;heading.append(nodeLink);section.append(heading);
       const label=document.createElement("label");label.className="edition-choice";label.hidden=true;
       label.append(document.createTextNode("Translation for this text: "));
       const select=document.createElement("select");select.setAttribute("aria-label","Translation for "+item.canonical_id);
@@ -835,7 +842,7 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
         const overrides=getOverrides();
         const choice=overrides[item.key]||defaultSelect.value;
         select.value=overrides[item.key]||"";
-        const fallbackIds=[choice,defaultSelect.value,sujato&&sujato.id]
+        const fallbackIds=[choice,defaultSelect.value].concat(preferred)
           .concat(orderedChoices.map(function(entry){return entry[0];}));
         const seenIds=new Set();
         const edition=fallbackIds.filter(function(id){
@@ -866,6 +873,11 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
           notice.textContent=edition.id===choice
             ?"Translation: "+edition.label+"."
             :"Fallback translation: "+edition.label+" (the chosen translation is not available for this text).";
+          if(edition.reuse_notice){
+            notice.append(document.createTextNode(" "+edition.reuse_notice+" "));
+            const original=document.createElement("a");original.href=edition.original_book_url;
+            original.textContent="Original book and permission notice";notice.append(original);
+          }
         }catch(error){
           if(currentGeneration!==generation)return;
           notice.textContent="Could not load this text here. Open the eligible edition directly: ";
@@ -949,13 +961,16 @@ def _write_continuous_reader(
         if not info["eligible"]:
             continue
         editions = []
-        for record in sorted(info["eligible"], key=lambda item: item["version_label"].casefold()):
+        for record in sorted(info["eligible"], key=edition_priority):
             reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
             editions.append({
                 "id": record["version"],
                 "label": record["version_label"],
                 "translator": record["translator"],
                 "url": "/theravada/tipitaka/" + reader.as_posix(),
+                "reuse_notice": ("Copyright © Bhikkhu Candana, 2020, 2026. Free distribution only; do not alter the contents."
+                                 if record.get("license") == CANDANA_LICENSE else ""),
+                "original_book_url": record.get("original_book_url", ""),
             })
         display = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         text_rows.append({
@@ -969,6 +984,7 @@ def _write_continuous_reader(
             "editions": editions,
         })
     payload = {
+        "preferred_translators": list(PREFERRED_TRANSLATORS),
         "canonical_count": len(canonical_pages),
         "collections": collection_rows,
         "texts": text_rows,
@@ -1188,7 +1204,7 @@ def _write_vimanavatthu_story_pages(tipitaka_root: Path, allowed: dict[Path, dic
         chapter_href = html.escape(_relative_href(target, chapter_page), quote=True)
         body = (
             f"<h1>{html.escape(title)}</h1>"
-            "<p>No standalone English edition for this individual story is included under the CC0 or verified-public-domain policy.</p>"
+            "<p>No standalone English edition for this individual story currently has verified local redistribution permission.</p>"
             f'<p>See <a href="{chapter_href}">Vv {chapter} edition availability</a>.</p>'
             "<p>Rights and translation completeness are assessed separately; this page does not classify the completeness of a larger edition.</p>"
         )
@@ -1202,7 +1218,7 @@ def _write_unavailable_page(
     title: str,
     detail: str,
     tipitaka_root: Path,
-    reason: str = "This edition is not included in the local website build because it has not cleared the CC0 or verified-public-domain reuse policy.",
+    reason: str = "This edition is not included in the local website build because its exact redistribution permission has not yet been verified.",
 ) -> None:
     body = (
         f"<h1>{html.escape(title)}</h1>"
@@ -1798,7 +1814,7 @@ def _write_navigation_pages(
             tipitaka_root, page, info["collection"], canonical_id
         )
         body = [breadcrumb, f"<h1>{html.escape(title)}</h1>"]
-        available = sorted(info["eligible"], key=lambda row: row["version_label"].casefold())
+        available = sorted(info["eligible"], key=edition_priority)
         if available:
             body.append("<h2>Locally available editions</h2><ul>")
             for edition in available:
@@ -1809,7 +1825,7 @@ def _write_navigation_pages(
                 )
             body.append("</ul>")
         else:
-            body.append("<p>No edition for this text is currently available locally under the CC0 or verified-public-domain policy.</p>")
+            body.append("<p>No edition for this text currently has verified local redistribution permission.</p>")
         audio_page = tipitaka_root / "site/sutta-audio.html"
         audio_collection = info["collection"].split("/", 1)[0]
         if info.get("audio_available") and audio_page.is_file():
@@ -1937,11 +1953,11 @@ def _write_navigation_pages(
     })
     intro = (
         f"<p>Source index: {len(source_rows)} entries across {unique_ids} IDs. "
-        f"This build includes {sum(counts_by_route.values())} CC0 or verified-public-domain editions across {available_ids} IDs. "
+        f"This build includes {sum(counts_by_route.values())} rights-cleared editions across {available_ids} IDs. "
         "A zero means no edition cleared for local redistribution; it does not mean no translation exists.</p>"
     )
     updated_text_index = _replace_sutta_coverage_intro(existing_text_index, intro)
-    updated_text_index = updated_text_index.replace("<th>Texts</th>", "<th>CC0/PD editions</th>")
+    updated_text_index = updated_text_index.replace("<th>Texts</th>", "<th>Local editions</th>").replace("<th>CC0/PD editions</th>", "<th>Local editions</th>")
     row_pattern = re.compile(
         r'<tr><td>(?P<canonical_id>.*?)</td><td><a href="(?P<href>[^"]+)">(?P<title>.*?)</a></td>'
         r'<td>\d+</td><td>(?P<audio>.*?)</td></tr>', re.DOTALL,
@@ -1975,7 +1991,7 @@ def _write_navigation_pages(
         raise ValueError("Could not update the Sutta overview coverage statement")
     sutta_html, changed_download = re.subn(
         r'<li><a href="downloads\.html">Downloads</a>:.*?</li>',
-        '<li><a href="downloads.html">Downloads</a>: CC0/verified-public-domain files only; collection archives with no eligible files contain a notice.</li>',
+        '<li><a href="downloads.html">Downloads</a>: files with documented redistribution permission; each work retains its own terms.</li>',
         sutta_html,
         count=1,
     )
@@ -1989,7 +2005,11 @@ def _write_navigation_pages(
         "<p>These archives contain the material currently available here; they do not yet constitute the complete Pāli Canon.</p>",
         "<p>Every archive is rebuilt from editions cleared as CC0 or verified public domain. Collections with no eligible files contain a notice only. This is not a claim of complete Tipiṭaka coverage.</p>",
     )
-    if "<p>Every archive is rebuilt" not in downloads_html:
+    downloads_html = downloads_html.replace(
+        "Every archive is rebuilt from editions cleared as CC0 or verified public domain.",
+        "Every archive contains rights-cleared editions with their own licenses or explicit permission. Candana editions are for free, unaltered distribution only.",
+    )
+    if "<p>Every archive contains rights-cleared" not in downloads_html:
         raise ValueError("Could not replace the old archive-content claim")
     archive_link_re = ARCHIVE_LINK_RE
     linked_archives = set()
@@ -2020,7 +2040,7 @@ def _write_navigation_pages(
             f'<p><a href="{html.escape(_relative_href(book_path, abhidhamma_index), quote=True)}">Abhidhamma Piṭaka</a></p>'
             f"<h1>{html.escape(name)} ({html.escape(english)})</h1>"
             f"<p>{html.escape(description)}</p>"
-            "<p>No English text or book download is included here under the CC0 or verified-public-domain policy. This availability label does not assess whether a translation is complete.</p>"
+            "<p>No English text or book download currently has verified local redistribution permission here. This availability label does not assess whether a translation is complete.</p>"
         )
         _write_page(book_path, f"{name} ({english})", body, tipitaka_root)
         _register_generated_page(allowed, tipitaka_root, book_path, "abhidhamma")
@@ -2030,7 +2050,7 @@ def _write_navigation_pages(
     _write_page(
         abhidhamma_index,
         "Abhidhamma Piṭaka",
-        "<h1>Abhidhamma Piṭaka</h1><p>No book translations currently clear the CC0 or verified-public-domain policy.</p><ul>" + "\n".join(abhidhamma_rows) + "</ul>",
+        "<h1>Abhidhamma Piṭaka</h1><p>No book translations currently have verified local redistribution permission here.</p><ul>" + "\n".join(abhidhamma_rows) + "</ul>",
         tipitaka_root,
     )
     _register_generated_page(allowed, tipitaka_root, abhidhamma_index, "abhidhamma")
@@ -2043,7 +2063,7 @@ def _write_navigation_pages(
 
     summary = (
         f"<p>The text index retains {len(source_rows)} source entries across {unique_ids} IDs. "
-        f"This build includes {sum(counts_by_route.values())} CC0 or verified-public-domain Sutta editions across {available_ids} IDs. "
+        f"This build includes {sum(counts_by_route.values())} rights-cleared Sutta editions across {available_ids} IDs. "
         f"The Vinaya source manifest maps {vinaya_report['source_files']} English files; {vinaya_report['local_files']} have local readers and {vinaya_report['review_required_files']} are held for passage-level review. "
         "No Abhidhamma book currently clears the reuse policy. Text availability and translation completeness are separate; unavailable entries remain in the navigation.</p>"
     )
@@ -2248,7 +2268,7 @@ def _write_archives(
             members = [path for path, entry in allowed.items() if entry.get("archive") and entry.get("collection") == collection]
         has_content[name] = bool(members)
         notice = None if members else (
-            f"No CC0 or verified-public-domain text files are currently available in this archive.\n"
+            f"No text files with verified redistribution permission are currently available in this archive.\n"
             "The archive is retained to preserve its download URL; it contains no restricted source text.\n"
         )
         _zip_write(tipitaka_root / "downloads" / name, members, tipitaka_root, allowed, notice=notice)
@@ -2338,6 +2358,10 @@ def assemble_webroot(
         elif record["kind"] == "vinaya":
             content_collections.add("vinaya")
 
+    # Source PDFs remain pinned evidence, not arbitrary formatted blobs in the
+    # reader or website archives. Publish checked text and our generated exports.
+    candana = candana_manifest(require_review=True)
+
     # Only these two scanned books have verified U.S. public-domain status.
     for collection, book in WHOLE_BOOK_PDF_SOURCES.items():
         if book.get("license") != US_PD_BOOK_LICENSE:
@@ -2356,6 +2380,14 @@ def assemble_webroot(
         raise ValueError("No existing archive routes were supplied for safe rebuilding")
     archive_names = sorted(set(archive_names))
     navigation_report = _write_navigation_pages(tipitaka_root, selected, allowed, impact_map, archive_names)
+    for book in candana["books"]:
+        index = tipitaka_root / "sutta" / book["collection"] / "index.html"
+        link = book["source_url"]
+        note = (f'<h2>Bhikkhu Candana book</h2><p><a href="{html.escape(link, quote=True)}">'
+                f'{html.escape(book["title"])} — publisher’s source PDF</a>. '
+                'Free distribution only; do not alter the contents. The original PDF retains the complete permission notice.</p>')
+        document = index.read_text(encoding="utf-8").replace("</body>", note + "\n</body>")
+        index.write_text(document, encoding="utf-8")
     _copy_allowlisted_files(tipitaka_root, allowed)
     unavailable = navigation_report["unavailable_reader_routes"] | {
         Path("downloads") / name for name, has_content in navigation_report["archive_content"].items() if not has_content

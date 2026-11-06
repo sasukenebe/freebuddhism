@@ -1,0 +1,12 @@
+[Unit]
+Description=Resume Candana source collection at most once every two minutes
+
+[Timer]
+OnStartupSec=1min
+OnUnitActiveSec=2min
+RandomizedDelaySec=15s
+AccuracySec=1s
+Unit=candana-source-collect.service
+
+[Install]
+WantedBy=timers.target

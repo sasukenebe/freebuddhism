@@ -211,12 +211,13 @@ class PublicReleasePolicyTests(unittest.TestCase):
 
     def test_text_rights_and_completeness_are_separate(self):
         manifest = json.loads((ROOT / "metadata/eligible-texts.json").read_text(encoding="utf-8"))
-        self.assertEqual(manifest["count"], 6352)
-        self.assertEqual(len(manifest["texts"]), 6352)
+        self.assertEqual(manifest["count"], 6804)
+        self.assertEqual(len(manifest["texts"]), 6804)
         self.assertEqual({row["license"] for row in manifest["texts"]}, {
-            "CC0-1.0", "Public Domain (original English edition, published 1895–1907)"
+            "CC0-1.0", "Public Domain (original English edition, published 1895–1907)",
+            "Candana — free distribution, unaltered contents",
         })
-        self.assertTrue(all(row["rights_status"] == "CLEARED" for row in manifest["texts"]))
+        self.assertTrue(all(row["rights_status"] in {"CLEARED", "EXPLICIT_PERMISSION_VERIFIED"} for row in manifest["texts"]))
         self.assertTrue(all(row["completeness_status"] == "UNKNOWN" for row in manifest["texts"]))
 
     def test_exclusion_inventory_is_metadata_only_and_complete_at_baseline(self):
@@ -663,6 +664,8 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn('collectionIndexUrl+"?view=list"', reader)
             self.assertIn('currentView.textContent="All Text on One Page"', reader)
             self.assertNotIn('heading.append(anchor)', reader)
+            self.assertIn('nodeLink.href=item.url', reader)
+            self.assertIn('heading.append(nodeLink)', reader)
             self.assertIn("Fallback translation:", reader)
             self.assertIn('"title":"MN 1"', manifest)
             self.assertIn(Path("site/reading-index.json"), allowed)
