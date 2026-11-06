@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "Private draft preparation only; these recipes do not approve publication or canonical numbering.",
+  "recipes": [
+    {
+      "id": "an-book2",
+      "title": "Candana — Aṅguttara Book Two",
+      "source_url": "https://www.mindreleased.com/s/Book-2_Anguttara-Nikya-A-New-Translation.pdf",
+      "source_sha256": "95439bcf66d6295a952d574a8501d2d31edc03ca3ed8eb1e5889f079f7b658c9",
+      "layout": "numbered-an-book",
+      "first_page": 25,
+      "last_page": 207,
+      "page_count": 208,
+      "running_heading": "AN II",
+      "closing_marker": "(Here ends Book of the Twos)",
+      "expected_last_number": 479
+    },
+    {
+      "id": "an-book3",
+      "title": "Candana — Aṅguttara Book Three",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "source_sha256": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "layout": "numbered-an-book",
+      "first_page": 20,
+      "last_page": 299,
+      "page_count": 300,
+      "running_heading": "AN III",
+      "closing_marker": "(Here ends The Book of the Threes)",
+      "expected_last_number": 352
+    }
+  ]
+}

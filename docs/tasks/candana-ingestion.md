@@ -112,6 +112,15 @@ downloads, especially AN Books 2 and 3, for their own permission and extraction
 quality before promoting any source. Contacting the author is not authorized;
 draft and obtain approval before sending any message.
 
+### Reusable batch preparation
+
+The existing source and Book One work was committed and pushed as 86333938.
+See [batch preparation and eight-PDF findings](candana-batch-preparation.md) for
+the new bounded offline command, exact trial sources, local review preview and
+remaining gates. The trial produced 312 Book Two section drafts; Book Three and
+the six individual PDF offers remain held for their reported exceptions.
+Unchanged results are reused, with no network requests or automatic publication.
+
 ## Work chunks
 
 1. Audit the author's current downloads, including the individual Sutta PDFs,
