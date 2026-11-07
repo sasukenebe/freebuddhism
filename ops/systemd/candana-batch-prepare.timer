@@ -1,0 +1,12 @@
+[Unit]
+Description=Keep private Candana text drafts and exceptions current
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=5min
+AccuracySec=15s
+RandomizedDelaySec=15s
+Unit=candana-batch-prepare.service
+
+[Install]
+WantedBy=timers.target

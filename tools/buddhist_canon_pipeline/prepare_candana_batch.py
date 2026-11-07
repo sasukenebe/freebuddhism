@@ -15,8 +15,12 @@ import shutil
 import subprocess
 from urllib.parse import unquote, urlsplit
 
-from import_candana import ROOT, granted_notice
-from candana_queue import checked_url
+if __package__:
+    from .import_candana import ROOT, granted_notice
+    from .candana_queue import checked_url
+else:
+    from import_candana import ROOT, granted_notice
+    from candana_queue import checked_url
 
 RECIPES = ROOT / "metadata/candana-batch-recipes.json"
 QUEUE = ROOT / "build/candana-audit/queue.json"
@@ -107,10 +111,14 @@ def engine_comparison(left: str, right: str, pagination: bool = False) -> dict:
             "comparison": "Exact ordered Unicode characters, ignoring whitespace; pinned book recipes also recognize one edge page-number label"}
 
 
-def reflow(body: str) -> str:
+def reflow(body: str, join_hyphen_wraps: bool = False) -> str:
+    original = body
+    if join_hyphen_wraps:
+        # Keep the printed hyphen. Remove one physical wrap, never a paragraph break.
+        body = re.sub(r"([^\W\d_]+(?:-[^\W\d_]+)*-)\n[ \t]*([^\W\d_]+)", r"\1\2", body)
     paragraphs = re.split(r"\n[ \t]*\n+", body.strip())
     result = "\n\n".join(" ".join(part.split()) for part in paragraphs if part.strip()) + "\n"
-    if nonspace(result) != nonspace(body):
+    if nonspace(result) != nonspace(original):
         raise ValueError("Reflow changed a non-whitespace character")
     return result
 
@@ -141,27 +149,40 @@ def numbered_book(text: str, recipe: dict) -> dict:
     body = body.split(recipe["closing_marker"], 1)[0].rstrip() + "\n"
     if not re.match(r"\s*" + re.escape(recipe["running_heading"]) + r"\s*\n", body):
         raise ValueError("Unexpected first translation-page heading")
-    headings = list(HEADING.finditer(body))
-    problems, expected = [], 1
+    all_headings = re.compile(r"(?m)^[ \t]*(\d+)([a-z]?)(?:[ \t]*[-–][ \t]*(\d+))?\.[ \t]*([^\n]*)$")
+    extras = recipe.get("untitled_numbered_headings", {})
+    headings = [match for match in all_headings.finditer(body)
+                if not match[4] or re.search(r"\bSutta\b", match[4])
+                or extras.get(match[1] + match[2]) == match[4]]
+    suffixes = recipe.get("suffix_numbers", {})
+    expected_labels = [f"{number}{suffix}" for number in range(1, recipe["expected_last_number"] + 1)
+                       for suffix in suffixes.get(str(number), [""])]
+    observed = []
+    problems = []
     for heading in headings:
         start, end = int(heading[1]), int(heading[3] or heading[1])
-        if heading[2] or start != expected or end < start:
-            problems.append({"expected": expected, "found": heading[0].strip()[:100]})
-        expected = end + 1
-    if expected - 1 != recipe["expected_last_number"]:
-        problems.append({"expected_last": recipe["expected_last_number"], "found_last": expected - 1})
+        if end < start or (heading[2] and heading[3]):
+            problems.append({"found": heading[0].strip(), "reason": "Invalid source range"})
+        observed.extend([heading[1] + heading[2]] if heading[2] else [str(n) for n in range(start, end + 1)])
+    if observed != expected_labels:
+        first_difference = next((i for i, pair in enumerate(zip(observed, expected_labels)) if pair[0] != pair[1]),
+                                min(len(observed), len(expected_labels)))
+        problems.append({"expected": expected_labels[first_difference:first_difference + 5],
+                         "found": observed[first_difference:first_difference + 5],
+                         "expected_count": len(expected_labels), "found_count": len(observed)})
     if not headings:
         problems.append({"reason": "No numbered headings"})
+    join_wraps = recipe.get("hyphen_wrap_policy") == "retain-hyphen-join-single-wrap"
     if problems:
         return {"status": "NUMBERING_REVIEW_REQUIRED", "numbering_exceptions": problems,
-                "detected_headings": len(headings), "sections": [], "body": reflow(body),
+                "detected_headings": len(headings), "sections": [], "body": reflow(body, join_wraps),
                 "footer_pages_removed": removed}
     starts = [heading.start() for heading in headings]
     for index, heading in enumerate(headings):
         page_start = next(offset for offset, _ in reversed(page_starts) if offset <= heading.start())
         prefix = body[page_start:heading.start()]
         if re.match(r"\s*" + re.escape(recipe["running_heading"]) + r"\s*\n", prefix):
-            if not HEADING.search(prefix):
+            if not any(page_start <= old.start() < heading.start() for old in headings):
                 starts[index] = page_start
         # A subsection heading belongs to the next sutta, not to the preceding one.
         if index:
@@ -178,14 +199,14 @@ def numbered_book(text: str, recipe: dict) -> dict:
         if not raw.strip() or not re.search(r"[A-Za-z]{3}", body[heading.end():end]):
             raise ValueError("Empty numbered source unit")
         number, last_number = int(heading[1]), int(heading[3] or heading[1])
-        label = str(number) if number == last_number else f"{number}-{last_number}"
+        label = heading[1] + heading[2] if number == last_number else f"{number}-{last_number}"
         page = next(number for offset, number in reversed(page_starts) if offset <= heading.start())
         sections.append({"source_label": label, "title": heading[0].strip(), "source_page": page,
-                         "first": number, "last": last_number, "body": reflow(raw)})
+                         "first": number, "last": last_number, "body": reflow(raw, join_wraps)})
     if nonspace("".join(section["body"] for section in sections)) != nonspace(body):
         raise ValueError("Section partition lost, repeated or reordered source characters")
-    return {"status": "PARTITION_CHECK_PASSED", "sections": sections, "body": reflow(body),
-            "source_numbers": expected - 1, "detected_headings": len(headings),
+    return {"status": "PARTITION_CHECK_PASSED", "sections": sections, "body": reflow(body, join_wraps),
+            "source_numbers": len(expected_labels), "detected_headings": len(headings),
             "footer_pages_removed": removed, "numbering_exceptions": []}
 
 
@@ -252,7 +273,7 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     hyphens = [{"page": number, "left": match[1], "right": match[2]}
                for number, page in enumerate(pages_of(left), 1)
                for match in re.finditer(r"(\w+-)\n[ \t]*(\w+)", page)]
-    if hyphens:
+    if hyphens and not (pinned and recipe.get("hyphen_wrap_policy") == "retain-hyphen-join-single-wrap"):
         issues.append("HYPHEN_WRAP_REVIEW_REQUIRED")
     title = recipe["title"] if recipe else unquote(Path(urlsplit(url).path).name)
     contents = {"poppler.txt": left.encode(), "mupdf.txt": right.encode()}

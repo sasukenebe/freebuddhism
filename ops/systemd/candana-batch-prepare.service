@@ -1,0 +1,10 @@
+[Unit]
+Description=Prepare bounded private Candana text batches from the local cache
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/repos/personal/freebuddhism
+ExecStart=/usr/bin/python3 %h/repos/personal/freebuddhism/tools/buddhist_canon_pipeline/prepare_candana_batch.py --limit 8
+TimeoutStartSec=10min
+Nice=10
+UMask=0077

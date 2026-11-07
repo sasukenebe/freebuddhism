@@ -57,6 +57,11 @@ run the validator.
 
 ## Publishing
 
+The [current Candana import checkpoint](docs/tasks/candana-import-expansion-2026-11-07.md)
+records imported editions, background draft preparation, verification and remaining
+source/permission work. Extra translations and filling previously empty canon books
+are tracked separately; edition counts are not counts of complete books.
+
 This repository contains the source used to build the site. The live site is
 hosted separately; commits here do not publish changes. Site updates require a
 separately reviewed deployment.

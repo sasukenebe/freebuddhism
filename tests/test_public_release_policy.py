@@ -211,8 +211,8 @@ class PublicReleasePolicyTests(unittest.TestCase):
 
     def test_text_rights_and_completeness_are_separate(self):
         manifest = json.loads((ROOT / "metadata/eligible-texts.json").read_text(encoding="utf-8"))
-        self.assertEqual(manifest["count"], 6804)
-        self.assertEqual(len(manifest["texts"]), 6804)
+        self.assertEqual(manifest["count"], 7153)
+        self.assertEqual(len(manifest["texts"]), 7153)
         self.assertEqual({row["license"] for row in manifest["texts"]}, {
             "CC0-1.0", "Public Domain (original English edition, published 1895–1907)",
             "Candana — free distribution, unaltered contents",

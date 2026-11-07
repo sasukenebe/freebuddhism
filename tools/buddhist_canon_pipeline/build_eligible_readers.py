@@ -282,7 +282,7 @@ def collect_candana_records(output_root: Path) -> list[dict]:
             "title": item["title"], "source_url": item["source_url"],
             "source_repository": "", "source_revision": item["source_revision"],
             "upstream_file": book["local_path"], "license": CANDANA_LICENSE,
-            "license_url": book["source_url"], "source_label": "Mind Released · Aṅguttara Book 1",
+            "license_url": book["source_url"], "source_label": "Mind Released · " + book["title"],
             "text_path": text_path, "source_sha256": hashlib.sha256(source.encode()).hexdigest(),
             "body": body, "body_sha256": body_hash, "metadata_notes": notes,
             "original_book_path": repo_path(book["local_path"]),

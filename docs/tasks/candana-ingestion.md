@@ -1,6 +1,6 @@
 # Candana translations and default editions
 
-Updated: 2026-11-06
+Updated: 2026-11-07
 
 The owner requests the largest permission-supported import of Bhikkhu Candana's
 translations, with Candana preferred wherever available. Explicit permission is
@@ -8,6 +8,11 @@ an acceptable rights basis; CC0 is not required. Other translators remain
 available, and existing explicit reader preferences remain respected.
 
 ## Current state and newest owner instructions
+
+The owner requested continued imports, not just more extraction drafts.
+See [the November 7 import expansion](candana-import-expansion-2026-11-07.md) for the
+new 349 reader entries, completed collector queue and exact remaining book mappings.
+The earlier counts and holds below describe their dated checkpoints.
 
 - Work is prepared on the feature branch below; no Candana release has been deployed.
   The owner authorized committing and pushing this work, then testing reusable

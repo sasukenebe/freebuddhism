@@ -22,7 +22,10 @@ from urllib.parse import urljoin, urlsplit
 from urllib.request import build_opener, HTTPRedirectHandler, Request
 from urllib.robotparser import RobotFileParser
 
-from import_candana import CACHE, MANIFEST, PAGES, ROOT, extract, granted_notice
+if __package__:
+    from .import_candana import CACHE, MANIFEST, PAGES, ROOT, extract, granted_notice
+else:
+    from import_candana import CACHE, MANIFEST, PAGES, ROOT, extract, granted_notice
 
 
 STATE = CACHE / "queue.json"

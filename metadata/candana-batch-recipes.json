@@ -13,6 +13,7 @@
       "page_count": 208,
       "running_heading": "AN II",
       "closing_marker": "(Here ends Book of the Twos)",
+      "hyphen_wrap_policy": "retain-hyphen-join-single-wrap",
       "expected_last_number": 479
     },
     {
@@ -26,6 +27,9 @@
       "page_count": 300,
       "running_heading": "AN III",
       "closing_marker": "(Here ends The Book of the Threes)",
+      "hyphen_wrap_policy": "retain-hyphen-join-single-wrap",
+      "suffix_numbers": {"81": ["a", "b"], "92": ["a", "b"]},
+      "untitled_numbered_headings": {"114": "Appameyya (Immeasurable)"},
       "expected_last_number": 352
     }
   ]

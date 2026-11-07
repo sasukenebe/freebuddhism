@@ -93,6 +93,22 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(reflow("  repeated\n words.\n\nAn unknown-\ncompound."),
                          "repeated words.\n\nAn unknown- compound.\n")
 
+    def test_hyphen_policy_keeps_the_hyphen_and_never_joins_paragraphs(self):
+        value = "A self-\nexplanatory phrase.\n\nAnother-\n\nparagraph."
+        result = reflow(value, join_hyphen_wraps=True)
+        self.assertEqual(result, "A self-explanatory phrase.\n\nAnother-\n\nparagraph.\n")
+        self.assertEqual(nonspace(value), nonspace(result))
+
+    def test_explicit_suffixed_source_sequence_preserves_both_labels(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            _, recipe, text = self.fixture(Path(temporary))
+        text = text.replace("\n2.\n", "\n2a.\nAn extra teaching.\n\n2b.\n")
+        recipe["suffix_numbers"] = {"2": ["a", "b"]}
+        result = numbered_book(text, recipe)
+        self.assertEqual(result["status"], "PARTITION_CHECK_PASSED")
+        self.assertEqual([row["source_label"] for row in result["sections"]], ["1", "2a", "2b", "3"])
+        self.assertEqual(result["source_numbers"], 4)
+
     def test_unchanged_sources_are_reused_without_another_conversion(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

@@ -157,6 +157,8 @@ def reflow_text(body: str) -> str:
 
 def install(local_directory: Path) -> dict:
     """Import only the two individually reviewed book editions from local bytes."""
+    if MANIFEST.exists() and json.loads(MANIFEST.read_text()).get("numbered_extension"):
+        raise ValueError("Legacy two-book installation would discard numbered imports; use --install-numbered")
     assets, books = [], []
     new_paths: dict[str, str] = {}
     for key, title, collection, url in BOOKS:
@@ -278,11 +280,23 @@ def verified_manifest(root: Path = ROOT, *, require_review: bool = False) -> dic
         if not granted_notice(extract(path, 10)):
             raise ValueError(f"Candana book lacks its recorded permission: {relative}")
         books[book["id"]] = book
-    if set(books) != {item[0] for item in BOOKS}:
+    if __package__:
+        from .candana_numbered_books import BOOK_IDS, verify as verify_numbered
+    else:
+        from candana_numbered_books import BOOK_IDS, verify as verify_numbered
+    additional = BOOK_IDS if manifest.get("numbered_extension") else set()
+    if set(books) != {item[0] for item in BOOKS} | additional:
         raise ValueError("Candana book scope changed without review")
+    supported_text_books = {"an-book1"} | additional
+    if any(row.get("book") not in supported_text_books for row in manifest["texts"]):
+        raise ValueError("Candana text refers to an unsupported source book")
+    if len({row["canonical_id"] for row in manifest["texts"]}) != len(manifest["texts"]):
+        raise ValueError("Duplicate Candana text ID across source books")
     sections, pages = split_an_one(extract(root / books["an-book1"]["local_path"]))
     seen, covered = set(), set()
     for row in manifest["texts"]:
+        if row["book"] != "an-book1":
+            continue
         if row["license"] != LICENSE or row["canonical_id"] in seen or row["book"] != "an-book1":
             raise ValueError("Unreviewed or duplicate Candana text entry")
         seen.add(row["canonical_id"])
@@ -311,8 +325,9 @@ def verified_manifest(root: Path = ROOT, *, require_review: bool = False) -> dic
                 or report.get("pages_compared") != 175 or report.get("mismatched_pages") != []
                 or report.get("status") != "TWO_ENGINE_AGREEMENT_WITH_VISUAL_SAMPLES"
                 or not {36, 39, 100, 210}.issubset(report.get("visual_sample_pages", []))
-                or report.get("reader_body_hashes") != {row["canonical_id"]: row["body_sha256"] for row in manifest["texts"]}):
+                or report.get("reader_body_hashes") != {row["canonical_id"]: row["body_sha256"] for row in manifest["texts"] if row["book"] == "an-book1"}):
             raise ValueError("Candana extraction review is missing or stale; do not publish unchecked text")
+    verify_numbered(root, manifest, require_review)
     return manifest
 
 
@@ -321,8 +336,12 @@ if __name__ == "__main__":
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--audit", action="store_true")
     group.add_argument("--install-local", type=Path)
+    group.add_argument("--install-numbered", action="store_true", help="Import checked cached AN Books Two/Three mappings")
     args = parser.parse_args()
-    if args.install_local:
+    if args.install_numbered:
+        from candana_numbered_books import install as install_numbered
+        print(json.dumps(install_numbered(), indent=2))
+    elif args.install_local:
         print(json.dumps(install(args.install_local), indent=2))
     else:
         result = audit()
