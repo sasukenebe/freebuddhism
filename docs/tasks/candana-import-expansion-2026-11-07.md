@@ -1,6 +1,6 @@
 # Candana import expansion
 
-Updated: 2026-11-07. The owner requested continued imports at the fastest reasonable pace,
+Updated: 2026-11-08. The owner requested continued imports at the fastest reasonable pace,
 including as much of Candana's work as permissions allow. This is not approval to ignore
 permissions, invent missing text, mislabel different numbering systems, or deploy publicly.
 
@@ -151,6 +151,16 @@ Keep this checkout available while the services point to it.
   grants are prioritized. Its changed tool fingerprint triggers safe
   revalidation of cached drafts in batches; successful network downloads are
   not repeated. No author contact or paid transcription occurred.
+- Completed the changed-tool revalidation of all 227 cached PDFs. Two bounded
+  manual runs processed the remaining 121 sources, reusing checked reports
+  and making zero network requests. No uncached drafts remain. The main
+  layout-versus-MuPDF comparison still records 14 disagreement exceptions;
+  the new raw-mode diagnostic does not erase those evidence records.
+- Both user timers are active. The collector's last recorded network request
+  was November 6 at 14:40 Eastern; subsequent complete-queue ticks do not
+  request or download sources. The offline timer is ready for new sources or
+  changed review recipes. Completion here means draft preparation, not new
+  approved editions or public publication.
 
 1. Resolve Book Three's thirteen grouped source mappings without duplicating continuous
    reading or attaching a combined text to an incorrectly narrow site ID.
