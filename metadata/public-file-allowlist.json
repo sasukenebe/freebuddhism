@@ -32,6 +32,12 @@
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
+      "path": "docs/reviews/tree-copy-proposals-2026-11-08.md",
+      "sha256": "21f68ead94070d511da2c6615cacfaaacb09374ca9573ca461a4b88cac28ccb8",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": "docs/tasks/navigation-reading-experience.md",
       "sha256": "cb213c3cd0dc86bbe68e5baf9b022c705024af3121aef03a11632392795e19be",
       "license_scope": "CC0-1.0 project documentation",
@@ -87,7 +93,7 @@
     },
     {
       "path": "metadata/site-content.json",
-      "sha256": "db86d55970fc4f885b7e45ff95c4c18f9e93345c422c0aea9ed43b2cf6558a62",
+      "sha256": "28501af91436507e13be0091a32639e24db3725f010ffdd095c39eade4bb53fb",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -165,13 +171,13 @@
     },
     {
       "path": "site-entry/index.html",
-      "sha256": "52ddb2901e387ecc03f7aa6f54610302e92e99b042ca8cfa02fd425fdbdcce5c",
+      "sha256": "d81b92283071165371cc5cac41e720bc68a66d34c2d16e1b553927a2dbc66a64",
       "license_scope": "CC0-1.0 project-authored website content",
       "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "013c83851bb00b42a2a8ee55f9b3feebe8aca58308996cb642ba03d45f742f34",
+      "sha256": "2a98b8ace48879250c3f8beb45db215e1a96d94c8a3ecae53ceca6fbf84afe15",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -90405,7 +90411,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "14a4425a50d3a26a2a11d8b263e7dae2be4288a9982727bbe567ccc98ac1af3b",
+      "sha256": "d2651c55ae6fb5d2ec4bc3d175624540540cfc5373f6dcdc4c099ee116473fcf",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

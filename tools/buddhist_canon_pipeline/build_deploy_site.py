@@ -576,8 +576,30 @@ def _standardize_header(source: str, items: list[dict], title: str | None = None
             + ('\n' + breadcrumb_markup(items) if items else '') + '\n' + remainder)
 
 
+_BROWSE_FONT_CONTROLS = (
+    '<p role="group" aria-label="Browsing font size">'
+    '<button type="button" data-browse-font="decrease">Font Size -</button> '
+    '<button type="button" data-browse-font="increase">Font Size +</button></p>'
+)
+
+
 _BROWSE_SCRIPT = '''<script>(function(){
 const root=document.getElementById("collection-browser");if(!root)return;
+const fontKey="freebuddhism-browse-font-size";
+const fontButtons=root.querySelectorAll("button[data-browse-font]");
+let fontSize=parseFloat(getComputedStyle(root).fontSize)||16;
+function applyFont(size){
+  fontSize=Math.max(12,Math.min(32,size));root.style.fontSize=fontSize+"px";
+  fontButtons.forEach(button=>button.disabled=button.dataset.browseFont==="decrease"?fontSize<=12:fontSize>=32);
+}
+try{
+  const saved=Number(localStorage.getItem(fontKey));
+  if(Number.isFinite(saved)&&saved>=12&&saved<=32)applyFont(saved);
+}catch(error){}
+fontButtons.forEach(button=>button.addEventListener("click",()=>{
+  applyFont(fontSize+(button.dataset.browseFont==="increase"?2:-2));
+  try{localStorage.setItem(fontKey,String(fontSize));}catch(error){}
+}));
 const buttons=root.querySelectorAll("button[data-mode]");
 const panes=root.querySelectorAll("[data-view]");
 function show(mode){
@@ -610,6 +632,7 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
         f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
+        + _BROWSE_FONT_CONTROLS +
         '<div data-view="tree"><details open><summary>Translations</summary>' + listing + '</details></div>'
         '<div data-view="list" hidden>' + listing + '</div>' + _BROWSE_SCRIPT + '</section>'
     )
@@ -643,7 +666,7 @@ def _collection_browse_markup(
             child_title = nodes[child]["title"]
             href = html.escape(_relative_href(index_path, child_index), quote=True)
             output.append(
-                f'<details><summary>{html.escape(child_title)} — expand</summary>'
+                f'<details><summary>{html.escape(child_title)}</summary>'
                 f'<p><a href="{href}">Open {html.escape(child_title)} collection page</a></p>'
                 f'{render_tree(child)}</details>'
             )
@@ -657,7 +680,7 @@ def _collection_browse_markup(
         for label, rows in sorted(groups.items(), key=lambda pair: natural_key(pair[0])):
             rows.sort(key=lambda pair: natural_key(pair[1]["canonical_id"]))
             if label:
-                output.append(f'<details><summary>{html.escape(label)} — expand ({len(rows)} texts)</summary>')
+                output.append(f'<details><summary>{html.escape(label)} ({len(rows)} texts)</summary>')
             output.append('<ul>')
             for route, info in rows:
                 href = html.escape(_relative_href(index_path, tipitaka_root / route), quote=True)
@@ -703,7 +726,7 @@ def _collection_browse_markup(
         '<nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
-        + read_control + '</nav>'
+        + read_control + '</nav>' + _BROWSE_FONT_CONTROLS +
         '<div data-view="tree" aria-label="Collection tree">'
         f'<p>{count} indexed texts. Expand a group to browse; use its separate link to open a collection page.</p>'
         f'{tree}</div>'

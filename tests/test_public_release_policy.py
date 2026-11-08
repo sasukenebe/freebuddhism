@@ -25,6 +25,8 @@ from build_deploy_site import (  # noqa: E402
     _sutta_breadcrumb_markup,
     _text_group_label,
     _write_collection_browsers,
+    _collection_browse_markup,
+    _text_node_browser,
     _write_continuous_reader,
     _load_anguttara_menu,
     _load_vinaya_khandhaka_menu,
@@ -37,6 +39,7 @@ from build_deploy_site import (  # noqa: E402
     _write_vimanavatthu_story_pages,
 )
 from validate_public_tree import (  # noqa: E402
+    PageAudit,
     actual_files,
     license_scope_for,
     refresh_allowlist_entries,
@@ -54,13 +57,27 @@ from public_site_catalog import collection_path, navigation_nodes  # noqa: E402
 
 
 class PublicReleasePolicyTests(unittest.TestCase):
-    def test_root_welcome_page_is_direct_and_general(self):
+    def test_root_homepage_preserves_original_copy_with_root_safe_links(self):
         page = (ROOT / "site-entry/index.html").read_text(encoding="utf-8")
+        original = (ROOT / "theravada/tipitaka/site/index.html").read_text(encoding="utf-8")
+        for name in ("index.html", "dhamma.html", "tipitaka.html", "theravada.html",
+                     "four-noble-truths.html", "four-noble-truths.html#cessation", "eightfold-path.html"):
+            target = "/" if name == "index.html" else "/theravada/tipitaka/site/" + name
+            original = original.replace('href="' + name + '"', 'href="' + target + '"')
+        self.assertEqual(page, original)
         self.assertNotIn("http-equiv=\"refresh\"", page.casefold())
-        self.assertIn("A free resource for exploring Theravāda Buddhism", page)
-        self.assertIn("Learn the Dhamma", page)
-        self.assertIn("Read Buddhist texts", page)
-        self.assertIn("/theravada/tipitaka/site/tipitaka.html", page)
+        self.assertNotIn("A free resource for exploring", page)
+
+    def test_navigation_build_preserves_original_homepage_paragraphs(self):
+        original = (ROOT / "site-entry/index.html").read_text(encoding="utf-8")
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "index.html").write_text(original, encoding="utf-8")
+            _finish_page_navigation(root, {}, {}, [], set())
+            result = (root / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(PageAudit(result).paragraphs, PageAudit(original).paragraphs[1:])
+        self.assertIn("<h1>Home</h1>", result)
+        self.assertIn("<title>Home</title>", result)
 
     def test_tipitaka_tree_counts_are_added_recursively_and_idempotently(self):
         page = (
@@ -593,6 +610,10 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn('data-mode="tree"', result)
             self.assertIn('data-mode="list"', result)
             self.assertIn("Flat list", result)
+            self.assertIn('data-browse-font="decrease">Font Size -</button>', result)
+            self.assertIn('data-browse-font="increase">Font Size +</button>', result)
+            self.assertIn("freebuddhism-browse-font-size", result)
+            self.assertNotIn(" — expand", result)
             self.assertIn('>All Text on One Page</a>', result)
             self.assertNotIn("Open text page:", result)
             self.assertIn('href="mn01/index.html">MN 1</a>', result)
@@ -610,6 +631,34 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn("Sutta Piṭaka</a>", text_breadcrumb)
             self.assertIn("Majjhima Nikāya</a>", text_breadcrumb)
             self.assertIn('<span aria-current="page">MN 1</span>', text_breadcrumb)
+
+    def test_browsing_controls_apply_recursively_without_new_description_copy(self):
+        nodes = navigation_nodes()
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            for node in nodes.values():
+                index = root / node["route"]
+                index.parent.mkdir(parents=True, exist_ok=True)
+                index.write_text("<html><body><h1>Existing title</h1></body></html>", encoding="utf-8")
+            pages = {
+                "sutta/anguttara-nikaya/an01-01/index.html": {
+                    "canonical_id": "AN 1.1", "title": "AN 1.1",
+                    "collection": "anguttara-nikaya", "eligible": [],
+                },
+            }
+            for key in nodes:
+                with self.subTest(collection=key):
+                    markup = _collection_browse_markup(root, key, pages, set(nodes), nodes)
+                    self.assertIn('data-browse-font="increase"', markup)
+                    self.assertIn('data-browse-font="decrease"', markup)
+                    self.assertNotIn(" — expand", markup)
+                    self.assertNotIn("font-family:", markup)
+                    self.assertNotIn("max-width:", markup)
+            markup = _text_node_browser(root, "sutta/anguttara-nikaya/an01-01/index.html", {
+                "collection": "anguttara-nikaya", "eligible": [],
+            })
+            self.assertIn('data-browse-font="increase"', markup)
+            self.assertIn('data-browse-font="decrease"', markup)
 
     def test_continuous_reader_preferences_keep_global_default_and_hide_overrides(self):
         with tempfile.TemporaryDirectory() as temporary:
