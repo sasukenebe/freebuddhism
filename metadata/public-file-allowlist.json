@@ -39,13 +39,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "b7fd47a9cb1d5baabc2b2495e1f2576d0015306b2f1e7e3073791f976e0c43f3",
+      "sha256": "bda009bacddbc32bdf89cc4f4672359c0d628df07050b4a8f5748ca0d7e05bc0",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
       "path": "docs/reviews/public-repository-re-review-2026-11-08.md",
-      "sha256": "2fb4b121dd71470d5e8377750147e0381aaaaf1e0f0c1d841cf72c7f2605d29c",
+      "sha256": "a6d9139c2e15ca540531cbf0464a96974539ddfb8dc850eeeff3d40dbd4e603c",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -254,6 +254,12 @@
       "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
     },
     {
+      "path": "tests/test_build_swap.py",
+      "sha256": "7b623ae655a9ca9c0f4f4ca421bbeade0bbe1a33a2c202baf35e6cbcf4c7774b",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tests/test_candana.py",
       "sha256": "36c97073f91c2c59f3bde5529c232df6944e0487ea504f9496af9b303f2118a1",
       "license_scope": "0BSD",
@@ -286,6 +292,12 @@
     {
       "path": "tests/test_repository_hardening.py",
       "sha256": "e823035e5354db551ee375810af7637780283b024b063b179345cf9b175ff201",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_tracked_files.py",
+      "sha256": "17ad488ece895a8e99bf6ac475eb221d19af204fc62fb8014b9c41f51767774a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95349,7 +95361,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "31bbd1cf9d835dbb6ea41024c9a3751b3bd03a43bfb576c9078affb9822eb1c3",
+      "sha256": "8ef63fc4e2b041804ad27b39ac5a6f187e834afa73082c25439a0b3e6d2f820d",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95427,7 +95439,7 @@
     },
     {
       "path": "tools/validate_public_tree.py",
-      "sha256": "aabd7c0577f6ebec7cfb1f1500ea41a686fd5d21985432c1610b2d1ba74f396a",
+      "sha256": "36e53f8b138aeea19baf25098b5a0efd0987ca964bfb854fdf1ef58479fc0068",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

@@ -42,6 +42,12 @@ directory names and extensions do not grant a license. It lists itself with an
 explicit self-reference marker because a file cannot contain its own stable
 checksum. The generated site output is checked separately by the build.
 
+The validator also reads Git's tracked-file index, independently of filesystem
+traversal. Tracked files under build/, .venv/ or __pycache__ are rejected even if
+force-added or given an allowlist entry. Other tracked paths must be allowlisted
+regular files without merge conflicts; Git failure cannot silently skip this check.
+Keep the filesystem scan too: new reviewed files can be checked before staging.
+
 Cowell Jātaka source wrappers are not redistributed here. The importer fetches
 the pinned upstream revision, verifies every source hash, and compares all 547
 generated texts in check-only mode:
@@ -86,6 +92,22 @@ revoke or rotate it first; deleting the file or adding an ignore pattern is not 
 
 The [public repository re-review](docs/reviews/public-repository-re-review-2026-11-08.md)
 records the audit fixes, verification and remaining administrator actions.
+
+## Recoverable local builds
+
+The builder locks generation and replacement so concurrent builds cannot share
+temporary state. A completed default build is renamed to build/.site-root.previous
+before the validated replacement is installed; it is not deleted first. A private
+swap journal records both directory identities. A failed install restores the old
+build, or preserves the backup and journal if restoration also fails. The next build
+recovers an interrupted swap before starting generation.
+
+If the new build was installed before interruption, recovery keeps it and finishes
+removing only the identified old backup. Unknown backups, changed identities,
+malformed journals and symlinks stop recovery for manual inspection. Do not delete
+those files blindly. Separate preview output paths still refuse existing targets.
+This is recoverable local output replacement, not a zero-downtime deployment scheme
+or proof of survival through a power or filesystem failure.
 
 ## Publishing
 

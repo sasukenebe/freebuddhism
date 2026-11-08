@@ -8,8 +8,9 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from urllib.parse import unquote, urlsplit
 
 from buddhist_canon_pipeline.public_html_policy import (
@@ -103,6 +104,37 @@ def actual_files(root: Path = ROOT) -> set[str]:
             if root != ROOT or relative != SELF:
                 found.add(relative)
     return found
+
+
+def validate_tracked_files(approved_paths: set[str], root: Path = ROOT) -> int:
+    """Check the Git index independently of filesystem traversal exclusions."""
+    root = root.resolve()
+    try:
+        top = subprocess.run(["git", "rev-parse", "--show-toplevel"], cwd=root,
+                             check=True, capture_output=True, text=True).stdout.strip()
+        if Path(top).resolve() != root:
+            raise ValueError("Public-tree validation requires the exact Git repository root")
+        index = subprocess.run(["git", "ls-files", "--stage", "-z"], cwd=root,
+                               check=True, capture_output=True).stdout
+    except (OSError, subprocess.CalledProcessError) as error:
+        raise ValueError("Cannot enumerate tracked files; public-tree validation requires Git") from error
+    tracked = set()
+    for record in index.split(b"\0"):
+        if not record:
+            continue
+        header, raw_path = record.split(b"\t", 1)
+        mode, _object_id, stage = header.split()
+        path_text = os.fsdecode(raw_path)
+        path = PurePosixPath(path_text)
+        if (path.is_absolute() or ".." in path.parts or not path.parts
+                or path.parts[0] in IGNORED_ROOT_DIRS or "__pycache__" in path.parts):
+            raise ValueError(f"Tracked file is in an excluded or unsafe path: {path_text}")
+        if stage != b"0" or mode not in {b"100644", b"100755"}:
+            raise ValueError(f"Tracked file must be regular with no merge conflicts: {path_text}")
+        if path_text not in approved_paths:
+            raise ValueError(f"Tracked file has no exact allowlist entry: {path_text}")
+        tracked.add(path_text)
+    return len(tracked)
 
 
 class PageAudit:
@@ -539,6 +571,7 @@ def check() -> dict:
     listed = {entry["path"]: entry for entry in entries}
     if len(listed) != len(entries):
         raise ValueError("Public file allowlist contains duplicate paths")
+    tracked_count = validate_tracked_files(set(listed), ROOT)
     actual = actual_files()
     expected_paths = actual | {SELF}
     missing = sorted(set(listed) - expected_paths)
@@ -616,6 +649,7 @@ def check() -> dict:
 
     return {
         "repository_files": len(actual),
+        "tracked_files_checked": tracked_count,
         "allowlisted_files": len(listed),
         "eligible_texts": len(eligible["texts"]),
         "excluded_text_versions": len(excluded["text_versions"]),
@@ -674,6 +708,7 @@ def refresh_allowlist_entries(
 
 def write_allowlist(reviewed_paths: set[str]) -> dict:
     allowlist = json.loads(ALLOWLIST.read_text(encoding="utf-8"))
+    validate_tracked_files({entry["path"] for entry in allowlist.get("files", [])}, ROOT)
     actual = actual_files()
     entries = refresh_allowlist_entries(actual, allowlist.get("files", []), reviewed_paths)
     ALLOWLIST.write_text(

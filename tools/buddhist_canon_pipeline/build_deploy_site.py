@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import fcntl
 import hashlib
 import html
 import json
@@ -12,11 +13,13 @@ import os
 import posixpath
 import re
 import shutil
+import stat
 import subprocess
 import sys
 import tempfile
 import zipfile
 from collections import defaultdict
+from contextlib import contextmanager
 from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlsplit
@@ -2510,10 +2513,124 @@ def managed_webroot_marker_is_valid() -> bool:
     )
 
 
-def build(reader_jobs: int = 2, output: Path | None = None) -> Path:
+@contextmanager
+def webroot_build_lock():
+    """Serialize generation, recovery and replacement; a killed process releases the lock."""
     if BUILD_ROOT.is_symlink():
         raise RuntimeError(f"refusing a symlinked build directory: {BUILD_ROOT}")
     BUILD_ROOT.mkdir(exist_ok=True)
+    lock_path = safe_output_destination(BUILD_ROOT / ".site-root.lock")
+    descriptor = os.open(lock_path, os.O_CREAT | os.O_RDWR | os.O_NOFOLLOW, 0o600)
+    try:
+        if not stat.S_ISREG(os.fstat(descriptor).st_mode):
+            raise RuntimeError("website build lock must be a regular file")
+        try:
+            fcntl.flock(descriptor, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as error:
+            raise RuntimeError("another website build is already running") from error
+        yield
+    finally:
+        os.close(descriptor)
+
+
+def _webroot_swap_paths() -> tuple[Path, Path]:
+    return (safe_output_destination(WEBROOT.with_name(".site-root.previous")),
+            safe_output_destination(WEBROOT.with_name(".site-root-swap.json")))
+
+
+def _directory_identity(path: Path) -> list[int] | None:
+    if not path.exists():
+        return None
+    if path.is_symlink() or not path.is_dir():
+        raise RuntimeError(f"website swap path must be a regular directory: {path}")
+    details = path.stat()
+    return [details.st_dev, details.st_ino]
+
+
+def _write_swap_journal(staging: Path, journal: Path) -> None:
+    record = {"schema_version": 1, "old": _directory_identity(WEBROOT),
+              "new": _directory_identity(staging)}
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=journal.parent,
+                                         prefix=".site-root-journal-", delete=False) as stream:
+            temporary = Path(stream.name)
+            json.dump(record, stream)
+            stream.flush()
+            os.fsync(stream.fileno())
+        temporary.replace(journal)
+    finally:
+        if temporary is not None and temporary.exists():
+            temporary.unlink()
+
+
+def recover_webroot_swap() -> None:
+    """Recover only the directories identified by our saved swap journal, under the build lock."""
+    destination = safe_output_destination(WEBROOT)
+    backup, journal = _webroot_swap_paths()
+    if not journal.exists():
+        if backup.exists():
+            raise RuntimeError(f"unowned website backup needs manual review: {backup}")
+        return
+    if not journal.is_file() or not managed_webroot_marker_is_valid():
+        raise RuntimeError("website swap recovery requires a valid journal and managed-build marker")
+    record = json.loads(journal.read_text(encoding="utf-8"))
+    if (not isinstance(record, dict) or set(record) != {"schema_version", "old", "new"}
+            or record["schema_version"] != 1
+            or any(not isinstance(record[key], list) or len(record[key]) != 2
+                   or any(type(value) is not int or value < 0 for value in record[key])
+                   for key in ("old", "new"))
+            or record["old"] == record["new"]):
+        raise RuntimeError("website swap journal is malformed; preserving all directories")
+    current = _directory_identity(destination)
+    previous = _directory_identity(backup)
+    if current == record["old"] and previous is None:
+        # Interrupted before moving the old build; it is still in place.
+        journal.unlink()
+    elif current is None and previous == record["old"]:
+        backup.rename(destination)
+        journal.unlink()
+        print("Restored the previous completed website build.", flush=True)
+    elif current == record["new"] and previous in (None, record["old"]):
+        # New validated build is installed; only its identified predecessor may be removed.
+        if previous is not None:
+            shutil.rmtree(backup)
+        journal.unlink()
+    else:
+        raise RuntimeError("website swap identities changed; preserving all directories for manual review")
+
+
+def replace_webroot(staging: Path, destination: Path) -> None:
+    """Install validated staging without deleting the last completed build first."""
+    staging = safe_output_destination(staging)
+    destination = safe_output_destination(destination)
+    if not staging.is_dir() or staging.parent != destination.parent or staging == destination:
+        raise RuntimeError("website staging must be a distinct sibling directory")
+    if not destination.exists():
+        staging.rename(destination)
+        return
+    if destination != WEBROOT or not managed_webroot_marker_is_valid():
+        raise RuntimeError(f"refusing to replace an unmanaged output directory: {destination}")
+    backup, journal = _webroot_swap_paths()
+    if backup.exists() or journal.exists():
+        raise RuntimeError("unfinished website swap must be recovered before replacement")
+    _write_swap_journal(staging, journal)
+    try:
+        destination.rename(backup)
+        staging.rename(destination)
+    except BaseException:
+        recover_webroot_swap()
+        raise
+    recover_webroot_swap()
+
+
+def build(reader_jobs: int = 2, output: Path | None = None) -> Path:
+    with webroot_build_lock():
+        recover_webroot_swap()
+        return _build_locked(reader_jobs, output)
+
+
+def _build_locked(reader_jobs: int, output: Path | None) -> Path:
     destination = safe_output_destination(output)
     default_destination = Path(os.path.abspath(WEBROOT))
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -2530,12 +2647,7 @@ def build(reader_jobs: int = 2, output: Path | None = None) -> Path:
     try:
         report = assemble_webroot(staging)
         normalize_webroot_permissions(staging)
-        if destination.exists():
-            destination = safe_output_destination(destination)
-            if destination != default_destination or not managed_webroot_marker_is_valid():
-                raise RuntimeError(f"refusing to replace an unmanaged output directory: {destination}")
-            shutil.rmtree(destination)
-        staging.rename(destination)
+        replace_webroot(staging, destination)
         if destination == default_destination:
             BUILD_MARKER.write_text("Generated by default-deny build_deploy_site.py\n", encoding="utf-8")
         print(f"Strict bundle validated: {report}", flush=True)

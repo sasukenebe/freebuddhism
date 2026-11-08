@@ -78,3 +78,47 @@ The installed local pre-push hook scans the committed branch before pushing. Git
 Actions must then run against that pushed revision; inspect its matching Secret scan
 and Source, tests and site build results. A local pass is not a remote Actions result,
 owner approval, branch protection or permission to deploy. Rerun checks after changes.
+
+## Follow-up: tracked-file gap and build replacement
+
+The newer review correctly identified two remaining issues, now addressed on this
+same review branch. The public main branch was an older snapshot; it still needs a
+separately reviewed merge. The previous remote run for dfade632 completed both jobs
+successfully; that result does not cover these follow-up changes.
+
+- Tracked-file boundary: Git's complete index is checked separately from filesystem
+  traversal. Force-added files in excluded build, virtual-environment and bytecode
+  directories fail even if somebody adds them to the allowlist. Unlisted tracked
+  paths, symlinks, submodules and unresolved merge entries also fail. Git failure or
+  validation below the repository root cannot silently disable this check. Both
+  ordinary validation and reviewed checksum refresh enforce the boundary. The
+  filesystem scan remains in place for untracked source files and hash validation.
+- Recoverable replacement: generation and swaps use a nonblocking process lock.
+  The old completed default build is renamed to a backup, not deleted before install.
+  A small journal identifies the old and new directories. Failed installation restores
+  the old build; interrupted swaps recover before the next generation. Cleanup only
+  removes the identified predecessor after the new validated build exists. Unknown
+  backups, altered identities, malformed state and symlinks fail closed for review.
+- Scope: this protects local build replacement. There can still be a brief path gap
+  between directory renames; it is not an uninterrupted live-site switching mechanism
+  or certification of power-loss/filesystem durability. No deployment changed.
+- Regression coverage includes real force-adds, Git failure, unusual path names,
+  merge conflicts, symlink/gitlink index entries, injected rename and rollback errors,
+  cleanup failure, concurrent builds, preserved custom previews and real SIGKILL
+  interruptions immediately after moving the old build and after installing the new.
+
+Follow-up verification:
+
+- All 105 tests pass, including the real pre-push credential fixture and the new
+  tracked-index and interrupted-swap regressions.
+- Staged-source validation checks all 15,908 tracked files and passes the exact-path,
+  rights and checksum rules. The 7,153 eligible editions and 7,159 source hashes are
+  unchanged. Excluded-source metadata remains current.
+- The complete local build passes: 16,257 HTML pages, 31 ZIP archives and zero broken
+  local links. All 7,153 unchanged reader PDFs are reused. This output is a separate
+  local preview, not a production deployment.
+
+The pre-push scanner and GitHub workflow run again for the committed follow-up; inspect
+their matching revision rather than treating the earlier dfade632 run as coverage.
+GitHub settings still need an authorized administrator; pushing code does not establish
+required checks or update main.
