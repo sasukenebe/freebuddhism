@@ -579,26 +579,50 @@ def _standardize_header(source: str, items: list[dict], title: str | None = None
 _BROWSE_FONT_CONTROLS = (
     '<p role="group" aria-label="Browsing font size">'
     '<button type="button" data-browse-font="decrease">Font Size -</button> '
-    '<button type="button" data-browse-font="increase">Font Size +</button></p>'
+    '<button type="button" data-browse-font="increase">Font Size +</button> '
+    '<button type="button" data-browse-font="reset" aria-label="Reset browsing font size">Reset</button></p>'
+)
+
+
+_BROWSE_STYLE = (
+    '<style>#collection-browser details>summary{min-height:max(2.75em,44px);'
+    'box-sizing:border-box;padding:.55em .25em;cursor:pointer}'
+    '#collection-browser summary:focus-visible{outline:2px solid currentColor;'
+    'outline-offset:2px}</style>'
 )
 
 
 _BROWSE_SCRIPT = '''<script>(function(){
 const root=document.getElementById("collection-browser");if(!root)return;
-const fontKey="freebuddhism-browse-font-size";
+const fontKey="freebuddhism-browse-font-scale";
+const legacyFontKey="freebuddhism-browse-font-size";
 const fontButtons=root.querySelectorAll("button[data-browse-font]");
-let fontSize=parseFloat(getComputedStyle(root).fontSize)||16;
-function applyFont(size){
-  fontSize=Math.max(12,Math.min(32,size));root.style.fontSize=fontSize+"px";
-  fontButtons.forEach(button=>button.disabled=button.dataset.browseFont==="decrease"?fontSize<=12:fontSize>=32);
+let fontScale=1;
+function applyFont(scale){
+  fontScale=Math.max(.75,Math.min(2,scale));
+  root.style.fontSize=fontScale+"em";
+  fontButtons.forEach(button=>{
+    button.disabled=button.dataset.browseFont==="decrease"?fontScale<=.75:
+      button.dataset.browseFont==="increase"?fontScale>=2:false;
+  });
 }
 try{
   const saved=Number(localStorage.getItem(fontKey));
-  if(Number.isFinite(saved)&&saved>=12&&saved<=32)applyFont(saved);
+  if(Number.isFinite(saved)&&saved>=.75&&saved<=2)applyFont(saved);
+  else{
+    const legacy=Number(localStorage.getItem(legacyFontKey));
+    const base=parseFloat(getComputedStyle(root).fontSize)||16;
+    if(Number.isFinite(legacy)&&legacy>=12&&legacy<=32)applyFont(legacy/base);
+  }
 }catch(error){}
 fontButtons.forEach(button=>button.addEventListener("click",()=>{
-  applyFont(fontSize+(button.dataset.browseFont==="increase"?2:-2));
-  try{localStorage.setItem(fontKey,String(fontSize));}catch(error){}
+  if(button.dataset.browseFont==="reset"){
+    applyFont(1);root.style.removeProperty("font-size");
+    try{localStorage.removeItem(fontKey);localStorage.removeItem(legacyFontKey);}catch(error){}
+  }else{
+    applyFont(fontScale+(button.dataset.browseFont==="increase"?.125:-.125));
+    try{localStorage.setItem(fontKey,String(fontScale));localStorage.removeItem(legacyFontKey);}catch(error){}
+  }
 }));
 const buttons=root.querySelectorAll("button[data-mode]");
 const panes=root.querySelectorAll("[data-view]");
@@ -632,7 +656,7 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
         f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
-        + _BROWSE_FONT_CONTROLS +
+        + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
         '<div data-view="tree"><details open><summary>Translations</summary>' + listing + '</details></div>'
         '<div data-view="list" hidden>' + listing + '</div>' + _BROWSE_SCRIPT + '</section>'
     )
@@ -663,7 +687,7 @@ def _collection_browse_markup(
             child_index = tipitaka_root / nodes[child]["route"]
             if not child_index.is_file():
                 continue
-            child_title = nodes[child]["title"]
+            child_title = nodes[child]["tree_title"]
             href = html.escape(_relative_href(index_path, child_index), quote=True)
             output.append(
                 f'<details><summary>{html.escape(child_title)}</summary>'
@@ -720,15 +744,20 @@ def _collection_browse_markup(
         else '<span aria-disabled="true">All Text on One Page</span>'
     )
     count = len(descendants)
+    available_texts = sum(bool(info["eligible"]) for _route, info in descendants)
+    editions = sum(len(info["eligible"]) for _route, info in descendants)
     browse = (
         '<section id="collection-browser" aria-labelledby="collection-browser-title">'
         '<h2 id="collection-browser-title">Browse this collection</h2>'
         '<nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
-        + read_control + '</nav>' + _BROWSE_FONT_CONTROLS +
+        + read_control + '</nav>' + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
+        f'<p class="collection-counts">{count} indexed text entries; '
+        f'{available_texts} with local translations; {editions} local editions. '
+        'Availability does not establish translation completeness.</p>'
         '<div data-view="tree" aria-label="Collection tree">'
-        f'<p>{count} indexed texts. Expand a group to browse; use its separate link to open a collection page.</p>'
+        '<p>Expand a group to browse; use its separate link to open a collection page.</p>'
         f'{tree}</div>'
         '<div data-view="list" hidden>'
         '<h3>Flat list</h3><p>Search all texts in this collection and its subcollections.</p>'
@@ -742,6 +771,10 @@ def _collection_browse_markup(
     if 'id="collection-browser"' in source:
         return ""
     source = _standardize_header(source, collection_breadcrumbs(collection, nodes), nodes[collection]["title"])
+    description = nodes[collection].get("description", "")
+    if description:
+        paragraph = '<p class="collection-description">' + html.escape(description) + '</p>'
+        source = source.replace('</h1>', '</h1>\n' + paragraph, 1)
     body_end = source.lower().rfind("</body>")
     if body_end < 0:
         raise ValueError(f"Collection index has no body end tag: {index_path}")
@@ -944,6 +977,9 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     document.getElementById("text-larger").addEventListener("click",function(){
       textScale=Math.min(1.6,textScale+0.1);updateTextScale();
     });
+    document.getElementById("text-reset").addEventListener("click",function(){
+      textScale=1;sections.style.removeProperty("--reader-text-size");
+    });
     document.getElementById("contents-search").addEventListener("input",function(event){
       const term=event.target.value.trim().toLocaleLowerCase();
       contents.querySelectorAll("li").forEach(function(item){item.hidden=!item.textContent.toLocaleLowerCase().includes(term);});
@@ -1018,7 +1054,8 @@ def _write_continuous_reader(
         '<p>Preferences are saved in this browser. If the chosen translation is missing, the next available edition is used and labeled below.</p>\n'
         '<button type="button" id="customize-editions" aria-expanded="false">Customize individual texts</button> '
         '<button type="button" id="text-smaller">Font Size -</button> '
-        '<button type="button" id="text-larger">Font Size +</button></section>\n'
+        '<button type="button" id="text-larger">Font Size +</button> '
+        '<button type="button" id="text-reset" aria-label="Reset reading font size">Reset</button></section>\n'
         '<details><summary><h2>Contents</h2></summary><label>Search contents: '
         '<input type="search" id="contents-search" autocomplete="off"></label>\n'
         '<ol id="reader-contents"></ol></details>\n'

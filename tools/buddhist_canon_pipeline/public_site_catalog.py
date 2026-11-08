@@ -61,6 +61,25 @@ def navigation_nodes(extra_collections=()) -> dict[str, dict]:
     add("abhidhamma", "Abhidhamma Piṭaka", "abhidhamma/index.html", "tipitaka")
     for key, title, english, _description in ABHIDHAMMA_BOOKS:
         add("abhidhamma/" + key, title + " (" + english + ")", "abhidhamma/" + key + "/index.html", "abhidhamma")
+    descriptions = {
+        "tipitaka": "The Theravāda Buddhist texts, arranged in three baskets.",
+        "vinaya": "Rules and procedures for Buddhist monks and nuns.",
+        "vinaya/sutta-vibhanga": "Explanations of the monks’ and nuns’ training rules.",
+        "vinaya/bhikkhu-vibhanga": "The monks’ training rules and their explanations.",
+        "vinaya/bhikkhuni-vibhanga": "The nuns’ training rules and their explanations.",
+        "vinaya/khandhaka": "Chapters on ordination, communal life and monastic procedures.",
+        "vinaya/mahavagga": "The first division of the Khandhaka.",
+        "vinaya/cullavagga": "The second division of the Khandhaka.",
+        "vinaya/parivara": "A review and classification of the monastic discipline.",
+        "abhidhamma": "Systematic analyses of phenomena and their relationships.",
+    }
+    descriptions.update({key: english + ". " + description
+                         for key, (_title, english, description) in SUTTA_NODE_INFO.items()})
+    descriptions.update({"abhidhamma/" + key: english + ". " + description
+                         for key, _title, english, description in ABHIDHAMMA_BOOKS})
+    for key, node in nodes.items():
+        node["tree_title"] = node["title"].split(" (", 1)[0]
+        node["description"] = descriptions.get(key, "")
     return nodes
 
 
