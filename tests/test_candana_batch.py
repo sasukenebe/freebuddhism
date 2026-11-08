@@ -11,7 +11,7 @@ sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 
 from prepare_candana_batch import (  # noqa: E402
     engine_comparison, nonspace, numbered_book, prepare_batch, prepare_one,
-    reflow, safe_relative,
+    reflow, safe_relative, canonical_comparison,
 )
 
 GRANT = ("Copyright Bhikkhu Candana. You may copy, reprint, republish and redistribute this work "
@@ -79,6 +79,27 @@ class BatchTests(unittest.TestCase):
         self.assertEqual(engine_comparison("a b\f", "ab\n\f")["mismatched_pages"], [])
         for right in ("ba\f", "áb\f", "aﬂ\f", "ab\fextra\f"):
             self.assertTrue(engine_comparison("ab\f", right)["mismatched_pages"])
+
+    def test_canonical_comparison_does_not_hide_ligatures_order_or_missing_accents(self):
+        self.assertEqual(canonical_comparison("a\u0304", "ā")["mismatched_pages"], [])
+        for left, right in [("ā", "a"), ("ﬁ", "fi"), ("ab", "ba"), ("word", "words")]:
+            self.assertTrue(canonical_comparison(left, right)["mismatched_pages"])
+        self.assertFalse(canonical_comparison("a", "a")["publication_approval"])
+
+    def test_raw_agreement_is_diagnostic_and_never_clears_review_gates(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            job, _, text = self.fixture(root)
+            wrong = text.replace("final teaching", "teaching final")
+            def extract(_path, engine):
+                return wrong if engine == "poppler" else text
+            report, _ = prepare_one(job, None, root, root / "build/review/source", "test", extract)
+            self.assertEqual(report["raw_comparison"]["mismatched_pages"], [])
+            self.assertIn("EXTRACTOR_DISAGREEMENT", report["issues"])
+            self.assertIn("LAYOUT_REVIEW_REQUIRED", report["issues"])
+            self.assertFalse(report["publishable"])
+            self.assertEqual(report["canonical_mapping_status"], "NOT_REVIEWED")
+            self.assertIn("poppler-raw.txt", report["output_hashes"])
 
     def test_only_pinned_recipes_can_ignore_a_unique_edge_page_number(self):
         left, right = "First teaching.\n1\n\f", "1\nFirst teaching.\n\f"

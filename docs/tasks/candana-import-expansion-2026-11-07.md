@@ -123,6 +123,35 @@ Keep this checkout available while the services point to it.
 
 ## Next bounded imports
 
+### Reading-order diagnostic update — 2026-11-08
+
+- The network queue is still complete: 241 downloads and two recorded missing
+  offers. All 227 PDF offers have private drafts. The 120-second network
+  interval is our conservative setting; saved robots responses did not
+  declare Crawl-delay or Request-rate. Earlier bulk requests received 429s.
+  Increasing the request rate cannot advance this completed queue, so it is
+  unchanged. Future requests must retain robots and Retry-After checks.
+- Added a third, raw Poppler extraction for explicitly granted works whose
+  layout extraction disagrees with MuPDF. Keep both original extractions,
+  the raw candidate and per-page comparisons. This diagnostic does not clear
+  layout, mapping, permission or publication holds.
+- Sutta Nipāta, 391 pages: layout-mode disagreement on 297 pages becomes zero
+  pages with raw-mode comparison after NFC Unicode normalization and ignoring
+  whitespace. Nineteen pages differ before NFC, which joins equivalent
+  combining accents; no compatibility folding or punctuation repair occurs.
+- Manual, 214 pages: 193 layout-mode disagreement pages become 20 remaining
+  raw/NFC disagreement pages. Those still need investigation.
+- Visible sample: Sutta Nipāta PDF page 25 confirms “filling” in verse 30.
+  MuPDF retains that word; raw Poppler emits fi and lling across separate
+  physical lines. Character agreement therefore does not prove correct word
+  spacing or paragraph layout. Do not publish a blind whitespace reflow.
+- Original permission notices, PDF hashes, mappings and installed editions
+  are unchanged. No new translation is approved or deployed by this update.
+- The existing bounded offline timer is running again. Recipes and detected
+  grants are prioritized. Its changed tool fingerprint triggers safe
+  revalidation of cached drafts in batches; successful network downloads are
+  not repeated. No author contact or paid transcription occurred.
+
 1. Resolve Book Three's thirteen grouped source mappings without duplicating continuous
    reading or attaching a combined text to an incorrectly narrow site ID.
 2. Verify and map the new Sutta Nipāta source, including extra front/end sections, using

@@ -51,7 +51,7 @@
     },
     {
       "path": "docs/reviews/tree-copy-proposals-2026-11-08.md",
-      "sha256": "21f68ead94070d511da2c6615cacfaaacb09374ca9573ca461a4b88cac28ccb8",
+      "sha256": "3fc0f7e6e7dd52b7d59365ae6134a26944f75aebdbc98a609124989e09c7e6c0",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -63,7 +63,7 @@
     },
     {
       "path": "docs/tasks/candana-import-expansion-2026-11-07.md",
-      "sha256": "851beda840bb6f41613adb93191d02df16753b06f2d07bb73b9cf0f16dff659f",
+      "sha256": "188a6cbb88cba745770b0a07997592d569117ff3055b8b94bbebb41130e5b133",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -141,13 +141,13 @@
     },
     {
       "path": "metadata/site-catalog.json",
-      "sha256": "feb5b71b54a5f2baa365d43c0b1c5e3b626235ae2b955409bc6e9d92fcabae99",
+      "sha256": "ad74623630935cbdffa0ab032184b47a5f1a49c7445d7485b9782c0b73cd9d6b",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/site-content.json",
-      "sha256": "28501af91436507e13be0091a32639e24db3725f010ffdd095c39eade4bb53fb",
+      "sha256": "e8528ed716a52944fa4063ad1172d47479ed4739bfe0dca5d0ecc3e218f66f7d",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -273,7 +273,7 @@
     },
     {
       "path": "tests/test_candana_batch.py",
-      "sha256": "c386c25e66698669a0fdab82b4175e186c9f503ef2daaed58de6926bed995658",
+      "sha256": "bee77841bbf247317855408514a33491ff17c3fafd88792b0fac0b64fd513d2e",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -291,7 +291,7 @@
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "5eba80ad69cef391f1da73851a087805e20a1247f7e0ccfbd5a1a8a0815b1b19",
+      "sha256": "78d718b7bae8648b393a36152d63ea26943a0a527f4bdb6aa105c20c6c9bad66",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -555,7 +555,7 @@
     },
     {
       "path": "theravada/tipitaka/site/tipitaka.html",
-      "sha256": "d1dca19567781ba8db5859c5ad1516abc19a36bf9affc32165bc86e7c15a2b73",
+      "sha256": "0a894131e9a9292ef77ff5c532ea90bf15493d06fedaade200e23fb9e24881a4",
       "license_scope": "CC0-1.0 project-authored website content",
       "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
     },
@@ -95367,7 +95367,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "33129921d457f78580cdab4fbc9b09b5d03c99faa9fe1c5ab338ececddae897f",
+      "sha256": "4fbe2c3dc25d8fe6038ba42c9ad639fa40fffb2c81b6977e11e6b6af30c6b801",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95403,7 +95403,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/prepare_candana_batch.py",
-      "sha256": "3d34d2bc68ccaa6002f0f1070a5b6c5e968aed9964a7a346e9caec287eef7a8c",
+      "sha256": "af8b2796f6322d3a6705ca6674e9038807c54d5b9f7fcd3b3b7865ecdec439ac",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95415,7 +95415,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/public_site_catalog.py",
-      "sha256": "b60ed5897f80e6b36519f618bfa71875f9c371f179fa3bcb44b90fc79de71b38",
+      "sha256": "281569fa7c169a32bc7cab69871f1d90e508990ecc1e7fa4b6dbffac7ebc25d6",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

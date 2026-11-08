@@ -613,7 +613,12 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn("Flat list", result)
             self.assertIn('data-browse-font="decrease">Font Size -</button>', result)
             self.assertIn('data-browse-font="increase">Font Size +</button>', result)
-            self.assertIn("freebuddhism-browse-font-size", result)
+            self.assertIn("freebuddhism-browse-font-scale", result)
+            self.assertIn('aria-label="Reset browsing font size">Reset</button>', result)
+            self.assertIn("localStorage.removeItem", result)
+            self.assertIn("min-height:max(2.75em,44px)", result)
+            self.assertIn("4 with local translations; 4 local editions", result)
+            self.assertIn("Availability does not establish translation completeness", result)
             self.assertNotIn(" — expand", result)
             self.assertIn('>All Text on One Page</a>', result)
             self.assertNotIn("Open text page:", result)
@@ -633,7 +638,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn("Majjhima Nikāya</a>", text_breadcrumb)
             self.assertIn('<span aria-current="page">MN 1</span>', text_breadcrumb)
 
-    def test_browsing_controls_apply_recursively_without_new_description_copy(self):
+    def test_browsing_controls_and_descriptions_apply_recursively(self):
         nodes = navigation_nodes()
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -652,14 +657,40 @@ class PublicReleasePolicyTests(unittest.TestCase):
                     markup = _collection_browse_markup(root, key, pages, set(nodes), nodes)
                     self.assertIn('data-browse-font="increase"', markup)
                     self.assertIn('data-browse-font="decrease"', markup)
+                    self.assertIn('data-browse-font="reset"', markup)
                     self.assertNotIn(" — expand", markup)
                     self.assertNotIn("font-family:", markup)
                     self.assertNotIn("max-width:", markup)
+                    result = (root / nodes[key]["route"]).read_text(encoding="utf-8")
+                    self.assertIn('class="collection-description"', result)
+                    self.assertTrue(nodes[key]["description"])
+                    self.assertNotIn(" (", nodes[key]["tree_title"])
             markup = _text_node_browser(root, "sutta/anguttara-nikaya/an01-01/index.html", {
                 "collection": "anguttara-nikaya", "eligible": [],
             })
             self.assertIn('data-browse-font="increase"', markup)
             self.assertIn('data-browse-font="decrease"', markup)
+
+    def test_collection_names_and_counts_are_not_completeness_claims(self):
+        nodes = navigation_nodes()
+        self.assertIn("Stories of Departed Spirits", nodes["khuddaka-nikaya/petavatthu"]["description"])
+        self.assertIn("Accounts of Past Deeds", nodes["khuddaka-nikaya/apadana"]["description"])
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            index = root / nodes["majjhima-nikaya"]["route"]
+            index.parent.mkdir(parents=True)
+            index.write_text("<html><body><h1>Majjhima</h1></body></html>", encoding="utf-8")
+            pages = {
+                "one/index.html": {"collection": "majjhima-nikaya", "canonical_id": "MN 1",
+                                   "title": "MN 1", "eligible": [{}, {}, {}]},
+                "two/index.html": {"collection": "majjhima-nikaya", "canonical_id": "MN 2",
+                                   "title": "MN 2", "eligible": []},
+            }
+            markup = _collection_browse_markup(root, "majjhima-nikaya", pages, set(nodes), nodes)
+            self.assertIn("2 indexed text entries; 1 with local translations; 3 local editions", markup)
+            self.assertIn("Availability does not establish translation completeness", markup)
+            self.assertNotIn("zoom:", markup)
+            self.assertNotIn("preventDefault", markup)
 
     def test_continuous_reader_preferences_keep_global_default_and_hide_overrides(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -678,6 +709,10 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertNotIn("This continuous view contains", page)
             self.assertIn("Font Size +", page)
             self.assertIn("Font Size -", page)
+            self.assertIn('id="text-reset"', page)
+            self.assertIn('aria-label="Reset reading font size">Reset</button>', page)
+            self.assertNotIn("maximum-scale", page)
+            self.assertNotIn("user-scalable=no", page)
             self.assertIn('<summary><h2>Contents</h2></summary>', page)
             self.assertIn("font:inherit", page)
             self.assertNotIn("Loading translations", page)

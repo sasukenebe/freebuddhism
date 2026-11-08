@@ -1,6 +1,27 @@
 # Tree labels and collection-page copy: proposals only
 
-Date: 2026-11-08. Status: FOR REVIEW, NOT APPLIED TO WEBSITE.
+Date: 2026-11-08. Status: selected corrections below adopted; remaining wording is for review.
+
+## Adopted correction pass
+
+- Keep collection names short in the tree. Put brief existing descriptions on
+  collection pages, not on Home or inside disclosure labels.
+- Use Accounts of Past Deeds for Apadāna and Stories of Departed Spirits for
+  Petavatthu. Preserve the Pāli names and original translated passages.
+- Enlarge native summary targets to at least 44 CSS pixels, retaining the
+  browser's keyboard and accessibility semantics and separate page links.
+- Add Reset to browsing and continuous-reading font controls. Browsing sizes
+  use relative units and Reset restores inherited browser text settings.
+  Do not disable browser zoom or intercept its keyboard shortcuts.
+- Show indexed text entries, texts with translations and edition totals
+  separately. None establishes translation completeness.
+- Preserve and verify the restored Home wording, links and public contact.
+  Check rights metadata and hashes without claiming blanket licensing clearance.
+- Verify keyboard, mobile touch and browser accessibility roles/states.
+  Automated accessibility-tree checks are not a human screen-reader listening test.
+
+This is a bounded correction, not a new navigation system. The existing font
+family, desktop width, translation contents and URLs remain unchanged.
 
 ## Scope and recommendation
 
@@ -90,7 +111,7 @@ paragraphs and do not replace them with these proposed collection descriptions.
   - Tree: Vimānavatthu — Heavenly Mansions
   - Page: Verses about heavenly rebirth and the actions leading to it.
 - Petavatthu
-  - Tree: Petavatthu — Ghost Stories
+  - Tree: Petavatthu — Stories of Departed Spirits
   - Page: Verses about departed beings and the consequences of actions.
 - Theragāthā
   - Tree: Theragāthā — Verses of the Senior Monks
@@ -108,7 +129,7 @@ paragraphs and do not replace them with these proposed collection descriptions.
   - Tree: Paṭisambhidāmagga — Path of Discrimination
   - Page: Analyses of knowledge and the path of practice.
 - Apadāna
-  - Tree: Apadāna — Legends
+  - Tree: Apadāna — Accounts of Past Deeds
   - Page: Verse accounts of past deeds associated with monks and nuns.
 - Buddhavaṃsa
   - Tree: Buddhavaṃsa — Chronicle of Buddhas
@@ -215,7 +236,7 @@ Compare the three on the same Tipiṭaka/Vinaya/AN content, by mouse, keyboard a
 phone. Try taller targets before changing default font size. Let readers use the
 new Font Size - / + controls independently of any future expander choice.
 
-## Implemented scope of the accompanying correction
+## Earlier homepage correction, source 21d6a2a2
 
 - Restore Home's original paragraphs, with root-safe links.
 - Remove the literal — expand suffix, retaining names and existing text counts.

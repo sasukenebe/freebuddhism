@@ -13,6 +13,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import unicodedata
 from urllib.parse import unquote, urlsplit
 
 if __package__:
@@ -64,8 +65,12 @@ def write_file(path: Path, body: bytes) -> None:
 
 
 def pdf_text(path: Path, engine: str) -> str:
-    command = (["pdftotext", "-layout", str(path), "-"] if engine == "poppler"
-               else ["mutool", "draw", "-F", "txt", "-o", "-", str(path)])
+    if engine in {"poppler", "poppler-raw"}:
+        command = ["pdftotext", "-raw" if engine == "poppler-raw" else "-layout", str(path), "-"]
+    elif engine == "mupdf":
+        command = ["mutool", "draw", "-F", "txt", "-o", "-", str(path)]
+    else:
+        raise ValueError("Unknown extraction engine")
     return subprocess.run(command, check=True, capture_output=True, text=True, timeout=30).stdout
 
 
@@ -120,6 +125,15 @@ def reflow(body: str, join_hyphen_wraps: bool = False) -> str:
     result = "\n\n".join(" ".join(part.split()) for part in paragraphs if part.strip()) + "\n"
     if nonspace(result) != nonspace(original):
         raise ValueError("Reflow changed a non-whitespace character")
+    return result
+
+
+def canonical_comparison(left: str, right: str) -> dict:
+    """Diagnostic only: canonical Unicode equivalence, never compatibility folding."""
+    result = engine_comparison(unicodedata.normalize("NFC", left),
+                               unicodedata.normalize("NFC", right))
+    result["normalization"] = "NFC only; no compatibility folding, punctuation repair or reordering"
+    result["publication_approval"] = False
     return result
 
 
@@ -252,6 +266,12 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     pinned = recipe is not None and recipe["source_sha256"] == job["sha256"]
     comparison = engine_comparison(left, right, pagination=pinned)
     permission = all(granted_notice("\f".join(pages_of(value)[:10])) for value in (left, right))
+    raw = None
+    raw_comparison = None
+    if permission and comparison["mismatched_pages"]:
+        raw = extractor(source, "poppler-raw")
+        raw_comparison = canonical_comparison(raw, right)
+        raw_comparison["exact_unicode_mismatched_pages"] = engine_comparison(raw, right)["mismatched_pages"]
     issues = []
     if not permission:
         issues.append("PERMISSION_REVIEW_REQUIRED")
@@ -277,6 +297,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
         issues.append("HYPHEN_WRAP_REVIEW_REQUIRED")
     title = recipe["title"] if recipe else unquote(Path(urlsplit(url).path).name)
     contents = {"poppler.txt": left.encode(), "mupdf.txt": right.encode()}
+    if raw is not None:
+        contents["poppler-raw.txt"] = raw.encode()
     section_rows = []
     if partition and partition.get("body"):
         contents["body.txt"] = partition["body"].encode()
@@ -286,6 +308,12 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
         section_rows.append({key: value for key, value in section.items() if key != "body"} | {"text_path": relative})
     summary = '<p>Private draft. Not approved for publication. Source numbering is not yet mapped to website text IDs.</p>'
     summary += f'<p><a href="{html.escape(url, quote=True)}">Original PDF</a> · <a href="poppler.txt">Full extracted text</a></p>'
+    summary += '<p><a href="mupdf.txt">MuPDF text</a></p>'
+    if raw_comparison is not None:
+        summary += ('<p><a href="poppler-raw.txt">Alternative raw extraction</a>: '
+                    + str(len(raw_comparison["mismatched_pages"]))
+                    + ' pages still disagree after canonical Unicode comparison. '
+                    'Diagnostic only; layout, visual and text-ID review are still required.</p>')
     summary += '<p>Review: ' + html.escape(", ".join(issues) if issues else "Visual and text-ID review still required") + '</p>'
     for section in (partition or {}).get("sections", []):
         label = html.escape(section["source_label"])
@@ -302,7 +330,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
               "status": "EXCEPTIONS_REVIEW_REQUIRED" if issues else "READY_FOR_VISUAL_REVIEW",
               "publishable": False, "canonical_mapping_status": "NOT_REVIEWED",
               "rights": "EXPLICIT_GRANT_DETECTED" if permission else "NEEDS_PERMISSION_REVIEW",
-              "issues": issues, "comparison": comparison, "hyphen_wraps": hyphens,
+              "issues": issues, "comparison": comparison, "raw_comparison": raw_comparison,
+              "hyphen_wraps": hyphens,
               "partition": {key: value for key, value in (partition or {}).items() if key not in {"sections", "body"}},
               "sections": section_rows, "output_hashes": {name: digest(body) for name, body in contents.items()}}
     write_file(directory / "report.json", json_bytes(report))
@@ -331,7 +360,8 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
                 and (source_urls is None or job["url"] in source_urls)]
     if source_urls and set(source_urls) - {job["url"] for job in selected}:
         raise ValueError("Requested source is not an already-collected PDF")
-    selected.sort(key=lambda row: (row["url"] not in recipe_map, row["url"]))
+    selected.sort(key=lambda row: (row["url"] not in recipe_map,
+                                  row.get("rights") != "EXPLICIT_FREE_UNALTERED", row["url"]))
     reports, processed, reused, pending = [], 0, 0, 0
     with safe_relative(output, ".lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
