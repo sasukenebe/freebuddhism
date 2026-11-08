@@ -2,8 +2,20 @@
   "scope": "Exact path, content hash, license scope, and rights basis are required; new files are denied by default.",
   "files": [
     {
+      "path": ".githooks/pre-push",
+      "sha256": "c518a548509116c663367dc13f098bd40c0b949844698d365b695b165dca675d",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "4dcbb126b8d2ffdb1bb158450c8fe3cab7dafc4ccc0d55e51049e6341796b409",
+      "license_scope": "CC0-1.0 project configuration",
+      "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": ".gitignore",
-      "sha256": "108f56854920f5ecbc3c21b9e1beda5c2cfe5a40e1f7d9fca3573e0c4270a81b",
+      "sha256": "b8c3cae16756dd3c069197dd0fad3acc8e9e27cb2115899b38be8b1e2c3f5ee8",
       "license_scope": "CC0-1.0 project configuration",
       "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
     },
@@ -27,7 +39,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "3909c2bf66d00223097adda1c1266ad2de9206c73a01320cc4a1116892843b03",
+      "sha256": "b7fd47a9cb1d5baabc2b2495e1f2576d0015306b2f1e7e3073791f976e0c43f3",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "docs/reviews/public-repository-re-review-2026-11-08.md",
+      "sha256": "2fb4b121dd71470d5e8377750147e0381aaaaf1e0f0c1d841cf72c7f2605d29c",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -262,6 +280,12 @@
     {
       "path": "tests/test_public_release_policy.py",
       "sha256": "893735d52e81295210d578a24fba95aca6c14ef5008d9fd076d02c3111fa5ff7",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_repository_hardening.py",
+      "sha256": "e823035e5354db551ee375810af7637780283b024b063b179345cf9b175ff201",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95392,6 +95416,12 @@
     {
       "path": "tools/build_excluded_inventory.py",
       "sha256": "5e0d1a93a3cd6d81c667b9c59ad043eae16a1a16947c9a59c908ff731a8d1088",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/check_secrets.py",
+      "sha256": "d10bb83a486cb5002c1ba6b7e1f1d2740462ae1c0cdb9559f439b431ecf6943a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

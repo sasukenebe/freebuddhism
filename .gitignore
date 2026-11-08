@@ -4,3 +4,32 @@ __pycache__/
 *.py[cod]
 *.tmp
 .DS_Store
+
+# Local secrets must never be added to the public source tree.
+.env
+.env.*
+*.local.env
+local.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+credentials.json
+credentials.*.json
+service-account*.json
+.secrets/
+config.local.*
+
+# These names are reserved for deliberately sanitized examples, not secrets.
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.*.sample
+!.env.template
+!.env.*.template

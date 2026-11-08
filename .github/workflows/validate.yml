@@ -1,0 +1,60 @@
+name: Validate public source
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  secrets:
+    name: Secret scan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out complete history without retaining credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Scan all fetched history with the pinned scanner
+        run: python3 tools/check_secrets.py
+      - name: Prove the pre-push hook rejects an added or deleted fake credential
+        env:
+          GITLEAKS_INTEGRATION: '1'
+        run: python3 -m unittest discover -s tests -p test_repository_hardening.py
+
+  source:
+    name: Source, tests and site build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Check out source without retaining credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install PDF tools and reader fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y poppler-utils mupdf-tools fontconfig fonts-noto-core
+      - name: Install pinned Python dependencies
+        run: python -m pip --disable-pip-version-check install -r requirements.txt
+      - name: Validate exact files, rights records and source hashes
+        run: python tools/validate_public_tree.py
+      - name: Check generated exclusion metadata
+        run: python tools/build_excluded_inventory.py --check
+      - name: Run regressions
+        run: python -m unittest discover -s tests
+      - name: Build and validate site, archives and local links
+        run: python tools/buddhist_canon_pipeline/build_deploy_site.py --reader-jobs 2
