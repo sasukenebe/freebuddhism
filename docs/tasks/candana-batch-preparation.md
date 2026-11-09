@@ -1,6 +1,6 @@
 # Candana batch preparation
 
-Updated: 2026-11-06. Status: implemented and tested for private draft review;
+Updated: 2026-11-08. Status: implemented and tested for private draft review;
 no new editions approved or publicly deployed.
 
 ## Purpose and limits
@@ -44,6 +44,68 @@ mapping the author's numbering to the website's text IDs remain separate gates.
 - Reflow changes whitespace only. Hyphenated line breaks are flagged rather
   than silently joined or corrected. Every source and every draft remains
   publishable=false even when mechanical checks pass.
+
+## Complete source and disagreement review
+
+The private index now lists every collector entry, not just PDFs processed in the
+latest bounded invocation. Downloaded PDFs, missing offers and discovery pages
+remain distinct. During a partial pass, unprocessed PDFs are explicitly waiting;
+failed source checks never link to an older, apparently valid draft.
+
+- Open http://127.0.0.1:8766/ for the complete source list.
+- Open http://127.0.0.1:8766/disagreements.html for all flagged pages, without a
+  sample limit. Each source has a full-page comparison with differing words
+  highlighted. Highlighting shows a disagreement, not a proposed correction.
+- Every processed source links to a byte-identical local copy of its original
+  PDF, both unchanged extraction files, and any diagnostic raw-mode extraction.
+  PDF links include the actual PDF page number. No PDF is embedded in the text.
+- review-list.txt is the complete plain-text list; inventory.json is the complete
+  structured inventory. Permission, layout and numbering holds remain visible.
+- Character comparisons and word-boundary comparisons are separate. For example,
+  fi followed by a newline and lling must not be accepted as equivalent wording
+  to filling merely because removing whitespace gives the same characters.
+- Canonically equivalent Unicode accents, actual character disagreements,
+  word-boundary differences, hyphenated wraps, missing pages and recognized
+  pagination movement have separate flags. Recognized pagination is not a newly
+  discovered text error. Every reported flag remains available for inspection.
+- Raw-mode diagnostics also run on ungranted sources, privately. They never
+  remove a permission hold. All outputs remain publishable=false, and no timer
+  changes eligible-text manifests, translator defaults or the deployed website.
+- Reuse verifies hashes of the PDF copy, comparison page and every other output.
+  The tool fingerprint includes the review-output module as well as the converter
+  installations, so changed comparison code cannot reuse an obsolete report.
+
+The earlier eight-PDF trial below is retained as historical evidence, not the
+current size of the prepared collection.
+
+### Verified complete pass — 2026-11-08
+
+- Three bounded passes prepared all 227 cached PDFs, with 481 existing section
+  drafts and zero remaining conversions. No network requests occurred.
+- The complete list covers 243 discovered entries: 227 PDFs, 14 discovery pages
+  and two missing source offers. All 227 local original-PDF copies match their
+  recorded source hashes. Every marked-page anchor exists; local links pass.
+- Fourteen sources have layout-character disagreement, ten have independently
+  detected word-boundary warnings, and 73 have unreviewed hyphen-wrap warnings.
+  Categories overlap. Permission review is still required for 222 PDF offers;
+  their private extraction is not permission to distribute the work.
+- The review enumerates 3,218 flagged PDF pages. This includes 504 recognized
+  pagination movements, 2,282 layout-character flags, 199 layout word-boundary
+  flags, 1,433 raw word-boundary flags, 666 raw-character flags and 506 hyphen
+  flags. Multiple flags can occur on one page. These are differences between
+  tools or layout warnings, not 3,218 established errors in the source texts.
+- All 119 source tests pass, with the opt-in secret-hook integration test skipped
+  locally. Eight new tests cover complete inventories, final-page differences,
+  exact displayed characters, safe HTML, word boundaries, PDF hashes, changed
+  review pages and continued permission holds.
+- Browser checks verify the complete 243-source index, highlighted differences,
+  working original-PDF links and no embedded PDF object. Both the collector and
+  bounded offline-preparation timers are active; the preview remains loopback-only.
+
+Next: review the marked Sutta Nipāta reading-order/word-boundary differences and
+The Manual's unresolved raw differences before designing their import recipes.
+No new text edition, translator preference or public site content was changed by
+this private review pass. Audio conversion and author contact remain deferred.
 
 ## Eight-PDF trial
 

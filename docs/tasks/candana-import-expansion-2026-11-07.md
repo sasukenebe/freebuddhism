@@ -123,6 +123,20 @@ Keep this checkout available while the services point to it.
 
 ## Next bounded imports
 
+### Complete marked raw-text review — 2026-11-08
+
+The [batch-preparation checkpoint](candana-batch-preparation.md) now records a
+complete 243-source list and marked comparisons for all 227 downloaded PDFs.
+Original PDFs, unchanged converter text and every detected flagged page are
+linked at http://127.0.0.1:8766/. Use disagreements.html for the marked list or
+review-list.txt for the full plain-text list. No sample limit hides later pages.
+
+All source-PDF hashes and marked-page anchors pass; local links are valid.
+Both timers are active and the network interval remains 120 seconds. The saved
+network plan is complete, so a faster request rate would not advance it.
+The new review distinguishes word-boundary warnings from character agreement;
+it does not approve additional editions or waive any rights or mapping hold.
+
 ### Reading-order diagnostic update — 2026-11-08
 
 - The network queue is still complete: 241 downloads and two recorded missing

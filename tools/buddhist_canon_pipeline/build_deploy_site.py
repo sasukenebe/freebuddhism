@@ -598,6 +598,7 @@ _BROWSE_FONT_CONTROLS = (
 _BROWSE_STYLE = (
     '<style>#collection-browser details>summary{min-height:max(2.75em,44px);'
     'box-sizing:border-box;padding:.55em .25em;cursor:pointer}'
+    '#collection-browser details>details{margin-inline-start:1.25em}'
     '#collection-browser summary:focus-visible{outline:2px solid currentColor;'
     'outline-offset:2px}</style>'
 )
@@ -800,6 +801,21 @@ def _collection_browse_markup(
         )
         insertion = marker.start() if marker else source.find("</h1>") + len("</h1>")
     legacy = source[insertion:body_end].strip()
+    if collection == "tipitaka" and 'id="tipitaka-tree"' in legacy:
+        # The complete existing hierarchy is the tree, not an appendix to a
+        # second, generated three-basket tree. Keep its live counts and notes.
+        legacy = re.sub(
+            r'<h2>Available here</h2>\s*<p>.*?</p>\s*$', "", legacy,
+            flags=re.DOTALL,
+        ).strip()
+        generated_tree = (
+            '<p>Expand a group to browse; use its separate link to open a collection page.</p>'
+            + tree
+        )
+        if browse.count(generated_tree) != 1:
+            raise ValueError("Could not replace the duplicate Tipiṭaka tree")
+        browse = browse.replace(generated_tree, legacy, 1)
+        legacy = ""
     wrapper = ""
     if legacy:
         wrapper = (

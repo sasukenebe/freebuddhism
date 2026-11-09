@@ -187,7 +187,7 @@ class BatchTests(unittest.TestCase):
             root = Path(temporary)
             job, _, text = self.fixture(root)
             raw = text.replace(GRANT, "Copyright only; free to download.")
-            extractor = Mock(side_effect=[raw, raw.replace("final teaching", "teaching final")])
+            extractor = Mock(side_effect=[raw, raw.replace("final teaching", "teaching final"), raw])
             report, _ = prepare_one(job, None, root, root / "build/review/source", "test", extractor)
             self.assertEqual(set(report["issues"]), {
                 "PERMISSION_REVIEW_REQUIRED", "EXTRACTOR_DISAGREEMENT", "LAYOUT_REVIEW_REQUIRED"})

@@ -17,9 +17,11 @@ import unicodedata
 from urllib.parse import unquote, urlsplit
 
 if __package__:
+    from . import candana_review
     from .import_candana import ROOT, granted_notice
     from .candana_queue import checked_url
 else:
+    import candana_review
     from import_candana import ROOT, granted_notice
     from candana_queue import checked_url
 
@@ -268,7 +270,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     permission = all(granted_notice("\f".join(pages_of(value)[:10])) for value in (left, right))
     raw = None
     raw_comparison = None
-    if permission and comparison["mismatched_pages"]:
+    layout_spacing = candana_review.spacing_pages(left, right, comparison["pagination_only_pages"])
+    if comparison["mismatched_pages"] or layout_spacing:
         raw = extractor(source, "poppler-raw")
         raw_comparison = canonical_comparison(raw, right)
         raw_comparison["exact_unicode_mismatched_pages"] = engine_comparison(raw, right)["mismatched_pages"]
@@ -277,6 +280,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
         issues.append("PERMISSION_REVIEW_REQUIRED")
     if comparison["mismatched_pages"]:
         issues.append("EXTRACTOR_DISAGREEMENT")
+    if layout_spacing:
+        issues.append("WORD_BOUNDARY_REVIEW_REQUIRED")
     partition = None
     if recipe is None:
         issues.append("LAYOUT_REVIEW_REQUIRED")
@@ -296,7 +301,9 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     if hyphens and not (pinned and recipe.get("hyphen_wrap_policy") == "retain-hyphen-join-single-wrap"):
         issues.append("HYPHEN_WRAP_REVIEW_REQUIRED")
     title = recipe["title"] if recipe else unquote(Path(urlsplit(url).path).name)
-    contents = {"poppler.txt": left.encode(), "mupdf.txt": right.encode()}
+    page_reviews = candana_review.page_reviews(left, right, comparison, raw, hyphens)
+    contents = {"poppler.txt": left.encode(), "mupdf.txt": right.encode(), "source.pdf": data,
+                "comparison.html": candana_review.comparison_html(title, left, right, raw, page_reviews).encode()}
     if raw is not None:
         contents["poppler-raw.txt"] = raw.encode()
     section_rows = []
@@ -307,7 +314,10 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
         contents[relative] = section["body"].encode()
         section_rows.append({key: value for key, value in section.items() if key != "body"} | {"text_path": relative})
     summary = '<p>Private draft. Not approved for publication. Source numbering is not yet mapped to website text IDs.</p>'
-    summary += f'<p><a href="{html.escape(url, quote=True)}">Original PDF</a> · <a href="poppler.txt">Full extracted text</a></p>'
+    summary += (f'<p><a href="{html.escape(url, quote=True)}">Publisher PDF</a> · '
+                '<a href="source.pdf">Original PDF, local copy</a> · '
+                '<a href="comparison.html">All marked differences</a> · '
+                '<a href="poppler.txt">Full extracted text</a></p>')
     summary += '<p><a href="mupdf.txt">MuPDF text</a></p>'
     if raw_comparison is not None:
         summary += ('<p><a href="poppler-raw.txt">Alternative raw extraction</a>: '
@@ -318,7 +328,7 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     for section in (partition or {}).get("sections", []):
         label = html.escape(section["source_label"])
         summary += (f'<section id="source-{label}"><h2>{html.escape(section["title"])}</h2>'
-                    f'<p><a href="{html.escape(url, quote=True)}#page={section["source_page"]}">Source PDF page {section["source_page"]}</a>'
+                    f'<p><a href="source.pdf#page={section["source_page"]}">Source PDF page {section["source_page"]}</a>'
                     f' · <a href="sections/{label}.txt">Plain text</a></p><pre>{html.escape(section["body"])}</pre></section>')
     if not section_rows:
         summary += '<pre>' + html.escape((partition or {}).get("body", left)) + '</pre>'
@@ -331,7 +341,7 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
               "publishable": False, "canonical_mapping_status": "NOT_REVIEWED",
               "rights": "EXPLICIT_GRANT_DETECTED" if permission else "NEEDS_PERMISSION_REVIEW",
               "issues": issues, "comparison": comparison, "raw_comparison": raw_comparison,
-              "hyphen_wraps": hyphens,
+              "hyphen_wraps": hyphens, "page_reviews": page_reviews,
               "partition": {key: value for key, value in (partition or {}).items() if key not in {"sections", "body"}},
               "sections": section_rows, "output_hashes": {name: digest(body) for name, body in contents.items()}}
     write_file(directory / "report.json", json_bytes(report))
@@ -343,6 +353,10 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
                   extractor=pdf_text) -> dict:
     if not 1 <= limit <= 100:
         raise ValueError("Batch limit must be between 1 and 100")
+    for job in jobs:
+        checked_url(job["url"])
+    if len({job["url"] for job in jobs}) != len(jobs):
+        raise ValueError("Duplicate queue URL")
     relative = output.absolute().relative_to(root.absolute())
     if len(relative.parts) < 2 or relative.parts[0] != "build":
         raise ValueError("Private output must be a dedicated directory below build/")
@@ -396,14 +410,12 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
                   "sources": reports, "exceptions": exceptions}
         write_file(output / "report.json", json_bytes(result))
         write_file(output / "exceptions.json", json_bytes(exceptions))
-        links = '<p>Local drafts only. No new translations have been approved or published.</p><ul>'
-        for row in reports:
-            title = html.escape(row["title"])
-            label = f'<a href="{row["review_path"]}">{title}</a>' if row["review_path"] else title
-            links += (f'<li>{label}'
-                      f' — {len(row["sections"])} section drafts; {html.escape(", ".join(row["issues"]) or "visual review required")}</li>')
-        links += '</ul><p><a href="exceptions.json">Exceptions</a> · <a href="report.json">Complete report</a></p>'
-        write_file(output / "index.html", page_html("Candana batch review", links).encode())
+        inventory = candana_review.inventory(jobs, reports)
+        write_file(output / "inventory.json", json_bytes(inventory))
+        index, disagreements, plain = candana_review.review_catalog(inventory)
+        write_file(output / "index.html", index.encode())
+        write_file(output / "disagreements.html", disagreements.encode())
+        write_file(output / "review-list.txt", plain.encode())
     return result
 
 
@@ -418,7 +430,7 @@ def main() -> None:
     state = json.loads(QUEUE.read_text())  # Read only; never reset or modify the collector's queue.
     binaries = {name: (Path(shutil.which(name)).stat().st_size, Path(shutil.which(name)).stat().st_mtime_ns)
                 for name in ("pdftotext", "mutool")}
-    identity = digest(Path(__file__).read_bytes() + json_bytes(binaries))
+    identity = digest(Path(__file__).read_bytes() + Path(candana_review.__file__).read_bytes() + json_bytes(binaries))
     result = prepare_batch(ROOT, OUTPUT, config["recipes"], state["jobs"], args.limit, identity, args.source_url)
     print(json.dumps({key: value for key, value in result.items() if key not in {"sources", "exceptions"}}, indent=2))
 
