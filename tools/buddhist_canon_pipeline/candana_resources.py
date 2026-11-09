@@ -12,6 +12,15 @@ import unicodedata
 
 SNP_SHA = "ff6fa85ebaed058886a2d52b1b0d3e1b29eeca3b26995a23bff6a50066e84495"
 MANUAL_SHA = "1edc8f3010f636dbabdc0fcfbded0d8820095e549bc2c5536dbb4bdc23da9152"
+SNP_TEXT_SHA = "fb1e36fb23c076949b15aaa3c5e738342ead95a924e376837e2921da58481087"
+# Exact-source layout recipe: centered small numerals below y=560 PDF points.
+# These are not guessed from body digits; index references are never folios.
+SNP_FOLIOS = (9, 18, 22, 26, 33, 39, 47, 58, 64, 69, 73, 78, 84, 88, 90, 94,
+              97, 100, 108, 111, 114, 116, 118, 123, 128, 135, 138, 142, 147,
+              151, 161, 170, 183, 200, 204, 218, 228, 238, 262, 266, 268, 270,
+              272, 274, 277, 280, 283, 288, 291, 296, 300, 311, 316, 321, 324,
+              334, 337, 340, 343, 348, 351, 355, 360, 362, 364, 368, 370, 372,
+              374, 376, 378, 380, 385)
 
 
 def json_data(value) -> bytes:
@@ -23,6 +32,9 @@ def document(title: str, body: str) -> bytes:
             '<meta name="viewport" content="width=device-width, initial-scale=1">'
             '<title>' + html.escape(title) + '</title><style>'
             'pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}'
+            '.source-folio{font-size:.8em;color:#555;border-top:1px solid #ccc}'
+            '.source-index{border-collapse:collapse}'
+            '.source-index td{vertical-align:top;padding:.15em 1em .15em 0}'
             '</style><h1>' + html.escape(title) + '</h1>' + body + '</html>\n').encode()
 
 
@@ -37,13 +49,78 @@ def reading_body(text: str) -> str:
 
 
 def reading_html(title: str, text: str, pdf: str = "source.pdf",
-                 back: str = "../../index.html", pages: str = "") -> bytes:
+                 back: str = "../../index.html", pages: str = "", *, rendered: str | None = None) -> bytes:
     """A readable private draft; retain source characters, not PDF-width wrapping."""
     label = "Original PDF" + (" (" + pages + ")" if pages else "")
     body = ('<p><a href="' + html.escape(back, quote=True) + '">All texts</a> · '
             '<a href="' + html.escape(pdf, quote=True) + '" target="_blank" rel="noopener">'
-            + html.escape(label) + '</a></p><h2>Converted text</h2>' + reading_body(text))
+            + html.escape(label) + '</a></p><h2>Converted text</h2>'
+            + (reading_body(text) if rendered is None else rendered))
     return document(title, body)
+
+
+def snp_reading_body(unit: dict) -> str:
+    """Presentation-only recipe for the frozen 391-page source, not arbitrary PDFs.
+
+    Keep raw order and every source character. Only the 17 explicitly identified
+    Snake refrains gain authored breaks; other stanza gaps retain their source
+    spacing without claiming that all verse layout has been visually reviewed.
+    """
+    pieces = []
+    index_rows = 0
+    for page_number, page in enumerate(unit["body"].split("\f"), unit["first_pdf_page"]):
+        if not page.strip():
+            continue
+        folio = ""
+        if page_number in SNP_FOLIOS:
+            match = re.search(rf"(?m)^[ \t]*{page_number}[ \t]*\n*\Z", page)
+            if match is None:
+                raise ValueError(f"Pinned printed folio missing on PDF page {page_number}")
+            page, folio = page[:match.start()], str(page_number)
+        if 386 <= page_number <= 388:
+            pending, table = [], False
+            for line in (line.strip() for line in page.splitlines() if line.strip()):
+                if line == "List of Suttas" or line.endswith("Vagga"):
+                    if pending:
+                        raise ValueError("Unpaired source index title")
+                    if table:
+                        pieces.append('</table>')
+                        table = False
+                    pieces.append('<p>' + html.escape(line) + '</p>')
+                elif line.isascii() and line.isdigit():
+                    if not pending:
+                        raise ValueError("Source index page reference has no title")
+                    if not table:
+                        pieces.append('<table class="source-index" aria-label="Sutta titles and printed page references">')
+                        table = True
+                    pieces.append('<tr><td>' + html.escape(' '.join(pending)) + '</td><td>'
+                                  + line + '</td></tr>')
+                    pending = []
+                    index_rows += 1
+                else:
+                    pending.append(line)
+            if pending:
+                raise ValueError("Source index ends with an unpaired title")
+            if table:
+                pieces.append('</table>')
+        else:
+            for part in re.split(r"\n[ \t]*\n+", page):
+                if not part.strip():
+                    continue
+                lines = re.split(r"(?m)\n(?=“?Thus, the Bhikkhu)", part) if unit["id"] == "snp1.1" else [part]
+                pieces.append('<p>' + '<br>'.join(html.escape(' '.join(line.split()))
+                                               for line in lines if line.strip()) + '</p>')
+        if folio:
+            pieces.append('<p class="source-folio">' + folio
+                          + ' <span class="editorial">[printed page number]</span></p>')
+    if unit["id"] == "back-matter" and index_rows != 73:
+        raise ValueError("Pinned source index must retain all 73 title/page pairs")
+    result = ''.join(pieces)
+    source_only = re.sub(r'<span class="editorial">.*?</span>', '', result)
+    shown = html.unescape(re.sub(r'<[^>]*>', ' ', source_only))
+    if re.sub(r"\s+", "", shown) != re.sub(r"\s+", "", unit["body"]):
+        raise ValueError("Sutta Nipāta layout changed source characters")
+    return '<div class="converted-text">' + result + '</div>'
 
 
 def pair_links(title: str, pdf: str, converted: str, anchor: str = "") -> str:
@@ -130,6 +207,7 @@ def resource_outputs(sha: str, mupdf: str, raw: str | None, raw_comparison: dict
     outputs, report = {}, {}
     if sha == SNP_SHA:
         units = snp_partition(mupdf)
+        pinned_layout = hashlib.sha256(mupdf.encode()).hexdigest() == SNP_TEXT_SHA
         metadata = [{k: v for k, v in unit.items() if k != "body"} for unit in units]
         report = {"kind": "SUTTA_NIPATA_SOURCE_PARTITION", "sutta_source_intervals": 73,
                   "all_source_characters_preserved": True, "canonical_mapping_status": "NOT_APPROVED",
@@ -147,7 +225,8 @@ def resource_outputs(sha: str, mupdf: str, raw: str | None, raw_comparison: dict
             pages = f'PDF pages {unit["first_pdf_page"]}–{unit["last_pdf_page"]}'
             outputs[readable] = reading_html(unit["title"], unit["body"],
                                             "../source.pdf#page=" + str(unit["first_pdf_page"]),
-                                            "../source-units.html", pages)
+                                            "../source-units.html", pages,
+                                            rendered=snp_reading_body(unit) if pinned_layout else None)
             pair = section_link(unit["title"], readable, pages, unit["id"])
             if unit["kind"] == "SUTTA_SOURCE_INTERVAL":
                 body += pair
