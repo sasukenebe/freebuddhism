@@ -1,6 +1,6 @@
 # Navigation and reading experience
 
-Updated: 2026-11-05
+Updated: 2026-11-08
 
 Status: the recursive navigation corrections are live from source commit
 `2c0e99d2` on `codex/navigation-reading-experience-20261104`. The easier-expander
@@ -97,6 +97,24 @@ page. If Sujato is not cleared for a particular local text, do not select or
 silently substitute it; show the actual eligible choices.
 
 ## First implementation scope
+
+### Continuous text headings — 2026-11-08
+
+Each text heading in All Text on One Page is a conventional bold h2 containing
+a link to that text's home node, not a self-link to its continuous-reader anchor
+or a link to one chosen edition. The home node offers all eligible translations
+and any mapped audio/video sources. Existing Contents links still jump within
+the continuous page.
+
+Keep headings at 1.5 times the reading-body size, including after Font Size +,
+Font Size - and Reset. Inherit the existing font and browser zoom; do not change
+page width, margins or translated text. Apply the shared renderer throughout
+the library, not just Dīgha Nikāya. This supersedes the historical request for
+plain, unlinked continuous headings recorded in the November 5 pass below.
+
+Before publication, verify node destinations, unchanged inline text, large and
+small reading sizes, Reset, keyboard navigation and mobile wrapping. Publish
+through the isolated production source pin without including unrelated drafts.
 
 ### Recursive correction pass — 2026-11-05
 

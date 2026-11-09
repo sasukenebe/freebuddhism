@@ -1077,7 +1077,11 @@ def _write_continuous_reader(
     page.write_text(
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        '<title>All Text on One Page</title>\n<style>.reader-text{font-size:var(--reader-text-size,1em)}.reader-text pre{font:inherit;white-space:pre-wrap}summary>h2{display:inline}button,input,select{font:inherit}</style>\n'
+        '<title>All Text on One Page</title>\n<style>'
+        '.continuous-text>h2{font-size:calc(1.5 * var(--reader-text-size,1em));font-weight:bold}'
+        '.reader-text{font-size:var(--reader-text-size,1em)}'
+        '.reader-text pre{font:inherit;white-space:pre-wrap}'
+        'summary>h2{display:inline}button,input,select{font:inherit}</style>\n'
         '</head>\n<body>\n' + site_navigation() + '\n<header>\n'
         '<nav id="reader-breadcrumbs" aria-label="Breadcrumb"></nav>\n'
         '<h1 id="reader-title">All Text on One Page</h1></header>\n<main>\n'
