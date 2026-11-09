@@ -47,3 +47,25 @@ Tests cover the exact PDF/text pins, all 391 pages, all 73 suttas, all 80 interv
 unchanged displayed source characters, one original link, absence of private
 review data, modified source/manifest refusal and safe generated output paths.
 Full build, browser and live release checks are retained with deployment evidence.
+
+## Returned review and presentation revision 2
+
+The owner returned an external review on 2026-11-09. It reports complete automatic
+text agreement on all 391 pages after NFC-only normalization, all 80 source intervals
+and hashes, with 25 visual page samples. This is strong text-layer evidence, not a
+full human proofread. The [repeatable local review method](candana-local-conversion-testing.md)
+records exact coverage, limitations and the future local-review command.
+
+Revision 2 retains all 73 back-index title/page pairs in two-column HTML. The Snake's
+17 repeated refrains start on separate authored lines rather than disappearing into
+mechanical paragraph reflow. All 73 proven printed footer numerals retain their source
+position but have a small explicit pagination label; they are not body paragraphs.
+The HTML is labeled text-only; photographs and artwork remain in the original PDF.
+No fixed-width wrapping, new font or narrow reading column is introduced.
+
+The local audit independently reproduces all 391 page comparisons and all 80 interval
+hashes, and also verifies word boundaries and raw files for all 73 individual suttas.
+The generated record is metadata/reports/candana-snp-conversion-2026-11-09.json.
+The original PDF and raw extraction retain their exact hashes. Remaining verse-layout
+decisions, unsampled visual pages and canonical numbering correspondence are unapproved.
+This changes only the public comparison draft, not translator defaults or existing readers.

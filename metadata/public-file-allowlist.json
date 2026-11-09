@@ -44,8 +44,14 @@
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
+      "path": "docs/reviews/candana-local-conversion-testing.md",
+      "sha256": "415d7bb9b534eba5d0e814fa1b532c76eaab8dbf12c721b36ca3a075efab6374",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": "docs/reviews/candana-snp-external-review-2026-11-09.md",
-      "sha256": "3beeb75b1ed6f94d356f738f101a614f67c28f8a5511c8a1b1ea55ae4132d4d2",
+      "sha256": "4a2697f53d1ae5759da868376d8d93a1a11061f80e2a1dfffd5834cb07ab085f",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -69,13 +75,13 @@
     },
     {
       "path": "docs/tasks/candana-human-verification.md",
-      "sha256": "ef8b488cc4bf24f94854bdbd5f7e3422cb08447f34e57fd4f88c5162da9de260",
+      "sha256": "db4f06929ea29b1604f4c28b3c4822f8629ad8fdd8583d311d6c1e37898d68af",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
       "path": "docs/tasks/candana-import-expansion-2026-11-07.md",
-      "sha256": "619dc8a8362162c9e0f30d12b8afc240ff4ab56665116739febc4ce4aa1d7e98",
+      "sha256": "589f2a8531d1350c1f3496a9f9daca6331bed3fbf3fa773810c068da8d10c622",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -122,14 +128,44 @@
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
+      "path": "metadata/reports/candana-an-book1-conversion-2026-11-09.json",
+      "sha256": "fc3e5171f14fd814879d58a45b41da35aeca15f304e6f56ccf2ec1744de57dcd",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/reports/candana-an-book2-conversion-2026-11-09.json",
+      "sha256": "52a4499320012f26fe2c379f948907030133cd697c34faec7e56141056bf053b",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/reports/candana-an-book3-conversion-2026-11-09.json",
+      "sha256": "7f996c968800815f9958bcd3fe36049f80fafbe7fdf3c64cf7b9d798246053cf",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
       "path": "metadata/reports/candana-extraction-2026-11-05.json",
       "sha256": "0244d50212a4506422e79d250b4e21414fff8102ed70200b559096d8b7ddbd78",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
+      "path": "metadata/reports/candana-manual-conversion-2026-11-09.json",
+      "sha256": "80d378cc5235c2971a8a2547ea059f52f3df741d2ad5e25260c2aec436118a3f",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
       "path": "metadata/reports/candana-numbered-books-2026-11-07.json",
       "sha256": "d868f0e0d5e8ea6274b676b123f649f648252f6ddfc8a4b8282803d0026d67b4",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/reports/candana-snp-conversion-2026-11-09.json",
+      "sha256": "43a96071d4a19311e673ff7ee162f3b304bee808f46c2a10e1c693b77044d81e",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -308,6 +344,12 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tests/test_candana_conversion_audit.py",
+      "sha256": "092572a77030237952adc2b59e20bab9eb5e2a696007fcef2283e1595ac53e7a",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tests/test_candana_numbered.py",
       "sha256": "5404eda66005c45981547f494d2b3b3b05e7d2f6aa184b0afaa602b6594fd60f",
       "license_scope": "0BSD",
@@ -327,7 +369,7 @@
     },
     {
       "path": "tests/test_candana_resources.py",
-      "sha256": "f799bb45c4a57e352ffeb9c0fd6b3d59e7b742f0a703338facefea5d758c5064",
+      "sha256": "1162c8f55ba18721db9dbf780c4c0ec9e36d8a8f3d72b4470b93e882f025a82c",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -339,7 +381,7 @@
     },
     {
       "path": "tests/test_public_candana_review.py",
-      "sha256": "efd00f1865517221ae2ec5ba1bcd3d9f2fc4792f3a680bb19a7de8df8e44eaba",
+      "sha256": "3691610e7843efbf2665b60fad3c343033f93f1360554ace0878b8d651e9b583",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95445,7 +95487,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/candana_resources.py",
-      "sha256": "970667c93a45d90cf3fc018f2bca422b0c90984eae9190f465984f8f2398b4a3",
+      "sha256": "d0a15ec213f20c493f801f90b0b3ff6ce0e538dd2a69ddda9a44d5b49e3fab32",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95469,13 +95511,13 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/prepare_candana_batch.py",
-      "sha256": "24312930806e56fb7f7354aae9a8b3b5f2523fdded48c15e7f2db76625779036",
+      "sha256": "14d8ffa1665e379966f373bcc19d5c0304b273e2aedc1fdde8fab927320b4528",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/public_candana_review.py",
-      "sha256": "17f965fdd36ee6f08a789d2d0af1a81b16bb70241c7287d5755db9543a55b629",
+      "sha256": "1d278aec0a43a7cf18ad6c667deddca08c83aadb799e18fee01981838406e4fc",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95506,6 +95548,12 @@
     {
       "path": "tools/buddhist_canon_pipeline/serve_candana_review.py",
       "sha256": "d63e6d3aa58960102ca67a8874301265da5b160ac8ff7e49dd19864813938d9e",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/verify_candana_conversion.py",
+      "sha256": "ed4e70a6bd96d7451ce2a0489f2bf26a1825038952ac7e92e0b8bcd166e28028",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

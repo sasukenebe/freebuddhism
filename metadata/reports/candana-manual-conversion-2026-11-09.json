@@ -1,0 +1,2211 @@
+{
+  "schema_version": 1,
+  "pdf_sha256": "1edc8f3010f636dbabdc0fcfbded0d8820095e549bc2c5536dbb4bdc23da9152",
+  "text_sha256": "951f67c7671d1f900ade79f21b5b3dc602c7ea07732a0adf74dca2e9525c20b4",
+  "pdf_pages": 214,
+  "engines": {
+    "pymupdf": [
+      {
+        "pdf_page": 1,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 2,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 3,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 4,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 5,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 6,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 7,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 8,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 9,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 10,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 11,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 12,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 13,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 14,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 15,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 16,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 17,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 18,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 19,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 20,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 21,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 22,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 23,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 24,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 25,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 26,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 27,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 28,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 29,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 30,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 31,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 32,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 33,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 34,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 35,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 36,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 37,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 38,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 39,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 40,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 41,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 42,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 43,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 44,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 45,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 46,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 47,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 48,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 49,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 50,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 51,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 52,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 53,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 54,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 55,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 56,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 57,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 58,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 59,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 60,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 61,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 62,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 63,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 64,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 65,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 66,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 67,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 68,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 69,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 70,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 71,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 72,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 73,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 74,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 75,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 76,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 77,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 78,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 79,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 80,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 81,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 82,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 83,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 84,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 85,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 86,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 87,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 88,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 89,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 90,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 91,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 92,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 93,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 94,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 95,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 96,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 97,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 98,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 99,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 100,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 101,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 102,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 103,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 104,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 105,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 106,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 107,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 108,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 109,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 110,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 111,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 112,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 113,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 114,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 115,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 116,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 117,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 118,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 119,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 120,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 121,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 122,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 123,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 124,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 125,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 126,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 127,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 128,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 129,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 130,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 131,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 132,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 133,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 134,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 135,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 136,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 137,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 138,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 139,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 140,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 141,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 142,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 143,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 144,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 145,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 146,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 147,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 148,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 149,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 150,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 151,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 152,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 153,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 154,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 155,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 156,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 157,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 158,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 159,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 160,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 161,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 162,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 163,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 164,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 165,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 166,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 167,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 168,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 169,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 170,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 171,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 172,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 173,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 174,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 175,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 176,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 177,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 178,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 179,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 180,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 181,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 182,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 183,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 184,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 185,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 186,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 187,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 188,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 189,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 190,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 191,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 192,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 193,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 194,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 195,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 196,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 197,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 198,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 199,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 200,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 201,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 202,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 203,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 204,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 205,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 206,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 207,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 208,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 209,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 210,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 211,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 212,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 213,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 214,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      }
+    ],
+    "poppler_raw": [
+      {
+        "pdf_page": 1,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 2,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 3,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 4,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 5,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 6,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 7,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 8,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 9,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 10,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 11,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 12,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 13,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 14,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 15,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 16,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 17,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 18,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 19,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 20,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 21,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 22,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 23,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 24,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 25,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 26,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 27,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 28,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 29,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 30,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 31,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 32,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 33,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 34,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 35,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 36,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 37,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 38,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 39,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 40,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 41,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 42,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 43,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 44,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 45,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 46,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 47,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 48,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 49,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 50,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 51,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 52,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 53,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 54,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 55,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 56,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 57,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 58,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 59,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 60,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 61,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 62,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 63,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 64,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 65,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 66,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 67,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 68,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 69,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 70,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 71,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 72,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 73,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 74,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 75,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 76,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 77,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 78,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 79,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 80,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 81,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 82,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 83,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 84,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 85,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 86,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 87,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 88,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 89,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 90,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 91,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 92,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 93,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 94,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 95,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 96,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 97,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 98,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 99,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 100,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 101,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 102,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 103,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 104,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 105,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 106,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 107,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 108,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 109,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 110,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 111,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 112,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 113,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 114,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 115,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 116,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 117,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 118,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 119,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 120,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 121,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 122,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 123,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 124,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 125,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 126,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 127,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 128,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 129,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 130,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 131,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 132,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 133,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 134,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 135,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 136,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 137,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 138,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 139,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 140,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 141,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 142,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 143,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 144,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 145,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 146,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 147,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 148,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 149,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 150,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 151,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 152,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 153,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 154,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 155,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 156,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 157,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 158,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 159,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 160,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 161,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 162,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 163,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 164,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 165,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 166,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 167,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 168,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 169,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 170,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 171,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 172,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 173,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 174,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 175,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 176,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 177,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 178,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 179,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 180,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 181,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 182,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 183,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 184,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 185,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 186,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 187,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 188,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 189,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 190,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 191,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 192,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 193,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 194,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 195,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 196,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 197,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 198,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 199,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 200,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 201,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 202,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 203,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": false
+      },
+      {
+        "pdf_page": 204,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 205,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 206,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 207,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 208,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 209,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 210,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 211,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 212,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 213,
+        "exact_nonspace_match": true,
+        "nfc_nonspace_match": true
+      },
+      {
+        "pdf_page": 214,
+        "exact_nonspace_match": false,
+        "nfc_nonspace_match": true
+      }
+    ]
+  },
+  "versions": {
+    "pymupdf": "1.26.6",
+    "poppler": "pdftotext version 24.02.0"
+  },
+  "method": "Ordered characters; exact and NFC-only comparisons, whitespace ignored. No NFKC, inventory sorting, punctuation repair or numeric suppression.",
+  "engine_limit": "PyMuPDF shares the MuPDF engine with mutool; Poppler is the independent engine.",
+  "pages_without_text": [
+    2,
+    4,
+    212,
+    213
+  ],
+  "image_only_pages": [],
+  "visual_pages_approved": [],
+  "human_proofreading_approved": false,
+  "canonical_mapping_approved": false,
+  "status": "DISAGREEMENTS_RETAINED",
+  "disagreements": [
+    "pymupdf: page 20",
+    "pymupdf: page 26",
+    "pymupdf: page 29",
+    "pymupdf: page 36",
+    "pymupdf: page 51",
+    "pymupdf: page 66",
+    "pymupdf: page 69",
+    "pymupdf: page 77",
+    "pymupdf: page 98",
+    "pymupdf: page 99",
+    "pymupdf: page 103",
+    "pymupdf: page 106",
+    "pymupdf: page 124",
+    "pymupdf: page 130",
+    "pymupdf: page 137",
+    "pymupdf: page 150",
+    "pymupdf: page 174",
+    "pymupdf: page 179",
+    "pymupdf: page 202",
+    "pymupdf: page 203",
+    "poppler_raw: page 20",
+    "poppler_raw: page 26",
+    "poppler_raw: page 29",
+    "poppler_raw: page 36",
+    "poppler_raw: page 51",
+    "poppler_raw: page 66",
+    "poppler_raw: page 69",
+    "poppler_raw: page 77",
+    "poppler_raw: page 98",
+    "poppler_raw: page 99",
+    "poppler_raw: page 103",
+    "poppler_raw: page 106",
+    "poppler_raw: page 124",
+    "poppler_raw: page 130",
+    "poppler_raw: page 137",
+    "poppler_raw: page 150",
+    "poppler_raw: page 174",
+    "poppler_raw: page 179",
+    "poppler_raw: page 202",
+    "poppler_raw: page 203"
+  ]
+}

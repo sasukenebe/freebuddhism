@@ -10,9 +10,9 @@ import json
 from pathlib import Path
 
 if __package__:
-    from .candana_resources import SNP_SHA, document, reading_body, reading_html, section_link, snp_partition
+    from .candana_resources import SNP_SHA, SNP_FOLIOS, document, reading_html, section_link, snp_partition, snp_reading_body
 else:
-    from candana_resources import SNP_SHA, document, reading_body, reading_html, section_link, snp_partition
+    from candana_resources import SNP_SHA, SNP_FOLIOS, document, reading_html, section_link, snp_partition, snp_reading_body
 
 LICENSE = "Candana — free distribution, unaltered contents"
 RIGHTS_BASIS = ("The exact source PDF grants redistribution in any medium, "
@@ -91,31 +91,35 @@ def payload(root: Path = ROOT) -> dict[str, bytes]:
                    'The original PDF retains the complete permission notice on PDF page 7.</p>')
     body = ('<p>Conversion draft for comparison, not an approved new edition.</p>'
             '<p><a href="original.pdf">Original PDF — complete book</a></p>'
-            '<p><a href="converted.html">Converted text — complete book, all 391 PDF pages</a></p>'
+            '<p><a href="converted.html">Converted text — complete book, text-only</a></p>'
             '<p><a href="converted.txt" download>Download complete raw text (UTF-8)</a> · '
             '<a href="review-request.txt">External review request</a></p>' + attribution
             + '<h2>Individual suttas</h2><ol>')
+    text_only = '<p>Text-only rendering. Photographs and artwork remain in the original PDF.</p>'
     all_text = ('<p>Conversion draft for comparison; no source-content approval is implied.</p>'
                 '<p><a href="index.html">Review home</a> · <a href="original.pdf">Original PDF</a></p>'
-                + attribution)
+                + text_only + attribution)
     outputs = {"original.pdf": pdf, "converted.txt": raw}
     for unit in units:
         label = f'PDF pages {unit["first_pdf_page"]}–{unit["last_pdf_page"]}'
         all_text += ('<section id="' + unit["id"] + '"><h2>' + html.escape(unit["title"])
-                     + '</h2><p>' + label + '</p>' + reading_body(unit["body"]) + '</section>')
+                     + '</h2><p>' + label + '</p>' + snp_reading_body(unit) + '</section>')
         if unit["kind"] != "SUTTA_SOURCE_INTERVAL":
             continue
         relative = "suttas/" + unit["id"]
         body += section_link(unit["title"], relative + ".html", label)
         outputs[relative + ".txt"] = unit["body"].encode("utf-8")
         outputs[relative + ".html"] = reading_html(unit["title"], unit["body"],
-                                                   "../original.pdf", "../index.html", label)
+                                                   "../original.pdf", "../index.html", label,
+                                                   rendered=snp_reading_body(unit))
         outputs[relative + ".html"] = outputs[relative + ".html"].replace(
-            b'</html>', attribution.encode("utf-8") + b'</html>')
+            b'</html>', (text_only + attribution).encode("utf-8") + b'</html>')
     body += ('</ol><details><summary>Conversion details</summary><p>'
              'The complete text includes front matter, book dividers and end matter. '
-             'HTML changes physical whitespace layout only; the raw download keeps the extraction unchanged. '
-             'No words, punctuation, page numbers or footnotes were deleted or corrected.</p>'
+             'This is text-only; artwork remains in the PDF. Index titles stay beside their printed page references. '
+             'Proven footer numbers are labeled as pagination. The Snake’s repeated verse breaks are retained; '
+             'other verse layout still needs visual proofreading. The raw download is unchanged. '
+             'No source words, punctuation, page numbers or footnotes were deleted or corrected.</p>'
              '<p><a href="conversion.json">Source hashes and section/page map</a> · '
              '<a href="' + SOURCE_URL + '">Publisher’s source</a></p></details>')
     outputs["index.html"] = document("Sutta Nipāta — original and converted text", body)
@@ -144,6 +148,11 @@ def payload(root: Path = ROOT) -> dict[str, bytes]:
     # Public provenance uses URLs/filenames, never private checkout paths.
     details.pop("pdf_path")
     details.pop("text_path")
+    details["presentation"] = {"revision": 2, "text_only": True,
+                               "printed_folio_pages": list(SNP_FOLIOS), "index_rows": 73,
+                               "verified_verse_break_scope": "Snp 1.1, 17 repeated Thus refrains",
+                               "editorial_labels_class": "editorial",
+                               "other_verse_layout_visually_approved": False}
     outputs["conversion.json"] = json_bytes(details)
     return outputs
 

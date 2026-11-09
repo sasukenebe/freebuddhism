@@ -6,7 +6,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 from candana_resources import (  # noqa: E402
-    snp_partition, numeric_movement, resource_outputs, reading_html, pair_links, SNP_SHA, MANUAL_SHA,
+    snp_partition, manual_partition, MANUAL_STARTS, numeric_movement, resource_outputs, reading_html, pair_links, SNP_SHA, MANUAL_SHA,
 )
 
 
@@ -112,6 +112,22 @@ class ResourceTests(unittest.TestCase):
         self.assertEqual(report["counts"], {"NUMERIC_TOKEN_RELOCATION": 2})
         self.assertIn(b'comparison.html#pdf-page-2', outputs["source-units.html"])
         self.assertFalse(report["publishable"])
+
+    def test_manual_chapters_cover_all_pages_without_repairing_raw_text(self):
+        pages = [f'Page {n}\nKeep every character.\n' for n in range(1, 215)]
+        for key, title, first in MANUAL_STARTS:
+            pages[first - 1] = title + '\n\nT\n\nhis raw text stays unchanged.\n'
+        raw = '\f'.join(pages) + '\f\n'
+        units = manual_partition(raw)
+        self.assertEqual(len(units), 14)
+        self.assertEqual(''.join(unit['body'] for unit in units), raw)
+        self.assertEqual(units[-1]['last_pdf_page'], 214)
+        self.assertTrue(all(not unit['publishable'] for unit in units))
+        self.assertIn('T\n\nhis', units[1]['body'])
+        with self.assertRaises(ValueError):
+            manual_partition(raw.replace('Preface', 'Missing heading'))
+        with self.assertRaises(ValueError):
+            manual_partition(raw + 'extra page\f')
 
 
 if __name__ == "__main__":

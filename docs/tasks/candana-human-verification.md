@@ -145,6 +145,50 @@ wording and attach any proposed extraction repair as separate review evidence.
 
 ## Next work
 
+### Returned external review and local rerun — 2026-11-09
+
+The owner supplied a report comparing every Sutta Nipāta PDF page against the raw
+text. It reports 391/391 automatic text-layer matches, all 80 intervals and hashes,
+and 25 visually sampled pages, leaving 366 pages visually unchecked. Its supplied
+evidence does not include the referenced page-coverage TSV or an executed test script.
+The method, exact sample list and report hash are recorded in
+[local conversion testing](../reviews/candana-local-conversion-testing.md).
+
+The local repeatable audit reproduces the 391-page result with PyMuPDF 1.26.6 and
+Poppler, and additionally checks the 73 separate sutta HTML/TXT files. Exact matching
+before NFC succeeds on 372 pages; the same 19 canonical-composition pages require
+NFC. All 80 intervals, generated hashes and source word boundaries pass. Layout
+revision 2 addresses the index, Snake refrains, proven folios and text-only labeling.
+It does not claim complete visual approval or silently approve the other verse breaks.
+
+The same audit was applied to the next permitted work, the 214-page English Manual.
+Both comparators retain the same 20 flagged number-placement pages. They are not
+erased by normalization or treated as permission to delete or relocate notes.
+The generated per-page records are metadata/reports/candana-snp-conversion-2026-11-09.json
+and metadata/reports/candana-manual-conversion-2026-11-09.json. These machine records
+do not overwrite the private human-decision ledger or invent human approvals.
+
+The Manual's raw extraction now also has 14 exact source intervals: 12 chapters,
+front matter and dedication/end matter. Concatenating them reproduces every byte
+of the 214-page MuPDF extraction. Open its local Converted text, then Choose a
+chapter. Detached opening letters and the 20 number-placement cases are unresolved;
+these are private preparation outputs, not new approved translations or sutta IDs.
+
+The local method was also run against the exact AN Books One, Two and Three:
+212, 208 and 300 PDF pages respectively. Both PyMuPDF and raw Poppler agree with
+each complete MuPDF text after NFC on every page, with no disagreement pages.
+Per-page reports are metadata/reports/candana-an-book1-conversion-2026-11-09.json,
+candana-an-book2-conversion-2026-11-09.json and candana-an-book3-conversion-2026-11-09.json.
+That brings the full-source machine coverage to all 1,325 pages of the five
+explicitly granted queue works; only the Manual retains its 20 flagged pages.
+These runs do not change the existing 801 imported entries or the 13 held AN groups.
+
+All 227 cached PDF drafts have finished the changed-tool pass with zero new
+network requests and no source-preparation failures. The new Manual intervals,
+all saved output hashes and local links are checked separately. Both timers
+and the UTF-8 loopback review remain active. The existing 14 layout-engine
+disagreement records are retained; a successful raw-mode diagnostic does not erase them.
+
 1. Review Sutta Nipāta 1.1 and representative verse, paragraph and book boundaries;
    retain any disagreements instead of treating converter agreement as proof.
 2. Verify the Manual's 20 number-placement cases visually, then implement a

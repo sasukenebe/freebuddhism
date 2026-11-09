@@ -18,17 +18,22 @@ class BodyText(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.active = False
         self.parts = []
+        self.editorial = False
 
     def handle_starttag(self, tag, attrs):
         if tag == "div" and ("class", "converted-text") in attrs:
             self.active = True
+        if tag == "span" and ("class", "editorial") in attrs:
+            self.editorial = True
 
     def handle_endtag(self, tag):
         if tag == "div":
             self.active = False
+        if tag == "span":
+            self.editorial = False
 
     def handle_data(self, data):
-        if self.active:
+        if self.active and not self.editorial:
             self.parts.append(data)
 
 
@@ -68,6 +73,21 @@ class PublicCandanaReviewTests(unittest.TestCase):
                 self.assertNotIn(private, content)
         self.assertNotIn('PRIVATE', index)
         self.assertIn('not an approved new edition', index)
+
+    def test_source_index_verse_breaks_and_folios_are_not_body_paragraphs(self):
+        files = payload()
+        snake = files["suttas/snp1.1.html"].decode()
+        self.assertEqual(snake.count('<br>Thus, the Bhikkhu'), 16)
+        self.assertEqual(snake.count('<br>“Thus, the Bhikkhu'), 0)  # page-start continuation
+        self.assertIn('snake bite.<br>Thus,', snake)
+        self.assertIn('<p class="source-folio">22 ', snake)
+        self.assertNotIn('<p>22</p>', snake)
+        full = files["converted.html"].decode()
+        self.assertEqual(full.count('<tr><td>'), 73)
+        self.assertIn('<td>Uraga Sutta “The Snake”</td><td>19</td>', full)
+        self.assertIn('Mahābyūha Sutta “Greater Discourse on Getting Ready for Battle”</td><td>286', full)
+        self.assertIn('Text-only rendering', full)
+        self.assertNotIn('max-width', full)
 
     def test_changed_manifest_pdf_or_text_fails_closed(self):
         with tempfile.TemporaryDirectory() as temporary:

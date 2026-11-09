@@ -48,6 +48,30 @@ books across the canon remains a separate source/permission priority alongside C
 
 ## Mapping and extraction
 
+### Continued source preparation — 2026-11-09
+
+The returned complete-book Sutta Nipāta review is recorded in
+[the local conversion method](../reviews/candana-local-conversion-testing.md).
+The local command reproduces its 391-page comparison and verifies all 73 individual
+sutta HTML/TXT files. Layout corrections are confined to review drafts; no default
+translator, original PDF, raw extraction or existing canonical reader is changed.
+
+The same method has been applied to the next permitted work, the 214-page English
+Manual. Its 20 number-placement disagreements remain explicitly flagged. Preparation
+now splits its exact raw extraction into 12 chapter drafts, front matter and dedication:
+14 contiguous intervals covering every source character and every page. These are
+not 14 newly imported suttas. Opening drop caps and footnote placement still need
+a source-specific layout recipe; do not turn those raw drafts into ordinary readers.
+
+Open the local review at http://127.0.0.1:8766/ and choose The Manual, then
+Choose a chapter. The original is linked once for the book; each chapter shows
+its PDF-file page range. Existing marked comparisons and unresolved-note links remain.
+These changes do not resolve the separate author-resource placement decision.
+
+The downloaded queue remains complete. The collector stays rate limited and idle
+unless new approved sources are discovered. The offline updater revalidates its saved
+227 PDFs after tool changes; it does not redownload successful sources or publish drafts.
+
 The source recipe pins the exact PDF bytes, page count, translation-page range, running
 heading and closing marker. Both converters agree on ordered Unicode characters after
 accounting for one printed edge page-number label. Whitespace-only reflow retains all

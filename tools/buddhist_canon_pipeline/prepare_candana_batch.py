@@ -343,7 +343,11 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
         summary += '<pre>' + html.escape((partition or {}).get("body", left)) + '</pre>'
     contents["details.html"] = page_html(title, summary).encode()
     reading_text = (partition or {}).get("body", right if resource_review else left)
-    contents["converted.html"] = candana_resources.reading_html(title, reading_text)
+    rendered = None
+    if job['sha256'] == candana_resources.SNP_SHA and digest(reading_text.encode()) == candana_resources.SNP_TEXT_SHA:
+        rendered = ''.join(candana_resources.snp_reading_body(unit)
+                           for unit in candana_resources.snp_partition(reading_text))
+    contents["converted.html"] = candana_resources.reading_html(title, reading_text, rendered=rendered)
     if resource_review.get("kind") == "SUTTA_NIPATA_SOURCE_PARTITION":
         contents["index.html"] = contents["source-units.html"]
     elif section_rows:
@@ -360,6 +364,10 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     else:
         contents["index.html"] = contents["converted.html"].replace(
             b'</html>', b'<p><a href="details.html">Technical details</a></p></html>')
+        if 'manual-chapters.html' in contents:
+            contents['index.html'] = contents['index.html'].replace(
+                b'<h2>Converted text</h2>',
+                b'<p><a href="manual-chapters.html">Choose a chapter</a></p><h2>Converted text</h2>')
     for relative, body in contents.items():
         write_file(safe_relative(directory, relative), body)
     report = {"schema_version": 1, "fingerprint": fingerprint, "source_url": url,
