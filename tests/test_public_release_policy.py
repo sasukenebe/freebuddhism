@@ -64,7 +64,11 @@ class PublicReleasePolicyTests(unittest.TestCase):
                      "four-noble-truths.html", "four-noble-truths.html#cessation", "eightfold-path.html"):
             target = "/" if name == "index.html" else "/theravada/tipitaka/site/" + name
             original = original.replace('href="' + name + '"', 'href="' + target + '"')
+        footer = ('<p>This page is open source, Contribute here: '
+                  '<a href="https://github.com/sasukenebe/freebuddhism">GitHub repository</a></p>\n')
+        original = original.replace("</body>", footer + "</body>")
         self.assertEqual(page, original)
+        self.assertEqual(page.count("This page is open source, Contribute here:"), 1)
         self.assertNotIn("http-equiv=\"refresh\"", page.casefold())
         self.assertNotIn("A free resource for exploring", page)
 
@@ -616,6 +620,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn('aria-label="Reset browsing font size">Reset</button>', result)
             self.assertIn("localStorage.removeItem", result)
             self.assertIn("min-height:max(2.75em,44px)", result)
+            self.assertIn("details>details{margin-inline-start:1.25em}", result)
             self.assertIn("4 with local translations; 4 local editions", result)
             self.assertIn("Availability does not establish translation completeness", result)
             self.assertNotIn(" — expand", result)
@@ -669,6 +674,38 @@ class PublicReleasePolicyTests(unittest.TestCase):
             })
             self.assertIn('data-browse-font="increase"', markup)
             self.assertIn('data-browse-font="decrease"', markup)
+
+    def test_tipitaka_tree_is_the_complete_existing_hierarchy_without_wrapper(self):
+        nodes = navigation_nodes()
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            page = root / nodes["tipitaka"]["route"]
+            page.parent.mkdir(parents=True)
+            hierarchy = (
+                '<h2>Pāli Tipiṭaka</h2><p>Follow a linked name to read its texts.</p>'
+                '<ul id="tipitaka-tree"><li>Tipiṭaka<ul><li>Vinaya Piṭaka'
+                '<ul><li>Sutta Vibhaṅga</li></ul></li><li>Sutta Piṭaka</li>'
+                '<li>Abhidhamma Piṭaka</li></ul></li></ul>'
+                '<p>The text index retains 6692 source entries. Availability is separate.</p>'
+            )
+            page.write_text(
+                '<html><body><h1>Buddhist Texts</h1>' + hierarchy
+                + '<h2>Available here</h2><p><a href="sutta-texts.html">Texts</a> | '
+                '<a href="downloads.html">Downloads</a></p></body></html>', encoding="utf-8",
+            )
+            _collection_browse_markup(root, "tipitaka", {}, set(nodes), nodes)
+            result = page.read_text(encoding="utf-8")
+            tree_pane = result.split('<div data-view="tree"', 1)[1].split('</div>', 1)[0]
+            self.assertIn(hierarchy, tree_pane)
+            self.assertEqual(result.count('id="tipitaka-tree"'), 1)
+            self.assertNotIn("Full existing index and collection notes", result)
+            self.assertNotIn("Available here", result)
+            self.assertNotIn("Expand a group to browse", result)
+            self.assertNotIn("Open Vinaya", result)
+            self.assertIn('data-mode="list"', result)
+            self.assertIn('data-browse-font="reset"', result)
+            self.assertNotIn("font-family:", result)
+            self.assertNotIn("max-width:", result)
 
     def test_collection_names_and_counts_are_not_completeness_claims(self):
         nodes = navigation_nodes()

@@ -93,7 +93,7 @@
     },
     {
       "path": "metadata/site-content.json",
-      "sha256": "e8528ed716a52944fa4063ad1172d47479ed4739bfe0dca5d0ecc3e218f66f7d",
+      "sha256": "00568c0ed837209c131a72e66b61d7e65db8533c006d5ddccd34c8df8f9bab6e",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -171,13 +171,13 @@
     },
     {
       "path": "site-entry/index.html",
-      "sha256": "d81b92283071165371cc5cac41e720bc68a66d34c2d16e1b553927a2dbc66a64",
+      "sha256": "d0c8848a045b7666438f0ba8146b167fabf2b284665c1388c009a7a9c90f4ff3",
       "license_scope": "CC0-1.0 project-authored website content",
       "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "816b46d2c6c23ab631d898dc1be5f2078e49ee98eeecd9d38ee21c2a8438c310",
+      "sha256": "1f114a56601d4c921973d1bdf2e337c7a0d3fe3249a77a6cc29b5e6510717d33",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -90411,7 +90411,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "9c0d2a3a620130fee0747c591805e1964027226f814be5a468f5a8569c828a9d",
+      "sha256": "af22c2e88bc7d808ef8ce986167688989d59ab60c2b33c4f3e351110ed5d9d8a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
