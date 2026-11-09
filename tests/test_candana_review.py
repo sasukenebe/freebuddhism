@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 from candana_review import (  # noqa: E402
     inventory, marked_pair, page_reviews, comparison_html, review_catalog, spacing_pages,
+    human_queue, human_queue_views, apply_human_decisions,
 )
 from prepare_candana_batch import engine_comparison, prepare_batch, prepare_one  # noqa: E402
 import test_candana_batch as batch_fixtures  # noqa: E402
@@ -25,6 +26,60 @@ class PlainText(HTMLParser):
 
 
 class ReviewTests(unittest.TestCase):
+    def review_row(self):
+        return {"source_url": "https://www.mindreleased.com/s/example.pdf", "source_sha256": "a" * 64,
+                "kind": "PDF_DRAFT", "title": "Synthetic <title>", "rights": "EXPLICIT_GRANT_DETECTED",
+                "page_reviews": [{"page": 2, "flags": ["RECIPE_RECOGNIZED_PAGINATION_POSITION"]},
+                                 {"page": 3, "flags": ["RAW_WORD_BOUNDARY_REVIEW"]}],
+                "review_path": "sources/example/index.html", "comparison_path": "sources/example/comparison.html",
+                "local_pdf_path": "sources/example/source.pdf", "resource_review": {}}
+
+    def test_roles_separate_permissions_proofreading_and_maintainer_work(self):
+        row = self.review_row()
+        row["rights"] = "NEEDS_PERMISSION_REVIEW"
+        queue = human_queue([row])
+        rights = next(t for t in queue["tasks"] if t["role"] == "RIGHTS_REVIEWER")
+        proofreading = next(t for t in queue["tasks"] if t["role"] == "PROOFREADER")
+        self.assertEqual(rights["status"], "NEEDS_HUMAN")
+        self.assertEqual(proofreading["status"], "WAIT_PERMISSION")
+        self.assertEqual(proofreading["pages"], [3])
+        self.assertFalse(queue["automatic_approval"])
+        self.assertTrue(all(not t["automatic_approval"] for t in queue["tasks"]))
+
+    def test_check_ids_survive_reordering_and_change_with_source_bytes(self):
+        row = self.review_row()
+        original = human_queue([row])["tasks"][0]["id"]
+        self.assertEqual(human_queue([dict(row)])["tasks"][0]["id"], original)
+        row["source_sha256"] = "b" * 64
+        self.assertNotEqual(human_queue([row])["tasks"][0]["id"], original)
+
+    def test_human_decisions_require_evidence_and_partial_review_cannot_confirm_all(self):
+        queue = human_queue([self.review_row()])
+        task = queue["tasks"][0]
+        decision = {"check_id": task["id"], "source_sha256": task["source_sha256"],
+                    "reviewer": "Synthetic reviewer", "date": "2026-11-08", "outcome": "CONFIRMED",
+                    "scope": "FULL_CHECK", "evidence": "Synthetic complete check, not an actual human result."}
+        for wrong in (dict(decision, evidence=""), dict(decision, source_sha256="wrong"), dict(decision, scope="PARTIAL")):
+            with self.assertRaises(ValueError):
+                apply_human_decisions(human_queue([self.review_row()]), {"schema_version": 1, "decisions": [wrong]})
+        result = apply_human_decisions(queue, {"schema_version": 1, "decisions": [decision]})
+        self.assertEqual(result["tasks"][0]["status"], "HUMAN_REPORTED_CONFIRMED")
+        self.assertFalse(result["automatic_approval"])
+        self.assertFalse(result["tasks"][0]["automatic_approval"])
+        self.assertEqual(result["human_decision_records"], 1)
+
+    def test_stale_human_records_are_retained_and_html_is_escaped(self):
+        queue = human_queue([self.review_row()])
+        decision = {"check_id": "older-check", "source_sha256": "old-sha", "reviewer": "Synthetic reviewer",
+                    "date": "2026-11-08", "outcome": "PARTIAL", "scope": "PARTIAL", "evidence": "Older source."}
+        queue = apply_human_decisions(queue, {"schema_version": 1, "decisions": [decision]})
+        self.assertEqual(queue["unmatched_decisions_preserved"], [decision])
+        rendered, plain = human_queue_views(queue)
+        self.assertIn("Synthetic &lt;title&gt;", rendered)
+        self.assertNotIn("Synthetic <title>", rendered)
+        self.assertIn("PROOFREADER", plain)
+        self.assertIn("source.pdf#page=3", rendered)
+
     def test_marks_preserve_every_original_character_and_escape_html(self):
         original = 'A <script> & ā\n\nmissing text ﬁ\tend.'
         other = 'A <script> & ā\n\ntext\tend.'
@@ -120,6 +175,30 @@ class ReviewTests(unittest.TestCase):
             self.assertIn("second.pdf", (output / "review-list.txt").read_text())
             with self.assertRaises(ValueError):
                 prepare_batch(root, output, [], [{"url": "javascript:alert(1)", "state": "MISSING"}], 1, "test")
+
+    def test_repeated_batch_preserves_separate_human_decisions_without_reconversion(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            job, recipe, text = batch_fixtures.BatchTests().fixture(root)
+            output = root / "build/review"
+            extractor = Mock(return_value=text)
+            args = (root, output, [recipe], [job], 1, "test")
+            prepare_batch(*args, extractor=extractor)
+            task = json.loads((output / "human-review.json").read_text())["tasks"][0]
+            ledger = {"schema_version": 1, "decisions": [{"check_id": task["id"],
+                "source_sha256": task["source_sha256"], "reviewer": "Synthetic test reviewer",
+                "date": "2026-11-08", "outcome": "PARTIAL", "scope": "PARTIAL",
+                "evidence": "Synthetic page sample only; no real reviewer approval."}]}
+            decision_file = output / "human-decisions.json"
+            decision_file.write_text(json.dumps(ledger))
+            before = decision_file.read_bytes()
+            result = prepare_batch(*args, extractor=extractor)
+            self.assertEqual(extractor.call_count, 2)
+            self.assertEqual(result["processed_this_run"], 0)
+            self.assertEqual(decision_file.read_bytes(), before)
+            queue = json.loads((output / "human-review.json").read_text())
+            self.assertEqual(queue["tasks"][0]["status"], "PARTIAL_HUMAN_REVIEW")
+            self.assertFalse(queue["automatic_approval"])
 
 
 if __name__ == "__main__":

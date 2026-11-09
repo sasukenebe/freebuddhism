@@ -123,6 +123,20 @@ Keep this checkout available while the services point to it.
 
 ## Next bounded imports
 
+### Human checks and smaller source drafts — 2026-11-08
+
+See [human verification](candana-human-verification.md) for the current review
+roles, exact questions, progress and the next import dependencies. The private
+batch now generates one accumulating human checklist with stable source-bound
+check IDs and original-PDF links, preserving actual human findings separately
+from regenerated output. No automatic check is a recorded human approval.
+
+The pinned 391-page Sutta Nipāta has 73 proposed sutta source intervals plus
+separate front matter, five book dividers and back matter. Their concatenation
+preserves all extracted characters. The English Manual's 20 unresolved raw
+character differences classify as numeric-token moves, likely footnote-marker
+placement. These are private review candidates and diagnostics, not new imports.
+
 ### Complete marked raw-text review — 2026-11-08
 
 The [batch-preparation checkpoint](candana-batch-preparation.md) now records a

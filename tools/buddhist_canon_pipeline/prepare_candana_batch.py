@@ -18,10 +18,12 @@ from urllib.parse import unquote, urlsplit
 
 if __package__:
     from . import candana_review
+    from . import candana_resources
     from .import_candana import ROOT, granted_notice
     from .candana_queue import checked_url
 else:
     import candana_review
+    import candana_resources
     from import_candana import ROOT, granted_notice
     from candana_queue import checked_url
 
@@ -306,6 +308,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
                 "comparison.html": candana_review.comparison_html(title, left, right, raw, page_reviews).encode()}
     if raw is not None:
         contents["poppler-raw.txt"] = raw.encode()
+    resource_files, resource_review = candana_resources.resource_outputs(job["sha256"], right, raw, raw_comparison)
+    contents.update(resource_files)
     section_rows = []
     if partition and partition.get("body"):
         contents["body.txt"] = partition["body"].encode()
@@ -319,6 +323,8 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
                 '<a href="comparison.html">All marked differences</a> · '
                 '<a href="poppler.txt">Full extracted text</a></p>')
     summary += '<p><a href="mupdf.txt">MuPDF text</a></p>'
+    if resource_review:
+        summary += '<p><a href="source-units.html">Smaller source sections / targeted review</a></p>'
     if raw_comparison is not None:
         summary += ('<p><a href="poppler-raw.txt">Alternative raw extraction</a>: '
                     + str(len(raw_comparison["mismatched_pages"]))
@@ -341,7 +347,7 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
               "publishable": False, "canonical_mapping_status": "NOT_REVIEWED",
               "rights": "EXPLICIT_GRANT_DETECTED" if permission else "NEEDS_PERMISSION_REVIEW",
               "issues": issues, "comparison": comparison, "raw_comparison": raw_comparison,
-              "hyphen_wraps": hyphens, "page_reviews": page_reviews,
+              "hyphen_wraps": hyphens, "page_reviews": page_reviews, "resource_review": resource_review,
               "partition": {key: value for key, value in (partition or {}).items() if key not in {"sections", "body"}},
               "sections": section_rows, "output_hashes": {name: digest(body) for name, body in contents.items()}}
     write_file(directory / "report.json", json_bytes(report))
@@ -416,6 +422,24 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
         write_file(output / "index.html", index.encode())
         write_file(output / "disagreements.html", disagreements.encode())
         write_file(output / "review-list.txt", plain.encode())
+        context = {"installed_by_sha256": {}, "book_three_held_source_labels": []}
+        manifest_path = root / "metadata/source-manifests/candana.json"
+        if manifest_path.is_file():
+            manifest = json.loads(manifest_path.read_text())
+            books = {b["id"]: b["sha256"] for b in manifest["books"]}
+            context["installed_by_sha256"] = dict(Counter(books[t["book"]] for t in manifest["texts"]))
+        numbered_report = root / "metadata/reports/candana-numbered-books-2026-11-07.json"
+        if numbered_report.is_file():
+            context["book_three_held_source_labels"] = json.loads(numbered_report.read_text())["books"]["an-book3"]["held_source_labels"]
+        checklist = candana_review.human_queue(inventory, context)
+        decisions_path = safe_relative(output, "human-decisions.json")
+        if not decisions_path.exists():
+            write_file(decisions_path, json_bytes({"schema_version": 1, "decisions": []}))
+        checklist = candana_review.apply_human_decisions(checklist, json.loads(decisions_path.read_text()))
+        human_html, human_text = candana_review.human_queue_views(checklist)
+        write_file(output / "human-review.json", json_bytes(checklist))
+        write_file(output / "human-review.html", human_html.encode())
+        write_file(output / "human-review.txt", human_text.encode())
     return result
 
 
@@ -430,7 +454,8 @@ def main() -> None:
     state = json.loads(QUEUE.read_text())  # Read only; never reset or modify the collector's queue.
     binaries = {name: (Path(shutil.which(name)).stat().st_size, Path(shutil.which(name)).stat().st_mtime_ns)
                 for name in ("pdftotext", "mutool")}
-    identity = digest(Path(__file__).read_bytes() + Path(candana_review.__file__).read_bytes() + json_bytes(binaries))
+    identity = digest(Path(__file__).read_bytes() + Path(candana_review.__file__).read_bytes()
+                      + Path(candana_resources.__file__).read_bytes() + json_bytes(binaries))
     result = prepare_batch(ROOT, OUTPUT, config["recipes"], state["jobs"], args.limit, identity, args.source_url)
     print(json.dumps({key: value for key, value in result.items() if key not in {"sources", "exceptions"}}, indent=2))
 
