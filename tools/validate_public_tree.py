@@ -19,6 +19,10 @@ from buddhist_canon_pipeline.public_html_policy import (
     SITE_SCOPE,
     validate_site_content_manifest,
 )
+from buddhist_canon_pipeline.public_candana_review import (
+    LICENSE as CANDANA_REVIEW_LICENSE,
+    RIGHTS_BASIS as CANDANA_REVIEW_RIGHTS_BASIS,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,6 +50,7 @@ LARGE_INDEX_LINK_TEXT_BUDGETS = {
     "theravada/tipitaka/vinaya/bhikkhuni-vibhanga/index.html": 5228,
 }
 RIGHTS_BASIS_BY_SCOPE = {
+    CANDANA_REVIEW_LICENSE: CANDANA_REVIEW_RIGHTS_BASIS,
     "0BSD": "Original project code and test fixtures are released under 0BSD in LICENSE.",
     "License text": "Standard 0BSD and CC0-1.0 license texts are included as license notices.",
     "CC0-1.0 project documentation": "Owner-authored project documentation is released under CC0-1.0 in LICENSE.",
