@@ -1,10 +1,57 @@
 # Candana human verification
 
-Updated: 2026-11-08. Written-source ingestion is not complete. Automatic draft
+Updated: 2026-11-09. Written-source ingestion is not complete. Automatic draft
 preparation, a source import, human checking and public deployment are separate.
 This checkpoint supplements [the import plan](candana-import-expansion-2026-11-07.md)
 and [private batch preparation](candana-batch-preparation.md); it does not change
-permissions or approve publication.
+permissions or approve a new canonical edition. The separately authorized public
+Sutta Nipāta conversion draft is recorded in
+[the external-review release](../reviews/candana-snp-external-review-2026-11-09.md).
+
+## Compare original and converted text
+
+Open the local review at http://127.0.0.1:8766/. Each downloaded PDF appears once,
+with two choices: **Original PDF** and **Converted text**. Books with prepared
+sections show one whole-book PDF link, then individual converted texts with plain
+PDF page references. Repeated links to the same original have been removed. Start with
+Sutta Nipāta, which has 73 separately accessible suttas. This is not just one sample.
+
+- Open the original and converted version beside each other. Compare the same
+  passage for missing words, wrong characters, order, paragraph and verse breaks.
+- Converted HTML wraps to the browser width. Paragraph/stanza gaps remain; physical
+  PDF-width line breaks are treated as whitespace. No words, punctuation, page
+  numbers or notes are removed. Raw extractions remain unchanged for inspection.
+- The owner reported garbled quotations such as `â€œ`. The saved text contained
+  correct Unicode quotation marks; the previous plain-text preview omitted a
+  charset. The loopback preview now explicitly serves text as UTF-8, with no-store
+  caching. This is a preview correction, not a rewritten translation.
+- The old human-review.html address also opens the simple comparison list.
+  Permission, numbering, source inventory and converter evidence are separate
+  technical pages, available under **Technical details**. They are not repeated
+  between the reader and the text being checked.
+- The review is private and drafts remain unapproved. No public site, translator
+  preference, imported edition or actual human decision is changed by this display fix.
+
+Verification of the 2026-11-09 preview fix:
+
+- The project environment runs 136 tests: 135 pass and one opt-in secret-hook test
+  is skipped. The system Python lacks ReportLab; use the project's prepared
+  environment for the complete suite rather than treating that missing dependency
+  as a converter failure.
+- Browser checks confirm 227 original/converted source pairs, 73 separate Sutta
+  Nipāta sutta pairs, correct quotations on both HTML and older plain-text URLs,
+  keyboard links, natural desktop wrapping and no mobile horizontal overflow.
+- All 2,731 generated source-output hashes verify. All 1,012 generated reading
+  views retain their source's non-whitespace characters, including quotations and
+  numbers; these views include whole-book and duplicate navigation views, not
+  1,012 distinct suttas. All 27,743 checked internal links and anchors resolve.
+- Original PDF and raw-text hashes, the imported Candana manifest and the actual
+  human-decision ledger are unchanged. No source-content approval is inferred.
+
+For local preview recovery, run
+`python3 tools/buddhist_canon_pipeline/serve_candana_review.py` from this checkout.
+It binds only 127.0.0.1:8766 and refuses an unmarked or non-build directory.
+Do not return to a bare `python -m http.server` command that omits text encoding.
 
 ## Current scope
 
@@ -33,7 +80,9 @@ permissions or approve publication.
   Unicode normalization and ignoring whitespace. They appear to concern footnote
   markers, but this is a diagnostic hypothesis, not visual proof or a correction.
   Keep every number and note, and verify where it attaches in the PDF.
-- Neither work has been automatically imported, made the default or deployed.
+- Neither work has been automatically imported, made the default or deployed as
+  an approved canonical reader. The public Sutta Nipāta conversion review is a
+  separate owner-authorized draft publication, not an automated import.
 
 ## Human roles
 
@@ -63,7 +112,7 @@ One person may cover several roles if they can verify the relevant evidence.
 
 ## One accumulating checklist
 
-The existing private batch command generates human-review.html, human-review.txt
+The existing private batch command generates technical-checks.html, human-review.txt
 and human-review.json beside its complete inventory and marked differences.
 Every check has a stable ID, exact source hash, role, question, state and links
 to the original PDF and relevant text. All applicable flagged pages are listed.
@@ -105,7 +154,7 @@ wording and attach any proposed extraction repair as separate review evidence.
 4. Import only the source units whose applicable checks are resolved, validate
    the complete source/build and stage a separate release for public review.
 
-## Verification of this checkpoint
+## Original checkpoint verification, 2026-11-08
 
 - All 130 unit tests pass; the opt-in secret-hook integration is skipped locally.
   Tests cover lossless section partitioning, changed source boundaries, numeric

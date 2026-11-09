@@ -1,10 +1,32 @@
+from html.parser import HTMLParser
 from pathlib import Path
 import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
-from candana_resources import snp_partition, numeric_movement, resource_outputs, SNP_SHA, MANUAL_SHA  # noqa: E402
+from candana_resources import (  # noqa: E402
+    snp_partition, numeric_movement, resource_outputs, reading_html, pair_links, SNP_SHA, MANUAL_SHA,
+)
+
+
+class ReadingText(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.active = False
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "div" and ("class", "converted-text") in attrs:
+            self.active = True
+
+    def handle_endtag(self, tag):
+        if tag == "div":
+            self.active = False
+
+    def handle_data(self, data):
+        if self.active:
+            self.parts.append(data)
 
 
 class ResourceTests(unittest.TestCase):
@@ -51,7 +73,36 @@ class ResourceTests(unittest.TestCase):
         self.assertEqual(report["sutta_source_intervals"], 73)
         self.assertEqual(b"".join(outputs["source-units/" + u["id"] + ".txt"] for u in report["units"]), text.encode())
         self.assertFalse(report["publishable"])
-        self.assertIn(b"source.pdf#page=19", outputs["source-units.html"])
+        self.assertIn(b"PDF pages 19", outputs["source-units.html"])
+        self.assertEqual(outputs["source-units.html"].count(b'href="source.pdf"'), 1)
+        self.assertNotIn(b'source.pdf#page=', outputs["source-units.html"])
+        self.assertIn(b'source-units/snp1.1.html', outputs["source-units.html"])
+        self.assertIn(b'../source.pdf#page=19', outputs["source-units/snp1.1.html"])
+        self.assertNotIn(b'<pre>', outputs["source-units/snp1.1.html"])
+        self.assertIn(b'<details>', outputs["source-units.html"])
+
+    def test_reading_view_keeps_quotes_accents_numbers_and_stanzas_without_fixed_width(self):
+        text = '“The Snake”\n\n1. “Keep every\nword and ā accent.”\n\n2. Preserve <script> & notes.\f19\n'
+        output = reading_html("A <title>", text).decode("utf-8")
+        parsed = ReadingText()
+        parsed.feed(output)
+        self.assertEqual("".join("".join(parsed.parts).split()), "".join(text.split()))
+        self.assertIn('“The Snake”', output)
+        self.assertIn('1. “Keep every word and ā accent.”', output)
+        self.assertNotIn("â€œ", output)
+        self.assertNotIn("<script>", output)
+        self.assertNotIn("<pre>", output)
+        self.assertNotIn("max-width", output)
+        self.assertEqual(output.count('<p>'), 5)
+        self.assertIn('<meta charset="utf-8">', output)
+
+    def test_two_link_labels_are_literal_and_escape_source_titles(self):
+        output = pair_links('A <title>', 'source.pdf#page=2', 'section.html', 'source-2')
+        self.assertIn('A &lt;title&gt;', output)
+        self.assertIn('id="source-2"', output)
+        self.assertEqual(output.count('<a '), 2)
+        self.assertIn('>Original PDF</a>', output)
+        self.assertIn('>Converted text</a>', output)
 
     def test_manual_lists_every_supplied_page_and_never_repairs_numbers(self):
         raw = "a1 word\fnext2 word\f"

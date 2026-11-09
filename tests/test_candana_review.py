@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 from candana_review import (  # noqa: E402
     inventory, marked_pair, page_reviews, comparison_html, review_catalog, spacing_pages,
-    human_queue, human_queue_views, apply_human_decisions,
+    human_queue, human_queue_views, apply_human_decisions, reading_catalog,
 )
 from prepare_candana_batch import engine_comparison, prepare_batch, prepare_one  # noqa: E402
 import test_candana_batch as batch_fixtures  # noqa: E402
@@ -45,6 +45,29 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(proofreading["pages"], [3])
         self.assertFalse(queue["automatic_approval"])
         self.assertTrue(all(not t["automatic_approval"] for t in queue["tasks"]))
+
+    def test_reading_catalog_has_one_pair_per_pdf_not_one_entry_per_check(self):
+        row = self.review_row()
+        missing = dict(row, kind="MISSING_SOURCE", title="Missing source", review_path=None)
+        discovery = dict(row, kind="DISCOVERY_PAGE", title="Discovery page")
+        output = reading_catalog([row, missing, discovery])
+        visible = output.split('<details>', 1)[0]
+        self.assertEqual(visible.count('>Original PDF</a>'), 1)
+        self.assertEqual(visible.count('>Converted text</a>'), 1)
+        self.assertIn('Synthetic &lt;title&gt;', visible)
+        self.assertNotIn('Missing source', visible)
+        self.assertNotIn('Discovery page', visible)
+        self.assertNotIn('PROOFREADER', visible)
+        self.assertNotIn('EXPLICIT_GRANT_DETECTED', visible)
+        self.assertIn('technical-checks.html', output)
+
+    def test_sutta_nipata_is_first_and_links_to_individual_text_pairs(self):
+        row = self.review_row()
+        snp = dict(row, title="Sutta-Nipta-raw-filename.pdf", resource_path="sources/snp/source-units.html",
+                   resource_review={"kind": "SUTTA_NIPATA_SOURCE_PARTITION"})
+        output = reading_catalog([row, snp])
+        self.assertLess(output.index('Sutta Nipāta'), output.index('Synthetic &lt;title&gt;'))
+        self.assertIn('href="sources/snp/source-units.html"', output)
 
     def test_check_ids_survive_reordering_and_change_with_source_bytes(self):
         row = self.review_row()
@@ -184,6 +207,11 @@ class ReviewTests(unittest.TestCase):
             extractor = Mock(return_value=text)
             args = (root, output, [recipe], [job], 1, "test")
             prepare_batch(*args, extractor=extractor)
+            simple = (output / "index.html").read_text()
+            self.assertEqual(simple, (output / "human-review.html").read_text())
+            self.assertNotIn('PROOFREADER', simple)
+            self.assertIn('PROOFREADER', (output / "technical-checks.html").read_text())
+            self.assertTrue((output / "source-inventory.html").is_file())
             task = json.loads((output / "human-review.json").read_text())["tasks"][0]
             ledger = {"schema_version": 1, "decisions": [{"check_id": task["id"],
                 "source_sha256": task["source_sha256"], "reviewer": "Synthetic test reviewer",

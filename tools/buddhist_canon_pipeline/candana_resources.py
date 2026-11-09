@@ -26,6 +26,40 @@ def document(title: str, body: str) -> bytes:
             '</style><h1>' + html.escape(title) + '</h1>' + body + '</html>\n').encode()
 
 
+def reading_body(text: str) -> str:
+    """Retain every source character except physical whitespace layout."""
+    paragraphs = [" ".join(part.split()) for part in re.split(r"\n[ \t]*\n+|\f", text)
+                  if part.strip()]
+    if re.sub(r"\s+", "", "".join(paragraphs)) != re.sub(r"\s+", "", text):
+        raise ValueError("Reading presentation changed a source character")
+    return ('<div class="converted-text">' + ''.join('<p>' + html.escape(part) + '</p>'
+                                                   for part in paragraphs) + '</div>')
+
+
+def reading_html(title: str, text: str, pdf: str = "source.pdf",
+                 back: str = "../../index.html", pages: str = "") -> bytes:
+    """A readable private draft; retain source characters, not PDF-width wrapping."""
+    label = "Original PDF" + (" (" + pages + ")" if pages else "")
+    body = ('<p><a href="' + html.escape(back, quote=True) + '">All texts</a> · '
+            '<a href="' + html.escape(pdf, quote=True) + '" target="_blank" rel="noopener">'
+            + html.escape(label) + '</a></p><h2>Converted text</h2>' + reading_body(text))
+    return document(title, body)
+
+
+def pair_links(title: str, pdf: str, converted: str, anchor: str = "") -> str:
+    """The same two clearly named choices for a whole source or an individual text."""
+    identifier = ' id="' + html.escape(anchor, quote=True) + '"' if anchor else ""
+    return ('<li' + identifier + '>' + html.escape(title) + ' — '
+            '<a href="' + html.escape(pdf, quote=True) + '" target="_blank" rel="noopener">Original PDF</a> · '
+            '<a href="' + html.escape(converted, quote=True) + '">Converted text</a></li>')
+
+
+def section_link(title: str, converted: str, page_label: str, anchor: str = "") -> str:
+    identifier = ' id="' + html.escape(anchor, quote=True) + '"' if anchor else ""
+    return ('<li' + identifier + '>' + html.escape(title) + ' — ' + html.escape(page_label) + ' — '
+            '<a href="' + html.escape(converted, quote=True) + '">Converted text</a></li>')
+
+
 def snp_partition(text: str) -> list[dict]:
     """Partition source intervals exactly; do not call them approved website suttas."""
     pages = text.split("\f")
@@ -102,21 +136,26 @@ def resource_outputs(sha: str, mupdf: str, raw: str | None, raw_comparison: dict
                   "human_checks": ["Verse and reading order", "Word/paragraph boundaries and diacritics",
                                    "Start/end boundaries, chapter dividers and page numbers", "Canonical ID correspondence"],
                   "units": metadata, "publishable": False}
-        body = ('<p>Private source intervals, not approved sutta readers. All MuPDF characters, '
-                'including page numbers and wraps, remain unchanged. Front matter, book dividers '
-                'and back matter are separate. No automatic website import.</p>'
-                '<p><a href="index.html">Source details</a> · '
-                '<a href="comparison.html">All differences</a></p>')
-        body += '<ul>' + ''.join(f'<li><a href="#{u["id"]}">{html.escape(u["title"])}</a></li>' for u in units) + '</ul>'
+        body = ('<p>Choose a sutta. Open the original and converted text side by side.</p>'
+                '<p><a href="../../index.html">All texts</a> · '
+                '<a href="source.pdf" target="_blank" rel="noopener">Original PDF — whole book</a></p><ol>')
+        extra = []
         for unit in units:
             path = "source-units/" + unit["id"] + ".txt"
             outputs[path] = unit["body"].encode()
-            body += (f'<section id="{unit["id"]}"><h2>{html.escape(unit["title"])}</h2>'
-                     f'<p>PDF pages {unit["first_pdf_page"]}–{unit["last_pdf_page"]}; {unit["kind"]}. '
-                     f'<a href="source.pdf#page={unit["first_pdf_page"]}">Original PDF</a> · '
-                     f'<a href="{path}">Unchanged source text</a></p><pre>'
-                     + html.escape(unit["body"]) + '</pre></section>')
-        outputs["source-units.html"] = document("Sutta Nipāta — 73 proposed source sections", body)
+            readable = "source-units/" + unit["id"] + ".html"
+            pages = f'PDF pages {unit["first_pdf_page"]}–{unit["last_pdf_page"]}'
+            outputs[readable] = reading_html(unit["title"], unit["body"],
+                                            "../source.pdf#page=" + str(unit["first_pdf_page"]),
+                                            "../source-units.html", pages)
+            pair = section_link(unit["title"], readable, pages, unit["id"])
+            if unit["kind"] == "SUTTA_SOURCE_INTERVAL":
+                body += pair
+            else:
+                extra.append(pair)
+        body += ('</ol><details><summary>Front matter, book dividers and end matter</summary><ul>'
+                 + ''.join(extra) + '</ul></details><p><a href="details.html">Technical details</a></p>')
+        outputs["source-units.html"] = document("Sutta Nipāta — 73 suttas", body)
     elif sha == MANUAL_SHA and raw is not None and raw_comparison is not None:
         a, b = raw.split("\f"), mupdf.split("\f")
         rows = [{"pdf_page": n, **numeric_movement(a[n - 1], b[n - 1])}

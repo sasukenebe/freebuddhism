@@ -11,6 +11,11 @@ import re
 import unicodedata
 from urllib.parse import unquote, urlsplit
 
+if __package__:
+    from .candana_resources import pair_links
+else:
+    from candana_resources import pair_links
+
 
 def pages(text: str) -> list[str]:
     result = text.split("\f")
@@ -184,7 +189,7 @@ def review_catalog(rows: list[dict]) -> tuple[str, str, str]:
                '<p><a href="disagreements.html">All marked disagreements</a> · '
                '<a href="review-list.txt">Complete plain-text list</a> · '
                '<a href="inventory.json">Complete machine-readable inventory</a></p>')
-    preface += '<p><a href="human-review.html">What needs human confirmation, by review role</a></p>'
+    preface += '<p><a href="technical-checks.html">What needs human confirmation, by review role</a></p>'
     all_items, flagged, plain = [], [], [summary, "", "PRIVATE DRAFTS — NOT APPROVED FOR PUBLICATION", ""]
     for number, row in enumerate(rows, 1):
         title = html.escape(row["title"])
@@ -227,6 +232,29 @@ def review_catalog(rows: list[dict]) -> tuple[str, str, str]:
                            'Character, word-boundary, hyphen and known pagination flags are distinct.</p>'
                            "<ol>" + "".join(flagged) + "</ol>")
     return all_html, differences, "\n".join(plain)
+
+
+def reading_catalog(rows: list[dict]) -> str:
+    """One source per entry, two choices, no repeated administrative checks."""
+    ready = [row for row in rows if row["kind"] == "PDF_DRAFT"
+             and row.get("review_path") and row.get("local_pdf_path")]
+    ready.sort(key=lambda row: (
+        row.get("resource_review", {}).get("kind") != "SUTTA_NIPATA_SOURCE_PARTITION",
+        row.get("rights") != "EXPLICIT_GRANT_DETECTED", row["title"].casefold()))
+    body = ('<p>Choose a text. Open Original PDF and Converted text side by side.</p>'
+            '<p>Private conversion drafts for comparison, not approved editions.</p><ul>')
+    for row in ready:
+        title = row["title"]
+        target = row["review_path"]
+        if row.get("resource_review", {}).get("kind") == "SUTTA_NIPATA_SOURCE_PARTITION":
+            title = "Sutta Nipāta — 73 suttas"
+            target = row["resource_path"]
+        body += pair_links(title, row["local_pdf_path"], target)
+    body += ('</ul><details><summary>Technical details</summary><ul>'
+             '<li><a href="source-inventory.html">Complete source inventory, including missing files</a></li>'
+             '<li><a href="technical-checks.html">Permission, numbering and technical checks</a></li>'
+             '<li><a href="disagreements.html">All marked differences</a></li></ul></details>')
+    return document("Candana — original and converted text", body)
 
 
 REVIEW_ROLES = {

@@ -27,6 +27,7 @@ from urllib.parse import quote, unquote, urlsplit
 from build_eligible_readers import VINAYA_CONTENTS, collect_records
 from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
 from public_html_policy import NAVIGATION_SCOPE, SITE_SCOPE, require_allowlisted_page, validate_site_content_manifest
+from public_candana_review import write_review as write_public_candana_review
 from public_site_catalog import (
     ABHIDHAMMA_BOOKS,
     COLLECTION_TITLES,
@@ -2479,9 +2480,11 @@ def assemble_webroot(
     archive_content = _write_archives(tipitaka_root, allowed, archive_names, content_collections | set(COLLECTION_TITLES) | set(WHOLE_BOOK_PDF_SOURCES))
     if archive_content != navigation_report["archive_content"]:
         raise ValueError("Download-page archive labels differ from the built archive contents")
+    review_files = write_public_candana_review(destination, ROOT)
     crawler_files = _write_crawler_files(destination)
 
-    expected_files = {destination / "index.html", *crawler_files} | {tipitaka_root / path for path in allowed}
+    expected_files = ({destination / "index.html", *crawler_files}
+                      | {tipitaka_root / path for path in allowed} | review_files)
     archive_paths = {path for path in (tipitaka_root / "downloads").glob("*.zip")}
     actual_files = {path for path in destination.rglob("*") if path.is_file()}
     if actual_files != expected_files | archive_paths:
@@ -2523,7 +2526,8 @@ def assemble_webroot(
         extra = f"\n... and {len(errors) - 40} more" if len(errors) > 40 else ""
         raise RuntimeError(f"strict webroot has {len(errors)} broken local links:\n{detail}{extra}")
 
-    return {"reader_versions": len(selected), "sutta_collections": len(content_collections - {"vinaya"}),
+    return {"reader_versions": len(selected), "public_review_files": len(review_files),
+            "sutta_collections": len(content_collections - {"vinaya"}),
             "vinaya_reader_versions": sum(record["kind"] == "vinaya" for record in selected),
             "allowlisted_files": len(allowed) + 1, "archives": len(archive_paths),
             "archives_with_files": sum(archive_content.values()),

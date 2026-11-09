@@ -316,6 +316,9 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
     for section in (partition or {}).get("sections", []):
         relative = f'sections/{section["source_label"]}.txt'
         contents[relative] = section["body"].encode()
+        contents[relative.removesuffix(".txt") + ".html"] = candana_resources.reading_html(
+            section["title"], section["body"], "../source.pdf#page=" + str(section["source_page"]),
+            "../index.html", "PDF page " + str(section["source_page"]))
         section_rows.append({key: value for key, value in section.items() if key != "body"} | {"text_path": relative})
     summary = '<p>Private draft. Not approved for publication. Source numbering is not yet mapped to website text IDs.</p>'
     summary += (f'<p><a href="{html.escape(url, quote=True)}">Publisher PDF</a> · '
@@ -338,7 +341,25 @@ def prepare_one(job: dict, recipe: dict | None, root: Path, directory: Path,
                     f' · <a href="sections/{label}.txt">Plain text</a></p><pre>{html.escape(section["body"])}</pre></section>')
     if not section_rows:
         summary += '<pre>' + html.escape((partition or {}).get("body", left)) + '</pre>'
-    contents["index.html"] = page_html(title, summary).encode()
+    contents["details.html"] = page_html(title, summary).encode()
+    reading_text = (partition or {}).get("body", right if resource_review else left)
+    contents["converted.html"] = candana_resources.reading_html(title, reading_text)
+    if resource_review.get("kind") == "SUTTA_NIPATA_SOURCE_PARTITION":
+        contents["index.html"] = contents["source-units.html"]
+    elif section_rows:
+        simple = ('<p>Choose a text. Open the original and converted text side by side.</p>'
+                  '<p><a href="../../index.html">All texts</a> · '
+                  '<a href="source.pdf" target="_blank" rel="noopener">Original PDF — whole book</a> · '
+                  '<a href="converted.html">Converted text — whole book</a></p><ol>')
+        for section in section_rows:
+            simple += candana_resources.section_link(
+                section["title"], section["text_path"].removesuffix(".txt") + ".html",
+                "PDF page " + str(section["source_page"]), "source-" + section["source_label"])
+        simple += '</ol><p><a href="details.html">Technical details</a></p>'
+        contents["index.html"] = candana_resources.document(title, simple)
+    else:
+        contents["index.html"] = contents["converted.html"].replace(
+            b'</html>', b'<p><a href="details.html">Technical details</a></p></html>')
     for relative, body in contents.items():
         write_file(safe_relative(directory, relative), body)
     report = {"schema_version": 1, "fingerprint": fingerprint, "source_url": url,
@@ -419,7 +440,10 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
         inventory = candana_review.inventory(jobs, reports)
         write_file(output / "inventory.json", json_bytes(inventory))
         index, disagreements, plain = candana_review.review_catalog(inventory)
-        write_file(output / "index.html", index.encode())
+        write_file(output / "source-inventory.html", index.encode())
+        simple_review = candana_review.reading_catalog(inventory)
+        write_file(output / "index.html", simple_review.encode())
+        write_file(output / "human-review.html", simple_review.encode())
         write_file(output / "disagreements.html", disagreements.encode())
         write_file(output / "review-list.txt", plain.encode())
         context = {"installed_by_sha256": {}, "book_three_held_source_labels": []}
@@ -438,7 +462,7 @@ def prepare_batch(root: Path, output: Path, recipes: list[dict], jobs: list[dict
         checklist = candana_review.apply_human_decisions(checklist, json.loads(decisions_path.read_text()))
         human_html, human_text = candana_review.human_queue_views(checklist)
         write_file(output / "human-review.json", json_bytes(checklist))
-        write_file(output / "human-review.html", human_html.encode())
+        write_file(output / "technical-checks.html", human_html.encode())
         write_file(output / "human-review.txt", human_text.encode())
     return result
 

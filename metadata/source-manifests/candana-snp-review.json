@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "CONVERSION_REVIEW_DRAFT",
+  "title": "Sutta Nipāta",
+  "translator": "Bhikkhu Candana",
+  "source_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-2ggf.pdf",
+  "pdf_path": "review-sources/candana-sutta-nipata/original.pdf",
+  "pdf_sha256": "ff6fa85ebaed058886a2d52b1b0d3e1b29eeca3b26995a23bff6a50066e84495",
+  "text_path": "review-sources/candana-sutta-nipata/converted.txt",
+  "text_sha256": "fb1e36fb23c076949b15aaa3c5e738342ead95a924e376837e2921da58481087",
+  "permission_pages": [
+    7
+  ],
+  "license": "Candana — free distribution, unaltered contents",
+  "conditions": [
+    "Copies must be available free of charge",
+    "Do not alter the contents"
+  ],
+  "pdf_pages": 391,
+  "sutta_sections": 73,
+  "all_source_intervals": 80,
+  "extractor": "MuPDF mutool draw -F txt",
+  "encoding": "UTF-8",
+  "canonical_mapping_approval": false,
+  "full_human_proofread_approval": false
+}
