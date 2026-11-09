@@ -284,7 +284,12 @@ def verified_manifest(root: Path = ROOT, *, require_review: bool = False) -> dic
         from .candana_numbered_books import BOOK_IDS, verify as verify_numbered
     else:
         from candana_numbered_books import BOOK_IDS, verify as verify_numbered
+    if __package__:
+        from .candana_sutta_nipata import BOOK_ID as SNP_BOOK_ID, verify as verify_snp
+    else:
+        from candana_sutta_nipata import BOOK_ID as SNP_BOOK_ID, verify as verify_snp
     additional = BOOK_IDS if manifest.get("numbered_extension") else set()
+    additional = additional | ({SNP_BOOK_ID} if manifest.get('snp_extension') else set())
     if set(books) != {item[0] for item in BOOKS} | additional:
         raise ValueError("Candana book scope changed without review")
     supported_text_books = {"an-book1"} | additional
@@ -328,6 +333,7 @@ def verified_manifest(root: Path = ROOT, *, require_review: bool = False) -> dic
                 or report.get("reader_body_hashes") != {row["canonical_id"]: row["body_sha256"] for row in manifest["texts"] if row["book"] == "an-book1"}):
             raise ValueError("Candana extraction review is missing or stale; do not publish unchecked text")
     verify_numbered(root, manifest, require_review)
+    verify_snp(root, manifest, require_review)
     return manifest
 
 
@@ -337,8 +343,12 @@ if __name__ == "__main__":
     group.add_argument("--audit", action="store_true")
     group.add_argument("--install-local", type=Path)
     group.add_argument("--install-numbered", action="store_true", help="Import checked cached AN Books Two/Three mappings")
+    group.add_argument("--install-sutta-nipata", action="store_true", help="Import all 73 pinned source-referenced Sutta Nipāta texts offline")
     args = parser.parse_args()
-    if args.install_numbered:
+    if args.install_sutta_nipata:
+        from candana_sutta_nipata import install as install_snp
+        print(json.dumps(install_snp(), indent=2))
+    elif args.install_numbered:
         from candana_numbered_books import install as install_numbered
         print(json.dumps(install_numbered(), indent=2))
     elif args.install_local:

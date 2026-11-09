@@ -1,0 +1,1111 @@
+{
+  "schema_version": 1,
+  "status": "SOURCE_REFERENCES_AND_TEXT_VERIFIED",
+  "pdf_sha256": "ff6fa85ebaed058886a2d52b1b0d3e1b29eeca3b26995a23bff6a50066e84495",
+  "raw_text_sha256": "fb1e36fb23c076949b15aaa3c5e738342ead95a924e376837e2921da58481087",
+  "audit_sha256": "43a96071d4a19311e673ff7ee162f3b304bee808f46c2a10e1c693b77044d81e",
+  "reference_ledger_sha256": "2398d874a3f1f0d5f441c2d9dac089336c86dc4da5fa8c8490a06509b0d2017e",
+  "reader_count": 73,
+  "mapping_basis": "Exact explicit Snp book/text references match all existing site IDs one-to-one; source names and translated site titles retained separately.",
+  "mappings": [
+    {
+      "canonical_id": "Snp 1.1",
+      "source_reference": "snp1.1",
+      "source_title": "Uraga Sutta — The Snake",
+      "site_title": "The Serpent",
+      "pdf_pages": [
+        19,
+        22
+      ],
+      "source_interval_sha256": "00c2ad49a70707a36caf405ed0140333351c06bb8f07468aebe779afa3bf3495",
+      "body_sha256": "89c04932c6a36978ba1019bd4bcee186e105c1f37be772f454d0298ef3826931",
+      "printed_folios_omitted": [
+        22
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.2",
+      "source_reference": "snp1.2",
+      "source_title": "Dhaniya Sutta — Dhaniya, the Cowherd",
+      "site_title": "The Wealthy Rancher",
+      "pdf_pages": [
+        23,
+        26
+      ],
+      "source_interval_sha256": "53181fc63f19ba8d250acf6ff9e4698d2e5a8e5b393329fe310d580505b1d82e",
+      "body_sha256": "9675ae4b7d99e98562ae3ccea401741ce40991ebc56546808c8ba1968430af02",
+      "printed_folios_omitted": [
+        26
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.3",
+      "source_reference": "snp1.3",
+      "source_title": "Khaggavisāṇa Sutta — The Horned Rhinoceros",
+      "site_title": "The Horned Rhino",
+      "pdf_pages": [
+        27,
+        33
+      ],
+      "source_interval_sha256": "603a6e19a086f86c3df2a6180bf9a4b0697dd26e6eef4871709659ab27027c3f",
+      "body_sha256": "eda0f52757cf04d3b943f10e5c6ac214b747721fce9f865ecd168954a5d75198",
+      "printed_folios_omitted": [
+        33
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.4",
+      "source_reference": "snp1.4",
+      "source_title": "Kasibhāradvāja Sutta — The Farmer Bhāradvāja",
+      "site_title": "With Bhāradvāja the Farmer",
+      "pdf_pages": [
+        35,
+        39
+      ],
+      "source_interval_sha256": "4d95bd2a52864b9a75c420df7ec7010ab87f43aae183bb8aadc04910fb6c535a",
+      "body_sha256": "b8e8c848416cc8b1398c6a920658739ecd8bc377a2d6d44c1d46bbe55d3e6106",
+      "printed_folios_omitted": [
+        39
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.5",
+      "source_reference": "snp1.5",
+      "source_title": "Cunda Sutta — To Cunda",
+      "site_title": "With Cunda",
+      "pdf_pages": [
+        41,
+        42
+      ],
+      "source_interval_sha256": "d10f7500cc3a6382f4dcb642521e16bc5803e79449d613ecf86c4976d2d95735",
+      "body_sha256": "521fe81cc4e1068512da89a787865ced90d45b0b176ba43496506222d5c0c707",
+      "printed_folios_omitted": []
+    },
+    {
+      "canonical_id": "Snp 1.6",
+      "source_reference": "snp1.6",
+      "source_title": "Parābhava Sutta — The Downfall",
+      "site_title": "Downfalls",
+      "pdf_pages": [
+        43,
+        47
+      ],
+      "source_interval_sha256": "cd00e35c1d14a7f8539cc660dcecae22e5d047ab7e03fb25003ac2dc90bf791d",
+      "body_sha256": "8aa3f100a33066cd58bbd8f6c17e9d8211eb01430924b9a0830d142f42e6b1e2",
+      "printed_folios_omitted": [
+        47
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.7",
+      "source_reference": "snp1.7",
+      "source_title": "Vasala Sutta — The Outcaste",
+      "site_title": "The Lowlife",
+      "pdf_pages": [
+        49,
+        55
+      ],
+      "source_interval_sha256": "4e866f810ea0e1539d70bd5eb81d1b94d6c3b334bccbf88fbcf092918a25cdac",
+      "body_sha256": "a313b099e0e09f65afebca20b6062b949ada63a65b3b48b030043e5e51f00c8e",
+      "printed_folios_omitted": []
+    },
+    {
+      "canonical_id": "Snp 1.8",
+      "source_reference": "snp1.8",
+      "source_title": "Mettā Sutta",
+      "site_title": "The Discourse on Love",
+      "pdf_pages": [
+        57,
+        58
+      ],
+      "source_interval_sha256": "01b0f6d7d0d172635edc3e0a2ba8118f2b6f4e125ab3cdf4f642ac31a97243ba",
+      "body_sha256": "c894cd146e11469bc0856b420373573859c3115dea11692f17d8d52bfdee88d1",
+      "printed_folios_omitted": [
+        58
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.9",
+      "source_reference": "snp1.9",
+      "source_title": "Hemavata Sutta — Hemavata",
+      "site_title": "With Hemavata",
+      "pdf_pages": [
+        59,
+        64
+      ],
+      "source_interval_sha256": "857fce63c9c9a1298bfd562fc17e7b68cf6bfae27a46328ff03ce9144dc6e7ce",
+      "body_sha256": "60d7aeb2e83629ebd715bdbc6c7f04f901a7c6028b3f607d288784ef49293f57",
+      "printed_folios_omitted": [
+        64
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.10",
+      "source_reference": "snp1.10",
+      "source_title": "Āḷavaka Sutta — Discourse to Āḷavaka, the Yakkha",
+      "site_title": "With Āḷavaka",
+      "pdf_pages": [
+        65,
+        69
+      ],
+      "source_interval_sha256": "52c814f9933da364ecdb1f51155b749b6b35ff4eacb6f71acacaef7af327ffe9",
+      "body_sha256": "2d9d4a5024d8aef296810d0566d40d8ce242b5d1647df05e1457f83b406068e2",
+      "printed_folios_omitted": [
+        69
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.11",
+      "source_reference": "snp1.11",
+      "source_title": "Vijaya Sutta — Victory",
+      "site_title": "Victory Over Desire for the Body",
+      "pdf_pages": [
+        71,
+        73
+      ],
+      "source_interval_sha256": "eb76a5c27a8e018697c90d58b9314effb2f34cc58127b53d6a541e389bceba92",
+      "body_sha256": "ac8414c8b0e7161330b0f58494f04cbc858782dc44558bdb67db63c4414c21d1",
+      "printed_folios_omitted": [
+        73
+      ]
+    },
+    {
+      "canonical_id": "Snp 1.12",
+      "source_reference": "snp1.12",
+      "source_title": "Muni Sutta — The Sage",
+      "site_title": "The Sage",
+      "pdf_pages": [
+        75,
+        78
+      ],
+      "source_interval_sha256": "eef2b7ff5bd9aeb22cddff7d38ec77556fcc3152255d6721bafda671bd022c99",
+      "body_sha256": "dbd70a3a460969f67c0c10fb1382aeed84c111fb193ae6e536c968250fb7845a",
+      "printed_folios_omitted": [
+        78
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.1",
+      "source_reference": "snp2.1",
+      "source_title": "Ratana Sutta — Discourse on the Precious Jewel",
+      "site_title": "Gems",
+      "pdf_pages": [
+        81,
+        84
+      ],
+      "source_interval_sha256": "4a743214c0201c6e99dc9b97f372dd7cf689dfc7b3ff49a6654f81fcf4cf2a40",
+      "body_sha256": "a3a9f9f76e1a157616c4ae189f5001d655aeff5e302589764e8fd789f39556d9",
+      "printed_folios_omitted": [
+        84
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.2",
+      "source_reference": "snp2.2",
+      "source_title": "Āmagandha Sutta — The Stench of Decomposing Flesh",
+      "site_title": "Putrefaction",
+      "pdf_pages": [
+        85,
+        88
+      ],
+      "source_interval_sha256": "9282b7d9415ce17cc7c6d74ddd652f653053fd0b19288b44b981d2a7d967b1a7",
+      "body_sha256": "b860020bd3bdf0811768e3663b1b0f00402efc63cf405446c064f0412b6ab7e0",
+      "printed_folios_omitted": [
+        88
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.3",
+      "source_reference": "snp2.3",
+      "source_title": "Hirī Sutta — Discourse on Being Considerate",
+      "site_title": "Conscientious Companionship",
+      "pdf_pages": [
+        89,
+        90
+      ],
+      "source_interval_sha256": "766c4fb24045572aeadf5ac197dd05748400ccad8821633d44f599e5eb13fb4f",
+      "body_sha256": "015ae22b0baabc0bbbb95815e31bebd101e29d8f1c60110bf23c88d432e05d11",
+      "printed_folios_omitted": [
+        90
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.4",
+      "source_reference": "snp2.4",
+      "source_title": "Maṅgala Sutta",
+      "site_title": "Blessings",
+      "pdf_pages": [
+        91,
+        94
+      ],
+      "source_interval_sha256": "2190ffca13c578518b480b0cda73910fa20ea204257e103cd10815a59bb020e6",
+      "body_sha256": "8b6ec105a541aa5c70e2358d5e9b5cc74987223256eb02b0aad7734d0abef850",
+      "printed_folios_omitted": [
+        94
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.5",
+      "source_reference": "snp2.5",
+      "source_title": "Sūciloma Sutta — The Needle Haired Yakkha",
+      "site_title": "With Spiky",
+      "pdf_pages": [
+        95,
+        97
+      ],
+      "source_interval_sha256": "d5330a6ebe13d0e8e6c5268d9d6ce3d26468662b99d1226cdfe11ada14213683",
+      "body_sha256": "da9079a5e216157e5136492c963553d9389f5558cc13ea1b1f8b1c7c7715b808",
+      "printed_folios_omitted": [
+        97
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.6",
+      "source_reference": "snp2.6",
+      "source_title": "Dhammacariya Sutta — Living According to the Dhamma",
+      "site_title": "A Righteous Life",
+      "pdf_pages": [
+        99,
+        100
+      ],
+      "source_interval_sha256": "3e768ba3b019c908607b92d03629548f35169f1869dbff02388df3075af84ccd",
+      "body_sha256": "7871b4969ed10ef005bca77bbffd4d116595207d317cd37764e4be3351d38841",
+      "printed_folios_omitted": [
+        100
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.7",
+      "source_reference": "snp2.7",
+      "source_title": "Brāhmaṇa Dhammika Sutta — Brahmanical Beliefs & Customs",
+      "site_title": "Brahmanical Principles",
+      "pdf_pages": [
+        101,
+        108
+      ],
+      "source_interval_sha256": "8e7f64560d6ac8c8e9a87dad9b9fff3949848104781d96d69719c759adba4283",
+      "body_sha256": "338ff296d11fb20591e5b728cee38cacb149f7892af8c57d45ca18283249ffd3",
+      "printed_folios_omitted": [
+        108
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.8",
+      "source_reference": "snp2.8",
+      "source_title": "Dhamma Nāvā Sutta — The Boat of Dhamma",
+      "site_title": "The Boat",
+      "pdf_pages": [
+        109,
+        111
+      ],
+      "source_interval_sha256": "1e710b39c5554c6b74d42ea93f5983a6a9e5fef0cf6094ea1e11b13464be1f2d",
+      "body_sha256": "916e7019dfa42a855ec3811ebba4d269756bcaef69d1b94171f0d3e48168eefb",
+      "printed_folios_omitted": [
+        111
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.9",
+      "source_reference": "snp2.9",
+      "source_title": "Kiṁsīla Sutta",
+      "site_title": "What Morality?",
+      "pdf_pages": [
+        113,
+        114
+      ],
+      "source_interval_sha256": "20b16e616370a26009a4582a099ae9ee17374f8de116cdac54544ceeadce5508",
+      "body_sha256": "44bff6f856833e6a36a8b50defdaaba76670245985b9f733c67ae7c8de0b4b59",
+      "printed_folios_omitted": [
+        114
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.10",
+      "source_reference": "snp2.10",
+      "source_title": "Uṭṭhāna Sutta — Rise Up!",
+      "site_title": "Get Up!",
+      "pdf_pages": [
+        115,
+        116
+      ],
+      "source_interval_sha256": "0c149b822e76962086d0b38e0682262005b08b99edce0d95ce2d4eed92882785",
+      "body_sha256": "2eb3e40d08e6246f6b26905676e73e561f056e51322f486edbcadc27bce27dd9",
+      "printed_folios_omitted": [
+        116
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.11",
+      "source_reference": "snp2.11",
+      "source_title": "Rāhula Sutta — To the Venerable Rāhula",
+      "site_title": "With Rāhula",
+      "pdf_pages": [
+        117,
+        118
+      ],
+      "source_interval_sha256": "c9fb9a4a5fbb29386c3c36d00268312905cf155cb4eae275ef4814648c5e203d",
+      "body_sha256": "5cf2eb7f554a36751be373342f6bc106c3927812737c70fdfb3d1fb4031ee433",
+      "printed_folios_omitted": [
+        118
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.12",
+      "source_reference": "snp2.12",
+      "source_title": "Nigrodhakappa Vaṅgīsa",
+      "site_title": "Vaṅgīsa and His Mentor Nigrodhakappa",
+      "pdf_pages": [
+        119,
+        123
+      ],
+      "source_interval_sha256": "518da5fb82fbb68462575060ac606f6581a10e525ce4f1e5ffd4fa762244f7ce",
+      "body_sha256": "9ece4777afb3b6a2eb0590ad1874b4c52b79d5e34318846a9fe21db359794986",
+      "printed_folios_omitted": [
+        123
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.13",
+      "source_reference": "snp2.13",
+      "source_title": "Sammāparibbājanīya Sutta — The Correct Way to ‘Go Forth’",
+      "site_title": "The Right Way to Wander",
+      "pdf_pages": [
+        125,
+        128
+      ],
+      "source_interval_sha256": "2975102ed38a68fba03bc2b705cc1f7aa481008733a7c190bc09bb917c1a8438",
+      "body_sha256": "6eea2395ec1ab933bc87c96bfd06e88c2cb29e2bbf4be3b88c2109ea074d881f",
+      "printed_folios_omitted": [
+        128
+      ]
+    },
+    {
+      "canonical_id": "Snp 2.14",
+      "source_reference": "snp2.14",
+      "source_title": "Dhammika Sutta — The Disciple Dhammika",
+      "site_title": "With Dhammika",
+      "pdf_pages": [
+        129,
+        135
+      ],
+      "source_interval_sha256": "7d3543663fa26e5ef4b21c7b20421f0c61c2e1dd953b5fde5266af4db72cc9ea",
+      "body_sha256": "0fbe33f5e9725240853b23d30c342505acbc0b2e86894b6560237d1cf2a575ef",
+      "printed_folios_omitted": [
+        135
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.1",
+      "source_reference": "snp3.1",
+      "source_title": "Pabbajjā Sutta — On Going Forth",
+      "site_title": "Going Forth",
+      "pdf_pages": [
+        139,
+        142
+      ],
+      "source_interval_sha256": "eda8325fef1045554144314b947ca541c44ddc980a6d0bc60c0d22333cb8b592",
+      "body_sha256": "ee6e779431aa1e1ec77391808177c05139a665e992f1f93d2c636ae0379f1e3a",
+      "printed_folios_omitted": [
+        142
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.2",
+      "source_reference": "snp3.2",
+      "source_title": "Padhāna Sutta — On Striving",
+      "site_title": "Striving",
+      "pdf_pages": [
+        143,
+        147
+      ],
+      "source_interval_sha256": "beb26c1bc36771cbd9dae3ab81bf7705fa2545872753f31642dfbd336f5575d0",
+      "body_sha256": "29ec3b90b6897e05cf7f3120547f1c063f6fdb3fcf0d495e0ed7a5366e0227de",
+      "printed_folios_omitted": [
+        147
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.3",
+      "source_reference": "snp3.3",
+      "source_title": "Subhāsita Sutta — Well-Spoken Words",
+      "site_title": "Well-Spoken Words",
+      "pdf_pages": [
+        149,
+        151
+      ],
+      "source_interval_sha256": "6e5564a17541572027750cf607520fe6cd3a98b75846ffa55ad54b3788410f63",
+      "body_sha256": "ff3841bc9545e2c0435fd5115490f06ab4c65e4a6e63a5667e114dd11818b656",
+      "printed_folios_omitted": [
+        151
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.4",
+      "source_reference": "snp3.4",
+      "source_title": "Sundarikabhāradvāja Sutta",
+      "site_title": "With Bhāradvāja of Sundarikā on the Sacrificial Cake",
+      "pdf_pages": [
+        152,
+        161
+      ],
+      "source_interval_sha256": "ea68e2a8fe0893c194874825647bab6a5aab7960d1f2f2e665101530986849ec",
+      "body_sha256": "319ac923fbad825c879f2b6a6f7c50fb536fa3f879a426a37e43e9eec231a3ba",
+      "printed_folios_omitted": [
+        161
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.5",
+      "source_reference": "snp3.5",
+      "source_title": "Māgha Sutta — To The Young Brahmin Māgha",
+      "site_title": "With Māgha",
+      "pdf_pages": [
+        163,
+        170
+      ],
+      "source_interval_sha256": "b10eabc06a8851b11261c4922cba705a733cb28a45b82e6bd29ad7ac067f1079",
+      "body_sha256": "9bb1715ef1228271ad0bbc98f7bec627c4f1a808c9a5e3abb84fb4a4e01399cf",
+      "printed_folios_omitted": [
+        170
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.6",
+      "source_reference": "snp3.6",
+      "source_title": "Sabhiya Sutta — To Sabhiya",
+      "site_title": "With Sabhiya",
+      "pdf_pages": [
+        171,
+        183
+      ],
+      "source_interval_sha256": "f9228af95ca503d6aea9f2fe156328f1095710d62b0d16c7f7918a518f43d56f",
+      "body_sha256": "bf1e7310c4df9fe74d0c016a4a55333ed7e7d552153548ab71ecf4bb3c133e13",
+      "printed_folios_omitted": [
+        183
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.7",
+      "source_reference": "snp3.7",
+      "source_title": "Sela Sutta — To Sela, the Brahmin",
+      "site_title": "With Sela",
+      "pdf_pages": [
+        185,
+        200
+      ],
+      "source_interval_sha256": "bfa5c5dec395392d693859c6f54acb139af2b15e72f3137e3cb5d9224c43f271",
+      "body_sha256": "125a0fb0240ba9a7785801ea6a194458d615a6bf07e1004ce4c277785ffa890a",
+      "printed_folios_omitted": [
+        200
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.8",
+      "source_reference": "snp3.8",
+      "source_title": "Salla Sutta — The Arrow",
+      "site_title": "The Dart",
+      "pdf_pages": [
+        201,
+        204
+      ],
+      "source_interval_sha256": "08a4f7dd3ffe3470ef8b4d288fcccfd816f7d1a219359d5e16bb60f4f00d6987",
+      "body_sha256": "9e310ab7d09c35e416a6c5d5c3950e64c432128bd58aa43c52a6b60b4e733be6",
+      "printed_folios_omitted": [
+        204
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.9",
+      "source_reference": "snp3.9",
+      "source_title": "Vāseṭṭha Sutta — To the Young Brahmin Vāseṭṭha",
+      "site_title": "With Vāseṭṭha",
+      "pdf_pages": [
+        205,
+        218
+      ],
+      "source_interval_sha256": "19c2a37612afb905b973edf7ce1f4a7fea17a1dc95e5ac3e7424f63f8cbc5707",
+      "body_sha256": "4096760831b4d9e251cdf318ba5b33bf7643f7477a46d0e99e424ea5366af4d4",
+      "printed_folios_omitted": [
+        218
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.10",
+      "source_reference": "snp3.10",
+      "source_title": "Kokāliya Sutta — To the Bhikkhu Kokāliya",
+      "site_title": "With Kokālika",
+      "pdf_pages": [
+        219,
+        228
+      ],
+      "source_interval_sha256": "211771796b09ef8017905896ac1f0951bc43aa44f1e7d63d4bee949d097a3d9a",
+      "body_sha256": "336928b22dbe6ec0d4a6205d68ed1a05933f2a3c198577771319571557c294d7",
+      "printed_folios_omitted": [
+        228
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.11",
+      "source_reference": "snp3.11",
+      "source_title": "Nālaka Sutta — To Nālaka",
+      "site_title": "About Nālaka",
+      "pdf_pages": [
+        229,
+        238
+      ],
+      "source_interval_sha256": "a0c09006f28c1f7fb37bef19b5976516819dfdcfd082398249124730743ec694",
+      "body_sha256": "33ad6609395cf1328220d5f7bc6a114b6cc2963f15d95014976e0cdc053c8ec0",
+      "printed_folios_omitted": [
+        238
+      ]
+    },
+    {
+      "canonical_id": "Snp 3.12",
+      "source_reference": "snp3.12",
+      "source_title": "Dvayatānupassanā Sutta — Contemplations on the Dyad",
+      "site_title": "Contemplating Pairs",
+      "pdf_pages": [
+        239,
+        262
+      ],
+      "source_interval_sha256": "d9065461b1c59ca2a56688b1c3cac11df148b5180cbdb4cbcb5c35c4f682b11c",
+      "body_sha256": "d09b0bbe0368cd522da5860d2ea1586d640e0b956d28ab80feb622445ad9bfad",
+      "printed_folios_omitted": [
+        262
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.1",
+      "source_reference": "snp4.1",
+      "source_title": "Kāma Sutta — On Sensual Desire",
+      "site_title": "Sensual Pleasures",
+      "pdf_pages": [
+        265,
+        266
+      ],
+      "source_interval_sha256": "568b1c9e9209c5f8829ee3f306e4cdcc101d05f4ccf383612f6ebe53acefa3c0",
+      "body_sha256": "ec9b5c4f274fe0e936fb457cd473adfb141f9325b5cf05a54419d385aa84ce2a",
+      "printed_folios_omitted": [
+        266
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.2",
+      "source_reference": "snp4.2",
+      "source_title": "Guhaṭṭhaka Sutta — Buried in a Cave",
+      "site_title": "Eight on the Cave",
+      "pdf_pages": [
+        267,
+        268
+      ],
+      "source_interval_sha256": "9036660634e0da1fde2c056bc37bdfba580701697cfa409106a2984a75b22169",
+      "body_sha256": "bb377c8ff451d867e37793710f332ba043d61f64509d0db5b1f560da119b60cb",
+      "printed_folios_omitted": [
+        268
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.3",
+      "source_reference": "snp4.3",
+      "source_title": "Duṭṭhaṭṭhaka Sutta — Eight on Evil Intent",
+      "site_title": "Eight on Malice",
+      "pdf_pages": [
+        269,
+        270
+      ],
+      "source_interval_sha256": "0136b350e8d037a94a1ffc4967886b1d168be3d07773c0fcf1a3b7a26b210f46",
+      "body_sha256": "89cdb730c457febb9d289bb83138e8cf309fd7bddcb4d5a8be722bb61aff7f34",
+      "printed_folios_omitted": [
+        270
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.4",
+      "source_reference": "snp4.4",
+      "source_title": "Suddhaṭṭhaka Sutta — Eight on the Pure-Hearted",
+      "site_title": "Eight on the Pure",
+      "pdf_pages": [
+        271,
+        272
+      ],
+      "source_interval_sha256": "c4451829bd19b622a41cffb4a1b26e3aabacd84e2458572549ae8ebb15bb9587",
+      "body_sha256": "bfdf05ea7661b73b91dde3199f3801d0049f0b53a4435dfc734dc4e057ba68cc",
+      "printed_folios_omitted": [
+        272
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.5",
+      "source_reference": "snp4.5",
+      "source_title": "Paramaṭṭhaka Sutta — Eight about the Greatest",
+      "site_title": "Eight on the Ultimate",
+      "pdf_pages": [
+        273,
+        274
+      ],
+      "source_interval_sha256": "e12d6f0cc88b6cd1071bb1b145a799c4b289a66466a9efb80e757fae960e4370",
+      "body_sha256": "271e44101957ea63a17f425d606a4be20e90574a587e2801f156c4e743a3894d",
+      "printed_folios_omitted": [
+        274
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.6",
+      "source_reference": "snp4.6",
+      "source_title": "Jarā Sutta — Getting Old & Decaying",
+      "site_title": "Old Age",
+      "pdf_pages": [
+        275,
+        277
+      ],
+      "source_interval_sha256": "8bd86dc03dd8932eebfdba9b6f2646d31da9503595322ff533e8a6505e506d95",
+      "body_sha256": "8aa7cf54859c4a721b773f0731fbe91c76c9e4ac766dfc951d37d1547002f231",
+      "printed_folios_omitted": [
+        277
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.7",
+      "source_reference": "snp4.7",
+      "source_title": "Tissametteyya Sutta — Discourse to Tissametteyya",
+      "site_title": "With Tissametteyya",
+      "pdf_pages": [
+        279,
+        280
+      ],
+      "source_interval_sha256": "167b4102bc4586fe73e7e31f866e4cb3f69e470c4a4fce4665cd36376f2a1209",
+      "body_sha256": "dcb39e9daf380e59d633adeba9cb4d2f7d95b946a072e0f8971301e088db8d22",
+      "printed_folios_omitted": [
+        280
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.8",
+      "source_reference": "snp4.8",
+      "source_title": "Pasūra Sutta — Discourse to Pasūra, the Debater",
+      "site_title": "With Pasūra",
+      "pdf_pages": [
+        281,
+        283
+      ],
+      "source_interval_sha256": "be98ecf10110dccc3ecbc95096a79d59b2b921c1fd98a00106c6195c6b8755be",
+      "body_sha256": "2008f8659b8df611ca858c5dbfeba603d98e8d6e8f5908abcb89641e54f51806",
+      "printed_folios_omitted": [
+        283
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.9",
+      "source_reference": "snp4.9",
+      "source_title": "Māgaṇḍiya Sutta — Discourse to Māgaṇḍiya",
+      "site_title": "With Māgaṇḍiya",
+      "pdf_pages": [
+        285,
+        288
+      ],
+      "source_interval_sha256": "e1e9765d8bb87f451159cc6f6308cda877d4171f680acffb5614c395de992d68",
+      "body_sha256": "8fb7fcaf7e4b651e4c0850c973bdfc62fb0233af977468616943f38694a6746c",
+      "printed_folios_omitted": [
+        288
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.10",
+      "source_reference": "snp4.10",
+      "source_title": "Purābheda Sutta — Before the Dissolution of the Body",
+      "site_title": "Before the Breakup",
+      "pdf_pages": [
+        289,
+        291
+      ],
+      "source_interval_sha256": "1e995c4d7f0ae811df76a38edee6aaeb0a85f766a97c25cb1212c998b6b8a8ee",
+      "body_sha256": "86a0e4974050956cbc643818c5a006db71bc542ac486d43e7973bba23e447046",
+      "printed_folios_omitted": [
+        291
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.11",
+      "source_reference": "snp4.11",
+      "source_title": "Kalahavivāda Sutta — On Fighting & Conflicts",
+      "site_title": "Quarrels and Disputes",
+      "pdf_pages": [
+        293,
+        296
+      ],
+      "source_interval_sha256": "64236fa51acdbbf58bc514c35219663f5f5f493fa042f2bed28d6587c20ee6f4",
+      "body_sha256": "a52e90c19ec0f94a0dd7a1b4c6df4963cd14494e554cbfbbb809eee39c6a9ef5",
+      "printed_folios_omitted": [
+        296
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.12",
+      "source_reference": "snp4.12",
+      "source_title": "Cūḷabyūha Sutta",
+      "site_title": "The Shorter Discourse on Arrayed For Battle",
+      "pdf_pages": [
+        297,
+        300
+      ],
+      "source_interval_sha256": "184de984a5dd626ee3434739948474f1f94b1667e04d406bc643f9d71caa7498",
+      "body_sha256": "f0820087fa3f5c41a90cfaa706a9cf659e3e8e70876025b6e8dd88e1cb9a064f",
+      "printed_folios_omitted": [
+        300
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.13",
+      "source_reference": "snp4.13",
+      "source_title": "Mahābyūha Sutta",
+      "site_title": "The Longer Discourse on Arrayed for Battle",
+      "pdf_pages": [
+        301,
+        305
+      ],
+      "source_interval_sha256": "d1825a4b11a48cc73c724caf014a2f28eb51a27d5ea5e9dd539f2e9d7c4f300d",
+      "body_sha256": "42d4202fb51a699a7f0583630d3bdd4ffd5c58805b5e64f986eaa13ed43039a2",
+      "printed_folios_omitted": []
+    },
+    {
+      "canonical_id": "Snp 4.14",
+      "source_reference": "snp4.14",
+      "source_title": "Tuvaṭaka Sutta — Discourse on Not Wasting Time",
+      "site_title": "Speedy",
+      "pdf_pages": [
+        307,
+        311
+      ],
+      "source_interval_sha256": "349272c0de223c4e1d1205914ad22500e746ce7034e2bc123abaff46da4b166f",
+      "body_sha256": "8ddb7b9ad7ec6affc816163a2e95e91f1c4e406661dd41089e78c2db75c7b4a2",
+      "printed_folios_omitted": [
+        311
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.15",
+      "source_reference": "snp4.15",
+      "source_title": "Attadaṇḍa Sutta — With Weapons in Hand",
+      "site_title": "Taking Up Arms",
+      "pdf_pages": [
+        313,
+        316
+      ],
+      "source_interval_sha256": "eadc538f3ff505f719e170b8f42785cf7c7825cb82342b01762e9b5aee27cbb9",
+      "body_sha256": "eaad0f07444c24a436f3d5d6bd34d5afaf40f49fe22ced4698d6e929102c9e7c",
+      "printed_folios_omitted": [
+        316
+      ]
+    },
+    {
+      "canonical_id": "Snp 4.16",
+      "source_reference": "snp4.16",
+      "source_title": "Sāriputta Sutta — Sāriputta",
+      "site_title": "With Sāriputta",
+      "pdf_pages": [
+        317,
+        321
+      ],
+      "source_interval_sha256": "d74ae41d85c871e431c4e8a83aece1ddb1bbd306cb978a30e7033551525be3a3",
+      "body_sha256": "2c8f37d432dfa6d25981f0b8d1cafc155cffb26f966042f7dcf35941fece911e",
+      "printed_folios_omitted": [
+        321
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.1",
+      "source_reference": "snp5.1",
+      "source_title": "Vatthugāthā Sutta — The Beginning Verses",
+      "site_title": "Introductory Verses",
+      "pdf_pages": [
+        325,
+        334
+      ],
+      "source_interval_sha256": "7bb184bdca0c0c1fd4d0d5e0484e8897e473b73e91cfd1dafbc29132e8e8a9a3",
+      "body_sha256": "e020241b3cedea5dbb3006559aa3346162f41eeb18d082d251758f6f49a20908",
+      "printed_folios_omitted": [
+        334
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.2",
+      "source_reference": "snp5.2",
+      "source_title": "Ajitamāṇavapucchā Sutta — Questions of the Brahmin Ajita",
+      "site_title": "The Questions of Ajita",
+      "pdf_pages": [
+        335,
+        337
+      ],
+      "source_interval_sha256": "431655c11d730597cdb08108ddcfc302bd8048d06a2856874d8e48bc2224cfd6",
+      "body_sha256": "545606ba9554f9ee0ca6485b9d240b757b46822432e8263c398d2339490142e5",
+      "printed_folios_omitted": [
+        337
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.3",
+      "source_reference": "snp5.3",
+      "source_title": "Tissametteyya",
+      "site_title": "The Questions of Tissametteyya",
+      "pdf_pages": [
+        339,
+        340
+      ],
+      "source_interval_sha256": "360bb8bd4e954111519bf6f1350ba6d711f4f33417a8b3ebcea8f0b0c3b9f13e",
+      "body_sha256": "81d3051b23f5e77341912fee9d71abd71389ebead10b1edb2dab5e91ced4fa9b",
+      "printed_folios_omitted": [
+        340
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.4",
+      "source_reference": "snp5.4",
+      "source_title": "Puṇṇakamāṇavapucchā Sutta",
+      "site_title": "The Questions of Puṇṇaka",
+      "pdf_pages": [
+        341,
+        343
+      ],
+      "source_interval_sha256": "9d108bc400ac75b1da3f9b6bb619b63f2465e96dabde768b51df45a0acbc27b2",
+      "body_sha256": "6e0016b2071328894b74279044574d702dc13d6376328bc086ed8a10cce7caa1",
+      "printed_folios_omitted": [
+        343
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.5",
+      "source_reference": "snp5.5",
+      "source_title": "Mettagūmāṇavapucchā Sutta — Questions of the Brahmin Mettagū",
+      "site_title": "The Questions of Mettagū",
+      "pdf_pages": [
+        345,
+        348
+      ],
+      "source_interval_sha256": "1f9963d1fc89ee1228a97949eb64fad70f45c2123d5b3d119408a23928ea8339",
+      "body_sha256": "d0899b89b610175db24822db43fd7133e28e188b06f2a905e8d2caa2290efe4f",
+      "printed_folios_omitted": [
+        348
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.6",
+      "source_reference": "snp5.6",
+      "source_title": "Dhotakamāṇavapucchā Sutta",
+      "site_title": "The Questions of Dhotaka",
+      "pdf_pages": [
+        349,
+        351
+      ],
+      "source_interval_sha256": "51bca500d7c37e31b3677d36a0603d8769c813bdf1fa7f48bf4869f30b482476",
+      "body_sha256": "27b2e81c94ea91be890cdde18ff90d3a697f475bcbf4c9c5141acf28737ef728",
+      "printed_folios_omitted": [
+        351
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.7",
+      "source_reference": "snp5.7",
+      "source_title": "Upasīvamāṇavapucchā Sutta — Questions of the Brahmin Upasīva",
+      "site_title": "The Questions of Upasīva",
+      "pdf_pages": [
+        353,
+        355
+      ],
+      "source_interval_sha256": "efe2ab0dbb0b2b7ffa0526d45288863c2678a7bff578bf7bc42f72f7c5daca58",
+      "body_sha256": "b63278088928343e05d4e1d71329d9f1b07e64a201da1d42b59162befa57f9b9",
+      "printed_folios_omitted": [
+        355
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.8",
+      "source_reference": "snp5.8",
+      "source_title": "Nandamāṇavapucchā Sutta — Questions of the Brahmin Nanda",
+      "site_title": "The Questions of Nanda",
+      "pdf_pages": [
+        357,
+        360
+      ],
+      "source_interval_sha256": "60da5430f2474d7078aa28135da9940717cf19fc0c0912936d2aa69a4cca8532",
+      "body_sha256": "57390a9f0cd5fc00111a08701f1fe8538212c4b4724650c40a944f10b7f89a94",
+      "printed_folios_omitted": [
+        360
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.9",
+      "source_reference": "snp5.9",
+      "source_title": "Hemakamāṇavapucchā Sutta",
+      "site_title": "The Questions of Hemaka",
+      "pdf_pages": [
+        361,
+        362
+      ],
+      "source_interval_sha256": "fac830495b78e7583bf9e4cd3154d5dc65d0fb92175a71a9acee2f8273cb9693",
+      "body_sha256": "0aca2faafac05851346d2c70d895d2b4f41a203862c131b4e030d594e15d8f6d",
+      "printed_folios_omitted": [
+        362
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.10",
+      "source_reference": "snp5.10",
+      "source_title": "Todeyyamāṇavapucchā Sutta — Questions of the Brahmin Todeyya",
+      "site_title": "The Questions of Todeyya",
+      "pdf_pages": [
+        363,
+        364
+      ],
+      "source_interval_sha256": "52f7cef0851973c543a8398055342ba271eda8aeb9767aa2e1d1d70786393e2c",
+      "body_sha256": "e8f5305ef818eca77522aaa02a7ffb3d7f846e1f432397dd83057e85377d016b",
+      "printed_folios_omitted": [
+        364
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.11",
+      "source_reference": "snp5.11",
+      "source_title": "Kappamāṇavapucchā Sutta — Questions of the Brahmin Kappa",
+      "site_title": "The Questions of Kappa",
+      "pdf_pages": [
+        365,
+        365
+      ],
+      "source_interval_sha256": "4bbee6662f05a5de06471ade84f2befec70fc0438bed9fbfa36a996f258c1baa",
+      "body_sha256": "e168ecbb0b5a4f5cadef0169f557690cc524551714a37f5b761a9010568e389c",
+      "printed_folios_omitted": []
+    },
+    {
+      "canonical_id": "Snp 5.12",
+      "source_reference": "snp5.12",
+      "source_title": "Jatukaṇṇimāṇavapucchā",
+      "site_title": "The Questions of Jatukaṇṇī",
+      "pdf_pages": [
+        367,
+        368
+      ],
+      "source_interval_sha256": "07613ed417ed993f71724b33212e37627758c07ec749ab778d2bac886f76faf1",
+      "body_sha256": "69ad2262b58024183ed8b1f73f9f127b5c777a9cff50b5b1873fd7fb45d3bb54",
+      "printed_folios_omitted": [
+        368
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.13",
+      "source_reference": "snp5.13",
+      "source_title": "Badrāvudhamāṇavapucchā",
+      "site_title": "The Questions of Bhadrāvudha",
+      "pdf_pages": [
+        369,
+        370
+      ],
+      "source_interval_sha256": "e00667104473877721b08704477fbe9ba53fe04de4f91bed3e5c23d4d73fda58",
+      "body_sha256": "40229026efe2cf5ae5408b341701947b9dcdc2ac1853018e43741fb2102dd176",
+      "printed_folios_omitted": [
+        370
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.14",
+      "source_reference": "snp5.14",
+      "source_title": "Udayamāṇavapucchā Sutta — Questions of the Brahmin Udaya",
+      "site_title": "The Questions of Udaya",
+      "pdf_pages": [
+        371,
+        372
+      ],
+      "source_interval_sha256": "af937558dd82752130c76df3af5037802407d38b053aec09b1cca7f71f4b4a8c",
+      "body_sha256": "c6261f06dbdec2ce21a1191952bfa32079dfd0218dbcfde4e699eeef3e5cf5ac",
+      "printed_folios_omitted": [
+        372
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.15",
+      "source_reference": "snp5.15",
+      "source_title": "Posālamāṇavapucchā Sutta — Questions of the Brahmin Posāla",
+      "site_title": "The Question of Posāla",
+      "pdf_pages": [
+        373,
+        374
+      ],
+      "source_interval_sha256": "5a3bafbdc66429e381c9fd21ca5b1ec55625e771efe993ad426b0c3e0e1a2495",
+      "body_sha256": "499d9aa6fbcce9b39d93e0e518b6042b6de9b63cb8c270ffe9f63c07b1493d71",
+      "printed_folios_omitted": [
+        374
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.16",
+      "source_reference": "snp5.16",
+      "source_title": "Mogharājamāṇavapucchā",
+      "site_title": "The Questions of Mogharāja",
+      "pdf_pages": [
+        375,
+        376
+      ],
+      "source_interval_sha256": "e29784d30abc9a7cf6206b484f1400a17643730d8f974556ec021d1cafe7013a",
+      "body_sha256": "719f6d0a9b39f66ac72c1d72693c21de50da0b3640692c35cf8914eeb36b2cf7",
+      "printed_folios_omitted": [
+        376
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.17",
+      "source_reference": "snp5.17",
+      "source_title": "Piṅgiyamāṇavapucchā Sutta — Questions of the Brahmin Piṅgiya",
+      "site_title": "The Questions of Piṅgiya",
+      "pdf_pages": [
+        377,
+        378
+      ],
+      "source_interval_sha256": "05de2d1e5aa65ccc9302aa9b470bf9e243e3f6f28643271dea47e2854b679d61",
+      "body_sha256": "23fb06f6212c2184dcaf83346ca3449c7f2fbe520a33df717f828bc62642b47f",
+      "printed_folios_omitted": [
+        378
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.18",
+      "source_reference": "snp5.18",
+      "source_title": "Pārāyanatthutigāthā Sutta",
+      "site_title": "Homage to the Way to the Far Shore",
+      "pdf_pages": [
+        379,
+        380
+      ],
+      "source_interval_sha256": "e260390e73f9c8f5c3fc2814c9f14b21e44ce7f6938512194a06b762db8917b6",
+      "body_sha256": "8d6539c948b570cc3452344db8e54f709e8a10e20c9860fffcf388d8d78f95a5",
+      "printed_folios_omitted": [
+        380
+      ]
+    },
+    {
+      "canonical_id": "Snp 5.19",
+      "source_reference": "snp5.19",
+      "source_title": "Pārāyanānugītigāthā Sutta",
+      "site_title": "Preserving the Way to the Far Shore",
+      "pdf_pages": [
+        381,
+        385
+      ],
+      "source_interval_sha256": "a28a508ea3959b78b30cc3f71903abfaa8123ac5f51c6b684d537753d1fce639",
+      "body_sha256": "1085ae6bd53f74d3a62705fccfab9e74d95630574d897bffdaa6d3c6fcf562c5",
+      "printed_folios_omitted": [
+        385
+      ]
+    }
+  ],
+  "source_units_not_imported": [
+    "front-matter",
+    "book-1",
+    "book-2",
+    "book-3",
+    "book-4",
+    "book-5",
+    "back-matter"
+  ],
+  "layout": "Whitespace-only reflow and removal of exact-source, geometrically verified folios; 17 Snake refrains retain authored starts. Other verse layout retains source paragraph gaps.",
+  "human_proofreading_approved": false,
+  "translation_accuracy_certified": false
+}

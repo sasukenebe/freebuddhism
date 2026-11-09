@@ -1,8 +1,15 @@
 # Candana import expansion
 
-Updated: 2026-11-08. The owner requested continued imports at the fastest reasonable pace,
+Updated: 2026-11-09. The owner requested continued imports at the fastest reasonable pace,
 including as much of Candana's work as permissions allow. This is not approval to ignore
-permissions, invent missing text, mislabel different numbering systems, or deploy publicly.
+permissions, invent missing text or mislabel different numbering systems. On November 9
+the owner additionally authorized publishing the verified Candana reader batch while
+preserving the homepage and plain layout.
+
+Current release work: [automated Sutta Nipāta import](candana-snp-import-2026-11-09.md).
+The source collection now has 874 Candana entries: the prior 801 AN entries plus all
+73 directly referenced Sutta Nipāta texts. The following older checkpoints retain their
+original counts; source preparation is not a claim that deployment has already occurred.
 
 ## Current result
 

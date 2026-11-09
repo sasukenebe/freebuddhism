@@ -126,6 +126,30 @@
       "plain_text_status": "PARTIAL_CANONICAL_MAPPING",
       "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
       "rights_status": "EXPLICIT_PERMISSION_VERIFIED"
+    },
+    {
+      "id": "sutta-nipata-391",
+      "title": "Sutta Nipāta — A New Translation (391-page source)",
+      "collection": "khuddaka-nikaya/sutta-nipata",
+      "translator": "Bhikkhu Candana",
+      "source_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-2ggf.pdf",
+      "sha256": "ff6fa85ebaed058886a2d52b1b0d3e1b29eeca3b26995a23bff6a50066e84495",
+      "license": "Candana — free distribution, unaltered contents",
+      "local_path": "theravada/tipitaka/translations/en/candana/books/sutta-nipata-391.pdf",
+      "permission_pages": [
+        7
+      ],
+      "conditions": [
+        "Copies must be available free of charge",
+        "Do not alter the contents"
+      ],
+      "formats": [
+        "Original PDF",
+        "Unaltered text in another medium"
+      ],
+      "plain_text_status": "VERIFIED_SOURCE_REFERENCES_AND_EXTRACTION",
+      "license_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-2ggf.pdf",
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED"
     }
   ]
 }

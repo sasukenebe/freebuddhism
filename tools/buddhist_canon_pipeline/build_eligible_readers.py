@@ -287,6 +287,7 @@ def collect_candana_records(output_root: Path) -> list[dict]:
             "body": body, "body_sha256": body_hash, "metadata_notes": notes,
             "original_book_path": repo_path(book["local_path"]),
             "original_book_url": book["source_url"],
+            "reuse_notice": item.get('reuse_notice', ''),
         })
     return records
 

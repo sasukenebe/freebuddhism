@@ -14,7 +14,7 @@ class NumberedBookTests(unittest.TestCase):
     def test_source_validator_package_entry_point(self):
         sys.path.insert(0, str(ROOT / "tools"))
         from buddhist_canon_pipeline.import_candana import verified_manifest as package_manifest
-        self.assertEqual(len(package_manifest(require_review=True)["texts"]), 801)
+        self.assertEqual(len(package_manifest(require_review=True)["texts"]), 874)
 
     def test_legacy_installer_cannot_discard_the_expanded_collection(self):
         with self.assertRaisesRegex(ValueError, "would discard numbered imports"):

@@ -1047,7 +1047,7 @@ def _write_continuous_reader(
                 "label": record["version_label"],
                 "translator": record["translator"],
                 "url": "/theravada/tipitaka/" + reader.as_posix(),
-                "reuse_notice": ("Copyright © Bhikkhu Candana, 2020, 2026. Free distribution only; do not alter the contents."
+                "reuse_notice": (record.get('reuse_notice') or "Copyright © Bhikkhu Candana, 2020, 2026. Free distribution only; do not alter the contents."
                                  if record.get("license") == CANDANA_LICENSE else ""),
                 "original_book_url": record.get("original_book_url", ""),
             })
@@ -2465,6 +2465,8 @@ def assemble_webroot(
     archive_names = sorted(set(archive_names))
     navigation_report = _write_navigation_pages(tipitaka_root, selected, allowed, impact_map, archive_names)
     for book in candana["books"]:
+        if not any(item['book'] == book['id'] for item in candana['texts']):
+            continue
         index = tipitaka_root / "sutta" / book["collection"] / "index.html"
         link = book["source_url"]
         note = (f'<h2>Bhikkhu Candana book</h2><p><a href="{html.escape(link, quote=True)}">'

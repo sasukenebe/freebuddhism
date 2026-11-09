@@ -81,13 +81,19 @@
     },
     {
       "path": "docs/tasks/candana-import-expansion-2026-11-07.md",
-      "sha256": "589f2a8531d1350c1f3496a9f9daca6331bed3fbf3fa773810c068da8d10c622",
+      "sha256": "5cda2d759d94618669cdf6cfe036787179f43ae754ba4bf222cbd275b9dbfedf",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
       "path": "docs/tasks/candana-ingestion.md",
       "sha256": "2ec0a5ca08fcb2d0ea3916ccbd36636d9f41bfe35da4a9d4e290394f22ada198",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "docs/tasks/candana-snp-import-2026-11-09.md",
+      "sha256": "a1c48723c20d9edebdf669f659e7b16ef3bec89448347eaba867053d58e60502",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -111,13 +117,13 @@
     },
     {
       "path": "metadata/eligible-assets.json",
-      "sha256": "ac94372604c1f70aab558cc5331999588fabfc6a254c3a3124c900d5b9d00743",
+      "sha256": "68fdaf8bb5b9170c9104396886ecef4f0894d26b2860ef2a8c10b28f4ae70e3f",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/eligible-texts.json",
-      "sha256": "a2fc6589c2af69227c9b21c4185a862c4ef17f90da9d2242c6341a09728cd38d",
+      "sha256": "235c6276b97af0f226bec862b8b84ea6cb1bbe6d243e7a23732438218a4b8c31",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -170,6 +176,12 @@
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
+      "path": "metadata/reports/candana-snp-import-2026-11-09.json",
+      "sha256": "79cebdcc0594d5c7350ede960a8b15775af821ae65a87c3a5cce56b5fd159d37",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
       "path": "metadata/reports/remediation-impact-map-2026-10.json",
       "sha256": "2c48f95227815c0346bce13903ca4622b87f6294fc4e6097d5c361e196ac4a34",
       "license_scope": "CC0-1.0 project metadata",
@@ -207,7 +219,7 @@
     },
     {
       "path": "metadata/source-manifests/candana.json",
-      "sha256": "582c659391d3511e3d48959a764a6e226247fc7626f2304a4b5b89a19856474d",
+      "sha256": "ce4ddd5756c188c11e01221f0bbe073834aa769087294a193c51730d17d2b089",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -333,7 +345,7 @@
     },
     {
       "path": "tests/test_candana.py",
-      "sha256": "36c97073f91c2c59f3bde5529c232df6944e0487ea504f9496af9b303f2118a1",
+      "sha256": "7424ca49b4936d12a2865489c308a410c989cb41bdec2e4fd5396318a08ac28b",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -351,7 +363,7 @@
     },
     {
       "path": "tests/test_candana_numbered.py",
-      "sha256": "5404eda66005c45981547f494d2b3b3b05e7d2f6aa184b0afaa602b6594fd60f",
+      "sha256": "4740347d7ab459ea50d3558773be762a6863560056b827e1723b7d756b514beb",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -380,6 +392,12 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tests/test_candana_sutta_nipata.py",
+      "sha256": "2f530cae1455741e6205758e2d16b344cc1013d33de970a5ef229a6b02d96402",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tests/test_public_candana_review.py",
       "sha256": "3691610e7843efbf2665b60fad3c343033f93f1360554ace0878b8d651e9b583",
       "license_scope": "0BSD",
@@ -387,7 +405,7 @@
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "30f0ff33fe349ed25af39779c01e691aeb61a5ffda4e818509274f9a031c3dc9",
+      "sha256": "96be4ef0f41524e3bacbcf63507578a30275ee5e9257c0debfe8c4ca85bade85",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -57278,8 +57296,452 @@
       "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
     },
     {
+      "path": "theravada/tipitaka/translations/en/candana/books/sutta-nipata-391.pdf",
+      "sha256": "ff6fa85ebaed058886a2d52b1b0d3e1b29eeca3b26995a23bff6a50066e84495",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
       "path": "theravada/tipitaka/translations/en/candana/books/sutta-nipata.pdf",
       "sha256": "bcb67ef9adbf34fd48b1458a6a05b151553b983e4ac35c7e90b2074e4b21fff6",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.1.txt",
+      "sha256": "f4d7bf70f150a25eb56f7a4b68bd2397c89caf981fa92e8a0ad66be8fb348718",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.10.txt",
+      "sha256": "48c8f57d714dcbcb393ed3ac2793677058196e2d68657f4263b893f8b4429e8c",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.11.txt",
+      "sha256": "fb9bb436c643e8f016ab84bea1f0440a1e272c6f4102b829dedbf1a1b900fbab",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.12.txt",
+      "sha256": "e90ec2e10e78ac0418aaf7e7db757abf968c47adddeee3dab4180b9bd7eff671",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.2.txt",
+      "sha256": "fa8205a477b3223187f7ee4848fba18d0859242831e6ef0d54a286598169f251",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.3.txt",
+      "sha256": "5f1fa1ee174baf4e847fc9df29fa2daddb3c589c99d37798479805dd961f498c",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.4.txt",
+      "sha256": "8a859b37a389b8163d0e4763426e63aa95134ae966dee8bd8c3fd718ac17e9d3",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.5.txt",
+      "sha256": "54527b24801d05e8b2bf34d5b52d315bf800ae58807037a4ad1187436e005b30",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.6.txt",
+      "sha256": "8668c28084f8636ea799dacfb07c22922559f22515eaf7e527ab190a282c6a6c",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.7.txt",
+      "sha256": "2c885e315c6b1f5b446d0829bbbf0da59a0911604e7d2df23676da8cc0e721e7",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.8.txt",
+      "sha256": "6caf7ba3129a295746d8dcb5cec9c526c79a6b59d71e1d0597669e447a2b61c5",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp1.9.txt",
+      "sha256": "f7737c0c94e6b050ffcf69d11644403cf16c0de2003153bae4660cb264f26403",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.1.txt",
+      "sha256": "7e9d6a8f39b97a6b499e5091be60fa870747d1b7ca836aeffecfd73e53b91794",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.10.txt",
+      "sha256": "43a33aaa46b707bccf37dc17ca2cfffd2f4d8bf064936ee75eaeea067a89ea3d",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.11.txt",
+      "sha256": "7cbec51ccb39ddc3e1c4b566ef274b3aecceec0cca491843aa5f3a3d3e8487d3",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.12.txt",
+      "sha256": "ccb97eb7b9b61ce327f6227c9f00a0414c919e2dfe6628f6ba7aa6295ff78c22",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.13.txt",
+      "sha256": "cccdab820bff265626e1919ad58765e1da29c12351c19883b39c6844b06dfd77",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.14.txt",
+      "sha256": "59c5a707c3c5dfe00e8e6ca4a40f3fe8e6dc59be0f9de0d7909d136420c8f462",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.2.txt",
+      "sha256": "b17c6f8fae60657b8b477f6dd0b8c8a7bbb4f130cab8ce6364fac9f143a9dae0",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.3.txt",
+      "sha256": "0072fd2e7e35bfca0274d97f0ccd07aeaf19d59ab53711f2d1b8c34921b23ae5",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.4.txt",
+      "sha256": "7635c69836536f18b7b314e167cda111d401d66cbbc6072863f839ff3e3e02a7",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.5.txt",
+      "sha256": "09468b5af08ac419800524bdcbc688aa3132aee70fc62bf2c7ff14e2fbd4e3d0",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.6.txt",
+      "sha256": "4c18675da689eb7ff692ce967260222837c77ac84915b6e57539fb9f4b3c3b76",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.7.txt",
+      "sha256": "025fa9708086e76c3d07dd9bdf6b624cd26b55e6965d1d5890431a9963411a4f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.8.txt",
+      "sha256": "ff9ae9555ef4a3b2cacae01ac20b5d0db8a4b38858e475ebc2161a8e816f9b34",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp2.9.txt",
+      "sha256": "a70afbd1eb460d67e76644be219686a3453ca4ff7da665a27af7b671111bf50d",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.1.txt",
+      "sha256": "e4dd3b46e8031edaa974cda0822e022d595a54a33fcb44bace611b5268f7252f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.10.txt",
+      "sha256": "f901ff56b2325982ff006ee2f335300920e026199ee04c33c01a84cb180c8113",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.11.txt",
+      "sha256": "79eb9f7106dd5c119b8e2fd125c66cfa83ee2247d41e8646f4f34f55aca40049",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.12.txt",
+      "sha256": "c017c59f2ab036216dddd0f175c248fa07baaa701e781833cba16b3790fcf645",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.2.txt",
+      "sha256": "8b2408e36b2f7cea732a72527df56199a6a71dd9b72790df87a1e211bc034ced",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.3.txt",
+      "sha256": "318cc0bc00f48db7ea1ee9f14e2bacea97cf119e9bc513675d67127c834d6fc5",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.4.txt",
+      "sha256": "345eaba9434cced459e5c0272b5e9c57b5cc4c9f97a002c30cb9d24ed3e6540f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.5.txt",
+      "sha256": "f421a1c97f65cc1856a5f27a79ef1cd7104eda7ce4e20657d9ea1c24f831a847",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.6.txt",
+      "sha256": "7ed4a33ca50f529ae5c70c0b515307c35dbdcfa5b592a0bfd0536dce3f9645ba",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.7.txt",
+      "sha256": "e8ccf812cdd6b16ab5ebf8b91118d0bb22e560bce72a4e5bc6e0368a2ce99b95",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.8.txt",
+      "sha256": "9aee702c596df00f922bb3b8517fab515dc13346bf7dce288f9fc6d371d6a7d2",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp3.9.txt",
+      "sha256": "5052025eff5126fce58cf8af83de159f0d77ec79b648f42a1bee15f040bf830c",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.1.txt",
+      "sha256": "100f27651d0518fafc23599c8674d71291a894b96a46255ea4525ad2cd22359d",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.10.txt",
+      "sha256": "cd9f0df51ed241e39956b7f36d3a899e9001cd7496ad33dab21b5cbcc3281b18",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.11.txt",
+      "sha256": "1bce643810b2eab77005d3d0f02d0bf6012c902d8a9c1b62573fd8e0cd0f77f0",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.12.txt",
+      "sha256": "81e895b928cea0531fbb6a11a6923f8c73f7012922f4c56bbc3a9bc26e988455",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.13.txt",
+      "sha256": "7ed9301a0a1ae501af7b2a5227ab4150d7061be5107ab539255246df7c91ec0f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.14.txt",
+      "sha256": "5821d5f9aa6c11f33edb2a650f82c6513784d1ee2588ccb10a6a914122008ebf",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.15.txt",
+      "sha256": "bdd0cd595d01de85af3071b3342b31de5c14007d9a2f8e8acf4a65ab739ac44b",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.16.txt",
+      "sha256": "d1422d526ee8c3b7d17198cb10dbe1fd244ab4cce40c716755b0e6e653613112",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.2.txt",
+      "sha256": "aaa771f9266b9877669241332a036655cecbf6f7a2eb298e9c8caa5a692feffb",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.3.txt",
+      "sha256": "f86e1e13992a7ac019a2c9f7bb59137fd98b5f57e59c7f560abd110d3d26bba1",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.4.txt",
+      "sha256": "93b5f884c19c14e03950a9b6c913342877f062feeb226b6ee99b4b170fe3e83f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.5.txt",
+      "sha256": "cdff711e47f5e2fef5d45f43a01f8112afe988ab866550fe05c5756514d7226f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.6.txt",
+      "sha256": "2503f72f73ffd5440705bfb20ed5ee500c418b24479eba0c4dd7f0668e10082a",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.7.txt",
+      "sha256": "094295a78fc293778599df4f57b48d42305fbacbf452116ff2aca31f2a1650d2",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.8.txt",
+      "sha256": "08df1ca3bfafba84a2cbc82830c5265924a497e8c6f349a00b36d26985ac5bf8",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp4.9.txt",
+      "sha256": "e1aad4402f123adc00e87babd1ebfa3a44d37c6cc511dbefff6deeab715bd49f",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.1.txt",
+      "sha256": "961e2fad45d8866cf57917757747aebeef010959031b10559d964f8547120df2",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.10.txt",
+      "sha256": "137c78cb1e501a00018ba2fbdb3ad08ce50de5f2085a7ba5d338a472b93fa872",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.11.txt",
+      "sha256": "87b717e50a2194513afb19686626fd3015ce13a2433aaf9ea3afbc6c5efbd5f0",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.12.txt",
+      "sha256": "d6c06db6fc977067561890ec5b23aa264e3ee36e6a6e48333eb80a35cd75dc99",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.13.txt",
+      "sha256": "ec04190737e1d1c7aeb3a59d9a9909f87b3a7e310dfac49ad13ebe04feaecaf4",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.14.txt",
+      "sha256": "7325148b39523c245a9abaf6729f6c0c1f8754fe139276a464a7eb13b5d77e30",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.15.txt",
+      "sha256": "c1d06f1e5ea035d933221cedc9e455e6535fb4f3e2acb6b8776aeb82ddc5efb3",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.16.txt",
+      "sha256": "b6a2c1e73947c854bc6fdee5d257725333e916351e00bc7601dd131610220670",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.17.txt",
+      "sha256": "5b6e25f550d06f0a6fa049fe93b3d9fadac505bb3b4c313fabcc098dc37a8756",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.18.txt",
+      "sha256": "4cb6dfb7181cbf5b7b207ee2b935a1b05dfe136b86f483136dfaff1486cd1a54",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.19.txt",
+      "sha256": "6336e16673a42c61ab3eee07e914d18b4e42282cf3fc363ea7b9ca1fbc5cefd6",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.2.txt",
+      "sha256": "550cb8c46e9df2fbbc508942c6b8deadde7fffaca0314a5e6a73715201f129fe",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.3.txt",
+      "sha256": "2b8734f07e5f0683e93eb0bed6b25605b00ff0c25534ed749607ed60dc76cf76",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.4.txt",
+      "sha256": "c476acb63f255484cfcbf71a15bc00193b454f56d1d9a392ee7a61a595e658d4",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.5.txt",
+      "sha256": "bcb54ab1bcc9c37096c91aed5d24622924b3c69d9bdd76388965b554d747da4d",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.6.txt",
+      "sha256": "5e7b18283ea9ee70b7c43316a13c5f8e715d9bf02c6c81788981c158e62a35a5",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.7.txt",
+      "sha256": "f1e77f903ca437f984c2c1a7179cbef8c3f22f23cc90079d58c71403dbbc13dd",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.8.txt",
+      "sha256": "784d011c83c9c34aa7ed33c8f9583088d738354e2494bcc5ba926f4423e58a27",
+      "license_scope": "Candana — free distribution, unaltered contents",
+      "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/candana/snp/snp5.9.txt",
+      "sha256": "692e8b14b5ab7b010c92a115c9422edf9dc38b38370f3266f4937f690f9d3a44",
       "license_scope": "Candana — free distribution, unaltered contents",
       "rights_basis": "The exact source PDF grants redistribution in any medium, free of charge and without altering its contents; its notice and the source SHA-256 are recorded in the Candana manifest."
     },
@@ -95463,13 +95925,13 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "778be1e57ebffa4d6e36a0d922db13c798a2861983cd82c46753e39f22924d50",
+      "sha256": "78908c22b402bd062d863ac77a7ae564488d50883b3578c15d14ed07ccc82ff4",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_eligible_readers.py",
-      "sha256": "54a5584af21283121c01f033eda17251d6589cc8b79bf9702d6a4a1ddd8efaeb",
+      "sha256": "86557bf7c79d0e573c7cdf72603eb5dce1c5f5e548956893134439038dce2d17",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95498,8 +95960,14 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tools/buddhist_canon_pipeline/candana_sutta_nipata.py",
+      "sha256": "482ce3521ce38de0c5e358c2f5d1c490ddc343021bf42417bb88a56b0a1bc54b",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tools/buddhist_canon_pipeline/import_candana.py",
-      "sha256": "ac7b80ed15d628852e805b3e7ed9c6e37b3a76b60f50cd0b55ba778a4f4fd905",
+      "sha256": "4ce4a790eea5ae0c90bea5c82125aae0b8085b76061840d4a8c1b6a0e84a1992",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
