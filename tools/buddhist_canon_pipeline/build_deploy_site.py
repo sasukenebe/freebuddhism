@@ -893,7 +893,8 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       const section=document.createElement("section");section.className="continuous-text";
       section.id=item.slug;
       const heading=document.createElement("h2");heading.id=item.slug+"-heading";
-      heading.textContent=item.title;section.append(heading);
+      const nodeLink=document.createElement("a");nodeLink.href=item.url;
+      nodeLink.textContent=item.title;heading.append(nodeLink);section.append(heading);
       const label=document.createElement("label");label.className="edition-choice";label.hidden=true;
       label.append(document.createTextNode("Translation for this text: "));
       const select=document.createElement("select");select.setAttribute("aria-label","Translation for "+item.canonical_id);
@@ -1058,7 +1059,11 @@ def _write_continuous_reader(
     page.write_text(
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        '<title>All Text on One Page</title>\n<style>.reader-text{font-size:var(--reader-text-size,1em)}.reader-text pre{font:inherit;white-space:pre-wrap}summary>h2{display:inline}button,input,select{font:inherit}</style>\n'
+        '<title>All Text on One Page</title>\n<style>'
+        '.continuous-text>h2{font-size:calc(1.5 * var(--reader-text-size,1em));font-weight:bold}'
+        '.reader-text{font-size:var(--reader-text-size,1em)}'
+        '.reader-text pre{font:inherit;white-space:pre-wrap}'
+        'summary>h2{display:inline}button,input,select{font:inherit}</style>\n'
         '</head>\n<body>\n' + site_navigation() + '\n<header>\n'
         '<nav id="reader-breadcrumbs" aria-label="Breadcrumb"></nav>\n'
         '<h1 id="reader-title">All Text on One Page</h1></header>\n<main>\n'

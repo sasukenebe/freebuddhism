@@ -789,6 +789,22 @@ class PublicReleasePolicyTests(unittest.TestCase):
             self.assertIn(Path("site/reading-index.json"), allowed)
             self.assertIn(Path("site/read.html"), allowed)
 
+    def test_continuous_text_headings_link_to_nodes_and_scale_above_body_text(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            _write_continuous_reader(root, {}, {})
+            reader = (root / "site/read.html").read_text(encoding="utf-8")
+        self.assertIn('const heading=document.createElement("h2")', reader)
+        self.assertIn('const nodeLink=document.createElement("a");nodeLink.href=item.url;', reader)
+        self.assertIn('nodeLink.textContent=item.title;heading.append(nodeLink);section.append(heading);', reader)
+        self.assertNotIn('nodeLink.href="#"', reader)
+        self.assertNotIn('heading.textContent=item.title;section.append(heading);', reader)
+        self.assertIn('.continuous-text>h2{font-size:calc(1.5 * var(--reader-text-size,1em));font-weight:bold}', reader)
+        self.assertIn('.reader-text{font-size:var(--reader-text-size,1em)}', reader)
+        self.assertIn('link.href="#"+item.slug', reader)
+        self.assertNotIn('font-family:', reader)
+        self.assertNotIn('max-width:', reader)
+
     def test_navigation_is_shared_by_vinaya_and_sutta_and_preserves_reader_body(self):
         nodes = navigation_nodes()
         path = collection_path("vinaya/bhikkhu-vibhanga", nodes)
