@@ -42,6 +42,21 @@ changed sources/audits/readers, duplicate IDs, missing folios, actual body numer
 preserved hard breaks, stale reports and repeat installation. The build verifies reader
 text, generated PDF text, archive membership and site links. It reuses unchanged PDFs.
 
+After a build, run python tools/buddhist_canon_pipeline/check_candana_readers.py.
+It independently parses every Candana HTML source body and compares every character,
+including whitespace, with its checked TXT. Missing, duplicate, changed or malformed
+readers fail. No AI call is made, and unrelated translations are not fetched.
+Use --output with a new report path below build/ to retain the result. Add
+--public-base https://freebuddhism.org after deployment to check the actual public bytes.
+The command refuses other hostnames and unexpected redirects.
+GitHub CI runs the complete reader comparison after each site build automatically.
+
+The report also selects the first, middle and final reader from each imported book,
+with original-PDF page links, converted text and its translation-choice page. These
+are suggested layout samples, not fabricated human approvals. Test all characters
+automatically; visually check representative layouts and every unresolved exception.
+There is no reason to ask a model to rewrite the PDF or inspect every ordinary paragraph.
+
 Continue using the existing background collector and private draft timer. They cache
 and compare unfamiliar sources but never update the eligible manifests or publish.
 New layouts need a checked recipe, not a new model-driven conversion for every sutta.
@@ -61,7 +76,7 @@ Rights, layout and mapping exceptions remain explicit rather than being auto-app
   final Snp 5.19, AN Books One–Three, source suffixes, the combined cloth text,
   translator switching and a held-AN fallback. Check node links, natural desktop/mobile
   wrapping, Unicode, preserved verse starts and unchanged displayed source text.
-- Verify all 73 generated Sutta Nipāta HTML bodies automatically, not just samples.
+- Verify all 874 generated Candana HTML bodies automatically, not just samples.
   Keep the homepage hash, existing translation files and public review snapshot unchanged.
 
 The 13 later AN Book Three source groups and the Manual's 20 number-placement cases

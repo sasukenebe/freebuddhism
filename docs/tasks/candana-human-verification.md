@@ -55,11 +55,22 @@ Do not return to a bare `python -m http.server` command that omits text encoding
 
 ## Current scope
 
+The November 9 import update prepares 874 ordinary Candana readers: 801 AN entries
+plus all 73 Sutta Nipāta entries. The new source recipe verifies their exact Snp
+references and source text automatically. The older preparation notes below remain
+historical; see [the current import/release checkpoint](candana-snp-import-2026-11-09.md)
+for deployment status. Full human proofreading is still not claimed.
+
+The reusable check_candana_readers.py command compares every prepared or public
+Candana reader with its pinned TXT and supplies original/converted links for three
+layout samples per book. This supplements the full source-PDF audit; it does not
+clear the Manual's 20 number-placement cases, 13 held AN groups or ungranted sources.
+
 - The discovered queue contains 227 downloaded PDFs, 14 discovery pages and two
   missing offers. Completing that queue is not proof that every work on the
   internet has been found.
-- There are 801 Candana reading entries imported into the source collection.
-  This is not 801 books, a full-page human proofread, or a public-site release.
+- There are 874 Candana reading entries imported into the source collection.
+  This is not 874 books, a full-page human proofread, or proof of a public-site release.
   This checklist does not roll back those earlier imports or invent new results.
 - Continue permitted written sources first. Audio transcription remains a later
   stage; no audio conversion, author message or paid service is authorized here.

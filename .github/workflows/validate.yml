@@ -58,3 +58,5 @@ jobs:
         run: python -m unittest discover -s tests
       - name: Build and validate site, archives and local links
         run: python tools/buddhist_canon_pipeline/build_deploy_site.py --reader-jobs 2
+      - name: Compare every Candana reader against its pinned source text
+        run: python tools/buddhist_canon_pipeline/check_candana_readers.py --output build/candana-reader-check.json

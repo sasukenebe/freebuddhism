@@ -9,7 +9,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "4dcbb126b8d2ffdb1bb158450c8fe3cab7dafc4ccc0d55e51049e6341796b409",
+      "sha256": "9dcd489d04567dd95a4ca4f2759ffbd922d65b203a7b04d08190f07da96c8432",
       "license_scope": "CC0-1.0 project configuration",
       "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
     },
@@ -75,7 +75,7 @@
     },
     {
       "path": "docs/tasks/candana-human-verification.md",
-      "sha256": "db4f06929ea29b1604f4c28b3c4822f8629ad8fdd8583d311d6c1e37898d68af",
+      "sha256": "b47eea871ad001e53bf042036339282f3cddbe501500db941a29c8285e9bcde0",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -93,7 +93,7 @@
     },
     {
       "path": "docs/tasks/candana-snp-import-2026-11-09.md",
-      "sha256": "a1c48723c20d9edebdf669f659e7b16ef3bec89448347eaba867053d58e60502",
+      "sha256": "39f7c1fa887d1009010baba89a0b31bbcccab6972f40db52241b8ae7c9be2b3f",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -376,6 +376,12 @@
     {
       "path": "tests/test_candana_queue.py",
       "sha256": "5830112a2595dc825f5e51a2247021b977b5aa1787a4129395116fd1aff09ac5",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_candana_reader_check.py",
+      "sha256": "e4433f11f17b872714f008a5a9274a85cf5ee79423b6c58ece5b3f390c223f85",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95962,6 +95968,12 @@
     {
       "path": "tools/buddhist_canon_pipeline/candana_sutta_nipata.py",
       "sha256": "482ce3521ce38de0c5e358c2f5d1c490ddc343021bf42417bb88a56b0a1bc54b",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/check_candana_readers.py",
+      "sha256": "2e77cdcedcca1b1e29bfc914db68e71a40c5d4e87b4e699e1f8138996917dd32",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
