@@ -4,6 +4,10 @@ The owner requests an inventory of the actual written works Candana offers, foll
 by their permission-supported ingestion. Counts of downloaded PDFs are not enough.
 Keep the original homepage and plain reading layout. Audio transcription stays deferred.
 
+For human updates, say "Candana texts not yet on our website", not "standalone
+missing references". Say "downloaded copies" only when the distinction matters;
+do not make the reader decode storage or internal numbering terminology.
+
 ## Current result
 
 The November 9 live check finds 874 Candana reader entries: 452 AN Book One,
@@ -63,7 +67,67 @@ its PDF page, text hash and excerpt. Fourteen offers contain such words; nine ar
 already granted. A word such as permission in a sutta's dialogue is not a reuse grant.
 No keyword match changes rights or approves publication.
 
+The follow-up whole-PDF pass is complete for all 195 downloaded files representing
+the 189 pending texts or small groups. All 1,725 pages pass ordered-character
+comparison with PyMuPDF and raw Poppler after NFC. No image-only page or comparison
+failure was reported. The only word-boundary disagreement is the MN 1 heading
+described below. A repeated pass reuses all 195 results and performs zero new
+conversions. These are extraction checks, not a complete visual proofread, approved
+text-to-site mapping, or redistribution permission.
+
+The new seven regression tests cover bounded progress, no repeated conversion,
+changed inputs/tools/results, disagreements, failed checks, unsafe paths and output
+ownership. The complete suite runs 173 methods: 172 pass and one optional integration
+is skipped. Browser checks verify all 195 original/converted link pairs, readable
+plain-language labels, ordinary fonts and mobile wrapping. The private permission
+request is a draft only; no message was sent. Live content remains the existing
+874 Candana entries, and the homepage is unchanged.
+
 ## Next ingestion work
+
+### Automatic checks for the next texts
+
+The command python tools/buddhist_canon_pipeline/check_candana_missing.py --limit 25
+continues independent whole-PDF comparisons for the 195 downloaded files representing
+the 189 pending texts or small text groups. It makes no publisher request, model call,
+or website change. Existing comparisons are reused only after their input/output
+hashes and tool versions still match. An interrupted or changed result cannot silently
+become a successful old check. Failed checks and every disagreement stay visible.
+
+The installed candana-text-check user timer runs a bounded batch of at most 25
+new checks, then waits one minute after completion. This is local processing only;
+the network collector retains its existing 120-second pacing and backoff. A lock
+prevents overlapping check workers. Use systemctl --user stop candana-text-check.timer
+to stop only this new check timer; stopping it does not erase results.
+
+The optional audit Python environment needs PyMuPDF and the existing Poppler tools.
+Set CANDANA_AUDIT_PYTHON in the user's untracked text-checks.env under
+.config/freebuddhism to select that environment. The published units contain no
+machine-specific Python path, account detail or credential. A missing dependency
+fails the job; it must not be reported as a text PASS.
+
+Results remain private in build/candana-text-checks: a plain index.html with
+Original PDF / Converted text links, per-text comparison.json and result.json,
+and an aggregate report.json. No draft becomes an eligible public edition automatically.
+
+The first seven complete texts cover 330 PDF pages: MN 1 (93), DN 1 (67), DN 2
+(49), DN 16 (88), MN 10 (24), SN 22.59 (4) and SN 56.11 (5). Every page passes
+ordered-character comparison with PyMuPDF and raw Poppler after NFC. Word boundaries
+are checked separately, not hidden by ignoring whitespace. MN 1 page 1 has one
+spacing disagreement: raw Poppler joins A. to Puthujjana; MuPDF retains the space
+visible in the source image. The other six texts have no word-boundary disagreement.
+Both original extractions remain unchanged. No complete human proofread is claimed.
+
+Assistant image samples: MN 1 pages 1, 47 and 93; DN 16 pages 1, 44 and 88.
+Opening/closing text, the sampled repeated MN 1 passages and DN 16 verse are visible
+and retained. DN 16's verse-line structure must be preserved in any later reader recipe.
+These six images are not evidence of visual coverage of all 330 pages.
+
+The seven exact PDFs show copyright notices, but this check did not find their own
+redistribution grant. Searching the downloaded publisher pages and indexed publisher
+permission statements did not establish a broader grant. The earlier AN/Snp book
+notices are not silently applied to different PDFs. Prepare one consolidated request
+if published permission remains unavailable; no message has been sent.
 
 1. Resolve the 13 held source groups in the already permission-cleared AN Book Three.
    A separate worker should propose exact source-to-site correspondences and preserve

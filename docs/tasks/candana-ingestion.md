@@ -11,12 +11,15 @@ available, and existing explicit reader preferences remain respected.
 
 The owner requested continued imports and a complete list of actual written works,
 not just extraction drafts or PDF counts. The [current work inventory and next imports](candana-corpus-inventory-2026-11-09.md)
-records 874 live Candana readers, 189 additional standalone reference groups and the
-13 held AN Book Three source groups. Use that checkpoint and the automatic corpus
+records 874 live Candana readers, 189 additional texts or small groups not yet on the
+website, and 13 held parts of AN Book Three. Use that checkpoint and the automatic corpus
 command for current work. The November 7 counts and source holds below are historical.
 
 - The authorized November 9 release publishes all 874 prepared Candana entries.
   Future discovery, private preparation and an actual public release remain separate.
+- Use plain language in human updates: texts, downloaded copies, original PDF,
+  converted text, and what is or is not on the website. Internal reference IDs and
+  storage terminology belong in the technical evidence when needed, not the summary.
 - Text first: seek native editable text before converting PDFs. Use plain,
   reflowable text in the existing font and page layout. Source PDFs are evidence,
   not embedded readers or packaged whole-book blobs. Generate optional reader

@@ -50,7 +50,7 @@ class CandanaCorpusTests(unittest.TestCase):
         self.assertIsNone(result['summary']['whole_corpus_percentage'])
         offline = census(q, rows, manifest, files.__getitem__)
         self.assertEqual(offline['next_import_groups'], [])
-        self.assertIn('LIVE STATUS NOT CONFIRMED', render(offline)[0])
+        self.assertIn('has not confirmed it is live', render(offline)[0])
 
     def test_duplicate_bytes_and_duplicate_references_are_separate(self):
         q, rows, manifest, files = self.fixtures()

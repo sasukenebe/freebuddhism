@@ -1,0 +1,12 @@
+[Unit]
+Description=Keep checking Candana texts not yet on the website
+
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=1min
+AccuracySec=15s
+RandomizedDelaySec=15s
+Unit=candana-text-check.service
+
+[Install]
+WantedBy=timers.target

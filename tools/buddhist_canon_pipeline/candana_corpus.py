@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconcile cached Candana offers, actual references and imported readers; never publish."""
+"""List Candana's downloaded works and texts not yet on our website; never publish."""
 
 from __future__ import annotations
 
@@ -249,19 +249,19 @@ def census(queue: dict, inventory: list, manifest: dict, read, live_index=None) 
 
 def render(report):
     summary = report['summary']
-    lines = ['CANDANA — WHAT IS LIVE AND WHAT IS STILL MISSING',
-             f"Live reader entries: {summary['live_reader_entries'] if summary['live_reader_entries'] is not None else 'Not checked'}",
-             f"Downloaded written offers: {summary['downloaded_offers']}/{summary['written_offers']}",
-             'File count is not a count of distinct texts. Same-reference editions may differ.', '']
-    body = ['<h1>Candana — works and missing readers</h1>',
-            '<p>This is a private work inventory, not a publication approval or a complete internet census.</p>',
+    lines = ['CANDANA — WHAT IS ON OUR WEBSITE AND WHAT IS STILL MISSING',
+             f"Candana text pages on our website: {summary['live_reader_entries'] if summary['live_reader_entries'] is not None else 'Not checked'}",
+             f"Downloaded files: {summary['downloaded_offers']} of {summary['written_offers']} found links",
+             'Different files may contain the same text or different versions of it.', '']
+    body = ['<h1>Candana — what is on our website and what is still missing</h1>',
+            '<p>This lists the texts found so far. It does not claim we have found everything Candana has published or have permission to publish every text.</p>',
             ''.join('<p>' + html.escape(line) + '</p>' for line in lines if line) + '<ol>']
     for group in report['groups']:
-        state = ('REFERENCE NEEDS CHECKING' if group['needs_reference_review'] else
-                 'IMPORTED BOOK SOURCE' if group['has_imported_source'] else
-                 'CANDANA READER EXISTS; STANDALONE EDITION NOT EQUATED' if group['same_reference_is_live'] else
-                 'CANDANA READER IMPORTED; LIVE STATUS NOT CONFIRMED' if group['same_reference_is_imported'] else
-                 'NO CANDANA READER FOR THIS REFERENCE')
+        state = ('Which text this file contains still needs checking.' if group['needs_reference_review'] else
+                 'This book supplies texts already added to the website.' if group['has_imported_source'] else
+                 'Candana’s translation is already on our website; this separate edition may differ.' if group['same_reference_is_live'] else
+                 'The text is prepared, but this check has not confirmed it is live.' if group['same_reference_is_imported'] else
+                 'Candana’s translation is not yet on our website.')
         lines.extend([group['reference_group'] + ' — ' + state,
                       *('  ' + u for u in group['source_urls']), ''])
         body.append('<li><h2>' + html.escape(group['reference_group']) + '</h2><p>' + state + '</p><ul>')

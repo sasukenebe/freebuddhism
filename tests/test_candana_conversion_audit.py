@@ -20,6 +20,9 @@ class ConversionAuditTests(unittest.TestCase):
             compare_pages(['page 1', 'page 2'], ['page 1'])
 
     def test_word_boundaries_and_explicit_folio_labels(self):
+        comparison = compare_pages(['fi\nlling'], ['filling'])[0]
+        self.assertTrue(comparison['nfc_nonspace_match'])
+        self.assertFalse(comparison['nfc_word_boundaries_match'])
         data = ('<section id="snp1.1"><div class="converted-text"><p>snake bite.<br>Thus, '
                 'the Bhikkhu</p><p class="source-folio">22 '
                 '<span class="editorial">[printed page number]</span></p></div></section>')

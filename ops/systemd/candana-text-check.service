@@ -1,0 +1,13 @@
+[Unit]
+Description=Check downloaded Candana texts without publishing them
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/repos/personal/freebuddhism
+Environment=CANDANA_AUDIT_PYTHON=python3
+EnvironmentFile=-%h/.config/freebuddhism/text-checks.env
+ExecStart=/usr/bin/env ${CANDANA_AUDIT_PYTHON} %h/repos/personal/freebuddhism/tools/buddhist_canon_pipeline/check_candana_missing.py --limit 25
+TimeoutStartSec=10min
+Nice=10
+UMask=0077
+Environment=PYTHONDONTWRITEBYTECODE=1

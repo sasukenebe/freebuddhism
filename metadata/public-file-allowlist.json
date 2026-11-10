@@ -75,7 +75,7 @@
     },
     {
       "path": "docs/tasks/candana-corpus-inventory-2026-11-09.md",
-      "sha256": "588bf80222041ce12980fb6ff94e198bdecb237cfe34d23450a09fd04ff58b1c",
+      "sha256": "9cb1d5ca6d898c12d0df00b4ddb56539eb2d14a7ede5c13fe491854cb6971657",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -93,7 +93,7 @@
     },
     {
       "path": "docs/tasks/candana-ingestion.md",
-      "sha256": "7843c638100c835c44db55881193822d41bbbb848dc0acd4aaf8daff08538196",
+      "sha256": "7eeaac7007ffc615487d4f6f4357245092c5e507b56688ad5bb2f7f96a2ec847",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -320,6 +320,18 @@
       "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
     },
     {
+      "path": "ops/systemd/candana-text-check.service",
+      "sha256": "35160a0f39fd5f527188096014020f8528871b72b93546d8495f442c86e84f3f",
+      "license_scope": "CC0-1.0 project configuration",
+      "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "ops/systemd/candana-text-check.timer",
+      "sha256": "40262a81f0f8587b5d7e27ca665bc3b643b94d76d83844b533474f235a88b246",
+      "license_scope": "CC0-1.0 project configuration",
+      "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": "requirements.txt",
       "sha256": "84f17c0ff56e772053b11dc2646f23bc359068c95026729ceaca7867f1f5f19c",
       "license_scope": "CC0-1.0 project configuration",
@@ -363,13 +375,19 @@
     },
     {
       "path": "tests/test_candana_conversion_audit.py",
-      "sha256": "092572a77030237952adc2b59e20bab9eb5e2a696007fcef2283e1595ac53e7a",
+      "sha256": "9875421ad70b8f1b2796b04ded2531c0036aba593c66ef5da2336193aa30002a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tests/test_candana_corpus.py",
-      "sha256": "047db33c8a86d0eff5543b5212a9502c2b6c74937871bef445f4fae79e345191",
+      "sha256": "42556ace5459265640adf8ddfa8c5f69a4d75d8168b4dab60db88a3bf5ecd1f2",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_candana_missing.py",
+      "sha256": "91c8f81aaa7646e97f8bdf271e9ca521189bb1252814a2d05143290cd74cedef",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95955,7 +95973,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/candana_corpus.py",
-      "sha256": "79bbc897cbba20b88b0fb03dbbd512b755121b1e206cb2543a02b024dff510d8",
+      "sha256": "1aee8d03fec68d265aedd6457977e5159fb61932b63d2847661cd757894e1313",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95986,6 +96004,12 @@
     {
       "path": "tools/buddhist_canon_pipeline/candana_sutta_nipata.py",
       "sha256": "482ce3521ce38de0c5e358c2f5d1c490ddc343021bf42417bb88a56b0a1bc54b",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/check_candana_missing.py",
+      "sha256": "1606445881a1ed44bd65cdbe2cf1a1f332a1e663131d57962180c76c21b56aa5",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -96051,7 +96075,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/verify_candana_conversion.py",
-      "sha256": "ed4e70a6bd96d7451ce2a0489f2bf26a1825038952ac7e92e0b8bcd166e28028",
+      "sha256": "92a63e55c532df98c1222a5bbca9afa2d3dd06cc2a6916aa9c9cdbd465cb0380",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

@@ -70,7 +70,10 @@ def compare_pages(reference: list[str], actual: list[str]) -> list[dict]:
     if len(reference) != len(actual):
         raise ValueError('Extractor page count mismatch')
     return [{'pdf_page': n, 'exact_nonspace_match': compact(a) == compact(b),
-             'nfc_nonspace_match': compact(a, True) == compact(b, True)}
+             'nfc_nonspace_match': compact(a, True) == compact(b, True),
+             'exact_word_boundaries_match': a.split() == b.split(),
+             'nfc_word_boundaries_match': unicodedata.normalize('NFC', a).split()
+                 == unicodedata.normalize('NFC', b).split()}
             for n, (a, b) in enumerate(zip(reference, actual), 1)]
 
 
@@ -146,7 +149,10 @@ def audit(pdf: Path, text: Path, metadata: Path | None = None) -> dict:
                       artifact_hashes_verified=len(manifest['output_hashes']),
                       html_word_boundaries='PASS')
     report.update(status='TEXT_COMPARISON_PASS' if not failures else 'DISAGREEMENTS_RETAINED',
-                  disagreements=failures)
+                  disagreements=failures,
+                  word_boundary_disagreements=[f'{engine}: page {row["pdf_page"]}'
+                      for engine, rows in comparisons.items() for row in rows
+                      if not row['nfc_word_boundaries_match']])
     return report
 
 
