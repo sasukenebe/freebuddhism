@@ -1,6 +1,6 @@
 # Candana translations and default editions
 
-Updated: 2026-11-07
+Updated: 2026-11-09
 
 The owner requests the largest permission-supported import of Bhikkhu Candana's
 translations, with Candana preferred wherever available. Explicit permission is
@@ -9,14 +9,14 @@ available, and existing explicit reader preferences remain respected.
 
 ## Current state and newest owner instructions
 
-The owner requested continued imports, not just more extraction drafts.
-See [the November 7 import expansion](candana-import-expansion-2026-11-07.md) for the
-new 349 reader entries, completed collector queue and exact remaining book mappings.
-The earlier counts and holds below describe their dated checkpoints.
+The owner requested continued imports and a complete list of actual written works,
+not just extraction drafts or PDF counts. The [current work inventory and next imports](candana-corpus-inventory-2026-11-09.md)
+records 874 live Candana readers, 189 additional standalone reference groups and the
+13 held AN Book Three source groups. Use that checkpoint and the automatic corpus
+command for current work. The November 7 counts and source holds below are historical.
 
-- Work is prepared on the feature branch below; no Candana release has been deployed.
-  The owner authorized committing and pushing this work, then testing reusable
-  batch preparation on more downloaded texts. That is not public deployment approval.
+- The authorized November 9 release publishes all 874 prepared Candana entries.
+  Future discovery, private preparation and an actual public release remain separate.
 - Text first: seek native editable text before converting PDFs. Use plain,
   reflowable text in the existing font and page layout. Source PDFs are evidence,
   not embedded readers or packaged whole-book blobs. Generate optional reader
@@ -29,7 +29,7 @@ The earlier counts and holds below describe their dated checkpoints.
 - Validate the converter against visible PDF pages before applying it to the
   rest. Do not represent engine agreement as an exhaustive human certification.
 
-### Completed preparation
+### Earlier preparation checkpoint — November 7
 
 - Two exact, permission-cleared source PDFs are pinned for reproducible evidence.
   AN Book 1 supplies 627 numbered passages mapped to 452 reader units. The three

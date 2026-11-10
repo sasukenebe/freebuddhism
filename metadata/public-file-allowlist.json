@@ -74,6 +74,12 @@
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
+      "path": "docs/tasks/candana-corpus-inventory-2026-11-09.md",
+      "sha256": "588bf80222041ce12980fb6ff94e198bdecb237cfe34d23450a09fd04ff58b1c",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": "docs/tasks/candana-human-verification.md",
       "sha256": "b47eea871ad001e53bf042036339282f3cddbe501500db941a29c8285e9bcde0",
       "license_scope": "CC0-1.0 project documentation",
@@ -87,7 +93,7 @@
     },
     {
       "path": "docs/tasks/candana-ingestion.md",
-      "sha256": "2ec0a5ca08fcb2d0ea3916ccbd36636d9f41bfe35da4a9d4e290394f22ada198",
+      "sha256": "7843c638100c835c44db55881193822d41bbbb848dc0acd4aaf8daff08538196",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -358,6 +364,12 @@
     {
       "path": "tests/test_candana_conversion_audit.py",
       "sha256": "092572a77030237952adc2b59e20bab9eb5e2a696007fcef2283e1595ac53e7a",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_candana_corpus.py",
+      "sha256": "047db33c8a86d0eff5543b5212a9502c2b6c74937871bef445f4fae79e345191",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -95938,6 +95950,12 @@
     {
       "path": "tools/buddhist_canon_pipeline/build_eligible_readers.py",
       "sha256": "86557bf7c79d0e573c7cdf72603eb5dce1c5f5e548956893134439038dce2d17",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/candana_corpus.py",
+      "sha256": "79bbc897cbba20b88b0fb03dbbd512b755121b1e206cb2543a02b024dff510d8",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
