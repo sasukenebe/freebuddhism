@@ -35,6 +35,16 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def replace_numbered_rows(existing: list[dict], replacements: list[dict]) -> list[dict]:
+    """Replace this book family without moving unrelated books or editions."""
+    def selected(row):
+        return row.get('book', row.get('id')) in BOOK_IDS
+    positions = [i for i, row in enumerate(existing) if selected(row)]
+    insertion = positions[0] if positions else len(existing)
+    return ([row for row in existing[:insertion] if not selected(row)]
+            + replacements + [row for row in existing[insertion:] if not selected(row)])
+
+
 def book_three_map() -> dict[str, list[str]]:
     """Source labels are retained; no suffix stripping or blanket numeric offset."""
     result = {f"AN 3.{number}": [str(number)] for number in range(1, 81)}
@@ -46,6 +56,11 @@ def book_three_map() -> dict[str, list[str]]:
     # includes both halves. Preserve both source sections, in order, in one reader.
     result["AN 3.99"] = ["97", "98"]
     result.update({f"AN 3.{number + 1}": [str(number)] for number in range(99, 155)})
+    # Reviewed against both complete bodies and PDF 284–286: source 155 is
+    # the three-practice teaching whose middle practice is the four foundations
+    # of mindfulness. Source 156 instead groups six further practices and must
+    # not be attached to just AN 3.157 or split by an assumed numeric offset.
+    result["AN 3.156"] = ["155"]
     return result
 
 
@@ -148,7 +163,7 @@ def plan(root: Path, source_paths: dict[str, Path]) -> tuple[list[dict], list[di
                         "translation_pages": [recipe["first_page"], recipe["last_page"]],
                         "source_sections": len(by_label), "imported_source_sections": len(used),
                         "imported_readers": len(groups), "held_source_labels": held,
-                        "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.155. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99.",
+                        "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; the site's chapter heading alone is not its scope.",
                         "scope_limit": "Later Book Three practices, paired good/evil conduct, and passion repetitions require grouped correspondence; they are not attached to incorrect single-sutta IDs."}
     report = {"schema_version": 1, "observed": "2026-11-07", "status": "SOURCE_VERIFIED_WITH_EXPLICIT_MAPPING_LIMITS",
               "recipe_sha256": sha(recipes_path.read_bytes()), "books": reports,
@@ -199,8 +214,8 @@ def install(root: Path = ROOT) -> dict:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(raw, encoding="utf-8")
         new_paths[row["local_path"]] = LICENSE
-    manifest["books"] = [row for row in manifest["books"] if row["id"] not in BOOK_IDS] + books
-    manifest["texts"] = [row for row in manifest["texts"] if row["book"] not in BOOK_IDS] + texts
+    manifest["books"] = replace_numbered_rows(manifest['books'], books)
+    manifest["texts"] = replace_numbered_rows(manifest['texts'], texts)
     manifest["numbered_extension"] = {"schema_version": 1, "report": REPORT_PATH,
                                       "books": sorted(BOOK_IDS), "reader_count": len(texts)}
     manifest["source_units_scope"] = "The legacy source_units field counts Book One only; the numbered-extension report records additional source coverage separately."
@@ -211,7 +226,7 @@ def install(root: Path = ROOT) -> dict:
                                   ("eligible-assets.json", "assets", [dict(book, license_url=book["source_url"], rights_status="EXPLICIT_PERMISSION_VERIFIED") for book in books])):
         path = root / "metadata" / filename
         document = json.loads(path.read_text())
-        document[field] = [row for row in document[field] if row.get("book", row.get("id")) not in BOOK_IDS] + rows
+        document[field] = replace_numbered_rows(document[field], rows)
         if "count" in document:
             document["count"] = len(document[field])
         write_json(path, document)
@@ -235,7 +250,7 @@ def verify(root: Path, manifest: dict, require_review: bool) -> None:
         if actual or any(row["book"] != "an-book1" for row in manifest["texts"]):
             raise ValueError("Numbered Candana texts have no reviewed extension")
         return
-    if extension != {"schema_version": 1, "report": REPORT_PATH, "books": sorted(BOOK_IDS), "reader_count": 349}:
+    if extension != {"schema_version": 1, "report": REPORT_PATH, "books": sorted(BOOK_IDS), "reader_count": 350}:
         raise ValueError("Numbered Candana extension scope changed")
     books, texts, report = plan(root, {book["id"]: root / book["local_path"] for book in actual})
     if actual != books:

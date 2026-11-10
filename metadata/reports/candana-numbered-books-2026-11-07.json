@@ -228,7 +228,7 @@
       "imported_source_sections": 312,
       "imported_readers": 194,
       "held_source_labels": [],
-      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.155. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99.",
+      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; the site's chapter heading alone is not its scope.",
       "scope_limit": "Later Book Three practices, paired good/evil conduct, and passion repetitions require grouped correspondence; they are not attached to incorrect single-sutta IDs."
     },
     "an-book3": {
@@ -544,10 +544,9 @@
         299
       ],
       "source_sections": 169,
-      "imported_source_sections": 156,
-      "imported_readers": 155,
+      "imported_source_sections": 157,
+      "imported_readers": 156,
       "held_source_labels": [
-        "155",
         "156",
         "157",
         "158",
@@ -561,7 +560,7 @@
         "166",
         "167-352"
       ],
-      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.155. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99.",
+      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; the site's chapter heading alone is not its scope.",
       "scope_limit": "Later Book Three practices, paired good/evil conduct, and passion repetitions require grouped correspondence; they are not attached to incorrect single-sutta IDs."
     }
   },
@@ -914,6 +913,7 @@
     "AN 3.152": "e31bb86970efafc478ce98c8f95473b70b94a59666c4e09a1c306eed35aec93d",
     "AN 3.153": "160d0932c991dc69b6686250b03161086ad0d1202f6469379f2081c2c3ce98b3",
     "AN 3.154": "573442878a5b805a1e4950918ca22de8a12763899d9411d5d49aeb543fac938e",
-    "AN 3.155": "26a75df957f9c69619866c80bc4c03e92a2f15a9736d555b8221bc7d615fd927"
+    "AN 3.155": "26a75df957f9c69619866c80bc4c03e92a2f15a9736d555b8221bc7d615fd927",
+    "AN 3.156": "f80281a815c59dc42c6eff8c204a0534a4fd6b86ec8d08c84b291d0bebc88f51"
   }
 }

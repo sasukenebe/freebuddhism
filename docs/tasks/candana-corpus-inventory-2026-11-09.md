@@ -16,6 +16,34 @@ match their pinned TXT sources. Publication and validation are recorded with sou
 01c2b29d in the separate deployment repository. The newer reader checker is source
 tooling at 3204d177, not a different content release.
 
+### AN Book Three follow-up
+
+The separate mapping review is finished and its saved input hashes, 27 output files
+and 23 tests verify. Twelve of the thirteen held source groups have supported scopes;
+one remains unresolved. These are twelve source bodies, not 27 new independent suttas.
+
+One source group fits the existing reader model: Candana's source 155, Modes of
+Practice – Part 1, corresponds to site AN 3.156. Both complete texts teach the three
+practices and the four foundations of mindfulness. The original PDF starts this
+source on page 284; its closing sentence appears on page 286 before source 156.
+The reviewed import preserves that sentence and every source character. Its body
+SHA-256 is f80281a815c59dc42c6eff8c204a0534a4fd6b86ec8d08c84b291d0bebc88f51.
+This source has the already verified exact-book sharing grant; no new permission
+is inferred from another work.
+
+The source now prepares 875 Candana readers: 452 AN Book One, 194 Book Two,
+156 Book Three and 73 Sutta Nipāta. This follow-up is not live until the separate
+deployment records its source commit and verifies the public reader. The existing
+874 readers, other translations, source PDFs, raw extractions and homepage are unchanged.
+
+The remaining eleven supported groups need whole-group edition handling: source 156
+covers six existing site references, and sources 157–166 each cover a conduct pair.
+Do not copy one body under multiple single-sutta labels, silently split it, or invent
+a combined canonical ID. Source 164's awkward printed wording remains unchanged.
+Source 167–352 stays unresolved: its sixteen lettered subjects have not been matched
+exactly to the site's seventeen-subject group. These are source-scope issues, not a
+reason to rerun PDF conversion.
+
 The bounded publisher inventory has 229 written offers: 227 downloaded PDFs and two
 recorded missing links. All 227 downloaded file hashes are distinct. Repeated references
 can therefore represent different editions or revisions, not byte-identical copies.
@@ -129,11 +157,10 @@ permission statements did not establish a broader grant. The earlier AN/Snp book
 notices are not silently applied to different PDFs. Prepare one consolidated request
 if published permission remains unavailable; no message has been sent.
 
-1. Resolve the 13 held source groups in the already permission-cleared AN Book Three.
-   A separate worker should propose exact source-to-site correspondences and preserve
-   grouped passages. Do not extend the earlier piecewise numbering map by assumption.
-   Source labels: 155 through 166, and 167–352. Accept each independently; an unresolved
-   group must not hold back the independently checked groups.
+1. Finish whole-group edition support for eleven checked AN Book Three groups:
+   source 156 and the ten conduct pairs at 157–166. The primary review accepts
+   source 155 at AN 3.156 independently. Keep 167–352 unresolved; do not extend
+   the earlier piecewise numbering map by assumption or duplicate a grouped body.
 2. Work through next-imports.json, starting with MN 1, DN 1, DN 2, DN 16, MN 10,
    SN 22.59 and SN 56.11. The sources and extracted drafts already exist. Verify
    exact-source permission and source boundaries; do not reconvert every PDF manually.

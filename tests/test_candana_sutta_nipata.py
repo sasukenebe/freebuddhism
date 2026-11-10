@@ -47,7 +47,7 @@ class SuttaNipataImportTests(unittest.TestCase):
         manifest = verified_manifest(require_review=True)
         rows = [r for r in manifest['texts'] if r['book'] == BOOK_ID]
         self.assertEqual(len(rows),73)
-        self.assertEqual(len(manifest['texts']),874)
+        self.assertEqual(len(manifest['texts']),875)
         records = collect_candana_records(ROOT / 'build/snp-unit-readers')
         record = next(r for r in records if r['canonical_id']=='Snp 1.1')
         rendered = render_html(config_for(record,index_records(records)), record['body'])

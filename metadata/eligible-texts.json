@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy": "Documented CC0, verified public domain, or source-specific explicit permission",
-  "count": 7226,
+  "count": 7227,
   "texts": [
     {
       "kind": "sutta",
@@ -139681,6 +139681,29 @@
         "154"
       ],
       "source_page": 283,
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "UNKNOWN",
+      "completeness_scope": "The listed source sections are preserved without word changes; this does not certify translation accuracy or the completeness of the canonical collection."
+    },
+    {
+      "kind": "sutta",
+      "canonical_id": "AN 3.156",
+      "collection": "anguttara-nikaya",
+      "title": "Paṭhama Paṭipadā Sutta (Modes of Practice – Part 1)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=284",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/an/an3.156.txt",
+      "sha256": "31eebe378447848a8f75df4fb761eb049fd21f44bb0d210e99289c186f4ddfbb",
+      "body_sha256": "f80281a815c59dc42c6eff8c204a0534a4fd6b86ec8d08c84b291d0bebc88f51",
+      "book": "an-book3",
+      "source_labels": [
+        "155"
+      ],
+      "source_page": 284,
       "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
       "completeness_status": "UNKNOWN",
       "completeness_scope": "The listed source sections are preserved without word changes; this does not certify translation accuracy or the completeness of the canonical collection."

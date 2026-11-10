@@ -55,7 +55,7 @@ class CandanaTests(unittest.TestCase):
     def test_every_imported_unit_matches_the_original_book(self):
         manifest = verified_manifest()
         self.assertEqual(len([row for row in manifest["texts"] if row["book"] == "an-book1"]), 452)
-        self.assertEqual(len(manifest["texts"]), 874)
+        self.assertEqual(len(manifest["texts"]), 875)
         self.assertEqual(manifest["source_units"], 627)
         self.assertEqual(len(manifest["books"]), 5)
         self.assertEqual(next(book for book in manifest["books"] if book["id"] == "sutta-nipata")["plain_text_status"], "HOLD_EXTRACTION_QUALITY")
