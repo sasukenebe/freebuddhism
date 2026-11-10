@@ -75,7 +75,7 @@
     },
     {
       "path": "docs/tasks/candana-corpus-inventory-2026-11-09.md",
-      "sha256": "12f72ca5f48877614680be3ac604b673c8ebbdb519495504b6c959cee0e18cd4",
+      "sha256": "3d3ef3de8d2d2067289444168814720127269558ebef4ac5b580b3b2126a07e2",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -201,7 +201,7 @@
     },
     {
       "path": "metadata/rights-policy.json",
-      "sha256": "d145de62f08a04ebad24296ddcab424e98f0fb2c7e3d0dd6a28f841361ca53c6",
+      "sha256": "2b56cc4c8bdb8fdd93ce5398da0f133f71c833d7697a661c9f4d9775af2a9587",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },

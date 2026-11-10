@@ -1,14 +1,14 @@
 {
   "policy_id": "documented-redistribution-permission",
-  "version": 2,
+  "version": 3,
   "new_publication": {
     "allow": [
       {
         "license": "Candana — free distribution, unaltered contents",
         "scope": "Only the exact works and source hashes reviewed in metadata/source-manifests/candana.json",
-        "evidence_required": "Explicit grant inside each source PDF; attribution, complete notice and original PDF retained",
+        "evidence_required": "Explicit grant in the source or a recorded publisher statement clearly covering that work; attribution, complete notice and original PDF retained. A grant need not be repeated inside every PDF when its broader scope is documented.",
         "conditions": ["Copies must be available free of charge", "Do not alter the contents"],
-        "not_authorized": ["Blanket reuse of other works or recordings", "Relicensing as CC0", "Abridging or rewriting the translation"]
+        "not_authorized": ["Reuse outside the documented grant's scope", "Relicensing as CC0", "Abridging or rewriting the translation"]
       },
       {
         "license": "CC0-1.0",

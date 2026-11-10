@@ -44,6 +44,48 @@ Source 167–352 stays unresolved: its sixteen lettered subjects have not been m
 exactly to the site's seventeen-subject group. These are source-scope issues, not a
 reason to rerun PDF conversion.
 
+### Whole-group reader implementation checkpoints
+
+Primary review read all eleven remaining source bodies and the 26 candidate
+Sujato bodies, and checked source boundary images at PDF pages 284, 286, 289 and
+293. The sealed proposal still verifies all 27 artifacts without changing its
+inputs. Accept the proposed passage scopes, not word-for-word translation
+equivalence or a complete human proofread. The original source 164 really prints
+"or to be full of longing" in its positive paragraph; preserve and flag it rather
+than silently correcting the translator.
+
+The existing importer, node pages and continuous reader each assume one edition
+body belongs to one canonical text ID. Adding the same complete source body to
+every covered ID would publish six copies of source 156 and two copies of each
+conduct pair. Keep canonical references separate from the source's edition units.
+
+1. Edition metadata: add one source-group identity per intact body, an ordered
+   canonical_ids list of existing IDs, source label/title, exact body hash and
+   original PDF interval. Source 156 covers AN 3.157 through 3.162; source 157
+   covers 3.163/164, continuing in pairs through source 166 at 3.181/182.
+   These are eleven bodies covering 26 references. Do not invent range IDs in the
+   canonical ledger. Reject overlapping group memberships, changed bodies,
+   missing references, duplicates, reordered parts and the held 167–352 group.
+2. Ordinary readers and text pages: generate each group once, clearly list its
+   covered references, and link that same edition from every covered text page.
+   Preserve other translators, source wording, ordinary fonts and existing layout.
+   Count eleven edition bodies separately from 26 references with that edition.
+3. Continuous reader: plan the chosen editions before rendering; place each
+   selected group at its first covered reference and display its body only once.
+   Preserve direct links for every covered text. A saved individual Sujato choice
+   must not be silently applied to other group members. If other members still
+   select the intact Candana group, show it once with its full coverage and show
+   the individually selected different edition separately. Do not split the
+   source body or silently discard the override. Test translator changes, saved
+   choices, anchor navigation, fallback and stale asynchronous responses.
+4. Release: compare every added body with its source hash; exercise every covered
+   node, the continuous reading order, mixed translator choices and mobile/keyboard
+   use. Verify the existing readers, homepage and public review files remain
+   unchanged. Source 167–352 remains held regardless of the earlier groups' result.
+
+These checkpoints specify the next implementation; they do not mark the eleven
+groups as published or resolve the final group's numbering/subject-list disagreement.
+
 The bounded publisher inventory has 229 written offers: 227 downloaded PDFs and two
 recorded missing links. All 227 downloaded file hashes are distinct. Repeated references
 can therefore represent different editions or revisions, not byte-identical copies.
@@ -154,8 +196,12 @@ These six images are not evidence of visual coverage of all 330 pages.
 The seven exact PDFs show copyright notices, but this check did not find their own
 redistribution grant. Searching the downloaded publisher pages and indexed publisher
 permission statements did not establish a broader grant. The earlier AN/Snp book
-notices are not silently applied to different PDFs. Prepare one consolidated request
-if published permission remains unavailable; no message has been sent.
+notices are not silently applied to different PDFs. A publisher-wide grant is
+acceptable when its actual scope is recorded; permission need not be printed inside
+every PDF, and CC0 is not required. A book notice granting reuse of "this work"
+does not, by itself, establish explicit coverage of every other separately published
+file. Prepare one consolidated request if clarification is needed; no message has
+been sent.
 
 1. Finish whole-group edition support for eleven checked AN Book Three groups:
    source 156 and the ten conduct pairs at 157–166. The primary review accepts
