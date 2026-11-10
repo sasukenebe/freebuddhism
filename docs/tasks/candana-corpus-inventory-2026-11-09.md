@@ -10,11 +10,12 @@ do not make the reader decode storage or internal numbering terminology.
 
 ## Current result
 
-The November 9 live check finds 874 Candana reader entries: 452 AN Book One,
-194 Book Two, 155 Book Three and all 73 Sutta Nipāta entries. All live HTML bodies
-match their pinned TXT sources. Publication and validation are recorded with source
-01c2b29d in the separate deployment repository. The newer reader checker is source
-tooling at 3204d177, not a different content release.
+The latest November 9 live check finds 875 Candana reader entries: 452 AN Book One,
+194 Book Two, 156 Book Three and all 73 Sutta Nipāta entries. All 875 live HTML
+bodies match their pinned TXT sources. The follow-up deploys source 00a943e1 at
+production pin 7b13d45, adding AN 3.156 to the preceding 874-reader release.
+Publication and validation are recorded in the separate deployment repository.
+Later source-only permission-policy and review notes do not change the live pin.
 
 ### AN Book Three follow-up
 
@@ -31,10 +32,11 @@ SHA-256 is f80281a815c59dc42c6eff8c204a0534a4fd6b86ec8d08c84b291d0bebc88f51.
 This source has the already verified exact-book sharing grant; no new permission
 is inferred from another work.
 
-The source now prepares 875 Candana readers: 452 AN Book One, 194 Book Two,
-156 Book Three and 73 Sutta Nipāta. This follow-up is not live until the separate
-deployment records its source commit and verifies the public reader. The existing
-874 readers, other translations, source PDFs, raw extractions and homepage are unchanged.
+The follow-up now publishes 875 Candana readers: 452 AN Book One, 194 Book Two,
+156 Book Three and 73 Sutta Nipāta. The complete public exact-text check passes
+for all 875. The existing 874 readers, other translations, source PDFs, raw
+extractions and homepage are unchanged. No additional individual-PDF permission
+is established by this exact-book import.
 
 The remaining eleven supported groups need whole-group edition handling: source 156
 covers six existing site references, and sources 157–166 each cover a conduct pair.
@@ -150,8 +152,9 @@ changed inputs/tools/results, disagreements, failed checks, unsafe paths and out
 ownership. The complete suite runs 173 methods: 172 pass and one optional integration
 is skipped. Browser checks verify all 195 original/converted link pairs, readable
 plain-language labels, ordinary fonts and mobile wrapping. The private permission
-request is a draft only; no message was sent. Live content remains the existing
-874 Candana entries, and the homepage is unchanged.
+request is a draft only; no message was sent. At that download-check checkpoint
+the live site had 874 Candana entries; the later AN 3.156 release above adds one.
+The homepage is unchanged.
 
 ## Next ingestion work
 

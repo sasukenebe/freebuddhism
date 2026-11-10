@@ -11,14 +11,15 @@ available, and existing explicit reader preferences remain respected.
 
 The owner requested continued imports and a complete list of actual written works,
 not just extraction drafts or PDF counts. The [current work inventory and next imports](candana-corpus-inventory-2026-11-09.md)
-records 874 live Candana readers, 189 additional texts or small groups not yet on the
-website, and 13 held parts of AN Book Three. Use that checkpoint and the automatic corpus
+records 875 live Candana readers, 189 additional texts or small groups not yet on the
+website, and 12 held parts of AN Book Three. Use that checkpoint and the automatic corpus
 command for current work. The November 7 counts and source holds below are historical.
 
-The subsequent AN Book Three review adds source 155 at site AN 3.156, preparing
-875 readers. Eleven supported whole-group bodies and one unresolved final group
-remain held. Publication still requires the separately recorded deployment and
-live text checks; a source commit alone does not update the website.
+The subsequent AN Book Three release publishes source 155 at site AN 3.156,
+bringing the live total to 875 verified readers at source 00a943e1. Eleven supported
+whole-group bodies and one unresolved final group remain held. Deployment and
+the complete live text check are recorded separately; a source commit alone
+does not update the website.
 
 - The authorized November 9 release publishes all 874 prepared Candana entries.
   Future discovery, private preparation and an actual public release remain separate.

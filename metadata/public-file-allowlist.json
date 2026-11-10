@@ -75,7 +75,7 @@
     },
     {
       "path": "docs/tasks/candana-corpus-inventory-2026-11-09.md",
-      "sha256": "3d3ef3de8d2d2067289444168814720127269558ebef4ac5b580b3b2126a07e2",
+      "sha256": "fe4671af753fbea324769e998b4a089ce98fffdee611f4b3e81523ae773b5d99",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -93,7 +93,7 @@
     },
     {
       "path": "docs/tasks/candana-ingestion.md",
-      "sha256": "6f22b062919f7035e1b270456c5331a2a973fe507cdf1fe0fde1c7c636e9a91a",
+      "sha256": "234e06b01331d14f6a9e4720343fbda524aa72a01affddf477e85b8c8990d26c",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
