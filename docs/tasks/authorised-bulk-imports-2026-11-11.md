@@ -83,6 +83,10 @@ edition. A review note is not necessarily an error.
   MN, SN and AN; verify editorial additions and exact mappings before import. DN
   needs separate edition-specific rights evidence. Expanded repetitions are the
   editor's claim, not a result established by this extraction.
+  Follow-up source inspection found that the supplied MN EPUB's MN 2 and MN 5
+  documents end partway through their openings, with unresolved note links. These
+  are source omissions, not conversion loss. Find a better source or label those
+  editions PARTIAL; do not describe this EPUB as a verified complete collection.
 - Walters: retain the original source IDs and headings where their printed numbers
   differ; review notes identify the discrepancies. The 601 saved articles do not
   establish that every reference in every Apadāna numbering system is present.

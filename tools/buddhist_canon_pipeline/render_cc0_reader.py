@@ -325,6 +325,33 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             spaceAfter=3 * mm,
         ),
     }
+
+    fallback_names = {}
+
+    def pdf_markup(value: str) -> str:
+        # Noto Sans lacks some scholarly symbols (for example the Pali root
+        # marker √). Select a real Unicode glyph instead of silently dropping it.
+        primary = pdfmetrics.getFont("ReaderNotoSans").face.charToGlyph
+        parts = []
+        for character in value:
+            escaped = html.escape(character)
+            if character.isspace() or ord(character) in primary:
+                parts.append(escaped)
+                continue
+            if character in fallback_names:
+                parts.append(f'<font name="{fallback_names[character]}">{escaped}</font>')
+                continue
+            with _FONT_LOCK:
+                path = subprocess.run(["fc-match", "-f", "%{file}", f":charset={ord(character):x}"],
+                                      check=True, capture_output=True, text=True).stdout.strip()
+                name = "ReaderFallback" + hashlib.sha256(path.encode()).hexdigest()[:12]
+                if name not in pdfmetrics.getRegisteredFontNames():
+                    pdfmetrics.registerFont(TTFont(name, path))
+                if ord(character) not in pdfmetrics.getFont(name).face.charToGlyph:
+                    raise ValueError(f"No installed PDF font for U+{ord(character):04X}")
+            fallback_names[character] = name
+            parts.append(f'<font name="{name}">{escaped}</font>')
+        return "".join(parts)
     metadata = [
         "Source: " + config["source_url"],
         *(["Covers: " + ", ".join(item["label"] for item in config["group_members"])]
@@ -335,14 +362,14 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
     ]
     display_reference = config.get("group_reference", "").strip() or config["canonical_id"]
     story = [
-        Paragraph(html.escape(display_reference + " — " + config["title"]), styles["title"]),
-        Paragraph("English translation by " + html.escape(config["translator"]) + ".", styles["metadata"]),
-        *(Paragraph(html.escape(line), styles["metadata"]) for line in metadata),
+        Paragraph(pdf_markup(display_reference + " — " + config["title"]), styles["title"]),
+        Paragraph("English translation by " + pdf_markup(config["translator"]) + ".", styles["metadata"]),
+        *(Paragraph(pdf_markup(line), styles["metadata"]) for line in metadata),
         Paragraph("Text", styles["heading"]),
     ]
     for line in body.splitlines():
         if line:
-            rendered = html.escape(line)
+            rendered = pdf_markup(line)
             # ReportLab/Poppler otherwise collapse the publisher's spaced
             # ornamental separator into "***". Preserve its visible spacing.
             if re.fullmatch(r"\s*\*(?:\s+\*)+\s*", line):

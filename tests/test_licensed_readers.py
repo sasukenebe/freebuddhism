@@ -18,7 +18,7 @@ class LicensedReaderTests(unittest.TestCase):
             config = {"canonical_id": "AN 10.71", "title": "Example", "translator": "Author",
                       "source_url": "https://example.org/original", "license": "CC-BY-NC-4.0",
                       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/", "metadata_notes": []}
-            body = "First paragraph.\n\n* * *\n\nLast paragraph.\n"
+            body = "First paragraph.\n\n* * *\n\nPali root marker: √bhā.\n\nLast paragraph.\n"
             render_pdf(config, body, target)
             verify_pdf_body(target, body)
             with self.assertRaises(ValueError):
