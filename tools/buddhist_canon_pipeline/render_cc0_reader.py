@@ -13,6 +13,7 @@ import shutil
 import subprocess
 import sys
 import threading
+import unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -335,7 +336,13 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
         parts = []
         # U+00AD is a discretionary line-layout hint, not a printed hyphen.
         # Keep it in source TXT/HTML, but do not create a visible PDF hyphen.
-        for character in value.replace("\u00ad", ""):
+        value = value.replace("\u00ad", "")
+        for position, character in enumerate(value):
+            if (character == " " and position and position + 1 < len(value)
+                    and all(unicodedata.category(c)[0] in "PS"
+                            for c in (value[position - 1], value[position + 1]))):
+                parts.append("&#160;&#160;")
+                continue
             escaped = html.escape(character)
             if character.isspace() or ord(character) in primary:
                 parts.append(escaped)

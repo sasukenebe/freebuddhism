@@ -670,7 +670,7 @@ def prepare_incremental_output(output_root: Path, expected_paths: set[Path]) -> 
 
 
 def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
-          clean_output: bool = False, prune_output: bool = False) -> None:
+          clean_output: bool = False, prune_output: bool = False, keep_going: bool = False) -> None:
     reader_index = index_records(all_records)
     expected = [(record, expected_html(record, reader_index)) for record in records]
     for record, _ in expected:
@@ -717,6 +717,7 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
             cached_pdfs += 1
         else:
             pdf_jobs.append(record)
+    failures = []
     with ThreadPoolExecutor(max_workers=jobs) as pool:
         futures = {pool.submit(render_one_pdf, record, reader_index): record for record in pdf_jobs}
         for completed, future in enumerate(as_completed(futures), start=1):
@@ -725,6 +726,9 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
                 future.result()
             except BaseException as error:
                 print(f"PDF export failed at {record['canonical_id']} / {record['version']}: {error}", flush=True)
+                failures.append({"text": record["canonical_id"], "version": record["version"], "error": str(error)})
+                if keep_going:
+                    continue
                 for pending in futures:
                     pending.cancel()
                 write_cache(cache)
@@ -734,6 +738,11 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
             if completed % 25 == 0 or completed == len(futures):
                 write_cache(cache)
                 print(f"PDFs generated and verified: {completed}/{len(futures)}", flush=True)
+    if failures:
+        write_cache(cache)
+        report = ROOT / "build/pdf-export-failures.json"
+        report.write_text(json.dumps(failures, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        raise ValueError(f"{len(failures)} PDF exports failed; all exceptions saved in build/pdf-export-failures.json")
     for record in records:
         relative_pdf = record["pdf_path"].relative_to(ROOT).as_posix()
         cached = cache["pdfs"].get(relative_pdf, {})
