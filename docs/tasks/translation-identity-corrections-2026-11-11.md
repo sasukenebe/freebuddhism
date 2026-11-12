@@ -1,8 +1,8 @@
 # Translation identity and publisher-reference corrections
 
-Status: correction in progress; the November 11 published batch is not cleared for
-discourse-identity accuracy. Preserve the original homepage and plain reading layout.
-Do not rewrite history or remove review evidence during this correction.
+Status: correction implemented, published and technically verified; full human
+proofreading remains unapproved. The original homepage and plain reading layout
+are unchanged. No history rewrite or review-evidence removal occurred.
 
 ## Confirmed findings
 
@@ -74,7 +74,7 @@ after the corrections actually complete; local changes are not a live correction
 
 Remaining review includes the possible partial scope of Nyanaponika's SN 47.14;
 the corrected discourse identity does not itself establish full translation coverage.
-Build, archive, browser, public URL and deployment results remain pending.
+The release checks below do not close those remaining content-review questions.
 
 ## Completed local verification
 
@@ -86,3 +86,33 @@ Build, archive, browser, public URL and deployment results remain pending.
 - File/rights validation passed with 9,912 eligible editions and 9,931 verified
   source hashes. Generated exclusion metadata is current. The full production
   build and final GitHub checks must run from the committed correction revision.
+
+## Published correction and final verification
+
+- Deployed source: bb323f3406c9386a84a258ece0c568f91fe1f600. GitHub's exact-revision
+  file validation, secret scan, regressions, complete clean build and reader checks
+  passed: https://github.com/sasukenebe/freebuddhism/actions/runs/43156267856.
+  The clean environment ran 236 tests with ten optional checks skipped, plus ten
+  separate secret-hook tests. Local preparation includes additional source fixtures.
+- The independent build and deployment build both passed with 9,924 reader
+  versions, 18,169 HTML routes, 31 archives and zero broken local links.
+- All 2,685 licensed HTML bodies, TXT downloads and rights notices passed their
+  comparison checks. All 83 reviewed associations are under the correct generated
+  text nodes and all five held sources are absent from the continuous-reading
+  index. All 875 individual Candana readers also match their saved source texts.
+- The corrected AN 10.76 reader, PDF and TXT match the validated public bytes.
+  The old AN 10.100 edition URL returns HTTP 404, not the wrong discourse.
+- Live browser checks pass for 2,685 original/converted review pairs, the corrected
+  AN 10.76 identification, separate publisher references, continuous-reader text,
+  UTF-8, plain fonts, mobile wrapping, larger linked headings and keyboard
+  expansion, with no page-script errors. Both public hostnames return HTTP 200.
+- The homepage is byte-identical to its pre-correction build. Reading-index gzip
+  compression remains enabled. No other website or shared proxy was changed.
+- Review and every remaining held-source question:
+  https://freebuddhism.org/review/licensed-2026-11-11/.
+- Corrected text:
+  https://freebuddhism.org/theravada/tipitaka/sutta/anguttara-nikaya/an10-76/an10-76-thanissaro-dhammatalks.html.
+
+This technical release does not grant full semantic or human proofreading approval
+to every imported translation. The reviewed identity decisions cover the identified
+83 title-remapped associations; the wider corpus retains its recorded review limits.

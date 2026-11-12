@@ -5,9 +5,10 @@ accurate, legally redistributable coverage of the English Sutta Piṭaka, follow
 comparison and selection of preferred translations for each text.
 
 The [November 11 identity correction](translation-identity-corrections-2026-11-11.md)
-is open. Copy-preservation tests did not detect incorrect discourse associations.
-The correction candidate reassigns 28 editions after reviewing all 83 title-only
-matches, retains 55 supported associations and holds four source-boundary cases.
+is published and technically verified. Copy-preservation tests did not detect
+incorrect discourse associations. The correction reassigns 28 editions after reviewing
+all 83 title-only matches, retains 55 supported associations and holds five
+source-boundary cases.
 Do not treat the earlier text-preservation results as full identity clearance.
 
 ## Publication requirements

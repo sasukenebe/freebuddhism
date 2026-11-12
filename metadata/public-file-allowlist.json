@@ -69,7 +69,7 @@
     },
     {
       "path": "docs/tasks/authorised-bulk-imports-2026-11-11.md",
-      "sha256": "34bad1e6d31daa35bb621125358c08e0adb89e0fa38550d81b157890008e3b39",
+      "sha256": "cb4dc31dfba41e0d11bbca722c67db38b2fa6fc0a26b2ea3963a33134f3a6305",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -117,7 +117,7 @@
     },
     {
       "path": "docs/tasks/translation-identity-corrections-2026-11-11.md",
-      "sha256": "9a49f4b4a024384be4b67e034f4e77050c1ad7ee697be859884e11cf05264797",
+      "sha256": "7001f2029f4c5bc87edf6f380fe8bd29a59bc0e57118c53c149ec3bbd9610bab",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
