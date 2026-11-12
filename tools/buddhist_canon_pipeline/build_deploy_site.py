@@ -196,6 +196,11 @@ def _replace_tipitaka_coverage_summary(page: str, summary: str) -> str:
 
 
 def _record_relative_path(record: dict, key: str, output_root: Path, repo_root: Path) -> Path:
+    if key == "text_path" and record.get("website_record"):
+        from candana_website import verify_record, public_text_path
+        if not verify_record(record, repo_root):
+            raise ValueError("Website text path needs verified edition metadata")
+        return _safe_relative(Path(public_text_path(record["website_record"])).relative_to("theravada/tipitaka"))
     original = Path(record[key])
     if original.is_symlink():
         raise ValueError(f"Eligible record path must not be a symlink: {original}")
@@ -218,6 +223,9 @@ def _record_relative_path(record: dict, key: str, output_root: Path, repo_root: 
 
 
 def _record_license_is_allowed(record: dict) -> bool:
+    if record.get("website_record"):
+        from candana_website import verify_record
+        return record.get("kind") == "sutta" and verify_record(record)
     item = record.get("licensed_record")
     if item is not None:
         return (record.get("kind") == "sutta"
@@ -2596,7 +2604,7 @@ def assemble_webroot(
     if any(not distribution(record)["site_archives"] for record in selected):
         downloads = tipitaka_root / "site/downloads.html"
         document = downloads.read_text(encoding="utf-8")
-        note = ('<p>Individual-sharing editions are excluded from these ZIPs. '
+        note = ('<p>Editions with restricted distribution policies are excluded from these ZIPs. '
                 'Read or download each of those editions from its individual text home page; '
                 'the archives do not contain every edition available on the website.</p>')
         downloads.write_text(document.replace("</body>", note + "\n</body>"), encoding="utf-8")
@@ -2625,6 +2633,8 @@ def assemble_webroot(
         raise ValueError("Download-page archive labels differ from the built archive contents")
     from check_licensed_readers import write_public_review
     release_files, revision = write_release_metadata(destination, ROOT, selected)
+    from candana_website import write_permission_page
+    release_files |= write_permission_page(destination, selected)
     review_files = release_files | write_public_candana_review(destination, ROOT) | write_public_review(destination, revision)
     crawler_files = _write_crawler_files(destination)
 
@@ -2855,13 +2865,15 @@ def replace_webroot(staging: Path, destination: Path) -> None:
     recover_webroot_swap()
 
 
-def build(reader_jobs: int = 2, output: Path | None = None) -> Path:
+def build(reader_jobs: int = 2, output: Path | None = None, *, include_website_editions: bool = False) -> Path:
     with webroot_build_lock():
         recover_webroot_swap()
+        if include_website_editions:
+            return _build_locked(reader_jobs, output, include_website_editions=True)
         return _build_locked(reader_jobs, output)
 
 
-def _build_locked(reader_jobs: int, output: Path | None) -> Path:
+def _build_locked(reader_jobs: int, output: Path | None, *, include_website_editions: bool = False) -> Path:
     destination = safe_output_destination(output)
     default_destination = Path(os.path.abspath(WEBROOT))
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -2873,10 +2885,14 @@ def _build_locked(reader_jobs: int, output: Path | None) -> Path:
         sys.executable, str(READER_BUILDER),
         "--output-root", READER_OUTPUT.relative_to(ROOT).as_posix(),
         "--prune-output", "--jobs", str(reader_jobs),
+        *(["--include-website-editions"] if include_website_editions else []),
     ], cwd=ROOT, check=True)
     staging = Path(tempfile.mkdtemp(prefix=".site-root-", dir=destination.parent))
     try:
-        report = assemble_webroot(staging)
+        if include_website_editions:
+            report = assemble_webroot(staging, records=collect_records(READER_OUTPUT, include_website_editions=True))
+        else:
+            report = assemble_webroot(staging)
         normalize_webroot_permissions(staging)
         replace_webroot(staging, destination)
         if destination == default_destination:
@@ -2892,13 +2908,14 @@ def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--reader-jobs", type=int, default=2, help="Parallel PDF workers, from 1 to 8")
     parser.add_argument("--output", type=Path, help="Output directory; defaults to build/site-root")
+    parser.add_argument("--include-website-editions", action="store_true", help="Include every reviewed website-only edition; pinned PDFs must be explicitly staged")
     args = parser.parse_args(argv)
     if not 1 <= args.reader_jobs <= 8:
         raise ValueError("--reader-jobs must be from 1 to 8")
     output = args.output
     if output is not None and not output.is_absolute():
         output = ROOT / output
-    result = build(reader_jobs=args.reader_jobs, output=output)
+    result = build(reader_jobs=args.reader_jobs, output=output, include_website_editions=args.include_website_editions)
     print(f"Website files ready: {result.relative_to(ROOT)}")
     return 0
 

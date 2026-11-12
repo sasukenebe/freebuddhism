@@ -120,6 +120,11 @@ def write_release_metadata(destination: Path, source_root: Path, records: list[d
                "source_url": "https://github.com/sasukenebe/freebuddhism/commit/" + revision,
                "reader_versions": len(records), "rights_policy": "documented-redistribution-permission",
                "scope": "Release identity, not human proofreading approval"}
+    website = [row["website_record"] for row in records if row.get("website_record")]
+    if website:
+        payload["website_only_editions"] = [{key: row[key] for key in
+            ("canonical_id", "source_sha256", "body_sha256", "text_sha256", "processing_review_entry_id")}
+            for row in website]
     path = destination / "release.json"
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     return {path}, revision

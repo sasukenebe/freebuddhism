@@ -58,6 +58,19 @@ Candana extraction review also uses MuPDF's `mutool` for an independent text
 comparison. The source-collection timer stages raw text with both engines in
 the ignored build cache; those drafts are never automatically published.
 
+The [persistent Candana processing register](docs/candana-processing-review.md)
+freezes original PDFs, extractions and per-passage processing history in explicit
+private storage outside the build cache. Findings retain reviewer provenance and
+are bound to the exact processing revision; human proofreading is recorded separately. Private permission
+correspondence stays outside this public checkout; local staging is not publication.
+
+Candana editions covered by the new website-specific permission use an
+[explicitly enabled website-only build](docs/candana-processing-review.md#build-website-only-readers).
+Their pinned PDFs and generated text stay in ignored build storage, not Git.
+The default source build omits them; an enabled build requires all checked inputs
+and records their hashes in release.json. These editions are excluded from combined
+readers and collection/source archives. Earlier exact-book grants remain unchanged.
+
 Run `python tools/validate_public_tree.py` and
 `python -m unittest discover -s tests` before review. The repository file
 allowlist records an exact path, content hash, license scope, and rights basis

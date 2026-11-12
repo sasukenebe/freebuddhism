@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "license": "Candana — permission for freebuddhism.org",
+  "conditions": [
+    "No part of the content of the translations may be changed or altered",
+    "Available free of charge and never monetized in any way, now or in the future",
+    "The content of these translations must never be used for advertisements"
+  ],
+  "distribution": {
+    "individual_readers": true,
+    "continuous_reader": false,
+    "site_archives": false,
+    "source_archives": false
+  },
+  "permission": {
+    "id": "candana-freebuddhism-2026-11-12",
+    "evidence": "OWNER_SUPPLIED_PERMISSION_AND_REPORTED_CONFIRMATION",
+    "recorded_on": "2026-11-12",
+    "website": "https://freebuddhism.org",
+    "confirmation_reported": true,
+    "scope": "Candana's sutta translations on the named website; no broader archive or public-repository grant inferred. Private correspondence is retained separately."
+  },
+  "scope": "Opt-in website editions. This metadata contains no translated body or source PDF. Missing checked inputs fail an enabled build, not the default public-source build.",
+  "records": [
+    {
+      "canonical_id": "AN 4.171",
+      "collection": "anguttara-nikaya",
+      "title": "Catukka Sañcetanā Sutta — Discourse on Intentions",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://static1.squarespace.com/static/578af02af5e231074e974635/t/62e54c29ea7101690954f258/1659194412183/AN%2B4.171%2B-%2BCatukka%2BSa%C3%B1cetana%2BSutta.pdf",
+      "source_sha256": "5bc3eb8b95469186e701c51cbb1d5052f76c4dd4728d3c01621cbeadd463e495",
+      "copyright": "Copyright © Bhikkhu Candana 2022",
+      "pdf_pages": 3,
+      "raw_text_sha256": "bdd1f9559d0e38e2acc7b4a5d9ffa04d1404cecc734aa6e399fd3bbdcf3d0220",
+      "body_sha256": "7457f49c7b4127f7d7a131ff7e4f8a323af441df502c50181dcfd01f6e05f9fc",
+      "text_sha256": "aeb5d714d4ed7f4a9515a539bad6737ea0ba4d7cef69d9fdcb1f365b0b7977f5",
+      "partition": {
+        "header_characters": 303,
+        "header_sha256": "2d4afa8da3c113ffb8b5385f21670b08ffd1dabcfcf3a9b0db7872519590617d",
+        "raw_body_sha256": "dbc5f2066a576bc21fa6d2fcf966287664d1623a45e31d33902dc637e8d9752f",
+        "page_break_paragraphs": [1, 2]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an4-171-content-identity-2026-11-12",
+        "review_basis": "Compared the complete intention/ignorance section and four rebirths/Sariputta/lower-fetters dialogue with the existing AN 4.171 edition; all three source PDF pages inspected. Content identity only, not a human proofread or translation-accuracy approval.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.171.txt",
+        "canonical_text_sha256": "5cffd83f2d6a2ca4cc10c6382aae80c3daa5b7308f201e7cee468b6e26a0b7d0",
+        "source_anchors": [
+          {"start": 3475, "end": 3540, "sha256": "107878f3b5f79b32fd60401a235b4e279016125ee475fa1635a7302e82e61909"},
+          {"start": 5222, "end": 5306, "sha256": "5831cdcfc785a3d220914e7a43e7fb288596fc0e6545d7511eb8e63aa3199c8f"}
+        ],
+        "canonical_anchors": [
+          {"start": 1288, "end": 1348, "sha256": "5ebfa4a184b4e5690f9d7024f4d6be0bd3b104f69265eb152d6710cb71dd9833"},
+          {"start": 2818, "end": 2887, "sha256": "b88dff9e6d4b1701cf3b57827be9844c3fbf9492f717dd99c69369ee2db8f1de"}
+        ]
+      },
+      "processing_review_entry_id": "candana-f326da7227828c33cc5a62e9",
+      "completeness_status": "UNKNOWN"
+    }
+  ]
+}

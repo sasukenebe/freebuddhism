@@ -175,7 +175,7 @@ def vinaya_output_paths(row: dict[str, str], output_root: Path) -> tuple[Path, s
     return folder, base_name, folder / "index.html"
 
 
-def collect_records(output_root: Path = ROOT) -> list[dict]:
+def collect_records(output_root: Path = ROOT, *, include_website_editions: bool = False) -> list[dict]:
     records: list[dict] = []
     for policy in POLICIES:
         manifest = json.loads(repo_path(f"metadata/source-manifests/{policy.manifest}").read_text(encoding="utf-8"))
@@ -251,6 +251,9 @@ def collect_records(output_root: Path = ROOT) -> list[dict]:
             records.append(record)
     records.extend(collect_candana_records(output_root))
     records.extend(collect_licensed_records(output_root))
+    if include_website_editions:
+        from candana_website import collect_records as website_records
+        records.extend(website_records(output_root))
     keys = [(record["kind"], record["collection"], record["canonical_id"], record["version"]) for record in records]
     if len(keys) != len(set(keys)):
         raise ValueError("Eligible ledgers contain duplicate text/version identifiers")
@@ -444,7 +447,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
                 nav[f"{key}_label"] = display_text_title(neighbor_id, neighbor["title"])
 
     row = record["row"]
-    text_href = route_for(record["site_path"], record["text_path"])
+    text_href = route_for(record["site_path"], record.get("site_text_path", record["text_path"]))
     html_href = record["html_path"].name
     pdf_href = record["pdf_path"].name
     tipitaka_site = TIPITAKA / "site"
@@ -586,7 +589,7 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
             raise ValueError(f"Reader link target missing from {path.relative_to(ROOT)}: {href}")
     # New edition links are inserted into generated text pages during bundle
     # assembly. Do not require a new reader in the historical source index.
-    if record.get("version") == "candana" or record.get("group_id") or record.get("licensed_record"):
+    if record.get("version") == "candana" or record.get("group_id") or record.get("licensed_record") or record.get("website_record"):
         if check_pdf:
             verify_pdf_body(record["pdf_path"], record["body"], record.get("publisher_references", ""))
         return
@@ -699,6 +702,16 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
             if path in expected_pdfs
         }
     if not check:
+        for record, _ in expected:
+            if record.get("website_record"):
+                from candana_website import verify_record
+                if not verify_record(record):
+                    raise ValueError("Website text download lacks verified input/output metadata")
+                target = record["output_root"] / record["site_text_path"].relative_to(ROOT)
+                if target.is_symlink():
+                    raise ValueError("Website text download must not follow a symlink")
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(record["text_path"].read_bytes())
         for index, (record, content) in enumerate(expected, start=1):
             record["html_path"].parent.mkdir(parents=True, exist_ok=True)
             record["html_path"].write_text(content, encoding="utf-8", newline="\n")
@@ -780,6 +793,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--inventory", action="store_true", help="Count eligible records without generating files")
     parser.add_argument("--clean-output", action="store_true", help="Replace a marked build/ output root; requires a full build")
     parser.add_argument("--prune-output", action="store_true", help="Reuse valid outputs and remove stale generated readers under build/")
+    parser.add_argument("--include-website-editions", action="store_true", help="Require explicitly staged website-only sources; never fetch or silently omit them")
     return parser.parse_args(argv)
 
 
@@ -795,7 +809,7 @@ def main(argv: list[str]) -> int:
         output_root.relative_to(ROOT.resolve())
     except ValueError as error:
         raise ValueError("--output-root must stay inside the repository") from error
-    all_records = collect_records(output_root)
+    all_records = collect_records(output_root, include_website_editions=args.include_website_editions)
     selected = all_records
     if args.collection == "vinaya":
         selected = [record for record in all_records if record["kind"] == "vinaya"]

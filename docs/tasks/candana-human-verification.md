@@ -1,5 +1,15 @@
 # Candana human verification
 
+November 12 continuation: use the
+[persistent per-passage review register](../candana-processing-review.md) for
+current Candana work. It includes the existing converted passages and standalone
+offers, freezes their original inputs outside build/, and preserves separate
+revision-bound findings with reviewer provenance and separate human approval. The owner-confirmed website permission
+now covers the standalone sutta question under no-alteration, no-monetization
+and no-advertising conditions. The older generated WAIT_PERMISSION tasks below
+describe the prior exact-book-only evidence; they must not be treated as a
+revocation of that new permission or as proof that other processing holds cleared.
+
 Updated: 2026-11-09. Written-source ingestion is not complete. Automatic draft
 preparation, a source import, human checking and public deployment are separate.
 This checkpoint supplements [the import plan](candana-import-expansion-2026-11-07.md)

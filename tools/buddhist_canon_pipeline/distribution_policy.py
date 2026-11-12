@@ -15,10 +15,18 @@ INDIVIDUAL_RIGHTS_BASIS = (
     "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article "
     "text/markup is copied. Combined readers, site archives and source archives are excluded."
 )
+WEBSITE_LICENSE = "Candana — permission for freebuddhism.org"
+WEBSITE_DISTRIBUTION = {"individual_readers": True, "continuous_reader": False,
+                        "site_archives": False, "source_archives": False}
 
 
 def distribution(record: dict) -> dict:
     explicit = record.get("distribution")
+    if record.get("license") == WEBSITE_LICENSE:
+        if (explicit != WEBSITE_DISTRIBUTION or not isinstance(explicit, dict)
+                or any(type(value) is not bool for value in explicit.values())):
+            raise ValueError("Website-only edition needs its exact restricted distribution policy")
+        return dict(explicit)
     if record.get("license") == INDIVIDUAL_LICENSE:
         if (explicit != INDIVIDUAL_DISTRIBUTION or not isinstance(explicit, dict)
                 or any(type(value) is not bool for value in explicit.values())):

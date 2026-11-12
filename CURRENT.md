@@ -73,3 +73,35 @@ There remain 101 unmatched reference identifiers and 142 Milindapañha whole-boo
 alignment cases. Continue source/rights work on Niddesa, Paṭisambhidāmagga and
 Buddhavaṃsa, plus content review of the two Apadāna numbering cases. Complete
 publisher articles and matching identifiers do not close unverified completeness.
+
+## Candana permission and processing review
+
+On November 12 the owner supplied permission to republish Candana's sutta
+translations on freebuddhism.org and reported sending the required confirmation.
+Retain all three conditions: no content alterations, free of charge with no
+monetization now or in future, and no use of the content for advertising. Keep
+the correspondence private; do not infer public-repository or third-party archive
+rights from the website permission or overwrite earlier exact-book grants.
+
+The [persistent processing-register procedure](docs/candana-processing-review.md)
+covers existing converted passages and standalone drafts. It preserves stable
+IDs, original PDFs, both extractions, processing history and separate attributed
+review findings outside the disposable build cache, with reviewer provenance
+retained privately and human proofreading recorded separately. The first local batch
+contains 123 whole-document drafts with matching text layers and clear opening
+references, of which 115 lack an existing Candana reference. Another 89 standalone
+offers remain held. These counts are source offers, not new public sutta readers
+or full semantic/proofreading approval. No new edition was deployed by this work.
+
+AN 4.171 now has an opt-in website-only reader recipe with pinned source/body/TXT
+hashes and content-identity evidence. The original heading is retained in edition
+details; both numbered sections and the closing words survive unchanged. PDFs and
+translation bodies stay out of Git, and enabled builds require explicit staged
+inputs. The full local preview passes with 10,061 reader versions, 31 archives and
+zero broken local links. All 875 existing Candana readers and 2,821 other licensed
+editions retain their checked bodies; the new HTML/TXT/PDF notices and archive/
+combined-reader exclusions pass. This adds a Candana edition of an already covered
+reference, not a newly filled identifier gap. Nothing new is live. The owner has
+authorized the prepared source push and deployment after exact-source CI. Publication needs
+production staging/opt-in and deployed-page checks. A successful default build
+does not include these optional editions.

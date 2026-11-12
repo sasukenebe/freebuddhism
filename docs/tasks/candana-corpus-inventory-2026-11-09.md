@@ -1,5 +1,16 @@
 # Candana works and next imports
 
+November 12 update: the owner supplied Candana's permission for republishing his
+sutta translations on freebuddhism.org and reported sending the required
+confirmation. Preserve no alteration, no monetization now or later, and no use
+for advertising. The earlier standalone-permission holds below are historical;
+they do not cancel the new grant. Extraction, layout and identity holds remain
+independent. Follow CURRENT.md and the
+[persistent processing register](../candana-processing-review.md) for current
+standalone ingestion and attributed review history. The private register now
+retains originals and individual entries outside the disposable build cache;
+local drafts are not new public editions.
+
 The owner requests an inventory of the actual written works Candana offers, followed
 by their permission-supported ingestion. Counts of downloaded PDFs are not enough.
 Keep the original homepage and plain reading layout. Audio transcription stays deferred.

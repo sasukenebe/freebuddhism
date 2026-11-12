@@ -635,6 +635,8 @@ def check() -> dict:
             for field in ("sha256", "body_sha256", "license", "copyright", "license_notice", "completeness_status")):
         raise ValueError("Eligible conditional-license texts differ from the verified edition manifest")
     candana = candana_manifest(require_review=True)
+    from buddhist_canon_pipeline.candana_website import verify_public_boundary
+    verify_public_boundary(ROOT)
     expected_candana = {entry["local_path"]: entry for entry in candana["texts"]}
     listed_candana = {entry["local_path"]: entry for entry in eligible["texts"] if entry.get("version") == "candana"}
     if listed_candana != expected_candana:
