@@ -341,7 +341,9 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             if (character == " " and position and position + 1 < len(value)
                     and all(unicodedata.category(c)[0] in "PS"
                             for c in (value[position - 1], value[position + 1]))):
-                parts.append("&#160;&#160;")
+                # Keep sufficient visible spacing, with a normal wrap point.
+                # Making an entire quoted list nonbreaking can split words.
+                parts.append("&#160; ")
                 continue
             escaped = html.escape(character)
             if character.isspace() or ord(character) in primary:

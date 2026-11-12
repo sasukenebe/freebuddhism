@@ -19,6 +19,7 @@ class LicensedReaderTests(unittest.TestCase):
                       "source_url": "https://example.org/original", "license": "CC-BY-NC-4.0",
                       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/", "metadata_notes": []}
             body = "First paragraph.\n\n* * *\n\n[ I ]\n\nPali root marker: √bhā.\n\nWord bound\u00adary.\n\nEllipsis … .\n\nLast paragraph.\n"
+            body += ('"Calculating..." ... "Accounting..." ... "Writing..." ... ' * 12) + "\n"
             render_pdf(config, body, target)
             verify_pdf_body(target, body)
             with self.assertRaises(ValueError):
