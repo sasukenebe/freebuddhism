@@ -63,3 +63,8 @@ Machine-readable outputs are
 Regenerate with `python tools/buddhist_canon_pipeline/sutta_coverage.py` after
 updating edition coverage; `--check` rejects stale outputs in local tests and CI.
 These are source/build reports, not an assertion that unimported drafts are live.
+
+The [individual-reader import](docs/tasks/suttafriends-individual-readers-2026-11-12.md)
+adds all 136 prepared Vv/Pv articles locally, filling 133 identifier gaps. It keeps
+the original notices and excludes these editions from combined readers and site/
+source archives. Import, build verification and live deployment remain separate.

@@ -10,6 +10,8 @@ import re
 import subprocess
 import zipfile
 
+from distribution_policy import require_archive_permission
+
 TERMS_NAME = "REUSE-TERMS.txt"
 MANIFEST_NAME = "LICENSE-MANIFEST.json"
 RESERVED_NAMES = {TERMS_NAME, MANIFEST_NAME}
@@ -45,6 +47,7 @@ def candana_permission_notice(path: Path, digest: str, pages: tuple[int, ...]) -
 
 
 def edition_rights(record: dict) -> dict:
+    require_archive_permission(record)
     fields = ("canonical_id", "version", "translator", "source_url", "source_revision",
               "license", "license_url", "copyright", "license_notice", "attribution_notice",
               "conditions", "changes", "completeness_status", "completeness_scope",

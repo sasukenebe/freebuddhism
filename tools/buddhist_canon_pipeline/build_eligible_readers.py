@@ -293,6 +293,7 @@ def collect_licensed_records(output_root: Path) -> list[dict]:
             "attribution_notice": item.get("attribution_notice", ""), "changes": item.get("changes", ""),
             "publisher_references": item.get("publisher_references", ""),
             "conditions": item["conditions"],
+            **({"distribution": item["distribution"]} if "distribution" in item else {}),
             "completeness_status": item["completeness_status"],
             "completeness_scope": item["completeness_scope"],
             "source_label": item.get("source_label", item["translator"]), "text_path": text_path,

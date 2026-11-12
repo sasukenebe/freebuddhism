@@ -9,10 +9,12 @@ from html import escape, unescape
 import json
 from pathlib import Path
 import re
+import zipfile
 
 from check_candana_readers import SourceText
 from publication_rights import ROOT, verified_manifest, verify_published_source
 from public_site_catalog import canonical_slug
+from distribution_policy import INDIVIDUAL_LICENSE
 
 
 def check_reader(row: dict, source_root: Path, site_root: Path) -> dict:
@@ -54,6 +56,25 @@ def check_release(site_root: Path) -> dict:
     for row in rows:
         verify_published_source(row)
     reviews = [check_reader(row, ROOT, site_root) for row in rows]
+    limited = [row for row in rows if row["license"] == INDIVIDUAL_LICENSE]
+    excluded_paths = set()
+    for row in limited:
+        slug = canonical_slug(row["canonical_id"])
+        base = f'sutta/{row["collection"]}/{slug}/{slug}-{row["version"]}'
+        excluded_paths.update((base + ".html", base + "-reader.pdf",
+                               row["local_path"].removeprefix("theravada/tipitaka/")))
+    archives = sorted((site_root / "theravada/tipitaka/downloads").glob("*.zip"))
+    if limited:
+        if not archives:
+            raise ValueError("Individual-distribution validation requires the built collection archives")
+        for path in archives:
+            with zipfile.ZipFile(path) as archive:
+                if set(archive.namelist()) & excluded_paths:
+                    raise ValueError("An individual-sharing edition leaked into a built ZIP: " + path.name)
+        index = json.loads((site_root / "theravada/tipitaka/site/reading-index.json").read_text())
+        for text in index["texts"]:
+            if any(edition.get("license") == INDIVIDUAL_LICENSE for edition in text["editions"]):
+                raise ValueError("An individual-sharing edition leaked into continuous-reading data")
     return {"status": "ALL_LICENSED_READERS_MATCH", "edition_count": len(rows),
             "unique_text_ids": len({(r["collection"], r["canonical_id"]) for r in rows}),
             "completeness": dict(Counter(r["completeness_status"] for r in rows)),

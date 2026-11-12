@@ -30,6 +30,9 @@ is deferred until last; its earlier sources and review records are retained.
   retain their free-distribution/no-alteration terms and original PDFs.
 - Rights and translation completeness are separate fields. Unknown completeness
   is not represented as complete.
+- Sutta Friends editions use its individual-sutta sharing permission, not a CC
+  license. Each individual reader/TXT/PDF keeps the original notice. Those editions
+  are excluded from combined readers, collection ZIPs and Git source archives.
 - Populated download ZIPs retain file-specific terms in REUSE-TERMS.txt and
   LICENSE-MANIFEST.json, including source links and payload hashes. No blanket
   license overrides the individual works. Empty collections contain only a notice.
@@ -44,6 +47,12 @@ and `pdftotext` commands, fontconfig and the Noto Sans regular/bold fonts. Then 
 static site in `build/site-root/`. The build does not publish or deploy. It
 rebuilds downloads from the allowlist and checks links, text integrity, archive
 members, and blocked routes.
+
+Use a Git checkout for a full source build. Source ZIP/tarball exports intentionally
+omit individual-sharing translation bodies and article snapshots using the exact
+`.gitattributes` exclusions. This is a distribution boundary, not deletion of the
+individual source files or a change to their publisher's rights. Cloning does not
+grant a collection-republication license.
 
 Candana extraction review also uses MuPDF's `mutool` for an independent text
 comparison. The source-collection timer stages raw text with both engines in

@@ -2,6 +2,12 @@
   "scope": "Exact path, content hash, license scope, and rights basis are required; new files are denied by default.",
   "files": [
     {
+      "path": ".gitattributes",
+      "sha256": "31e6a218b3e29a24f6de7a836c0749deb9a8973a8f983b6798e5e7dca653a653",
+      "license_scope": "CC0-1.0 project configuration",
+      "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": ".githooks/pre-push",
       "sha256": "c518a548509116c663367dc13f098bd40c0b949844698d365b695b165dca675d",
       "license_scope": "0BSD",
@@ -21,7 +27,7 @@
     },
     {
       "path": "CURRENT.md",
-      "sha256": "98e64f27b07c10d5b174d0b7b19e517d26a04f9643d8d4bf8301bceebf55c55f",
+      "sha256": "39377034660affe8b1b4d2373857c5a5cb836ea691def3d7e8af55a0670ba380",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -45,7 +51,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "850fb7948a4b5f8cc2485964dbe6206e5942eef2d847900ab7a21c4df85bf5a7",
+      "sha256": "272b9ec16d335ae68bc226ef80f9a8817c72593734833755f04315bdb652444b",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -129,7 +135,13 @@
     },
     {
       "path": "docs/tasks/sutta-coverage-first-2026-11-12.md",
-      "sha256": "a32fc0621a79e20d584cf3289fbdb543724755a0733959d7595cc72201a8beb2",
+      "sha256": "63db5a57733344ca7d81e9c4ef23f80e56cabb0810639da7c8906c7b5751b514",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "docs/tasks/suttafriends-individual-readers-2026-11-12.md",
+      "sha256": "2b692e246b146b740ed2743f4e8fa66b1b489a4935e2410d147318a52b230e15",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -159,13 +171,13 @@
     },
     {
       "path": "metadata/eligible-texts.json",
-      "sha256": "0ea18b6a3bc700c0158dcab9c7da644dcf0d905bf820a1822fb754ff29940bc9",
+      "sha256": "8403abbc01c9ee57069d5be5dd12f0872f1083f7088ee5446e383c11171f4b36",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/excluded-sources.json",
-      "sha256": "705f5e3634bbc42670dff5911b50b7d4be1971bcd80a0a6a3ee1c21f5c2803d8",
+      "sha256": "fe3ce265a59434bcf04720ffde25c7d67cca4c154f4d045218ce2e59105317b8",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -249,25 +261,25 @@
     },
     {
       "path": "metadata/reports/sutta-coverage-current.json",
-      "sha256": "7fdf54c474bb16a7a8f413efa351efbfb91a54fdceba3aa580276424f0b8ac52",
+      "sha256": "0fa1c0a727faee264be8dcb1ab7d15395e68c7aea13c3d3cd0201cf0516761ed",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/reports/sutta-gaps-current.csv",
-      "sha256": "51ab7d0f714fb773d43049e4b1ebfe24a543b5dacaac278a32245c760a6d6bc5",
+      "sha256": "788188c3d9b4a9518257eefa29541ebf830a2a7a18fac3d35eb9fe3b8899c923",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/reports/translation-coverage-2026-11-11.csv",
-      "sha256": "a311d0bd275fb3f99904dc3148db695fc95fc059a1c273d3cdb71242e2356348",
+      "sha256": "bcaf209c83ff471cb8f71b425c6869a291067dcba77f32531d65c73a5426b042",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/reports/translation-coverage-2026-11-11.json",
-      "sha256": "5bbc8a9bac258a9f09981d4a6fc7279a7e5103153a9e48bab882aee022963d6a",
+      "sha256": "c91c5c1d0341dd48487b0cb467203ba3836769828b6243a2890c8302f281b15a",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -309,7 +321,7 @@
     },
     {
       "path": "metadata/source-manifests/licensed-collections.json",
-      "sha256": "de01e19c78b176d2e78a82be7b76621ec08ca482bbeb34a56d21432628a22483",
+      "sha256": "f7b6de312b506d9eedac9b45a43ab93e38d9cdfea1815892624dd4964fed40f7",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -16514,6 +16526,822 @@
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-1.source",
+      "sha256": "ab1a033b7a0f3aca1893a70dcf89697199664365c6a00dcf28962060debc6b14",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-10.source",
+      "sha256": "2fc60e64139c95c62e1b13f48c5edb82a33367148d6846e2713ea08f8c6bbc5e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-11.source",
+      "sha256": "06a16f1bd86d22c35ebd02cd78122a431754669aebdef75318538a3e24999606",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-12.source",
+      "sha256": "2e8dd68081892565a1d8aec40f101c6009a4dca6f7535429496d3ce423dad3ce",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-2.source",
+      "sha256": "983aca9cfef69fb684fe1c71fd06df1e20fb5fca1d08ec9830412fb9c524cbd1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-3.source",
+      "sha256": "84e126c86231ee53285a0394562243a43fa741149ee8fa16f1144a91ab0da980",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-4.source",
+      "sha256": "c10265c753b1bc4f1675b4a58ca21b373205b20faa815f6b35e67ce321f3dc51",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-5.source",
+      "sha256": "285fb3dc9b9a18190fe4dd63fb7fa06a9f179c36e09ef5f38b9fdae812277178",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-6.source",
+      "sha256": "74cca6652de2609d9fc01963a356a7c32e05ab74bc433b591038649dde135c86",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-7.source",
+      "sha256": "1146967ced3a43850384d3d09a0f2e9bf5c9d92524dcbdb530867e333070ac15",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-8.source",
+      "sha256": "9f6e75400a36dc18014bebdf2cc60363f16fc50bcb526b741922024bb8243603",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv1-9.source",
+      "sha256": "116166831ea49a441656ac43b05dc69b5fa3858d2227d116fe0f7e4516d259ec",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-1.source",
+      "sha256": "8d5fceed71a49baaac4770796e077cc984c19bc5aba5d21e06d7b572b8a91519",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-10.source",
+      "sha256": "c8560e3f8b127954e2c98bc627048fc7a35791c2baf4e794d46bf7a14b6932f5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-11.source",
+      "sha256": "41b9e3f7cf7d8360c5cab87fa3cdd172531e798aaa91eb037c06d1db31e55925",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-12.source",
+      "sha256": "ba236e046a17ff64ee6297b4356458937942b10557f9dbed0a21b220f86287e6",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-13.source",
+      "sha256": "9f36a69b6601541e9de02f8f7a526f23bf2251b9fd189fcec56b49941f354f8a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-2.source",
+      "sha256": "a3bb083ededb0e018b00b9c7dcf1a62e1d6b9d951a1bba28f4c805849a76d918",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-3.source",
+      "sha256": "7e089134a667713de1522ef58e4003cf74089ac4b3bbfa6cdbcf8a0b404326ee",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-4.source",
+      "sha256": "43a9ac5d9123ca8bbd3c893da1b7c28b8996fc5de7fd541ca97120fbd6752c54",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-5.source",
+      "sha256": "d865a1c717f38b3d664d72a13735aac89c3d4c35f03dcb9175b3ba971b2760cc",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-6.source",
+      "sha256": "acdbccde92abde67c2f65c07f24c11f88d767bae73e4076eee680d0709d12cf0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-7.source",
+      "sha256": "73de840dc4efba720a46f787eab4d7509056dcba5ab8299f9a57b53750127498",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-8.source",
+      "sha256": "e366f7b24b4b7549c1721c25cf1dc47c23658ac838a5d5787e1665e53d716584",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv2-9.source",
+      "sha256": "65eb9f0bd56f9393017bf3483b4d8c32cd2562233928b4a47021beb1f24cf198",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-1.source",
+      "sha256": "76cba5df4469e611b4014faf3b1575a6922999f19e55f064cd7588733c2544c0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-10.source",
+      "sha256": "e834866bffee776a322111e4aa172ef7dc6a67da00e2b27ab08a66d8582f5bb2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-2.source",
+      "sha256": "1fe4877aa1866c59ea6fa1a33773ccec7456f0c12ad9982be9f19cfda6960fee",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-3.source",
+      "sha256": "18de2b5ab3e806b2ba70765172ebdc836aef86f4189bc145205eba221d4c0c12",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-4.source",
+      "sha256": "2ee4edfdf3f06bb753bdd5e4e2708156b004aa036b3e8c7e2b14d45b778c379a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-5.source",
+      "sha256": "d1771a9ca084a0d6319170a675c59037ae4c0b29e4742d0eda3e56692131f3ed",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-6.source",
+      "sha256": "dbfd581832ddb43a393821f2ea23c504a404a30dc658842de7daa9db287519f0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-7.source",
+      "sha256": "0c93e3e5b2d59583cbb371eb16fbaf63db90a5e4a3515e4a89fb2645c87ceef7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-8.source",
+      "sha256": "9389231f091edaeea085ed2efa0146823265875fca16f66b849db807917472d1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv3-9.source",
+      "sha256": "2581ac927bc3395ee71f76f991678a9a386c63be685441f189f9a8c106fb7ce1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-1.source",
+      "sha256": "bacff2ad84505c6dc57a3d1e6b506e5192e1e32baa0841968952c16c6b2302e2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-10.source",
+      "sha256": "d9d11811bf7cd77b409b3ca3f0558b7f4307470ffc4331d04d2592929c436c26",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-11.source",
+      "sha256": "5752a2b3a6bc82a26133315ca044020212d550f3d38ad4fefc57562985f2a019",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-12.source",
+      "sha256": "592fb37faefa83636c687d57bf6424a2732b11ca71cd268efb0a51da76150e26",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-13.source",
+      "sha256": "9a05b34c4be915004879c6c9605ef79274c75041114a8cdcae8364985c277e7b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-14.source",
+      "sha256": "2c61eb712e48cb5c912b432d7d50ee01e39f985f03775c2e140a4e39156d867f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-15.source",
+      "sha256": "f752819d868771384218e298a333a04ffd5630bdbce95a1ef258845dfd145315",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-16.source",
+      "sha256": "98181fc42447458bee3aa594c1ad3355fb66b1327606ba6dc42766d8095151a2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-2.source",
+      "sha256": "feb8ae56b0086c8a8fbd1a6d1f819bd8185f3166c04003bd8dfbe1632d66956f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-3.source",
+      "sha256": "cbcda47431e4b4e3a7f667075ca8a55891e0636326cfaa0a66a77d6985053a94",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-4.source",
+      "sha256": "e73b9e6b244801caa1453c7e76e1bbb91ae9099928fbc471016f08cf089992e1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-5.source",
+      "sha256": "55510de1193f6dcfd969697d507b3508badf2174b95f6aa8cb2de1df6e88dfd1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-6.source",
+      "sha256": "517be57fba84b87e5b3de2de3d9d4b3f251a7d1868feb752339d85000b19cc1f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-7.source",
+      "sha256": "b3e80cae40d5f799bb21a4f3b05a474b9ef762fd128db182097e21ed3903564c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-8.source",
+      "sha256": "b3c8aea71f5e9086193b2d21b98758fbaf48899b00612a88dab07c500c96b0a7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/pv4-9.source",
+      "sha256": "5c30a3658532951d61d26873fe34a7f12872de8e6b1cdd2fa09c6ceb875d99be",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-1.source",
+      "sha256": "a57f8eb2bd4a40756bb13959d35f349e8f29ddffc665830e01693bbdf6b413bd",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-10.source",
+      "sha256": "acd0b3baa2d4c501a8f9c4778549a6609002d5dd7402a2fd7cae6a7dc1d6210b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-11.source",
+      "sha256": "5a7c4eab6294381b9b2baa6d862d144f5f7f031e2e8b7629952a1b7ec5290731",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-12.source",
+      "sha256": "f16b7a8f8320260e4b62df1261127632d48e7d1949a18d34ac313905cecf97d1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-13.source",
+      "sha256": "3e84262b89b0b4aaa15f4e8a7344e597d62fc2b4086a3c62f024ea98a487dfb6",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-14.source",
+      "sha256": "094d411bd25d3e51c9f643a41f57b049ff74f056fdd44ae19a9a126242e85126",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-15.source",
+      "sha256": "557c3cbb85696bdbcbdb9507d98b28841fef471e85f433235ad9f507714b2b0c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-16.source",
+      "sha256": "2a25ece4257cc94cc8ea435d8b19885fd90642d5acd1b13b7588f181f7b73b1f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-17.source",
+      "sha256": "881002ae5b714f65200aa9e17bbf781c4d5219a8102fd44b01c5a1c20734f32f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-2.source",
+      "sha256": "18af758051cc5849de35a56f9f4bfa1858482bc555353da471b0ed946fff30bc",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-3.source",
+      "sha256": "97bb3dbcdb746e2ed10cb496b4bc9299fde38b1b3f00d6ed5aab29cba6c9eacb",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-4.source",
+      "sha256": "8524108f15e9e6867ebb362c0e6a87a9906edb19fd9f8110a7be947a485ce6f1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-5.source",
+      "sha256": "5c087641b627c551f81130cd78279c4723fadef7b379efc2ca26fd326bd02339",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-6.source",
+      "sha256": "821c9b2e654f096f25ab56bdb4b8f333fdeb45f4d209d613ebaf29e366c44190",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-7.source",
+      "sha256": "05d6414f47b1726426fd1f1cffa96903c6fc84fa093709508c55582505415f6d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-8.source",
+      "sha256": "a8977802a5b0e524830ce3b407d0ca855b43be5e18918f10fd352c9f0d158c9f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv1-9.source",
+      "sha256": "2765c1278ea5a5464db515407204e108640f8cabcc9ccb184b061b0fff4a437c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-1.source",
+      "sha256": "9436048f08bd86ae8864fff371f640d6986643bc7f4251052e8461e04137368b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-10.source",
+      "sha256": "341aa0933ecd15cb7c76ff9ce691a08a34aa3aa1f62613f0a6526236ef9d2932",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-11.source",
+      "sha256": "9c4182545ea80861a6f4e6fe098e4f7e702e926672a6d8465f139ea6f0544af8",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-2.source",
+      "sha256": "dce0886623c850e19ff6c22291df3ef920b15f8c5720a450024af5b8bc08db21",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-3.source",
+      "sha256": "c6c2aa4541be87276205fa087ebba44bda4e0a19a752fe350ed714ff663660c3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-4.source",
+      "sha256": "cb08a8793f75e3c7e92335136fbb08ff43c1f9d7640d446a5001242cab3d0a44",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-5.source",
+      "sha256": "49ea3c6330826043edfdba7a14f4b33c43edcc164e0cf1e3489754c1a0d31948",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-6.source",
+      "sha256": "87b050cd89a7dfb96a05eb0887b66e464cc99bfde142679a82da5814bc17547d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-7.source",
+      "sha256": "1c7e3f2d9db1ca1c7c0dce3271a1fbad65c022b6585d9b6bc52b9a0e7cf5e21c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-8.source",
+      "sha256": "8467a5f07ffc37311e74576e64f9b115c515ebd241fec672f0870829bac9e525",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv2-9.source",
+      "sha256": "e56efd6eafa4eb1d715514c2910ca26139d2f2c6fc56916ab14ee651237a4ddb",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-1.source",
+      "sha256": "e9d3f0907edcfbe498cf2f44796718a5874ade48b9a69e41428a726a88921192",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-10.source",
+      "sha256": "d1d0fe6567739823d5df35a2ad855d0f6f8b53a64a5da68ba02add7dc7693556",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-2.source",
+      "sha256": "9f8ee8fdc9d5dcb139c56a5a18280f83274cee38144731fd2656b175512396fb",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-3.source",
+      "sha256": "a4a1443f0d8ad2a7cfcab82845449fd72f0693bc71dc56d30fb997387c77ca56",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-4.source",
+      "sha256": "7162a3aac00859eabd61c3a55602081699e51b76d9ec319636d1dd5c2a8ff395",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-5.source",
+      "sha256": "2baa19463c4b0d40c0fc2aeb2a80af493a7068508716775e9e6a3c0be58ffdf9",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-6.source",
+      "sha256": "c00089b4475d182bd836a83d4a7405e70ceb6275462a5ccfd7e09e890daf44f4",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-7.source",
+      "sha256": "fd54440b4c00c98145be86d7aa196d6b62634993b83827fbb53046f39b9ff307",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-8.source",
+      "sha256": "8d674835e0d42861958f64b94451dcd29b1bc4c291b70fcce9a5cb7df4833a97",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv3-9.source",
+      "sha256": "92ebafc3c8f3f693f9b0484aff13f93f2e7a3df6fa47d4c1aefe26c8455cea6c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-1.source",
+      "sha256": "e340d87de4e93f98ab411cb557588c8f63721edc4101b529d7faca45bb56f8fa",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-10.source",
+      "sha256": "3832a471452872f19433dbbc0ba6e26647ccf1e88cfec540ddcba2a8d74fbd49",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-11.source",
+      "sha256": "9425785af55682c364915c051e9ab4c83e0579442afc78ecf531481fd188320c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-12.source",
+      "sha256": "70f493e993e0716f3bdbc0f20f54e46b89e4559a2ad691fed2db3d7d4f5ee111",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-2.source",
+      "sha256": "585fb74db8adfe4a3432eb7ad1307cd296a3fc125bf73a0c277e21f31c19769b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-3.source",
+      "sha256": "d007a724509d45b54626232aeb71db830d3a1cad483204f0445ce5e8ddc2c4b7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-4.source",
+      "sha256": "ae7fbd4ed362d32bb44c55d29f2254bb9e6073b4f25f43e11998640910fb2d0b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-5.source",
+      "sha256": "59ff29a7a07ad2071968958515af8029ebf2812d6e2d8ee17663d602531f61b3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-6.source",
+      "sha256": "93605a82a6faab5e51949215371491854c537bd8e0ff5c65f581da57341bc8a2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-7.source",
+      "sha256": "3634c88d232222b23c05de92a4e09b518ed7454dfcd68f4922b05cb82e53c058",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-8.source",
+      "sha256": "f238e180b79886401b64aa86589f569bacaa4ec86abf9c3da45a9eed44b2b866",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv4-9.source",
+      "sha256": "3197e15b227cb88f01adcd268c7b99efd2ca420c9ca60d4ecd87c6de20458648",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-1.source",
+      "sha256": "9048d782152e1e1ab7d523215935162ae94a58c7e2a37fb8ed791e1ae2c0b2f5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-10.source",
+      "sha256": "846ec4190648ab39ce1f0e6e95e88e84508dee2607709d52cb41a1dfd9df25cb",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-11.source",
+      "sha256": "7e6603227c56fd4cbaca0e7d3d462699027d57651164354aa1080af02e50445f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-12.source",
+      "sha256": "970f5880ef8db73b5a86bcf42b679737c410c16040d920c5a8e35fb5fff2a502",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-13.source",
+      "sha256": "444994a3471a1aee9564a2dce1cbd786383d770e4a167a886c741ae078a6a002",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-14.source",
+      "sha256": "2e1f75c754cd5efa70bc8ef0b20dc819c53f20b5a2a5f9af8b6774bde858bf53",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-2.source",
+      "sha256": "ca23d53bb079c92e1137d098bfd3a7a460f36d32316e9aa9e086cd1cf704f378",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-3.source",
+      "sha256": "3354dee008836202ab356aa76eb40982679a67cdca58515c7f508c71bc410410",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-4.source",
+      "sha256": "daa400d1dedd37fbf5ba21adee99e26cbd2c06a9c5ca93db75c3adc483e354a3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-5.source",
+      "sha256": "03b21c13d7a1c2dafbf612825b7c43856fafd386474c147a89e8d4840016fd8b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-6.source",
+      "sha256": "8ecfd4d3a3b0fc5851faa4637ab72debb5fc4696f7755ac4d42086fcc7d16a94",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-7.source",
+      "sha256": "7f923278258e4e7ffbe83a855b7204a482bdf8d6e5df028ac7e0f2d5510f569c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-8.source",
+      "sha256": "78f26db4b3ca761039390d5260d5f968ee51b0cc52c644e9e1c1d79ea31a36df",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv5-9.source",
+      "sha256": "8ebfa1a19143f4b98eb322bc42d154a993a0de4a18cec211b59f90e11b1e44a7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-1.source",
+      "sha256": "c9f7362eb440103ad262ef77a6a3e21af1c26994837fdf3b142d15cf338be8e1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-10.source",
+      "sha256": "8dc6f58b403e9caca784ed3835e0afa4277faea3182b5ae4f4ff7245c2b2c9ab",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-2.source",
+      "sha256": "d34aa2ac83cef2b2aa579a955200869b5dc888db207d567f724f1425ef57352b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-3.source",
+      "sha256": "dafabc34f9de45521138a6b56beec90a5f866ded0b861fcd7c18815bde441d7a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-4.source",
+      "sha256": "e110d35be66cdaf82cf47e2b00419290824aec4bf51383fad3b0423e69c3a2d7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-5.source",
+      "sha256": "9251bcfcc80526b383ba04702d05857980f54dd22dcdb56234d4299f1e5785b5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-6.source",
+      "sha256": "794699690f4ab46d161f0af0075c04bd2138e1ca342c471e8dd7d7e39c0da8c7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-7.source",
+      "sha256": "16870bcaa2ce79d1b691ac9f4048ed52abf8842a799de5bf71428e0d0685ee4b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-8.source",
+      "sha256": "43c2bdeb62480a0f82e576e0635b957302b99ada57adfcb0bc97b28c313ed28b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv6-9.source",
+      "sha256": "9d4490ae89b342d5fde8b7ac6352fd8aa9e110e158a3adbaa420995f25459c6c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-1.source",
+      "sha256": "13bbed311040816023dab9a0c4750b9b4da23f4f7bf791636901bdd2bbeb8885",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-10.source",
+      "sha256": "283fcfe9c611f1114f464a34d45a00763fc88accfa12cc487bde13edee4c542e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-11.source",
+      "sha256": "9b06b64d5b1bb352cfd356e2c73715b16584a21cb686114aad5c0910f0dbf9c5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-2.source",
+      "sha256": "e778f2e9f2e47d0d3b05c0307deaee89f5fd96d1e3804e1d083974417135b1be",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-3.source",
+      "sha256": "b39a1d7b730ffb4718f802f99f99e9030d12865a08526b29430d78542ef97c4e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-4.source",
+      "sha256": "4571c34102fce3b4895ca81a3feacdd3dd257d157f7918803d85c7868582e0e2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-5.source",
+      "sha256": "a527a3a85d46f7557fd9139f4940e61f892951c1c64c5439ae82ce032c30356a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-6.source",
+      "sha256": "4e89519a7f3261f2a7541ba109433c833694e9e24109dc573385a7db7795b83e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-7.source",
+      "sha256": "7078d5a0161a11626572d2c2b8f4cb45ca57387f571192e1dfcfe82c1adf8fe3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-8.source",
+      "sha256": "896f97a95171fdcf77d07bfc656eea3f578097ab5b5dc6598edc8c5aa4850eb0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "metadata/source-snapshots/suttafriends-individual/vv7-9.source",
+      "sha256": "3dd2ce8048d7de33bb53e7a1b83cc1cfc5abcac6ea4753193e023bd2f9215a0e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
       "path": "metadata/sutta-coverage-priorities.json",
       "sha256": "23b88fdb9d56faa533176846509ce4d917ad24e2805e519f932fcd533b7d8617",
       "license_scope": "CC0-1.0 project metadata",
@@ -16684,6 +17512,12 @@
     {
       "path": "tests/test_candana_sutta_nipata.py",
       "sha256": "174be81399cb6b19a0702cbe644151810b76a76516b87d96b976e1d247824d99",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_individual_distribution.py",
+      "sha256": "b017557f332465fbb10a1dda430abc757321a49030353d6c792c167a392430b7",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -84338,6 +85172,822 @@
       "rights_basis": "The exact edition's source license, full notice and source/text SHA-256 values are verified in the licensed-collections manifest; its conditions remain attached to every copy."
     },
     {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv1.txt",
+      "sha256": "3253274bfa0067fcff6406aa3db3ff38127f0195adeeeea5e04137af8985f2c7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv10.txt",
+      "sha256": "e26280e573c8e16bdfda7554fa66dd2801b50b31c40c3a4c0e6d4f2152d344f3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv11.txt",
+      "sha256": "4a3c26ffddc2ea1661db435a1387796201d6f3955801b6bbbda8189528a4a2f5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv12.txt",
+      "sha256": "d164bd24dc32c5426376e5cf86c76a610bda317a32e2b14a8ad073f3ebdb7555",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv13.txt",
+      "sha256": "f8e5c55889ef96e735a9ead7a954e6a06d2b17aafa3068fe727c19d4ac830f54",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv14.txt",
+      "sha256": "c6deedaa942f347c2a380c8b7e3db153ef77085c7d35eb8731f065b1d732fbd5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv15.txt",
+      "sha256": "982990612aeb2563a8706cf50741816bcdab8c4f078e20906dd906cc3de77df1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv16.txt",
+      "sha256": "2ffa21342dcbb8ced2a7b04023248696c2d947eded095a0c89d9836dd29bb09a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv17.txt",
+      "sha256": "af62595a8802308e33f1f4403766343c9bdbc968fb4f7c38c558ac47da898f7e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv18.txt",
+      "sha256": "73bf413ecf85aa1f0fd5379a7bb2adbdfe2ef4a9c96644d9626e72c9c0684e33",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv19.txt",
+      "sha256": "72aa954814ea45bbe7bb04644a9ef24631db83795f8674120fc3273e5726936a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv2.txt",
+      "sha256": "fe04f5005cf46d03990652a9edb28bb0d0ceb08d1d0b462c0ca4c235f239fa8a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv20.txt",
+      "sha256": "35c28ea384d787a393e478043df2d264e29d6045235d8099b5eb64bf4e51c4dc",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv21.txt",
+      "sha256": "3fb57fda96c42a6cb36d822ab8057a36d3279f748066b19a509571f4fb7f27bd",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv22.txt",
+      "sha256": "c35f8954d0a22175b5d41ff57ee443ad17c14686d4ec5f49528f0a0f91b8304a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv23.txt",
+      "sha256": "233a31604efe8ca1d9ecec88e74e6c3e07065f0b04bb0403c64f7f065c8c3d69",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv24.txt",
+      "sha256": "a977eb7dccad403f24bb3fbb0a495090841026cd34b02c83ab4223b0901acc74",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv25.txt",
+      "sha256": "f46c570abaa29acd491c4672e7cbd0b37bf663ba436c076e60cf484c2b87b6f2",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv26.txt",
+      "sha256": "cd4d42ac98003fe0cb286f2b825fc6fc8b51cda8b0e6af42a226e585c14e9368",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv27.txt",
+      "sha256": "ed9e2df54562963c40ffffdf4cd388d04aac7ea36ce3a5c9183580ce184af5cf",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv28.txt",
+      "sha256": "57b222ac68a01fa3da3e32de00c9e77b382b2475720e4e7796b001b835780f93",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv29.txt",
+      "sha256": "1e642ab99db993104d10e165383f0eae5fcc047ff32e3e62edc494c084d15e92",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv3.txt",
+      "sha256": "ae5e93f9a6ee67f680d9ecc6bd6d191709851ed6391344ee3194f9044db1fddf",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv30.txt",
+      "sha256": "240316a9fc7b6041ea897e9f181d17ea35a6beff1ff0982016ff9984df647161",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv31.txt",
+      "sha256": "b0040d157e9dfe5db9a7d76cc3f9e7d3a685d7c24707ddb286c5da64a182ebec",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv32.txt",
+      "sha256": "7cd41a9bfd1f6c5c3da5c021c6d8ee09a5302d504468d96afe237321c195b76c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv33.txt",
+      "sha256": "cf071823cecd1742bd7ed7f716fb246c3b5859776d90c99914f339a915c4726d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv34.txt",
+      "sha256": "08209bd7f3769449d8960a30353c87d12bfccc21e9950a79d232f78f811ca58a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv35.txt",
+      "sha256": "87cfccc4fe65e4b5d53574a79b22a0dc48cd3bce8fb953a86478bc23eef95119",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv36.txt",
+      "sha256": "c712ef295743493569c44341731653bf74e6c14d750a014b05711d368d1ef3e6",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv37.txt",
+      "sha256": "059621639550cc7d96a7efae583bedecdaa77b09a5551e1ad831678157842e41",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv38.txt",
+      "sha256": "b71220df8f601d7f8771e551796e8faf1080235665c2dfc61290bbe8117c7953",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv39.txt",
+      "sha256": "45bc2e38597fa4af4819d338eab78697c2a54359a0bc6ad42c1db4bf4c9240ae",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv4.txt",
+      "sha256": "0c284a15fa7ac41219508f42a750e6cd5f46484d465e4b40b95f8f9027057220",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv40.txt",
+      "sha256": "4bddc6b0595f6666a2a7dde2de5b37657e74446b667bf2a7977d18c1c25c23be",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv41.txt",
+      "sha256": "87dad20e46b699a39031433bf5f57060f913b7f07b50b2dc3ba89973cdd7acf0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv42.txt",
+      "sha256": "aee69b82d819b6fd29289b91fe6734777b92fcaa27ba9cbb98f42b65b27107fd",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv43.txt",
+      "sha256": "2d00902ae0949c71dce2e970c9ad4f59588d594693b5d2d567e1fd499ee374c7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv44.txt",
+      "sha256": "3fec50c0e519a6565bd2677555dd726a2d1d4733d8b41512f2ea6dc4dd6f5852",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv45.txt",
+      "sha256": "b665a92bdd3673b955d98dcf8e3baa79b72a326f80f010cab7f1f1e98d5d95c4",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv46.txt",
+      "sha256": "1c3451b059407d843404e142a4003a10dfb7b0cb77753de2b2d441aeaa8c7fd0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv47.txt",
+      "sha256": "eaf9d76e75e38a740553dd94d785d32f82a47578a517393c10175b534f701190",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv48.txt",
+      "sha256": "fb6de77c2b100562e9849698387b8fc5cbaf1fe699c8a4f9218310a7ec02a334",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv49.txt",
+      "sha256": "479b7e79024b8da11a061840a71e6c2ecee47f24736d96a38b0de6d7e311b5f5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv5.txt",
+      "sha256": "b65965044375e94c6349a8b45a61698740c5b845af88fab46d8de5eb6035ba37",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv50.txt",
+      "sha256": "dd4a7f403a341b62063e76da93ef04d3669ecac21d12e5cc8dd5be0d85f3815e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv51.txt",
+      "sha256": "e28b643582123ae782379bcce0a8e2785d2a90ba2c2b57a93c9dff34d9dff4ee",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv6.txt",
+      "sha256": "946e43c30e3909a52d378e9614959e1c8b027ae5fae43d64696a0119dcf3a7b5",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv7.txt",
+      "sha256": "9e2c06ef2543c0aa14e3fca4c2c650e2adb97499db51caa607750b44a81e34fe",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv8.txt",
+      "sha256": "198e24ac0c0b6609ccae4e35fbff49c877f8cecd72cc967a9c7ecd93129f29ce",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/pv9.txt",
+      "sha256": "5ef0f2cc01d144455c61fdbd5530f2104a07ae1875b7ef9e7473da031ceea392",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv1.txt",
+      "sha256": "7b7922820447fcb8338d263c1874b574f0dd870899c02432dbda891a0f0c48f1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv10.txt",
+      "sha256": "c6a44091e992e6bc8bdc640a443672aa54841e06f329dfa7b69d554459799bbe",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv11.txt",
+      "sha256": "182a3b98c4b7badd69155e902362f3d06fb2feae8786a32d6ab76adcaf15dddd",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv12.txt",
+      "sha256": "25bedd0ba3eaab4cd65c966b234e13ad471dc86e6208b23f5bdcc1564f130c50",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv13.txt",
+      "sha256": "6fb15c2142b97153e056054ad7c5e4f5c89f4f524a722fc3cfb68b46e1193de9",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv14.txt",
+      "sha256": "2e6dd0f9d17ab483e31b0e1f0d097d14f271f95666ceec5725cacabec63ed8b3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv15.txt",
+      "sha256": "af73f336687d4caada93111076029200515d9256c37e988db99b4abc09a375d7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv16.txt",
+      "sha256": "724aef9d63ae4693306825559d34b339bc356c2ed55a6a43cf39a48ebd2bc27a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv17.txt",
+      "sha256": "2f9260f2c998ceb010a41a6fa4c7f76d2f1568df69d5e7586c9ab5b271a21b86",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv18.txt",
+      "sha256": "2f64cc1049f75f4efbf6c1a0b81b2dd1954a8a245493a141a024731474510bc7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv19.txt",
+      "sha256": "82a6b162927d27c87cc68c6e87cb45ee9c81b3b1f4c8636567cf78c6ed581aad",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv2.txt",
+      "sha256": "3970d71b1d9184d3b94f46d67010326786e5ebdaa22520492ca7cb733fbdab29",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv20.txt",
+      "sha256": "c452d80f95e20144f969fca44489dd263b10bd77d7b9be3c266abb3da5438e9e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv21.txt",
+      "sha256": "7584a314fe52bc7889d3487f7abae0c7f6102d3f8e8db41f6c3efd454bfc9551",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv22.txt",
+      "sha256": "8919db1b5dbc08a93b66c9fd4aa73fcf9ae2eeb5381b143dc3f3c5054df376f3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv23.txt",
+      "sha256": "36e9ea73d8d2eb3fe81d57b8612a72b3a10de4f441a06f06b4dac5ef84e61616",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv24.txt",
+      "sha256": "06022b367d11e1c5dc10882c89165db52228ab015ea91b0d2d30fc524f31a78d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv25.txt",
+      "sha256": "a59c205257ddf373cc4fe7146b28796f1c34e0a0a5aa993235033a1ce58395e8",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv26.txt",
+      "sha256": "99722bdee6c5c30afc59a48b51f1257e54555507d79e50323c66a552ec4ebe6d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv27.txt",
+      "sha256": "aa35bcdfe56434c8da5c1a4c5a280c18032cae0011fc16b85f4d8743a6456199",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv28.txt",
+      "sha256": "bd518312574d06f4961356b26d23ff1ccaece22a20bdf5acba290eaa2a390efe",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv29.txt",
+      "sha256": "51641ffb40f8ffe8bef794b1b52d48942f09dd1d3103a7ed459b2b73ff12351b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv3.txt",
+      "sha256": "094ea38db178fe3ec4ab123a97ea66d41d6810f0952ae1e56a9c7d08b58a7676",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv30.txt",
+      "sha256": "d296a36b4c176cc70d0db673d3d37f5e660a1a5c60c22566dd09dc7a6fa03730",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv31.txt",
+      "sha256": "bae41e6237304576fc4b9314070314353a77285ec0c72035b609ec11deafbee1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv32.txt",
+      "sha256": "7a6e2657b14d7da7447f5d6e8929196ceb3f52492c543467845cbc473d13a6d6",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv33.txt",
+      "sha256": "c4a888601950d64370941938e1befe89d4b4859b0392e3a75b59ce056bc9ecb7",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv34.txt",
+      "sha256": "11e4c211bd83626e48e3d1989e556da83caec4d238dface80e5e69d2d970302e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv35.txt",
+      "sha256": "c105e8af3f1bc8953f2b82776dd6d703ea42ed319086fa84a680c2757eedb6bb",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv36.txt",
+      "sha256": "bcfe4af8f9c5f634ec7042151a200cdbe0fc7daa8f72c79fc444926f6294ed2c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv37.txt",
+      "sha256": "30bdc013e22eb91bcde369a019ea2a6c6d53570657c653cf89215c4eaec752f8",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv38.txt",
+      "sha256": "b146f064a7bbb958b41db920bda6ee19fbba6ba96126ecc404d3a3d564be1e4d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv39.txt",
+      "sha256": "f28a74485f4dd8e832427eaba16073699b1891e6abe14c06470d9338a512c65c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv4.txt",
+      "sha256": "c67964fcf6e81d78b1e8ee030b19790e9e04744747a8fa3f2237d627170f9276",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv40.txt",
+      "sha256": "dc59ef5789c30f3f7cb6c9fa80e6e1082596a5ee921bd1119fc76a721de21dac",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv41.txt",
+      "sha256": "e5089ea816afdcf38b434ecf0ce22a7c816864d026354f8e5f27a6f53118cb1b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv42.txt",
+      "sha256": "84f724d02c3d2277af14aca1f7ecb12acdeff3abd0ef473bbe664015418d05cc",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv43.txt",
+      "sha256": "0da60766c13f823e67c42dda572815b3a29c0a7d7a498e0e1e083014446238fd",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv44.txt",
+      "sha256": "ccf0b1728510f1fe501f1b909f20df73888cf323b4360d16612f2c1de3ba4c46",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv45.txt",
+      "sha256": "f9d136948f80163d95345b1a8e5078371051754170c34bd013516795a0224410",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv46.txt",
+      "sha256": "e081d9f27637aa4e4886aa39406b5e75708f86d19e89717e874f60b6c95ed77c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv47.txt",
+      "sha256": "7890c4f909b356c441626d4a250cca3e2491e344a966b9c50044559da3de1890",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv48.txt",
+      "sha256": "5fb8729c592edde24922f54430a07ffd88662962f69f77cc9f6b914b44427bb3",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv49.txt",
+      "sha256": "4933753175536204762f6e919ca33ef44bab199dc52783be8273cd13354d90f9",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv5.txt",
+      "sha256": "afc5263d3f00fd341a1197d1cd725cc84e24eb2653d5be58c4d83bbaf0bb5928",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv50.txt",
+      "sha256": "99cd58943a95d28d4de99b8729cf47a32fdfce5387da11704de4153a1ea61866",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv51.txt",
+      "sha256": "8015efce547faedff82565da1a75bfd33c9e6b97daa7bf1d1675fa511e6989ab",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv52.txt",
+      "sha256": "23e1677c45b4db59853ecb13fe096d331832b8b83d47286b9920811ddd03b582",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv53.txt",
+      "sha256": "3e71cdb12f236dc0bfc460cc7e47d29c74d36e2446e22120785990267bd67e57",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv54.txt",
+      "sha256": "f499be9793b3e2b895c57911593762e9d275d3dea1b9afbc780773b178445842",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv55.txt",
+      "sha256": "27bae624ce366b454a60731fc93735023055d366283bf7bc129acc69d0a36395",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv56.txt",
+      "sha256": "8cd6948ce00c421b16445037400924c0c44db67cd47b8fd143cd88d0858c686d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv57.txt",
+      "sha256": "5b56256eb9ad404d7352fc74353d42856e5317867b46e6b2e38ed4f9ed6cae8f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv58.txt",
+      "sha256": "cc72c8acd39586e5157aa20273729f92445026e367cf50a8209187a10416508d",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv59.txt",
+      "sha256": "72e25a5aae34f27dde05a163b2e290b9a8d6ea339df4a5db8717d948e6c78a52",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv6.txt",
+      "sha256": "dac3a974f953c20ac5743088a8cf8a46d82b4221194cae81ef7f5150fa66f289",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv60.txt",
+      "sha256": "ea6c70231de21607070afb0241b5698e20bf5279f9193c480bc661ec68edea03",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv61.txt",
+      "sha256": "0a32c67f2b097453ff4451570fbe02184763d4328a9c841fe63e2ac1e213fb30",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv62.txt",
+      "sha256": "7a1faef0aa1a23515957abfcbe02131fa2d5c4215bfb6e6d32be7e12e56b9d11",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv63.txt",
+      "sha256": "1d267284abd8a121c09fa8a1a8c53267fbbbdcde51f0324184e75bb7ae6b2c00",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv64.txt",
+      "sha256": "d82a4336b16fd0880719d8d65b61c02441f7937eb06c4ed11895acf5f971cd1f",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv65.txt",
+      "sha256": "59010b0620652bab949d18c9955658407bca3692ca0636e273ae5ba0cb3099b8",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv66.txt",
+      "sha256": "297843aeb03b2739155f3bef54efa29aee452a768a7c13a20e10f1143ed92a3b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv67.txt",
+      "sha256": "92c0f1bbe547df92b08fe584cfc73b8a011b57125266f1ff1482866a08982a9a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv68.txt",
+      "sha256": "eb684659e89d3aa0bc8767e16bd77a57a559ab568eb5129cc26b102e1448ddbe",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv69.txt",
+      "sha256": "fcb398d093f11a73c9383b508a271573216ddd65c5877f9be1e072cc2cf44412",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv7.txt",
+      "sha256": "85744c4130846f5eb8435c7b7a9778ee1a903e5d6b3f503ec3149ae81fcb1e5c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv70.txt",
+      "sha256": "c5102e664b1b1e4ca1ae7444e5354dc4ce81a01c610c27758fc63015dd0c3806",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv71.txt",
+      "sha256": "99c9f64252c57162dbdea083bd34e9c158003b240e093e33019b2b911a4c928a",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv72.txt",
+      "sha256": "18f1ee16c02752ff339fbc5aea83d88344a31d9ae086214a24ee3ca68f5eb354",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv73.txt",
+      "sha256": "7c0f4e10e141121912760a8328d8ef42a4f38a602b35ec157accc79141b2f56b",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv74.txt",
+      "sha256": "aff98d26fcaf9651e8ec98d365fe073c55b696ae56e27e9fee47918fd4fee4e0",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv75.txt",
+      "sha256": "1e4900bc0beac23ce68d6b623f57f3c32e3313d8f2f653d4658cf7571e8a613e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv76.txt",
+      "sha256": "1f88f0a957ab55bb0d320382639fb17181c8cc7f87dc1659ba797818c82ba089",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv77.txt",
+      "sha256": "022df885ca6ce022374baf0653731ef8842cf9caa9a4a82e26d521bb1551495e",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv78.txt",
+      "sha256": "4941e5d03b43cb42196a9b083dce88ef4f4785fe587e6e72669cc1dfc6616744",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv79.txt",
+      "sha256": "3d7397fe8030c873efedb047f9e568215619060904fe3aae1ea450efbe5d0564",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv8.txt",
+      "sha256": "16e5fbc56162ba21597ad3aa7ae1ec6bc1675b9ed4cf3a3bb5877afc8383e4b8",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv80.txt",
+      "sha256": "f493cb5a4a6dd9d7368de10c95f0d4fac69850e19829d585a3ce4440a3099678",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv81.txt",
+      "sha256": "a951cc5a0a3c8969fd06a5f760ed2f0ff6ca274b00aa3628203e6377bde7ef23",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv82.txt",
+      "sha256": "740f37b3ba3d145794f22e336927a12420b2c1b50820472c336f48d909e43742",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv83.txt",
+      "sha256": "539207b934303ae764b364b593d6345f0140e06053bb54e85f0b5a2fbdd0b9a1",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv84.txt",
+      "sha256": "5d4935872b9127ea0ba30ae144cc41587191b36632531e92f7c5d506c4ab266c",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv85.txt",
+      "sha256": "aca10d757387592a5a8c55cb27fcda7e5fad8544e646e503d5729f941af46a55",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
+      "path": "theravada/tipitaka/translations/en/licensed/suttafriends/vv9.txt",
+      "sha256": "096e12a843be52868963493c5f1033e5c46de6269bade3549b4dcd312139f383",
+      "license_scope": "Sutta Friends — individual sutta sharing permission",
+      "rights_basis": "The pinned Sutta Friends notice permits individual-sutta sharing; only individual article text/markup is copied. Combined readers, site archives and source archives are excluded."
+    },
+    {
       "path": "theravada/tipitaka/translations/en/licensed/thanissaro-dhammatalks-00f17ee9/an-5-98.txt",
       "sha256": "11510620e4c920fec8c16843f8e594071ef9ef837b1121773902d3af6c5dba0e",
       "license_scope": "CC-BY-NC-4.0",
@@ -128439,19 +130089,19 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/archive_rights.py",
-      "sha256": "e850fc9bf9f4ef3210598ea8cb743dba3fc33e122ad7e316ea2d34e5eacbce60",
+      "sha256": "6301c23d45f94c56c2b01d381e2c2d82416796d36db5bc15b73959f07d072ae1",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "28baee80678e85aa7ce30c61c9c537cc128d605830be37142800062e9c4d8594",
+      "sha256": "1e94618ebdea96c9f8b742de3b16f2032d81f321085000a1d8faebccbb2f342d",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_eligible_readers.py",
-      "sha256": "57dcc29c02ec536107aa6fad6cd1e0038f8d2412cedb02b86c4f7b2c338799c8",
+      "sha256": "ab42820c147d229187610e890fd0a96bc8d71a1ed7192b7a3a2ea6d1368bb22c",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128505,7 +130155,13 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/check_licensed_readers.py",
-      "sha256": "07f0825ab8f1b67c6fccfa19847c29a764c5ecfcaa6c59ddf9a074e6fc651c42",
+      "sha256": "58fcf3333b1ef19a79e7554fb4015a1b17a822f929533ed63c05f486f89c17ad",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/distribution_policy.py",
+      "sha256": "e656cc187802b35cef9f5229eb0b0152e37f9490ae01a20d30686f256a852781",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128523,7 +130179,13 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/import_licensed_batches.py",
-      "sha256": "cd5b3d18580275d578ca8c41e1100a4d48305addba4b220fb3e29f8a71eb1539",
+      "sha256": "37e5b2bc7a7abceb5ab710626bba221b92f28dd319edbab314ac7fe4a49175bb",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/import_suttafriends_individual.py",
+      "sha256": "4c17eade9f4323502c2c08885810ccf3e232f68f8b9cd0cf7ef2856372f1c03d",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128553,7 +130215,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/prepare_suttafriends.py",
-      "sha256": "f16baa65c4b4446fae229848dd2d35569b7afa488c4f5f994d7d97bb032b9672",
+      "sha256": "3407abaf8672f949b87f1e4cde11ea6d8229f2b80caf7a644a1dcc78966daf83",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128577,7 +130239,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/publication_rights.py",
-      "sha256": "6ed1800a512bd7094fec4e128348aebd6adff44b8057953cd222857e5f8803a8",
+      "sha256": "d44aa1e48e6d9474c09c2932c7a6d8f758c814c3269f5723d5449a135bdc2e1b",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128612,6 +130274,12 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tools/buddhist_canon_pipeline/suttafriends_rights.py",
+      "sha256": "73d697b5f0ea2d0b236f7978636deee038e9910697acfb238045ea33cd3bcf77",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tools/buddhist_canon_pipeline/verify_candana_conversion.py",
       "sha256": "92a63e55c532df98c1222a5bbca9afa2d3dd06cc2a6916aa9c9cdbd465cb0380",
       "license_scope": "0BSD",
@@ -128631,7 +130299,7 @@
     },
     {
       "path": "tools/validate_public_tree.py",
-      "sha256": "a6a465c9e64d7b32ff9cd776bc44957214842b175cd369afd96951225c75e081",
+      "sha256": "4e1b49ed2bc6db3a6a5e1371042774463b284f58420ed884fbb224d29f90f2f6",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

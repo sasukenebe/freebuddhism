@@ -11,8 +11,8 @@
     "Reference files/grouping differ by edition; no universal remaining-sutta count is claimed."
   ],
   "availability": {
-    "AVAILABLE": 5388,
-    "NO_LOCAL_EDITION": 234,
+    "AVAILABLE": 5521,
+    "NO_LOCAL_EDITION": 101,
     "WHOLE_BOOK_ALIGNMENT_PENDING": 142
   },
   "collections": [
@@ -110,11 +110,10 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "reference_units": 85,
       "availability": {
-        "NO_LOCAL_EDITION": 83,
-        "AVAILABLE": 2
+        "AVAILABLE": 85
       },
       "completeness": {
-        "NO_LOCAL_EDITION": 83,
+        "AVAILABLE_COMPLETENESS_UNVERIFIED": 83,
         "COMPLETE_WITHIN_RECORDED_SCOPE": 2
       }
     },
@@ -122,12 +121,10 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "reference_units": 51,
       "availability": {
-        "NO_LOCAL_EDITION": 50,
-        "AVAILABLE": 1
+        "AVAILABLE": 51
       },
       "completeness": {
-        "NO_LOCAL_EDITION": 50,
-        "AVAILABLE_COMPLETENESS_UNVERIFIED": 1
+        "AVAILABLE_COMPLETENESS_UNVERIFIED": 51
       }
     },
     {
@@ -62433,16 +62430,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv10_root-pli-ms.json",
       "git_blob": "c5e6f7fa5a765c00363c4a195c05df1bd61e4502",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv10"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-10/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62456,16 +62455,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv11_root-pli-ms.json",
       "git_blob": "4c47b77acf83be832be049073b70d566b6cb9574",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv11"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-11/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62479,16 +62480,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv12_root-pli-ms.json",
       "git_blob": "193a31d83a95994ce879065370bf3279f1f4c250",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv12"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-12/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62502,16 +62505,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv13_root-pli-ms.json",
       "git_blob": "350a658905f75fa56028d7b8578961323cdbd84b",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv13"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-1/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62525,16 +62530,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv14_root-pli-ms.json",
       "git_blob": "f5abebba042be8e0b7d420433069e4d87e521b10",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv14"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-2/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62548,16 +62555,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv15_root-pli-ms.json",
       "git_blob": "4f327f42086c4371945111b4602d13fb4cacb5e3",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv15"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-3/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62571,16 +62580,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv16_root-pli-ms.json",
       "git_blob": "e8ea46670aa86e697bb3173d502880ad6c4d812f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv16"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-4/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62594,16 +62605,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv17_root-pli-ms.json",
       "git_blob": "2fa05f3c449e41112bb8a10b3889587a1f2b6a5a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv17"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-5/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62617,16 +62630,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv18_root-pli-ms.json",
       "git_blob": "0532e16ea455b55cec98f7d7b33db5988d1d4be9",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv18"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-6/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62640,16 +62655,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv19_root-pli-ms.json",
       "git_blob": "bdfd1d17a5cad08fbd7e4ce45db3853b5656da9a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv19"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-7/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62667,13 +62684,14 @@
       "reference_atom_count": 1,
       "available_atom_count": 1,
       "missing_atoms": [],
-      "edition_count": 1,
+      "edition_count": 2,
       "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
       "edition_completeness_labels": [
         "UNKNOWN"
       ],
       "source_urls": [
-        "https://suttacentral.net/pv1/en/kovilo"
+        "https://suttacentral.net/pv1/en/kovilo",
+        "https://suttafriends.org/sutta/pv1-1/"
       ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
@@ -62688,16 +62706,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv20_root-pli-ms.json",
       "git_blob": "7f277ec638089bdfd2c82b8502f028829be4499b",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv20"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-8/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62711,16 +62731,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv21_root-pli-ms.json",
       "git_blob": "9d8bfc06616ea170aa7d6ee9a7da4d2ffb5fb890",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv21"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-9/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62734,16 +62756,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv22_root-pli-ms.json",
       "git_blob": "84098d03c98d042d4a61e08d386d4eb98ea64046",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv22"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-10/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62757,16 +62781,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv23_root-pli-ms.json",
       "git_blob": "ad1c9d6a19a14bde42d379fc556347e80b93eded",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv23"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-11/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62780,16 +62806,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv24_root-pli-ms.json",
       "git_blob": "fec2aa8fbd6588427eb0ab93f930ea88fb1f4284",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv24"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-12/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62803,16 +62831,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv25_root-pli-ms.json",
       "git_blob": "f063478547f86af4b0a51cf53efc8c2246c011ec",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv25"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv2-13/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62826,16 +62856,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv26_root-pli-ms.json",
       "git_blob": "4dfe4b3bf3532c01f928c8e843a0e38366fdb849",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv26"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-1/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62849,16 +62881,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv27_root-pli-ms.json",
       "git_blob": "e9dc86e682896e29b0dd5f9fc2708f26e67917bf",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv27"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-2/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62872,16 +62906,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv28_root-pli-ms.json",
       "git_blob": "1e8e0d8fefe4919fbb8181187bd6a20f2920d7d1",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv28"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-3/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62895,16 +62931,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv29_root-pli-ms.json",
       "git_blob": "4870418d864108c94f8cec9b3cc5fa866bca9e8a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv29"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-4/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62918,16 +62956,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv2_root-pli-ms.json",
       "git_blob": "0b416906f0af0a079c5e5e07867bb4ee22dbcb87",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv2"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-2/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62941,16 +62981,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv30_root-pli-ms.json",
       "git_blob": "492d55cd4b6f46928d22d3842b6b8efc6d57bf8b",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv30"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-5/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62964,16 +63006,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv31_root-pli-ms.json",
       "git_blob": "9a2a790231ccb077d96f3bf04f1548b45f935527",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv31"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-6/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -62987,16 +63031,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv32_root-pli-ms.json",
       "git_blob": "6b20ae102553c9ff80da56a05788225c55042721",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv32"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-7/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63010,16 +63056,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv33_root-pli-ms.json",
       "git_blob": "98bbc2e60f2c91553413a1c5644f1672c302eb13",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv33"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-8/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63033,16 +63081,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv34_root-pli-ms.json",
       "git_blob": "508ed87072594d69fb53c90bab6426e74035682a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv34"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-9/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63056,16 +63106,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv35_root-pli-ms.json",
       "git_blob": "798b62a9ab1feb61114e6f7c83f553b515876f28",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv35"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv3-10/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63079,16 +63131,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv36_root-pli-ms.json",
       "git_blob": "646f0900f6523636bcf60edf26487bc903af93b1",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv36"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-1/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63102,16 +63156,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv37_root-pli-ms.json",
       "git_blob": "6417164c7fa0e74dbc0b8c7239f6c386356cd3c4",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv37"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-2/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63125,16 +63181,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv38_root-pli-ms.json",
       "git_blob": "e94e539626ed45c81001858cde65886a46220872",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv38"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-3/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63148,16 +63206,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv39_root-pli-ms.json",
       "git_blob": "9fd2c9bb6be2888a7dca1e28cea5b549501022bd",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv39"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-4/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63171,16 +63231,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv3_root-pli-ms.json",
       "git_blob": "f3d3ddc37d37b2e805719bd19f99cf3656db2594",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv3"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-3/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63194,16 +63256,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv40_root-pli-ms.json",
       "git_blob": "4ba992ede7257c14d582cabee129e4b2f6a8f5e9",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv40"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-5/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63217,16 +63281,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv41_root-pli-ms.json",
       "git_blob": "43dd03fed0d55b45b3ce4acc2c014b3e1bebf7f4",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv41"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-6/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63240,16 +63306,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv42_root-pli-ms.json",
       "git_blob": "d5b0965dae5de0e5fec087f8f5d8490473bdbf75",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv42"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-7/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63263,16 +63331,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv43_root-pli-ms.json",
       "git_blob": "51d9ecad739953fb7477a84afd910b8c74321b45",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv43"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-8/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63286,16 +63356,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv44_root-pli-ms.json",
       "git_blob": "d69ff4ff71cfd770f6ae6dcaf06208424893ac75",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv44"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-9/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63309,16 +63381,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv45_root-pli-ms.json",
       "git_blob": "ec354798b6c43d082e5253c52aadcd90d3d9263a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv45"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-10/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63332,16 +63406,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv46_root-pli-ms.json",
       "git_blob": "704694c7df0651c48e8b6f3bdeda9cdd1e1a848a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv46"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-11/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63355,16 +63431,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv47_root-pli-ms.json",
       "git_blob": "273fd56dce190ba88067bc091243b35d268a562e",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv47"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-12/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63378,16 +63456,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv48_root-pli-ms.json",
       "git_blob": "1f8a1c76cd7f4155e9415b5f519952b024dc21e2",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv48"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-13/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63401,16 +63481,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv49_root-pli-ms.json",
       "git_blob": "0ed963743a039f701d95cc62ffe0fafe78a73c87",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv49"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-14/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63424,16 +63506,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv4_root-pli-ms.json",
       "git_blob": "6e47aa06a62d40aed92303700fc9c6bfe2d5e97c",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv4"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-4/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63447,16 +63531,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv50_root-pli-ms.json",
       "git_blob": "968b154f70804beb63541a24243891352cd0ccf4",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv50"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-15/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63470,16 +63556,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv51_root-pli-ms.json",
       "git_blob": "f4335ae31f5cd1b57e26c8b0990a58145630e98a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv51"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv4-16/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63493,16 +63581,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv5_root-pli-ms.json",
       "git_blob": "5483c0519c49a99e50e87522c6b86cf3f2110fd6",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv5"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-5/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63516,16 +63606,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv6_root-pli-ms.json",
       "git_blob": "5849cc138cfcc6859d8d8ab045fac63811c58d39",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv6"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-6/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63539,16 +63631,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv7_root-pli-ms.json",
       "git_blob": "387360b89e9e3a1ad1bae9aceb265e48eec72b8c",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv7"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-7/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63562,16 +63656,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv8_root-pli-ms.json",
       "git_blob": "f30efa3c155cfe82a06047a5bc898191fe7d74c6",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv8"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-8/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -63585,16 +63681,18 @@
       "collection": "khuddaka-nikaya/petavatthu",
       "path": "root/pli/ms/sutta/kn/pv/pv9_root-pli-ms.json",
       "git_blob": "4d659f8f34c8f9847c173ee11400ae9af4f5bbab",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "pv9"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/pv1-9/"
+      ],
       "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
       "candidate_sources": [
         "https://suttafriends.org/peta-vatthu/",
@@ -91033,16 +91131,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv10_root-pli-ms.json",
       "git_blob": "d0b928a1e3f3654be83cffab2a85fc9304f9936f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv10"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91057,16 +91157,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv11_root-pli-ms.json",
       "git_blob": "e436f8fed414dd1aab2444b76298f86f19c6f51d",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv11"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-11/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91081,16 +91183,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv12_root-pli-ms.json",
       "git_blob": "09cd5d13a1dc43555b78cf3f58381ba99fcc08ba",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv12"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-12/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91105,16 +91209,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv13_root-pli-ms.json",
       "git_blob": "ee4a1383244fd7aae6e2b197955c9db998ca4612",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv13"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-13/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91129,16 +91235,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv14_root-pli-ms.json",
       "git_blob": "046ac73d48403a9bf472fa2c65683c5bb6d6e3f0",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv14"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-14/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91153,16 +91261,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv15_root-pli-ms.json",
       "git_blob": "57cc99896e091606b552e129426f81d0f6419920",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv15"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-15/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91181,13 +91291,15 @@
       "reference_atom_count": 1,
       "available_atom_count": 1,
       "missing_atoms": [],
-      "edition_count": 1,
+      "edition_count": 2,
       "completeness": "COMPLETE_WITHIN_RECORDED_SCOPE",
       "edition_completeness_labels": [
-        "COMPLETE"
+        "COMPLETE",
+        "UNKNOWN"
       ],
       "source_urls": [
-        "https://accesstoinsight.org/tipitaka/kn/vv/vv.1.16.irel.html"
+        "https://accesstoinsight.org/tipitaka/kn/vv/vv.1.16.irel.html",
+        "https://suttafriends.org/sutta/vv1-16/"
       ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
@@ -91203,16 +91315,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv17_root-pli-ms.json",
       "git_blob": "dca7418ec85c369d0f69c02f640528ed6ba15c1e",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv17"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-17/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91227,16 +91341,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv18_root-pli-ms.json",
       "git_blob": "c6506a0b67e275f061c8fb1794580a9e162f2edf",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv18"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91251,16 +91367,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv19_root-pli-ms.json",
       "git_blob": "b51b21d5723ba2c4180a83305dc535d25dfe2c36",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv19"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91275,16 +91393,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv1_root-pli-ms.json",
       "git_blob": "22603adbd4966a8f9c204a9aa3bc3af24642beea",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv1"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91299,16 +91419,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv20_root-pli-ms.json",
       "git_blob": "1ec6407bebea83c7d6585592c76c33e8211e4c89",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv20"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91323,16 +91445,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv21_root-pli-ms.json",
       "git_blob": "f735077c626920a5b6fc184daa675d01997b0352",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv21"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91347,16 +91471,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv22_root-pli-ms.json",
       "git_blob": "48ddec23137205c524e373f991567ad226c2877d",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv22"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91371,16 +91497,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv23_root-pli-ms.json",
       "git_blob": "fec7edc7d862903df0e76da0cb8a23771713989e",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv23"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91395,16 +91523,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv24_root-pli-ms.json",
       "git_blob": "9b2be052ce5eba3ad8e1163205e1a82d96e152d4",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv24"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91419,16 +91549,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv25_root-pli-ms.json",
       "git_blob": "15dd7293d3ac3e59f8a4e93b7c3728701739d4c7",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv25"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91443,16 +91575,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv26_root-pli-ms.json",
       "git_blob": "05dfa1f486cacb0b63f0c6e4da4f8c3fe6027a9a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv26"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91467,16 +91601,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv27_root-pli-ms.json",
       "git_blob": "4754e24bcf7a4eae91b752a5f77ba5f31bbe814d",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv27"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91491,16 +91627,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv28_root-pli-ms.json",
       "git_blob": "1b5913acc51eaae0cdbd392d59d94ac6e0fb6501",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv28"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv2-11/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91515,16 +91653,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv29_root-pli-ms.json",
       "git_blob": "8e5e60386dd0fef1a08e5b2b5f68184474a5a175",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv29"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91539,16 +91679,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv2_root-pli-ms.json",
       "git_blob": "826bdfaf2c64257126b8672b7482a2bf42a34784",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv2"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91563,16 +91705,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv30_root-pli-ms.json",
       "git_blob": "6e38837d3b35545e0bdca56817b765589a47c9cd",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv30"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91587,16 +91731,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv31_root-pli-ms.json",
       "git_blob": "d3be519e1fcab63cffd974474cb31a72bcae8fab",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv31"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91611,16 +91757,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv32_root-pli-ms.json",
       "git_blob": "f47a8a53e6f09c9e350135f282737c4cb5d53ef9",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv32"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91635,16 +91783,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv33_root-pli-ms.json",
       "git_blob": "18488158d1110ab32fff72ba3093a03cbdc7c2e5",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv33"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91659,16 +91809,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv34_root-pli-ms.json",
       "git_blob": "06c305db03aef8edc5031de29029f6124cf10786",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv34"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91687,13 +91839,15 @@
       "reference_atom_count": 1,
       "available_atom_count": 1,
       "missing_atoms": [],
-      "edition_count": 1,
+      "edition_count": 2,
       "completeness": "COMPLETE_WITHIN_RECORDED_SCOPE",
       "edition_completeness_labels": [
-        "COMPLETE"
+        "COMPLETE",
+        "UNKNOWN"
       ],
       "source_urls": [
-        "https://accesstoinsight.org/tipitaka/kn/vv/vv.3.07.irel.html"
+        "https://accesstoinsight.org/tipitaka/kn/vv/vv.3.07.irel.html",
+        "https://suttafriends.org/sutta/vv3-7/"
       ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
@@ -91709,16 +91863,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv36_root-pli-ms.json",
       "git_blob": "95e9a379faaa76ef92747b92137c18f0764ef5b8",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv36"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91733,16 +91889,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv37_root-pli-ms.json",
       "git_blob": "ba71350b9f667a6c8bf54dbe9d5b55e6c10776ce",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv37"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91757,16 +91915,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv38_root-pli-ms.json",
       "git_blob": "3c46ac12b78299b9ae4f620e1441a884a0f7793f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv38"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv3-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91781,16 +91941,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv39_root-pli-ms.json",
       "git_blob": "c8a9a6c7b3a9723b535568196cfecc22d4d63f72",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv39"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91805,16 +91967,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv3_root-pli-ms.json",
       "git_blob": "28c61882893219c67ca87a5a4e13738aaa9c0a38",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv3"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91829,16 +91993,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv40_root-pli-ms.json",
       "git_blob": "80014a6d80b41d5ed9dd9791f5a00c62f96fccd5",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv40"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91853,16 +92019,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv41_root-pli-ms.json",
       "git_blob": "9e3ebacb592587ebb262c9613d6cff6794b8ca62",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv41"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91877,16 +92045,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv42_root-pli-ms.json",
       "git_blob": "ef537583b5736b072c40abc0355eadcb389d8abe",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv42"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91901,16 +92071,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv43_root-pli-ms.json",
       "git_blob": "794039b5121f3f0033543c7a2a1e738a687bcb81",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv43"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91925,16 +92097,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv44_root-pli-ms.json",
       "git_blob": "56634c4566729dd95e85b1ad125eb3337d90afe9",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv44"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91949,16 +92123,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv45_root-pli-ms.json",
       "git_blob": "0ac18827c0ea6e0f680c18ca4dde7c0c19571123",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv45"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91973,16 +92149,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv46_root-pli-ms.json",
       "git_blob": "7dabca6add00672b3678319509e61bb6e86456ac",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv46"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -91997,16 +92175,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv47_root-pli-ms.json",
       "git_blob": "767a064928a1bf6fdc0dda42c2f19828e9f6cb01",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv47"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92021,16 +92201,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv48_root-pli-ms.json",
       "git_blob": "e3fe895fcf6ff046a8cdbe7946fee48c3e219357",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv48"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92045,16 +92227,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv49_root-pli-ms.json",
       "git_blob": "b406bcdb5294dbc19bb2b8615c96028176ecaffe",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv49"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-11/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92069,16 +92253,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv4_root-pli-ms.json",
       "git_blob": "a82daf3b4c055147225604c4df0949496096d0b3",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv4"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92093,16 +92279,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv50_root-pli-ms.json",
       "git_blob": "01f26f04c5ab28748d683800c6907173c37ad8bb",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv50"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv4-12/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92117,16 +92305,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv51_root-pli-ms.json",
       "git_blob": "f8c712d9d5a6b60cc1df7e8bf60b3165e4ec35ba",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv51"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92141,16 +92331,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv52_root-pli-ms.json",
       "git_blob": "64d684bd1ac8233e79ec9609981ddc43e6759222",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv52"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92165,16 +92357,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv53_root-pli-ms.json",
       "git_blob": "fe83562b4174409c0a8846f9cdbca7aa7d624336",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv53"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92189,16 +92383,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv54_root-pli-ms.json",
       "git_blob": "3baa43ff6715e90357e6a45eedcc70e274f2cd84",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv54"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92213,16 +92409,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv55_root-pli-ms.json",
       "git_blob": "3e3d0aa5159f443624ea284862fa44f61bfb3db8",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv55"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92237,16 +92435,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv56_root-pli-ms.json",
       "git_blob": "a18c939f152b22b4c9c51b1ef012044ca57b0459",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv56"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92261,16 +92461,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv57_root-pli-ms.json",
       "git_blob": "88e1d159de1bc80b5c1ea4e202af99354aab5292",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv57"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92285,16 +92487,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv58_root-pli-ms.json",
       "git_blob": "fec375c2c4d54e0e0eda423d394e07ce1275acfb",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv58"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92309,16 +92513,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv59_root-pli-ms.json",
       "git_blob": "0dddc9f8f9c5ae27b41e9f0c745611921deb1c1f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv59"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92333,16 +92539,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv5_root-pli-ms.json",
       "git_blob": "ad73c1d2cf48f648e739abf1bd6dbe057f04794f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv5"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92357,16 +92565,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv60_root-pli-ms.json",
       "git_blob": "92a7165513285c0c07ddd2c6cc524ec24a19fece",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv60"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92381,16 +92591,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv61_root-pli-ms.json",
       "git_blob": "5b11b6136c47a3a562e77c015e67d67ab910cffd",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv61"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-11/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92405,16 +92617,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv62_root-pli-ms.json",
       "git_blob": "d09c2821e8800c716aa880b947eb51936a1e2329",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv62"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-12/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92429,16 +92643,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv63_root-pli-ms.json",
       "git_blob": "3bb56c496152adc909a7e4e6f49275fee4b990cc",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv63"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-13/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92453,16 +92669,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv64_root-pli-ms.json",
       "git_blob": "fdb25c893271aa56ad47621d346569cd093f4507",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv64"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv5-14/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92477,16 +92695,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv65_root-pli-ms.json",
       "git_blob": "395c6c4f8449203a8c5bb7aa245998dac20195bc",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv65"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92501,16 +92721,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv66_root-pli-ms.json",
       "git_blob": "eab29cff81dc78db744980502da961c780892c21",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv66"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92525,16 +92747,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv67_root-pli-ms.json",
       "git_blob": "8e808d9b0d04bf43bf9152f722505f09cf876f6f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv67"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92549,16 +92773,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv68_root-pli-ms.json",
       "git_blob": "370dcb7a978953223ecabfbeba0bc3562b704cc1",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv68"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92573,16 +92799,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv69_root-pli-ms.json",
       "git_blob": "354e4d991f7af9ee04c6cbc2c622cdeb2b9265cb",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv69"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92597,16 +92825,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv6_root-pli-ms.json",
       "git_blob": "977030ca370afdfd57358df94ff78f4154284798",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv6"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92621,16 +92851,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv70_root-pli-ms.json",
       "git_blob": "17371dcfa700409144a15541fd8a1d31ba016c05",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv70"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92645,16 +92877,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv71_root-pli-ms.json",
       "git_blob": "4fb22615ddea9f6fb19ecc56988275f0f910d7f6",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv71"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92669,16 +92903,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv72_root-pli-ms.json",
       "git_blob": "bf38764ff29fea846c3c564a36aadcafcb5b0f85",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv72"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92693,16 +92929,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv73_root-pli-ms.json",
       "git_blob": "79678f8fe4e1f21cabc6eb2a1be74a35a6dcee2a",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv73"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92717,16 +92955,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv74_root-pli-ms.json",
       "git_blob": "ae80ee3a719c1121264444d4d8c573e717d99346",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv74"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv6-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92741,16 +92981,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv75_root-pli-ms.json",
       "git_blob": "005b10a87beb66e4f42fcd4beddca658e0d87ef3",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv75"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-1/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92765,16 +93007,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv76_root-pli-ms.json",
       "git_blob": "7f50618b25afd5438bfa6edc55f08cd4bd8d693f",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv76"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-2/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92789,16 +93033,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv77_root-pli-ms.json",
       "git_blob": "d7927b47ce04a3bea4bd6450fb605e67626d0f24",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv77"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-3/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92813,16 +93059,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv78_root-pli-ms.json",
       "git_blob": "47ee65c69c66fd971091414256bf0080930b6881",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv78"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-4/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92837,16 +93085,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv79_root-pli-ms.json",
       "git_blob": "2275bd2ca5266327edf48648cce24a38e8a04ee2",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv79"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-5/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92861,16 +93111,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv7_root-pli-ms.json",
       "git_blob": "d417552ab2fb4127d2fb4d4b0d02aaef31d30a96",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv7"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92885,16 +93137,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv80_root-pli-ms.json",
       "git_blob": "47a0bcf90c5a275c03243915dd89875d03e23bd2",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv80"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-6/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92909,16 +93163,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv81_root-pli-ms.json",
       "git_blob": "f036d4ce5d413dc6dc4cce1044de34dbd8971c66",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv81"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-7/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92933,16 +93189,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv82_root-pli-ms.json",
       "git_blob": "933a3d9c83528c20e630477ef311a60e95d97c18",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv82"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92957,16 +93215,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv83_root-pli-ms.json",
       "git_blob": "bba72ec8e564e73f1d08272ccd85b87b963ff1af",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv83"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -92981,16 +93241,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv84_root-pli-ms.json",
       "git_blob": "13eeb0510e8c0a4836b3d69abcd63c41f578b3a2",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv84"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-10/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -93005,16 +93267,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv85_root-pli-ms.json",
       "git_blob": "fab316749997b203c0ae8eaf54af3498864a10ec",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv85"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv7-11/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -93029,16 +93293,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv8_root-pli-ms.json",
       "git_blob": "3ad91967d308703e36018139213c9846fc00d4c5",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv8"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-8/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -93053,16 +93319,18 @@
       "collection": "khuddaka-nikaya/vimanavatthu",
       "path": "root/pli/ms/sutta/kn/vv/vv9_root-pli-ms.json",
       "git_blob": "c79428db0cbd748c7cfcd9ab888f2d9b22eba066",
-      "availability": "NO_LOCAL_EDITION",
+      "availability": "AVAILABLE",
       "reference_atom_count": 1,
-      "available_atom_count": 0,
-      "missing_atoms": [
-        "vv9"
+      "available_atom_count": 1,
+      "missing_atoms": [],
+      "edition_count": 1,
+      "completeness": "AVAILABLE_COMPLETENESS_UNVERIFIED",
+      "edition_completeness_labels": [
+        "UNKNOWN"
       ],
-      "edition_count": 0,
-      "completeness": "NO_LOCAL_EDITION",
-      "edition_completeness_labels": [],
-      "source_urls": [],
+      "source_urls": [
+        "https://suttafriends.org/sutta/vv1-9/"
+      ],
       "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
       "candidate_sources": [
         "https://suttafriends.org/vimana-vatthu/",
@@ -137738,7 +138006,7 @@
   ],
   "input_sha256": {
     "metadata/sutta-reference-units.json": "7db5ea44168eb261e854897d0460e11b9ac832bf141d4dffc702614d118dec7f",
-    "metadata/reports/translation-coverage-2026-11-11.json": "5bbc8a9bac258a9f09981d4a6fc7279a7e5103153a9e48bab882aee022963d6a",
+    "metadata/reports/translation-coverage-2026-11-11.json": "c91c5c1d0341dd48487b0cb467203ba3836769828b6243a2890c8302f281b15a",
     "metadata/site-catalog.json": "ad74623630935cbdffa0ab032184b47a5f1a49c7445d7485b9782c0b73cd9d6b",
     "metadata/eligible-assets.json": "68fdaf8bb5b9170c9104396886ecef4f0894d26b2860ef2a8c10b28f4ae70e3f",
     "metadata/sutta-coverage-priorities.json": "23b88fdb9d56faa533176846509ce4d917ad24e2805e519f932fcd533b7d8617"

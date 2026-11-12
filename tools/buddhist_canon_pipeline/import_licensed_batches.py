@@ -13,6 +13,8 @@ import re
 import shutil
 import unicodedata
 
+from distribution_policy import INDIVIDUAL_LICENSE, INDIVIDUAL_RIGHTS_BASIS
+
 from publication_rights import (
     ROOT, MANIFEST, FREE_GRANT, SCOPE_BASIS, COMPLETENESS,
     canonical_license, license_conditions, license_url, sha256, verified_manifest,
@@ -31,6 +33,8 @@ def attributed_text(row: dict, body: str) -> str:
         header.append("Attribution: " + row["attribution_notice"])
     if row.get("publisher_references"):
         header.append("Publisher references (not part of the sutta): " + " ".join(row["publisher_references"].split()))
+    if row["license"] == INDIVIDUAL_LICENSE:
+        header.append("Distribution: Individual copies only in this build; omitted from combined readers and collection/source archives.")
     header.extend(["Changes: " + CHANGES,
                    f"Completeness: {row['completeness_status']}. {row['completeness_scope']}"])
     return "\n".join(header) + "\n\n" + body
@@ -216,7 +220,8 @@ def update_metadata(manifest: dict) -> None:
     for row in manifest["records"]:
         for source_path in (row["local_path"], row["source_snapshot"]):
             entries[source_path] = {"path": source_path, "sha256": sha256(ROOT / source_path),
-                                    "license_scope": row["license"], "rights_basis": SCOPE_BASIS}
+                                    "license_scope": row["license"],
+                                    "rights_basis": INDIVIDUAL_RIGHTS_BASIS if row["license"] == INDIVIDUAL_LICENSE else SCOPE_BASIS}
     allowlist["files"] = sorted(entries.values(), key=lambda row: row["path"])
     write_json(path, allowlist)
 

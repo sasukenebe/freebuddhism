@@ -1,0 +1,4 @@
+# Individual article sharing does not establish collection-archive permission.
+# A full source build requires a Git checkout, not a source ZIP/tarball.
+/metadata/source-snapshots/suttafriends-individual/** export-ignore
+/theravada/tipitaka/translations/en/licensed/suttafriends/** export-ignore

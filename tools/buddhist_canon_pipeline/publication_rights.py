@@ -10,6 +10,11 @@ import re
 import unicodedata
 from urllib.parse import urlsplit
 
+try:
+    from .distribution_policy import INDIVIDUAL_LICENSE
+except ImportError:
+    from distribution_policy import INDIVIDUAL_LICENSE
+
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "metadata/source-manifests/licensed-collections.json"
 IDENTITY_REVIEWS = Path("metadata/source-manifests/licensed-identity-review-2026-11-11.json")
@@ -154,12 +159,18 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
             raise ValueError(f"Duplicate licensed edition: {key}")
         identifiers.add(key)
         name = record["license"]
-        if name == FREE_GRANT:
+        if name == INDIVIDUAL_LICENSE:
+            try:
+                from .suttafriends_rights import verify_record
+            except ImportError:
+                from suttafriends_rights import verify_record
+            verify_record(record, root)
+        elif name == FREE_GRANT:
             if not record.get("explicit_grant") or not record.get("conditions"):
                 raise ValueError("Explicit distribution grant and conditions are required")
         elif canonical_license(name) != name or record.get("license_url") != license_url(name):
             raise ValueError(f"Edition has an unsupported or mismatched license: {key}")
-        if name != FREE_GRANT and record.get("conditions") != license_conditions(name):
+        if name not in {FREE_GRANT, INDIVIDUAL_LICENSE} and record.get("conditions") != license_conditions(name):
             raise ValueError(f"Edition license conditions are incomplete: {key}")
         if record.get("completeness_status") not in COMPLETENESS:
             raise ValueError(f"Edition completeness is not classified: {key}")
@@ -195,8 +206,10 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
         mapping = record.get("mapping_evidence", {})
         if mapping.get("method") == "unique pinned Pali title within publisher chapter; numbering corrected":
             raise ValueError(f"Title-only discourse remapping is not publishable: {key}")
+        chapter_concordance = (name == INDIVIDUAL_LICENSE
+                              and mapping.get("method") == "Publisher chapter/flat numbering concordance")
         if (mapping.get("publisher_id") and mapping["publisher_id"] != record["canonical_id"]
-                and mapping.get("method") != "Content-verified edition concordance"):
+                and mapping.get("method") != "Content-verified edition concordance" and not chapter_concordance):
             raise ValueError(f"Different publisher/site numbers require discourse-content review: {key}")
         if mapping.get("method") == "Content-verified edition concordance":
             review = identity_for_source(record["source_url"], record["source_sha256"], root)
@@ -220,11 +233,23 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
         elif (canonical_license(name) != name or held["license_url"] != license_url(name)
               or held["conditions"] != license_conditions(name)):
             raise ValueError("Held publisher-source license changed")
+    try:
+        from .suttafriends_rights import verify_source_exports
+    except ImportError:
+        from suttafriends_rights import verify_source_exports
+    verify_source_exports(manifest["records"], root)
     return manifest
 
 
 def verify_published_source(record: dict, root: Path = ROOT) -> None:
     """Recompare real protected HTML and its original ID, not just saved hashes."""
+    if record.get("license") == INDIVIDUAL_LICENSE:
+        try:
+            from .suttafriends_rights import verify_record
+        except ImportError:
+            from suttafriends_rights import verify_record
+        verify_record(record, root)
+        return
     if not record.get("mapping_evidence"):
         return
     from prepare_ati_licensed import fields, region, split_publisher_references

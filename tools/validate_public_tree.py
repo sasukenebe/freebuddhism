@@ -27,6 +27,7 @@ from buddhist_canon_pipeline.import_candana import (
 from buddhist_canon_pipeline.publication_rights import (
     STANDARD_SCOPES, FREE_GRANT, SCOPE_BASIS, verified_manifest as licensed_manifest,
 )
+from buddhist_canon_pipeline.distribution_policy import INDIVIDUAL_LICENSE, INDIVIDUAL_RIGHTS_BASIS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,7 @@ LARGE_INDEX_LINK_TEXT_BUDGETS = {
     "theravada/tipitaka/vinaya/bhikkhuni-vibhanga/index.html": 5228,
 }
 RIGHTS_BASIS_BY_SCOPE = {
+    INDIVIDUAL_LICENSE: INDIVIDUAL_RIGHTS_BASIS,
     CANDANA_LICENSE: CANDANA_RIGHTS_BASIS,
     "0BSD": "Original project code and test fixtures are released under 0BSD in LICENSE.",
     "License text": "Standard 0BSD and CC0-1.0 license texts are included as license notices.",

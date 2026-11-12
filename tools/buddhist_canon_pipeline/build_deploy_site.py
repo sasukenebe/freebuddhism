@@ -465,6 +465,7 @@ def _update_collection_index(
     relative_page: Path,
     counts_by_route: dict[str, int],
     archive_content: dict[str, bool],
+    individual_articles: int = 0,
 ) -> int:
     """Preserve existing collection page content while correcting its edition counts."""
     source = page.read_text(encoding="utf-8")
@@ -540,6 +541,15 @@ def _update_collection_index(
                 updated,
                 count=1,
             )
+    if individual_articles:
+        updated = updated.replace(
+            "this strict build does not host those translations because the permission is not a CC0 or public-domain license.",
+            f"this build hosts {individual_articles} individual articles under that permission. "
+            "These editions are excluded from combined readers and collection/source archives.",
+        )
+        for stale in ("Sutta Friends editions still need verification of their exact redistribution terms and source text.",
+                      "Sutta Friends translations await review against their source-specific permission conditions."):
+            updated = updated.replace(stale, "Individual Sutta Friends readers are available. Full human proofreading and unabridged canonical coverage remain unverified.")
     if updated != source:
         page.write_text(updated, encoding="utf-8", newline="\n")
     return changed_rows
@@ -1095,6 +1105,7 @@ def _write_continuous_reader(
     allowed: dict[Path, dict],
     nodes: dict[str, dict] | None = None,
 ) -> int:
+    from distribution_policy import distribution
     nodes = nodes or navigation_nodes(info["collection"] for info in canonical_pages.values())
     collection_rows = [
         {"id": name, "title": node["title"], "url": TIPITAKA_URL_PREFIX + node["route"],
@@ -1109,6 +1120,8 @@ def _write_continuous_reader(
             continue
         editions = []
         for record in sorted(info["eligible"], key=edition_priority):
+            if not distribution(record)["continuous_reader"]:
+                continue
             reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
             editions.append({
                 "id": record["version"],
@@ -1131,6 +1144,8 @@ def _write_continuous_reader(
                 "group_reference": record.get("group_reference", ""),
                 "canonical_ids": record.get("canonical_ids", []),
             })
+        if not editions:
+            continue
         display = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         text_rows.append({
             "canonical_id": info["canonical_id"],
@@ -1168,6 +1183,8 @@ def _write_continuous_reader(
         '<h1 id="reader-title">All Text on One Page</h1></header>\n<main>\n'
         '<nav id="reader-view-switcher" aria-label="Collection views"></nav>\n'
         '<p id="reader-status" role="status">Preparing the continuous reader…</p>\n'
+        '<p>Only editions cleared for combined reading appear in this view. '
+        'Individual-only editions remain available from their text home pages and collection lists.</p>\n'
         '<section><h2>Reading preferences</h2>\n'
         '<label>Default translation: <select id="default-translation"></select></label> '
         '<button type="button" id="apply-default">Apply to available texts</button>\n'
@@ -2116,7 +2133,8 @@ def _write_navigation_pages(
         if not page.is_file():
             continue
         updated_collection_rows += _update_collection_index(
-            page, relative_page, counts_by_route, archive_content
+            page, relative_page, counts_by_route, archive_content,
+            sum(r.get("version") == "suttafriends" and r.get("collection") == collection for r in records),
         )
         localized_source_links += _localize_suttafriends_story_links(page, relative_page, tipitaka_root, allowed)
     unique_ids = len({row["canonical_id"] for row in source_rows})
@@ -2485,6 +2503,7 @@ def assemble_webroot(
     if any(destination.iterdir()):
         raise ValueError(f"Refusing to assemble into a non-empty directory: {destination}")
     selected = records if records is not None else collect_records(READER_OUTPUT)
+    from distribution_policy import distribution
     if not selected:
         raise ValueError("No editions with verified redistribution rights passed the reader allowlist")
 
@@ -2522,6 +2541,7 @@ def assemble_webroot(
     content_collections: set[str] = set()
 
     for record in selected:
+        permissions = distribution(record)
         if not _record_license_is_allowed(record):
             raise ValueError(f"Record lacks verified edition permission: {record.get('license')} {record.get('canonical_id')}")
         row = record["row"]
@@ -2539,7 +2559,8 @@ def assemble_webroot(
                 raise FileNotFoundError(f"Eligible reader/source output is missing or unsafe: {source}")
             entry = {"source": source, "kind": source.suffix.lower().removeprefix("."),
                      "collection": record["collection"] if record["kind"] == "sutta" else "vinaya",
-                     "archive": True, "rights": [edition_rights(record)]}
+                     "archive": permissions["site_archives"],
+                     "rights": [edition_rights(record)] if permissions["site_archives"] else []}
             if relative in allowed:
                 previous = allowed[relative]
                 if previous["source"].resolve() != source.resolve():
@@ -2572,6 +2593,13 @@ def assemble_webroot(
             content_collections.add(collection)
 
     _copy_site_pages(destination, allowed, site_root, site_entry)
+    if any(not distribution(record)["site_archives"] for record in selected):
+        downloads = tipitaka_root / "site/downloads.html"
+        document = downloads.read_text(encoding="utf-8")
+        note = ('<p>Individual-sharing editions are excluded from these ZIPs. '
+                'Read or download each of those editions from its individual text home page; '
+                'the archives do not contain every edition available on the website.</p>')
+        downloads.write_text(document.replace("</body>", note + "\n</body>"), encoding="utf-8")
     _copy_collection_indexes(tipitaka_root, allowed, PUBLIC_TIPITAKA)
     if not archive_names:
         raise ValueError("No existing archive routes were supplied for safe rebuilding")

@@ -1,7 +1,9 @@
 # Sutta Piṭaka coverage-first checkpoint
 
-Status: active path recorded; reference inventory implemented and first gap-filling
-batch prepared offline. No new edition has been imported or deployed by this batch.
+Initial checkpoint: active path recorded; reference inventory implemented and first
+gap-filling batch prepared offline. The later [individual-reader import](suttafriends-individual-readers-2026-11-12.md)
+records the subsequent local import and its separate release status. Counts below
+describe the initial preparation checkpoint, not the latest coverage report.
 The owner's November 12 direction is recorded in [CURRENT.md](../../CURRENT.md).
 Abhidhamma is deferred until last; earlier sources and audit evidence remain intact.
 

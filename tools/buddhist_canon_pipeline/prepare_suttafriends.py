@@ -26,6 +26,14 @@ BLOCKS = {"p", "div", "fieldset", "legend", "ul", "ol", "li"}
 INLINE = {"a", "span", "i", "b", "em", "strong", "sup", "sub"}
 
 
+def publisher_citation_matches(citation: str, heading: str) -> bool:
+    """Vv 1.1 is not a match for Vv 1.10 or Vv 1.1.2."""
+    # The publisher splits the book name and citation across adjacent heading
+    # spans, whose text concatenation yields e.g. "VatthuVv 1.1".
+    heading = re.sub(r"Vatthu(?=(?:Vv|Pv) )", "Vatthu ", heading)
+    return re.search(r"(?<![A-Za-z0-9])" + re.escape(citation) + r"(?![0-9.])", heading) is not None
+
+
 def digest(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
 
@@ -121,7 +129,7 @@ def source_metadata(manifest: dict) -> dict:
                 url = f"https://suttafriends.org/sutta/{prefix}{chapter}-{item}/"
                 if (row["canonical_id"] != key or row["source_id"] != publisher or row["source_url"] != url
                         or row["chapter"] != chapter or row["chapter_item"] != item
-                        or publisher not in row["page_heading"]):
+                        or not publisher_citation_matches(publisher, row["page_heading"])):
                     raise ValueError("Cached source numbering/header disagrees: " + key)
                 rows.append({**row, "prefix": prefix, "number": number})
     return {"rows": rows}
@@ -147,7 +155,7 @@ def prepare(source_root: Path, output: Path) -> dict:
         page = checked(originals, source_name, row["page_sha256"])
         headings = re.findall(r'<h1\b[^>]*>(.*?)</h1>', page.decode(), re.S)
         heading = " ".join(unescape(re.sub(r'<[^>]*>', '', value)) for value in headings)
-        if row["source_id"] not in heading:
+        if not publisher_citation_matches(row["source_id"], heading):
             raise ValueError("Actual source heading disagrees with publisher ID: " + key)
         pali_name = f'pali/{row["prefix"]}{row["number"]}_root-pli-ms.json.source'
         pali = checked(originals, pali_name, row["pali_sha256"])
