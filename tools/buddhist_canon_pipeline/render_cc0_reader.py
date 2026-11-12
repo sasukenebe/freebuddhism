@@ -8,6 +8,7 @@ import csv
 import hashlib
 import html
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -341,7 +342,12 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
     ]
     for line in body.splitlines():
         if line:
-            story.append(Paragraph(html.escape(line), styles["body"]))
+            rendered = html.escape(line)
+            # ReportLab/Poppler otherwise collapse the publisher's spaced
+            # ornamental separator into "***". Preserve its visible spacing.
+            if re.fullmatch(r"\s*\*(?:\s+\*)+\s*", line):
+                rendered = rendered.replace(" ", "&#160;&#160;")
+            story.append(Paragraph(rendered, styles["body"]))
         else:
             story.append(Spacer(1, 2 * mm))
 

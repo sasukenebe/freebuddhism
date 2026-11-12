@@ -464,6 +464,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "completeness_status": record.get("completeness_status", "UNKNOWN"),
         "source_label": record["source_label"],
         "metadata_notes": record["metadata_notes"],
+        "pdf_separator_spaces": bool(re.search(r"(?m)^\s*\*(?:[ \t]+\*)+[ \t]*$", record["body"])),
         "original_book_href": record.get("original_book_url", ""),
         "collection_label": record["collection_label"],
         "collection_href": route_for(record["site_path"], record["collection_page"]),
@@ -496,6 +497,8 @@ def expected_html(record: dict, reader_index: dict) -> str:
 
 def pdf_render_hash(config: dict) -> str:
     inputs = {key: config.get(key) for key in PDF_CONFIG_FIELDS}
+    if config.get("pdf_separator_spaces"):
+        inputs["pdf_separator_spaces"] = 1
     if config.get("group_reference"):
         inputs["group_reference"] = config["group_reference"]
         inputs["group_members"] = config.get("group_members", [])
@@ -715,10 +718,18 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
         futures = {pool.submit(render_one_pdf, record, reader_index): record for record in pdf_jobs}
         for completed, future in enumerate(as_completed(futures), start=1):
             record = futures[future]
-            future.result()
+            try:
+                future.result()
+            except BaseException as error:
+                print(f"PDF export failed at {record['canonical_id']} / {record['version']}: {error}", flush=True)
+                for pending in futures:
+                    pending.cancel()
+                write_cache(cache)
+                raise
             record_pdf_result(record, cache)
             rendered_pdfs += 1
             if completed % 25 == 0 or completed == len(futures):
+                write_cache(cache)
                 print(f"PDFs generated and verified: {completed}/{len(futures)}", flush=True)
     for record in records:
         relative_pdf = record["pdf_path"].relative_to(ROOT).as_posix()

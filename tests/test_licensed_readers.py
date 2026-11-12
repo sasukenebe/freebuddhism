@@ -8,9 +8,22 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools/buddhist_canon_pipeline"))
 from check_licensed_readers import check_reader
 from build_eligible_readers import validate_page
+from render_cc0_reader import render_pdf, verify_pdf_body
 
 
 class LicensedReaderTests(unittest.TestCase):
+    def test_pdf_preserves_spaced_asterisk_separator_and_all_words(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            target = Path(temporary) / "separator.pdf"
+            config = {"canonical_id": "AN 10.71", "title": "Example", "translator": "Author",
+                      "source_url": "https://example.org/original", "license": "CC-BY-NC-4.0",
+                      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/", "metadata_notes": []}
+            body = "First paragraph.\n\n* * *\n\nLast paragraph.\n"
+            render_pdf(config, body, target)
+            verify_pdf_body(target, body)
+            with self.assertRaises(ValueError):
+                verify_pdf_body(target, body.replace("Last", "Invented"))
+
     def test_new_edition_links_are_validated_after_text_nodes_are_generated(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
