@@ -29,6 +29,8 @@ def attributed_text(row: dict, body: str) -> str:
               f"License notice: {row['license_notice']}"]
     if row.get("attribution_notice"):
         header.append("Attribution: " + row["attribution_notice"])
+    if row.get("publisher_references"):
+        header.append("Publisher references (not part of the sutta): " + " ".join(row["publisher_references"].split()))
     header.extend(["Changes: " + CHANGES,
                    f"Completeness: {row['completeness_status']}. {row['completeness_scope']}"])
     return "\n".join(header) + "\n\n" + body
@@ -81,6 +83,12 @@ def import_proposal(proposal_path: Path) -> int:
     proposal = json.loads(proposal_path.read_text(encoding="utf-8"))
     if not isinstance(proposal.get("records"), list):
         raise ValueError("A batch proposal needs records and retained source comparisons")
+    for row in proposal["records"]:
+        if row.get("mapping_evidence", {}).get("method") == "unique pinned Pali title within publisher chapter; numbering corrected":
+            raise ValueError("Title-only discourse remapping cannot be imported; review actual contents")
+        if (row.get("mapping_evidence") and "prepare_ati_licensed.py" in row.get("source_comparison_method", "")
+                and row.get("source_partition_version") != 2):
+            raise ValueError("Publisher reference boundaries require the corrected source-partition recipe")
     manifest = verified_manifest()
     by_key = {(row["collection"], row["canonical_id"], row["version"]): row for row in manifest["records"]}
     prior = json.loads((ROOT / "metadata/excluded-sources.json").read_text())["text_versions"]
@@ -163,6 +171,11 @@ def import_proposal(proposal_path: Path) -> int:
             record["explicit_grant"] = explicit
         if row.get("mapping_evidence"):
             record["mapping_evidence"] = row["mapping_evidence"]
+        if row.get("publisher_references"):
+            record["publisher_references"] = row["publisher_references"]
+            record["publisher_references_sha256"] = row["publisher_references_sha256"]
+        if row.get("source_partition_version"):
+            record["source_partition_version"] = row["source_partition_version"]
         by_key[key] = record
         added += 1
     manifest.update(schema_version=1, policy_version=4, count=len(by_key),
@@ -263,6 +276,9 @@ def write_held_sources() -> None:
                 rows.append({"source": "Ancient Buddhist Texts", "title": row["canonical_id"],
                              "original": row["source_url"], "source_sha256": row["source_sha256"],
                              "questions": ["Unmapped private-use source font characters: " + ", ".join(codes) + ". Preserve original; verify publisher font mapping before release."]})
+    identity_report = ROOT / "metadata/reports/licensed-identity-corrections-2026-11-11.json"
+    if identity_report.exists():
+        rows.extend(json.loads(identity_report.read_text(encoding="utf-8"))["held"])
     write_json(ROOT / "metadata/reports/licensed-held-sources-2026-11-11.json",
                {"date": "2026-11-11", "scope": "All held ATI/dhammatalks source pages and the SC PDF in this bounded batch; source pages are not necessarily unique suttas. PTS EPUB and Candana work have separate review lists.",
                 "count": len(rows), "sources": rows})

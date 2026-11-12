@@ -24,6 +24,8 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from zipfile import ZipFile
 
+from publication_rights import identity_for_source
+
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUTPUT = ROOT / "build/ati-bulk-20261111"
 PALI_REVISION = "3bc8665e0e28e70518eba94304a2fafcab80f933"
@@ -41,8 +43,9 @@ COLLECTIONS = {
 COMPARISON = (
     "prepare_ati_licensed.py verify: re-read original raw HTML at source_snapshot; "
     "select its one complete COPYRIGHTED_TEXT_CHUNK (ATI) or sutta div (EPUB); "
+    "separate an explicitly marked final publisher-reference paragraph from the sutta; "
     "compare every ordered non-whitespace Unicode character from an independent "
-    "HTMLParser data stream with body_path, without Unicode/punctuation/ellipsis "
+    "HTMLParser data stream with body_path plus retained publisher_references, without Unicode/punctuation/ellipsis "
     "normalization; rerender and require byte-identical paragraphs, preformatted "
     "verses, verse lines and notes. Check source, protected HTML, body and wrapped "
     "TXT SHA-256 and exact attribution/copyright/full licence notices."
@@ -143,6 +146,91 @@ class Region(HTMLParser):
 
 def region(source: str, element_id: str) -> str:
     return Region(source, element_id).extract()
+
+
+class DiscourseHeadings(HTMLParser):
+    """Recognize multiple explicit discourse headers, never inline cross-references."""
+    identifier = re.compile(r"\b(DN|MN|SN|AN|Ud|Iti|Snp|Thag|Thig|Khp|Kp|Dhp|Pv|Vv|Bv|Cp|Ja)\s*(\d+(?:\s*[.:]\s*\d+)*)\b", re.I)
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.current = None
+        self.headings = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"h1", "h2", "h3"}:
+            self.current = {"attributes": [], "text": []}
+        if self.current is not None:
+            values = dict(attrs)
+            self.current["attributes"].extend([values.get("id", ""), values.get("name", "")])
+
+    def handle_data(self, data):
+        if self.current is not None:
+            self.current["text"].append(data)
+
+    def handle_endtag(self, tag):
+        if tag in {"h1", "h2", "h3"} and self.current is not None:
+            values = self.current["attributes"] + ["".join(self.current["text"])]
+            identifiers = {prefix.upper().replace("KHP", "KP") + " " + re.sub(r"\s+", "", number).replace(":", ".")
+                           for value in values for prefix, number in self.identifier.findall(value)}
+            if identifiers:
+                self.headings.append(identifiers)
+            self.current = None
+
+
+class PublisherReferences(HTMLParser):
+    """Locate an explicitly marked publisher reference paragraph, not quoted prose."""
+    def __init__(self, source: str):
+        super().__init__(convert_charrefs=True)
+        self.source = source
+        self.offsets = [0] + [m.end() for m in re.finditer("\n", source)]
+        self.start = None
+        self.spans = []
+
+    def position(self):
+        line, column = self.getpos()
+        return self.offsets[line - 1] + column
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "p" and "seealso" in dict(attrs).get("class", "").split():
+            if self.start is not None:
+                raise ValueError("Nested publisher-reference paragraphs need review")
+            self.start = self.position()
+
+    def handle_endtag(self, tag):
+        if tag == "p" and self.start is not None:
+            self.spans.append((self.start, self.source.index(">", self.position()) + 1))
+            self.start = None
+
+
+def split_publisher_references(fragment: str) -> tuple[str, str]:
+    """Preserve the full source while keeping publisher cross-references out of Text."""
+    headings = DiscourseHeadings()
+    headings.feed(fragment)
+    headings.close()
+    if len(headings.headings) > 1 and len(set().union(*headings.headings)) > 1:
+        raise ValueError("Multiple explicit discourse headers need source-scope review")
+    parser = PublisherReferences(fragment)
+    parser.feed(fragment)
+    parser.close()
+    if parser.start is not None:
+        raise ValueError("Unclosed publisher-reference paragraph")
+    # The publisher also uses this CSS class for real subsection headings in
+    # DN 1. Class membership alone is not evidence that a paragraph is a reference.
+    spans = [(start, end) for start, end in parser.spans
+             if re.match(r"^See\s+also\s*:", plain(fragment[start:end]), re.I)]
+    if not spans:
+        return render(fragment), ""
+    if len(spans) != 1:
+        raise ValueError("Multiple publisher-reference blocks need review")
+    start, end = spans[0]
+    if plain(fragment[end:]):
+        raise ValueError("Publisher-reference block is not a final appendix; review its placement")
+    reference_html = fragment[start:end]
+    text_html = fragment[:start] + fragment[end:]
+    body, references = render(text_html), render(reference_html)
+    check_characters(fragment, body + references)
+    return body, references
 
 
 class Render(HTMLParser):
@@ -329,7 +417,8 @@ def make_reference(output: Path, pali_git: Path) -> None:
     preserve(output / "canonical-reference.json", json_bytes(reference))
 
 
-def resolve_id(prefix: str, number: str, title: str, reference: dict, alternate="") -> tuple[str, dict]:
+def resolve_id(prefix: str, number: str, title: str, reference: dict, alternate="", *,
+               source_url="", source_sha256="") -> tuple[str, dict]:
     """No splitting a grouped source and no inference from a matching filename."""
     if not re.fullmatch(r"\d+(?:\.\d+)?", number):
         raise ValueError("Grouped/multi-sutta or ambiguous source numbering; retain whole source only")
@@ -340,6 +429,13 @@ def resolve_id(prefix: str, number: str, title: str, reference: dict, alternate=
         candidate = prefix + " " + thai[1]
     ids = reference["site_ids"]
     evidence = {"publisher_id": proposed, "publisher_alternate_id": alternate}
+    reviewed = identity_for_source(source_url, source_sha256) if source_url else None
+    if reviewed:
+        canonical = reviewed["canonical_id"]
+        if reviewed["publisher_id"] != proposed or canonical not in ids:
+            raise ValueError("Reviewed source identity differs from publisher header or site inventory")
+        return canonical, {**evidence, "method": "Content-verified edition concordance",
+                           "review_id": reviewed["review_id"]}
     # DN/MN and these small-collection numbering systems match the site's IDs.
     # AN/SN require title corroboration: both publishers use other editions.
     if prefix not in {"AN", "SN"}:
@@ -360,11 +456,8 @@ def resolve_id(prefix: str, number: str, title: str, reference: dict, alternate=
                            "pali": reference["pali_references"].get(candidate)}
     chapter = number.split(".")[0]
     alternatives = [key for key in ids if key.startswith(f"{prefix} {chapter}.") and matches(key)]
-    if len(alternatives) != 1:
-        raise ValueError(f"AN/SN numbering needs review: title candidates {alternatives}")
-    canonical = alternatives[0]
-    return canonical, {**evidence, "method": "unique pinned Pali title within publisher chapter; numbering corrected",
-                       "pali": reference["pali_references"].get(canonical)}
+    raise ValueError(f"AN/SN numbering needs content review: title candidates {alternatives}; "
+                     "a similar or unique title cannot authorize a different discourse ID")
 
 
 def completeness(body: str, *, extent="", thanissaro=False, explicit_partial=False) -> tuple[str, str]:
@@ -390,8 +483,10 @@ def ati_unit(name: str, source: str, reference: dict) -> dict:
     number = meta.get("NUMBER", "")
     if prefix in {"AN", "SN"}:
         number = meta.get("SECTION", "") + "." + number
-    canonical, mapping = resolve_id(prefix, number, meta.get("MY_TITLE", ""), reference, meta.get("ALT_ID", ""))
     url = "https://www.accesstoinsight.org/" + name.removeprefix("ati/")
+    canonical, mapping = resolve_id(prefix, number, meta.get("MY_TITLE", ""), reference,
+                                    meta.get("ALT_ID", ""), source_url=url,
+                                    source_sha256=sha(source.encode("utf-8")))
     title = ": ".join(meta[k] for k in ("MY_TITLE", "SUBTITLE") if meta.get(k))
     translator = " and ".join(meta[k] for k in ("AUTHOR", "AUTHOR2") if meta.get(k))
     if not title or not translator:
@@ -416,8 +511,9 @@ def epub_unit(name: str, source: str, reference: dict, epub_rights: dict) -> dic
     prefix = {"Khp": "Kp", "Sn": "Snp"}.get(match[1], match[1])
     number = match[2].replace(":", ".")
     pali_title = title.split(" | ", 1)[1] if " | " in title else ""
-    canonical, mapping = resolve_id(prefix, number, pali_title, reference)
     url = "https://www.dhammatalks.org/suttas/" + name
+    canonical, mapping = resolve_id(prefix, number, pali_title, reference, source_url=url,
+                                    source_sha256=sha(source.encode("utf-8")))
     return {"canonical_id": canonical, "collection": reference["site_ids"][canonical],
             "title": title, "translator": "Ṭhānissaro Bhikkhu", "source_url": url,
             "mapping_evidence": mapping, "extent": "", "version_slug": "thanissaro-dhammatalks",
@@ -450,6 +546,8 @@ def wrapped(row: dict, body: str) -> str:
              "Attribution: " + row["attribution_notice"],
              "Changes: HTML markup reflowed to plain text; every protected text character retained.",
              "Completeness: " + row["completeness_status"] + ". " + row["completeness_scope"]]
+    if row.get("publisher_references"):
+        lines.append("Publisher references (not part of the sutta): " + compact(row["publisher_references"]))
     return "\n".join(lines) + "\n\n" + body
 
 
@@ -504,7 +602,10 @@ def prepare(output: Path) -> dict:
                         after = source[source.index(fragment) + len(fragment):]
                         if not re.match(r"\s*<!--\s*#COPYRIGHTED_TEXT_CHUNK\s*\(END", after):
                             raise ValueError("Protected region does not reach its publisher end marker")
-                    body = render(fragment)
+                    body, publisher_references = split_publisher_references(fragment)
+                    if publisher_references:
+                        row.update(publisher_references=publisher_references,
+                                   publisher_references_sha256=sha(publisher_references.encode("utf-8")))
                     partial = publisher == "dhammatalks" and bool(re.search(r"\bExcerpt\b", row["title"], re.I))
                     status, scope = completeness(body, extent=row.pop("extent"),
                                                  thanissaro="thanissaro" in normal_ascii(row["translator"]),
@@ -514,7 +615,8 @@ def prepare(output: Path) -> dict:
                     body_path = output / "bodies" / row["version_slug"] / (identifier + "-" + sha(raw)[:12] + ".txt")
                     html_path = body_path.with_suffix(".protected.html")
                     wrapped_path = body_path.with_suffix(".attributed.txt")
-                    row.update(source_snapshot=str(source_path.relative_to(ROOT)), source_sha256=sha(raw),
+                    row.update(source_partition_version=2,
+                               source_snapshot=str(source_path.relative_to(ROOT)), source_sha256=sha(raw),
                                body_path=str(body_path.relative_to(ROOT)), body_sha256=sha(body.encode()),
                                protected_html_path=str(html_path.relative_to(ROOT)), protected_html_sha256=sha(fragment.encode()),
                                wrapped_path=str(wrapped_path.relative_to(ROOT)),
@@ -549,7 +651,8 @@ def prepare(output: Path) -> dict:
                 row["version_slug"] += "-" + row["source_sha256"][:8]
                 row["exceptions"].append("Alternate source edition at this canonical ID; source hash distinguishes version.")
     records.sort(key=lambda r: (r["collection"], r["canonical_id"], r["version_slug"]))
-    proposal = {"schema_version": 1, "metadata_license": "CC0-1.0", "code_license": "0BSD",
+    proposal = {"schema_version": 1, "source_partition_version": 2,
+                "metadata_license": "CC0-1.0", "code_license": "0BSD",
                 "publishable": False, "source_comparison_method": COMPARISON,
                 "canonical_reference_sha256": sha(reference_path.read_bytes()),
                 "abbreviation_evidence": {"source_url": ABOUT_URL, "source_snapshot": str((source_dir / "dhammatalks-about.html").relative_to(ROOT)), "sha256": sha(about)},
@@ -584,9 +687,18 @@ def verify(proposal_path: Path) -> dict:
         if fragment.encode() != (ROOT / row["protected_html_path"]).read_bytes():
             raise ValueError("Protected HTML differs from original")
         body = (ROOT / row["body_path"]).read_text(encoding="utf-8")
-        check_characters(fragment, body)
-        if render(fragment) != body:
+        if proposal.get("source_partition_version", 1) >= 2:
+            expected_body, expected_references = split_publisher_references(fragment)
+        else:
+            # Historical private evidence still proves preservation of its full
+            # source unit; it is not permission to publish a title-only remapping.
+            expected_body, expected_references = render(fragment), ""
+        references = row.get("publisher_references", "")
+        check_characters(fragment, body + references)
+        if expected_body != body or expected_references != references:
             raise ValueError("Paragraph or verse layout differs from original rendering")
+        if references and sha(references.encode("utf-8")) != row.get("publisher_references_sha256"):
+            raise ValueError("Publisher references changed")
         if wrapped(row, body).encode() != (ROOT / row["wrapped_path"]).read_bytes():
             raise ValueError("Wrapped TXT attribution/notices changed")
         if urlsplit(row["source_url"]).scheme != "https" or not row["copyright"] or not row["license_notice"]:

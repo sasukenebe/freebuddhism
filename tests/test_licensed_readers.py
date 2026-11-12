@@ -17,11 +17,14 @@ class LicensedReaderTests(unittest.TestCase):
             target = Path(temporary) / "separator.pdf"
             config = {"canonical_id": "AN 10.71", "title": "Example", "translator": "Author",
                       "source_url": "https://example.org/original", "license": "CC-BY-NC-4.0",
-                      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/", "metadata_notes": []}
+                      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/", "metadata_notes": [],
+                      "publisher_references": "See also: DN 2; MN 118.\n"}
             body = "First paragraph.\n\n* * *\n\n[ I ]\n\nPali root marker: √bhā.\n\nWord bound\u00adary.\n\nEllipsis … .\n\nLast paragraph.\n"
             body += ('"Calculating..." ... "Accounting..." ... "Writing..." ... ' * 12) + "\n"
             render_pdf(config, body, target)
-            verify_pdf_body(target, body)
+            verify_pdf_body(target, body, config["publisher_references"])
+            with self.assertRaises(ValueError):
+                verify_pdf_body(target, body, "See also: Imaginary reference.")
             with self.assertRaises(ValueError):
                 verify_pdf_body(target, body.replace("Last", "Invented"))
 
@@ -40,7 +43,7 @@ class LicensedReaderTests(unittest.TestCase):
                 validate_page(record, html, check_pdf=False)
 
     def test_reader_download_and_notice_faults_are_rejected(self):
-        for fault in (None, "body", "download", "notice", "source", "pdf"):
+        for fault in (None, "body", "download", "notice", "source", "pdf", "references"):
             with self.subTest(fault=fault), tempfile.TemporaryDirectory() as temporary:
                 root = Path(temporary)
                 site = root / "site"
@@ -48,7 +51,8 @@ class LicensedReaderTests(unittest.TestCase):
                        "local_path": "translations/example.txt", "license": "CC-BY-NC-4.0",
                        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
                        "source_url": "https://example.org/original", "license_notice": "Preserve this notice.",
-                       "copyright": "Copyright Author", "translator": "Author", "completeness_status": "UNKNOWN"}
+                       "copyright": "Copyright Author", "translator": "Author", "completeness_status": "UNKNOWN",
+                       "publisher_references": "See also: DN 2.\n"}
                 source = root / row["local_path"]
                 source.parent.mkdir(parents=True)
                 source.write_text("Header\n\nFirst line\nSecond line.\n", encoding="utf-8")
@@ -60,7 +64,8 @@ class LicensedReaderTests(unittest.TestCase):
                 body = "Changed" if fault == "body" else "First line\nSecond line.\n"
                 rights = "Wrong notice" if fault == "notice" else row["license_notice"]
                 url = "https://wrong.example" if fault == "source" else row["source_url"]
-                page.write_text(f'<pre class="source-text">{body}</pre><p>{row["license"]} {rights} {row["copyright"]}</p><a href="{url}">Source</a><a href="{row["license_url"]}">License</a>', encoding="utf-8")
+                references = '' if fault == "references" else '<details class="publisher-references"><summary>Publisher references (not part of the sutta)</summary><pre>See also: DN 2.\n</pre></details>'
+                page.write_text(f'<pre class="source-text">{body}</pre>{references}<p>{row["license"]} {rights} {row["copyright"]}</p><a href="{url}">Source</a><a href="{row["license_url"]}">License</a>', encoding="utf-8")
                 page.with_name("mn01-example-reader.pdf").write_bytes(b"Wrong" if fault == "pdf" else b"%PDF-test")
                 if fault is None:
                     self.assertEqual(check_reader(row, root, site)["text"], "MN 1")

@@ -35,6 +35,11 @@ def check_reader(row: dict, source_root: Path, site_root: Path) -> dict:
             raise ValueError("Reader is missing edition rights: " + str(relative))
     if row["license_url"] not in unescape(page) or row["source_url"] not in unescape(page):
         raise ValueError("Reader is missing original/license link: " + str(relative))
+    if row.get("publisher_references"):
+        if (row["publisher_references"] not in visible
+                or 'class="publisher-references"' not in page
+                or "Publisher references (not part of the sutta)" not in visible):
+            raise ValueError("Publisher references are not separately retained: " + str(relative))
     pdf = (site_root / relative).with_name(f"{slug}-{row['version']}-reader.pdf")
     if not pdf.read_bytes().startswith(b"%PDF-"):
         raise ValueError("Reader PDF is absent or invalid: " + str(relative))
@@ -81,12 +86,31 @@ def write_public_review(site_root: Path) -> set[Path]:
     held_html = '<details><summary>All held source pages</summary><ul>' + ''.join(
         '<li><a href="' + escape(r["original"], quote=True) + '">' + escape(r["title"]) + '</a> — '
         + escape(' '.join(r["questions"])) + '</li>' for r in held) + '</ul></details>'
+    corrections_path = ROOT / "metadata/reports/licensed-identity-corrections-2026-11-11.json"
+    corrections_html = ""
+    if corrections_path.exists():
+        audit = json.loads(corrections_path.read_text(encoding="utf-8"))
+        corrections = [r for r in audit["corrections"] if r["action"] == "CORRECTED"]
+        confirmed = sum(r["action"] == "CONTENT_CONFIRMED" for r in audit["corrections"])
+        items = []
+        for row in corrections:
+            edition = next(r for r in rows if r["source_url"] == row["source_url"] and r["version"] == row["version"])
+            slug = canonical_slug(row["canonical_id"])
+            url = "/theravada/tipitaka/sutta/" + edition["collection"] + "/" + slug + "/" + slug + "-" + row["version"] + ".html"
+            items.append('<li>' + escape(row["previous_canonical_id"]) + ' was incorrect for this edition; '
+                         '<a href="' + escape(url, quote=True) + '">' + escape(row["canonical_id"]) + '</a> is correct. '
+                         '<a href="' + escape(row["source_url"], quote=True) + '">Publisher source</a>.</li>')
+        corrections_html = (f'<p>Correction: {len(corrections)} discourse associations were wrong and have been reassigned; '
+                            f'{confirmed} other title-remapped associations were confirmed by content. '
+                            f'{len(audit["held"])} source pages are held for discourse-boundary review. '
+                            'Publisher cross-references are now separate from the sutta body.</p>'
+                            '<details><summary>Corrected references</summary><ul>' + ''.join(items) + '</ul></details>')
     page = site_root / "review/licensed-2026-11-11/index.html"
     page.parent.mkdir(parents=True, exist_ok=True)
     page.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Compare translations</title></head><body><p><a href="/">Home</a> · <a href="/theravada/tipitaka/site/tipitaka.html">Buddhist Texts</a></p><h1>Compare translations</h1>' +
                     f"<p>{len(rows)} imported editions. Open a collection, then compare Original source with Converted text.</p>" +
-                    "<p>Every text passed automated source comparison. This is not full human proofreading. COMPLETE refers to the scope recorded for that edition; ABBREVIATED and PARTIAL preserve the source's omissions. UNKNOWN means completeness is not established. Review notes include source numbering, variant readings and layout questions, not only confirmed errors.</p>" +
-                    "".join(sections) + "<h2>Still held</h2><ul><li>The Path of Discrimination: 154 of 664 pages differ in extraction order; no book published.</li><li>Access to Insight/dhammatalks source pages listed below need numbering, grouping or source-scope review. These are source pages, not necessarily distinct suttas.</li><li>PTS Nikāya EPUBs: original translation permissions identified; editorial additions and mappings still need checking before import.</li><li>Candana's separate PDFs: awaiting confirmation of the permission scope; not imported by this batch.</li></ul>" + held_html + "</body></html>\n", encoding="utf-8")
+                    "<p>Automated source comparison checks text preservation, not whether two reference numbers identify the same discourse. Identity reviews are separate. This is not full human proofreading. COMPLETE refers to the scope recorded for that edition; ABBREVIATED and PARTIAL preserve the source's omissions. UNKNOWN means completeness is not established.</p>" +
+                    corrections_html + "".join(sections) + "<h2>Still held</h2><ul><li>The Path of Discrimination: 154 of 664 pages differ in extraction order; no book published.</li><li>Access to Insight/dhammatalks source pages listed below need numbering, grouping or source-scope review. These are source pages, not necessarily distinct suttas.</li><li>PTS Nikāya EPUBs: original translation permissions identified; editorial additions and mappings still need checking before import.</li><li>Candana's separate PDFs: awaiting confirmation of the permission scope; not imported by this batch.</li></ul>" + held_html + "</body></html>\n", encoding="utf-8")
     return {page}
 
 

@@ -1,0 +1,819 @@
+{
+  "date": "2026-11-11",
+  "prior_editions": 2690,
+  "editions": 2685,
+  "title_only_associations_reviewed": 83,
+  "corrections": [
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_76.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 10.100",
+      "publisher_id": "AN 10.76",
+      "canonical_id": "AN 10.76",
+      "review_id": "an-dhammatalks-10-76",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_118.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 10.170",
+      "publisher_id": "AN 10.118",
+      "canonical_id": "AN 10.118",
+      "review_id": "an-dhammatalks-10-118",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an10/an10.024.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 10.176",
+      "publisher_id": "AN 10.24",
+      "canonical_id": "AN 10.24",
+      "review_id": "an-ati-10-24-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_24.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 10.176",
+      "publisher_id": "AN 10.24",
+      "canonical_id": "AN 10.24",
+      "review_id": "an-dhammatalks-10-24",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an11/an11.016.piya.html",
+      "version": "ati-piyadassi-thera",
+      "previous_canonical_id": "AN 11.15",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "review_id": "an-ati-11-16-piya",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an11/an11.016.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 11.15",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "review_id": "an-ati-11-16-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN11_16.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 11.15",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "review_id": "an-dhammatalks-11-16",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_102.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.101",
+      "publisher_id": "AN 3.102",
+      "canonical_id": "AN 3.101",
+      "review_id": "an-dhammatalks-3-102",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_103.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.102",
+      "publisher_id": "AN 3.103",
+      "canonical_id": "AN 3.102",
+      "review_id": "an-dhammatalks-3-103",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_115.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.114",
+      "publisher_id": "AN 3.115",
+      "canonical_id": "AN 3.114",
+      "review_id": "an-dhammatalks-3-115",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_116.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.115",
+      "publisher_id": "AN 3.116",
+      "canonical_id": "AN 3.115",
+      "review_id": "an-dhammatalks-3-116",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.120.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.122",
+      "publisher_id": "AN 3.120",
+      "canonical_id": "AN 3.122",
+      "review_id": "an-ati-3-120-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_123.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.122",
+      "publisher_id": "AN 3.123",
+      "canonical_id": "AN 3.122",
+      "review_id": "an-dhammatalks-3-123",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_124.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.123",
+      "publisher_id": "AN 3.124",
+      "canonical_id": "AN 3.123",
+      "review_id": "an-dhammatalks-3-124",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.123.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.125",
+      "publisher_id": "AN 3.123",
+      "canonical_id": "AN 3.125",
+      "review_id": "an-ati-3-123-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_126.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.125",
+      "publisher_id": "AN 3.126",
+      "canonical_id": "AN 3.125",
+      "review_id": "an-dhammatalks-3-126",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.126.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.128",
+      "publisher_id": "AN 3.126",
+      "canonical_id": "AN 3.128",
+      "review_id": "an-ati-3-126-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_129.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.128",
+      "publisher_id": "AN 3.129",
+      "canonical_id": "AN 3.128",
+      "review_id": "an-dhammatalks-3-129",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.130.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.132",
+      "publisher_id": "AN 3.130",
+      "canonical_id": "AN 3.132",
+      "review_id": "an-ati-3-130-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_133.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.132",
+      "publisher_id": "AN 3.133",
+      "canonical_id": "AN 3.132",
+      "review_id": "an-dhammatalks-3-133",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_136.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.135",
+      "publisher_id": "AN 3.136",
+      "canonical_id": "AN 3.135",
+      "review_id": "an-dhammatalks-3-136",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.060.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.60",
+      "publisher_id": "AN 3.60",
+      "canonical_id": "AN 3.60",
+      "review_id": "an-ati-3-60-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_61.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.60",
+      "publisher_id": "AN 3.61",
+      "canonical_id": "AN 3.60",
+      "review_id": "an-dhammatalks-3-61",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.066.nymo.html",
+      "version": "ati-nanamoli-thera",
+      "previous_canonical_id": "AN 3.66",
+      "publisher_id": "AN 3.66",
+      "canonical_id": "AN 3.66",
+      "review_id": "an-ati-3-66-nymo",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_68.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.67",
+      "publisher_id": "AN 3.68",
+      "canonical_id": "AN 3.67",
+      "review_id": "an-dhammatalks-3-68",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.071.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.71",
+      "publisher_id": "AN 3.71",
+      "canonical_id": "AN 3.71",
+      "review_id": "an-ati-3-71-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_72.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.71",
+      "publisher_id": "AN 3.72",
+      "canonical_id": "AN 3.71",
+      "review_id": "an-dhammatalks-3-72",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.072.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.72",
+      "publisher_id": "AN 3.72",
+      "canonical_id": "AN 3.72",
+      "review_id": "an-ati-3-72-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_73.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.72",
+      "publisher_id": "AN 3.73",
+      "canonical_id": "AN 3.72",
+      "review_id": "an-dhammatalks-3-73",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.078.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.78",
+      "publisher_id": "AN 3.78",
+      "canonical_id": "AN 3.78",
+      "review_id": "an-ati-3-78-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_79.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.78",
+      "publisher_id": "AN 3.79",
+      "canonical_id": "AN 3.78",
+      "review_id": "an-dhammatalks-3-79",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.081.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.82",
+      "publisher_id": "AN 3.81",
+      "canonical_id": "AN 3.82",
+      "review_id": "an-ati-3-81-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_83.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.82",
+      "publisher_id": "AN 3.83",
+      "canonical_id": "AN 3.82",
+      "review_id": "an-dhammatalks-3-83",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.083.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.84",
+      "publisher_id": "AN 3.83",
+      "canonical_id": "AN 3.84",
+      "review_id": "an-ati-3-83-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_85.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.84",
+      "publisher_id": "AN 3.85",
+      "canonical_id": "AN 3.84",
+      "review_id": "an-dhammatalks-3-85",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.091.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.92",
+      "publisher_id": "AN 3.91",
+      "canonical_id": "AN 3.92",
+      "review_id": "an-ati-3-91-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_93.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.92",
+      "publisher_id": "AN 3.93",
+      "canonical_id": "AN 3.92",
+      "review_id": "an-dhammatalks-3-93",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_95.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.94",
+      "publisher_id": "AN 3.95",
+      "canonical_id": "AN 3.94",
+      "review_id": "an-dhammatalks-3-95",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_100.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 3.99",
+      "publisher_id": "AN 3.100",
+      "canonical_id": "AN 3.99",
+      "review_id": "an-dhammatalks-3-100",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.235.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 4.237",
+      "publisher_id": "AN 4.235",
+      "canonical_id": "AN 4.237",
+      "review_id": "an-ati-4-235-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.252.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 4.255",
+      "publisher_id": "AN 4.252",
+      "canonical_id": "AN 4.255",
+      "review_id": "an-ati-4-252-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN4_252.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 4.255",
+      "publisher_id": "AN 4.252",
+      "canonical_id": "AN 4.255",
+      "review_id": "an-dhammatalks-4-252",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.255.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 4.258",
+      "publisher_id": "AN 4.255",
+      "canonical_id": "AN 4.258",
+      "review_id": "an-ati-4-255-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN4_255.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 4.258",
+      "publisher_id": "AN 4.255",
+      "canonical_id": "AN 4.258",
+      "review_id": "an-dhammatalks-4-255",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.098.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 5.110",
+      "publisher_id": "AN 5.98",
+      "canonical_id": "AN 5.98",
+      "review_id": "an-ati-5-98-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_98.html",
+      "version": "thanissaro-dhammatalks-00f17ee9",
+      "previous_canonical_id": "AN 5.110",
+      "publisher_id": "AN 5.98",
+      "canonical_id": "AN 5.98",
+      "review_id": "an-dhammatalks-5-98",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.034.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 5.99",
+      "publisher_id": "AN 5.34",
+      "canonical_id": "AN 5.34",
+      "review_id": "an-ati-5-34-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_34.html",
+      "version": "thanissaro-dhammatalks-ee2e1f48",
+      "previous_canonical_id": "AN 5.99",
+      "publisher_id": "AN 5.34",
+      "canonical_id": "AN 5.34",
+      "review_id": "an-dhammatalks-5-34",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_47.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.50",
+      "publisher_id": "AN 7.47",
+      "canonical_id": "AN 7.50",
+      "review_id": "an-dhammatalks-7-47",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_51.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.54",
+      "publisher_id": "AN 7.51",
+      "canonical_id": "AN 7.54",
+      "review_id": "an-dhammatalks-7-51",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.056.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 7.59",
+      "publisher_id": "AN 7.56",
+      "canonical_id": "AN 7.59",
+      "review_id": "an-ati-7-56-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_56.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.59",
+      "publisher_id": "AN 7.56",
+      "canonical_id": "AN 7.59",
+      "review_id": "an-dhammatalks-7-56",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.060.nymo.html",
+      "version": "ati-nanamoli-thera",
+      "previous_canonical_id": "AN 7.64",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "review_id": "an-ati-7-60-nymo",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.060.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 7.64",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "review_id": "an-ati-7-60-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_60.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.64",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "review_id": "an-dhammatalks-7-60",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.064.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 7.68",
+      "publisher_id": "AN 7.64",
+      "canonical_id": "AN 7.68",
+      "review_id": "an-ati-7-64-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_64.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.68",
+      "publisher_id": "AN 7.64",
+      "canonical_id": "AN 7.68",
+      "review_id": "an-dhammatalks-7-64",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.079.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 7.83",
+      "publisher_id": "AN 7.79",
+      "canonical_id": "AN 7.83",
+      "review_id": "an-ati-7-79-than",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_80.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 7.83",
+      "publisher_id": "AN 7.80",
+      "canonical_id": "AN 7.83",
+      "review_id": "an-dhammatalks-7-80",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.041.vaka.html",
+      "version": "ati-nanavara-thera-and-bhikkhu-kantasilo",
+      "previous_canonical_id": "AN 8.20",
+      "publisher_id": "AN 8.41",
+      "canonical_id": "AN 8.41",
+      "review_id": "an-ati-8-41-vaka",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.030.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 8.46",
+      "publisher_id": "AN 8.30",
+      "canonical_id": "AN 8.30",
+      "review_id": "an-ati-8-30-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_30.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 8.46",
+      "publisher_id": "AN 8.30",
+      "canonical_id": "AN 8.30",
+      "review_id": "an-dhammatalks-8-30",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.053.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 8.51",
+      "publisher_id": "AN 8.53",
+      "canonical_id": "AN 8.53",
+      "review_id": "an-ati-8-53-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_103.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 8.86",
+      "publisher_id": "AN 8.103",
+      "canonical_id": "AN 8.86",
+      "review_id": "an-dhammatalks-8-103",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an09/an09.034.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 9.48",
+      "publisher_id": "AN 9.34",
+      "canonical_id": "AN 9.34",
+      "review_id": "an-ati-9-34-than",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN9_34.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "AN 9.48",
+      "publisher_id": "AN 9.34",
+      "canonical_id": "AN 9.34",
+      "review_id": "an-dhammatalks-9-34",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_193.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 35.234",
+      "publisher_id": "SN 35.193",
+      "canonical_id": "SN 35.234",
+      "review_id": "sn-source-35-193-thanissaro-dhammatalks-f04ae912b9b6",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.nymo.html",
+      "version": "ati-nanamoli-thera",
+      "previous_canonical_id": "SN 35.235",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "review_id": "sn-source-35-28-ati-nanamoli-thera-d37c45780115",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "SN 35.235",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "review_id": "sn-source-35-28-ati-thanissaro-bhikkhu-9215e33fff6e",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_28.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 35.235",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "review_id": "sn-source-35-28-thanissaro-dhammatalks-ba242d4ce1fa",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.207.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "SN 35.248",
+      "publisher_id": "SN 35.207",
+      "canonical_id": "SN 35.248",
+      "review_id": "sn-source-35-207-ati-thanissaro-bhikkhu-4e5a23ef7e61",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_207.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 35.248",
+      "publisher_id": "SN 35.207",
+      "canonical_id": "SN 35.248",
+      "review_id": "sn-source-35-207-thanissaro-dhammatalks-5326a825ea05",
+      "action": "CONTENT_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.023.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "SN 36.20",
+      "publisher_id": "SN 36.23",
+      "canonical_id": "SN 36.23",
+      "review_id": "sn-source-36-23-ati-thanissaro-bhikkhu-b356f98e743a",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN36_23.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 36.20",
+      "publisher_id": "SN 36.23",
+      "canonical_id": "SN 36.23",
+      "review_id": "sn-source-36-23-thanissaro-dhammatalks-6a3b018d3697",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_38.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 46.40",
+      "publisher_id": "SN 46.38",
+      "canonical_id": "SN 46.38",
+      "review_id": "sn-source-46-38-thanissaro-dhammatalks-ac3b96b94ef0",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.054.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "SN 46.62",
+      "publisher_id": "SN 46.54",
+      "canonical_id": "SN 46.54",
+      "review_id": "sn-source-46-54-ati-thanissaro-bhikkhu-6106eb1c6ba9",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_54.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 46.62",
+      "publisher_id": "SN 46.54",
+      "canonical_id": "SN 46.54",
+      "review_id": "sn-source-46-54-thanissaro-dhammatalks-f897041ef1c5",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.014.nypo.html",
+      "version": "ati-nyanaponika-thera-fcce2bca",
+      "previous_canonical_id": "SN 47.13",
+      "publisher_id": "SN 47.14",
+      "canonical_id": "SN 47.14",
+      "review_id": "sn-source-47-14-ati-nyanaponika-thera-fcce2bca-fcce2bcae2fa",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.020.than.html",
+      "version": "ati-thanissaro-bhikkhu-fa733579",
+      "previous_canonical_id": "SN 47.19",
+      "publisher_id": "SN 47.20",
+      "canonical_id": "SN 47.20",
+      "review_id": "sn-source-47-20-ati-thanissaro-bhikkhu-fa733579-fa733579c2f8",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN47_20.html",
+      "version": "thanissaro-dhammatalks-a2df872f",
+      "previous_canonical_id": "SN 47.19",
+      "publisher_id": "SN 47.20",
+      "canonical_id": "SN 47.20",
+      "review_id": "sn-source-47-20-thanissaro-dhammatalks-a2df872f-a2df872ffd4f",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn55/sn55.040.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "SN 55.47",
+      "publisher_id": "SN 55.40",
+      "canonical_id": "SN 55.40",
+      "review_id": "sn-source-55-40-ati-thanissaro-bhikkhu-dfb9de5c5da3",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN55_40.html",
+      "version": "thanissaro-dhammatalks",
+      "previous_canonical_id": "SN 55.47",
+      "publisher_id": "SN 55.40",
+      "canonical_id": "SN 55.40",
+      "review_id": "sn-source-55-40-thanissaro-dhammatalks-83196baa78d6",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.022x.wlsh.html",
+      "version": "ati-maurice-o-connell-walshe",
+      "previous_canonical_id": "SN 56.18",
+      "publisher_id": "SN 56.22",
+      "canonical_id": "SN 56.22",
+      "review_id": "sn-source-56-22-ati-maurice-o-connell-walshe-f94a95ee11a0",
+      "action": "CORRECTED"
+    }
+  ],
+  "held": [
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:1 The Eye | Cakkhu Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_1.html",
+      "source_sha256": "a38cb479f5d7a4ed449d419160b7029e30ac4f6c0539b3ab812da9460ea2d16b",
+      "publisher_id": "SN 25.1",
+      "previous_canonical_id": "SN 25.1",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:2 Forms | Rūpa Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_2.html",
+      "source_sha256": "5ab18132dcd40b262460931f2251aa5b75f29042ca763eecba0b753702b57171",
+      "publisher_id": "SN 25.2",
+      "previous_canonical_id": "SN 25.2",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:3 Consciousness | Viññāṇa Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_3.html",
+      "source_sha256": "aa15b977deac9ccbf4bd00c224d5f0c4a79863bb23c84863827230518dadb248",
+      "publisher_id": "SN 25.3",
+      "previous_canonical_id": "SN 25.3",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 44:1 With Khemā | Khema Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN44_1.html",
+      "source_sha256": "2c85475f7ba9aeb340ca8a0af9c07ad1e994ae3cc34e2b339ae6957a8fb9fce1",
+      "publisher_id": "SN 44.1",
+      "previous_canonical_id": "SN 44.1",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:10 Aggregates | Khandha Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_10.html",
+      "source_sha256": "bc296df12385da411268a2518a5fbbea011e42e215f26d9ec4b3a57bc81914e0",
+      "publisher_id": "SN 25.10",
+      "previous_canonical_id": "SN 25.10",
+      "questions": [
+        "Multiple explicit discourse headers need source-scope review",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    }
+  ],
+  "publisher_reference_editions": 661,
+  "limits": "Full-source character preservation and discourse identity are separate checks. No translation wording or repeated passage is invented."
+}

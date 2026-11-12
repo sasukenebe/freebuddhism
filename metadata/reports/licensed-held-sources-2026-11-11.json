@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "scope": "All held ATI/dhammatalks source pages and the SC PDF in this bounded batch; source pages are not necessarily unique suttas. PTS EPUB and Candana work have separate review lists.",
-  "count": 848,
+  "count": 853,
   "sources": [
     {
       "source": "ati",
@@ -7634,6 +7634,66 @@
       "source_sha256": "63a15156c6cd2f7659d0c23fbd9a4110774e87c563c6e6c05ceb5161f3598ddf",
       "questions": [
         "Unmapped private-use source font characters: U+F82A. Preserve original; verify publisher font mapping before release."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:1 The Eye | Cakkhu Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_1.html",
+      "source_sha256": "a38cb479f5d7a4ed449d419160b7029e30ac4f6c0539b3ab812da9460ea2d16b",
+      "publisher_id": "SN 25.1",
+      "previous_canonical_id": "SN 25.1",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:2 Forms | Rūpa Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_2.html",
+      "source_sha256": "5ab18132dcd40b262460931f2251aa5b75f29042ca763eecba0b753702b57171",
+      "publisher_id": "SN 25.2",
+      "previous_canonical_id": "SN 25.2",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:3 Consciousness | Viññāṇa Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_3.html",
+      "source_sha256": "aa15b977deac9ccbf4bd00c224d5f0c4a79863bb23c84863827230518dadb248",
+      "publisher_id": "SN 25.3",
+      "previous_canonical_id": "SN 25.3",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 44:1 With Khemā | Khema Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN44_1.html",
+      "source_sha256": "2c85475f7ba9aeb340ca8a0af9c07ad1e994ae3cc34e2b339ae6957a8fb9fce1",
+      "publisher_id": "SN 44.1",
+      "previous_canonical_id": "SN 44.1",
+      "questions": [
+        "Publisher-reference block is not a final appendix; review its placement",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
+      ]
+    },
+    {
+      "source": "Publisher source-scope review",
+      "title": "SN 25:10 Aggregates | Khandha Sutta",
+      "original": "https://www.dhammatalks.org/suttas/SN/SN25_10.html",
+      "source_sha256": "bc296df12385da411268a2518a5fbbea011e42e215f26d9ec4b3a57bc81914e0",
+      "publisher_id": "SN 25.10",
+      "previous_canonical_id": "SN 25.10",
+      "questions": [
+        "Multiple explicit discourse headers need source-scope review",
+        "Keep the complete original outside reader publication until its discourse and editorial boundaries are reviewed."
       ]
     }
   ]

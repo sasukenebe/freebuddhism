@@ -1,12 +1,12 @@
 {
   "date": "2026-11-11",
   "scope": "Known English edition records. BUILD_ELIGIBLE means validated source/build inclusion; actual public deployment is recorded separately.",
-  "build_eligible_editions": 9917,
+  "build_eligible_editions": 9912,
   "build_eligible_text_ids": 6848,
-  "known_edition_records": 10249,
+  "known_edition_records": 10245,
   "by_state": {
-    "BUILD_ELIGIBLE": 9917,
-    "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 1,
+    "BUILD_ELIGIBLE": 9912,
+    "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 2,
     "PERMISSION_SCOPE_UNCLEAR": 136,
     "RIGHTS_UNVERIFIED": 195
   },
@@ -65055,7 +65055,7 @@
       "source_url": "https://www.mindreleased.com/s/Sutta-Nipta_Bhikkhu_Candana_2026-2ggf.pdf#page=381"
     },
     {
-      "canonical_id": "AN 10.100",
+      "canonical_id": "AN 10.76",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -65163,7 +65163,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_17.html"
     },
     {
-      "canonical_id": "AN 10.170",
+      "canonical_id": "AN 10.118",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -65172,7 +65172,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_118.html"
     },
     {
-      "canonical_id": "AN 10.176",
+      "canonical_id": "AN 10.24",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -65181,7 +65181,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/an/an10/an10.024.than.html"
     },
     {
-      "canonical_id": "AN 10.176",
+      "canonical_id": "AN 10.24",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -67044,7 +67044,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_109.html"
     },
     {
-      "canonical_id": "AN 5.110",
+      "canonical_id": "AN 5.98",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -67053,7 +67053,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.098.than.html"
     },
     {
-      "canonical_id": "AN 5.110",
+      "canonical_id": "AN 5.98",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -67728,7 +67728,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_97.html"
     },
     {
-      "canonical_id": "AN 5.99",
+      "canonical_id": "AN 5.34",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -67746,7 +67746,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_99.html"
     },
     {
-      "canonical_id": "AN 5.99",
+      "canonical_id": "AN 5.34",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -68250,7 +68250,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_2.html"
     },
     {
-      "canonical_id": "AN 8.20",
+      "canonical_id": "AN 8.41",
       "collection": "anguttara-nikaya",
       "translator": "Ñanavara Thera and Bhikkhu Kantasilo",
       "license": "Free redistribution with attribution and complete notice",
@@ -68367,7 +68367,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_39.html"
     },
     {
-      "canonical_id": "AN 8.46",
+      "canonical_id": "AN 8.30",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -68376,7 +68376,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.030.than.html"
     },
     {
-      "canonical_id": "AN 8.46",
+      "canonical_id": "AN 8.30",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -68385,7 +68385,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_30.html"
     },
     {
-      "canonical_id": "AN 8.51",
+      "canonical_id": "AN 8.53",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -68700,7 +68700,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN9_43.html"
     },
     {
-      "canonical_id": "AN 9.48",
+      "canonical_id": "AN 9.34",
       "collection": "anguttara-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -68709,7 +68709,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/an/an09/an09.034.than.html"
     },
     {
-      "canonical_id": "AN 9.48",
+      "canonical_id": "AN 9.34",
       "collection": "anguttara-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -86358,15 +86358,6 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn25/sn25.001.than.html"
     },
     {
-      "canonical_id": "SN 25.1",
-      "collection": "samyutta-nikaya",
-      "translator": "Ṭhānissaro Bhikkhu",
-      "license": "CC-BY-NC-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "ABBREVIATED",
-      "source_url": "https://www.dhammatalks.org/suttas/SN/SN25_1.html"
-    },
-    {
       "canonical_id": "SN 25.10",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
@@ -86374,15 +86365,6 @@
       "state": "BUILD_ELIGIBLE",
       "completeness": "ABBREVIATED",
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn25/sn25.010.than.html"
-    },
-    {
-      "canonical_id": "SN 25.10",
-      "collection": "samyutta-nikaya",
-      "translator": "Ṭhānissaro Bhikkhu",
-      "license": "CC-BY-NC-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "ABBREVIATED",
-      "source_url": "https://www.dhammatalks.org/suttas/SN/SN25_10.html"
     },
     {
       "canonical_id": "SN 25.2",
@@ -86394,15 +86376,6 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn25/sn25.002.than.html"
     },
     {
-      "canonical_id": "SN 25.2",
-      "collection": "samyutta-nikaya",
-      "translator": "Ṭhānissaro Bhikkhu",
-      "license": "CC-BY-NC-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "ABBREVIATED",
-      "source_url": "https://www.dhammatalks.org/suttas/SN/SN25_2.html"
-    },
-    {
       "canonical_id": "SN 25.3",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
@@ -86410,15 +86383,6 @@
       "state": "BUILD_ELIGIBLE",
       "completeness": "ABBREVIATED",
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn25/sn25.003.than.html"
-    },
-    {
-      "canonical_id": "SN 25.3",
-      "collection": "samyutta-nikaya",
-      "translator": "Ṭhānissaro Bhikkhu",
-      "license": "CC-BY-NC-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "ABBREVIATED",
-      "source_url": "https://www.dhammatalks.org/suttas/SN/SN25_3.html"
     },
     {
       "canonical_id": "SN 27.1",
@@ -86862,7 +86826,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_193.html"
     },
     {
-      "canonical_id": "SN 35.235",
+      "canonical_id": "SN 35.28",
       "collection": "samyutta-nikaya",
       "translator": "Ñanamoli Thera",
       "license": "Free redistribution with attribution and complete notice",
@@ -86871,7 +86835,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.nymo.html"
     },
     {
-      "canonical_id": "SN 35.235",
+      "canonical_id": "SN 35.28",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -86880,7 +86844,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.than.html"
     },
     {
-      "canonical_id": "SN 35.235",
+      "canonical_id": "SN 35.28",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87123,7 +87087,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.002.nypo.html"
     },
     {
-      "canonical_id": "SN 36.20",
+      "canonical_id": "SN 36.23",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87132,7 +87096,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.023.than.html"
     },
     {
-      "canonical_id": "SN 36.20",
+      "canonical_id": "SN 36.23",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87537,15 +87501,6 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn44/sn44.001.than.html"
     },
     {
-      "canonical_id": "SN 44.1",
-      "collection": "samyutta-nikaya",
-      "translator": "Ṭhānissaro Bhikkhu",
-      "license": "CC-BY-NC-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "ABBREVIATED",
-      "source_url": "https://www.dhammatalks.org/suttas/SN/SN44_1.html"
-    },
-    {
       "canonical_id": "SN 44.10",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
@@ -87843,7 +87798,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_4.html"
     },
     {
-      "canonical_id": "SN 46.40",
+      "canonical_id": "SN 46.38",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87915,7 +87870,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_53.html"
     },
     {
-      "canonical_id": "SN 46.62",
+      "canonical_id": "SN 46.54",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87924,7 +87879,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.054.than.html"
     },
     {
-      "canonical_id": "SN 46.62",
+      "canonical_id": "SN 46.54",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -87969,7 +87924,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.013.nypo.html"
     },
     {
-      "canonical_id": "SN 47.13",
+      "canonical_id": "SN 47.14",
       "collection": "samyutta-nikaya",
       "translator": "Nyanaponika Thera",
       "license": "Free redistribution with attribution and complete notice",
@@ -88023,7 +87978,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.019.than.html"
     },
     {
-      "canonical_id": "SN 47.19",
+      "canonical_id": "SN 47.20",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -88041,7 +87996,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN47_19.html"
     },
     {
-      "canonical_id": "SN 47.19",
+      "canonical_id": "SN 47.20",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -88689,7 +88644,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN55_27.html"
     },
     {
-      "canonical_id": "SN 55.47",
+      "canonical_id": "SN 55.40",
       "collection": "samyutta-nikaya",
       "translator": "Thanissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -88698,7 +88653,7 @@
       "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn55/sn55.040.than.html"
     },
     {
-      "canonical_id": "SN 55.47",
+      "canonical_id": "SN 55.40",
       "collection": "samyutta-nikaya",
       "translator": "Ṭhānissaro Bhikkhu",
       "license": "CC-BY-NC-4.0",
@@ -88797,7 +88752,7 @@
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN56_11.html"
     },
     {
-      "canonical_id": "SN 56.18",
+      "canonical_id": "SN 56.22",
       "collection": "samyutta-nikaya",
       "translator": "Maurice O'Connell Walshe",
       "license": "Free redistribution with attribution and complete notice",
@@ -89263,6 +89218,15 @@
       "state": "BUILD_ELIGIBLE",
       "completeness": "ABBREVIATED",
       "source_url": "https://www.dhammatalks.org/suttas/SN/SN9_9.html"
+    },
+    {
+      "canonical_id": "Ja 93",
+      "collection": "khuddaka-nikaya/jataka",
+      "translator": "Ānandajoti Bhikkhu",
+      "license": "CC-BY-SA-4.0",
+      "state": "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK",
+      "completeness": "COMPLETE",
+      "source_url": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/093.htm"
     },
     {
       "canonical_id": "Ps complete",

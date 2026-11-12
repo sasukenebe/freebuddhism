@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import sys
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
@@ -109,12 +110,49 @@ class AtiRightsAndMappingTests(unittest.TestCase):
         self.assertEqual(canonical, "AN 3.34")
         self.assertEqual(evidence["publisher_id"], "AN 3.33")
 
-    def test_epub_wrong_number_is_corrected_only_by_unique_pali_title(self):
-        canonical, evidence = ati.resolve_id("AN", "11.16", "Mettā Sutta", reference())
-        self.assertEqual(canonical, "AN 11.15")
-        self.assertIn("numbering corrected", evidence["method"])
-        with self.assertRaisesRegex(ValueError, "needs review"):
+    def test_unique_pali_title_cannot_override_source_identity(self):
+        with self.assertRaisesRegex(ValueError, "needs content review"):
+            ati.resolve_id("AN", "11.16", "Mettā Sutta", reference())
+        with self.assertRaisesRegex(ValueError, "needs content review"):
             ati.resolve_id("AN", "11.16", "Unidentified Sutta", reference())
+
+    def test_an_1076_cannot_be_guessed_as_10100_from_abhabba_title(self):
+        refs = {"site_ids": {"AN 10.76": "anguttara-nikaya", "AN 10.100": "anguttara-nikaya"},
+                "pali_titles": {"AN 10.76": ["Tayodhammasutta"], "AN 10.100": ["Abhabbasutta"]},
+                "pali_references": {}}
+        with self.assertRaisesRegex(ValueError, "content review"):
+            ati.resolve_id("AN", "10.76", "Abhabba Sutta", refs)
+
+    def test_exact_content_review_can_authorize_numbering_difference(self):
+        review = {"canonical_id": "AN 11.15", "publisher_id": "AN 11.16", "review_id": "example-verified"}
+        with patch.object(ati, "identity_for_source", return_value=review):
+            canonical, evidence = ati.resolve_id("AN", "11.16", "Mettā Sutta", reference(),
+                                                source_url="https://example.org/source", source_sha256="hash")
+        self.assertEqual(canonical, "AN 11.15")
+        self.assertEqual(evidence["method"], "Content-verified edition concordance")
+        self.assertEqual(evidence["review_id"], "example-verified")
+
+    def test_publisher_references_are_separate_and_preserved(self):
+        fragment = '<div id="sutta"><p>Actual teaching.</p><p class="seealso">See also: <a href="other.html">DN 2</a>; MN 118.</p></div>'
+        body, references = ati.split_publisher_references(fragment)
+        self.assertEqual(body, "Actual teaching.\n")
+        self.assertEqual(references, "See also: DN 2; MN 118.\n")
+        ati.check_characters(fragment, body + references)
+        with self.assertRaises(ValueError):
+            ati.check_characters(fragment, body + references.replace("DN 2", "DN 99"))
+        prose = '<div><p>He said, “See also these conditions.”</p></div>'
+        self.assertEqual(ati.split_publisher_references(prose), (ati.render(prose), ""))
+        headings = '<div><p class="seealso"><strong>Eternalism</strong></p><p>Teaching one.</p><p class="seealso">Partial Eternalism</p><p>Teaching two.</p><p class="seealso">See also: DN 2.</p></div>'
+        body, references = ati.split_publisher_references(headings)
+        self.assertIn("Eternalism\n\nTeaching one.", body)
+        self.assertIn("Partial Eternalism\n\nTeaching two.", body)
+        self.assertEqual(references, "See also: DN 2.\n")
+
+    def test_nonfinal_or_duplicate_publisher_references_require_review(self):
+        for fragment in ('<div><p class="seealso">See also: DN 2.</p><p>More teaching.</p></div>',
+                         '<div><p class="seealso">See also: DN 2.</p><p class="seealso">MN 1.</p></div>'):
+            with self.subTest(fragment=fragment), self.assertRaises(ValueError):
+                ati.split_publisher_references(fragment)
 
     def test_grouped_sources_cannot_become_invented_single_translations(self):
         for number in ("1.21-40", "1.21–30,39–40", "2.31-32", "3.100 (i-x)"):
@@ -123,6 +161,18 @@ class AtiRightsAndMappingTests(unittest.TestCase):
         source = "<title>AN 2:31–32 Gratitude | Kataññu Suttas</title><div id='sutta'>Text.</div>"
         with self.assertRaisesRegex(ValueError, "Grouped"):
             ati.epub_unit("AN/AN2_31.html", source, reference(), {})
+
+    def test_multiple_discourse_headers_are_held_even_with_terminal_references(self):
+        fragment = '<div><h2 id="SN25.1">The Eye (SN 25:1)</h2><p>First discourse.</p><h2 id="SN25.10">Aggregates (SN 25:10)</h2><p>Second discourse.</p>'
+        for ending in ('</div>', '<p class="seealso">See also: MN 1.</p></div>'):
+            with self.subTest(ending=ending), self.assertRaisesRegex(ValueError, "Multiple explicit discourse headers"):
+                ati.split_publisher_references(fragment + ending)
+        for headers in ('<h2>Khp 1</h2><p>First.</p><h2>Kp 2</h2><p>Second.</p>',
+                        '<h2>SN 25:<span>1</span></h2><p>First.</p><h2>SN 25:<span>2</span></h2><p>Second.</p>'):
+            with self.subTest(headers=headers), self.assertRaisesRegex(ValueError, "Multiple explicit discourse headers"):
+                ati.split_publisher_references('<div>' + headers + '</div>')
+        single = '<div><h2 id="SN36.21">A title (SN 36:19)</h2><p>A reference to SN 25:1.</p><h3>Notes</h3><p>See SN 25:10.</p></div>'
+        self.assertEqual(ati.split_publisher_references(single), (ati.render(single), ""))
 
     def test_unknown_canonical_ids_are_held(self):
         with self.assertRaisesRegex(ValueError, "does not exist"):

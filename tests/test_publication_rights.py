@@ -8,7 +8,8 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools/buddhist_canon_pipeline"))
-from publication_rights import canonical_license, license_conditions, license_url, verified_manifest
+from publication_rights import canonical_license, license_conditions, license_url, verified_manifest, identity_for_source, IDENTITY_REVIEWS
+from repair_licensed_identity import content_intervals
 
 
 class PublicationRightsTests(unittest.TestCase):
@@ -69,6 +70,67 @@ class PublicationRightsTests(unittest.TestCase):
                 path.write_text(json.dumps({"schema_version": 1, "records": [row]}))
                 with self.assertRaises(ValueError):
                     verified_manifest(root, path)
+
+    def test_title_only_remapping_is_not_publishable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path, row = self.fixture(root)
+            row["mapping_evidence"] = {"method": "unique pinned Pali title within publisher chapter; numbering corrected"}
+            path.write_text(json.dumps({"schema_version": 1, "records": [row]}))
+            with self.assertRaisesRegex(ValueError, "Title-only"):
+                verified_manifest(root, path)
+
+    def test_held_source_rights_do_not_make_a_reader_eligible(self):
+        for fault in (None, "license", "source_sha256", "conditions"):
+            with self.subTest(fault=fault), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                path, row = self.fixture(root)
+                source = root / "held.source"
+                source.write_text("<p>Unchanged source awaiting discourse-boundary review.</p>")
+                held = {key: row[key] for key in ("source_url", "license", "license_url", "conditions", "copyright", "license_notice")}
+                held.update(source_snapshot=source.name, source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+                            status="SOURCE_RIGHTS_VERIFIED_READER_SCOPE_HELD")
+                if fault == "license": held["license"] = "CC0-1.0"
+                if fault == "source_sha256": held["source_sha256"] = "0" * 64
+                if fault == "conditions": held["conditions"] = []
+                path.write_text(json.dumps({"schema_version": 1, "records": [row], "held_source_records": [held]}))
+                if fault is None:
+                    result = verified_manifest(root, path)
+                    self.assertEqual(len(result["records"]), 1)
+                    self.assertEqual(len(result["held_source_records"]), 1)
+                else:
+                    with self.assertRaises(ValueError):
+                        verified_manifest(root, path)
+
+    def test_review_inputs_intervals_and_selected_canonical_id_are_pinned(self):
+        for fault in (None, "source", "canonical", "interval", "canonical_id", "status"):
+            with self.subTest(fault=fault), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                source = root / "original.source"
+                target = root / "canonical.txt"
+                source.write_text("<article><p>First distinctive teaching.</p><p>Second distinctive conclusion.</p></article>")
+                target.write_text("X 1 - Example\n\nFirst matching teaching.\nSecond matching conclusion.\n")
+                row = {"review_id": "example-comparison", "status": "VERIFIED", "canonical_id": "X 1",
+                       "publisher_id": "X 1", "source_url": "https://example.org/text",
+                       "source_snapshot": source.name, "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+                       "canonical_text_path": target.name, "canonical_text_sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
+                       "source_anchors": content_intervals(source, ["First distinctive teaching.", "Second distinctive conclusion."]),
+                       "canonical_anchors": content_intervals(target, ["First matching teaching.", "Second matching conclusion."]),
+                       "review_basis": "The teaching sequence and conclusion identify the same discourse."}
+                if fault == "source": source.write_text("changed original")
+                if fault == "canonical": target.write_text("changed comparison")
+                if fault == "interval": row["source_anchors"][0]["sha256"] = "0" * 64
+                if fault == "canonical_id": row["canonical_id"] = "X 2"
+                if fault == "status": row["status"] = "HOLD"
+                path = root / IDENTITY_REVIEWS
+                path.parent.mkdir(parents=True)
+                path.write_text(json.dumps({"records": [row]}))
+                if fault is None:
+                    self.assertEqual(identity_for_source(row["source_url"], row["source_sha256"], root)["canonical_id"], "X 1")
+                    self.assertIsNone(identity_for_source(row["source_url"], "unknown-source-hash", root))
+                else:
+                    with self.assertRaises(ValueError):
+                        identity_for_source(row["source_url"], row["source_sha256"], root)
 
 
 if __name__ == "__main__":

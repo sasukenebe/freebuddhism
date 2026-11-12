@@ -1,0 +1,3620 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "scope": "Explicit discourse-content comparisons for the previously title-remapped editions. Intervals pin comparison evidence without quoting licensed passages in project metadata.",
+  "records": [
+    {
+      "review_id": "an-ati-3-60-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.060.than.html",
+      "source_sha256": "5ebed192e48030e684b08ae319398fadb502178ed584aee24a84a2e49f5ecfd0",
+      "source_snapshot": "metadata/source-snapshots/licensed/5ebed192e48030e684b08ae319398fadb502178ed584aee24a84a2e49f5ecfd0.source",
+      "publisher_id": "AN 3.60",
+      "canonical_id": "AN 3.60",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.60.txt",
+      "canonical_text_sha256": "b99d0f03b450b49bfbeb4dcfc05c60ab972896928f1985e8c249f254750a3ebe",
+      "source_anchors": [
+        {
+          "start": 574,
+          "end": 641,
+          "sha256": "d6d896863d9749620c7fa57298b72c4b393fcc97e6255804f359cdc3d92be2e5"
+        },
+        {
+          "start": 4385,
+          "end": 4465,
+          "sha256": "676195a1ed3b73f7319807508f9da9292384e4f0eb355cd15423d7e35a3a6038"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 375,
+          "end": 457,
+          "sha256": "24efa1228f5b18aa440a5635852b0faa50a3ec15a75b00093ce31c38daa46f2c"
+        },
+        {
+          "start": 3635,
+          "end": 3731,
+          "sha256": "4102189aa7ea006b91e8eec0713123d4dbb57c217c4b7b420117d020cf0b9b54"
+        }
+      ],
+      "review_basis": "Both have Sangarava contrasting sacrifices benefiting many with a renunciant benefiting himself, followed by the Buddha showing the benefit of teaching and discussing three miracles/demonstrations: psychic power, mind-reading and instruction. Canonical AN 3.61 instead refutes three deterministic sectarian tenets."
+    },
+    {
+      "review_id": "an-ati-3-66-nymo",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.066.nymo.html",
+      "source_sha256": "6eea213b1b7b70b038802f59f35a90c6753c380dc311ec7c1d6b0afe406194b5",
+      "source_snapshot": "metadata/source-snapshots/licensed/6eea213b1b7b70b038802f59f35a90c6753c380dc311ec7c1d6b0afe406194b5.source",
+      "publisher_id": "AN 3.66",
+      "canonical_id": "AN 3.66",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.66.txt",
+      "canonical_text_sha256": "39e2c1b31db2c1119719193bbb0774864c955f9306dda6963cac324f4bdeea75",
+      "source_anchors": [
+        {
+          "start": 429,
+          "end": 487,
+          "sha256": "0de135444bc405201782eb468700c72edf099336c9487984d74fa3683bd96985"
+        },
+        {
+          "start": 5992,
+          "end": 6068,
+          "sha256": "a885db0f58ed81407bb0a6c54ac9cb4f136f06f446065b91c286a8faaf6eebef"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 355,
+          "end": 413,
+          "sha256": "3739c7b6ad3063495f3fd53b8f06cc0315f61d4f706630aff7a1f52cbfb0e65f"
+        },
+        {
+          "start": 6383,
+          "end": 6468,
+          "sha256": "e6482e01ea12509cad6b20eaedc5a5562b81d9299435529d9641b9d1f1192e51"
+        }
+      ],
+      "review_basis": "Both have Nandaka instructing Salha and Rohana at the Eastern Monastery, rejecting reliance on hearsay/tradition alone, examining greed/hate/delusion, developing the four boundless states and concluding with liberation. Canonical AN 3.67 instead teaches topics and conduct of discussion."
+    },
+    {
+      "review_id": "an-ati-3-71-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.071.than.html",
+      "source_sha256": "f928425f67278707aa62a5aa39671c7500f8b42591bdcfdf88c9bfbfa5b0849d",
+      "source_snapshot": "metadata/source-snapshots/licensed/f928425f67278707aa62a5aa39671c7500f8b42591bdcfdf88c9bfbfa5b0849d.source",
+      "publisher_id": "AN 3.71",
+      "canonical_id": "AN 3.71",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.71.txt",
+      "canonical_text_sha256": "da90013cee161e38ba6ee8629538738e219068349fd1b04e3eaea37fb4653c1c",
+      "source_anchors": [
+        {
+          "start": 438,
+          "end": 480,
+          "sha256": "ee7b3efc7a3c60c8c092170b101a5c850b2d19cdafa8d503fd05abc99814602f"
+        },
+        {
+          "start": 1246,
+          "end": 1341,
+          "sha256": "6143ae8f9c414cad64eade3b997d07ca19f52835a6b87b884dcaa0a071a5d9fc"
+        },
+        {
+          "start": 5258,
+          "end": 5288,
+          "sha256": "fbcbf2ba2caa9adb0ba721f8924878ff00dae0ffa281934428b8bdc74b3ed5fe"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 263,
+          "end": 310,
+          "sha256": "f0ea7d435ee132c5a825452b40649f541eaceb516ccc01442e52d28d1173f8b6"
+        },
+        {
+          "start": 679,
+          "end": 733,
+          "sha256": "58c3860eb41432a3c610d9d526e4f5b75aaa17579a599af353600ec83b4108a4"
+        },
+        {
+          "start": 2673,
+          "end": 2711,
+          "sha256": "db69773860cbc04aa8e8aa22757ccfefd37ac2c488c31853c6dc4bf765ed0aec"
+        }
+      ],
+      "review_basis": "Both have Channa the wanderer question Ananda about abandoning greed/passion, hate/aversion and delusion, explain the harm to oneself/others and conclude with the noble eightfold path. Canonical AN 3.72 instead has an Ajivaka lay follower ask whose teaching/practice is good."
+    },
+    {
+      "review_id": "an-ati-3-72-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.072.than.html",
+      "source_sha256": "93b41716c87d7c594d9c01b04a99c685eb13c9c05072466318c983409b65c540",
+      "source_snapshot": "metadata/source-snapshots/licensed/93b41716c87d7c594d9c01b04a99c685eb13c9c05072466318c983409b65c540.source",
+      "publisher_id": "AN 3.72",
+      "canonical_id": "AN 3.72",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.72.txt",
+      "canonical_text_sha256": "61f7f2dc65c2c6311ee112006908103bff31b744c4c3fd27ba3ac1d114d8d087",
+      "source_anchors": [
+        {
+          "start": 460,
+          "end": 487,
+          "sha256": "fa968682c9558ee1bf7f58b7a5938e885af9f17d181b9c858f82b03cd285ce0b"
+        },
+        {
+          "start": 636,
+          "end": 663,
+          "sha256": "c67ca9521a6c354bb300c8ea2720e0fab1306a6b458c2947616a2955b525f2ba"
+        },
+        {
+          "start": 1731,
+          "end": 1756,
+          "sha256": "3e5c4bb5d4fefaaed0cc2700398161727d47eb761739ec28e94061cddb31acbb"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 300,
+          "end": 334,
+          "sha256": "7b7c7b7aa2404fd153db5c29f382824e4e0c91f74c5ace1e227cf3cda5bffc0b"
+        },
+        {
+          "start": 432,
+          "end": 464,
+          "sha256": "3991abb74a824e68c3714ac112f5b0e7676214a64dad310c382b70aabedd587f"
+        },
+        {
+          "start": 1242,
+          "end": 1285,
+          "sha256": "b5c09c7d91fa0d5f1a07134d0f6222bf9d02e9f18273423df737846551bb6f46"
+        }
+      ],
+      "review_basis": "Both have Ananda at Ghosita monastery in Kosambi answer an Ajivaka lay follower by counterquestions about teaching, practicing and having abandoned greed/hate/delusion; the listener praises the impartial reply and takes refuge. Canonical AN 3.73 instead has Mahānāma ask whether concentration or knowledge comes first."
+    },
+    {
+      "review_id": "an-ati-3-78-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.078.than.html",
+      "source_sha256": "6dc0756ff3002c335021080b25f693f2bb3e42b121cbc8df232477ca44a6d4cb",
+      "source_snapshot": "metadata/source-snapshots/licensed/6dc0756ff3002c335021080b25f693f2bb3e42b121cbc8df232477ca44a6d4cb.source",
+      "publisher_id": "AN 3.78",
+      "canonical_id": "AN 3.78",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.78.txt",
+      "canonical_text_sha256": "65a5b2dfd350e6ac37ac5c060a01931f5f2fa168f94cf08a12a6a0dd0b973545",
+      "source_anchors": [
+        {
+          "start": 634,
+          "end": 680,
+          "sha256": "9be0f502db5c80420b4d3feff55a26a6f503be3bbd1c39dcaaa0883c2ec3829c"
+        },
+        {
+          "start": 852,
+          "end": 934,
+          "sha256": "5cd7a83dd3e4d74c3f3c0899a46707c957850e66df8476708901a1b15a00acc7"
+        },
+        {
+          "start": 1643,
+          "end": 1670,
+          "sha256": "9b1e4cb585c75f93284e5fe37fa2911ef80b61cad5c048a2df19cbf9bc02b786"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 406,
+          "end": 436,
+          "sha256": "79393136c21e685ad40da07b7169a69e4f3e60c05035efc11f2a9ee6487c019d"
+        },
+        {
+          "start": 613,
+          "end": 671,
+          "sha256": "acbb07734c9e4b055cacbc19addd64281c156440445751989914925d5951b634"
+        },
+        {
+          "start": 1093,
+          "end": 1159,
+          "sha256": "274ae3e7739a0a0afe3e8ce41b0b24d13f612096e13710ffde9b4e48c9c55e30"
+        }
+      ],
+      "review_basis": "Both have Ananda give a noncategorical answer about the fruitfulness of precepts/observances: assess whether unskillful qualities increase or decrease; the Buddha approves and praises the trainee Ananda. Canonical AN 3.79 instead discusses fragrance travelling with and against the wind."
+    },
+    {
+      "review_id": "an-ati-3-81-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.081.than.html",
+      "source_sha256": "906f2bf26daa774713720d9566780120308109f780097c487ce4559504dc1128",
+      "source_snapshot": "metadata/source-snapshots/licensed/906f2bf26daa774713720d9566780120308109f780097c487ce4559504dc1128.source",
+      "publisher_id": "AN 3.81",
+      "canonical_id": "AN 3.82",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.82.txt",
+      "canonical_text_sha256": "758448a03c50ca28c1839408c92a0a617e68ebea3c7ff25b856d573de9ef1bd6",
+      "source_anchors": [
+        {
+          "start": 336,
+          "end": 388,
+          "sha256": "de563135a6e406ca83e8105fa41d8e01097c1a0c78a9f4052accf5a9542f52e4"
+        },
+        {
+          "start": 432,
+          "end": 525,
+          "sha256": "cc6367015f9aa51de99553fdf1f6d0c6728089b41c6886c780ee6c1cc8c3a987"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 187,
+          "end": 228,
+          "sha256": "5e2a18146c56c6d720dbe0435266d1e3b262672a9e4325174ce498adfe5703ec"
+        },
+        {
+          "start": 276,
+          "end": 356,
+          "sha256": "cb5641221d76005163131676fd00720e3076ed4658148d77c51912a14b64ac8a"
+        }
+      ],
+      "review_basis": "Both compare an untrained monk following the Sangha to a donkey following cattle while claiming to be a cow, then prescribe enthusiasm for the three higher trainings. Canonical AN 3.81 lacks the donkey simile and only lists ascetic duties; AN 3.83 compares a farmer preparing a field."
+    },
+    {
+      "review_id": "an-ati-3-83-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.083.than.html",
+      "source_sha256": "5676c2df2b0fd44ba4e912ed0470018f3fdb8f0b2e2cf15c1b4e2138a633421a",
+      "source_snapshot": "metadata/source-snapshots/licensed/5676c2df2b0fd44ba4e912ed0470018f3fdb8f0b2e2cf15c1b4e2138a633421a.source",
+      "publisher_id": "AN 3.83",
+      "canonical_id": "AN 3.84",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.84.txt",
+      "canonical_text_sha256": "6189e3c64d608a61c218ea9d324dcb023ac561d75f8e8f140a62e970af7f1bb9",
+      "source_anchors": [
+        {
+          "start": 582,
+          "end": 632,
+          "sha256": "28c75757215a4fd914c2214bb8d6f83b60196e0cc31d40cced5f3f5558fca340"
+        },
+        {
+          "start": 638,
+          "end": 673,
+          "sha256": "72809e0dbf2ea65528ccaf8cf5b1a145d5bd509eda45381891bd9aca7a94f7db"
+        },
+        {
+          "start": 1484,
+          "end": 1537,
+          "sha256": "56c59fd79f079666a4be6b2f0dcad60974691f929e6b94181c55339773b14176"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 365,
+          "end": 431,
+          "sha256": "079ce02afbef868ec80dc3f2d7fd615def1c2da27d191514774b0b3724037f77"
+        },
+        {
+          "start": 433,
+          "end": 462,
+          "sha256": "18c0158473527bc9b4320a7584065f64f5aa3d12785e12a998f2186a9261c2cf"
+        },
+        {
+          "start": 776,
+          "end": 834,
+          "sha256": "698a085fc2b92b27cdb7ed00f0a9ffbf4a4e29c9ff49bc89f5565f941366a9ca"
+        }
+      ],
+      "review_basis": "Both have a Vajji monk unable to follow the fortnightly recitation of over 150 rules; the Buddha substitutes the three higher trainings and the monk subsequently abandons greed/hate/delusion. Canonical AN 3.83 is a farmer simile; AN 3.85 defines a trainee with a concluding verse."
+    },
+    {
+      "review_id": "an-ati-3-91-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.091.than.html",
+      "source_sha256": "9c118467f022011e0cb79afccbf95eac1c289dace339879ea1917e643b919484",
+      "source_snapshot": "metadata/source-snapshots/licensed/9c118467f022011e0cb79afccbf95eac1c289dace339879ea1917e643b919484.source",
+      "publisher_id": "AN 3.91",
+      "canonical_id": "AN 3.92",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.92.txt",
+      "canonical_text_sha256": "3d4159c869e4c609995b711c7c48add880906af9bba8795f0fd8f13bf6db8b09",
+      "source_anchors": [
+        {
+          "start": 320,
+          "end": 364,
+          "sha256": "af981b23eaf6cbcf2588960aabd4064837ba6973ba3a5ba0d8e43ee5e4983456"
+        },
+        {
+          "start": 784,
+          "end": 877,
+          "sha256": "3485b4e684b7f5fc844087dee1c788027941ad60d4230f53046adaa2ac188831"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 177,
+          "end": 209,
+          "sha256": "a6194e4ee3d6dd7d64fe6f1fd721da45a39ae00c2c31c6c26f4d0afe6358022a"
+        },
+        {
+          "start": 497,
+          "end": 582,
+          "sha256": "79674bc97a4ce7e048f741d55594cf0bc2df51bbbf3825af95732327cc01d561"
+        }
+      ],
+      "review_basis": "Both enumerate urgent farming tasks but deny a farmer can command crops to grow/ripen today/tomorrow; likewise a monk must train without commanding immediate liberation. Canonical AN 3.91 is Kassapagotta at Pankadha regretting impatience about training rules; AN 3.93 concerns three forms of seclusion and a different harvest simile."
+    },
+    {
+      "review_id": "an-ati-3-120-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.120.than.html",
+      "source_sha256": "626a8a2e63d8feb9e3070fe2760d401740a15643efa7bd0ece2ee13219730d4b",
+      "source_snapshot": "metadata/source-snapshots/licensed/626a8a2e63d8feb9e3070fe2760d401740a15643efa7bd0ece2ee13219730d4b.source",
+      "publisher_id": "AN 3.120",
+      "canonical_id": "AN 3.122",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.122.txt",
+      "canonical_text_sha256": "c4185489d6518e34d4e546fb6ca8c726d228ecb3161c2b1605f3a8711eb43dba",
+      "source_anchors": [
+        {
+          "start": 368,
+          "end": 421,
+          "sha256": "1d7f23d54a0457467543bbf9815f75cdf0638aaee405502e629f86d8be022cc5"
+        },
+        {
+          "start": 1145,
+          "end": 1177,
+          "sha256": "2630371a42de48fb7cad8abfc8e3db7f3bb6199794649bed502debf20b0a0329"
+        },
+        {
+          "start": 930,
+          "end": 989,
+          "sha256": "8af91d42a87b5bfeb61064af95efec941e718e0c0ac89ce111bbbed3e4ff02ef"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 237,
+          "end": 271,
+          "sha256": "4a7502f6752efcfc1a1a6c5edf1fe027bd4172ca705cb796627b19dd912db721"
+        },
+        {
+          "start": 867,
+          "end": 899,
+          "sha256": "2630371a42de48fb7cad8abfc8e3db7f3bb6199794649bed502debf20b0a0329"
+        },
+        {
+          "start": 635,
+          "end": 683,
+          "sha256": "edd4b807b0dfb730d85953bfab619bb520221ba0ac1b071deefa376055330b7f"
+        }
+      ],
+      "review_basis": "Both define sagacity of body, speech and mind, including celibacy, ending the defilements and realized liberation, and close with a verse about a sage in body/speech/mind. Canonical AN 3.120 is purity, with contentment/kindness/right view as mental purity and no corresponding closing sage verse; AN 3.123 concerns an alms-meal invitation. Thai alternate 3.123 is a publisher edition number, not the destination in this canon."
+    },
+    {
+      "review_id": "an-ati-3-123-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.123.than.html",
+      "source_sha256": "971503a8ee0506ed54a3456430dfb70e3822f036402a7b6ae7ff1f048dea0d97",
+      "source_snapshot": "metadata/source-snapshots/licensed/971503a8ee0506ed54a3456430dfb70e3822f036402a7b6ae7ff1f048dea0d97.source",
+      "publisher_id": "AN 3.123",
+      "canonical_id": "AN 3.125",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.125.txt",
+      "canonical_text_sha256": "1a18e5d936ff6f45f31ef9910d0f97b3bde25deaf7021cde85d03641c89c3db3",
+      "source_anchors": [
+        {
+          "start": 520,
+          "end": 598,
+          "sha256": "88402c0aa85dc16a19a12f04cd3b8004001fa526613a0bcf7ea21d223e788d16"
+        },
+        {
+          "start": 600,
+          "end": 662,
+          "sha256": "f2c1d1c0f26725c15f4914803339c1f8c2f98422a2b8eccc096f15f47374deec"
+        },
+        {
+          "start": 1397,
+          "end": 1428,
+          "sha256": "f736f8a6dccf9957f6517dfa3e14f1cba9802837e78a211767bfdc10606325de"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 385,
+          "end": 448,
+          "sha256": "32c70b69eb8347d9cff5a406812c7d2b79eec099793985443b0b9fb2e413032a"
+        },
+        {
+          "start": 450,
+          "end": 488,
+          "sha256": "ad3dcc2c2bf68df41ed17a5dbb0266c35562740789c080fb89dd150c5d7033f1"
+        },
+        {
+          "start": 905,
+          "end": 934,
+          "sha256": "63b2b24bb76e30faf44dc44f1ee5c003bb759b86b7eab37abd94437d4cd63c49"
+        }
+      ],
+      "review_basis": "Both are the Gotamaka shrine discourse: teaching from direct knowledge, with reasons and demonstration, followed by disciples rejoicing and a cosmic quake. Translation differences in the cosmic number do not change the shared narrative. Canonical AN 3.123 concerns an alms-meal invitation; AN 3.126 concerns Mahānāma seeking lodgings and Bharandu debating three teachers."
+    },
+    {
+      "review_id": "an-ati-3-126-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.126.than.html",
+      "source_sha256": "b36fa8999c5392c2b632efe17107fba3c3c04a30089bcb497e2a9daa1eb03c76",
+      "source_snapshot": "metadata/source-snapshots/licensed/b36fa8999c5392c2b632efe17107fba3c3c04a30089bcb497e2a9daa1eb03c76.source",
+      "publisher_id": "AN 3.126",
+      "canonical_id": "AN 3.128",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.128.txt",
+      "canonical_text_sha256": "7b45fb84cd1d055899f434e756ebc44b6e5e5463434fec34c9f5fa02b1bcf4e3",
+      "source_anchors": [
+        {
+          "start": 571,
+          "end": 607,
+          "sha256": "cde74d6f20d17285e703f8a129f4e082b435930a7e6d6daa282c06405290309e"
+        },
+        {
+          "start": 1483,
+          "end": 1518,
+          "sha256": "797a839426b8fedfe7d576559df3ff20cbe851413197a202de3418e07e64ce37"
+        },
+        {
+          "start": 2046,
+          "end": 2074,
+          "sha256": "65a0f6054b6b4368741bf599680e083531bb3ab71c82278344fe543eb2896bda"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 377,
+          "end": 425,
+          "sha256": "0c532af978b2625dbe746ad284ab893fc6297aa9a24d1b437b0594e60639f8a7"
+        },
+        {
+          "start": 1140,
+          "end": 1178,
+          "sha256": "308dcee6d6879c872763b1102d95e7b5e5e664854c162b292aafbc5f77836c79"
+        },
+        {
+          "start": 1714,
+          "end": 1749,
+          "sha256": "d3a06cc75403069934f95efce251170a325bf10d96cd4162af49797d9030b7c8"
+        }
+      ],
+      "review_basis": "Both describe the Buddha seeing a distracted monk by the cattle-yoking fig tree in Varanasi, warning of putrefaction and flies, and explaining the flies as unskillful thoughts. Canonical AN 3.126 is the Bharandu lodging story; AN 3.129 is Anuruddha asking about women reborn in hell. The Thai alternate number does not select canonical AN 3.129."
+    },
+    {
+      "review_id": "an-ati-3-130-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.130.than.html",
+      "source_sha256": "14c87c3ab2077e67a9b79dba07c461f12279effc4d5bc2c9ddc097394e9701f8",
+      "source_snapshot": "metadata/source-snapshots/licensed/14c87c3ab2077e67a9b79dba07c461f12279effc4d5bc2c9ddc097394e9701f8.source",
+      "publisher_id": "AN 3.130",
+      "canonical_id": "AN 3.132",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.132.txt",
+      "canonical_text_sha256": "d7212d8d2054b173a112e69839b408d4fc8f6a0e932510255052fdf9669b9a7a",
+      "source_anchors": [
+        {
+          "start": 429,
+          "end": 542,
+          "sha256": "534f5c6b659b4b3acc819efa9477dca4053f8ae072b9130a0c1c5efdc7d1d8b2"
+        },
+        {
+          "start": 666,
+          "end": 702,
+          "sha256": "6b6c17776ad1087811aa53796cc1ba22af7e8adf42033314eb3b3e049d79409f"
+        },
+        {
+          "start": 1574,
+          "end": 1611,
+          "sha256": "28bf654cb382de7ee35e435fd358797183048dea74b1e448d651222629a8a023"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 257,
+          "end": 365,
+          "sha256": "b7fd0d1182adc1fb285f7092f511020977b6bdc8315058be839de1458c4dc4e2"
+        },
+        {
+          "start": 464,
+          "end": 499,
+          "sha256": "a7db2939c1dba53f8132bee2d3e4f2f65839985c78193591ddf54ff7cdf1feef"
+        },
+        {
+          "start": 1281,
+          "end": 1328,
+          "sha256": "9463c1a00803909e4c34f220914c334fde2dd9ddadb9b48ef267b5649ba94882"
+        }
+      ],
+      "review_basis": "Both compare anger to inscriptions/lines in rock, soil/sand and water: lasting anger, short anger, and friendliness despite harsh speech. Canonical AN 3.130 is Sariputta advising Anuruddha about conceit/restlessness/remorse; AN 3.133 is a warrior with three archery skills."
+    },
+    {
+      "review_id": "an-ati-4-235-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.235.than.html",
+      "source_sha256": "a864f040a4303a762cf04394dc877450f87868f69bd34fc1cefe74c6d8880493",
+      "source_snapshot": "metadata/source-snapshots/licensed/a864f040a4303a762cf04394dc877450f87868f69bd34fc1cefe74c6d8880493.source",
+      "publisher_id": "AN 4.235",
+      "canonical_id": "AN 4.237",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.237.txt",
+      "canonical_text_sha256": "521da9e1f848990cc6e35bbeec8b549087822814c795631052ef50c12334be2a",
+      "source_anchors": [
+        {
+          "start": 786,
+          "end": 916,
+          "sha256": "e00c066ec01e083e0b2790dcff826d91562dcb7f8c02bc2473e271d0fb849a24"
+        },
+        {
+          "start": 2581,
+          "end": 2706,
+          "sha256": "21af26f6c37a14f34373aca490e2ced1c5c8d3a2fe8a3855cf19d8789dd6eb81"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 571,
+          "end": 625,
+          "sha256": "92360ff6dc202cc728b680659768d673520dc9d77cdc6a9c9e57515cf00a0fdc"
+        },
+        {
+          "start": 1189,
+          "end": 1314,
+          "sha256": "36e9723f68c6ab03ffe99cccfae861e4820349c87ff9ddcd650cfc335c10041f"
+        }
+      ],
+      "review_basis": "Both describe four types of karma, use hurtful/pleasing bodily/verbal/mental actions for the first types and explicitly identify the neither-dark-nor-bright type with all eight path factors. AN 4.235 instead uses five precepts for dark/bright karma and intention to abandon karma for the fourth type. The source has fuller rebirth illustrations but the distinctive eightfold definition agrees with AN 4.237."
+    },
+    {
+      "review_id": "an-ati-4-252-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.252.than.html",
+      "source_sha256": "df1debddc8aa052eec2191805c511f6bb63ce4ac48970aee5a9d766fdeda0e8f",
+      "source_snapshot": "metadata/source-snapshots/licensed/df1debddc8aa052eec2191805c511f6bb63ce4ac48970aee5a9d766fdeda0e8f.source",
+      "publisher_id": "AN 4.252",
+      "canonical_id": "AN 4.255",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.255.txt",
+      "canonical_text_sha256": "5251de29d6fb5cbbff5e51a1a6d5ae67f5075783ff40ae5cee90c0963f3707ff",
+      "source_anchors": [
+        {
+          "start": 389,
+          "end": 466,
+          "sha256": "8ad809714720de01619c55438ae7c92581b5755656c9eba785ad5e301402227e"
+        },
+        {
+          "start": 1394,
+          "end": 1445,
+          "sha256": "7f2364f22f78b7a5c73aaeeb6f27e6263d6bd184af0cc485c706c5087a5e4f54"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 227,
+          "end": 285,
+          "sha256": "beaa29473f353e8f618c59fc19964dc6c37b2e4d606bb837181301c05f88fd77"
+        },
+        {
+          "start": 1138,
+          "end": 1196,
+          "sha256": "eaf4cb30c628962578d18352067892b7e50950ddb705c57e595ade5d658d7257"
+        }
+      ],
+      "review_basis": "Both contrast four ignoble searches for what ages, gets sick, dies and is defiled with noble searches for the unaging/unailing/undying/undefiled release. Canonical AN 4.252 instead lists false denials of having seen, heard, thought or known something."
+    },
+    {
+      "review_id": "an-ati-4-255-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an04/an04.255.than.html",
+      "source_sha256": "04667c227256d8eee1928b868d875b7a7b171400d31e47ac6e6bd6aa6d086639",
+      "source_snapshot": "metadata/source-snapshots/licensed/04667c227256d8eee1928b868d875b7a7b171400d31e47ac6e6bd6aa6d086639.source",
+      "publisher_id": "AN 4.255",
+      "canonical_id": "AN 4.258",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.258.txt",
+      "canonical_text_sha256": "5389e44bafc8e0ced9428968bc7cdf07b5743f8b1d7d527ccb74e5cfb30b38a7",
+      "source_anchors": [
+        {
+          "start": 430,
+          "end": 470,
+          "sha256": "146040c7ddc60f2524c6133cc2d7eb394e9fba19c7ce71ae78e043f4b0733227"
+        },
+        {
+          "start": 939,
+          "end": 978,
+          "sha256": "47823559f87ac7f8ce9a252b77effcf91a3358cc931d977e12d67f6098d096cc"
+        },
+        {
+          "start": 1027,
+          "end": 1102,
+          "sha256": "e8279b844f4e6a91106f692d0438813a91d7c4c1c471bb5feb7f592bb8fcb770"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 282,
+          "end": 313,
+          "sha256": "d9d17e8201104c634ba2d42c7dcdc08444dc6864ef141dfcf61e84bf230bbb11"
+        },
+        {
+          "start": 646,
+          "end": 702,
+          "sha256": "c773446f31ea4641891b163f7ccfac4658190d152657c241564c314fbea49155"
+        },
+        {
+          "start": 708,
+          "end": 750,
+          "sha256": "3d16bc0e97d64ec8026b4f99bd1c8401bd3552d8436db408586490ae8c940df6"
+        }
+      ],
+      "review_basis": "Both explain loss and retention of family wealth by four practical factors: recovering lost things, repairing old things, moderate eating/drinking and an ethical person in charge. Canonical AN 4.255 instead concerns noble and ignoble spiritual searches."
+    },
+    {
+      "review_id": "an-ati-5-34-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.034.than.html",
+      "source_sha256": "f395ff237039af20c4990fe63b1149249c087e8ff44aff6cc17a3ceaf01df8e4",
+      "source_snapshot": "metadata/source-snapshots/licensed/f395ff237039af20c4990fe63b1149249c087e8ff44aff6cc17a3ceaf01df8e4.source",
+      "publisher_id": "AN 5.34",
+      "canonical_id": "AN 5.34",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an5/an5.34.txt",
+      "canonical_text_sha256": "7b83c2297ecbb4679848dc0cb488ebd1eeb1c98632c769831899ff3e4baca472",
+      "source_anchors": [
+        {
+          "start": 645,
+          "end": 692,
+          "sha256": "adb24961081466f57a790742e404e22988f19b07216fd1c31218d1b2ad0d1c28"
+        },
+        {
+          "start": 1541,
+          "end": 1574,
+          "sha256": "015059fc4891df2db1083ad2045ab6dff0233daaad4182645e9ff8c5396557fe"
+        },
+        {
+          "start": 2489,
+          "end": 2549,
+          "sha256": "4d239950ebaab7cabbc27a82570376a31156b618006ce76af13edcbf5849fb32"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 392,
+          "end": 445,
+          "sha256": "6fd282d5f9b4f508e02612e5aa3e24e43ea524e094d304b489b0fdac25d9a10b"
+        },
+        {
+          "start": 853,
+          "end": 910,
+          "sha256": "941c340ebb32e9ba34b5341d4ed210bebb7653b1dbcf230779a6f0608197933b"
+        },
+        {
+          "start": 1356,
+          "end": 1391,
+          "sha256": "82a68d6388f8ff84c564084c0067ce9ce49aa323448efb73df6fba4855c3e4c6"
+        }
+      ],
+      "review_basis": "Both have General Siha ask about the visible fruits of giving, list four present benefits plus heavenly rebirth, and have Siha distinguish personal knowledge of the first four from faith about rebirth, followed by verses. AN 5.99 is a lion carefully hunting animals, used as a simile for the Buddha teaching respectfully."
+    },
+    {
+      "review_id": "an-ati-5-98-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.098.than.html",
+      "source_sha256": "0955795f6b4020ceba5c917430c0cf56fb9bf8cad12ee158a7437b4611a23e75",
+      "source_snapshot": "metadata/source-snapshots/licensed/0955795f6b4020ceba5c917430c0cf56fb9bf8cad12ee158a7437b4611a23e75.source",
+      "publisher_id": "AN 5.98",
+      "canonical_id": "AN 5.98",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an5/an5.98.txt",
+      "canonical_text_sha256": "93c7093ce9a8a5188597a9fde1d0707321049be448cc573e7c9e0a879d675e69",
+      "source_anchors": [
+        {
+          "start": 328,
+          "end": 368,
+          "sha256": "fc6afe566c004c81fe57464454181b57a95ffc669e3f90339543e0ac1ad3bd52"
+        },
+        {
+          "start": 493,
+          "end": 538,
+          "sha256": "253ab23c2504f524469d775b11b7b90e57d6531db3339b815f3049987a924b0b"
+        },
+        {
+          "start": 798,
+          "end": 839,
+          "sha256": "33de0009a04ae5091ee219d6464907a9eeae63d1099940e3aedd50d4c8639e87"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 197,
+          "end": 244,
+          "sha256": "d08e9295dc1af02753637dd769c29ce5a851fe484da241277a2e4751cec5be02"
+        },
+        {
+          "start": 338,
+          "end": 385,
+          "sha256": "3b39d2281c8829345ab677824ff964f9e84d2f869cb4dca8f21ea3ebaa506f6d"
+        },
+        {
+          "start": 587,
+          "end": 633,
+          "sha256": "c35ec0ac0fda41e809727183d250a321c8ae6a94770cb6a7d79be9c274bdfd58"
+        }
+      ],
+      "review_basis": "Both give five supports for mindfulness of breathing to penetrate the unshakable/unprovoked: few duties, little food, wakefulness, secluded forest dwelling and reviewing the freed mind. AN 5.110 instead lists ethics, learning, energy, four jhanas and liberation as qualifications for forest residence."
+    },
+    {
+      "review_id": "an-ati-7-56-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.056.than.html",
+      "source_sha256": "94d2e400e6bc63c1b75d4432097a3420782fd9e35e08e185aa3a444dace2df51",
+      "source_snapshot": "metadata/source-snapshots/licensed/94d2e400e6bc63c1b75d4432097a3420782fd9e35e08e185aa3a444dace2df51.source",
+      "publisher_id": "AN 7.56",
+      "canonical_id": "AN 7.59",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.59.txt",
+      "canonical_text_sha256": "a64999f0e2506b776752d4d31f453c791a7d45ff5f7964883fba94c2b8c47bee",
+      "source_anchors": [
+        {
+          "start": 677,
+          "end": 718,
+          "sha256": "08fb86255411d084def7dd3809e450535f7026b5e16d96d87da985e4f86d514c"
+        },
+        {
+          "start": 1007,
+          "end": 1035,
+          "sha256": "8e194c76e65d8687c72c4bf27e22c1ddf1ac3abd684ea28a0171bd0d55e07a18"
+        },
+        {
+          "start": 1664,
+          "end": 1714,
+          "sha256": "36f559f266729aa5b2589f47764edb624a877c499fdc4ddd4472fa32c4d5d240"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 420,
+          "end": 456,
+          "sha256": "95b2ea3dd421b5cf09adf9f48feaab4a258f76baa2fdc0f6fd62663436248fe4"
+        },
+        {
+          "start": 647,
+          "end": 684,
+          "sha256": "5282d72f874de874f98190166e0eb4fbb8860c324264d1916fa5a58da81d0cc5"
+        },
+        {
+          "start": 1046,
+          "end": 1092,
+          "sha256": "157a877ad5acc384a0c778d187055d3008aae1b91fab775ab0783ff56ec624d1"
+        }
+      ],
+      "review_basis": "Both have Kimila/Kimbila ask why the true Dhamma lasts or declines after the Buddha’s final passing, and enumerate respect for teacher, Dhamma, Sangha, training, concentration, diligence and hospitality. AN 7.56 is Moggallana consulting the deity Tissa about the liberation of nuns and gods knowing residual defilements."
+    },
+    {
+      "review_id": "an-ati-7-60-nymo",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.060.nymo.html",
+      "source_sha256": "09285ff0baf89d2e65154654b27c510b8e612c81a10bcdd9d6bae5a7947d3d58",
+      "source_snapshot": "metadata/source-snapshots/licensed/09285ff0baf89d2e65154654b27c510b8e612c81a10bcdd9d6bae5a7947d3d58.source",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.64.txt",
+      "canonical_text_sha256": "3a42a1a42bb9222ca7df17f24951c96ccea362b9116b6004d6d5b5044b81eb3c",
+      "source_anchors": [
+        {
+          "start": 506,
+          "end": 558,
+          "sha256": "318e202a75522e9b02f910c16d3e5e96c06bde2cff95b941ba2b176fa390a907"
+        },
+        {
+          "start": 944,
+          "end": 1000,
+          "sha256": "a2da5446ca2a76398dfc2fb51398d4ec1cb70de1578dad2e7488be82fe7b9b50"
+        },
+        {
+          "start": 5787,
+          "end": 5857,
+          "sha256": "623bcca9e6f5129f5199b626fe438c0ed6d947399fbc8edc5a183afcc191fd99"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 298,
+          "end": 355,
+          "sha256": "4d03cba38f8531dbf268e5b17492c090381a1a7fdad83cb85e81625ad099c293"
+        },
+        {
+          "start": 747,
+          "end": 773,
+          "sha256": "4923befc01a49bbc3f89076d53e20176eca13b053ae06d741ed712f426d53659"
+        },
+        {
+          "start": 5094,
+          "end": 5133,
+          "sha256": "19e2e60ea0f903624cfe8c0edb9ac47354d26ef639ffaafc50015dc685f37704"
+        }
+      ],
+      "review_basis": "All three source editions enumerate seven misfortunes anger brings that please an enemy, including ugliness, bad sleep, loss, wealth/reputation/friends and bad rebirth, followed by extensive verses on anger. Canonical AN 7.60 instead briefly lists faith, ethics, learning, seclusion, energy, mindfulness and wisdom as seven qualities for liberation."
+    },
+    {
+      "review_id": "an-ati-7-60-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.060.than.html",
+      "source_sha256": "f9ac4980f0135a84d4643960c921bd376ff941e47d5b3ebcdfd9f55df27d44f7",
+      "source_snapshot": "metadata/source-snapshots/licensed/f9ac4980f0135a84d4643960c921bd376ff941e47d5b3ebcdfd9f55df27d44f7.source",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.64.txt",
+      "canonical_text_sha256": "3a42a1a42bb9222ca7df17f24951c96ccea362b9116b6004d6d5b5044b81eb3c",
+      "source_anchors": [
+        {
+          "start": 492,
+          "end": 548,
+          "sha256": "83d7393fe300e0c1ee571c942daf863815eaed2026482d79d155f4ffd59888b7"
+        },
+        {
+          "start": 1018,
+          "end": 1078,
+          "sha256": "e0df65373071c1c59eeb33376ae0c7f2dd7359aa1ba2e5d5b164b838de13431c"
+        },
+        {
+          "start": 6271,
+          "end": 6346,
+          "sha256": "322f29f35b9b18b8377442e7f6c246233532cdbfe0fe1ea2b8e35dc7972cb97d"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 298,
+          "end": 355,
+          "sha256": "4d03cba38f8531dbf268e5b17492c090381a1a7fdad83cb85e81625ad099c293"
+        },
+        {
+          "start": 747,
+          "end": 773,
+          "sha256": "4923befc01a49bbc3f89076d53e20176eca13b053ae06d741ed712f426d53659"
+        },
+        {
+          "start": 5094,
+          "end": 5133,
+          "sha256": "19e2e60ea0f903624cfe8c0edb9ac47354d26ef639ffaafc50015dc685f37704"
+        }
+      ],
+      "review_basis": "All three source editions enumerate seven misfortunes anger brings that please an enemy, including ugliness, bad sleep, loss, wealth/reputation/friends and bad rebirth, followed by extensive verses on anger. Canonical AN 7.60 instead briefly lists faith, ethics, learning, seclusion, energy, mindfulness and wisdom as seven qualities for liberation."
+    },
+    {
+      "review_id": "an-ati-7-64-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.064.than.html",
+      "source_sha256": "0527cddf42df3e4059e724712a1d39bba579566eeb88665d90b5794d16bfc8b1",
+      "source_snapshot": "metadata/source-snapshots/licensed/0527cddf42df3e4059e724712a1d39bba579566eeb88665d90b5794d16bfc8b1.source",
+      "publisher_id": "AN 7.64",
+      "canonical_id": "AN 7.68",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.68.txt",
+      "canonical_text_sha256": "0a562174b850f2bcf9556c60e1826732323c1154920c084ba9696ec44fb1752d",
+      "source_anchors": [
+        {
+          "start": 562,
+          "end": 734,
+          "sha256": "a4950a69f974757168be3ee52e45671f298cd9e009a293da3fb0bbea99db38ba"
+        },
+        {
+          "start": 7856,
+          "end": 7895,
+          "sha256": "a75e54c1109f3f14aed8a001c9f61dce443aa565af2bb62e6e96a8d1e7864da6"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 466,
+          "end": 618,
+          "sha256": "721af9962a98196f610cb94b62d64229c70fa3fa668aab4f12c081bc758a40e9"
+        },
+        {
+          "start": 6080,
+          "end": 6114,
+          "sha256": "7528a29d60c88c77e7b1212c60ba79009fd947f7c75034d06751c5aa25691de0"
+        }
+      ],
+      "review_basis": "Both enumerate seven kinds of knowledge: Dhamma, meaning, self, moderation, time, assemblies and distinctions among people; they unpack literary forms and conclude with paired types of practitioners benefiting self/others. Canonical AN 7.64 instead concerns anger and seven enemy-pleasing misfortunes."
+    },
+    {
+      "review_id": "an-ati-7-79-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an07/an07.079.than.html",
+      "source_sha256": "fd8b9f6284b1aab67fa62dc0fe98a48943be1f851f357b7c6f729f9001086b97",
+      "source_snapshot": "metadata/source-snapshots/licensed/fd8b9f6284b1aab67fa62dc0fe98a48943be1f851f357b7c6f729f9001086b97.source",
+      "publisher_id": "AN 7.79",
+      "canonical_id": "AN 7.83",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.83.txt",
+      "canonical_text_sha256": "4c9efcc034a273745a2ff272ff6d2aa5db315696bfb126b71c4823d75819b0fa",
+      "source_anchors": [
+        {
+          "start": 534,
+          "end": 562,
+          "sha256": "abbaa7e3111ff9e516edbfb1256b20cc01dcf94e01c8afb9c99740eb9ddc50f3"
+        },
+        {
+          "start": 755,
+          "end": 807,
+          "sha256": "7f2fb47ab09bc2c7792b445eb0f49193ab32e9049ed29c3866e6df88fcd4cd32"
+        },
+        {
+          "start": 1208,
+          "end": 1281,
+          "sha256": "447a4a3662ede5d7001bc54a6ac69b0d7a5b26af3c7080829e62ff0441895380"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 323,
+          "end": 347,
+          "sha256": "1400738eac9bc606bf1c08fdbc125a374b9f998f9a04425e62333f81edb69178"
+        },
+        {
+          "start": 489,
+          "end": 530,
+          "sha256": "80dfc0ae89e3b873d6952865d32a4b200f1aea97f3d53ca1f7b76bc56619d121"
+        },
+        {
+          "start": 890,
+          "end": 951,
+          "sha256": "61c5cd502e2dabccbf337344d0c260637a1472068b57f289695f579ab9628ca1"
+        }
+      ],
+      "review_basis": "Both have Upali request a brief teaching for solitary practice, then distinguish qualities leading to disenchantment, dispassion, cessation, peace, insight, awakening and liberation as the Teacher’s instruction. Canonical AN 7.79 and AN 7.80 instead list qualifications for shining as an expert in monastic law."
+    },
+    {
+      "review_id": "an-ati-8-30-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.030.than.html",
+      "source_sha256": "cd925b8153f25aa7fb2c8fd7ccf17ec205124264d9a24e033b2b63f60bdf7a81",
+      "source_snapshot": "metadata/source-snapshots/licensed/cd925b8153f25aa7fb2c8fd7ccf17ec205124264d9a24e033b2b63f60bdf7a81.source",
+      "publisher_id": "AN 8.30",
+      "canonical_id": "AN 8.30",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.30.txt",
+      "canonical_text_sha256": "f7936bfc3bf7e75d3f82f1730c165846a0e1feafe1203173f7b4534cc40ca333",
+      "source_anchors": [
+        {
+          "start": 601,
+          "end": 675,
+          "sha256": "3724db18296335938c997587536b3a700017dfea2b2671867b94614bfa38dd43"
+        },
+        {
+          "start": 2385,
+          "end": 2427,
+          "sha256": "b509875910944695c8aea441b680512b622f930fb9706f5cccadeba616a3f35b"
+        },
+        {
+          "start": 13206,
+          "end": 13245,
+          "sha256": "cc514242931b7c43d88d492ab116bbb95dbcfc74ed2fef1b34ac38a1877547af"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 522,
+          "end": 588,
+          "sha256": "ef42f4249e418682d8021a11bffd794bded5045d04b3e55f2461dea6cb061538"
+        },
+        {
+          "start": 1773,
+          "end": 1816,
+          "sha256": "3954670a1dc22b7d8f24925d01ed37e5ca8e16d4439ec1af6980e7c48071e3a9"
+        },
+        {
+          "start": 10512,
+          "end": 10546,
+          "sha256": "3638cafc09555bb5b65d6f2f87551c7932b1970e5e6746bcbbbd70c5420c51d0"
+        }
+      ],
+      "review_basis": "Both narrate Anuruddha reflecting on seven thoughts of a great person, the Buddha appearing and supplying the eighth thought about non-proliferation/non-objectification, four jhanas, simple requisites and Anuruddha’s awakening verse. AN 8.46 instead has colorful Agreeable deities visit Anuruddha and discusses eight household qualities for women’s rebirth."
+    },
+    {
+      "review_id": "an-ati-8-41-vaka",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.041.vaka.html",
+      "source_sha256": "60fb1ce2f303dfeed50a3a271b75656732c63726bb6a2482fa94cca9fdda4a61",
+      "source_snapshot": "metadata/source-snapshots/licensed/60fb1ce2f303dfeed50a3a271b75656732c63726bb6a2482fa94cca9fdda4a61.source",
+      "publisher_id": "AN 8.41",
+      "canonical_id": "AN 8.41",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.41.txt",
+      "canonical_text_sha256": "cd5e3d9a62feef84d2347ab40b6a204494ef7761725fea7c99de182d9efabfa4",
+      "source_anchors": [
+        {
+          "start": 1098,
+          "end": 1169,
+          "sha256": "3c11133792b9df2a022712cd46a1ab67762c7f0d60c1ccceae6a9feb11f93c13"
+        },
+        {
+          "start": 1453,
+          "end": 1482,
+          "sha256": "e29260454f637a1e54902b45ad1ea8cf9afe89f4812fc83bf1a8c81b141de037"
+        },
+        {
+          "start": 5598,
+          "end": 5634,
+          "sha256": "57abb777be0835fa1ebc35d8e20cf044e05454a0e10583a2f37b54ec862f670b"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 640,
+          "end": 713,
+          "sha256": "f80b68dc5ce916f888b5349212509efa178f40d358d335a1bcfa8eac9a43431c"
+        },
+        {
+          "start": 828,
+          "end": 896,
+          "sha256": "66722dfc32a77cbd4bcccab9f3e8fed82687718081495f2bf60575be4d9c98e3"
+        },
+        {
+          "start": 3466,
+          "end": 3497,
+          "sha256": "763db4521da950d0357c2284c356e73dc92156508c6fab462a6175d112abf369"
+        }
+      ],
+      "review_basis": "Both are at Jeta’s grove and enumerate the eight day-and-night lay Uposatha observances by emulating arahants, from non-killing to low beds. AN 8.20 instead opens with Ananda repeatedly requesting the Patimokkha, Moggallana expelling an impure monk, and eight ocean similes. Shared Uposatha terminology does not establish identity."
+    },
+    {
+      "review_id": "an-ati-8-53-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an08/an08.053.than.html",
+      "source_sha256": "5a87747f5a805447b727bfd8444118fd7e323c4c2f4883ef108b95ef5735569a",
+      "source_snapshot": "metadata/source-snapshots/licensed/5a87747f5a805447b727bfd8444118fd7e323c4c2f4883ef108b95ef5735569a.source",
+      "publisher_id": "AN 8.53",
+      "canonical_id": "AN 8.53",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.53.txt",
+      "canonical_text_sha256": "16d63be5ab9974ebcba4be206e1bea56a7cbcb802c0d951e73ecdb5d2bf54380",
+      "source_anchors": [
+        {
+          "start": 614,
+          "end": 642,
+          "sha256": "abbaa7e3111ff9e516edbfb1256b20cc01dcf94e01c8afb9c99740eb9ddc50f3"
+        },
+        {
+          "start": 904,
+          "end": 936,
+          "sha256": "2680b55330c88a47c037b33cb61f5d6ad8e23ce54d70a326b2b9c04be9000e74"
+        },
+        {
+          "start": 1582,
+          "end": 1628,
+          "sha256": "9ab13ec103286e5c226187403818620bdea1efc455cef64f368e72041ea137d2"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 407,
+          "end": 431,
+          "sha256": "1400738eac9bc606bf1c08fdbc125a374b9f998f9a04425e62333f81edb69178"
+        },
+        {
+          "start": 617,
+          "end": 647,
+          "sha256": "51dc82da6489f4a348f0293da6c52a4f8ca4ee5536dc0795dc1a9e2221fb4038"
+        },
+        {
+          "start": 1189,
+          "end": 1232,
+          "sha256": "269ea24db277d1801c5d89b6de3b9a43190eb2e28900270693aab4b6db500b83"
+        }
+      ],
+      "review_basis": "Both have Mahapajapati Gotami ask at Vesali for a brief teaching for solitary practice; the Buddha gives eight paired criteria including passion/dispassion, accumulation/shedding, contentment, seclusion, effort and being unburdensome. AN 8.51 instead narrates requests for women’s ordination, Ananda’s intervention and eight principles of respect."
+    },
+    {
+      "review_id": "an-ati-9-34-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an09/an09.034.than.html",
+      "source_sha256": "bb9db2a36a0d864852cc39c48f954c2dab7be8bb0e78a771d7473d93e3e098e8",
+      "source_snapshot": "metadata/source-snapshots/licensed/bb9db2a36a0d864852cc39c48f954c2dab7be8bb0e78a771d7473d93e3e098e8.source",
+      "publisher_id": "AN 9.34",
+      "canonical_id": "AN 9.34",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an9/an9.34.txt",
+      "canonical_text_sha256": "d62c1ba874f9d89f488bfe4211727be0e6c1fe9eb920a8f678e65d7256de419b",
+      "source_anchors": [
+        {
+          "start": 579,
+          "end": 648,
+          "sha256": "c68825271fc9bf80d73dd7410a48eae2e43d751242c15a32a641f6826b69a9f0"
+        },
+        {
+          "start": 652,
+          "end": 722,
+          "sha256": "32328e900f8efbc5f7e98b250ac4c73cf894c8465270d873aa2e0ce1f6080151"
+        },
+        {
+          "start": 4870,
+          "end": 4903,
+          "sha256": "6f80f759d93d0f9d85d79c7bf34500d95744a1d00f8133de6fcc93ef33e1ceef"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 481,
+          "end": 528,
+          "sha256": "6145c6b28e555b0ce029aa4fe84e8f232d0a02f355b836f497bff507c10686fd"
+        },
+        {
+          "start": 532,
+          "end": 599,
+          "sha256": "207b8c020a56715c619ecc985f05d911f6f9e44f173380d7e74c5385adf7c0bf"
+        },
+        {
+          "start": 6458,
+          "end": 6493,
+          "sha256": "9eff554201e9abf01c5e6a72422a1ab902475a75b7a2fbb510152614a6737b80"
+        }
+      ],
+      "review_basis": "Both have Sariputta tell Udayin that Nibbana is bliss precisely because nothing is felt, then examine intruding perceptions as afflictions through the nine attainments ending in cessation of perception and feeling. AN 9.48 is an abbreviated definition question, “they speak of extinguishment”, in the qualified/definitive series around AN 9.46–47; it does not contain this bliss dialogue. The complete positive identification with AN 9.34 establishes the destination despite the abbreviated wrong candidate."
+    },
+    {
+      "review_id": "an-ati-10-24-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an10/an10.024.than.html",
+      "source_sha256": "10295f68d2f1329142a72300eca81f3882e6273e0646044ba4e4ae9b3032e70d",
+      "source_snapshot": "metadata/source-snapshots/licensed/10295f68d2f1329142a72300eca81f3882e6273e0646044ba4e4ae9b3032e70d.source",
+      "publisher_id": "AN 10.24",
+      "canonical_id": "AN 10.24",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an10/an10.24.txt",
+      "canonical_text_sha256": "803279187197c825360a216ff9eac5b8f9d3c68acd692f718e77851bd02029e8",
+      "source_anchors": [
+        {
+          "start": 318,
+          "end": 353,
+          "sha256": "5d47e561dbfe4d9280a7e782747f6bd02c497f380e322f8e8fcafec218007c95"
+        },
+        {
+          "start": 518,
+          "end": 555,
+          "sha256": "15e52ba6a2ec4ae4af08b5fae2f7ecb4b3c2cec422c011c1d9c7a6a60997d879"
+        },
+        {
+          "start": 2849,
+          "end": 2895,
+          "sha256": "b68f073179ac5fc6f0a03dca06e9716d71acfa08642d245b59795695baefec08"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 217,
+          "end": 261,
+          "sha256": "1c07cccf78a744dd087eabbc9da49b6f864ea08387c3f1bb7bb56b0c3fba1542"
+        },
+        {
+          "start": 448,
+          "end": 489,
+          "sha256": "9db75613bd52bea0383235d491b0a5ae8a5a07a5ae2ba81ff76319af54a9ac8f"
+        },
+        {
+          "start": 2492,
+          "end": 2527,
+          "sha256": "dda0d965c40e90481773c6ba99be986b5729bb10c74a627991cd7a99e228261f"
+        }
+      ],
+      "review_basis": "Both have Mahacunda speaking to monks in the Ceti country at Sahajati, distinguish declarations of knowledge/development from actually overcoming the ten defilements, and compare empty claims to a poor person unable to produce wealth. AN 10.176 instead has the Buddha addressing Cunda the smith at Pava about brahmin purification rituals and ten courses of conduct."
+    },
+    {
+      "review_id": "an-ati-11-16-piya",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an11/an11.016.piya.html",
+      "source_sha256": "406d400764d6bce3fe06c7de165193c1cabc477c1b7ac5f4c51c514258443dc1",
+      "source_snapshot": "metadata/source-snapshots/licensed/406d400764d6bce3fe06c7de165193c1cabc477c1b7ac5f4c51c514258443dc1.source",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an11/an11.15.txt",
+      "canonical_text_sha256": "02772bed991489608891eb6763a2a88b4c9eb00f48a4903222c473ea91961a60",
+      "source_anchors": [
+        {
+          "start": 767,
+          "end": 843,
+          "sha256": "4a0f1073608ed4bbe2f510b6229729c751523a7fab5ee8147bd5a24cab6fc31c"
+        },
+        {
+          "start": 1395,
+          "end": 1435,
+          "sha256": "cd36bbd23504fef9b3d192f945976869d1e49a3791d28d1793d6ccddb3066658"
+        },
+        {
+          "start": 1440,
+          "end": 1472,
+          "sha256": "bf85c269947349bd8e14e9572556e7793d7d0f486e4a77aa7e80783684bdf5dd"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 220,
+          "end": 268,
+          "sha256": "ea08a7c7ee2811040af468b9f928cd41008f5891e277ccc9f76f094740a51a6e"
+        },
+        {
+          "start": 529,
+          "end": 574,
+          "sha256": "b73804049e903925f98237fc9b885f6da1b7398eb4f0309c8cbe5f388b774200"
+        },
+        {
+          "start": 576,
+          "end": 610,
+          "sha256": "2ce4caed6874a87c1b1fd5f7514d6cb089af98a3cb7615f83aab21b3ea32ac9a"
+        }
+      ],
+      "review_basis": "All three source editions enumerate the same eleven benefits of developed loving-kindness: sleep/waking/dreams, affection of humans and nonhumans, divine protection, protection from fire/poison/weapons, quick concentration, bright face, unconfused death and rebirth in a Brahma realm. Canonical AN 11.16 instead has Ananda teaching Dasama eleven doors to liberation. The publisher AN 11.16 number is retained as an edition identifier."
+    },
+    {
+      "review_id": "an-ati-11-16-than",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an11/an11.016.than.html",
+      "source_sha256": "8223d6ce8955af103ef8245c83572b4a0475f7258b1764a2645fdd32600d92a7",
+      "source_snapshot": "metadata/source-snapshots/licensed/8223d6ce8955af103ef8245c83572b4a0475f7258b1764a2645fdd32600d92a7.source",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an11/an11.15.txt",
+      "canonical_text_sha256": "02772bed991489608891eb6763a2a88b4c9eb00f48a4903222c473ea91961a60",
+      "source_anchors": [
+        {
+          "start": 637,
+          "end": 668,
+          "sha256": "423d30c040f9261b5fb1ca5e2f3045f3fefd6b2d1d1dd025561feb9b743d9bbe"
+        },
+        {
+          "start": 819,
+          "end": 866,
+          "sha256": "ccb645ecaf33386dd67ae137ccf48d334d8dec7c5ab53b2e93f0df87d9a5584a"
+        },
+        {
+          "start": 868,
+          "end": 906,
+          "sha256": "382d724c9171a5e5e447d62a8277e37358086190eaa63c9d8d8efca23e95a494"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 220,
+          "end": 268,
+          "sha256": "ea08a7c7ee2811040af468b9f928cd41008f5891e277ccc9f76f094740a51a6e"
+        },
+        {
+          "start": 529,
+          "end": 574,
+          "sha256": "b73804049e903925f98237fc9b885f6da1b7398eb4f0309c8cbe5f388b774200"
+        },
+        {
+          "start": 576,
+          "end": 610,
+          "sha256": "2ce4caed6874a87c1b1fd5f7514d6cb089af98a3cb7615f83aab21b3ea32ac9a"
+        }
+      ],
+      "review_basis": "All three source editions enumerate the same eleven benefits of developed loving-kindness: sleep/waking/dreams, affection of humans and nonhumans, divine protection, protection from fire/poison/weapons, quick concentration, bright face, unconfused death and rebirth in a Brahma realm. Canonical AN 11.16 instead has Ananda teaching Dasama eleven doors to liberation. The publisher AN 11.16 number is retained as an edition identifier."
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.nymo.html",
+      "source_sha256": "d37c4578011549bea47d81a94137613b8bdc6741616a4aa2e1ba73dab03cb862",
+      "source_snapshot": "metadata/source-snapshots/licensed/d37c4578011549bea47d81a94137613b8bdc6741616a4aa2e1ba73dab03cb862.source",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.28.txt",
+      "canonical_text_sha256": "3f2b3744304f7a0824e437e45cf1f885fa66b96601d838b379baff2a3b238795",
+      "source_anchors": [
+        {
+          "start": 442,
+          "end": 494,
+          "sha256": "2d119aa850a174bc9e675760520f6a1431200e34741e0b638bd0d8a1c04a1fdb"
+        },
+        {
+          "start": 883,
+          "end": 945,
+          "sha256": "9c16b5c7cf59b791e856448fee8a7884548cd0f1268a6516c953a50c3a67b709"
+        },
+        {
+          "start": 3037,
+          "end": 3122,
+          "sha256": "456c98ad199e0cf2d18f5b6a3428ca3d87e41d97413f1f59f4e519bd5fcfd13f"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 195,
+          "end": 248,
+          "sha256": "b66cb3cc5eb14e5a07298526f20bad544707a73354a55d172ec3676c20340a14"
+        },
+        {
+          "start": 585,
+          "end": 619,
+          "sha256": "c9868f25f838818a7eb19b98e859da1f2c38080c68fd90e9f0d682647fdc3f09"
+        },
+        {
+          "start": 1908,
+          "end": 1984,
+          "sha256": "84cb988c166fb8c50e180a14ccd506b0e0ac6d3a4ad1be54deef84e760e64d73"
+        }
+      ],
+      "review_basis": "All three saved publisher bodies are the Fire Sermon: Gaya Head, one thousand monks, six sense processes burning with passion/aversion/delusion, and liberation of the thousand monks at the conclusion. SN 35.235 instead opens with mutilating the eye with a red-hot nail and discusses guarding sense experience.",
+      "review_id": "sn-source-35-28-ati-nanamoli-thera-d37c45780115",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.028.than.html",
+      "source_sha256": "9215e33fff6e04f8d47d81d3fbf60cfc46cc7e665263bc8aed70ac83fd634a90",
+      "source_snapshot": "metadata/source-snapshots/licensed/9215e33fff6e04f8d47d81d3fbf60cfc46cc7e665263bc8aed70ac83fd634a90.source",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.28.txt",
+      "canonical_text_sha256": "3f2b3744304f7a0824e437e45cf1f885fa66b96601d838b379baff2a3b238795",
+      "source_anchors": [
+        {
+          "start": 854,
+          "end": 913,
+          "sha256": "344741cbbcbc6a19595d9ecc3fc8b6a389146fc434c8b13b5f44629c76eb9054"
+        },
+        {
+          "start": 2936,
+          "end": 3053,
+          "sha256": "75c91eff24a86565ffb421f810717261da30415b99abd9b08b9718e1c6989663"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 195,
+          "end": 248,
+          "sha256": "b66cb3cc5eb14e5a07298526f20bad544707a73354a55d172ec3676c20340a14"
+        },
+        {
+          "start": 585,
+          "end": 619,
+          "sha256": "c9868f25f838818a7eb19b98e859da1f2c38080c68fd90e9f0d682647fdc3f09"
+        },
+        {
+          "start": 1908,
+          "end": 1984,
+          "sha256": "84cb988c166fb8c50e180a14ccd506b0e0ac6d3a4ad1be54deef84e760e64d73"
+        }
+      ],
+      "review_basis": "All three saved publisher bodies are the Fire Sermon: Gaya Head, one thousand monks, six sense processes burning with passion/aversion/delusion, and liberation of the thousand monks at the conclusion. SN 35.235 instead opens with mutilating the eye with a red-hot nail and discusses guarding sense experience.",
+      "review_id": "sn-source-35-28-ati-thanissaro-bhikkhu-9215e33fff6e",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.207.than.html",
+      "source_sha256": "4e5a23ef7e613c7829f678b302f8327825d93b4e054bd3a9f4869e2afd1355c6",
+      "source_snapshot": "metadata/source-snapshots/licensed/4e5a23ef7e613c7829f678b302f8327825d93b4e054bd3a9f4869e2afd1355c6.source",
+      "publisher_id": "SN 35.207",
+      "canonical_id": "SN 35.248",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.248.txt",
+      "canonical_text_sha256": "08ff200f4fed27c3a4ab2bf17db19f726162c35cf562e1a7b3958449e29d8e8b",
+      "source_anchors": [
+        {
+          "start": 386,
+          "end": 466,
+          "sha256": "4cc90d777364724fc2787bafa1b9e8f609146c3f80b68280d6e053c370c1a14d"
+        },
+        {
+          "start": 655,
+          "end": 710,
+          "sha256": "3eed1664223043fa92cefc66e727b50e0fe54c71e7fdddf7ea205f133c64f010"
+        },
+        {
+          "start": 2241,
+          "end": 2300,
+          "sha256": "a869cc96800e616ca16b4d1b17618d894c289fcf59a096d5796bd6ba1385f624"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 225,
+          "end": 286,
+          "sha256": "d8d77cab4cbcb2abf8d86925f051aa512ca40e0482db05f81aef4406bc2a958a"
+        },
+        {
+          "start": 441,
+          "end": 491,
+          "sha256": "9091ed283fdf9bc5c6d2895ec7424447971fc6e1a1393f0ddcdac31c453103d1"
+        },
+        {
+          "start": 1674,
+          "end": 1711,
+          "sha256": "17138bb2be5179ec0124db08fc65415861362c824866651fbbc4e2c847ad574c"
+        }
+      ],
+      "review_basis": "Keep both existing cross-edition mappings. The sheaf at a four-way intersection is threshed by six men and then a seventh; the sequel recounts Sakka/Vepacitti and bonds released or restored by a change of thought, followed by the I-am conceivings. The modern canonical range containing SN 35.207 is a different abbreviated three-times group.",
+      "review_id": "sn-source-35-207-ati-thanissaro-bhikkhu-4e5a23ef7e61",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.023.than.html",
+      "source_sha256": "b356f98e743a3d099a9247f574b627d402957615a5b5972e95b2ca178942ae60",
+      "source_snapshot": "metadata/source-snapshots/licensed/b356f98e743a3d099a9247f574b627d402957615a5b5972e95b2ca178942ae60.source",
+      "publisher_id": "SN 36.23",
+      "canonical_id": "SN 36.23",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn36/sn36.23.txt",
+      "canonical_text_sha256": "28dd630e591ad00c0907f6b88497c65e218da688516bc7515e62da9244c00aac",
+      "source_anchors": [
+        {
+          "start": 551,
+          "end": 617,
+          "sha256": "9b2c2531546bac468eddcd264a4a9d6316a2108519f528a0c686a3e1b7540402"
+        },
+        {
+          "start": 984,
+          "end": 1034,
+          "sha256": "18ae79bc45762f0293d2a48028ef67262a82e01abe1e3d4cb1e7b85d609d99aa"
+        },
+        {
+          "start": 1107,
+          "end": 1187,
+          "sha256": "e05e52484a81f9a0b163c64c9faf5dee8c086de9d5d5d1d3a23d3309e7c11fc6"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 349,
+          "end": 404,
+          "sha256": "b83abc9f86bdc3c4634abc20a0cf5ced9ae7c17b03190b095354f37a66e9e247"
+        },
+        {
+          "start": 695,
+          "end": 754,
+          "sha256": "b349fa1e63e67bdabde537c5727c90722aeea4324f46811e6091750989c5e186"
+        },
+        {
+          "start": 797,
+          "end": 881,
+          "sha256": "fe132f0ade574f6b590396b4f1b133025897c9b05a55131ab7a76e7d9814eefe"
+        }
+      ],
+      "review_basis": "The monk asks about feeling, its origin, the practice producing it, cessation, the path to cessation, gratification, drawback and escape. The response connects contact with origin, craving with production, and the eightfold path with cessation. SN 36.20 instead starts with two/three/five/six/eighteen/thirty-six/108 classifications and disputes over explanations.",
+      "review_id": "sn-source-36-23-ati-thanissaro-bhikkhu-b356f98e743a",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.054.than.html",
+      "source_sha256": "6106eb1c6ba926710205b0040873706592cb12217966464af842af482f2415d0",
+      "source_snapshot": "metadata/source-snapshots/licensed/6106eb1c6ba926710205b0040873706592cb12217966464af842af482f2415d0.source",
+      "publisher_id": "SN 46.54",
+      "canonical_id": "SN 46.54",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn46/sn46.54.txt",
+      "canonical_text_sha256": "f354ca0b7db71f0875c1d913914fa133a01bfb2f0066c6a0f87e9b3ffced87ef",
+      "source_anchors": [
+        {
+          "start": 642,
+          "end": 744,
+          "sha256": "313ad78d7caac8267bac7096bf29d4a3c6f910925bb76a9384946fb46034b822"
+        },
+        {
+          "start": 8080,
+          "end": 8176,
+          "sha256": "08ce42a0bf318766ffdf8a2eae2a8e5b682a06b9872da750c03812f9ba3e2b70"
+        },
+        {
+          "start": 11346,
+          "end": 11430,
+          "sha256": "58ffc8a629183676875ebb2207607a2f7bbcfe7ce4863922f5e40d1b06051242"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 427,
+          "end": 543,
+          "sha256": "8d773f4b8f36d243057d38e04a142d1bc00502f69f7507159a1dc14143612dca"
+        },
+        {
+          "start": 5482,
+          "end": 5558,
+          "sha256": "becc2e2d66eeb17c050a4c2eb479c534478c9a13920dcb3823c08181a1dc7e9a"
+        },
+        {
+          "start": 7711,
+          "end": 7784,
+          "sha256": "b03a7c2ec3ef23128bc79af159a627e8e5a6fae2c9f9bb0ac83f4098d692672c"
+        }
+      ],
+      "review_basis": "Both saved sources open at Haliddavasana with visiting wanderers who claim to teach the same four immeasurables, then ask how each liberation is developed and culminates. They connect the awakening factors with goodwill, compassion, empathetic joy and equanimity, whose culminations include the beautiful, infinite space, infinite consciousness and nothingness. SN 46.62 is the separate abbreviated love-is-fruitful formula.",
+      "review_id": "sn-source-46-54-ati-thanissaro-bhikkhu-6106eb1c6ba9",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.014.nypo.html",
+      "source_sha256": "fcce2bcae2faa8557edb971741aa319ab37ba4d4ab8dfe64a76b3452e732e937",
+      "source_snapshot": "metadata/source-snapshots/licensed/fcce2bcae2faa8557edb971741aa319ab37ba4d4ab8dfe64a76b3452e732e937.source",
+      "publisher_id": "SN 47.14",
+      "canonical_id": "SN 47.14",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn47/sn47.14.txt",
+      "canonical_text_sha256": "66cce9da09bde129acb45fa5148834f6a8fde74f4facd475ae6fb1515635cc4b",
+      "source_anchors": [
+        {
+          "start": 363,
+          "end": 468,
+          "sha256": "9b1ac983710476cc1466f8a9c9fa57ef7ad42691162ca70cda1bd567d4629188"
+        },
+        {
+          "start": 648,
+          "end": 758,
+          "sha256": "9dc4a35efd0a444a01f08d426b3c0b47a45df13d2934b4e21f1a2a0f67073bd2"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 231,
+          "end": 394,
+          "sha256": "0196522cb139d57701f966c075e66d37e538ce72768decc238cbab751ac25ff3"
+        },
+        {
+          "start": 595,
+          "end": 687,
+          "sha256": "2aace2b0b5eae196554eb5e7fc0d46f5e3c2490d054db926d01f62b92564ebf2"
+        }
+      ],
+      "review_basis": "The saved Nyanaponika source is the Ukkacela/Ganges discourse after both Sariputta and Moggallana have died; the Buddha surveys an empty-looking assembly. SN 47.13 instead starts at Savatthi with Cunda bringing Sariputta's bowl and robes to Ananda after Sariputta's death. Shared island/refuge teaching does not override these distinctive narrative differences.",
+      "review_id": "sn-source-47-14-ati-nyanaponika-thera-fcce2bca-fcce2bcae2fa",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn47/sn47.020.than.html",
+      "source_sha256": "fa733579c2f85bdbc1ccaa0cbe0e71b359e4c6042f9c333ed8ec1593ab255063",
+      "source_snapshot": "metadata/source-snapshots/licensed/fa733579c2f85bdbc1ccaa0cbe0e71b359e4c6042f9c333ed8ec1593ab255063.source",
+      "publisher_id": "SN 47.20",
+      "canonical_id": "SN 47.20",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn47/sn47.20.txt",
+      "canonical_text_sha256": "c3f783f3f83dda3e997b0cac1564b654648c1bc1fd0bd25d65615e8173a913c3",
+      "source_anchors": [
+        {
+          "start": 811,
+          "end": 868,
+          "sha256": "265d9d6d24fb1242b57ddcfa24f73e19efb2cdfb5ef28b9b2bf39959b4928c2c"
+        },
+        {
+          "start": 1134,
+          "end": 1188,
+          "sha256": "24aa18e504e0d5b1d5c508024705f98540eebb465b5e94edcd04fb41111f781b"
+        },
+        {
+          "start": 1485,
+          "end": 1561,
+          "sha256": "474c92b9b1025ece86ab2b8938a234e1b99bf0a97ef2844dda9bf060200d186b"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 652,
+          "end": 703,
+          "sha256": "fe47c19f2c926b6f24cdb864fa1d8fa8078ffce09f5dc7f462a2d5e9ea2bdc34"
+        },
+        {
+          "start": 1064,
+          "end": 1117,
+          "sha256": "2342c5d8e51319c36d867a049dcb873303c5b4708802eca28479f6ff4781a015"
+        },
+        {
+          "start": 1386,
+          "end": 1458,
+          "sha256": "5ae81dd2e96a770208ef393059a108307647a179f453465dbd975d5079c6a97c"
+        }
+      ],
+      "review_basis": "Both saved sources describe the singing and dancing beauty queen, a bowl filled to the brim with oil, and a swordsman who beheads the carrier if a drop spills; the bowl represents mindfulness of the body. SN 47.19 has the pole acrobat and Medakathalika instead. Sedaka is a shared setting, not a unique discourse identifier.",
+      "review_id": "sn-source-47-20-ati-thanissaro-bhikkhu-fa733579-fa733579c2f8",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn55/sn55.040.than.html",
+      "source_sha256": "dfb9de5c5da3a8b8c3e6d902a9bd54984373f4c3f5b764652843d1ea82a93b51",
+      "source_snapshot": "metadata/source-snapshots/licensed/dfb9de5c5da3a8b8c3e6d902a9bd54984373f4c3f5b764652843d1ea82a93b51.source",
+      "publisher_id": "SN 55.40",
+      "canonical_id": "SN 55.40",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn55/sn55.40.txt",
+      "canonical_text_sha256": "3ef3c54fb53e0e014bd2672268c36ba0991f2f2f43a07dd2a61b422a449301a5",
+      "source_anchors": [
+        {
+          "start": 620,
+          "end": 745,
+          "sha256": "03913a84bceef71230f0d56dea67f0d3062d48ff3ef9d941e475c94dde1e906a"
+        },
+        {
+          "start": 1611,
+          "end": 1682,
+          "sha256": "565121ddb5c5a7aab635753a847f8da48ef39fc0ee346cbc4562a7de140d8c14"
+        },
+        {
+          "start": 5220,
+          "end": 5272,
+          "sha256": "ac27b46ebaffe06f484cd90ad96cbba4eebfd578d5546754a82d8ce7c0ca6275"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 429,
+          "end": 515,
+          "sha256": "1dfaf41a206e3baab4eac0c6e83bdeae73c65e36133a489479c771103c2175ce"
+        },
+        {
+          "start": 1016,
+          "end": 1083,
+          "sha256": "e4b88eec113ddcb5797774a56f14ccc1b7d536da060468306bb37562be215574"
+        },
+        {
+          "start": 2723,
+          "end": 2784,
+          "sha256": "5030022ea261f29b28641c1c6f734be7ba97c784620758bb61945a8e9067bdd2"
+        }
+      ],
+      "review_basis": "Both sources have Nandiya ask whether someone altogether lacking stream-entry factors lives heedlessly, followed by extended heedless/heedful chains from joy through rapture, tranquility, pleasure, concentration and clear phenomena. SN 55.47 is the short four-factors declaration that a disciple is a stream-enterer, without the question or paired diligence chains.",
+      "review_id": "sn-source-55-40-ati-thanissaro-bhikkhu-dfb9de5c5da3",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/sn/sn56/sn56.022x.wlsh.html",
+      "source_sha256": "f94a95ee11a0044f5aa3aa25d65f4bec808ab274dfc2eadb55783a3d4278cddb",
+      "source_snapshot": "metadata/source-snapshots/licensed/f94a95ee11a0044f5aa3aa25d65f4bec808ab274dfc2eadb55783a3d4278cddb.source",
+      "publisher_id": "SN 56.22",
+      "canonical_id": "SN 56.22",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn56/sn56.22.txt",
+      "canonical_text_sha256": "cac393f176acddfafd467fd6c08aa58737811cacb123a190b835dcc2164312a2",
+      "source_anchors": [
+        {
+          "start": 385,
+          "end": 444,
+          "sha256": "281e70c12685f609948356f8dfe1edd4428a450699ada7e791dac9a23be84976"
+        },
+        {
+          "start": 559,
+          "end": 616,
+          "sha256": "49b2adccc6b26256a6120110bc55d0a9314989ac7473daebf473c17de46282dd"
+        },
+        {
+          "start": 929,
+          "end": 991,
+          "sha256": "2f7bd68e55218466b93f8775583d821fb904048451fab075dfab6027cf1b9ecb"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 902,
+          "end": 970,
+          "sha256": "3f3fe91711911dda73e75fa58a99727441a4e5c262346db185135450ac9e0c65"
+        },
+        {
+          "start": 1098,
+          "end": 1161,
+          "sha256": "8076575d0c49c0a4dea3055bf54c1f22884b415ab6705a27bfa14dac99c00307"
+        },
+        {
+          "start": 1496,
+          "end": 1562,
+          "sha256": "eef10be6ec50c64d406cfaaf35ae620b684269754d8d7dab31ff4c2dcc98fd98"
+        }
+      ],
+      "review_basis": "Walshe's saved source consists of paired verses: ignorance of suffering and its ending means no heart/wisdom release and continued birth/aging; knowledge reverses these results. These are the concluding verses in Sujato SN 56.22. SN 56.18 is a prose question about the definition of knowledge and contains none of these verses. Preserve the verse-only PARTIAL scope and the publisher's Vijja title.",
+      "review_id": "sn-source-56-22-ati-maurice-o-connell-walshe-f94a95ee11a0",
+      "status": "VERIFIED"
+    },
+    {
+      "review_id": "an-dhammatalks-10-118",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_118.html",
+      "source_sha256": "c84a767d6c2b0e3fea70cf489bf4cda8e1e2cd6921ab9cce3266a9bf4cf1ba0d",
+      "source_snapshot": "metadata/source-snapshots/licensed/c84a767d6c2b0e3fea70cf489bf4cda8e1e2cd6921ab9cce3266a9bf4cf1ba0d.source",
+      "publisher_id": "AN 10.118",
+      "canonical_id": "AN 10.118",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an10/an10.118.txt",
+      "canonical_text_sha256": "6274ddba9542409f2202a5d18b2f0724b5254b7fdb8fd7cc6e1a43ae635c007a",
+      "source_anchors": [
+        {
+          "start": 321,
+          "end": 376,
+          "sha256": "aeb320a7689e956d57c7562a1b4eb0c1dc13a1b6b4159149d80972f2621c91a3"
+        },
+        {
+          "start": 915,
+          "end": 976,
+          "sha256": "bc1305c9b312781d0f1d4f5d73a98010951b0e113d8d2e35f9b108bae3ada502"
+        },
+        {
+          "start": 1033,
+          "end": 1075,
+          "sha256": "cec4bf612eb48ac96843650ef672120fce4a4a7640ab3ceef04d83e2ef123023"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 420,
+          "end": 481,
+          "sha256": "fe07bf0ba49eedd5773712848aae0002b1fec027bb82bdc4b42ad95b5ac453bd"
+        },
+        {
+          "start": 485,
+          "end": 552,
+          "sha256": "a460976abb22b6434837d5e1c78905849c672e3d9cdb8c8315396b87978550af"
+        },
+        {
+          "start": 605,
+          "end": 658,
+          "sha256": "af9bce0ff865e4455189eeeb4f49f55e3192a8a046d24ee1d1691995a9d9d958"
+        }
+      ],
+      "review_basis": "Both contrast wrong and right path factors as near and far shore, beginning with view and ending with knowledge/release, then give the verses about few crossing. AN 10.170 shares the shore language and verses but its list is killing, stealing, sexual misconduct, kinds of speech, covetousness, ill will and view. The different list establishes the mismatch."
+    },
+    {
+      "review_id": "an-dhammatalks-10-24",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_24.html",
+      "source_sha256": "100296217d8d220319f7bc59bb48c6c42d1b44880eff09aafc5186a6797b9b7e",
+      "source_snapshot": "metadata/source-snapshots/licensed/100296217d8d220319f7bc59bb48c6c42d1b44880eff09aafc5186a6797b9b7e.source",
+      "publisher_id": "AN 10.24",
+      "canonical_id": "AN 10.24",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an10/an10.24.txt",
+      "canonical_text_sha256": "803279187197c825360a216ff9eac5b8f9d3c68acd692f718e77851bd02029e8",
+      "source_anchors": [
+        {
+          "start": 94,
+          "end": 129,
+          "sha256": "a7f50029703fd6059f0bbdc51c841d9f868598371bf5a19ee349a2fcdbdb0da2"
+        },
+        {
+          "start": 297,
+          "end": 334,
+          "sha256": "15e52ba6a2ec4ae4af08b5fae2f7ecb4b3c2cec422c011c1d9c7a6a60997d879"
+        },
+        {
+          "start": 2435,
+          "end": 2481,
+          "sha256": "b68f073179ac5fc6f0a03dca06e9716d71acfa08642d245b59795695baefec08"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 217,
+          "end": 261,
+          "sha256": "1c07cccf78a744dd087eabbc9da49b6f864ea08387c3f1bb7bb56b0c3fba1542"
+        },
+        {
+          "start": 448,
+          "end": 489,
+          "sha256": "9db75613bd52bea0383235d491b0a5ae8a5a07a5ae2ba81ff76319af54a9ac8f"
+        },
+        {
+          "start": 2492,
+          "end": 2527,
+          "sha256": "dda0d965c40e90481773c6ba99be986b5729bb10c74a627991cd7a99e228261f"
+        }
+      ],
+      "review_basis": "Both have Mahacunda speaking to monks in the Ceti country at Sahajati, distinguish declarations of knowledge/development from actually overcoming the ten defilements, and compare empty claims to a poor person unable to produce wealth. AN 10.176 instead has the Buddha addressing Cunda the smith at Pava about brahmin purification rituals and ten courses of conduct."
+    },
+    {
+      "review_id": "an-dhammatalks-10-76",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_76.html",
+      "source_sha256": "9348bbcf9f2db42f04b0d06012dbaa7de93afcf8a6e3849e0a7bf6c6950829a4",
+      "source_snapshot": "metadata/source-snapshots/licensed/9348bbcf9f2db42f04b0d06012dbaa7de93afcf8a6e3849e0a7bf6c6950829a4.source",
+      "publisher_id": "AN 10.76",
+      "canonical_id": "AN 10.76",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an10/an10.76.txt",
+      "canonical_text_sha256": "8d27da5a6db1d5d7068c8c2fc01f06c9ce457c0fca4760b0cb722e4762638511",
+      "source_anchors": [
+        {
+          "start": 300,
+          "end": 334,
+          "sha256": "3c9bd88dec14a7bc0c847baa7f52ab4df1f4e4250ab9aad6832c00f3da2a8c25"
+        },
+        {
+          "start": 1165,
+          "end": 1237,
+          "sha256": "e9e87169b0200fa30465d2b7176ba7086c1afcf4d9c81698f30e07e0a3fc5398"
+        },
+        {
+          "start": 3056,
+          "end": 3110,
+          "sha256": "fe5d514014fcb6e9d7ffa3c717929992252f4958e3e6d194e8537ee7a9e3491a"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 404,
+          "end": 443,
+          "sha256": "73b9e88041aa1305164038beb402920d234de6d3ef3747183263f7ab3343349c"
+        },
+        {
+          "start": 1162,
+          "end": 1237,
+          "sha256": "cf64c34ee17d23c7afdbb86e41badd64e9d75bfed6597437545d0c294df40dce"
+        },
+        {
+          "start": 3613,
+          "end": 3667,
+          "sha256": "b8217f250c9e95902eb76988eb33cf74a4813529ccaf11473d2e6413f95a6851"
+        }
+      ],
+      "review_basis": "Both open with birth, aging and death as the reason a Buddha and his teaching appear; both then trace the same chain of triads from greed/hate/delusion through wrong attention and bad friendship to shamelessness and heedlessness, and reverse the chain. AN 10.100 instead lists ten faults preventing perfection; the shared word Abhabba cannot identify the discourse."
+    },
+    {
+      "review_id": "an-dhammatalks-11-16",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN11_16.html",
+      "source_sha256": "a404800a7720c7cdca0bedc53e074ca166aa102454b9fd2c5ea6235c78702bd8",
+      "source_snapshot": "metadata/source-snapshots/licensed/a404800a7720c7cdca0bedc53e074ca166aa102454b9fd2c5ea6235c78702bd8.source",
+      "publisher_id": "AN 11.16",
+      "canonical_id": "AN 11.15",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an11/an11.15.txt",
+      "canonical_text_sha256": "02772bed991489608891eb6763a2a88b4c9eb00f48a4903222c473ea91961a60",
+      "source_anchors": [
+        {
+          "start": 248,
+          "end": 279,
+          "sha256": "423d30c040f9261b5fb1ca5e2f3045f3fefd6b2d1d1dd025561feb9b743d9bbe"
+        },
+        {
+          "start": 430,
+          "end": 477,
+          "sha256": "ccb645ecaf33386dd67ae137ccf48d334d8dec7c5ab53b2e93f0df87d9a5584a"
+        },
+        {
+          "start": 479,
+          "end": 517,
+          "sha256": "ad2529f4555f23f233e355e38e1315c4d80c110247ec34dd481e78d4f2090717"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 220,
+          "end": 268,
+          "sha256": "ea08a7c7ee2811040af468b9f928cd41008f5891e277ccc9f76f094740a51a6e"
+        },
+        {
+          "start": 529,
+          "end": 574,
+          "sha256": "b73804049e903925f98237fc9b885f6da1b7398eb4f0309c8cbe5f388b774200"
+        },
+        {
+          "start": 576,
+          "end": 610,
+          "sha256": "2ce4caed6874a87c1b1fd5f7514d6cb089af98a3cb7615f83aab21b3ea32ac9a"
+        }
+      ],
+      "review_basis": "All three source editions enumerate the same eleven benefits of developed loving-kindness: sleep/waking/dreams, affection of humans and nonhumans, divine protection, protection from fire/poison/weapons, quick concentration, bright face, unconfused death and rebirth in a Brahma realm. Canonical AN 11.16 instead has Ananda teaching Dasama eleven doors to liberation. The publisher AN 11.16 number is retained as an edition identifier."
+    },
+    {
+      "review_id": "an-dhammatalks-3-100",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_100.html",
+      "source_sha256": "ad13b7cd85dafc7e9d66b7f55d103ce2e984511759ce56dc3feda6ff0653aa68",
+      "source_snapshot": "metadata/source-snapshots/licensed/ad13b7cd85dafc7e9d66b7f55d103ce2e984511759ce56dc3feda6ff0653aa68.source",
+      "publisher_id": "AN 3.100",
+      "canonical_id": "AN 3.99",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.99.txt",
+      "canonical_text_sha256": "b1049796a0263267548e1a95fad60fa4d62aa54b23cb15f0f1cfa5994907104e",
+      "source_anchors": [
+        {
+          "start": 129,
+          "end": 178,
+          "sha256": "60f800c0258b0351557b30078be8450251a17c7cf77af4446f8cb1701354b409"
+        },
+        {
+          "start": 4637,
+          "end": 4694,
+          "sha256": "ffb2e2120a5035493e6e9cd4f1fe0ac06320c3e71d6fd9b7f12886aa78d1b143"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 176,
+          "end": 216,
+          "sha256": "1d94de16c0d9dcb7ef8b8a78e3f3c96e4d62df063d817b0d393970b8baf22f29"
+        },
+        {
+          "start": 2858,
+          "end": 2911,
+          "sha256": "1b010e62a0d9e608a2e4007f8c4528338340e816dbbedab60f24bcd3abe5ab69"
+        }
+      ],
+      "review_basis": "Both compare unethical junior/middle/senior monks with ugly, rough, worthless jute/bark cloth and ethical monks with beautiful, valuable Kasi cloth, including how the community responds when an elder speaks. Canonical AN 3.100 instead compares different karmic results to salt in a cup versus the Ganges."
+    },
+    {
+      "review_id": "an-dhammatalks-3-102",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_102.html",
+      "source_sha256": "ffd294d87d3cc0f4fcbd9220f276f6fb42b71172aa3faef96c8770f14639fa22",
+      "source_snapshot": "metadata/source-snapshots/licensed/ffd294d87d3cc0f4fcbd9220f276f6fb42b71172aa3faef96c8770f14639fa22.source",
+      "publisher_id": "AN 3.102",
+      "canonical_id": "AN 3.101",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.101.txt",
+      "canonical_text_sha256": "d5d6987ecd2e9d35e04878c47c1221315ece3bcf6991206e9b3550831b94ea8e",
+      "source_anchors": [
+        {
+          "start": 135,
+          "end": 161,
+          "sha256": "81adc93927a2334de8090fd8bcbc00fbff3242521c22df6506bb49301dc722d3"
+        },
+        {
+          "start": 1983,
+          "end": 2083,
+          "sha256": "e236aa55d2b03cea122eb99ce553f9067c41d0bcdbc65ef995b094d0be48c312"
+        },
+        {
+          "start": 2172,
+          "end": 2212,
+          "sha256": "27d7511eb45197c5e23fa78d01f3301915639422a7103e5811b7123885ca617f"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 172,
+          "end": 230,
+          "sha256": "8674f2720388ad9d64bd2250905a4a668d5e8033f728926fb8e2d91c867e8ba3"
+        },
+        {
+          "start": 1700,
+          "end": 1739,
+          "sha256": "4f904dd813a8d6a9d97c155873c56e7fadb44fa658b432d26c5e5d3bc3bcce3d"
+        },
+        {
+          "start": 1875,
+          "end": 1916,
+          "sha256": "c0a6719e2461c253967a2b179a3d517ec566bd7ac193580ebccd22f003d80d65"
+        }
+      ],
+      "review_basis": "The dirt-washer gradually removes coarse, medium and fine impurities from gold; both apply that sequence to misconduct, sensual/hostile thoughts and thoughts of family/country/status, then describe concentration and higher knowledges. AN 3.102 instead balances three meditation bases by the goldsmith alternating fanning, sprinkling and watching. The gold imagery alone is insufficient."
+    },
+    {
+      "review_id": "an-dhammatalks-3-103",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_103.html",
+      "source_sha256": "1d3447873c5483c5267645e7fe5521f01a0c7a64970ac7123d1f33c72f929fff",
+      "source_snapshot": "metadata/source-snapshots/licensed/1d3447873c5483c5267645e7fe5521f01a0c7a64970ac7123d1f33c72f929fff.source",
+      "publisher_id": "AN 3.103",
+      "canonical_id": "AN 3.102",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.102.txt",
+      "canonical_text_sha256": "57def3bdcaed332e220643f0df0b16d7e41b86c12a7c4f52e9287f900c775365",
+      "source_anchors": [
+        {
+          "start": 179,
+          "end": 322,
+          "sha256": "5260f2d765029437a6a817af09a2c83418f81579176a6dc3a4302d9f1704e43c"
+        },
+        {
+          "start": 1259,
+          "end": 1361,
+          "sha256": "9bfff33592019a221fcb209bee2674c9336aac345139542ff074851c6fde47b2"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 270,
+          "end": 340,
+          "sha256": "0aa49f8a12d97765556ae0829ffb54be3240fb16af5728c6c526b717f38b4420"
+        },
+        {
+          "start": 1174,
+          "end": 1295,
+          "sha256": "7c6b8258fa9f5989d49577756c4b7b2a86df93395874218fcf5c3083a003566d"
+        }
+      ],
+      "review_basis": "Both instruct a meditator to alternate concentration, exertion and equanimity; the goldsmith alternates blowing/fanning, sprinkling and observing to avoid burning, cooling or failing to refine the gold. The conclusion concerns higher knowledges. Canonical AN 3.103 is instead the Buddha before awakening investigating gratification, drawback and escape."
+    },
+    {
+      "review_id": "an-dhammatalks-3-115",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_115.html",
+      "source_sha256": "95760e68b687a1a72242b60c6f6b5ec826b4c31c98effc8982fc28e29bc6e31c",
+      "source_snapshot": "metadata/source-snapshots/licensed/95760e68b687a1a72242b60c6f6b5ec826b4c31c98effc8982fc28e29bc6e31c.source",
+      "publisher_id": "AN 3.115",
+      "canonical_id": "AN 3.114",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.114.txt",
+      "canonical_text_sha256": "f09faed88ce2a9a880a11ae1783621ca6b641f34e12292033c87a9104f4eae59",
+      "source_anchors": [
+        {
+          "start": 227,
+          "end": 316,
+          "sha256": "a94785705bbc36d7936424c39a1f93efc577c5dc230ab57d4766b5a9ead164c9"
+        },
+        {
+          "start": 318,
+          "end": 374,
+          "sha256": "d83f4905ab9b4f6748ed1748aa332eb4fefbe97f1f7da57d82dbc2199fdb059e"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 304,
+          "end": 371,
+          "sha256": "d55786856f6b9be0ca84ca24c22c2c1f8b0f9d1d650b23cfdc71a91c99ec79b6"
+        },
+        {
+          "start": 373,
+          "end": 415,
+          "sha256": "7aa3174abb5f5f16ba5e4723fd81c8589fc6321f324d03c6d36efc618be838b7"
+        }
+      ],
+      "review_basis": "Both list the same three rare appearances: a Buddha, someone teaching his Dhamma/Vinaya, and a grateful person. Canonical AN 3.115 instead classifies people as easy to measure, hard to measure and immeasurable."
+    },
+    {
+      "review_id": "an-dhammatalks-3-116",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_116.html",
+      "source_sha256": "5894a05e06cc9b53b62f5b8af847952764a0328e221739a277994f5c3e0584d3",
+      "source_snapshot": "metadata/source-snapshots/licensed/5894a05e06cc9b53b62f5b8af847952764a0328e221739a277994f5c3e0584d3.source",
+      "publisher_id": "AN 3.116",
+      "canonical_id": "AN 3.115",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.115.txt",
+      "canonical_text_sha256": "02e953e717ea8bfc5bd2c6a2c0c7d80cf3f240ace6b41767a445381ee37dab03",
+      "source_anchors": [
+        {
+          "start": 160,
+          "end": 241,
+          "sha256": "7caf88f9731453b27944aafeac1dbf7c7e0425e100977c8ee0e48ef8244f8d2b"
+        },
+        {
+          "start": 937,
+          "end": 978,
+          "sha256": "59c50f2e5dab73b07c9e308c1964fff6d4e4dbaf524b9319188774731b88fb0f"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 252,
+          "end": 333,
+          "sha256": "d0b42d9b1b7d647676151f535d2553cd84893466c447f243121f8320969f4d22"
+        },
+        {
+          "start": 949,
+          "end": 1004,
+          "sha256": "eaacd90fed8c0a3f566027a8a6547b59181bd823e73686ee096be8fec0724d93"
+        }
+      ],
+      "review_basis": "Both distinguish easy-to-measure distracted people, hard-to-measure restrained people, and the immeasurable arahant. Canonical AN 3.116 instead compares ordinary people and noble disciples reborn in the immaterial realms with lifespans of thousands of eons."
+    },
+    {
+      "review_id": "an-dhammatalks-3-123",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_123.html",
+      "source_sha256": "4a9b3a8334a56407993fda8b396143b8a58b0698c980a6c3d929d04c82b7c49a",
+      "source_snapshot": "metadata/source-snapshots/licensed/4a9b3a8334a56407993fda8b396143b8a58b0698c980a6c3d929d04c82b7c49a.source",
+      "publisher_id": "AN 3.123",
+      "canonical_id": "AN 3.122",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.122.txt",
+      "canonical_text_sha256": "c4185489d6518e34d4e546fb6ca8c726d228ecb3161c2b1605f3a8711eb43dba",
+      "source_anchors": [
+        {
+          "start": 130,
+          "end": 181,
+          "sha256": "eab9c5fd7149e3f17fea4db347b2c9687f697eb177ad527cba1e8732893a37a5"
+        },
+        {
+          "start": 885,
+          "end": 917,
+          "sha256": "2630371a42de48fb7cad8abfc8e3db7f3bb6199794649bed502debf20b0a0329"
+        },
+        {
+          "start": 676,
+          "end": 729,
+          "sha256": "e6d3e3367a32ae87a3675386b414dea81208e22e98dccc848b8409493d6dac2c"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 237,
+          "end": 271,
+          "sha256": "4a7502f6752efcfc1a1a6c5edf1fe027bd4172ca705cb796627b19dd912db721"
+        },
+        {
+          "start": 867,
+          "end": 899,
+          "sha256": "2630371a42de48fb7cad8abfc8e3db7f3bb6199794649bed502debf20b0a0329"
+        },
+        {
+          "start": 635,
+          "end": 683,
+          "sha256": "edd4b807b0dfb730d85953bfab619bb520221ba0ac1b071deefa376055330b7f"
+        }
+      ],
+      "review_basis": "Both define sagacity of body, speech and mind, including celibacy, ending the defilements and realized liberation, and close with a verse about a sage in body/speech/mind. Canonical AN 3.120 is purity, with contentment/kindness/right view as mental purity and no corresponding closing sage verse; AN 3.123 concerns an alms-meal invitation. Thai alternate 3.123 is a publisher edition number, not the destination in this canon."
+    },
+    {
+      "review_id": "an-dhammatalks-3-124",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_124.html",
+      "source_sha256": "f955b8f83e9aad240a5d27e4149b7251b3f5c141d13cbf589c0d94347cfd6b73",
+      "source_snapshot": "metadata/source-snapshots/licensed/f955b8f83e9aad240a5d27e4149b7251b3f5c141d13cbf589c0d94347cfd6b73.source",
+      "publisher_id": "AN 3.124",
+      "canonical_id": "AN 3.123",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.123.txt",
+      "canonical_text_sha256": "2dbea4d825b766d0ab37d4e5e730b30a0476c597190e4d064ec6161cb781f8b0",
+      "source_anchors": [
+        {
+          "start": 421,
+          "end": 456,
+          "sha256": "a2161270453f0742c7ff7ce1ee164e64aa42312d602a3ec39f18a4aa69fc5bd2"
+        },
+        {
+          "start": 1405,
+          "end": 1476,
+          "sha256": "8c6e7db919d91f4f242d764ce3faead7e9e16d78c54ef2af0446fa06e18f86a0"
+        },
+        {
+          "start": 2591,
+          "end": 2667,
+          "sha256": "f0099939011cc5c52c24094a24c6e9351a1fe2b048c4027543e59ae3ff41c865"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 483,
+          "end": 519,
+          "sha256": "7c1e11832bcaf3a452f6dfbb964214afdf21d01904c2deb02fa756d07b4cffcc"
+        },
+        {
+          "start": 1228,
+          "end": 1275,
+          "sha256": "d62292590e239bf0b402275e0ae56a8339f98d913d27208dd11236f34722f5e1"
+        },
+        {
+          "start": 2212,
+          "end": 2264,
+          "sha256": "a039931eb21c4561e0d691394b08fafc6a88e77cc4efc9c7f51ad3139882eedc"
+        }
+      ],
+      "review_basis": "Both are set near Kusinara and contrast a monk coveting future invitations after an exquisite meal with a monk eating without attachment; the fruit of giving depends on negligence versus diligence. Canonical AN 3.124 instead contrasts communities engaged in quarrels with harmonious communities."
+    },
+    {
+      "review_id": "an-dhammatalks-3-126",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_126.html",
+      "source_sha256": "9e070bcd952120b85abf4d42f79ab08818166a03754e7decbea20edfdbfbc58a",
+      "source_snapshot": "metadata/source-snapshots/licensed/9e070bcd952120b85abf4d42f79ab08818166a03754e7decbea20edfdbfbc58a.source",
+      "publisher_id": "AN 3.126",
+      "canonical_id": "AN 3.125",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.125.txt",
+      "canonical_text_sha256": "1a18e5d936ff6f45f31ef9910d0f97b3bde25deaf7021cde85d03641c89c3db3",
+      "source_anchors": [
+        {
+          "start": 295,
+          "end": 373,
+          "sha256": "88402c0aa85dc16a19a12f04cd3b8004001fa526613a0bcf7ea21d223e788d16"
+        },
+        {
+          "start": 375,
+          "end": 437,
+          "sha256": "62fe645a832ffc61877821dcc53aaae326a5486365a9c5f904d71fe34f07f800"
+        },
+        {
+          "start": 1166,
+          "end": 1197,
+          "sha256": "34e6514e9b55a8d3c7165830a51c1a877392a87519b6f92017c9e29f677a9e34"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 385,
+          "end": 448,
+          "sha256": "32c70b69eb8347d9cff5a406812c7d2b79eec099793985443b0b9fb2e413032a"
+        },
+        {
+          "start": 450,
+          "end": 488,
+          "sha256": "ad3dcc2c2bf68df41ed17a5dbb0266c35562740789c080fb89dd150c5d7033f1"
+        },
+        {
+          "start": 905,
+          "end": 934,
+          "sha256": "63b2b24bb76e30faf44dc44f1ee5c003bb759b86b7eab37abd94437d4cd63c49"
+        }
+      ],
+      "review_basis": "Both are the Gotamaka shrine discourse: teaching from direct knowledge, with reasons and demonstration, followed by disciples rejoicing and a cosmic quake. Translation differences in the cosmic number do not change the shared narrative. Canonical AN 3.123 concerns an alms-meal invitation; AN 3.126 concerns Mahānāma seeking lodgings and Bharandu debating three teachers."
+    },
+    {
+      "review_id": "an-dhammatalks-3-129",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_129.html",
+      "source_sha256": "a767d2a79b663a5615e91da40bb78c1a2f4083edcd092f199455297f490f6e51",
+      "source_snapshot": "metadata/source-snapshots/licensed/a767d2a79b663a5615e91da40bb78c1a2f4083edcd092f199455297f490f6e51.source",
+      "publisher_id": "AN 3.129",
+      "canonical_id": "AN 3.128",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.128.txt",
+      "canonical_text_sha256": "7b45fb84cd1d055899f434e756ebc44b6e5e5463434fec34c9f5fa02b1bcf4e3",
+      "source_anchors": [
+        {
+          "start": 339,
+          "end": 375,
+          "sha256": "cde74d6f20d17285e703f8a129f4e082b435930a7e6d6daa282c06405290309e"
+        },
+        {
+          "start": 1246,
+          "end": 1281,
+          "sha256": "797a839426b8fedfe7d576559df3ff20cbe851413197a202de3418e07e64ce37"
+        },
+        {
+          "start": 1808,
+          "end": 1836,
+          "sha256": "65a0f6054b6b4368741bf599680e083531bb3ab71c82278344fe543eb2896bda"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 377,
+          "end": 425,
+          "sha256": "0c532af978b2625dbe746ad284ab893fc6297aa9a24d1b437b0594e60639f8a7"
+        },
+        {
+          "start": 1140,
+          "end": 1178,
+          "sha256": "308dcee6d6879c872763b1102d95e7b5e5e664854c162b292aafbc5f77836c79"
+        },
+        {
+          "start": 1714,
+          "end": 1749,
+          "sha256": "d3a06cc75403069934f95efce251170a325bf10d96cd4162af49797d9030b7c8"
+        }
+      ],
+      "review_basis": "Both describe the Buddha seeing a distracted monk by the cattle-yoking fig tree in Varanasi, warning of putrefaction and flies, and explaining the flies as unskillful thoughts. Canonical AN 3.126 is the Bharandu lodging story; AN 3.129 is Anuruddha asking about women reborn in hell. The Thai alternate number does not select canonical AN 3.129."
+    },
+    {
+      "review_id": "an-dhammatalks-3-133",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_133.html",
+      "source_sha256": "dd949b91d9abe8f74accaed4aaa73665c895e7c3cb0cee4c6211cabc7c6d6e69",
+      "source_snapshot": "metadata/source-snapshots/licensed/dd949b91d9abe8f74accaed4aaa73665c895e7c3cb0cee4c6211cabc7c6d6e69.source",
+      "publisher_id": "AN 3.133",
+      "canonical_id": "AN 3.132",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.132.txt",
+      "canonical_text_sha256": "d7212d8d2054b173a112e69839b408d4fc8f6a0e932510255052fdf9669b9a7a",
+      "source_anchors": [
+        {
+          "start": 190,
+          "end": 303,
+          "sha256": "534f5c6b659b4b3acc819efa9477dca4053f8ae072b9130a0c1c5efdc7d1d8b2"
+        },
+        {
+          "start": 426,
+          "end": 462,
+          "sha256": "6b6c17776ad1087811aa53796cc1ba22af7e8adf42033314eb3b3e049d79409f"
+        },
+        {
+          "start": 1330,
+          "end": 1367,
+          "sha256": "28bf654cb382de7ee35e435fd358797183048dea74b1e448d651222629a8a023"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 257,
+          "end": 365,
+          "sha256": "b7fd0d1182adc1fb285f7092f511020977b6bdc8315058be839de1458c4dc4e2"
+        },
+        {
+          "start": 464,
+          "end": 499,
+          "sha256": "a7db2939c1dba53f8132bee2d3e4f2f65839985c78193591ddf54ff7cdf1feef"
+        },
+        {
+          "start": 1281,
+          "end": 1328,
+          "sha256": "9463c1a00803909e4c34f220914c334fde2dd9ddadb9b48ef267b5649ba94882"
+        }
+      ],
+      "review_basis": "Both compare anger to inscriptions/lines in rock, soil/sand and water: lasting anger, short anger, and friendliness despite harsh speech. Canonical AN 3.130 is Sariputta advising Anuruddha about conceit/restlessness/remorse; AN 3.133 is a warrior with three archery skills."
+    },
+    {
+      "review_id": "an-dhammatalks-3-136",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_136.html",
+      "source_sha256": "56c67f051135cc9b74b883efb6f0e434bc9023529f22074a6021a8bb21084bfa",
+      "source_snapshot": "metadata/source-snapshots/licensed/56c67f051135cc9b74b883efb6f0e434bc9023529f22074a6021a8bb21084bfa.source",
+      "publisher_id": "AN 3.136",
+      "canonical_id": "AN 3.135",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.135.txt",
+      "canonical_text_sha256": "3a3195fc4df83a2332393969c3a36b91a938035d711b6edb0e90b950d2bb2e9c",
+      "source_anchors": [
+        {
+          "start": 156,
+          "end": 207,
+          "sha256": "e709ce2f697386ee3df3cd3c3abe8dee7e9d2035746273db2788a18b42c1e9cf"
+        },
+        {
+          "start": 209,
+          "end": 239,
+          "sha256": "e3c783a3cc8c09ce30aedfd22e7414b794afd8af05e6e17259bca425dfe8925d"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 254,
+          "end": 307,
+          "sha256": "c5568532fc622e8078def7e7aaaf078966ba3a18f5bb058af828b0521a7a2fac"
+        },
+        {
+          "start": 318,
+          "end": 347,
+          "sha256": "6eb2c5e2536da8171531f7134b6c018ea7ebc96327e7673ffdf4b43951b69cb3"
+        }
+      ],
+      "review_basis": "Both define an associate-worthy friend by giving what is hard to give, doing what is hard to do and enduring what is hard to endure. Canonical AN 3.136 instead states the regularity of impermanence, suffering and not-self whether Buddhas arise or not."
+    },
+    {
+      "review_id": "an-dhammatalks-3-61",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_61.html",
+      "source_sha256": "a496a1e6fcfd9e160d9c18cefefac0a7452373ec511540b0ef4dccc7b7b1cd7f",
+      "source_snapshot": "metadata/source-snapshots/licensed/a496a1e6fcfd9e160d9c18cefefac0a7452373ec511540b0ef4dccc7b7b1cd7f.source",
+      "publisher_id": "AN 3.61",
+      "canonical_id": "AN 3.60",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.60.txt",
+      "canonical_text_sha256": "b99d0f03b450b49bfbeb4dcfc05c60ab972896928f1985e8c249f254750a3ebe",
+      "source_anchors": [
+        {
+          "start": 335,
+          "end": 402,
+          "sha256": "d6d896863d9749620c7fa57298b72c4b393fcc97e6255804f359cdc3d92be2e5"
+        },
+        {
+          "start": 4152,
+          "end": 4232,
+          "sha256": "676195a1ed3b73f7319807508f9da9292384e4f0eb355cd15423d7e35a3a6038"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 375,
+          "end": 457,
+          "sha256": "24efa1228f5b18aa440a5635852b0faa50a3ec15a75b00093ce31c38daa46f2c"
+        },
+        {
+          "start": 3635,
+          "end": 3731,
+          "sha256": "4102189aa7ea006b91e8eec0713123d4dbb57c217c4b7b420117d020cf0b9b54"
+        }
+      ],
+      "review_basis": "Both have Sangarava contrasting sacrifices benefiting many with a renunciant benefiting himself, followed by the Buddha showing the benefit of teaching and discussing three miracles/demonstrations: psychic power, mind-reading and instruction. Canonical AN 3.61 instead refutes three deterministic sectarian tenets."
+    },
+    {
+      "review_id": "an-dhammatalks-3-68",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_68.html",
+      "source_sha256": "ecfc310006203c7aab8f5e97ff8f066bc8b0c1d1b3e717ec996d73741e6db177",
+      "source_snapshot": "metadata/source-snapshots/licensed/ecfc310006203c7aab8f5e97ff8f066bc8b0c1d1b3e717ec996d73741e6db177.source",
+      "publisher_id": "AN 3.68",
+      "canonical_id": "AN 3.67",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.67.txt",
+      "canonical_text_sha256": "bdcaac84f9cafd515719f973e45a3df9850084cd8f32c2898228761766436800",
+      "source_anchors": [
+        {
+          "start": 167,
+          "end": 194,
+          "sha256": "eb6960951e3045da46286615234f7461600d27118cb43bc75d9de88ce0af786c"
+        },
+        {
+          "start": 739,
+          "end": 800,
+          "sha256": "feff75741ca09e87642840e8fd39cf8042814c7be4a3a66701c7cb5389204bd2"
+        },
+        {
+          "start": 4290,
+          "end": 4315,
+          "sha256": "b034082af1a88d0a52eec5d5fa78bcd66560921029af18acb6a86baf6cf29006"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 264,
+          "end": 290,
+          "sha256": "494173d3e714944eaaa53deb99f936566e081819f6efa88f9ca927e493469c81"
+        },
+        {
+          "start": 1141,
+          "end": 1211,
+          "sha256": "2d88ec0a0ef077d77d66c6d4b61fb83ce54f5d39fc02acf6c63d2c212e7183aa"
+        },
+        {
+          "start": 4265,
+          "end": 4301,
+          "sha256": "27b6cb057b059f333e984a0f2fefe33cff6e00aa6ae1f6e5dc718fceb7907a9e"
+        }
+      ],
+      "review_basis": "Both give past/future/present as three topics of discussion, distinguish four ways to answer a question, and prescribe calm discussion without fault-finding or arrogance, closing in verse. Canonical AN 3.68 instead discusses the differing blameworthiness, duration, causes and remedies of greed, hate and delusion."
+    },
+    {
+      "review_id": "an-dhammatalks-3-72",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_72.html",
+      "source_sha256": "99b7f8bd6463c9f8f2ab7bbeb977d32ecac71dded29705d4eafd48216148d63d",
+      "source_snapshot": "metadata/source-snapshots/licensed/99b7f8bd6463c9f8f2ab7bbeb977d32ecac71dded29705d4eafd48216148d63d.source",
+      "publisher_id": "AN 3.72",
+      "canonical_id": "AN 3.71",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.71.txt",
+      "canonical_text_sha256": "da90013cee161e38ba6ee8629538738e219068349fd1b04e3eaea37fb4653c1c",
+      "source_anchors": [
+        {
+          "start": 199,
+          "end": 239,
+          "sha256": "4e063024af334888a6e34dc586955177eb25016c5cb03d9a48b31420925472eb"
+        },
+        {
+          "start": 1005,
+          "end": 1100,
+          "sha256": "6143ae8f9c414cad64eade3b997d07ca19f52835a6b87b884dcaa0a071a5d9fc"
+        },
+        {
+          "start": 5035,
+          "end": 5065,
+          "sha256": "fbcbf2ba2caa9adb0ba721f8924878ff00dae0ffa281934428b8bdc74b3ed5fe"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 263,
+          "end": 310,
+          "sha256": "f0ea7d435ee132c5a825452b40649f541eaceb516ccc01442e52d28d1173f8b6"
+        },
+        {
+          "start": 679,
+          "end": 733,
+          "sha256": "58c3860eb41432a3c610d9d526e4f5b75aaa17579a599af353600ec83b4108a4"
+        },
+        {
+          "start": 2673,
+          "end": 2711,
+          "sha256": "db69773860cbc04aa8e8aa22757ccfefd37ac2c488c31853c6dc4bf765ed0aec"
+        }
+      ],
+      "review_basis": "Both have Channa the wanderer question Ananda about abandoning greed/passion, hate/aversion and delusion, explain the harm to oneself/others and conclude with the noble eightfold path. Canonical AN 3.72 instead has an Ajivaka lay follower ask whose teaching/practice is good."
+    },
+    {
+      "review_id": "an-dhammatalks-3-73",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_73.html",
+      "source_sha256": "f96f21dd09c8611ad52e1e68cf98e35cadd23c55aa35ad9f2885d4b1765baf10",
+      "source_snapshot": "metadata/source-snapshots/licensed/f96f21dd09c8611ad52e1e68cf98e35cadd23c55aa35ad9f2885d4b1765baf10.source",
+      "publisher_id": "AN 3.73",
+      "canonical_id": "AN 3.72",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.72.txt",
+      "canonical_text_sha256": "61f7f2dc65c2c6311ee112006908103bff31b744c4c3fd27ba3ac1d114d8d087",
+      "source_anchors": [
+        {
+          "start": 223,
+          "end": 250,
+          "sha256": "fa968682c9558ee1bf7f58b7a5938e885af9f17d181b9c858f82b03cd285ce0b"
+        },
+        {
+          "start": 399,
+          "end": 426,
+          "sha256": "c67ca9521a6c354bb300c8ea2720e0fab1306a6b458c2947616a2955b525f2ba"
+        },
+        {
+          "start": 1486,
+          "end": 1511,
+          "sha256": "3e5c4bb5d4fefaaed0cc2700398161727d47eb761739ec28e94061cddb31acbb"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 300,
+          "end": 334,
+          "sha256": "7b7c7b7aa2404fd153db5c29f382824e4e0c91f74c5ace1e227cf3cda5bffc0b"
+        },
+        {
+          "start": 432,
+          "end": 464,
+          "sha256": "3991abb74a824e68c3714ac112f5b0e7676214a64dad310c382b70aabedd587f"
+        },
+        {
+          "start": 1242,
+          "end": 1285,
+          "sha256": "b5c09c7d91fa0d5f1a07134d0f6222bf9d02e9f18273423df737846551bb6f46"
+        }
+      ],
+      "review_basis": "Both have Ananda at Ghosita monastery in Kosambi answer an Ajivaka lay follower by counterquestions about teaching, practicing and having abandoned greed/hate/delusion; the listener praises the impartial reply and takes refuge. Canonical AN 3.73 instead has Mahānāma ask whether concentration or knowledge comes first."
+    },
+    {
+      "review_id": "an-dhammatalks-3-79",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_79.html",
+      "source_sha256": "a05df8f06ed67b7a028ec35d6cb576087cd896e1d6fc53a1ea4b5d4df8657b8c",
+      "source_snapshot": "metadata/source-snapshots/licensed/a05df8f06ed67b7a028ec35d6cb576087cd896e1d6fc53a1ea4b5d4df8657b8c.source",
+      "publisher_id": "AN 3.79",
+      "canonical_id": "AN 3.78",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.78.txt",
+      "canonical_text_sha256": "65a5b2dfd350e6ac37ac5c060a01931f5f2fa168f94cf08a12a6a0dd0b973545",
+      "source_anchors": [
+        {
+          "start": 389,
+          "end": 435,
+          "sha256": "05faaad1ccdae4f3e3976a4006040d320ff7b71157583af2e02a212d4e064ea0"
+        },
+        {
+          "start": 601,
+          "end": 683,
+          "sha256": "a16c409cc667b3894fe48b67bacfd4b9858443654ea9eda6db4c7701f2813abc"
+        },
+        {
+          "start": 1382,
+          "end": 1409,
+          "sha256": "a28f94ee2f30df54b192f9d180e1bdcd1800f33884599dc489379feb26b657b0"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 406,
+          "end": 436,
+          "sha256": "79393136c21e685ad40da07b7169a69e4f3e60c05035efc11f2a9ee6487c019d"
+        },
+        {
+          "start": 613,
+          "end": 671,
+          "sha256": "acbb07734c9e4b055cacbc19addd64281c156440445751989914925d5951b634"
+        },
+        {
+          "start": 1093,
+          "end": 1159,
+          "sha256": "274ae3e7739a0a0afe3e8ce41b0b24d13f612096e13710ffde9b4e48c9c55e30"
+        }
+      ],
+      "review_basis": "Both have Ananda give a noncategorical answer about the fruitfulness of precepts/observances: assess whether unskillful qualities increase or decrease; the Buddha approves and praises the trainee Ananda. Canonical AN 3.79 instead discusses fragrance travelling with and against the wind."
+    },
+    {
+      "review_id": "an-dhammatalks-3-83",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_83.html",
+      "source_sha256": "7747845fe6dd718f36d5cbade167bf6b4212c1083334546c22ce341222fa0a88",
+      "source_snapshot": "metadata/source-snapshots/licensed/7747845fe6dd718f36d5cbade167bf6b4212c1083334546c22ce341222fa0a88.source",
+      "publisher_id": "AN 3.83",
+      "canonical_id": "AN 3.82",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.82.txt",
+      "canonical_text_sha256": "758448a03c50ca28c1839408c92a0a617e68ebea3c7ff25b856d573de9ef1bd6",
+      "source_anchors": [
+        {
+          "start": 97,
+          "end": 149,
+          "sha256": "de563135a6e406ca83e8105fa41d8e01097c1a0c78a9f4052accf5a9542f52e4"
+        },
+        {
+          "start": 193,
+          "end": 286,
+          "sha256": "cc6367015f9aa51de99553fdf1f6d0c6728089b41c6886c780ee6c1cc8c3a987"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 187,
+          "end": 228,
+          "sha256": "5e2a18146c56c6d720dbe0435266d1e3b262672a9e4325174ce498adfe5703ec"
+        },
+        {
+          "start": 276,
+          "end": 356,
+          "sha256": "cb5641221d76005163131676fd00720e3076ed4658148d77c51912a14b64ac8a"
+        }
+      ],
+      "review_basis": "Both compare an untrained monk following the Sangha to a donkey following cattle while claiming to be a cow, then prescribe enthusiasm for the three higher trainings. Canonical AN 3.81 lacks the donkey simile and only lists ascetic duties; AN 3.83 compares a farmer preparing a field."
+    },
+    {
+      "review_id": "an-dhammatalks-3-85",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_85.html",
+      "source_sha256": "f44647ca8c636fa3200e4cd5b05ed4344623a12d1d85540a2160a7e07263867a",
+      "source_snapshot": "metadata/source-snapshots/licensed/f44647ca8c636fa3200e4cd5b05ed4344623a12d1d85540a2160a7e07263867a.source",
+      "publisher_id": "AN 3.85",
+      "canonical_id": "AN 3.84",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.84.txt",
+      "canonical_text_sha256": "6189e3c64d608a61c218ea9d324dcb023ac561d75f8e8f140a62e970af7f1bb9",
+      "source_anchors": [
+        {
+          "start": 347,
+          "end": 397,
+          "sha256": "28c75757215a4fd914c2214bb8d6f83b60196e0cc31d40cced5f3f5558fca340"
+        },
+        {
+          "start": 400,
+          "end": 435,
+          "sha256": "72809e0dbf2ea65528ccaf8cf5b1a145d5bd509eda45381891bd9aca7a94f7db"
+        },
+        {
+          "start": 1235,
+          "end": 1288,
+          "sha256": "56c59fd79f079666a4be6b2f0dcad60974691f929e6b94181c55339773b14176"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 365,
+          "end": 431,
+          "sha256": "079ce02afbef868ec80dc3f2d7fd615def1c2da27d191514774b0b3724037f77"
+        },
+        {
+          "start": 433,
+          "end": 462,
+          "sha256": "18c0158473527bc9b4320a7584065f64f5aa3d12785e12a998f2186a9261c2cf"
+        },
+        {
+          "start": 776,
+          "end": 834,
+          "sha256": "698a085fc2b92b27cdb7ed00f0a9ffbf4a4e29c9ff49bc89f5565f941366a9ca"
+        }
+      ],
+      "review_basis": "Both have a Vajji monk unable to follow the fortnightly recitation of over 150 rules; the Buddha substitutes the three higher trainings and the monk subsequently abandons greed/hate/delusion. Canonical AN 3.83 is a farmer simile; AN 3.85 defines a trainee with a concluding verse."
+    },
+    {
+      "review_id": "an-dhammatalks-3-93",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_93.html",
+      "source_sha256": "bc654fed44ffab9ac79323e1c4b7c181da0664b38506a8fc43709fa4ad3e810c",
+      "source_snapshot": "metadata/source-snapshots/licensed/bc654fed44ffab9ac79323e1c4b7c181da0664b38506a8fc43709fa4ad3e810c.source",
+      "publisher_id": "AN 3.93",
+      "canonical_id": "AN 3.92",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.92.txt",
+      "canonical_text_sha256": "3d4159c869e4c609995b711c7c48add880906af9bba8795f0fd8f13bf6db8b09",
+      "source_anchors": [
+        {
+          "start": 81,
+          "end": 125,
+          "sha256": "af981b23eaf6cbcf2588960aabd4064837ba6973ba3a5ba0d8e43ee5e4983456"
+        },
+        {
+          "start": 545,
+          "end": 638,
+          "sha256": "3485b4e684b7f5fc844087dee1c788027941ad60d4230f53046adaa2ac188831"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 177,
+          "end": 209,
+          "sha256": "a6194e4ee3d6dd7d64fe6f1fd721da45a39ae00c2c31c6c26f4d0afe6358022a"
+        },
+        {
+          "start": 497,
+          "end": 582,
+          "sha256": "79674bc97a4ce7e048f741d55594cf0bc2df51bbbf3825af95732327cc01d561"
+        }
+      ],
+      "review_basis": "Both enumerate urgent farming tasks but deny a farmer can command crops to grow/ripen today/tomorrow; likewise a monk must train without commanding immediate liberation. Canonical AN 3.91 is Kassapagotta at Pankadha regretting impatience about training rules; AN 3.93 concerns three forms of seclusion and a different harvest simile."
+    },
+    {
+      "review_id": "an-dhammatalks-3-95",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN3_95.html",
+      "source_sha256": "2d034ac069b611486ad8981609688c72521f0241b1584fbce3551a6fe7b39999",
+      "source_snapshot": "metadata/source-snapshots/licensed/2d034ac069b611486ad8981609688c72521f0241b1584fbce3551a6fe7b39999.source",
+      "publisher_id": "AN 3.95",
+      "canonical_id": "AN 3.94",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.94.txt",
+      "canonical_text_sha256": "8e70bdbdc4ed7dbf347f9de899fc71b34c030b4c24f65df59b367b350ca8e305",
+      "source_anchors": [
+        {
+          "start": 76,
+          "end": 120,
+          "sha256": "6d42c4f92b2f1f3880c0cc47288eba9df2417b0d12887cbcac8ffed2e3d275af"
+        },
+        {
+          "start": 385,
+          "end": 452,
+          "sha256": "c9f9b0552c19902530f006860f6b1138bd27636c9591506a4d2de1abe1660d98"
+        },
+        {
+          "start": 758,
+          "end": 821,
+          "sha256": "89ce0272f2ed0d20e6b8a4923c378944de9b7c9fae527a3547873b90c63b3110"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 165,
+          "end": 215,
+          "sha256": "db7efd7d00f6ee2363c7450be19556f5b17333d7819fdb9bbe9a931103299234"
+        },
+        {
+          "start": 464,
+          "end": 539,
+          "sha256": "7d1fd9857696ff3920ddc934246d95169bf1822109412758137802e6ee04342e"
+        },
+        {
+          "start": 894,
+          "end": 949,
+          "sha256": "38273e5dfe9abd7dc57f27cef685882d1000c1ea6a35e75b00b21da3aa6fba10"
+        }
+      ],
+      "review_basis": "Both begin with the bright autumn sun, compare it to the stainless Dhamma eye and abandoning three fetters, then describe leaving greed/ill will, first jhana and no return to this world. Canonical AN 3.95 instead describes three kinds of assembly."
+    },
+    {
+      "review_id": "an-dhammatalks-4-252",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN4_252.html",
+      "source_sha256": "4e1da80843a22687f3c6a3d330d149256031060ee6eb159536584270b3d96a9c",
+      "source_snapshot": "metadata/source-snapshots/licensed/4e1da80843a22687f3c6a3d330d149256031060ee6eb159536584270b3d96a9c.source",
+      "publisher_id": "AN 4.252",
+      "canonical_id": "AN 4.255",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.255.txt",
+      "canonical_text_sha256": "5251de29d6fb5cbbff5e51a1a6d5ae67f5075783ff40ae5cee90c0963f3707ff",
+      "source_anchors": [
+        {
+          "start": 161,
+          "end": 238,
+          "sha256": "ea3cb9e2586963552adafa9d1436232d37af82d16a780c0754a997f7b31d7481"
+        },
+        {
+          "start": 1166,
+          "end": 1217,
+          "sha256": "7f2364f22f78b7a5c73aaeeb6f27e6263d6bd184af0cc485c706c5087a5e4f54"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 227,
+          "end": 285,
+          "sha256": "beaa29473f353e8f618c59fc19964dc6c37b2e4d606bb837181301c05f88fd77"
+        },
+        {
+          "start": 1138,
+          "end": 1196,
+          "sha256": "eaf4cb30c628962578d18352067892b7e50950ddb705c57e595ade5d658d7257"
+        }
+      ],
+      "review_basis": "Both contrast four ignoble searches for what ages, gets sick, dies and is defiled with noble searches for the unaging/unailing/undying/undefiled release. Canonical AN 4.252 instead lists false denials of having seen, heard, thought or known something."
+    },
+    {
+      "review_id": "an-dhammatalks-4-255",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN4_255.html",
+      "source_sha256": "478c8eedc6c7a114d609af3c71dbe8dc39df5ef6c38b55eea95d87525a8fc651",
+      "source_snapshot": "metadata/source-snapshots/licensed/478c8eedc6c7a114d609af3c71dbe8dc39df5ef6c38b55eea95d87525a8fc651.source",
+      "publisher_id": "AN 4.255",
+      "canonical_id": "AN 4.258",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.258.txt",
+      "canonical_text_sha256": "5389e44bafc8e0ced9428968bc7cdf07b5743f8b1d7d527ccb74e5cfb30b38a7",
+      "source_anchors": [
+        {
+          "start": 202,
+          "end": 242,
+          "sha256": "924e8071d0322964fba4ebb8c7170abaff9e611c60a01a89c2a982cd8c860b42"
+        },
+        {
+          "start": 711,
+          "end": 750,
+          "sha256": "47823559f87ac7f8ce9a252b77effcf91a3358cc931d977e12d67f6098d096cc"
+        },
+        {
+          "start": 799,
+          "end": 874,
+          "sha256": "e8279b844f4e6a91106f692d0438813a91d7c4c1c471bb5feb7f592bb8fcb770"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 282,
+          "end": 313,
+          "sha256": "d9d17e8201104c634ba2d42c7dcdc08444dc6864ef141dfcf61e84bf230bbb11"
+        },
+        {
+          "start": 646,
+          "end": 702,
+          "sha256": "c773446f31ea4641891b163f7ccfac4658190d152657c241564c314fbea49155"
+        },
+        {
+          "start": 708,
+          "end": 750,
+          "sha256": "3d16bc0e97d64ec8026b4f99bd1c8401bd3552d8436db408586490ae8c940df6"
+        }
+      ],
+      "review_basis": "Both explain loss and retention of family wealth by four practical factors: recovering lost things, repairing old things, moderate eating/drinking and an ethical person in charge. Canonical AN 4.255 instead concerns noble and ignoble spiritual searches."
+    },
+    {
+      "review_id": "an-dhammatalks-5-34",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_34.html",
+      "source_sha256": "ee2e1f48be0c37da2ddefa4ce23d2df30d0c4b9ae5c0b249f77c942ffab63566",
+      "source_snapshot": "metadata/source-snapshots/licensed/ee2e1f48be0c37da2ddefa4ce23d2df30d0c4b9ae5c0b249f77c942ffab63566.source",
+      "publisher_id": "AN 5.34",
+      "canonical_id": "AN 5.34",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an5/an5.34.txt",
+      "canonical_text_sha256": "7b83c2297ecbb4679848dc0cb488ebd1eeb1c98632c769831899ff3e4baca472",
+      "source_anchors": [
+        {
+          "start": 402,
+          "end": 445,
+          "sha256": "43b9a1393609bc599821d8de76a36491a754ad53e2d86e559e925e20a2b0de7a"
+        },
+        {
+          "start": 1276,
+          "end": 1309,
+          "sha256": "015059fc4891df2db1083ad2045ab6dff0233daaad4182645e9ff8c5396557fe"
+        },
+        {
+          "start": 2197,
+          "end": 2257,
+          "sha256": "0dcf2957bf686f7d4fe51b821209e88539fd3d5aad3a7119ff3eec5c3a97a97c"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 392,
+          "end": 445,
+          "sha256": "6fd282d5f9b4f508e02612e5aa3e24e43ea524e094d304b489b0fdac25d9a10b"
+        },
+        {
+          "start": 853,
+          "end": 910,
+          "sha256": "941c340ebb32e9ba34b5341d4ed210bebb7653b1dbcf230779a6f0608197933b"
+        },
+        {
+          "start": 1356,
+          "end": 1391,
+          "sha256": "82a68d6388f8ff84c564084c0067ce9ce49aa323448efb73df6fba4855c3e4c6"
+        }
+      ],
+      "review_basis": "Both have General Siha ask about the visible fruits of giving, list four present benefits plus heavenly rebirth, and have Siha distinguish personal knowledge of the first four from faith about rebirth, followed by verses. AN 5.99 is a lion carefully hunting animals, used as a simile for the Buddha teaching respectfully."
+    },
+    {
+      "review_id": "an-dhammatalks-5-98",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN5_98.html",
+      "source_sha256": "00f17ee913e62f0dc228ec53b7fd208883bc1c5c9c939cada843e1414ea1dbac",
+      "source_snapshot": "metadata/source-snapshots/licensed/00f17ee913e62f0dc228ec53b7fd208883bc1c5c9c939cada843e1414ea1dbac.source",
+      "publisher_id": "AN 5.98",
+      "canonical_id": "AN 5.98",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an5/an5.98.txt",
+      "canonical_text_sha256": "93c7093ce9a8a5188597a9fde1d0707321049be448cc573e7c9e0a879d675e69",
+      "source_anchors": [
+        {
+          "start": 98,
+          "end": 138,
+          "sha256": "fc6afe566c004c81fe57464454181b57a95ffc669e3f90339543e0ac1ad3bd52"
+        },
+        {
+          "start": 263,
+          "end": 308,
+          "sha256": "253ab23c2504f524469d775b11b7b90e57d6531db3339b815f3049987a924b0b"
+        },
+        {
+          "start": 568,
+          "end": 609,
+          "sha256": "33de0009a04ae5091ee219d6464907a9eeae63d1099940e3aedd50d4c8639e87"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 197,
+          "end": 244,
+          "sha256": "d08e9295dc1af02753637dd769c29ce5a851fe484da241277a2e4751cec5be02"
+        },
+        {
+          "start": 338,
+          "end": 385,
+          "sha256": "3b39d2281c8829345ab677824ff964f9e84d2f869cb4dca8f21ea3ebaa506f6d"
+        },
+        {
+          "start": 587,
+          "end": 633,
+          "sha256": "c35ec0ac0fda41e809727183d250a321c8ae6a94770cb6a7d79be9c274bdfd58"
+        }
+      ],
+      "review_basis": "Both give five supports for mindfulness of breathing to penetrate the unshakable/unprovoked: few duties, little food, wakefulness, secluded forest dwelling and reviewing the freed mind. AN 5.110 instead lists ethics, learning, energy, four jhanas and liberation as qualifications for forest residence."
+    },
+    {
+      "review_id": "an-dhammatalks-7-47",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_47.html",
+      "source_sha256": "5c8fc5d5739e75bf0ea1761503f0091cec96b41c52714f99801aaa258a2ab892",
+      "source_snapshot": "metadata/source-snapshots/licensed/5c8fc5d5739e75bf0ea1761503f0091cec96b41c52714f99801aaa258a2ab892.source",
+      "publisher_id": "AN 7.47",
+      "canonical_id": "AN 7.50",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.50.txt",
+      "canonical_text_sha256": "73f8a7b5e9139066dce65f36704c328dd0e1e921ffd9780dc8a876747140e5f0",
+      "source_anchors": [
+        {
+          "start": 929,
+          "end": 988,
+          "sha256": "53d76940eb57e1ce6ee225eeca08aaa49a705226a1629d6fc423cceeb8076260"
+        },
+        {
+          "start": 1588,
+          "end": 1671,
+          "sha256": "daf74c62504d017d38f8059adca892714ab8bd9b7003860abd09a4fb8880cf6c"
+        },
+        {
+          "start": 2673,
+          "end": 2705,
+          "sha256": "88905708431fb54bd6e083186d3bfbc8b71f487a18516e27cac856c5f954b3af"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 732,
+          "end": 786,
+          "sha256": "3a4ed00c66da10032f22b3dab32bdbadf0b059d10203365523879930479b72db"
+        },
+        {
+          "start": 1356,
+          "end": 1458,
+          "sha256": "32ec7db9bf0651f166707c8a0a3eb7d8a916afaad03655f34f2c51ede959445a"
+        },
+        {
+          "start": 2333,
+          "end": 2357,
+          "sha256": "296a59bd064a9839f9422f9e25753084281e63237ff697c8d8e61e8e8bdc2b4a"
+        }
+      ],
+      "review_basis": "Both have Janussoni ask about pure celibacy and enumerate seven sexual bonds short of intercourse, from accepting a woman’s massage to hoping for divine rebirth, then the Buddha declares abandoning all seven before awakening. Canonical AN 7.47 is Uggatasarira preparing an animal sacrifice and learning the three fires to honor."
+    },
+    {
+      "review_id": "an-dhammatalks-7-51",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_51.html",
+      "source_sha256": "c3c317dc3606315232e125bf80297d0504fdaa92f3009b66d4db74822e069c6b",
+      "source_snapshot": "metadata/source-snapshots/licensed/c3c317dc3606315232e125bf80297d0504fdaa92f3009b66d4db74822e069c6b.source",
+      "publisher_id": "AN 7.51",
+      "canonical_id": "AN 7.54",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.54.txt",
+      "canonical_text_sha256": "ae3cbfdd5e47137f6a23495c4e127a758d8a1290e704cf111194697ab686337f",
+      "source_anchors": [
+        {
+          "start": 379,
+          "end": 412,
+          "sha256": "96d3f3bde1e46517f9c89d60c7acb2dd5bad5a096ee301755a0f9b03c88ef2b9"
+        },
+        {
+          "start": 661,
+          "end": 714,
+          "sha256": "1da4a1ec88e2f3848797a6e92aa962dc320340de3816ab360a5ac62271e25617"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 419,
+          "end": 453,
+          "sha256": "6ddaa1f32f11d4aaa85534e4a512da6ea08f55a63fb2d15cc5e1c3af72a7dc9b"
+        },
+        {
+          "start": 672,
+          "end": 737,
+          "sha256": "d2d3f0f7a633a42d441b6c8c51a6c971eaed4788472fda306f7fd733f2c912f1"
+        }
+      ],
+      "review_basis": "Both ask why a learned noble disciple has no doubt about undeclared questions and answer through cessation of views; both list the four propositions about the Tathagata after death and proceed through craving, perception, conceiving, proliferation, clinging and anguish/regret. AN 7.51 instead concerns yoking and unyoking through attention to femininity and masculinity."
+    },
+    {
+      "review_id": "an-dhammatalks-7-56",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_56.html",
+      "source_sha256": "1d528df9b7e5afd34e0956090f4dc9657390f47d594fb90b6d3e6b2d387b3a71",
+      "source_snapshot": "metadata/source-snapshots/licensed/1d528df9b7e5afd34e0956090f4dc9657390f47d594fb90b6d3e6b2d387b3a71.source",
+      "publisher_id": "AN 7.56",
+      "canonical_id": "AN 7.59",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.59.txt",
+      "canonical_text_sha256": "a64999f0e2506b776752d4d31f453c791a7d45ff5f7964883fba94c2b8c47bee",
+      "source_anchors": [
+        {
+          "start": 403,
+          "end": 444,
+          "sha256": "08fb86255411d084def7dd3809e450535f7026b5e16d96d87da985e4f86d514c"
+        },
+        {
+          "start": 790,
+          "end": 816,
+          "sha256": "50594ef2cf3888861fb7fdf4fb331cc1eb5be0403ed7473aae178bb03d7bf624"
+        },
+        {
+          "start": 1416,
+          "end": 1466,
+          "sha256": "36f559f266729aa5b2589f47764edb624a877c499fdc4ddd4472fa32c4d5d240"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 420,
+          "end": 456,
+          "sha256": "95b2ea3dd421b5cf09adf9f48feaab4a258f76baa2fdc0f6fd62663436248fe4"
+        },
+        {
+          "start": 647,
+          "end": 684,
+          "sha256": "5282d72f874de874f98190166e0eb4fbb8860c324264d1916fa5a58da81d0cc5"
+        },
+        {
+          "start": 1046,
+          "end": 1092,
+          "sha256": "157a877ad5acc384a0c778d187055d3008aae1b91fab775ab0783ff56ec624d1"
+        }
+      ],
+      "review_basis": "Both have Kimila/Kimbila ask why the true Dhamma lasts or declines after the Buddha’s final passing, and enumerate respect for teacher, Dhamma, Sangha, training, concentration, diligence and hospitality. AN 7.56 is Moggallana consulting the deity Tissa about the liberation of nuns and gods knowing residual defilements."
+    },
+    {
+      "review_id": "an-dhammatalks-7-60",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_60.html",
+      "source_sha256": "e3635b9b001fea63c9470f3c7636f89919c5bce222f4c971ed7bc8913a883cb9",
+      "source_snapshot": "metadata/source-snapshots/licensed/e3635b9b001fea63c9470f3c7636f89919c5bce222f4c971ed7bc8913a883cb9.source",
+      "publisher_id": "AN 7.60",
+      "canonical_id": "AN 7.64",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.64.txt",
+      "canonical_text_sha256": "3a42a1a42bb9222ca7df17f24951c96ccea362b9116b6004d6d5b5044b81eb3c",
+      "source_anchors": [
+        {
+          "start": 227,
+          "end": 283,
+          "sha256": "b5b63911a4de86878fdcfb2d7041aad7f9f6c92fdff2069f782e973571be436c"
+        },
+        {
+          "start": 738,
+          "end": 798,
+          "sha256": "d90409b3cb45ba9dfcd1f42d4d5e8f3175936bb9d9d82aa21932b81adcaace51"
+        },
+        {
+          "start": 5922,
+          "end": 5997,
+          "sha256": "1b6c0470758b963a2ad3809675f1bba1412c5e565c142efeb533f3d687ef86bd"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 298,
+          "end": 355,
+          "sha256": "4d03cba38f8531dbf268e5b17492c090381a1a7fdad83cb85e81625ad099c293"
+        },
+        {
+          "start": 747,
+          "end": 773,
+          "sha256": "4923befc01a49bbc3f89076d53e20176eca13b053ae06d741ed712f426d53659"
+        },
+        {
+          "start": 5094,
+          "end": 5133,
+          "sha256": "19e2e60ea0f903624cfe8c0edb9ac47354d26ef639ffaafc50015dc685f37704"
+        }
+      ],
+      "review_basis": "All three source editions enumerate seven misfortunes anger brings that please an enemy, including ugliness, bad sleep, loss, wealth/reputation/friends and bad rebirth, followed by extensive verses on anger. Canonical AN 7.60 instead briefly lists faith, ethics, learning, seclusion, energy, mindfulness and wisdom as seven qualities for liberation."
+    },
+    {
+      "review_id": "an-dhammatalks-7-64",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_64.html",
+      "source_sha256": "75334cc4c4566c22c4dfe620b6d060ab289b2366b8c3e2908bd01023d1a6e0d8",
+      "source_snapshot": "metadata/source-snapshots/licensed/75334cc4c4566c22c4dfe620b6d060ab289b2366b8c3e2908bd01023d1a6e0d8.source",
+      "publisher_id": "AN 7.64",
+      "canonical_id": "AN 7.68",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.68.txt",
+      "canonical_text_sha256": "0a562174b850f2bcf9556c60e1826732323c1154920c084ba9696ec44fb1752d",
+      "source_anchors": [
+        {
+          "start": 344,
+          "end": 516,
+          "sha256": "a4950a69f974757168be3ee52e45671f298cd9e009a293da3fb0bbea99db38ba"
+        },
+        {
+          "start": 7622,
+          "end": 7661,
+          "sha256": "a75e54c1109f3f14aed8a001c9f61dce443aa565af2bb62e6e96a8d1e7864da6"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 466,
+          "end": 618,
+          "sha256": "721af9962a98196f610cb94b62d64229c70fa3fa668aab4f12c081bc758a40e9"
+        },
+        {
+          "start": 6080,
+          "end": 6114,
+          "sha256": "7528a29d60c88c77e7b1212c60ba79009fd947f7c75034d06751c5aa25691de0"
+        }
+      ],
+      "review_basis": "Both enumerate seven kinds of knowledge: Dhamma, meaning, self, moderation, time, assemblies and distinctions among people; they unpack literary forms and conclude with paired types of practitioners benefiting self/others. Canonical AN 7.64 instead concerns anger and seven enemy-pleasing misfortunes."
+    },
+    {
+      "review_id": "an-dhammatalks-7-80",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN7_80.html",
+      "source_sha256": "8f86ba2a19ca236eb7dfe955bee08a4aad4a56cd1bab68aab0c72c920794d293",
+      "source_snapshot": "metadata/source-snapshots/licensed/8f86ba2a19ca236eb7dfe955bee08a4aad4a56cd1bab68aab0c72c920794d293.source",
+      "publisher_id": "AN 7.80",
+      "canonical_id": "AN 7.83",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.83.txt",
+      "canonical_text_sha256": "4c9efcc034a273745a2ff272ff6d2aa5db315696bfb126b71c4823d75819b0fa",
+      "source_anchors": [
+        {
+          "start": 321,
+          "end": 349,
+          "sha256": "abbaa7e3111ff9e516edbfb1256b20cc01dcf94e01c8afb9c99740eb9ddc50f3"
+        },
+        {
+          "start": 542,
+          "end": 594,
+          "sha256": "7f2fb47ab09bc2c7792b445eb0f49193ab32e9049ed29c3866e6df88fcd4cd32"
+        },
+        {
+          "start": 1003,
+          "end": 1076,
+          "sha256": "999a4dbde098108b8f9ab5b7667fb51db4e4ec4f20a7e153b97da5d45ebafe9c"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 323,
+          "end": 347,
+          "sha256": "1400738eac9bc606bf1c08fdbc125a374b9f998f9a04425e62333f81edb69178"
+        },
+        {
+          "start": 489,
+          "end": 530,
+          "sha256": "80dfc0ae89e3b873d6952865d32a4b200f1aea97f3d53ca1f7b76bc56619d121"
+        },
+        {
+          "start": 890,
+          "end": 951,
+          "sha256": "61c5cd502e2dabccbf337344d0c260637a1472068b57f289695f579ab9628ca1"
+        }
+      ],
+      "review_basis": "Both have Upali request a brief teaching for solitary practice, then distinguish qualities leading to disenchantment, dispassion, cessation, peace, insight, awakening and liberation as the Teacher’s instruction. Canonical AN 7.79 and AN 7.80 instead list qualifications for shining as an expert in monastic law."
+    },
+    {
+      "review_id": "an-dhammatalks-8-103",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_103.html",
+      "source_sha256": "abfab6b084566ea15f6e347fada4c790eb7aa5691ef9efab91dbbdea15329998",
+      "source_snapshot": "metadata/source-snapshots/licensed/abfab6b084566ea15f6e347fada4c790eb7aa5691ef9efab91dbbdea15329998.source",
+      "publisher_id": "AN 8.103",
+      "canonical_id": "AN 8.86",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.86.txt",
+      "canonical_text_sha256": "b560966b6da7294a39ad19b22e46f5653589500b0668030d6487eeb98392f4f6",
+      "source_anchors": [
+        {
+          "start": 4058,
+          "end": 4133,
+          "sha256": "238070257a8f05805d84b561062a3c498289816a71d6b2f6ea0997645aef367c"
+        },
+        {
+          "start": 4515,
+          "end": 4571,
+          "sha256": "f4a349bbfbd0028ea77b8392dc58256aefcd6297b742a0bb653491cab52a9096"
+        },
+        {
+          "start": 7071,
+          "end": 7119,
+          "sha256": "2ded8185d76b4a7a21470a22d050aa8173efd93fd93fe9c546330a6b5c1ba892"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 3178,
+          "end": 3245,
+          "sha256": "6994559c909381590c6cb4cd71026acb0a3e7e2f1fd7eb22e4a34904ae755832"
+        },
+        {
+          "start": 3581,
+          "end": 3634,
+          "sha256": "d541e6752b61d549f562a03fe29657afebb212740e0e8304761a3e84252da98d"
+        },
+        {
+          "start": 5990,
+          "end": 6043,
+          "sha256": "e457d37b6241e83818a5d309ab62af7997652f72ad6c4105c56c4e3b02990474"
+        }
+      ],
+      "review_basis": "The long Nagita conversation matches at Icchanangala: noisy food donors, rejection of fame, eight observations contrasting socializing/overeating and village/forest meditation, ending with ease alone on a road even while relieving oneself. AN 8.103 has no individual Sujato TXT entry in this canon. AN 5.30 has five different concluding reflections; AN 6.42 shares six forest/village cases but omits the added tickling/overeating observations. These internal sections establish the longer AN 8.86 identity independently of the Yasa title."
+    },
+    {
+      "review_id": "an-dhammatalks-8-30",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN8_30.html",
+      "source_sha256": "1f2fe9b317bc269280bfcce896d15509269119b2596513f3b7613e51d2d3079c",
+      "source_snapshot": "metadata/source-snapshots/licensed/1f2fe9b317bc269280bfcce896d15509269119b2596513f3b7613e51d2d3079c.source",
+      "publisher_id": "AN 8.30",
+      "canonical_id": "AN 8.30",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.30.txt",
+      "canonical_text_sha256": "f7936bfc3bf7e75d3f82f1730c165846a0e1feafe1203173f7b4534cc40ca333",
+      "source_anchors": [
+        {
+          "start": 372,
+          "end": 446,
+          "sha256": "3724db18296335938c997587536b3a700017dfea2b2671867b94614bfa38dd43"
+        },
+        {
+          "start": 2169,
+          "end": 2211,
+          "sha256": "b509875910944695c8aea441b680512b622f930fb9706f5cccadeba616a3f35b"
+        },
+        {
+          "start": 13031,
+          "end": 13070,
+          "sha256": "cc514242931b7c43d88d492ab116bbb95dbcfc74ed2fef1b34ac38a1877547af"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 522,
+          "end": 588,
+          "sha256": "ef42f4249e418682d8021a11bffd794bded5045d04b3e55f2461dea6cb061538"
+        },
+        {
+          "start": 1773,
+          "end": 1816,
+          "sha256": "3954670a1dc22b7d8f24925d01ed37e5ca8e16d4439ec1af6980e7c48071e3a9"
+        },
+        {
+          "start": 10512,
+          "end": 10546,
+          "sha256": "3638cafc09555bb5b65d6f2f87551c7932b1970e5e6746bcbbbd70c5420c51d0"
+        }
+      ],
+      "review_basis": "Both narrate Anuruddha reflecting on seven thoughts of a great person, the Buddha appearing and supplying the eighth thought about non-proliferation/non-objectification, four jhanas, simple requisites and Anuruddha’s awakening verse. AN 8.46 instead has colorful Agreeable deities visit Anuruddha and discusses eight household qualities for women’s rebirth."
+    },
+    {
+      "review_id": "an-dhammatalks-9-34",
+      "status": "VERIFIED",
+      "source_url": "https://www.dhammatalks.org/suttas/AN/AN9_34.html",
+      "source_sha256": "2039aa217fc8365a271a00bf17ac139b6623138ba946048ac963baf2f1b708b7",
+      "source_snapshot": "metadata/source-snapshots/licensed/2039aa217fc8365a271a00bf17ac139b6623138ba946048ac963baf2f1b708b7.source",
+      "publisher_id": "AN 9.34",
+      "canonical_id": "AN 9.34",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an9/an9.34.txt",
+      "canonical_text_sha256": "d62c1ba874f9d89f488bfe4211727be0e6c1fe9eb920a8f678e65d7256de419b",
+      "source_anchors": [
+        {
+          "start": 343,
+          "end": 412,
+          "sha256": "c68825271fc9bf80d73dd7410a48eae2e43d751242c15a32a641f6826b69a9f0"
+        },
+        {
+          "start": 416,
+          "end": 486,
+          "sha256": "32328e900f8efbc5f7e98b250ac4c73cf894c8465270d873aa2e0ce1f6080151"
+        },
+        {
+          "start": 4548,
+          "end": 4581,
+          "sha256": "6f80f759d93d0f9d85d79c7bf34500d95744a1d00f8133de6fcc93ef33e1ceef"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 481,
+          "end": 528,
+          "sha256": "6145c6b28e555b0ce029aa4fe84e8f232d0a02f355b836f497bff507c10686fd"
+        },
+        {
+          "start": 532,
+          "end": 599,
+          "sha256": "207b8c020a56715c619ecc985f05d911f6f9e44f173380d7e74c5385adf7c0bf"
+        },
+        {
+          "start": 6458,
+          "end": 6493,
+          "sha256": "9eff554201e9abf01c5e6a72422a1ab902475a75b7a2fbb510152614a6737b80"
+        }
+      ],
+      "review_basis": "Both have Sariputta tell Udayin that Nibbana is bliss precisely because nothing is felt, then examine intruding perceptions as afflictions through the nine attainments ending in cessation of perception and feeling. AN 9.48 is an abbreviated definition question, “they speak of extinguishment”, in the qualified/definitive series around AN 9.46–47; it does not contain this bliss dialogue. The complete positive identification with AN 9.34 establishes the destination despite the abbreviated wrong candidate."
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_193.html",
+      "source_sha256": "f04ae912b9b6d9ef1d0fb9abc5da062144ca1171858d5023bd19dc11b3c274c6",
+      "source_snapshot": "metadata/source-snapshots/licensed/f04ae912b9b6d9ef1d0fb9abc5da062144ca1171858d5023bd19dc11b3c274c6.source",
+      "publisher_id": "SN 35.193",
+      "canonical_id": "SN 35.234",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.234.txt",
+      "canonical_text_sha256": "8c39d9e8cbcc514f86b9a1538111af0c07c004c3b5f2a16a493f61c3365ebed1",
+      "source_anchors": [
+        {
+          "start": 88,
+          "end": 164,
+          "sha256": "8ecb39ab416263d84d66083325f31c0d3b3572950c7654fb4d8ee4c26fd7c059"
+        },
+        {
+          "start": 836,
+          "end": 1005,
+          "sha256": "21d47994f007961d49314f62647465b7fd59f5aadd51f928fe6a489de32e7f1f"
+        },
+        {
+          "start": 2101,
+          "end": 2159,
+          "sha256": "caa0e2a8d9c948571149a301b5383be19e54897689a72f9488bb42cf6e782a9f"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 187,
+          "end": 263,
+          "sha256": "0184a085b3511561c43939c7c6b935bb4049893dec7cec6ae5854ba3b60e2cf6"
+        },
+        {
+          "start": 854,
+          "end": 1006,
+          "sha256": "abda9fb6baf85308d0387eeafaca02fccd4b181eae5867f121f47e9f52e9dbe5"
+        },
+        {
+          "start": 1595,
+          "end": 1652,
+          "sha256": "9f3fd577816c34de2b123dbe92cd28b242bfbf2b9495b3bb641595f024dfc5ea"
+        }
+      ],
+      "review_basis": "Keep the existing cross-edition mapping. Both bodies place Ananda and Udayin at Ghosita's monastery in Kosambi, ask how consciousness is not-self because its supporting causes cease, and end with a banana trunk yielding no heartwood. The canonical number containing 193 belongs to a different abbreviated three-times group.",
+      "review_id": "sn-source-35-193-thanissaro-dhammatalks-f04ae912b9b6",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_207.html",
+      "source_sha256": "5326a825ea05e425ed23def39763c3423afa0d5c2bed1f0ae7ed89a5c2df02cf",
+      "source_snapshot": "metadata/source-snapshots/licensed/5326a825ea05e425ed23def39763c3423afa0d5c2bed1f0ae7ed89a5c2df02cf.source",
+      "publisher_id": "SN 35.207",
+      "canonical_id": "SN 35.248",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.248.txt",
+      "canonical_text_sha256": "08ff200f4fed27c3a4ab2bf17db19f726162c35cf562e1a7b3958449e29d8e8b",
+      "source_anchors": [
+        {
+          "start": 120,
+          "end": 200,
+          "sha256": "4cc90d777364724fc2787bafa1b9e8f609146c3f80b68280d6e053c370c1a14d"
+        },
+        {
+          "start": 389,
+          "end": 444,
+          "sha256": "3eed1664223043fa92cefc66e727b50e0fe54c71e7fdddf7ea205f133c64f010"
+        },
+        {
+          "start": 1955,
+          "end": 2014,
+          "sha256": "a869cc96800e616ca16b4d1b17618d894c289fcf59a096d5796bd6ba1385f624"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 225,
+          "end": 286,
+          "sha256": "d8d77cab4cbcb2abf8d86925f051aa512ca40e0482db05f81aef4406bc2a958a"
+        },
+        {
+          "start": 441,
+          "end": 491,
+          "sha256": "9091ed283fdf9bc5c6d2895ec7424447971fc6e1a1393f0ddcdac31c453103d1"
+        },
+        {
+          "start": 1674,
+          "end": 1711,
+          "sha256": "17138bb2be5179ec0124db08fc65415861362c824866651fbbc4e2c847ad574c"
+        }
+      ],
+      "review_basis": "Keep both existing cross-edition mappings. The sheaf at a four-way intersection is threshed by six men and then a seventh; the sequel recounts Sakka/Vepacitti and bonds released or restored by a change of thought, followed by the I-am conceivings. The modern canonical range containing SN 35.207 is a different abbreviated three-times group.",
+      "review_id": "sn-source-35-207-thanissaro-dhammatalks-5326a825ea05",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN35_28.html",
+      "source_sha256": "ba242d4ce1fab97e218588a17227c57eab08ec2cf4bc4a30eec1d30a6a760d5c",
+      "source_snapshot": "metadata/source-snapshots/licensed/ba242d4ce1fab97e218588a17227c57eab08ec2cf4bc4a30eec1d30a6a760d5c.source",
+      "publisher_id": "SN 35.28",
+      "canonical_id": "SN 35.28",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.28.txt",
+      "canonical_text_sha256": "3f2b3744304f7a0824e437e45cf1f885fa66b96601d838b379baff2a3b238795",
+      "source_anchors": [
+        {
+          "start": 147,
+          "end": 181,
+          "sha256": "2f3155343835845a11392fe1421751b546e7f10e71fe0665108e2043d5b2dcbc"
+        },
+        {
+          "start": 526,
+          "end": 585,
+          "sha256": "344741cbbcbc6a19595d9ecc3fc8b6a389146fc434c8b13b5f44629c76eb9054"
+        },
+        {
+          "start": 2519,
+          "end": 2610,
+          "sha256": "d224d2f81920b13e225009d10d158b4512c2a6204e82859d450cc0a70c4296b9"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 195,
+          "end": 248,
+          "sha256": "b66cb3cc5eb14e5a07298526f20bad544707a73354a55d172ec3676c20340a14"
+        },
+        {
+          "start": 585,
+          "end": 619,
+          "sha256": "c9868f25f838818a7eb19b98e859da1f2c38080c68fd90e9f0d682647fdc3f09"
+        },
+        {
+          "start": 1908,
+          "end": 1984,
+          "sha256": "84cb988c166fb8c50e180a14ccd506b0e0ac6d3a4ad1be54deef84e760e64d73"
+        }
+      ],
+      "review_basis": "All three saved publisher bodies are the Fire Sermon: Gaya Head, one thousand monks, six sense processes burning with passion/aversion/delusion, and liberation of the thousand monks at the conclusion. SN 35.235 instead opens with mutilating the eye with a red-hot nail and discusses guarding sense experience.",
+      "review_id": "sn-source-35-28-thanissaro-dhammatalks-ba242d4ce1fa",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN36_23.html",
+      "source_sha256": "6a3b018d3697013f586615039765d5eccefc70863221d4c1e4f71dbc90b50dbf",
+      "source_snapshot": "metadata/source-snapshots/licensed/6a3b018d3697013f586615039765d5eccefc70863221d4c1e4f71dbc90b50dbf.source",
+      "publisher_id": "SN 36.23",
+      "canonical_id": "SN 36.23",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn36/sn36.23.txt",
+      "canonical_text_sha256": "28dd630e591ad00c0907f6b88497c65e218da688516bc7515e62da9244c00aac",
+      "source_anchors": [
+        {
+          "start": 312,
+          "end": 378,
+          "sha256": "9b2c2531546bac468eddcd264a4a9d6316a2108519f528a0c686a3e1b7540402"
+        },
+        {
+          "start": 772,
+          "end": 841,
+          "sha256": "bf20ac69545ca4372de839f4d4016dd8be04438c495635ef525340709b03d4ec"
+        },
+        {
+          "start": 914,
+          "end": 994,
+          "sha256": "e05e52484a81f9a0b163c64c9faf5dee8c086de9d5d5d1d3a23d3309e7c11fc6"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 349,
+          "end": 404,
+          "sha256": "b83abc9f86bdc3c4634abc20a0cf5ced9ae7c17b03190b095354f37a66e9e247"
+        },
+        {
+          "start": 695,
+          "end": 754,
+          "sha256": "b349fa1e63e67bdabde537c5727c90722aeea4324f46811e6091750989c5e186"
+        },
+        {
+          "start": 797,
+          "end": 881,
+          "sha256": "fe132f0ade574f6b590396b4f1b133025897c9b05a55131ab7a76e7d9814eefe"
+        }
+      ],
+      "review_basis": "The monk asks about feeling, its origin, the practice producing it, cessation, the path to cessation, gratification, drawback and escape. The response connects contact with origin, craving with production, and the eightfold path with cessation. SN 36.20 instead starts with two/three/five/six/eighteen/thirty-six/108 classifications and disputes over explanations.",
+      "review_id": "sn-source-36-23-thanissaro-dhammatalks-6a3b018d3697",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_38.html",
+      "source_sha256": "ac3b96b94ef0871186fd0990946cb753e01ab5f33e5f7ddec2c555279cda5b6e",
+      "source_snapshot": "metadata/source-snapshots/licensed/ac3b96b94ef0871186fd0990946cb753e01ab5f33e5f7ddec2c555279cda5b6e.source",
+      "publisher_id": "SN 46.38",
+      "canonical_id": "SN 46.38",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn46/sn46.38.txt",
+      "canonical_text_sha256": "7aecf4cc718b9c7c0985c80fff8dbff8a2b54e6d6b7b674e64125cada57730e5",
+      "source_anchors": [
+        {
+          "start": 120,
+          "end": 206,
+          "sha256": "71aedfc2c6232b249f8b8220b3ebb108f66209982b702a8009c1d7419bc5988a"
+        },
+        {
+          "start": 207,
+          "end": 330,
+          "sha256": "105eb1b08f9f5e40457c749dbffe8c472f0a023e8590fa5ce1adcea74d6ef4e6"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 222,
+          "end": 321,
+          "sha256": "b8fc11534b6ee294cf5f36a326389190b373dc75128d07bb3f3eb4ece664e14a"
+        },
+        {
+          "start": 323,
+          "end": 421,
+          "sha256": "acfccf63838d91561e264af335842215b00033cc53b5c03922f12d1e711ffbd6"
+        }
+      ],
+      "review_basis": "The saved source describes attentive listening to Dhamma as the occasion on which the five hindrances are absent and seven awakening factors complete their development. SN 46.40 is the different contrast between hindrances as destroyers of vision and awakening factors as creators of vision.",
+      "review_id": "sn-source-46-38-thanissaro-dhammatalks-ac3b96b94ef0",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN46_54.html",
+      "source_sha256": "f897041ef1c5ab07d40c2cb004c1bf1792a44d7a5f4e4ce77d3c017bc4423529",
+      "source_snapshot": "metadata/source-snapshots/licensed/f897041ef1c5ab07d40c2cb004c1bf1792a44d7a5f4e4ce77d3c017bc4423529.source",
+      "publisher_id": "SN 46.54",
+      "canonical_id": "SN 46.54",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn46/sn46.54.txt",
+      "canonical_text_sha256": "f354ca0b7db71f0875c1d913914fa133a01bfb2f0066c6a0f87e9b3ffced87ef",
+      "source_anchors": [
+        {
+          "start": 376,
+          "end": 478,
+          "sha256": "e89d03f85667010bf04a1b1a1e92844e200f1d41340564fa427a7a030f5f7da6"
+        },
+        {
+          "start": 7741,
+          "end": 7837,
+          "sha256": "08ce42a0bf318766ffdf8a2eae2a8e5b682a06b9872da750c03812f9ba3e2b70"
+        },
+        {
+          "start": 10964,
+          "end": 11048,
+          "sha256": "58ffc8a629183676875ebb2207607a2f7bbcfe7ce4863922f5e40d1b06051242"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 427,
+          "end": 543,
+          "sha256": "8d773f4b8f36d243057d38e04a142d1bc00502f69f7507159a1dc14143612dca"
+        },
+        {
+          "start": 5482,
+          "end": 5558,
+          "sha256": "becc2e2d66eeb17c050a4c2eb479c534478c9a13920dcb3823c08181a1dc7e9a"
+        },
+        {
+          "start": 7711,
+          "end": 7784,
+          "sha256": "b03a7c2ec3ef23128bc79af159a627e8e5a6fae2c9f9bb0ac83f4098d692672c"
+        }
+      ],
+      "review_basis": "Both saved sources open at Haliddavasana with visiting wanderers who claim to teach the same four immeasurables, then ask how each liberation is developed and culminates. They connect the awakening factors with goodwill, compassion, empathetic joy and equanimity, whose culminations include the beautiful, infinite space, infinite consciousness and nothingness. SN 46.62 is the separate abbreviated love-is-fruitful formula.",
+      "review_id": "sn-source-46-54-thanissaro-dhammatalks-f897041ef1c5",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN47_20.html",
+      "source_sha256": "a2df872ffd4fd5e7ebc843239c1f093215862457014e5a1bc9c47842628bbccb",
+      "source_snapshot": "metadata/source-snapshots/licensed/a2df872ffd4fd5e7ebc843239c1f093215862457014e5a1bc9c47842628bbccb.source",
+      "publisher_id": "SN 47.20",
+      "canonical_id": "SN 47.20",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn47/sn47.20.txt",
+      "canonical_text_sha256": "c3f783f3f83dda3e997b0cac1564b654648c1bc1fd0bd25d65615e8173a913c3",
+      "source_anchors": [
+        {
+          "start": 619,
+          "end": 676,
+          "sha256": "265d9d6d24fb1242b57ddcfa24f73e19efb2cdfb5ef28b9b2bf39959b4928c2c"
+        },
+        {
+          "start": 953,
+          "end": 1007,
+          "sha256": "24aa18e504e0d5b1d5c508024705f98540eebb465b5e94edcd04fb41111f781b"
+        },
+        {
+          "start": 1305,
+          "end": 1381,
+          "sha256": "474c92b9b1025ece86ab2b8938a234e1b99bf0a97ef2844dda9bf060200d186b"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 652,
+          "end": 703,
+          "sha256": "fe47c19f2c926b6f24cdb864fa1d8fa8078ffce09f5dc7f462a2d5e9ea2bdc34"
+        },
+        {
+          "start": 1064,
+          "end": 1117,
+          "sha256": "2342c5d8e51319c36d867a049dcb873303c5b4708802eca28479f6ff4781a015"
+        },
+        {
+          "start": 1386,
+          "end": 1458,
+          "sha256": "5ae81dd2e96a770208ef393059a108307647a179f453465dbd975d5079c6a97c"
+        }
+      ],
+      "review_basis": "Both saved sources describe the singing and dancing beauty queen, a bowl filled to the brim with oil, and a swordsman who beheads the carrier if a drop spills; the bowl represents mindfulness of the body. SN 47.19 has the pole acrobat and Medakathalika instead. Sedaka is a shared setting, not a unique discourse identifier.",
+      "review_id": "sn-source-47-20-thanissaro-dhammatalks-a2df872f-a2df872ffd4f",
+      "status": "VERIFIED"
+    },
+    {
+      "source_url": "https://www.dhammatalks.org/suttas/SN/SN55_40.html",
+      "source_sha256": "83196baa78d678cfc9fdb164970ea3f15460e719737cab13eca3b1c9c2c85d8b",
+      "source_snapshot": "metadata/source-snapshots/licensed/83196baa78d678cfc9fdb164970ea3f15460e719737cab13eca3b1c9c2c85d8b.source",
+      "publisher_id": "SN 55.40",
+      "canonical_id": "SN 55.40",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn55/sn55.40.txt",
+      "canonical_text_sha256": "3ef3c54fb53e0e014bd2672268c36ba0991f2f2f43a07dd2a61b422a449301a5",
+      "source_anchors": [
+        {
+          "start": 382,
+          "end": 507,
+          "sha256": "03913a84bceef71230f0d56dea67f0d3062d48ff3ef9d941e475c94dde1e906a"
+        },
+        {
+          "start": 1403,
+          "end": 1473,
+          "sha256": "62bc0cefccd75ce952eb7de2e17441fbf39ea3f39d1d98a3747ea08ae330b694"
+        },
+        {
+          "start": 5025,
+          "end": 5077,
+          "sha256": "ac27b46ebaffe06f484cd90ad96cbba4eebfd578d5546754a82d8ce7c0ca6275"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 429,
+          "end": 515,
+          "sha256": "1dfaf41a206e3baab4eac0c6e83bdeae73c65e36133a489479c771103c2175ce"
+        },
+        {
+          "start": 1016,
+          "end": 1083,
+          "sha256": "e4b88eec113ddcb5797774a56f14ccc1b7d536da060468306bb37562be215574"
+        },
+        {
+          "start": 2723,
+          "end": 2784,
+          "sha256": "5030022ea261f29b28641c1c6f734be7ba97c784620758bb61945a8e9067bdd2"
+        }
+      ],
+      "review_basis": "Both sources have Nandiya ask whether someone altogether lacking stream-entry factors lives heedlessly, followed by extended heedless/heedful chains from joy through rapture, tranquility, pleasure, concentration and clear phenomena. SN 55.47 is the short four-factors declaration that a disciple is a stream-enterer, without the question or paired diligence chains.",
+      "review_id": "sn-source-55-40-thanissaro-dhammatalks-83196baa78d6",
+      "status": "VERIFIED"
+    }
+  ]
+}

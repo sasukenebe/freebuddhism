@@ -267,6 +267,8 @@ def collect_licensed_records(output_root: Path) -> list[dict]:
                "source_url": item["source_url"], "txt_path": item["local_path"]}
         text_path = repo_path(item["local_path"])
         source, body, notes, translator, body_hash = parse_source_text(text_path, row, item["license"])
+        notes = [note for note in notes
+                 if not note.startswith("Publisher references (not part of the sutta): ")]
         folder_name = canonical_slug(item["canonical_id"])
         folder = output_root / "theravada/tipitaka/sutta" / item["collection"] / folder_name
         base = f"{folder_name}-{item['version']}"
@@ -289,6 +291,7 @@ def collect_licensed_records(output_root: Path) -> list[dict]:
             "license": item["license"], "license_url": item["license_url"],
             "copyright": item["copyright"], "license_notice": item["license_notice"],
             "attribution_notice": item.get("attribution_notice", ""), "changes": item.get("changes", ""),
+            "publisher_references": item.get("publisher_references", ""),
             "conditions": item["conditions"],
             "completeness_status": item["completeness_status"],
             "completeness_scope": item["completeness_scope"],
@@ -461,6 +464,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "license_url": record["license_url"],
         "copyright": record.get("copyright", ""),
         "license_notice": record.get("license_notice", ""),
+        "publisher_references": record.get("publisher_references", ""),
         "completeness_status": record.get("completeness_status", "UNKNOWN"),
         "source_label": record["source_label"],
         "metadata_notes": record["metadata_notes"],
@@ -502,6 +506,8 @@ def pdf_render_hash(config: dict) -> str:
         inputs["pdf_separator_spaces"] = 1
     if config.get("pdf_soft_hyphens"):
         inputs["pdf_soft_hyphens"] = 1
+    if config.get("publisher_references"):
+        inputs["publisher_references"] = config["publisher_references"]
     if config.get("group_reference"):
         inputs["group_reference"] = config["group_reference"]
         inputs["group_members"] = config.get("group_members", [])
@@ -581,7 +587,7 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
     # assembly. Do not require a new reader in the historical source index.
     if record.get("version") == "candana" or record.get("group_id") or record.get("licensed_record"):
         if check_pdf:
-            verify_pdf_body(record["pdf_path"], record["body"])
+            verify_pdf_body(record["pdf_path"], record["body"], record.get("publisher_references", ""))
         return
     if not record["entry_page"].is_file():
         raise ValueError(f"Reader index missing: {record['entry_page'].relative_to(ROOT)}")
@@ -590,13 +596,13 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
     if record["entry_href"] not in entry.links:
         raise ValueError(f"Reader is not linked from {record['entry_page'].relative_to(ROOT)}")
     if check_pdf:
-        verify_pdf_body(record["pdf_path"], record["body"])
+        verify_pdf_body(record["pdf_path"], record["body"], record.get("publisher_references", ""))
 
 
 def render_one_pdf(record: dict, reader_index: dict) -> None:
     config = config_for(record, reader_index)
     render_pdf(config, record["body"], record["pdf_path"])
-    verify_pdf_body(record["pdf_path"], record["body"])
+    verify_pdf_body(record["pdf_path"], record["body"], record.get("publisher_references", ""))
 
 
 def write_cache(cache: dict) -> None:
