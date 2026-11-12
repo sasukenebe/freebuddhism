@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:93 Urgent | Accāyika Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.93" class="h1">Urgent<br/>
+                  Accāyika Sutta  (AN 3:93)</h3><!--end suttahead-->
+                <p>“There are these three urgent duties of a farming householder. Which three?</p>
+                <p>“There is the case where a farming householder quickly gets his field well-plowed &amp; well-harrowed. Having quickly gotten his field well-plowed &amp; well-harrowed, he quickly plants the seed. Having quickly planted the seed, he quickly lets in the water &amp; then lets it out.</p>
+                <p>“These are the three urgent duties of a farming householder. Now, that farming householder does not have the power or might (to say:) ‘May my crops spring up today, may the grains appear tomorrow, and may they ripen the next day.’ But when the time has come, the farming householder’s crops spring up, the grains appear, and they ripen.</p>
+                <p>“In the same way, there are these three urgent duties of a monk. Which three? The undertaking of the training in heightened virtue, the undertaking of the training in heightened mind, the undertaking of the training in heightened discernment. These are the three urgent duties of a monk. Now, that monk does not have the power or might (to say:) ‘May my mind be released from effluents through lack of clinging/sustenance today or tomorrow or the next day.’ But when the time has come, his mind is released from effluents through lack of clinging/sustenance.</p>
+                <p>“Thus, monks, you should train yourselves: ‘Strong will be our desire for the undertaking of the training in heightened virtue. Strong will be our desire for the undertaking of the training in heightened mind. Strong will be our desire for the undertaking of the training in heightened discernment.’ That’s how you should train yourselves.”</p>
+                <p class="seealso">See also: <a href="../SN/SN22_101.html">SN 22:101</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

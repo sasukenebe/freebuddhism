@@ -1,0 +1,39 @@
+Ne 32 - 4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne32.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+
+[13]
+
+628. Herein, what is the Mode of Conveying a Clearing-Up in Combined Treatment? [It is as follows:]
+
+So let his cognizance be guarded …
+
+629. Wherever the instigation is cleared up the question is answered; but wherever the instigation is not cleared up that question is not yet answered.
+
+The Mode of Conveying a Clearing-Up in Combined Treatment is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 5:10 Cūḷa Panthaka | Panthaka Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud5.10" class="h1">Ud 5:10 Cūḷa Panthaka (Panthaka Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Cūḷa Panthaka was sitting not far from the Blessed One, his legs crossed, his body held erect, with mindfulness established to the fore. The Blessed One saw Ven. Cūḷa Panthaka sitting not far away, his legs crossed, his body held erect, with mindfulness established to the fore.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p class="v2">With steady body,</p>
+                <p class="v2">steady awareness,</p>
+                <p>–whether standing, sitting, or lying down<span class="fn"><a href="#ud5.10note01">1</a></span><!--end fn cite-->–</p>
+                <p>a monk determined on mindfulness</p>
+                <p>gains one distinction</p>
+                <p class="v2">after another.</p>
+                <p>Having gained one distinction</p>
+                <p class="v2">after another,</p>
+                <p>he goes where the King of Death</p>
+                <p class="v4">can’t see.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud5.10note01">1. There’s a slight paradox in this verse in that the word for “steady” <em>(ṭhita)</em> can also mean “standing.” Thus when the body is steady and unmoving, it is “standing” regardless of its posture.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

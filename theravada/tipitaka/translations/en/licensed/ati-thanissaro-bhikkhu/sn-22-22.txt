@@ -1,0 +1,36 @@
+SN 22.22 - Bhāra Sutta: The Burden
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2001 Thanissaro Bhikkhu.
+License notice: The text of this page ("Bhāra Sutta: The Burden", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2001 Thanissaro Bhikkhu. The text of this page ("Bhāra Sutta: The Burden", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Bhāra Sutta: The Burden" (SN 22.22), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+At Savatthi. "Monks, I will teach you the burden, the carrier of the burden, the taking up of the burden, and the casting off of the burden. [1] Listen & pay close attention. I will speak."
+
+"As you say, lord," the monks responded.
+
+The Blessed One said, "And which is the burden? 'The five clinging-aggregates,' it should be said. Which five? Form as a clinging-aggregate, feeling as a clinging-aggregate, perception as a clinging-aggregate, fabrications as a clinging-aggregate, consciousness as a clinging-aggregate. This, monks, is called the burden.
+
+"And which is the carrier of the burden? 'The person,' it should be said. This venerable one with such a name, such a clan-name. This is called the carrier of the burden.
+
+"And which is the taking up of the burden? The craving that makes for further becoming — accompanied by passion & delight, relishing now here & now there — i.e., craving for sensual pleasure, craving for becoming, craving for non-becoming. This is called the taking up of the burden.
+
+"And which is the casting off of the burden? The remainderless fading & cessation, renunciation, relinquishment, release, & letting go of that very craving. This is called the casting off of the burden."
+
+That is what the Blessed One said. Having said that, the One Well-gone, the Teacher, said further:
+
+ A burden indeed are the five aggregates, and the carrier of the burden is the person. Taking up the burden in the world is stressful. Casting off the burden is bliss. Having cast off the heavy burden and not taking on another, pulling up craving, along with its root, one is free from hunger, totally unbound. 
+
+Note
+
+1.
+
+This discourse parallels the teaching on the four noble truths, but with a twist. The "burden" is defined in the same terms as the first noble truth, the truth of suffering & stress. The taking on of the burden is defined in the same terms as the second noble truth, the origination of stress; and the casting off of the burden, in the same terms as the third noble truth, the cessation of stress. The fourth factor, however — the carrier of the burden — has no parallel in the four noble truths, and has proven to be one of the most controversial terms in the history of Buddhist philosophy. When defining this factor as the person (or individual, puggala), the Buddha drops the abstract form of the other factors, and uses the ordinary, everyday language of narrative: the person with such-and-such a name. And how would this person translate into more abstract factors? He doesn't say. After his passing away, however, Buddhist scholastics attempted to provide an answer for him, and divided into two major camps over the issue. One camp refused to rank the concept of person as a truth on the ultimate level. This group inspired what eventually became the classic Theravada position on this issue: that the "person" was simply a conventional designation for the five aggregates. However, the other camp — who developed into the Pudgalavadin (Personalist) school — said that the person was neither a ultimate truth nor a mere conventional designation, neither identical with nor totally separate from the five aggregates. This special meaning of person, they said, was required to account for three things: the cohesion of a person's identity in this lifetime (one person's memories, for instance, cannot become another person's memories); the unitary nature of rebirth (one person cannot be reborn in several places at once); and the fact that, with the cessation of the khandhas at the death of an arahant, he/she is said to attain the Further Shore. However, after that moment, they said, nothing further could be said about the person, for that was as far as the concept's descriptive powers could go. 
+
+As might be imagined, the first group accused the second group of denying the concept of anatta, or not-self; whereas the second group accused the first of being unable to account for the truths that they said their concept of person explained. Both groups, however, found that their positions entangled them in philosophical difficulties that have never been successfully resolved.
+
+Perhaps the most useful lesson to draw from the history of this controversy is the one that accords with the Buddha's statements in MN 72, where he refuses to get involved in questions of whether a person has a live essence separate from or identical to his/her body, or of whether after death there is something of an arahant that exists or not. In other words, the questions aren't worth asking. Nothing is accomplished by assuming or denying an ultimate reality behind what we think of as a person. Instead, the strategy of the practice is to comprehend the burden that we each are carrying and to throw it off. As SN 22.36 points out, when one stops trying to define oneself in any way, one is free from all limitations — and that settles all questions.

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:235 Training Rules | Sikkhāpada Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.235" class="h1">Training Rules<br/>
+                  Sikkhāpada Sutta  (AN 4:235)</h3><!--end suttahead-->
+
+<p>“Monks, these four types of kamma have been directly known, verified, &amp; made known by me. Which four? There is kamma that is dark with dark result. There is kamma that is bright with bright result. There is kamma that is dark &amp; bright with dark &amp; bright result. There is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma.</p>
+<p>“And what is kamma that is dark with dark result? There is the case where a certain person is one who takes life, is one who takes what is not given, is one who engages in illicit sex, is one who tells lies, is one who takes fermented &amp; distilled liquors that are the basis for heedlessness This is called kamma that is dark with dark result.</p>
+<p>“And what is kamma that is bright with bright result? There is the case where a certain person is one who abstains from taking life, is one who abstains from taking what is not given, is one who abstains from engaging in illicit sex, is one who abstains from telling lies, is one who abstains from taking fermented &amp; distilled liquors that are the basis for heedlessness This is called kamma that is bright with bright result.</p>
+<p>“And what is kamma that is dark &amp; bright with dark &amp; bright result? There is the case where a certain person fabricates a bodily fabrication that is injurious &amp; non-injurious… a verbal fabrication that is injurious &amp; non-injurious… a mental fabrication that is injurious &amp; non-injurious.… He rearises in an injurious &amp; non-injurious world.… There he is touched by injurious &amp; non-injurious contacts.… He experiences injurious &amp; non-injurious feelings, pleasure mingled with pain, like those of human beings, some devas, and some beings in the lower realms. This is called kamma that is dark &amp; bright with dark &amp; bright result.</p>
+<p>“And what is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma? The intention right there to abandon this kamma that is dark with dark result, the intention right there to abandon this kamma that is bright with bright result, the intention right there to abandon this kamma that is dark &amp; bright with dark &amp; bright result. This is called kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma.</p>
+<p>“These, monks, are the four types of kamma directly known, verified, &amp; made known by me.”</p>
+
+<p>See also: <a href="../MN/MN135.html" class="sutta-ref">MN 135</a>; <a href="../MN/MN136.html" class="sutta-ref">MN 136</a>; <a href="../SN/SN42_8.html" class="sutta-ref">SN 42:8</a>; <a href="AN2_18.html" class="sutta-ref">AN 2:18</a>; <a href="AN6_63.html" class="sutta-ref">AN 6:63</a></p>
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+</body></html>

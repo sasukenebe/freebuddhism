@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 48:56 Established | Patiṭṭhita Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN48.56" class="h1">Established<br/>
+                Patiṭṭhita Sutta  (SN 48:56)</h2>
+              <p>“Monks, when one quality is established in a monk, the five faculties are developed &amp; developed well. Which one quality? Heedfulness.</p>
+              <p>“And what is heedfulness? There is the case where a monk guards his mind with regard to effluents and qualities accompanied by effluents. When his mind is guarded with regard to effluents and mental qualities accompanied by effluents, the faculty of conviction goes to the culmination of its development. The faculty of persistence… mindfulness… concentration… discernment goes to the culmination of its development.</p>
+              <p>“This is how when one quality is established in a monk, the five faculties are developed &amp; developed well.”</p>
+              <p class="seealso">See also: <a href="../MN/MN70.html">MN 70</a>; <a href="SN55_40.html">SN 55:40</a>; AN 3:17</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

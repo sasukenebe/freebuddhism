@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:119 Vajjiputta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag1.119" class="h1">Thag 1:119  Vajjiputta</h4>
+            <div class="verse">
+              <p>Coming to the bower</p>
+              <p>at the root of a tree,</p>
+              <p>placing</p>
+              <p class="v2">unbinding</p>
+              <p>in your heart,</p>
+              <p>do jhāna, Gotama,</p>
+              <p>&amp; don’t be heedless.</p>
+              <p class="v1">What use is this</p>
+              <p class="v1">chitter-chatter</p>
+              <p class="v1">to you?<span class="fn"><a href="#thag1.119note01">1</a></span><!--end fn cite--></p>
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.119note01">1. In SN 9:5, a deva addresses this verse to Ven. Ānanda, who has been spending too much time teaching Dhamma to laypeople.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

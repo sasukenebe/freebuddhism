@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 35:115 Māra’s Power | Mārapāsa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN35.115" class="h1">Māra’s Power<br/>
+                Mārapāsa Sutta  (SN 35:115)</h2>
+              <p>“There are forms, monks, cognizable via the eye—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire. If a monk relishes them, welcomes them, &amp; remains fastened to them, he is said to be a monk fettered to forms cognizable by the eye. He has gone over to Māra’s camp; he has come under Māra’s power. The Evil One can do with him as he will.</p>
+              <p>“There are sounds cognizable via the ear…</p>
+              <p>“There are aromas cognizable via the nose…</p>
+              <p>“There are flavors cognizable via the tongue…</p>
+              <p>“There are tactile sensations cognizable via the body…</p>
+              <p>“There are ideas cognizable via the intellect—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire. If a monk relishes them, welcomes them, &amp; remains fastened to them, he is said to be a monk fettered to ideas cognizable by the intellect. He has gone over to Māra’s camp; he has come under Māra’s power. The Evil One can do with him as he will.</p>
+              <p>“Now, there are forms cognizable via the eye—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire. If a monk does not relish them, welcome them, or remain fastened to them, he is said to be a monk freed from forms cognizable by the eye. He has not gone over to Māra’s camp; he has not come under Māra’s power. The Evil One cannot do with him as he will.</p>
+              <p>“There are sounds cognizable via the ear…</p>
+              <p>“There are aromas cognizable via the nose…</p>
+              <p>“There are flavors cognizable via the tongue…</p>
+              <p>“There are tactile sensations cognizable via the body…</p>
+              <p>“There are ideas cognizable via the intellect—agreeable, pleasing, charming, endearing, enticing, linked to sensual desire. If a monk does not relish them, welcome them, or remain fastened to them, he is said to be a monk freed from ideas cognizable by the intellect. He has not gone over to Māra’s camp; he has not come under Māra’s power. The Evil One cannot do with him as he will.”</p>
+              <p class="seealso">See also: <a href="../MN/MN49.html">MN 49</a>; <a href="SN4_19.html">SN 4:19</a>; <a href="SN5_1.html">SN 5:1–10</a>; <a href="SN35_202.html">SN 35:202</a>; <a href="SN47_6.html">SN 47:6–7</a>; <a href="../AN/AN9_39.html">AN 9:39</a>; <a href="../AN/AN10_72.html">AN 10:72</a>; <a href="../KN/StNp/StNp4_2.html">Sn 4:2</a> </p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

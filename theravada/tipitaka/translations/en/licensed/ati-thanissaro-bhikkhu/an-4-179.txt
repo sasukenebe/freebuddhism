@@ -1,0 +1,24 @@
+AN 4.179 - Nibbana Sutta: Unbinding
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an04/an04.179.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2003 Thanissaro Bhikkhu.
+License notice: The text of this page ("Nibbana Sutta: Unbinding", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2003 Thanissaro Bhikkhu. The text of this page ("Nibbana Sutta: Unbinding", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Nibbana Sutta: Unbinding" (AN 4.179), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/an/an04/an04.179.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Then Ven. Ananda went to Ven. Sariputta and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he said to Ven. Sariputta, "Friend Sariputta, what is the cause, what is the reason, why some beings do not become totally unbound in the present life?"
+
+"There's the case, friend Ananda, where beings do not discern, as it actually is present, that 'This perception has a share in decline'; 'This perception has a share in stability'; 'This perception has a share in distinction'; 'This perception has a share in penetration.' [1] This is the cause, this is the reason, why some beings do not become totally unbound in the present life."
+
+"And what, friend Sariputta, is the cause, what is the reason, why some beings do become totally unbound in the present life?"
+
+"There's the case, friend Ananda, where beings discern, as it actually is present, that 'This perception has a share in decline'; 'This perception has a share in stability'; 'This perception has a share in distinction'; 'This perception has a share in penetration.' This is the cause, this is the reason, why some beings become totally unbound in the present life."
+
+Note
+
+1.
+
+A perception with a share in decline is one that causes the mind to fall from concentration. A perception with a share in stability is one that helps to maintain concentration. A perception with a share in distinction is one that leads to higher stages of concentration. A perception with a share in penetration is one leading to liberating insight.

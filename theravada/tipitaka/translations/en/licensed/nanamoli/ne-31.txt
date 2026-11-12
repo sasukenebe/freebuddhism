@@ -1,0 +1,47 @@
+Ne 31 - 4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne31.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+
+[12]
+
+622. PTS vp Pli 107 Herein, what is the Mode of Conveying Ways of Entry? [It is as follows:]
+
+So let his cognizance be guarded …
+
+623.“So let his cognizance be guarded, Having for pasture right intention, Giving right view first place”: when right view is admitted the five faculties are admitted [right view being synonymous with the understanding faculty]. This is the way of entry by Faculties.
+
+624. Those same faculties are science. With the arising of science, cessation of ignorance (nescience); with cessation of ignorance, PTS vp En 145 cessation of determinations; … and so the whole Dependent Arising … This is the way of entry by Dependent Arising.
+
+625. Those same faculties are comprised by the Categories, by the virtue category, by the concentration category, and by the understanding category. This is the way of entry by Categories.
+
+626. Those same categories are included in determinations. These determinations—[in this case] free from taints and not factors of being—are comprised within the idea element. This is the way of entry by Elements.
+
+627. That idea element is included in the idea base, which base is [in this case] free from taints and not a factor of being. This is the way of entry by Bases.
+
+The Mode of Conveying Ways of Entry in Combined Treatment is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,51 @@
+AN 4.164 - AN 4:164 Tolerant (1) | Khama Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/AN/AN4_164.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Tolerant (1)
+ Khama Sutta (AN 4:164)
+
+“Monks, there are these four modes of practice. Which four? Intolerant practice, tolerant practice, self-controlled practice, and even practice.1
+
+“And which is intolerant practice? There is the case where a certain individual, when insulted, returns the insult; when abused, returns the abuse; when bickered with, bickers in return. This is called intolerant practice.
+
+“And which is tolerant practice? There is the case where a certain individual, when insulted, doesn’t return the insult; when abused, doesn’t return the abuse; when bickered with, doesn’t bicker in return. This is called tolerant practice.
+
+“And which is self-controlled practice? There is the case where a monk, on seeing a form with the eye, doesn’t grasp at any theme or variations by which—if he were to dwell without restraint over the faculty of the eye—evil, unskillful qualities such as greed or distress might assail him. He practices with restraint. He guards the faculty of the eye. He achieves restraint with regard to the faculty of the eye.
+
+“On hearing a sound with the ear.…
+
+“On smelling an aroma with the nose.…
+
+“On tasting a flavor with the tongue.…
+
+“On touching a tactile sensation with the body.…
+
+“On cognizing an idea with the intellect, he doesn’t grasp at any theme or variations by which—if he were to dwell without restraint over the faculty of the intellect—evil, unskillful qualities such as greed or distress might assail him. He practices with restraint. He guards the faculty of the intellect. He achieves restraint with regard to the faculty of the intellect.
+
+“This is called self-controlled practice.
+
+“And which is even practice? There is the case where a monk doesn’t acquiesce to an arisen thought of sensuality. He abandons it, destroys it, dispels it, wipes it out of existence.
+
+“He doesn’t acquiesce to an arisen thought of ill will. He abandons it, destroys it, dispels it, wipes it out of existence.
+
+“He doesn’t acquiesce to an arisen thought of harmfulness. He abandons it, destroys it, dispels it, wipes it out of existence.
+
+“He doesn’t acquiesce to any arisen evil, unskillful qualities. He abandons them, destroys them, dispels them, wipes them out of existence.
+
+“This is called even practice.
+
+“These, monks, are four modes of practice.”
+
+Note
+
+1. These four terms rhyme in the Pali: akkhama, khama, dama, and sama.
+
+See also: MN 2; AN 5:75—76; AN 5:139—140; AN 8:14

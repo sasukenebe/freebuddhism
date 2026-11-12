@@ -1,0 +1,72 @@
+AN 6.54 - Dhammika Sutta: Dhammika
+Translated by Andrew Olendzki
+Source: https://www.accesstoinsight.org/tipitaka/an/an06/an06.054.olen.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/an/an06/an06.054.olen.html#F_termsOfUse
+Copyright: ©2005 Andrew Olendzki.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2005 Andrew Olendzki. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Dhammika Sutta: Dhammika" (AN 6.54), translated from the Pali by Andrew Olendzki. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/an/an06/an06.054.olen.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: PARTIAL. Complete source excerpt preserved, including introductions, notes and verse structure; source omits part of the canonical discourse.
+
+...
+
+In[1] ancient times when seafaring merchants put to sea in ships, they took with them a bird to sight land. When the ship was out of sight of land, they released the bird; and it flew eastward and westward, northward and southward, upward and all around. And if the bird saw no land, it returned to the ship; but if the bird sighted land nearby, it was truly gone.[2]
+
+...
+
+Once upon a time[3] there was a royal fig tree called Steadfast, belonging to king Koravya, whose five outstretched branches provided a cool and pleasing shade. Its girth extended a hundred miles, and its roots spread out for forty miles. And the fruits of that tree were indeed great: As large as harvest baskets — such were its succulent fruits — and as clear as the honey of bees.
+
+One portion was enjoyed by the king, along with his household of women; one portion was enjoyed by the army; one portion was enjoyed by the people of the town and village; one portion was enjoyed by brahmans and ascetics; and one portion was enjoyed by the beasts and birds. Nobody guarded the fruits of that royal tree, and neither did anyone harm one another for the sake of its fruits.
+
+But then a certain man came along who fed upon as much of Steadfast's fruits as he wanted, broke off a branch, and wandered on his way. And the deva who dwelled in Steadfast thought to herself: "It is astonishing, it is truly amazing, that such an evil man would dare to feed upon as much of Steadfast's fruits as he wants, break off a branch, and then wander on his way! Now, what if Steadfast were in the future to bear no more fruit?" And so the royal fig tree Steadfast bore no more fruit.
+
+So then king Koravya went up to where Sakka, chief among the gods, was dwelling, and having approached said this: "Surely you must know, sire, that Steadfast, the royal fig tree, no longer bears fruit?" And then Sakka created a magical creation of such a form that a mighty wind and rain came down and toppled the royal fig tree Steadfast, uprooting it entirely. And then the deva who dwelled in Steadfast grieved, lamented, and stood weeping on one side with a face full of tears.
+
+And then Sakka, chief among the gods, went up to where the deva was standing, and having approached said this: "Why is it, deva, that you grieve and lament and stand on one side with a face full of tears?" "It is because, sire, a mighty wind and rain has come and toppled my abode, uprooting it entirely."
+
+"And were you, deva, upholding the dhamma of trees when this happened?" "But how is it, sire, that a tree upholds the dhamma of trees?"
+
+"Like this, deva: Root-cutters take the root of the tree; bark-strippers take the bark; leaf-pickers take the leaves; flower-pickers take the flowers; fruit-pickers take the fruits — and none of this is reason enough for a deva to think only of herself or become morose. Thus it is, deva, that a tree upholds the dhamma of trees."
+
+"Then indeed, sire, I was not upholding the dhamma of trees when the mighty wind and rain came and toppled my abode, uprooting it entirely." "If it were the case, deva, that you were to uphold the dhamma of trees, it may be that your abode might be as it was before." "I will indeed, sire, uphold the dhamma of trees! May my abode be as it was before!"
+
+And then Sakka, chief among the gods, created a magical creation of such a form that a mighty wind and rain came down and raised up the royal fig tree Steadfast, and its roots were entirely healed.
+
+...
+
+Notes
+
+1.
+
+This passage also appears at DN 11. — Ed.
+
+2.
+
+The word used here for "truly gone" is tathagatako (translated by E.M. Hare in the PTS edition as "gone for good"), and this story helps us considerably in understanding how the Buddha used the epithet "Tathagata" to describe himself. 
+
+His given name was Siddhattha; as a wandering ascetic he went by his mother's clan name, Gotama; he was known throughout his world as the sage of his father's family, or Sakyamuni; and when enlightened he became known as Buddha, the Awakened One. His followers most often referred to him as Bhagavant, or "Blessed One," but the name he almost always used for himself was Tathagata.
+
+Tathagata has always been an awkward word to translate. Tatha on its own means something like "so," "thus," or "in this way"; and gata is the past participle of the verb to go, and simply means "gone." We therefore often find the phrase translated in the texts as "Thus-gone" or "the Thus-Gone one." The commentator Buddhaghosa lists eight different ways the word can be construed (Digha Atthakatha 1.59), and in the process engages in some characteristically creative etymology.
+
+I admit to having never really understood the import of the term Tathagata — until I came across this story. With the image of the bird released by the sailors, searching for land upon which to alight, a number of things began to fall into place.
+
+To begin with we should recognize two ways the expression is used: one referring to the Buddha as a being who will no longer be reborn, and the other describing how the consciousness of an awakened person still in this world relates to the object of experience.
+
+Sometimes when one of the arahants passes away, Mara like a dark cloud can be seen searching for where their consciousness has become re-established (i.e., reborn). In such cases, the Buddha says of the arahant that their consciousness is "not stationed anew anywhere" (e.g., SN 22.87). In this sense the Buddha is clearly using the epithet "Tathagata" to mean that he will not be reborn again — like the bird leaving the ship without returning, his consciousness does not alight again in any of the worlds to become re-bound with another body.
+
+But there is also a sense in which the phrase aptly describes the nature of the awakened mind here in this life. When his questioners try to pin the Buddha down about whether his consciousness survives after death, he rebukes them by saying that even here and now the consciousness of a Tathagata is untraceable, since there is no means of measuring or knowing it (e.g., Sn 1074). The awakened mind is said to be unattached to anything in the world — like a bird that does not alight upon and thus get bound to any object of experience.
+
+In fact learning to un-attach the mind from its fetters is a good deal of what insight meditation training is all about. The Satipatthana Sutta, for example, (the main text that gives instructions for insight meditation) states that when practicing mindfulness properly a person "abides independent, not clinging to anything in the world" (MN 10). The householder Anathapindika, just before his death, received instructions from Sariputta urging him to train himself thus: "I will not cling to what is seen, heard, sensed, cognized, encountered, sought after, and examined by the mind; my consciousness will not be dependent on any of that" (MN 143).
+
+All this combines to suggest that a crucial aspect of the Buddha's teaching is the notion of consciousness being unattached to mental or physical objects. In moment-to-moment practice this means letting go of attachments and letting experience be simply what it is. Perhaps with proper practice we can live as a bird freely circling the ship of our body and our world, rather than as one imprisoned in a cage on its deck.
+
+3.
+
+Perhaps this is a true story — perhaps Steadfast is a name for the entire planet, not just a mythological tree. How else might we explain the earth's great forbearance and continued beneficence in the face of the rapacity and destruction we have wrought upon her? I think Gaia, the deity inhabiting the abode of our lovely Earth, was taught this lesson by Sakka in ancient times, and has with great patience and dignity put up with the worst we can render. If this is true, then she will not give us a sign when we have gone too far — perceiving this is our own responsibility. 
+
+Like every Buddhist story, this one works on many levels simultaneously. It is no accident that the great tree has five branches, or that the word used for each portion is khandha — the term designating the five aggregates of form, feeling, perception, formations and consciousness. The man eating his fill of fruit is manifesting greed, craving or desire, and his breaking of the branch represents hatred, anger or aversion. These are two of the three poisonous roots out of which all unwholesome action arises (the third — ignorance — is always present when others occur). Thus the entire image is representative of a person being wronged by another or facing the eruption of their own latent tendencies for harmful action.
+
+Notice that the story does not teach the "evil man" the folly of his ways, since there is often nothing one can do to avoid such people or such inclinations in oneself. The teaching is more about our response to transgression. Sakka's point is that it is self-centered to react petulantly to such an affront, and that the only suitable response is with kindness and generosity — to oneself as well as to others. As the Dhammapada so aptly says, "Never at any time in this world are hostilities resolved by hostility; but by kindness they are resolved — this is an eternal truth" [Dhp 5].
+
+This teaching is given to Dhammika, a monk who complains of his treatment by certain laypeople. The Buddha reflects the situation back upon Dhammika, who as it turns out does not treat his fellow monks very well. It is an occasion to teach Dhammika, with the help of this story, the "dhamma of a recluse," which boils down to "not returning the insult of the insulter, the anger of the angry or the abuse of the abuser."

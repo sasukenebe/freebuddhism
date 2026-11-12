@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 7:56 To Kimila | Kimila Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN7.56" class="h1">To Kimila<br/>
+                  Kimila Sutta  (AN 7:56)</h3><!--end suttahead-->
+                <p>I have heard that on one occasion the Blessed One was staying near Kimila in the Bamboo Forest. Then Ven. Kimila went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One: “What is the cause, lord, what is the reason why, when a Tathāgata has totally unbound, the true Dhamma does not last a long time?”</p>
+                <p>“Kimila, there is the case where, when a Tathāgata has totally unbound, the monks, nuns, male lay followers, &amp; female lay followers live without respect, without deference, for the Teacher; live without respect, without deference, for the Dhamma… the Saṅgha… the Training [heightened virtue, heightened concentration, heightened discernment]… concentration… heedfulness; live without respect, without deference, for hospitality. This is the cause, this is the reason why, when a Tathāgata has totally unbound, the true Dhamma does not last a long time.”</p>
+                <p>“And what is the cause, what is the reason why, when a Tathāgata has totally unbound, the true Dhamma does last a long time?”</p>
+                <p>“Kimila, there is the case where, when a Tathāgata has totally unbound, the monks, nuns, male lay followers, &amp; female lay followers live with respect, with deference, for the Teacher; live with respect, with deference, for the Dhamma… the Saṅgha… the Training… concentration… heedfulness; live with respect, with deference, for hospitality. This is the cause, this is the reason why, when a Tathāgata has totally unbound, the true Dhamma does last a long time.”</p>
+                <p class="seealso">See also: <a href="../DN/DN16.html">DN 16</a>; <a href="../SN/SN6_2.html">SN 6:2</a>; <a href="../SN/SN16_13.html">SN 16:13</a>; <a href="../SN/SN20_7.html">SN 20:7</a>; <a href="AN1_140.html">AN 1:140—141</a>; <a href="AN5_79.html">AN 5:79</a>; <a href="AN7_21.html">AN 7:21</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

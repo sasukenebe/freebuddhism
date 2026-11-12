@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 1:69 Desire | Icchā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN1.69" class="h1">Desire<br/>
+                Icchā Sutta  (SN 1:69)</h2>
+              <div class="verse">
+                <p>“With what         is the world tied down?</p>
+                <p class="v1">With the subduing</p>
+                <p>of what         is it freed?</p>
+                <p class="v1">With the abandoning</p>
+                <p>of what</p>
+                <p class="v5">are all bonds</p>
+                <p class="v5">cut through?”</p>
+                <div class="verse-add">
+                  <p class="vspk">The Buddha:</p>
+                  <p>“With desire         the world is tied down.</p>
+                  <p>With the subduing</p>
+                  <p>of desire         it’s freed.</p>
+                  <p>With the abandoning</p>
+                  <p>of desire</p>
+                  <p class="v5">all bonds</p>
+                  <p class="v5">are cut through.”</p>
+                </div>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

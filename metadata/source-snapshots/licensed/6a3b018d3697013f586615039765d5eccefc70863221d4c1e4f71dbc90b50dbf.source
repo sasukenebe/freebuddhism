@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 36:23 To a Certain Bhikkhu | Bhikkhu Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN36.23" class="h1">To a Certain Bhikkhu<br/>
+                Bhikkhu Sutta  (SN 36:23)</h2>
+              <p>Then a certain bhikkhu went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “What, lord, is feeling? What is the origination of feeling? What is the path of practice leading to the origination of feeling? What is the cessation of feeling? What is the path of practice leading to the cessation of feeling? What is the allure of feeling, what is its drawback, what is the escape from it?”</p>
+              <p>“Monk, there are three feelings: a feeling of pleasure, a feeling of pain, a feeling of neither pleasure nor pain. These are called feelings.</p>
+              <p>“From the origination of contact comes the origination of feeling.</p>
+              <p>“Craving is the path of practice leading to the origination of feeling.</p>
+              <p>“From the cessation of contact is the cessation of feeling.</p>
+              <p>“This very noble eightfold path is the path of practice leading to the cessation of feeling. In other words, right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.</p>
+              <p>“Whatever pleasure &amp; happiness arise in dependence on feeling: That is the allure of feeling.</p>
+              <p>“The fact that feeling is inconstant, stressful, subject to change: That is the drawback of feeling.</p>
+              <p>“The subduing of desire-passion for feeling, the abandoning of desire-passion for feeling: That is the escape from feeling.”</p>
+              <p class="seealso">See also: <a href="../MN/MN13.html">MN 13</a>; <a href="../MN/MN137.html">MN 137</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

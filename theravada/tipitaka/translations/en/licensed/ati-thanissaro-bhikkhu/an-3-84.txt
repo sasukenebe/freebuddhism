@@ -1,0 +1,32 @@
+AN 3.84 - Vajjiputta Sutta: The Vajjian Monk
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an03/an03.083.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2011 Thanissaro Bhikkhu.
+License notice: The text of this page ("Vajjiputta Sutta: The Vajjian Monk", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2011 Thanissaro Bhikkhu. The text of this page ("Vajjiputta Sutta: The Vajjian Monk", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Vajjiputta Sutta: The Vajjian Monk" (AN 3.83), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/an/an03/an03.083.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+On one occasion the Blessed One was living in Vesālī, in the Great Wood. Then a certain Vajjian monk approached him and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One, "Lord, this recitation of more than 150 training rules comes every fortnight. [1] I cannot train in reference to them."
+
+"Monk, can you train in reference to the three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment?" [2]
+
+"Yes, lord, I can train in reference to the three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment."
+
+"Then train in reference to those three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment. As you train in heightened virtue, heightened mind, & heightened discernment, your passion, aversion, & delusion — when trained in heightened virtue, heightened mind, & heightened discernment — will be abandoned. You — with the abandoning of passion, the abandoning of aversion, the abandoning of delusion — will not do anything unskillful or engage in any evil."
+
+Later on, that monk trained in reference to heightened virtue, heightened mind, & heightened discernment. His passion, aversion, & delusion — when trained in heightened virtue, heightened mind, & heightened discernment were abandoned. He — with the abandoning of passion, the abandoning of aversion, the abandoning of delusion — did not do anything unskillful or engage in any evil.
+
+Notes
+
+1.
+
+This statement refers to the Pāṭimokkha recitation, which contains 227 rules. Some have argued that this statement is proof that the Pāṭimokkha currently contains some rules that it did not contain in the Buddha's time. However, this assertion ignores two points: (a) The sutta texts are notoriously vague about large numbers, and — given their manner in reporting large numbers — "more than 150" could cover anything from 150 to 250 rules. (b) The Buddha added rules to the Pāṭimokkha over the course of many years. This sutta may have taken place earlier in his life before the Pāṭimokkha had reached its current size.
+
+2.
+
+For definitions of these trainings, see AN 3.88.
+
+See also: AN 3.85, AN 3.86.

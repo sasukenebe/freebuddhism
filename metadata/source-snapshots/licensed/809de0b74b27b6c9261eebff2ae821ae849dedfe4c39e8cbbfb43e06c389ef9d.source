@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Khp 7 Tirokuḍḍa Kaṇḍa — (Hungry Ghosts) Outside the Walls</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h3 id="khp7" class="h1">Khp 7.  Tirokuḍḍa Kaṇḍa — (Hungry Ghosts) Outside the Walls</h3>
+            <p><em>This passage is identical with Pv 1:5.</em></p>
+            <div class="verse">
+            <p>Outside the walls they stand,</p>
+            <p class="v2">&amp; at crossroads.</p>
+            <p>At doorposts they stand,</p>
+            <p class="v2">returning to their old homes.</p>
+            <p>But when a meal with plentiful food &amp; drink is served,</p>
+            <p class="v2">no one remembers them:</p>
+            <p>Such is the kamma of living beings.</p>
+            <div class="verse-add">
+              <p>So those who feel sympathy for their dead relatives</p>
+              <p>give timely donations of proper food &amp; drink</p>
+              <p class="v2">—exquisite, clean—</p>
+              <p>[thinking:]</p>
+              <p class="v4">“May this be for our relatives.</p>
+              <p class="v4">May our relatives be happy!”</p>
+            </div>
+            <div class="verse-add">
+              <p>And those who have gathered there,</p>
+              <p class="v2">the assembled shades of the relatives,</p>
+              <p>with appreciation, give their blessing</p>
+              <p>for the plentiful food &amp; drink:</p>
+              <p class="v2">“May our relatives live long</p>
+              <p class="v2">because of whom we have gained [this gift].</p>
+              <p class="v2">We have been honored,</p>
+              <p class="v2">and the donors are not without reward!”</p>
+            </div>
+            <div class="verse-add">
+              <p>For there [in their realm] there’s</p>
+              <p class="v2">no farming,</p>
+              <p class="v2">no herding of cattle,</p>
+              <p class="v2">no commerce,</p>
+              <p class="v2">no trading with money.</p>
+              <p>They live on what is given here,</p>
+              <p class="v2">hungry ghosts</p>
+              <p class="v2">whose time here is done.</p>
+            </div>
+            <div class="verse-add">
+              <p>As water raining on a hill</p>
+              <p>flows down to the valley,</p>
+              <p class="v2">even so does what is given here</p>
+              <p class="v2">benefit the dead.<span class="fn"><a href="#khp7note01">1</a></span><!--end fn cite--></p>
+              <p>As rivers full of water</p>
+              <p>fill the ocean full,</p>
+              <p>even so does what is given here</p>
+              <p>benefit the dead.</p>
+            </div>
+            <div class="verse-add">
+              <p>“He gave to me, she acted on my behalf,</p>
+              <p class="v2">they were my relatives, companions, friends”:</p>
+              <p>Offerings should be given for the dead</p>
+              <p>when one reflects thus</p>
+              <p>on things done in the past.</p>
+              <p>For</p>
+              <p class="v2">no weeping,</p>
+              <p class="v2">no sorrowing</p>
+              <p class="v2">no other lamentation</p>
+              <p class="v4">benefits the dead</p>
+              <p class="v4">whose relatives persist in that way.</p>
+              <p>But when this offering is given,</p>
+              <p>well-placed in the Saṅgha,</p>
+              <p>it works for their long-term benefit</p>
+              <p>and they profit immediately.</p>
+            </div>
+            <div class="verse-add">
+              <p>In this way</p>
+              <p class="v4">the proper duty to relatives has been shown,</p>
+              <p class="v4">great honor has been done to the dead,</p>
+              <p class="v4">and monks have been given strength:</p>
+            </div>
+            <div class="verse-add">
+              <p class="v2">The merit you’ve acquired</p>
+              <p class="v4">isn’t small.<span class="fn"><a href="#khp7note02">2</a></span><!--end fn cite--></p>
+            </div>
+            </div>
+            <div class="note">
+              <p class="notetitle">Notes</p><!--end notetitle-->
+              <p id="khp7note01">1. In modern Theravāda merit-making ceremonies, this sentence is the first to be chanted when monks rejoice in the merit of the donors.</p>
+              <p id="khp7note02">2. This passage—beginning with “He gave to me…”—is often chanted when donors are dedicating merit to the recently deceased.</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../../MN/MN82.html">MN 82</a>; <a href="../../AN/AN10_166.html">AN 10:166</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

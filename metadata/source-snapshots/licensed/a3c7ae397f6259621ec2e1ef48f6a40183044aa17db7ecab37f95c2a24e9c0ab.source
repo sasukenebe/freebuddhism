@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:156 An Eon | Kappa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h3 id="AN4.156" class="h1">An Eon<br/>
+                Kappa Sutta  (AN 4:156)</h3>
+<p>“Monks, there are these four uncountables of an eon. Which four?</p>
+<p>“When an eon is devolving, it’s not easy to count as ‘so many years’ or ‘so many hundreds of years’ or ‘so many thousands of years’ or ‘so many hundreds of thousands of years.’</p>
+<p>“When an eon stays having devolved, it’s not easy to count as ‘so many years’ or ‘so many hundreds of years’ or ‘so many thousands of years’ or ‘so many hundreds of thousands of years.’</p>
+<p>“When an eon is evolving, it’s not easy to count as ‘so many years’ or ‘so many hundreds of years’ or ‘so many thousands of years’ or ‘so many hundreds of thousands of years.’</p>
+<p>“When an eon stays having evolved, it’s not easy to count as ‘so many years’ or ‘so many hundreds of years’ or ‘so many thousands of years’ or ‘so many hundreds of thousands of years.’</p>
+<p>“These, monks, are the four uncountables of an eon.”</p>
+<p class="seealso">See also: <a href="../SN/SN15_5.html">SN 15:5–6</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

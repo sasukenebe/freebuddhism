@@ -1,0 +1,113 @@
+Ne 13 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne13.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+10. The Ninefold Thread in the Mode of Conveying Synonyms
+
+285. PTS vp Pli 53 Herein, what is the Mode of Conveying Synonyms? [It is this:]
+
+“Knower of Threads is he that knows
+How many synonyms for one
+Idea there are in the Thread: this Mode
+Is that Conveying Synonyms”.
+
+286. According as the Blessed One demonstrates a single idea by means of many synonyms. [For example:]
+
+PTS vp En 80
+
+Need and longing, expectant relishing,
+Enticements on the several elements based,
+Hankering whose being is rooted in unknowing:
+To all that with its root I put an end.
+
+287. What is called “need” (āsā) is any longing (āsiṃsanā) for a benefit about to be; “need” arises in one thus “Surely it will come”.
+
+288. What is called “longing” is any aspiration for a presently arisen benefit, or else, on seeing someone better, “longing” arises in one thus “May I be like that”.
+
+289. Fostering the production of a benefit is what is called “expectant relishing”, or one expects thus a dear relative, or one expects thus a dear idea, or one expects [something] thus as unrepulsive.
+
+290.“The several elements” are the eye element, form element, and eye-consciousness element; ear element, sound element, and ear-consciousness element; nose element, odour element, and nose-consciousness element; tongue element, flavour element, and tongue-consciousness element; body element, tangible element, and body-consciousness element; mind element, idea element, and mind-consciousness element.
+
+291.“Enticements”: some believe in forms, some believe in sounds, some believe in odours, some believe in flavours, some believe in tangibles, some believe in ideas.
+
+292. Herein, the twenty-four terms, namely the six kinds of grief with the house-life as support, the six kinds of joy with the house-life as support, the six kinds of grief with renunciation as support, the six kinds of joy with renunciation as support, being on the side belonging to craving, are synonyms for craving.
+
+But the six kinds of onlooking-equanimity with the house-life as support are on the side belonging to views. That same [onlooking-equanimity] in the mood of aspiration, as relishing of the True Idea, love of the True Idea, cleaving to the True Idea, is synonymous with craving.
+
+293. Cognizance, PTS vp Pli 54 mind, and consciousness, are synonyms for cognizance.
+
+PTS vp En 81 294. Mind faculty, mind element, mind base, and act-of-being-conscious, are synonyms for mind.
+
+Understanding faculty, understanding power, training in the higher understanding, understanding category, investigation-of-ideas enlightenment factor, knowledge, right view, judgment, in-sight, knowledge about an idea, knowledge about a meaning, know-ledge about an inference, knowledge about exhaustion, knowledge about non-arising, the I-shall-come-to-know-finally-the-as-yet-not-finally-known faculty, the final-knowing faculty, the final-knower faculty, vision (eye), science, discovery, breadth, wit, light, or also any other such kind: these are synonyms for understanding.
+
+295. All the five faculties, when disjoined from worlds, are understanding. Furthermore, faith has the sense of dominance, energy the sense of instigation, mindfulness the sense of non-floating away [from its object], concentration the sense of non-distraction, and understanding the sense of act-of-understanding.
+
+296. And as it is said in the Recollection of the Enlightened One: (That Blessed One is such since he is accomplished, fully enlightened, perfect in science and conduct, sublime, knower of worlds, incomparable leader of men to be tamed, teacher of gods and men, enlightened, Blessed), [and further] he who has come to produce the Powers, reached the kinds of Intrepidity, arrived at the Discriminations, left behind the four bonds, passed beyond going the bad ways, extracted the barbs, cured the wounds, crushed the thorns, remedied the obsessions, outstripped the tether, unknotted the ties, passed beyond inclination, disrupted darkness; who is the possessor of eyesight, who has surmounted the worldly ideas, who is dissociated from favouring and opposing among wished-for and unwished-for ideas, who has no recourse to amassing, who has passed beyond the tether, who has done with battling, who is the most eminent, who is the torch-bearer, light-maker, illuminator, gloom-dispeller, conflict-abandoner, measureless in qualities, immense in qualities, incalculable in qualities, maker of radiance, maker of irradiance, illuminator of the True Ideal, enlightened, blessed.
+
+These PTS vp En 82 are synonyms for the Recollection of the Enlightened One.
+
+297. And as it is said in the Recollection of the True Idea PTS vp Pli 55 (The True Idea is well proclaimed by the Blessed One, to be seen for oneself, not delayed (timeless), inviting inspection, onward-leading, and directly experienceable by the wise), (That is to say, the disillusionment of vanity, the outguiding of thirst, the elimination of reliance, the termination of the round, the void, the very hard to get, the exhaustion of craving, fading, cessation, extinction), [and further:]
+
+The Undetermined, the Infinite, and the Untainted,
+The Truth, the Further Shore, the Subtle, very hard to see,
+The Ageless, Everlasting, and Un-worn-away,
+Making no showing, undiversifying, peace,
+The Deathless, the Supreme, the Blissful, and the Safe,
+Exhaustion of thirst, the Wonderful, the Marvellous,
+The Unplagued, whose nature it is to be unplagued,
+Extinction—this is what the Sublime one taught—
+The Unborn, and the Un-brought-to-being, the Hazard-Free,
+The Unmade, and the Sorrowless, the Sorrow-free,
+The Unmenaced, whose nature it is to be unmenaced,
+Extinction—this is what the Sublime One taught—
+Profound, and very hard to see as well,
+Surpassing too, and unsurpassed,
+That is unlike, that has no like,
+Foremost and best, as it is called.
+Shield, shelter, without conflict, without blemish,
+Spotless, immaculate, as it is called,
+The Lamp (Isle), and Bliss, the Immense, the Standing-point,
+Non-owning, non-diversifying called.
+
+These are synonyms for the. Recollection of the True Idea.
+
+PTS vp En 83 298. And as it is said in the Recollection of the Community (The Community of the Blessed One’s hearers has progressed by the good way, the Community of the Blessed One’s hearers has progressed by the straight way, the Community of the Blessed One’s hearers has progressed by the true way, the Community of the Blessed One’s hearers has progressed by the proper way, that is to say, the four pairs of men, the eight types of mature persons. This Community of the Blessed One’s hearers is fit for gifts, fit for hospitality, fit for offerings, fit for reverential salutation, as the incomparable field of merit for the world), PTS vp Pli 56 [and further] perfect in virtue, perfect in concentration, perfect in deliverance, perfect in knowing and seeing of deliverance; it is creatures’ core, creatures’ fine-essence, creatures’ fine-extract, creatures’ pillar, creatures’ blossom of fragrance, to be honoured by gods and human beings. These are synonyms for the Recollection of the Community.
+
+299. And just as it is said in the Recollection of Virtue (Those kinds of virtue that are untorn, unrent, unblotched, unmottled, noble, desired by Noble Ones, liberating, commended by the wise, not misapprehended, and conducive to concentration), [and further] virtue as an ornament for adorning the topmost limb, and virtue as a treasure laid by in the sense of surmounting all defects, and virtue as an archer’s craft for hitting the bull’s eye, and virtue as a rule in the sense of non-transgression, and virtue as [wealth of] corn in the sense of terminating poverty, and virtue as a looking-glass for the purpose of surveying ideas [of quiet and insight], and virtue as a [storied] palace in the sense of [a place for] surveying, and virtue that by its having parallel occurrence with all the [four] planes, ends in the Deathless. These are synonyms for the Recollection of Virtue.
+
+300. And as it is said in the Recollection of Generosity (On an PTS vp En 84 occasion on which a Noble Hearer lives in a house, freely generous, open-handed, delighting in relinquishing, used to being asked, and delighting in giving and sharing …). These are synonyms for the Recollection of Generosity.
+
+301. That is why the venerable Mahā-Kaccāna said:
+
+“Knower of Threads is he that knows
+How many synonyms for one
+Idea there are in the Thread: this Mode
+Is that Conveying Synonyms”.
+
+The Mode of Conveying Synonyms is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

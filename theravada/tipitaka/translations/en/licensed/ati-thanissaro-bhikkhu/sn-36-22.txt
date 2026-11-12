@@ -1,0 +1,58 @@
+SN 36.22 - Atthasata Sutta: The One-hundred-and-eight Exposition
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.022.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2005 Thanissaro Bhikkhu.
+License notice: The text of this page ("Atthasata Sutta: The One-hundred-and-eight Exposition", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2005 Thanissaro Bhikkhu. The text of this page ("Atthasata Sutta: The One-hundred-and-eight Exposition", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Atthasata Sutta: The One-hundred-and-eight Exposition" (SN 36.22), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.022.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+"Monks, I will teach you a one-hundred-and-eight exposition that is a Dhamma exposition. Listen & pay close attention. I will speak."
+
+"As you say, lord," the monks responded.
+
+The Blessed One said: "And which one-hundred-and-eight exposition is a Dhamma exposition? There is the exposition whereby I have spoken of two feelings, the exposition whereby I have spoken of three feelings... five... six... eighteen... thirty-six... one hundred and eight feelings.
+
+"And which are the two feelings? Physical & mental. These are the two feelings.
+
+"And which are the three feelings? A feeling of pleasure, a feeling of pain, a feeling of neither pleasure nor pain. These are the three feelings.
+
+"And which are the five feelings? The pleasure-faculty, the pain-faculty, the happiness-faculty, the distress-faculty, the equanimity-faculty. These are the five feelings.[1]
+
+"And which are the six feelings? A feeling born of eye-contact, a feeling born of ear-contact... nose-contact... tongue-contact... body-contact... intellect-contact. These are the six feelings.
+
+"And which are the eighteen feelings? Six happiness-explorations, six distress-explorations, six equanimity-explorations.[2] These are the eighteen feelings.
+
+"And which are the thirty-six feelings? Six kinds of household happiness & six kinds of renunciation happiness; six kinds of household distress & six kinds of renunciation distress; six kinds of household equanimity & six kinds of renunciation equanimity.[3] These are the thirty-six feelings.
+
+"And which are the one hundred and eight feelings? Thirty-six past feelings, thirty-six future feelings, and thirty-six present feelings. These are the one hundred and eight feelings.
+
+"And this, monks, is the one-hundred-and-eight exposition that is a Dhamma exposition."
+
+Notes
+
+1.
+
+SN 48.37 explains the pleasure-faculty as a feeling of physical pleasure, the pain-faculty as a feeling of physical pain, the happiness-faculty as a feeling of mental pleasure, the distress-faculty as a feeling of mental pain, and the equanimity-faculty as a feeling, either physical or mental, of neither pleasure nor pain.
+
+2.
+
+MN 137 explains this as follows: "Seeing a form via the eye, one explores a form that can act as the basis for happiness, one explores a form that can act as the basis for distress, one explores a form that can act as the basis for equanimity. Hearing a sound via the ear... Smelling an aroma via the nose... Tasting a flavor via the tongue... Feeling a tactile sensation via the body... Cognizing an idea via the intellect, one explores an idea that can act as the basis for happiness, one explores an idea that can act as the basis for distress, one explores an idea that can act as the basis for equanimity."
+
+3.
+
+MN 137 explains this as follows: 
+
+"And what are the six kinds of household happiness? The happiness that arises when one regards as an acquisition the acquisition of forms cognizable by the eye — agreeable, pleasing, charming, endearing, connected with worldly baits — or when one recalls the previous acquisition of such forms after they have passed, ceased, & changed: That is called household happiness. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)
+
+"And what are the six kinds of renunciation happiness? The happiness that arises when — experiencing the inconstancy of those very forms, their change, fading, & cessation — one sees with right discernment as it actually is that all forms, past or present, are inconstant, stressful, subject to change: That is called renunciation happiness. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)
+
+"And what are the six kinds of household distress? The distress that arises when one regards as a non-acquisition the non-acquisition of forms cognizable by the eye — agreeable, pleasing, charming, endearing, connected with worldly baits — or when one recalls the previous non-acquisition of such forms after they have passed, ceased, & changed: That is called household distress. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)
+
+"And what are the six kinds of renunciation distress? The distress coming from the longing that arises in one who is filled with longing for the unexcelled liberations when — experiencing the inconstancy of those very forms, their change, fading, & cessation — he sees with right discernment as it actually is that all forms, past or present, are inconstant, stressful, subject to change and he is filled with this longing: 'O when will I enter & remain in the sphere that the noble ones now enter & remain in?' This is called renunciation distress. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)
+
+"And what are the six kinds of household equanimity? The equanimity that arises when a foolish, deluded person — a run-of-the-mill, untaught person who has not conquered his limitations or the results of action & who is blind to danger — sees a form with the eye. Such equanimity does not go beyond the form, which is why it is called household equanimity. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)
+
+"And what are the six kinds of renunciation equanimity? The equanimity that arises when — experiencing the inconstancy of those very forms, their change, fading, & cessation — one sees with right discernment as it actually is that all forms, past or present, are inconstant, stressful, subject to change: This equanimity goes beyond form, which is why it is called renunciation equanimity. (Similarly with sounds, smells, tastes, tactile sensations, & ideas.)"

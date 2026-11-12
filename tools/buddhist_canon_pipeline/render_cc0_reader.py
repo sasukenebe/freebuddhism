@@ -144,7 +144,8 @@ def render_html(config: dict, body: str) -> str:
     license_text = html.escape(config["license"])
     if license_link:
         license_text = f'<a rel="license external" href="{license_link}">{license_text}</a>'
-    revision_href = f'{esc(config["source_repository"] + "/tree/" + config["source_revision"])}'
+    revision_target = config["source_repository"] + "/tree/" + config["source_revision"] if "github.com/" in config["source_repository"] else config["source_url"]
+    revision_href = esc(revision_target)
     navigation = []
     if config.get("previous_href"):
         navigation.append(
@@ -161,14 +162,23 @@ def render_html(config: dict, body: str) -> str:
             f'<li><a rel="next" href="{esc(config["next_href"])}">'
             f'Next: {html.escape(config["next_label"])}</a></li>'
         )
+    sequence_navigation = (
+        '<nav aria-label="Discourse navigation"><h2>Read in sequence</h2><ul>'
+        + "".join(navigation) + "</ul></nav>"
+        if navigation else ""
+    )
     source_label = config.get("source_label", f'SuttaCentral · {config["canonical_id"]}')
     canonical_id = config["canonical_id"].strip()
+    display_reference = config.get("group_reference", "").strip() or canonical_id
     display_title = config["title"].strip()
-    if display_title.casefold().startswith(canonical_id.casefold()):
-        display_title = display_title[len(canonical_id):].lstrip(" \t:—–-")
-    if display_title.casefold().endswith(canonical_id.casefold()):
-        display_title = display_title[:-len(canonical_id)].rstrip(" \t:—–-")
-    display_title = f"{canonical_id} — {display_title}" if display_title else canonical_id
+    if config.get("group_reference"):
+        display_title = f"{display_reference} — {display_title}" if display_title else display_reference
+    else:
+        if display_title.casefold().startswith(canonical_id.casefold()):
+            display_title = display_title[len(canonical_id):].lstrip(" \t:—–-")
+        if display_title.casefold().endswith(canonical_id.casefold()):
+            display_title = display_title[:-len(canonical_id)].rstrip(" \t:—–-")
+        display_title = f"{canonical_id} — {display_title}" if display_title else canonical_id
     breadcrumb_items = config.get("breadcrumbs") or [
         {"label": "Tipitaka", "href": config.get("tipitaka_href", "")},
         {"label": config["collection_label"], "href": config["collection_href"]},
@@ -177,7 +187,15 @@ def render_html(config: dict, body: str) -> str:
         f'<a href="{esc(item["href"])}">{html.escape(item["label"])}</a>'
         for item in breadcrumb_items
     )
-    breadcrumbs += f' → <span aria-current="page">{html.escape(canonical_id)}</span>'
+    breadcrumbs += f' → <span aria-current="page">{html.escape(display_reference)}</span>'
+    group_members = config.get("group_members", [])
+    group_navigation = (
+        '<section aria-labelledby="group-references"><h2 id="group-references">Text pages covered</h2><ul>'
+        + "".join(f'<li><a href="{esc(item["href"])}">{html.escape(item["label"])}</a></li>'
+                  for item in group_members)
+        + "</ul></section>"
+        if group_members else ""
+    )
     metadata_notes = config.get("metadata_notes", [])
     details_html = (
         '<details><summary>Edition details</summary><ul>'
@@ -193,6 +211,11 @@ def render_html(config: dict, body: str) -> str:
     original_book = (
         f'<p><a href="{esc(config["original_book_href"])}">Original book PDF and complete permission notice</a></p>'
         if config.get("original_book_href") else ""
+    )
+    rights_notice = (
+        '<p>' + html.escape(config.get("copyright", "")) + '</p><p>'
+        + html.escape(config.get("license_notice", "")) + '</p>'
+        if config.get("license_notice") else ""
     )
     return f'''<!doctype html>
 <html lang="en">
@@ -218,16 +241,14 @@ def render_html(config: dict, body: str) -> str:
 <h2 id="translation-heading">Translation</h2>
 <ul>{translations}</ul>
 </section>
+{group_navigation}
 <nav aria-label="Downloads" class="downloads">
 <h2>Download</h2>
 <a href="{esc(config['local_text_href'])}" download>TXT</a>
 <a href="{esc(config['html_download_href'])}" download>HTML</a>
 <a href="{esc(config['pdf_download_href'])}" download>PDF</a>
 </nav>
-<nav aria-label="Discourse navigation">
-<h2>Read in sequence</h2>
-<ul>{''.join(navigation)}</ul>
-</nav>
+{sequence_navigation}
 <main>
 <article>
 <h2>Text</h2>
@@ -236,6 +257,7 @@ def render_html(config: dict, body: str) -> str:
 </main>
 <footer>
 <h2>Source and license</h2>
+{rights_notice}
 <dl>
 <dt>Translator</dt><dd>{html.escape(config['translator'])}</dd>
 <dt>Source</dt><dd><a rel="external" href="{source_link}">{html.escape(source_label)}</a></dd>
@@ -304,12 +326,15 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
     }
     metadata = [
         "Source: " + config["source_url"],
+        *(["Covers: " + ", ".join(item["label"] for item in config["group_members"])]
+          if config.get("group_members") else []),
         *(["Source revision: " + config["source_revision"]] if config.get("source_revision") else []),
         "License: " + config["license"] + (" — " + config["license_url"] if config.get("license_url") else ""),
         *config.get("metadata_notes", []),
     ]
+    display_reference = config.get("group_reference", "").strip() or config["canonical_id"]
     story = [
-        Paragraph(html.escape(config["canonical_id"] + " — " + config["title"]), styles["title"]),
+        Paragraph(html.escape(display_reference + " — " + config["title"]), styles["title"]),
         Paragraph("English translation by " + html.escape(config["translator"]) + ".", styles["metadata"]),
         *(Paragraph(html.escape(line), styles["metadata"]) for line in metadata),
         Paragraph("Text", styles["heading"]),
@@ -324,7 +349,7 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
     document = SimpleDocTemplate(
         str(target), pagesize=A4, rightMargin=24 * mm, leftMargin=24 * mm,
         topMargin=24 * mm, bottomMargin=24 * mm,
-        title=config["canonical_id"] + " — " + config["title"],
+        title=display_reference + " — " + config["title"],
         author=config["translator"],
     )
 

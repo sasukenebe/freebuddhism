@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:116 Immeasurable | Appameyya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+                <h3 id="AN3.116" class="h1">Immeasurable<br/>
+                  Appameyya Sutta  (AN 3:116)</h3><!--end suttahead-->
+<p>“Monks, these three persons are to be found existing in the world. Which three? One who is easy to measure, one who is hard to measure, &amp; one who is immeasurable.</p>
+<p>“And which is the person who is easy to measure? There is the case where a certain person is high-strung, rowdy, unruly, talkative, of loose words &amp; muddled mindfulness, unalert, unconcentrated, his mind scattered, his faculties left wide open. This is called a person who is easy to measure.</p>
+<p>“And which is the person who is hard to measure? There is the case where a certain person is not high-strung, not rowdy, not unruly, not talkative, not of loose words—one with mindfulness established, alert, concentrated, his mind gathered into singleness, his faculties restrained. This is called a person who is hard to measure.</p>
+<p>“And which is the person who is immeasurable? There is the case where a monk is an arahant, his effluents ended. This is called a person who is immeasurable.</p>
+<p>“These, monks, are three persons to be found existing in the world.”</p>
+<p class="seealso">See also: <a href="../MN/MN72.html" class="sutta-ref">MN 72</a>; <a href="../SN/SN44_1.html" class="sutta-ref">SN 44:1</a>; <a href="../KN/Ud/ud4_2.html" class="sutta-ref">Ud 4:2</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

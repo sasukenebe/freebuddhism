@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 4:10 Sāriputta | Sāriputta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud4.10" class="h1">Ud 4:10 Sāriputta (Sāriputta Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Sāriputta was sitting not far from the Blessed One–his legs crossed, his body held erect–reflecting on the peace within himself. The Blessed One saw Ven. Sāriputta sitting not far away–his legs crossed, his body held erect–reflecting on the peace within himself.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>For the monk whose mind is</p>
+                <p class="v2">peaceful, at peace,</p>
+                <p>whose cord is cut,<span class="fn"><a href="#ud4.10note01">1</a></span><!--end fn cite--></p>
+                <p>birth &amp; the wandering on</p>
+                <p class="v2">are totally ended.</p>
+                <p>Freed is he</p>
+                <p>from Māra’s bonds.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud4.10note01">1. The cord (to becoming) is craving.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

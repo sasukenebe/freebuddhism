@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 1:51 Old Age | Jarā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN1.51" class="h1">Old Age<br/>
+                Jarā Sutta  (SN 1:51)</h2>
+              <div class="verse">
+                <p>“What is good      all the way through old age?</p>
+                <p>What is good      when established?</p>
+                <p>What is the treasure of human beings?</p>
+                <p>What can’t be stolen by thieves?”</p>
+                <div class="verse-add">
+                  <p class="vspk">The Buddha:</p>
+                  <p>“Virtue is good      all the way through old age.</p>
+                  <p>Conviction is good      when established.</p>
+                  <p>Discernment is the treasure of human beings.</p>
+                  <p>Merit can’t be stolen by thieves.”</p>
+                </div>
+              </div>
+              <p class="seealso">See also: <a href="../AN/AN7_6.html">AN 7:6–7</a>; <a href="../KN/Dhp/Ch11.html#dhp151">Dhp 151</a>; <a href="../KN/Dhp/Ch23.html#dhp333">Dhp 333</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

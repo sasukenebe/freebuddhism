@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+<head>
+    <title>AN 3:1 Danger | Bhaya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+<!--<p>Blurb: All the troubles in the world come from fools, and not from wise people. So don’t be a fool.</p>-->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+        <div id="sutta">
+            <h2 id="Threes" class="chap">Threes</h2>
+                <h3 id="AN3.1" class="h1">Danger<br/>
+                  Bhaya Sutta  (AN 3:1)</h3><!--end suttahead-->
+<p>I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta's Grove, Anāthapiṇḍika’s monastery. There he addressed the monks: “Monks!”</p>
+<p>“Yes, lord,” the monks responded to him.</p>
+<p>The Blessed One said, “Monks, whatever dangers arise all arise from a fool, and not from a wise person. Whatever disasters arise all arise from a fool, and not from a wise person. Whatever troubles arise all arise from a fool, and not from a wise person.</p>
+<p>“Just as a fire, released from a house of reeds or a house of grass, burns even gabled houses, plastered inside &amp; out, draft-free, with close-fitting doors &amp; windows shut against the wind; in the same way, whatever dangers arise all arise from a fool, and not from a wise person. Whatever disasters arise all arise from a fool, and not from a wise person. Whatever troubles arise all arise from a fool and not from a wise person.</p>
+<p>“Thus, monks, a fool brings danger; a wise person brings no danger. A fool brings disasters; a wise person brings no disasters. A fool brings trouble; a wise person brings no trouble.</p>
+<p>“There is no danger from a wise person. There are no disasters from a wise person. There is no trouble from a wise person.</p>
+<p>“Thus, monks, you should train yourselves: ‘We will avoid the three things that, endowed with which, one is to be recognized as a fool.<span class="fn"><a href="#an3.1note01">1</a></span><!--end fn cite--> We will undertake &amp; maintain the three things that, endowed with which, one is to be recognized as a wise person.’ That’s how you should train yourselves.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+<p id="an3.1note01">1. In other words, we will bring no dangers, disasters, or trouble. For two other lists of a fool’s three characteristics, see AN <a href="AN3_2.html">3:2</a> and <a href="AN3_5.html">AN 3:5</a>.</p>
+                </div><!--end notes-->
+<p class="seealso">See also: <a href="AN2_21.html">AN 2:21</a>; <a href="AN2_99.html">AN 2:99</a>; <a href="AN2_134.html">AN 2:134</a>; <a href="AN3_2.html">AN 3:2</a>; <a href="AN3_5.html">AN 3:5</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+
+

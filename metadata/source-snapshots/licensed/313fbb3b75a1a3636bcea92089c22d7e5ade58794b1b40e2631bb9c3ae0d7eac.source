@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 1:73 Wealth | Vitta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: What is your best wealth?-->
+<h2 class="h1">Wealth<br/>
+Vitta Sutta  (SN 1:73)</h2>
+<div class="verse">
+<pre>“What is a person’s best wealth here?
+What, well practiced, brings bliss?
+What’s the most excellent of savors?
+Living in what way
+	is one’s life called the best?”</pre>
+<pre>“Conviction is a person’s best wealth here.
+Dhamma, well practiced, brings bliss.
+Truth is the most excellent of savors.
+Living with discernment,
+	one’s life is called best.”</pre>
+</div><!--end verse-->
+<p class="seealso">See also: <a href="../AN/AN7_6.html" class="sutta-ref">AN 7:6–7</a>; <a href="../KN/StNp/StNp1_10.html" class="sutta-ref">Sn 1:10</a></p>
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+SN 12.15 - SN 12:15 To Kaccāna Gotta | Kaccānagotta Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN12_15.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+To Kaccāna Gotta
+ Kaccānagotta Sutta (SN 12:15)
+
+This sutta discusses a level of right view that apparently lies beyond the four noble truths, and applies to the point in the practice where the path has been fully developed, has done its work, and now has to be abandoned. Whereas the four noble truths carry four different duties, this level of right view reduces all arising and passing away—including, apparently, the arising and passing away of the path—to stress, thus involving only one duty: comprehension to the point of dispassion. It is in this way that all fabricated dhammas are abandoned and unbinding can be fully realized. Other suttas discussing this level of right view include AN 7:58, AN 10:93, and Ud 1:10,
+
+* * *
+
+Staying near Sāvatthī … Then Ven. Kaccāna Gotta went to the Blessed One and, on arrival, having bowed down, sat to one side. As he was sitting there he said to the Blessed One: “Lord, ‘Right view, right view,’ it is said. To what extent is there right view?”
+
+“By & large, Kaccāna, this world1 is supported by [takes as its object] a polarity, that of existence & non-existence. But when one sees the origination2 of the world as it has come to be with right discernment, ‘non-existence’ with reference to the world does not occur to one. When one sees the cessation of the world as it has come to be with right discernment, ‘existence’ with reference to the world does not occur to one.3
+
+“By & large, Kaccāna, this world is in bondage to attachments, clingings [sustenances], & biases. But one such as this does not get involved with or cling to these attachments, clingings, fixations of awareness, biases, or obsessions; nor is he resolved on ‘my self.’ He has no uncertainty or doubt that mere stress, when arising, is arising; stress, when passing away, is passing away.4 In this, his knowledge is independent of others. It’s to this extent, Kaccāna, that there is right view.
+
+“‘Everything exists’: That is one extreme. ‘Everything doesn’t exist’: That is a second extreme.5 Avoiding these two extremes, the Tathāgata teaches the Dhamma via the middle: From ignorance as a requisite condition come fabrications.
+
+From fabrications as a requisite condition comes consciousness.
+
+From consciousness as a requisite condition comes name-&-form.
+
+From name-&-form as a requisite condition come the six sense media.
+
+From the six sense media as a requisite condition comes contact.
+
+From contact as a requisite condition comes feeling.
+
+From feeling as a requisite condition comes craving.
+
+From craving as a requisite condition comes clinging/sustenance.
+
+From clinging/sustenance as a requisite condition comes becoming.
+
+From becoming as a requisite condition comes birth.
+
+From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering.
+
+“Now from the remainderless fading & cessation of that very ignorance comes the cessation of fabrications. From the cessation of fabrications comes the cessation of consciousness. From the cessation of consciousness comes the cessation of name-&-form. From the cessation of name-&-form comes the cessation of the six sense media. From the cessation of the six sense media comes the cessation of contact. From the cessation of contact comes the cessation of feeling. From the cessation of feeling comes the cessation of craving. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging-&-death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.”
+
+Notes
+
+1. For the meaning of “world,” here, see SN 35:82.
+
+2. As SN 22:5 shows, “origination” means, not the simple arising of phenomena, but the cause of their arising. See also SN 56:11.
+
+3. There is an apparent discrepancy between the statements in this sutta and this statement in SN 22:94: “Form that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’ Feeling that’s inconstant… Perception that’s inconstant… Fabrications that are inconstant… Consciousness that’s inconstant, stressful, subject to change is agreed upon by the wise as existing in the world, and I too say, ‘It exists.’”
+
+The apparent discrepancy here can be resolved when we note that this sutta is describing the state of mind of a person focusing on the origination or cessation of the data of the senses. A person in that state of mind would see nothing in that mode of perception that would give rise to thoughts of existence or non-existence with regard to those sense data. However, when people are engaging in discussions about things that do or do not appear in the world—as the Buddha is describing in SN 22:94—then the terms “exist” and “do not exist” would naturally occur to them.
+
+In other words, this sutta and SN 22:94 are not making different claims about the ontological status of the world. They are simply describing the types of concepts that do or don’t occur to the mind when regarding the world in different ways.
+
+4. See SN 5:10.
+
+5. See SN 12:48. On the meaning of “everything” (or “all”—sabba) here, see SN 35:23.
+
+See also: MN 22; SN 12:48; SN 22:47; SN 35:80; Sn 4:5; Sn 4:8–10; Sn 4:15; Sn 5:15

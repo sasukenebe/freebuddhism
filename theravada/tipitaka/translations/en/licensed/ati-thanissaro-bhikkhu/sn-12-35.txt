@@ -1,0 +1,60 @@
+SN 12.35 - Avijjapaccaya Sutta: From Ignorance as a Requisite Condition
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.035.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2000 Thanissaro Bhikkhu.
+License notice: The text of this page ("Avijjapaccaya Sutta: From Ignorance as a Requisite Condition", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2000 Thanissaro Bhikkhu. The text of this page ("Avijjapaccaya Sutta: From Ignorance as a Requisite Condition", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 25 July 2010. How to cite this document (a suggested style): "Avijjapaccaya Sutta: From Ignorance as a Requisite Condition" (SN 12.35), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 25 July 2010, https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.035.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Translator's note: In this discourse, the Buddha refuses to answer the question of whether there is anyone or anything lying behind the processes described in dependent origination. When his interlocutor asks, for each factor in the causal process, "Which is the X, and whose is the X?" the Buddha equates this with the assumption that "X is one thing, and it is the X of someone/something else." He then equates this with the proposition, which he has rejected many times elsewhere in the discourses, that the life-principle is one thing, and the body is something else, i.e., that there is something unseen lying behind the visible processes of life. However, the Buddha has also rejected, in as many times, the proposition that the life-principle is the same as the body, i.e., that there is nothing unseen lying behind the visible processes of life. Avoiding these two extremes, he simply drops the question and focuses attention on what is directly perceivable — the way one factor in dependent co-arising functions as a prerequisite for the next. If one were to focus on what might or might not lie behind these factors, one would be tied up in speculations about what, by definition, can never be experienced. But by focusing on the interplay of the factors that are directly perceivable, and — by so doing — developing dispassion for them, one can overcome the craving and ignorance that keep producing stress and suffering, and in that way gain release.
+
+Staying at Savatthi... [the Blessed One said,] "From ignorance as a requisite condition come fabrications... From birth as a requisite condition, then aging-&-death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering."
+
+When this was said, a certain monk said to the Blessed One: "Which aging & death, lord? And whose is this aging & death?"
+
+"Not a valid question," the Blessed One said. If one were to ask, 'Which aging & death? And whose is this aging & death?' and if one were to ask, 'Is aging & death one thing, and is this the aging & death of someone/something else?' both of them would have the same meaning, even though their words would differ. When there is the view that the soul is the same as the body, there isn't the leading of the holy life. And when there is the view that the soul is one thing and the body another, there isn't the leading of the holy life. Avoiding these two extremes, the Tathagata points out the Dhamma in between: From birth as a requisite condition comes aging & death."
+
+"Which birth, lord? And whose is this birth?"
+
+"Not a valid question," the Blessed One said... "From becoming as a requisite condition comes birth."
+
+"Which becoming, lord? And whose is this becoming?"
+
+"Not a valid question," the Blessed One said... "From clinging as a requisite condition comes becoming."
+
+"Which clinging, lord? And whose is this clinging?"
+
+"Not a valid question," the Blessed One said... "From craving as a requisite condition comes clinging."
+
+"Which craving, lord? And whose is this craving?"
+
+"Not a valid question," the Blessed One said... "From feeling as a requisite condition comes craving."
+
+"Which feeling, lord? And whose is this feeling?"
+
+"Not a valid question," the Blessed One said... "From contact as a requisite condition comes feeling."
+
+"Which contact, lord? And whose is this contact?"
+
+"Not a valid question," the Blessed One said... "From the six sense media as a requisite condition comes contact."
+
+"Which are the six sense media, lord, and whose are the six sense media?"
+
+"Not a valid question," the Blessed One said... "From name-&-form as a requisite condition come the six sense media."
+
+"Which name-&-form, lord? And whose is this name-&-form?"
+
+"Not a valid question," the Blessed One said... "From consciousness as a requisite condition comes name-&-form."
+
+"Which consciousness, lord? And whose is this consciousness?"
+
+"Not a valid question," the Blessed One said... "From fabrications as a requisite condition comes consciousness."
+
+"Which fabrications, lord? And whose are the fabrications?"
+
+"Not a valid question," the Blessed One said. "If one were to ask, 'Which are the fabrications, and whose are the fabrications?' and if one were to say, 'Fabrications are one thing, and these fabrications are something/someone else's,' both of them would have the same meaning, even though their words would differ. When there is the view that the life-principle is the same as the body, there is no leading the holy life. And when there is the view that the life-principle is one thing and the body another, there is no leading the holy life. Avoiding these two extremes, the Tathagata points out the Dhamma in between: From ignorance as requisite condition come fabrications. Now from the remainderless fading & cessation of that very ignorance, every one of these writhings & wrigglings & wigglings — 'Which aging & death? And whose is this aging & death?' or 'Is aging & death one thing, and is this the aging & death of someone/something else?' or 'The soul is the same as the body,' or 'The soul is one thing and the body another' — are abandoned, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising."
+
+See also: SN 12.17

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 45:155 The Air | Ākāsa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN45.155" class="h1">The Air<br/>
+                Ākāsa Sutta  (SN 45:155)</h2><!--end suttahead-->
+              <p>“Monks, just as many kinds of wind blow in the air—east winds, west winds, north winds, south winds, dusty winds, dustless winds, cold winds, warm winds, gentle winds, &amp; strong winds—in the same way, when the noble eightfold path is developed by a monk, is pursued by a monk, the four establishings of mindfulness go to the culmination of their development, the four right exertions… the four bases of power… the five faculties… the five strengths… the seven factors for awakening go to the culmination of their development.</p>
+              <p>“And how is it that when the noble eightfold path is developed by a monk, is pursued by a monk, the four establishings of mindfulness go to the culmination of their development, the four right exertions… the four bases of power… the five faculties… the five strengths… the seven factors for awakening go to the culmination of their development? There is the case where a monk develops right view dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go. He develops right resolve… right speech… right action… right livelihood… right effort… right mindfulness… right concentration dependent on seclusion… dispassion… cessation, resulting in letting go. This is how—when the noble eightfold path is developed by a monk, is pursued by a monk—the four establishings of mindfulness go to the culmination of their development, the four right exertions… the four bases of power… the five faculties… the five strengths… the seven factors for awakening go to the culmination of their development.”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

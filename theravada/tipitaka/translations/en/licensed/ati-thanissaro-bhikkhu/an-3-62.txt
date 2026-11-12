@@ -1,0 +1,46 @@
+AN 3.62 - Bhaya Sutta: Dangers
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an03/an03.062.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2005 Thanissaro Bhikkhu.
+License notice: The text of this page ("Bhaya Sutta: Dangers", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2005 Thanissaro Bhikkhu. The text of this page ("Bhaya Sutta: Dangers", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 3 July 2010. How to cite this document (a suggested style): "Bhaya Sutta: Dangers" (AN 3.62), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 3 July 2010, https://www.accesstoinsight.org/tipitaka/an/an03/an03.062.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+"Monks, uneducated run-of-the-mill people describe three things as mother-&-child-separating dangers. Which three?
+
+"There comes a time when a great fire-conflagration breaks out. When a great fire-conflagration breaks out, it burns villages, towns, & cities. When it is burning villages, towns, & cities, a mother there can't get to her child, and the child can't get to its mother. This is the first thing that uneducated run-of-the-mill people describe as a mother-&-child-separating danger.
+
+"Then again there comes a time when a great cloud arises. When a great cloud arises, a great flood of water is produced. When a great flood of water is produced, it floods villages, towns, & cities. When it is flooding villages, towns, & cities, a mother there can't get to her child, and the child can't get to its mother. This is the second thing that uneducated run-of-the-mill people describe as a mother-&-child-separating danger.
+
+"Then again there comes a time when there is danger and an invasion of savage tribes. Taking power, they surround the countryside. When this happens, a mother there can't get to her child, and the child can't get to its mother. This is the third thing that uneducated run-of-the-mill people describe as a mother-&-child-separating danger.
+
+"These are the three things that uneducated run-of-the-mill people describe as mother-&-child-separating dangers.
+
+"But there are these three things that are mother-&-child-uniting dangers, yet run-of-the-mill people describe them as mother-&-child-separating dangers. Which three?
+
+"There comes a time when a great fire-conflagration breaks out. When a great fire-conflagration breaks out, it burns villages, towns, & cities. When it is burning villages, towns, & cities, there are times when it so happens that a mother can get to her child, and the child can get to its mother. This is the first thing that is a mother-&-child-uniting danger, yet run-of-the-mill people describe it as a mother-&-child-separating danger.
+
+"Then again there comes a time when a great cloud arises. When a great cloud arises, a great flood of water is produced. When a great flood of water is produced, it floods villages, towns, & cities. When it is flooding villages, towns, & cities, there are times when it so happens that a mother can get to her child, and the child can get to its mother. This is the second thing that is a mother-&-child-uniting danger, yet run-of-the-mill people describe it as a mother-&-child-separating danger.
+
+"Then again there comes a time when there is danger and an invasion of savage tribes. Taking power, they surround the countryside. When this happens, there are times when it so happens that a mother can get to her child, and the child can get to its mother. This is the third thing that is a mother-&-child-uniting danger, yet run-of-the-mill people describe it as a mother-&-child-separating danger.
+
+"These are the three things that are mother-&-child-uniting dangers, yet run-of-the-mill people describe them as mother-&-child-separating dangers.
+
+"There are these three things that are (genuine) mother-&-child-separating dangers. Which three? The danger of aging, the danger of illness, the danger of death.
+
+"A mother can't get (her wish) with regard to her child who is aging, 'I am aging, but may my child not age.' A child can't get (its wish) with regard to its mother who is aging, 'I am aging, but may my mother not age.'
+
+"A mother can't get (her wish) with regard to her child who is growing ill, 'I am growing ill, but may my child not grow ill.' A child can't get (its wish) with regard to its mother who is growing ill, 'I am growing ill, but may my mother not grow ill.'
+
+"A mother can't get (her wish) with regard to her child who is dying, 'I am dying, but may my child not die.' A child can't get (its wish) with regard to its mother who is dying, 'I am dying, but may my mother not die.'
+
+"These are the three things that are (genuine) mother-&-child-separating dangers.
+
+"There is a path, there is a practice, that leads to the abandoning and overcoming of these three mother-&-child-uniting dangers and these three mother-&-child-separating dangers.
+
+"And which is that path, which is that practice...? Just this very noble eightfold path, i.e., right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.
+
+"This is the path, this the practice, that leads to the abandoning and overcoming of these three mother-&-child-uniting dangers and these three mother-&-child-separating dangers."

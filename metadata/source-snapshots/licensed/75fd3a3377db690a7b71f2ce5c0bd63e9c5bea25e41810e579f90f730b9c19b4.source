@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 3:13 Abhibhūta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag3.13" class="h1">Thag 3:13  Abhibhūta</h4>
+            <div class="verse">
+              <p>Listen, kinsmen, all of you,</p>
+              <p>as many as are assembled here.</p>
+              <p>I will teach you the Dhamma:</p>
+              <p class="v2">Painful is birth,</p>
+              <p class="v2">again &amp; again.</p>
+              <div class="verse-add">
+                <p>Rouse yourselves.</p>
+                <p class="v2">Go forth.</p>
+                <p>Apply yourselves</p>
+                <p>to the Awakened One’s bidding.</p>
+                <p>Scatter the army of Death</p>
+                <p>as an elephant would</p>
+                <p>a shed made of reeds.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>He who,</p>
+                <p>in this Dhamma &amp; Vinaya,</p>
+                <p>stays heedful,</p>
+                <p>abandoning birth,</p>
+                <p class="v2">the wandering-on,</p>
+                <p>will put an end</p>
+                <p>to suffering &amp; stress.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

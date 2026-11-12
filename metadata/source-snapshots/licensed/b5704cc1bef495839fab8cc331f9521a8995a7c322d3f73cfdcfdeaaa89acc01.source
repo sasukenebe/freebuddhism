@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 6:2 Tekicchakāni</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag6.2" class="h1">Thag 6:2  Tekicchakāni</h4>
+            <div class="verse">
+              <p>The grain: harvested.</p>
+              <p>The rice: gone to be threshed.</p>
+              <p>But I don’t get any alms.</p>
+              <p>How will I get by?</p>
+              <div class="verse-add">
+                <p class="v2">Confident, recollect</p>
+                <p class="v2">the immeasurable Buddha.</p>
+                <p class="v2">Your body pervaded with rapture,</p>
+                <p class="v3">you’ll be at the height</p>
+                <p class="v3">of continual joy.</p>
+                <p class="v2">Confident, recollect</p>
+                <p class="v2">the immeasurable Dhamma.</p>
+                <p class="v2">Your body pervaded with rapture,</p>
+                <p class="v3">you’ll be at the height</p>
+                <p class="v3">of continual joy.</p>
+                <p class="v2">Confident, recollect</p>
+                <p class="v2">the immeasurable Saṅgha.</p>
+                <p class="v2">Your body pervaded with rapture,</p>
+                <p class="v3">you’ll be at the height</p>
+                <p class="v3">of continual joy.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>You live in the open air.</p>
+                <p>Cold are these wintry nights.</p>
+                <p>Don’t suffer, overcome with the cold.</p>
+                <p>Go into your hut, with its fastened bolt.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v1">I’ll fasten the four</p>
+                <p class="v1">immeasurables.<span class="fn"><a href="#thag6.2note01">1</a></span><!--end fn cite--></p>
+                <p class="v1">With them, I’ll dwell</p>
+                <p class="v3">in comfort.</p>
+                <p class="v1">I won’t suffer from the cold,</p>
+                <p class="v3">dwelling</p>
+                <p class="v3">unperturbed.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag6.2note01">1. Concentration based on immeasurable goodwill, compassion, empathetic joy, and equanimity. See <a href="../../AN/AN3_66.html">AN 3:66</a> and <a href="../../SN/SN42_8.html">SN 42:8</a>.</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../../DN/DN26.html">DN 26</a>; <a href="../../SN/SN11_3.html">SN 11:3</a>; <a href="../../AN/AN3_35.html">AN 3:35</a>; <a href="../../AN/AN5_27.html">AN 5:27</a>; <a href="../StNp/StNp4_16.html">Sn 4:16</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

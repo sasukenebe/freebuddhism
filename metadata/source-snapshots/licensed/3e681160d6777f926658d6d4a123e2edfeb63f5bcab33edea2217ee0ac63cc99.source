@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:26 Allure | Assāda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.26" class="h1">Allure<br/>
+                Assāda Sutta  (SN 22:26)</h2>
+<p>Near Sāvatthī.</p>
+<p>“Monks, before my self-awakening, when I was still just an unawakened bodhisatta, the thought occurred to me: ‘What is the allure of form? What is its drawback? What is its escape?</p>
+<p>“‘What is the allure of feeling? What is its drawback? What is its escape?</p>
+<p>“‘What is the allure of perception? What is its drawback? What is its escape?</p>
+<p>“‘What is the allure of fabrications? What is their drawback? What is their escape?</p>
+<p>“‘What is the allure of consciousness? What is its drawback? What is its escape?’</p>
+<p>“Then the thought occurred to me, ‘Whatever pleasure &amp; joy arises dependent on form: That is the allure of form. The fact that form is inconstant, stressful, subject to change: That is the drawback of form. The subduing of desire &amp; passion, the abandoning of desire &amp; passion for form: That is the escape from form.</p>
+<p>[Similarly with feeling, perception, fabrications, &amp; consciousness.]</p>
+<p>“Monks, as long as I did not have direct knowledge, as it had come to be, of the allure as allure, of the drawback as drawback, and of the escape as escape, with regard to these five clinging-aggregates, I did not claim to have directly awakened to the right self-awakening unexcelled in the cosmos with its devas, Māras, &amp; Brahmās, in this generation with its contemplatives &amp; brahmans, its royalty &amp; common people.</p>
+<p>“But when I did have direct knowledge, as it had come to be, of the allure as allure, the drawback as drawback, and the escape as escape, with regard to these five clinging-aggregates, then I did claim to have directly awakened to the right self-awakening unexcelled in the cosmos with its devas, Māras, &amp; Brahmās, in this generation with its contemplatives &amp; brahmans, its royalty &amp; common people.</p>
+<p>“Knowledge &amp; vision arose in me: ‘Unprovoked is my release. This is the last birth. There is now no further-becoming.’”</p>
+<p class="seealso">See also: <a href="SN22_57.html">SN 22:57</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+</body>
+</html>

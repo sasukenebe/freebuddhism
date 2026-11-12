@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 6:41 The Wood Pile | Dārukkhandha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN6.41" class="h1">The Wood Pile<br/>
+                  Dārukkhandha Sutta  (AN 6:41)</h3><!--end suttahead-->
+                <p>I have heard that on one occasion the Blessed One was staying near Rājagaha on Vulture Peak Mountain. Then early in the morning, Ven. Sāriputta, having adjusted his lower robe and carrying his bowl &amp; outer robe, was coming down from Vulture Peak Mountain with a large group of monks when he saw a large wood pile off to one side. Seeing it, he said to the monks, “Friends, do you see that large wood pile over there?”</p>
+                <p>“Yes, friend,” the monks replied.</p>
+                <p>“Friends, if he wanted to, a monk with psychic power, having attained mastery of his mind, could will that wood pile to be nothing but earth. Why is that? There is earth-property [or: earth-potential] in that wood pile, in dependence on which he could will that wood pile to be nothing but earth.</p>
+                <p>“If he wanted to, a monk with psychic power, having attained mastery of his mind, could will that wood pile to be nothing but water… fire… wind… beautiful… unattractive. Why is that? There is the property of the unattractive in that wood pile, in dependence on which he could will that wood pile to be nothing but unattractive.”</p>
+                <p class="seealso">See also: <a href="../DN/DN11.html">DN 11</a>; <a href="../SN/SN41_4.html">SN 41:4</a>; <a href="../SN/SN51_20.html">SN 51:20</a>; <a href="AN3_61.html">AN 3:61</a>; <a href="AN5_28.html">AN 5:28</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

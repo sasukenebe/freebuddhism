@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 8:9 Dabba (1) | Dabba Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud8.9" class="h1">Ud 8:9 Dabba (1) (Dabba Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. Then Ven. Dabba Mallaputta went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “Now is the time for my total unbinding, O One-Well-Gone!”</p>
+              <p>“Then do, Dabba, what you think it is now time to do.”</p>
+              <p>Then Ven. Dabba Mallaputta, rising from his seat, bowed down to the Blessed One and, circling him on the right, rose up into the air and sat cross-legged in the sky, in space. Entering &amp; emerging from the fire property, he was totally unbound. Now, when Dabba Mallaputta rose up into the air and, sitting cross-legged in the sky, in space, entered &amp; emerged from the fire property and was totally unbound, his body burned and was consumed so that neither ashes nor soot could be discerned. Just as when ghee or oil is burned and consumed, neither ashes nor soot can be discerned, in the same way, when Dabba Mallaputta rose up into the air and, sitting cross-legged in the sky, in space, entered &amp; emerged from the fire property and was totally unbound, his body burned and was consumed so that neither ashes nor soot could be discerned.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>The body broke up,</p>
+                <p>perception ceased,</p>
+                <p>feelings went cold<span class="fn"><a href="#ud8.9note01">1</a></span><!--end fn cite--></p>
+                <p class="v2">–all–<span class="fn"><a href="#ud8.9note02">2</a></span><!--end fn cite--></p>
+                <p>fabrications were stilled,</p>
+                <p class="v2">consciousness</p>
+                <p class="v2">has come to an end.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Notes</p><!--end notetitle-->
+                <p id="ud8.9note01">1. Following the reading <em>vedanā sītibhaviṁsu</em> from the Burmese and Sri Lankan editions. In support of this reading, see <a href="../../MN/MN140.html">MN 140</a> and <a href="../Iti/iti44.html">Iti 44</a>. The Thai edition reads, <em>vedanā-pīti-dahaṁsu:</em> feeling &amp; rapture were burned away.</p>
+                <p id="ud8.9note02">2. The word “all” here functions as a lamp, modifying both “feelings” and “fabrications.” See <a href="ud1_3.html#ud1.3note01">Ud 1:3, note 1</a>.</p>
+              </div>
+              <p class="seealso">See also: <a href="../../DN/DN11.html">DN 11</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

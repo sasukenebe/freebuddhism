@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 45:153 A Pot | Kumbha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+<body>
+  <div id="container">
+    <!--#include virtual="/php/suttabanner-nav.html"  -->
+    <div id="content">
+      <!--#include virtual="/php/suttasidebar.html"  -->
+      <div id="sutta">
+              <h2 id="SN45.153" class="h1">A Pot<br/>
+                Kumbha Sutta  (SN 45:153)</h2>
+<p>At Sāvatthī. “Monks, just as a pot turned upside down disgorges water &amp; doesn’t swallow it back in; in the same way, a monk developing &amp; cultivating the noble eightfold path disgorges evil, unskillful qualities &amp; doesn’t swallow them back in.</p>
+<p>“And how is it that a monk developing &amp; cultivating the noble eightfold path disgorges evil, unskillful qualities &amp; doesn’t swallow them back in? There is the case where a monk develops right view dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go. He develops right resolve… right speech… right action… right livelihood… right effort… right mindfulness… He develops right concentration dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go.</p>
+<p>“This is how a monk developing &amp; cultivating the noble eightfold path disgorges evil, unskillful qualities &amp; doesn’t swallow them back in.”</p>
+<p class="seealso">See also: <a href="SN45_27.html" class="sutta-ref">SN 45:27</a></p>
+
+  
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    <!--#include virtual="/php/suttafooter.html"  -->
+  </div><!--end:container-->
+<!--________ALL SCRIPTS BELOW HERE________-->
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+</body></html>

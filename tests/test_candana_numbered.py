@@ -80,8 +80,35 @@ class NumberedBookTests(unittest.TestCase):
         self.assertTrue(body.rstrip().endswith('Therefore, Bhikkhus, these are the three methods of practice.'))
         self.assertNotIn('156. Dutiya', body)
         report = json.loads((ROOT / 'metadata/reports/candana-numbered-books-2026-11-07.json').read_text())
-        self.assertEqual(report['books']['an-book3']['held_source_labels'],
+        book = report['books']['an-book3']
+        self.assertEqual(book['held_source_labels'], [])
+        self.assertEqual(book['grouped_source_labels'],
                          [str(i) for i in range(156, 167)] + ['167-352'])
+
+    def test_final_book_three_group_is_kept_once_under_existing_group_reference(self):
+        manifest = verified_manifest(require_review=True)
+        rows = [row for row in manifest['group_texts'] if row['book'] == 'an-book3']
+        self.assertEqual(len(rows), 12)
+        row = next(item for item in rows if item['source_labels'] == ['167-352'])
+        self.assertEqual(row['canonical_id'], 'AN 3.183-352')
+        self.assertEqual(row['canonical_ids'], ['AN 3.183-352'])
+        self.assertEqual(row['group_reference'], 'AN 3.183–352')
+        self.assertEqual(row['source_pdf_pages'], [295, 299])
+        self.assertEqual(row['body_sha256'],
+                         'cf449ffc66761c1c7d9c3351ee1f59dbbddaf5157a52708519bc06e74639eb02')
+        self.assertIn('not aligned one-to-one', row['completeness_scope'])
+        body = (ROOT / row['local_path']).read_text(encoding='utf-8').split('\n\n', 1)[1]
+        self.assertIn('167 - 352. a. Bhikkhus, to thoroughly and directly know passion', body)
+        self.assertIn('p. Bhikkhus, to thoroughly and directly know negligence', body)
+        self.assertTrue(body.rstrip().endswith(
+            'The Bhikkhus were utterly delighted and gladdened by listening to The Blessed One’s words.'))
+        report = json.loads((ROOT / 'metadata/reports/candana-numbered-books-2026-11-07.json').read_text())
+        book = report['books']['an-book3']
+        self.assertEqual(book['grouped_source_body_count'], 12)
+        self.assertEqual(book['grouped_canonical_reference_count'], 27)
+        self.assertEqual(book['imported_source_sections'], 169)
+        self.assertEqual(book['held_source_labels'], [])
+        self.assertEqual(book['unresolved_group_source_labels'], [])
 
     def test_numbered_review_rejects_changed_report(self):
         manifest = json.loads((ROOT / "metadata/source-manifests/candana.json").read_text())

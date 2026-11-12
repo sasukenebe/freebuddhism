@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 15:3 Tears | Assu Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN15.3" class="h1">Tears<br/>
+                Assu Sutta  (SN 15:3)</h2>
+              <p>Near Sāvatthī. There the Blessed One said: “From an inconceivable beginning comes the wandering-on. A beginning point is not discernible, though beings hindered by ignorance and fettered by craving are transmigrating &amp; wandering on. What do you think, monks? Which is greater, the tears you have shed while transmigrating &amp; wandering this long, long time—crying &amp; weeping from being joined with what is displeasing, being separated from what is pleasing—or the water in the four great oceans?”</p>
+              <p>“As we understand the Dhamma taught to us by the Blessed One, this is the greater: the tears we have shed while transmigrating &amp; wandering this long, long time—crying &amp; weeping from being joined with what is displeasing, being separated from what is pleasing—not the water in the four great oceans.”</p>
+              <p>“Excellent, monks. Excellent. It is excellent that you thus understand the Dhamma taught by me.</p>
+              <p>“This is the greater: the tears you have shed while transmigrating &amp; wandering this long, long time—crying &amp; weeping from being joined with what is displeasing, being separated from what is pleasing—not the water in the four great oceans.</p>
+              <p>“Long have you (repeatedly) experienced the death of a mother. The tears you have shed over the death of a mother while transmigrating &amp; wandering this long, long time—crying &amp; weeping from being joined with what is displeasing, being separated from what is pleasing—are greater than the water in the four great oceans.</p>
+              <p>“Long have you (repeatedly) experienced the death of a father… the death of a brother… the death of a sister… the death of a son… the death of a daughter… loss with regard to relatives… loss with regard to wealth… loss with regard to disease. The tears you have shed over loss with regard to disease while transmigrating &amp; wandering this long, long time—crying &amp; weeping from being joined with what is displeasing, being separated from what is pleasing—are greater than the water in the four great oceans.</p>
+              <p>“Why is that? From an inconceivable beginning comes transmigration. A beginning point is not evident, though beings hindered by ignorance and fettered by craving are transmigrating &amp; wandering on. Long have you thus experienced stress, experienced pain, experienced loss, swelling the cemeteries—enough to become disenchanted with all fabricated things, enough to become dispassionate, enough to be released.”</p>
+              <p class="seealso">See also: <a href="SN56_35.html">SN 56:35—36</a>; <a href="../AN/AN3_63.html">AN 3:63</a>; <a href="../AN/AN10_61.html">AN 10:61</a>; <a href="../KN/Iti/iti24.html">Iti 24</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

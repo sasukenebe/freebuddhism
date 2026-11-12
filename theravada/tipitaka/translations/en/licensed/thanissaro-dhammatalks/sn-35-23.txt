@@ -1,0 +1,31 @@
+SN 35.23 - SN 35:23 The All | Sabba Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN35_23.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+The All
+ Sabba Sutta (SN 35:23)
+
+“Monks, I will teach you the All. Listen & pay close attention. I will speak.”
+
+“As you say, lord,” the monks responded to the Blessed One.
+
+The Blessed One said, “What is the All? Simply the eye & forms, ear & sounds, nose & aromas, tongue & flavors, body & tactile sensations, intellect & ideas. This, monks, is called the All.1 Anyone who would say, ‘Repudiating this All, I will describe another,’ if questioned on what exactly might be the grounds for his statement, would be unable to explain and, furthermore, would be put to grief. Why? Because it lies beyond range.”
+
+Note
+
+1. The Commentary’s treatment of this discourse is very peculiar. To begin with, it delineates three other “All’s” in addition to the one defined here, one of them supposedly larger in scope than the All of the six senses and their objects: the Allness of the Buddha’s omniscience (literally, All-knowingness). This, despite the fact that the discourse says that the description of such an All lies beyond range.
+
+Secondly, the Commentary includes unbinding (nibbāna) within the scope of the All described here—as a dhamma, or object of the intellect—even though there are many other discourses in the Canon specifically stating that unbinding lies beyond the range of the six senses and their objects. Sn 5:6, for instance, indicates that a person who has attained unbinding has gone beyond all phenomena (sabbe dhammā), and therefore cannot be described. SN 35:117 speaks of a dimension that is to be experienced with the cessation of the six sense media and the fading of their objects. MN 49 discusses a “consciousness without surface” (viññāṇaṁ anidassanaṁ) that is not experienced through the “Allness of the All.” Furthermore, SN 35:24 says that the “All” is to be abandoned. At no point does the Canon say that unbinding is to be abandoned. Unbinding follows on cessation (nirodha), which is to be realized. Once unbinding is realized, there are no further tasks to be done.
+
+Thus it seems more likely that this discourse’s discussion of “All” is meant to limit the use of the word “all” throughout the Buddha’s teachings to the six sense media and their objects. As the following discourse shows, this would also include the consciousness, contact, and feelings connected with the sense media. Unbinding would lie outside of the word, “all.” This would fit in with another point made several times in the Canon: that dispassion is the highest of all dhammas (Iti 90), while the arahant has gone beyond even dispassion (Sn 4:6; Sn 4:10).
+
+This raises the question: If the word “all” does not include unbinding, does that mean that one may infer from the statement, “all phenomena are not-self” that unbinding is self? The answer is No. As DN 15 notes, when all experience of the senses ceases, there would not be the thought, “I am.” And as AN 4:173 states, to even ask if there is anything remaining or not remaining (or both, or neither) after the cessation of the six sense media is to objectify non-objectification (see the Introduction to MN 18). The range of objectification goes only as far as the “All.” Perceptions of self or not-self, which would come under the classifications and perceptions of objectification, would not apply beyond the “All.” When the cessation of the “All” is experienced, all objectification is allayed.
+
+See also: MN 1; MN 148; MN 149; SN 12:15; SN 12:48

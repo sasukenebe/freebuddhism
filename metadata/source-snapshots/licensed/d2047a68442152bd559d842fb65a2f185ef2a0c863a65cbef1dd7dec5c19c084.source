@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:177 Business (Wrong Livelihood) | Vaṇijjā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.177" class="h1">Business (Wrong Livelihood)<br/>
+                  Vaṇijjā Sutta  (AN 5:177)</h3><!--end suttahead-->
+                <p>“Monks, a lay follower should not engage in five types of business. Which five? Business in weapons, business in living beings, business in meat, business in intoxicants, and business in poison.</p>
+                <p>“These are the five types of business a lay follower should not engage in.”</p>
+                <p class="seealso">See also: <a href="../SN/SN42_2.html">SN 42:2–3</a>; <a href="AN4_79.html">AN 4:79</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

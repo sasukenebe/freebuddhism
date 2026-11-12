@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 56:30 Gavampati | Gavampati Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN56.30" class="h1">Gavampati<br/>
+                Gavampati Sutta  (SN 56:30)</h2>
+              <p>On one occasion a larger number of elder monks were staying among the Cetiyas at Sahajani [Sahajati]. And on that occasion a large number of elder monks, after the meal, on returning from their alms round, were sitting gathered together in a pavilion when this discussion arose: “Is it the case that whoever sees stress also sees the origination of stress, the cessation of stress, &amp; the path of practice leading to the cessation of stress?”</p>
+              <p>When this was said, Ven. Gavampati the Elder said, “Face to face with the Blessed One did I hear this, friends, face to face did I receive it: ‘Monks, whoever sees stress also sees the origination of stress, the cessation of stress, &amp; the path of practice leading to the cessation of stress.</p>
+              <p>“‘Whoever sees the origination of stress also sees stress, the cessation of stress, &amp; the path of practice leading to the cessation of stress.</p>
+              <p>“‘Whoever sees the cessation of stress also sees stress, the origination of stress, &amp; the path of practice leading to the cessation of stress.</p>
+              <p>“‘Whoever sees the path of practice leading to the cessation of stress also sees stress, the origination of stress, &amp; the cessation of stress.’”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:83 The Donkey | Gadrabha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.83" class="h1">The Donkey<br/>
+                  Gadrabha Sutta  (AN 3:83)</h3><!--end suttahead-->
+                <p>“Monks, it is just as if a donkey were following right after a herd of cattle, saying, ‘I too am a cow! I too am a cow!’ Its color is not that of a cow, its voice is not that of a cow, its hoof is not that of a cow, and yet it still keeps following right after the herd of cattle, saying, ‘I too am a cow! I too am a cow!’ In the same way, there is the case where a certain monk follows right after the Saṅgha of monks, saying, ‘I too am a monk! I too am a monk!’ He doesn’t have the other monks’ desire for undertaking the training in heightened virtue, doesn’t have their desire for undertaking the training in heightened mind [concentration], doesn’t have their desire for undertaking the training in heightened discernment, and yet he still keeps following right after the Saṅgha of monks, saying, ‘I too am a monk! I too am a monk!’</p>
+                <p>“So you should train yourselves: ‘Strong will be our desire for undertaking the training in heightened virtue; strong will be our desire for undertaking the training in heightened mind; strong will be our desire for undertaking the training in heightened discernment.’ That is how you should train yourselves.”</p>
+                <p class="seealso">See also: <a href="AN3_90.html">AN 3:90—91</a>; <a href="AN4_178.html">AN 4:178</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 6:8 Vijayā</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+      <div id="sutta">
+  
+        <h4 id="thig6.8" class="h1">Thig 6:8  Vijayā</h4>
+        <div class="verse">
+          <p>Four times, five, I ran amok from my dwelling,</p>
+          <p class="v2">having gained no peace of awareness,</p>
+          <p class="v2">my thoughts out of control.</p>
+          <p>So, approaching a nun,</p>
+          <p>I cross-questioned her attentively.</p>
+          <p>She taught me the Dhamma:</p>
+          <p class="v2">aggregates, sense media, properties,</p>
+          <p class="v2">four noble truths,</p>
+          <p class="v2">five faculties,</p>
+          <p class="v2">seven factors for awakening,</p>
+          <p class="v2">the eightfold path</p>
+          <p class="v2">for attaining the highest goal.</p>
+          <p>Hearing her words,</p>
+          <p class="v2">I did her bidding.</p>
+          <p>In the first watch of the night,</p>
+          <p class="v2">I remembered past lives.</p>
+          <p>In the second watch of the night,</p>
+          <p class="v2">I purified the divine eye.</p>
+          <p>In the third watch of the night,</p>
+          <p class="v2">I burst the mass of darkness.</p>
+          <p>Then I stayed, suffusing<span class="fn"><a href="#thig6.8note01">1</a></span><!--end fn cite--> my body</p>
+          <p class="v2">with rapture &amp; pleasure.</p>
+          <p>On the seventh day, I stretched out my legs,</p>
+          <p class="v2">having burst the mass</p>
+          <p class="v4">of darkness.</p>
+        </div><!--end verse-->
+          <div class="note">
+            <p class="notetitle">Note</p><!--end notetitle-->
+            <p id="thig6.8note01">1. Reading <em>pharitvā</em> with the Thai edition.</p>
+          </div><!--end notes-->
+          <p class="seealso">See also: <a href="../../SN/SN36_31.html">SN 36:31</a>; <a href="thig3_2.html">Thig 3:2</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

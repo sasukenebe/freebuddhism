@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 6:3 Mahānāga</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+      <div id="sutta">
+  
+        <h4 id="thag6.3" class="h1">Thag 6:3  Mahānāga</h4>
+        <div class="verse">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is not found,</p>
+          <p>wastes away from the True Dhamma</p>
+          <p>like a fish in next to no water.</p>
+          <div class="verse-add">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is not found,</p>
+          <p>doesn’t grow in the True Dhamma,</p>
+          <p>like a rotten seed in a field.</p>
+          </div><!--end verse-add-->
+          <div class="verse-add">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is not found,</p>
+          <p>is far away from unbinding</p>
+          <p>in the teaching of the Dhamma king.</p>
+          </div><!--end verse-add-->
+          <div class="verse-add">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is found,</p>
+          <p>doesn’t waste away from the True Dhamma</p>
+          <p>like a fish in plentiful water.</p>
+          </div><!--end verse-add-->
+          <div class="verse-add">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is found,</p>
+          <p>grows in the True Dhamma,</p>
+          <p>like an excellent seed in a field.</p>
+          </div><!--end verse-add-->
+          <div class="verse-add">
+          <p>One in whom respect for his fellows in the holy life</p>
+          <p class="v2">is found,</p>
+          <p>stands right in the presence of unbinding</p>
+          <p>in the teaching of the Dhamma king.</p>
+        </div><!--end verse-add-->
+        </div><!--end verse-->
+        <p class="seealso">See also: <a href="thag5_10.html">Thag 5:10</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

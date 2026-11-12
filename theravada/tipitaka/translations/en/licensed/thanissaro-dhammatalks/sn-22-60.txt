@@ -1,0 +1,51 @@
+SN 22.60 - SN 22:60 To Mahāli | Mahāli Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN22_60.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+To Mahāli
+ Mahāli Sutta (SN 22:60)
+
+Sometimes it is said that people are attached to things because they believe those things to have an inherent essence or existence. Here, however, the Buddha points out that people are attached to things because they pay attention to the pleasure offered by those things, and ignore the stress they cause. If, however, you turn your attention to the stress, you can gain release.
+
+* * *
+
+I have heard that on one occasion the Blessed One was staying near Vesāli at the Gabled Hall in the Great Forest. Then Mahāli the Licchavi went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “Pūraṇa Kassapa says this: ‘There is no cause, no requisite condition, for the defilement of beings. Beings are defiled without cause, without requisite condition. There is no cause, no requisite condition, for the purification of beings. Beings are purified without cause, without requisite condition.’1 What does the Blessed One say about this?”
+
+“Mahāli, there is cause, there is requisite condition, for the defilement of beings. Beings are defiled with cause, with requisite condition. There is cause, there is requisite condition, for the purification of beings. Beings are purified with cause, with requisite condition.”
+
+“And what, lord, is the cause, what the requisite condition, for the defilement of beings? How are beings defiled with cause, with requisite condition?”
+
+“Mahāli, if form were exclusively stressful—followed by stress, infused with stress and not infused with pleasure—beings would not be infatuated with form. But because form is also pleasurable—followed by pleasure, infused with pleasure and not infused with stress—beings are infatuated with form. Through infatuation, they are captivated. Through captivation, they are defiled. This is the cause, this the requisite condition, for the defilement of beings. And this is how beings are defiled with cause, with requisite condition.
+
+“If feeling were exclusively stressful.…
+
+“If perception were exclusively stressful.…
+
+“If fabrications were exclusively stressful.…
+
+“If consciousness were exclusively stressful—followed by stress, infused with stress and not infused with pleasure—beings would not be infatuated with consciousness. But because consciousness is also pleasurable—followed by pleasure, infused with pleasure and not infused with stress—beings are infatuated with consciousness. Through infatuation, they are captivated. Through captivation, they are defiled. This is the cause, this the requisite condition, for the defilement of beings. And this is how beings are defiled with cause, with requisite condition.”
+
+“And what, lord, is the cause, what the requisite condition, for the purification of beings? How are beings purified with cause, with requisite condition?”
+
+“Mahāli, if form were exclusively pleasurable—followed by pleasure, infused with pleasure and not infused with stress—beings would not be disenchanted with form. But because form is also stressful—followed by stress, infused with stress and not infused with pleasure—beings are disenchanted with form. Disenchanted, they become dispassionate. Through dispassion, they are purified. This is the cause, this the requisite condition, for the purification of beings. And this is how beings are purified with cause, with requisite condition.
+
+“If feeling were exclusively pleasurable.…
+
+“If perception were exclusively pleasurable.…
+
+“If fabrications were exclusively pleasurable.…
+
+“If consciousness were exclusively pleasurable—followed by pleasure, infused with pleasure and not infused with stress—beings would not be disenchanted with consciousness. But because consciousness is also stressful—followed by stress, infused with stress and not infused with pleasure—beings are disenchanted with consciousness. Disenchanted, they become dispassionate. Through dispassion, they are purified. This is the cause, this the requisite condition, for the purification of beings. And this is how beings are purified with cause, with requisite condition.”
+
+Note
+
+1. DN 2 ascribes this view to Makkhali Gosāla, and the view of non-action to Pūraṇa Kassapa.
+
+See also: MN 136; SN 12:52

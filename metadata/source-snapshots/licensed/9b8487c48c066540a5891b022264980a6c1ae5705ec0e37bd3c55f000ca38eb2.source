@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 46:14 Ill | Gilāna Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN46.14" class="h1">Ill<br/>
+                Gilāna Sutta  (SN 46:14)</h2>
+              <p>I have heard that on one occasion the Blessed One was staying near Rājagaha in the Bamboo Forest, the Squirrels’ Sanctuary. And on that occasion Ven. Mahā Kassapa was staying in the Pepper Tree Cave: diseased, in pain, severely ill. Then the Blessed One, emerging from his seclusion in the evening, went to Ven. Mahā Kassapa and, on arrival, sat down on a seat made ready. Having sat down, he said to Ven. Mahā Kassapa, “I hope you are getting better, Kassapa. I hope you are comfortable. I hope that your pains are lessening and not increasing. I hope that there are signs of their lessening, and not of their increasing.”</p>
+              <p>“I am not getting better, lord. I am not comfortable. My extreme pains are increasing, not lessening. There are signs of their increasing, and not of their lessening.”</p>
+              <p>“Kassapa, these seven factors for awakening rightly taught by me, when developed and pursued, lead to direct knowledge, to self-awakening, to unbinding. Which seven?</p>
+              <p>“Mindfulness as a factor for awakening rightly taught by me, when developed and pursued, leads to direct knowledge, to self-awakening, to unbinding.</p>
+              <p>“Analysis of qualities as a factor for awakening, rightly taught by me, when developed and pursued, leads to direct knowledge, to self-awakening, to unbinding.</p>
+              <p>“Persistence as a factor for awakening.…</p>
+              <p>“Rapture as a factor for awakening.…</p>
+              <p>“Calm as a factor for awakening.…</p>
+              <p>“Concentration as a factor for awakening.…</p>
+              <p>“Equanimity as a factor for awakening rightly taught by me, when developed and pursued, leads to direct knowledge, to self-awakening, to unbinding.</p>
+              <p>“Kassapa, these are the seven factors for awakening rightly taught by me that—when developed and pursued—lead to direct knowledge, to self-awakening, to unbinding.”</p>
+              <p>“They are indeed factors for awakening, O Blessed One. They are indeed factors for awakening, O One Well-Gone.”</p>
+              <p>That is what the Blessed One said. Gratified, Ven. Mahā Kassapa delighted in the Blessed One’s words. And Ven. Mahā Kassapa recovered from his disease. That was how Ven. Mahā Kassapa’s disease was abandoned.</p>
+              <p class="seealso">See also: <a href="../MN/MN143.html">MN 143</a>; <a href="SN22_88.html">SN 22:88</a>; <a href="SN36_7.html">SN 36:7</a>; <a href="SN52_10.html">SN 52:10</a>; <a href="../AN/AN10_60.html">AN 10:60</a>; <a href="../KN/Thag/thag5_8.html">Thag 5:8</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

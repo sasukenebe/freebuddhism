@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:43 Sumaṅgala</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag1.43" class="h1">Thag 1:43  Sumaṅgala</h4>
+            <div class="verse">
+              <p>So freed! So freed!</p>
+              <p>So thoroughly freed am I</p>
+              <p>from three crooked things:</p>
+              <p>my sickles, my shovels, my plows.</p>
+              <p>Even if they were here,</p>
+              <p class="v4">right here,</p>
+              <p>I’d be done with them,</p>
+              <p class="v4">done.</p>
+              <p>Do jhāna, Sumaṅgala.</p>
+              <p>Do jhāna, Sumaṅgala.</p>
+              <p>Sumaṅgala, stay heedful.</p>
+            </div><!--end verse-->
+            <p class="seealso">See also: <a href="../Thig/thig1_11.html">Thig 1:11</a>; <a href="../Thig/thig2_3.html">Thig 2:3</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

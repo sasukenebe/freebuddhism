@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:73 A Person of Integrity | Sappurisa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.73" class="h1">A Person of Integrity<br/>
+                  Sappurisa Sutta  (AN 4:73)</h3><!--end suttahead-->
+                <p>“Monks, a person endowed with these four qualities can be known as ‘a person of no integrity.’ Which four?</p>
+                <p>“There is the case where a person of no integrity, when unasked, reveals another person’s bad points, to say nothing of when asked. Furthermore, when asked, when pressed with questions, he is one who speaks of another person’s bad points in full &amp; in detail, without omission, without holding back. Of this person you may know, ‘This venerable one is a person of no integrity.’</p>
+                <p>“And further, a person of no integrity, when asked, doesn’t reveal another person’s good points, to say nothing of when unasked. Furthermore, when asked, when pressed with questions, he is one who speaks of another person’s good points not in full, not in detail, with omissions, holding back. Of this person you may know, ‘This venerable one is a person of no integrity.’</p>
+                <p>“And further, a person of no integrity, when asked, doesn’t reveal his own bad points, to say nothing of when unasked. Furthermore, when asked, when pressed with questions, he is one who speaks of his own bad points not in full, not in detail, with omissions, holding back. Of this person you may know, ‘This venerable one is a person of no integrity.’</p>
+                <p>“And further, a person of no integrity, when unasked, reveals his own good points, to say nothing of when asked. Furthermore, when asked, when pressed with questions, he is one who speaks of his own good points in full &amp; in detail, without omissions, without holding back. Of this person you may know, ‘This venerable one is a person of no integrity.’</p>
+                <p>“Monks, a person endowed with these four qualities can be known as ‘a person of no integrity.’</p>
+                <p>“Now, a person endowed with these four qualities can be known as ‘a person of integrity.’ Which four?</p>
+                <p>“There is the case where a person of integrity, when asked, doesn’t reveal another person’s bad points, to say nothing of when unasked. Furthermore, when asked, when pressed with questions, he is one who speaks of another person’s bad points not in full, not in detail, with omissions, holding back. Of this person you may know, ‘This venerable one is a person of integrity.’</p>
+                <p>“And further, a person of integrity, when unasked, reveals another person’s good points, to say nothing of when asked. Furthermore, when asked, when pressed with questions, he is one who speaks of another person’s good points in full &amp; in detail, without omissions, without holding back. Of this person you may know, ‘This venerable one is a person of integrity.’</p>
+                <p>“And further, a person of integrity, when unasked, reveals his own bad points, to say nothing of when asked. Furthermore, when asked, when pressed with questions, he is one who speaks of his own bad points in full &amp; in detail, without omissions, without holding back. Of this person you may know, ‘This venerable one is a person of integrity.’</p>
+                <p>“And further, a person of integrity, when asked, doesn’t reveal his own good points, to say nothing of when unasked. Furthermore, when asked, when pressed with questions, he is one who speaks of his own good points not in full, not in detail, with omissions, holding back. Of this person you may know, ‘This venerable one is a person of integrity.’</p>
+                <p>“Monks, a person endowed with these four qualities can be known as ‘a person of integrity.’”</p>
+                <p class="seealso">See also: <a href="../MN/MN110.html">MN 110</a>; <a href="../MN/MN113.html">MN 113</a>; <a href="AN2_31.html">AN 2:31—32</a>; <a href="AN5_148.html">AN 5:148</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

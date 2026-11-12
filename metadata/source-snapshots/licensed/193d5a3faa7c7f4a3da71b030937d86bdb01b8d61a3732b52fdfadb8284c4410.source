@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:158 Decline | Parihāni Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+                <h3 id="AN4.158" class="h1">Decline<br/>
+                  Parihāni Sutta  (AN 4:158)</h3><!--end suttahead-->
+<p>There Ven. Sāriputta addressed the monks, “Friend monks!”</p>
+<p>“Yes, friend,” the monks responded to him.</p>
+<p>Ven. Sāriputta said, “Friends, any monk or nun who sees four qualities in him- or herself should come to the conclusion, ‘I am declining in skillful qualities. This is called decline by the Blessed One.’ Which four? An increase in passion, an increase in aversion, an increase in delusion, and one’s eye of discernment makes no headway in terms of deep possibilities &amp; impossibilities. Any monk or nun who sees these four qualities in him- or herself should come to the conclusion, ‘I am declining in skillful qualities. This is called decline by the Blessed One.’</p>
+<p>“Any monk or nun who sees four qualities in him- or herself should come to the conclusion, ‘I am not declining in skillful qualities. This is called non-decline by the Blessed One.’ Which four? A reduction in passion, a reduction in aversion, a reduction in delusion, and one’s eye of discernment makes headway in terms of deep possibilities &amp; impossibilities. Any monk or nun who sees these four qualities in him- or herself should come to the conclusion, ‘I am not declining in skillful qualities. This is called non-decline by the Blessed One.’”</p>
+<p class="seealso">See also: <a href="../MN/MN131.html" class="sutta-ref">MN 131</a>; <a href="AN6_19.html" class="sutta-ref">AN 6:19–20</a>; <a href="AN10_51.html" class="sutta-ref">AN 10:51</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+
+</body></html>

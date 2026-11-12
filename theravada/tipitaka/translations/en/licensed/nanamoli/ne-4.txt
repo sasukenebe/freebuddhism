@@ -1,0 +1,189 @@
+Ne 4 - 3. Counter-Demonstrative Subsection
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne4.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection
+
+i. 16 Modes of Conveying: Separate Treatment
+
+1. The Ninefold Thread in the Mode of Conveying a Teaching
+
+PTS vp En 13 31. Herein, what is the Mode of Conveying a Teaching? The Mode of Conveying a Teaching is [summarized] in the following verse:
+
+“Gratification, Disappointment,
+Escape, Fruit, Means, the Blessed One’s
+Command to Devotees: this Mode
+Is the Conveying of a Teaching”.
+[The act-of-teaching and what-is-taught]
+
+32. What does it teach? [It teaches as follows:]
+
+[In the aspects of] gratification, disappointment, escape, fruit, means, and injunction, “Bhikkhus, I shall teach you a True Idea that is good in the beginning, good in the middle, and good in the end, with its own meaning and its own phrasing; I shall display a Divine Life that is entirely perfect and pure”.
+
+33. Herein, what is the gratification?
+
+When a mortal desires, if his desire is fulfilled,
+He is sure to be happy by getting what he wants.
+
+This is the gratification.
+
+34. Herein, what is the disappointment?
+
+PTS vp Pli 6 Desire-born and wilful, if his desires elude him,
+He becomes as deformed as if pierced by a barb.
+
+This is the disappointment.
+
+PTS vp En 14 35. Herein, what is the escape?
+
+He that shuns desires, as a snake’s head with his foot,
+And is mindful evades this attachment to the world.
+
+This is the escape.
+
+36. Herein, what is the gratification?
+
+Fields, gardens and money, cattle and horses, bondsmen and men,
+Women and kin: many are the desires that a man wants.
+
+This is the gratification.
+
+36a.Herein, what is the disappointment?
+
+Impotent-seeming troubles overwhelm and crush him;
+Then pain invades him, as water a broken boat.
+
+This is the disappointment.
+
+36b.Herein, what is the escape?
+
+So let a man be mindful ever in shunning sense-desires;
+Let him abandon them and cross over the flood.
+
+This is the escape.
+
+37. Herein, what is the fruit?
+
+The True Ideal guards him that walks therein,
+As does a big umbrella in time of rain.
+The Ideas reward when walked in right is this:
+Who walks therein has no bad destination.
+
+This is the fruit.
+
+38. Herein, what is the means?
+
+Impermanent are all determinations, …
+And painful too are all determinations, …
+[And then besides] not-self are all ideas:
+And so when he sees thus with understanding,
+He then dispassion finds in suffering;
+This path it is that leads to purification.
+
+This is the means.
+
+39. PTS vp Pli 7 Herein, what is the injunction?
+
+Just as a man with good sight journeying
+Would give wide berth to places of known danger,
+So too here in this world of animation
+Let wise men give wide berth to evil things.
+
+This is the injunction.
+
+PTS vp En 15 40. (Look upon the world as void, Mogharāja,) is the injunction.
+
+(Constantly mindful) is the means.
+
+(With self-view extirpated thus, You may outstrip Mortality) is the fruit.
+
+[How it is taught]
+
+41. Herein, the Blessed One teaches escape to a person who gains knowledge by what is condensed, he teaches disappointment and escape to a person who gains knowledge by what is expanded, he teaches gratification, disappointment, and escape, to a person who is guidable.
+
+42. Herein, there are four ways and four [types of] persons. One of craving-temperament who is dull finds the outlet, by way of the foundations of mindfulness as support and with the mindfulness faculty, on the way that is painful with sluggish acquaintanceship. One of craving-temperament who is intelligent finds the outlet, by way of the [four] meditations as support and with the concentration faculty, on the way that is painful with swift acquaintanceship. PTS vp En 16 One of view-temperament who is dull finds the outlet, by way of the right endeavours as support and with the energy faculty, on the way that is pleasant with sluggish acquaintanceship. One of view-temperament who is intelligent finds the outlet, by way of the truths as support and with the understanding faculty, on the way that is pleasant with swift acquaintanceship.
+
+43. Both kinds of craving-temperament find the outlet, by way of insight heralded by quiet, to the heart-deliverance due to the fading of lust. Both kinds of view-temperament find the outlet, by way of quiet heralded by insight, to the understanding-deliverance due to the fading of ignorance.
+
+44. Herein, those who find the outlet by the ways heralded by quiet can be brought to abandoning by means of the Conversion-of-Relishing Guide-Line, while those who find the outlet by the ways heralded by insight can be brought to abandoning by means of the Lions’-Play Guide-Line.
+
+[How it is apprehended]
+
+45. PTS vp Pli 8 Where does this Mode of Conveying actually come into being? When the Master, or some respected companion in the Divine Life, teaches the True Idea to someone, then that someone, on hearing that True Idea, acquires faith.
+
+46. Herein, inquiry, interest, estimating, scrutiny, is understanding consisting in what is heard. Suchlike inquiry, estimating, scrutiny, mental looking-over, with what has been heard as the support, is understanding consisting in cogitation. Know PTS vp En 17 ledge that, in one associating his attention with these two kinds of understanding, arises on the plane of seeing or on the plane of keeping-in-being, is understanding consisting in keeping-in-being. [Now] understanding consisting in what is heard [arises] from another’s utterance. Understanding consisting in cogitation [arises] from reasoned attention moulded for oneself. Understanding consisting in keeping-in-being is knowledge that arises by means of another’s utterance and by means of reasoned attention moulded for oneself.
+
+47. He in whom there are the two kinds of understanding, namely that consisting in what is heard and that consisting in cogitation, is one who gains knowledge by what is condensed. He in whom there is understanding consisting in what is heard but no understanding consisting in cogitation is one who gains knowledge by what is expanded. He in whom there is neither understanding consisting in what is heard nor understanding consisting in cogitation is guidable.
+
+[The Teaching as presentation of the Four Truths]
+
+48. What does the teaching of the True Idea teach? The Four Truths, namely Suffering, Origin, Cessation, and the Path.
+
+Disappointment and fruit are suffering; gratification is origin; escape is cessation; means and injunction are the path. These are the Four Truths.
+
+PTS vp En 18 49.[Now] this is the Wheel of the True Idea, according as the Blessed One said:
+
+(“This is suffering”: At Benares, bhikkhus, in the Deer Park at Isipatana, the matchless Wheel of the True Idea was thus set rolling by me not to be stopped by monk or divine or god or Māra or Divinity or anyone in the world …) and the whole “Wheel-of-the-True-Idea” [Discourse should be quoted].
+
+Herein, there are terms of ungauged measure, letters of ungauged measure, phrases, moods, linguistics and demonstrations of ungauged measure but there is an explaining, displaying, divulging, analysing, exhibiting, and describing, of that very meaning [in the ninefold Thread]. This is the Noble Truth of Suffering.
+
+50. (“This is the origin of suffering”: At Benares, bhikkhus, in the Deer Park at Isipatana, the matchless Wheel of the True Idea was set rolling by me …) …
+
+51. PTS vp Pli 9 (“This is the cessation of suffering”: At Benares, bhikkhus, …) …
+
+52.“This is the way leading to the cessation of suffering”: At Benares, bhikkhus, in the Deer Park at Isipatana, the matchless Wheel of the True Idea was thus set rolling by me not to be stopped by monk or divine or god or Māra or Divinity or anyone in the world).
+
+Herein, there are terms of ungauged measure, letters of ungauged measure, phrases, moods, linguistics, and demonstrations of ungauged measure, but there is an explaining, displaying, divulging, analysing, exhibiting, and describing, of that very meaning [in the ninefold Thread]. This is the Noble Truth of the Way Leading to the Cessation of Suffering.
+
+[How the Teaching is variously presented]
+
+PTS vp En 19 53. Herein, the Blessed One explains by letters, displays by terms, divulges by phrases, analyses by moods, exhibits by linguistics, and describes by demonstrations.
+
+54. Herein, the Blessed One condenses by letters and terms, he expands by phrases and moods, he details by linguistics and demonstrations.
+
+55. Herein, condensing is the beginning, expanding is the middle, and detailing is the end.
+
+56. This True Idea and Outguiding (Discipline), when it is condensed, guides out (disciplines) the [type of] person who gains knowledge by what is condensed; hence “good in the beginning” is said. When expanded it guides out (disciplines) the [type of] person who gains knowledge by what is expanded; hence “good in the middle” is said. When detailed it guides out (disciplines) the [type of] person who is guidable; hence “good in the end” is said.
+
+57. Herein, six terms [concern] the meaning, namely explaining, displaying, divulging, analysing, exhibiting, and describing; these six terms concern the meaning. [And] six terms [concern] the phrasing, namely letter, term, phrase, mood, linguistic, and demonstration; these six terms [concern] the phrasing. That is why the Blessed One said (Bhikkhus, I shall teach you a True Idea that is good in the beginning, good in the middle, and good in the end, with its own meaning and its own phrasing; I shall display a Divine Life that is entirely perfect and pure).
+
+58. PTS vp Pli 10 “Entirely”: disjoined from worlds, not mixed with world PTS vp En 20 ideas. “Perfect”, perfected, with nothing lacking and nothing superfluous. “Pure”, immaculate, with all stains removed, established [as fit] for all [kinds of] distinctions.
+
+59. Among agreeable forms, and This is called “a Perfect One’s footprint” and “something used by a Perfect One” and “something marked by a Perfect One”). With that this Divine Life is evident. That is why the Blessed One said “I shall display a Divine Life that is entirely perfect and pure”.
+
+[For whom the Teaching is intended]
+
+60. For whom is this teaching of the True Idea? For devotees.
+
+This is why the venerable Mahā-Kaccāna said:
+
+“Gratification, Disappointment,
+Escape, Fruit, Means, the Blessed One’s
+Command to devotees; this Mode
+Is the Conveying of a Teaching”.
+
+The Mode of Conveying a Teaching is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,61 @@
+Ne 33 - 4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne33.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+4. Chapter ii 16 Modes of Conveying: Combined Treatment (Continued)
+
+[14]
+
+630. Herein, what is the Mode of Conveying Terms of Expression in Combined Treatment? [It is as follows:]
+
+So let his cognizance be guarded …
+
+631.“So let his cognizance be guarded” is a unity.
+
+Cognizance, mind, consciousness: this is a diversity.
+
+632.“Having for pasture right intention” is a unity.
+
+Intention of renunciation, intention of non-ill-will, PTS vp Pli 108 intention of non-cruelty: this is a diversity.
+
+PTS vp En 146 633.“Giving right view first place” is a unity.
+
+Right view is called knowledge about suffering, knowledge about the origin of suffering, knowledge about cessation of suffering, knowledge about the way leading to cessation of suffering knowledge about the way, knowledge about the path knowledge about a cause, knowledge about causally-arisen ideas, knowledge about a condition, knowledge about conditionally-arisen ideas; any knowing and seeing how [things] are in the various cases, any actualization, complete penetration, coming to truth: this is a diversity.
+
+634.“Through knowing rise and fall” is a unity.
+
+By means of “rise”: with ignorance as condition, determinations; with determinations as condition, consciousness; … and so all the rest … that is how there is an origin [to this whole category of suffering]. By means of “fall”, cessation of ignorance; with cessation of ignorance, cessation of determinations; … and so all the rest … that is how there is a cessation [to this whole category of suffering]. This is a diversity.
+
+635.“Transcending drowsing And lethargy, a bhikkhu” is a unity.
+
+“Lethargy” is a name for unwieldiness of cognizance, “drowsing” is a name for any sloth of body. This is a diversity.
+
+636.“May Abandon all bad destinations” is a unity.
+
+Compared with gods and human beings the states of unease are bad destinations; but compared with extinction all kinds of appearance are bad destinations. This is a diversity.
+
+The Mode of Conveying Terms of Expression in Combined Treatment is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 9:5 Ānanda | Ānanda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: Don’t spend too much time teaching others when you still have work to do.-->
+<h2 class="h1">Ānanda<br/>
+Ānanda Sutta  (SN 9:5)</h2>
+<p>On one occasion Ven. Ānanda was staying among the Kosalans in a forest grove. Now at that time, he was spending too much time devoted to instructing laypeople.</p>
+<p>Then the devatā inhabiting the forest grove, feeling sympathy for Ven. Ānanda, desiring his benefit, desiring to bring him to his senses, approached him and recited a verse:</p>
+<div class="verse">
+<pre>“Going to the bower
+at the root of a tree,
+placing
+		unbinding
+in your heart,
+do jhāna, Gotama,
+&amp; don’t be heedless.
+	What use is this
+	chitter-chatter
+	to you?”</pre>
+</div><!--end verse-->
+<p>Then Ven. Ānanda, chastened by the devatā, came to his senses.</p>
+<p class="seealso">See also: <a href="../KN/Thag/thag1_119.html" class="sutta-ref">Thag 1:119</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

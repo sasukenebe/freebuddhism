@@ -20833,5 +20833,403 @@
     "book": "sutta-nipata-391",
     "report": "metadata/reports/candana-snp-import-2026-11-09.json",
     "reader_count": 73
+  },
+  "group_texts": [
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-157-162",
+      "canonical_id": "AN 3.157",
+      "canonical_ids": [
+        "AN 3.157",
+        "AN 3.158",
+        "AN 3.159",
+        "AN 3.160",
+        "AN 3.161",
+        "AN 3.162"
+      ],
+      "group_reference": "AN 3.157–162",
+      "collection": "anguttara-nikaya",
+      "title": "Dutiya Paṭipadā Sutta (Modes of Practice – Part 2)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-156",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=286",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-157-162.txt",
+      "sha256": "15452a54b46f5921e4c44e250529b3fbb3451a9344d899ced136ad61d45ec166",
+      "body_sha256": "cf363139e54784393ea41f49fcb6f35dbb8a86a5fe44513798c65321441f46a9",
+      "book": "an-book3",
+      "source_labels": [
+        "156"
+      ],
+      "source_pdf_pages": [
+        286,
+        288
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-163-164",
+      "canonical_id": "AN 3.163",
+      "canonical_ids": [
+        "AN 3.163",
+        "AN 3.164"
+      ],
+      "group_reference": "AN 3.163–164",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 1)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-157",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=289",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-163-164.txt",
+      "sha256": "12700e0bd70ed0e4c2514c175677cf2ae7d3549677642b2441b442f761357cb3",
+      "body_sha256": "d742bb1d4946ef2903d340590b9a7512eb8dd8dd3e655bb75597a1d51a246037",
+      "book": "an-book3",
+      "source_labels": [
+        "157"
+      ],
+      "source_pdf_pages": [
+        289,
+        289
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-165-166",
+      "canonical_id": "AN 3.165",
+      "canonical_ids": [
+        "AN 3.165",
+        "AN 3.166"
+      ],
+      "group_reference": "AN 3.165–166",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 2)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-158",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=289",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-165-166.txt",
+      "sha256": "8ddd196afa1938d80ab0d1ee766efd43ba631599498d98d8ff5da18f52403ca6",
+      "body_sha256": "6a592f8a0129507bf0de1caf68eaa6d7ae212439f28410b3572038f7861e632b",
+      "book": "an-book3",
+      "source_labels": [
+        "158"
+      ],
+      "source_pdf_pages": [
+        289,
+        290
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-167-168",
+      "canonical_id": "AN 3.167",
+      "canonical_ids": [
+        "AN 3.167",
+        "AN 3.168"
+      ],
+      "group_reference": "AN 3.167–168",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 3)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-159",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=290",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-167-168.txt",
+      "sha256": "7ed38e8c566d89fa949fdc75502fd56c8a9f3127a0d4f89c7f2283725aded815",
+      "body_sha256": "2bcdfc7c62cba94b73c10ea06956ff8308299168e309f92d82f286127a23b551",
+      "book": "an-book3",
+      "source_labels": [
+        "159"
+      ],
+      "source_pdf_pages": [
+        290,
+        290
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-169-170",
+      "canonical_id": "AN 3.169",
+      "canonical_ids": [
+        "AN 3.169",
+        "AN 3.170"
+      ],
+      "group_reference": "AN 3.169–170",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 4)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-160",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=291",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-169-170.txt",
+      "sha256": "ad61a6027c4ca341c22e911963ced5e6da85101b3616bde5031414050f58c3c1",
+      "body_sha256": "98f1e9753ce4083e55672945e43622a33db227cf8db2e718c4cdb1fe3446187d",
+      "book": "an-book3",
+      "source_labels": [
+        "160"
+      ],
+      "source_pdf_pages": [
+        291,
+        291
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-171-172",
+      "canonical_id": "AN 3.171",
+      "canonical_ids": [
+        "AN 3.171",
+        "AN 3.172"
+      ],
+      "group_reference": "AN 3.171–172",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 5)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-161",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=291",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-171-172.txt",
+      "sha256": "1cae8e037d4e5b7ba31cf17cee6be9ca93df3a4b92a34fdbb8ae37676bd2af61",
+      "body_sha256": "25e95e7814abff9f06c4aa95467336e0fd3501725777656a64298fde5a939d09",
+      "book": "an-book3",
+      "source_labels": [
+        "161"
+      ],
+      "source_pdf_pages": [
+        291,
+        291
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-173-174",
+      "canonical_id": "AN 3.173",
+      "canonical_ids": [
+        "AN 3.173",
+        "AN 3.174"
+      ],
+      "group_reference": "AN 3.173–174",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 6)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-162",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=291",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-173-174.txt",
+      "sha256": "55b7937db918fb475fc07d8329e1e0c76dbed0925c6ba6edfd281b068e9e8ee3",
+      "body_sha256": "b3ffdeb60276895df8755ae9e35e990859d5569d9608c920300347a56b3313e6",
+      "book": "an-book3",
+      "source_labels": [
+        "162"
+      ],
+      "source_pdf_pages": [
+        291,
+        292
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-175-176",
+      "canonical_id": "AN 3.175",
+      "canonical_ids": [
+        "AN 3.175",
+        "AN 3.176"
+      ],
+      "group_reference": "AN 3.175–176",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 7)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-163",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=292",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-175-176.txt",
+      "sha256": "13c9b38ae0a5bdbd711faa7a68ddd2f1a8c7d6601c48865162ce57ef8bb6a89b",
+      "body_sha256": "7ca45849b368ab8e9badd91551f35caae96ebba1c8338ec74993d2ca6f7c045b",
+      "book": "an-book3",
+      "source_labels": [
+        "163"
+      ],
+      "source_pdf_pages": [
+        292,
+        292
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-177-178",
+      "canonical_id": "AN 3.177",
+      "canonical_ids": [
+        "AN 3.177",
+        "AN 3.178"
+      ],
+      "group_reference": "AN 3.177–178",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 8)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-164",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=292",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-177-178.txt",
+      "sha256": "9426b29281847cb6d0497d508033db94c799d2de02bbc950d035a8789493647f",
+      "body_sha256": "a782d957f191539831738c6b1fc24e71e068ef63dbb024a2ee436627c22e5eaa",
+      "book": "an-book3",
+      "source_labels": [
+        "164"
+      ],
+      "source_pdf_pages": [
+        292,
+        293
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-179-180",
+      "canonical_id": "AN 3.179",
+      "canonical_ids": [
+        "AN 3.179",
+        "AN 3.180"
+      ],
+      "group_reference": "AN 3.179–180",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 9)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-165",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=293",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-179-180.txt",
+      "sha256": "d341dc4c199184026586219f56e946069e25522f541fdc991e6beb703a792b8b",
+      "body_sha256": "2df65a789a3f9d70bb614111d71563c9a1a8e8d5fa9c77d3e1afbba715c91866",
+      "book": "an-book3",
+      "source_labels": [
+        "165"
+      ],
+      "source_pdf_pages": [
+        293,
+        293
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-181-182",
+      "canonical_id": "AN 3.181",
+      "canonical_ids": [
+        "AN 3.181",
+        "AN 3.182"
+      ],
+      "group_reference": "AN 3.181–182",
+      "collection": "anguttara-nikaya",
+      "title": "Nikkhitto Niraye Sutta (Deposited into Hell – Part 10)",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-166",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=293",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-181-182.txt",
+      "sha256": "fd5aea35b596bce340cdd4115c09f60c0d42b9e115a7e02baa7476d5e1ebd08c",
+      "body_sha256": "600eb173bcf710c6cfa0fa89d1ec2c26f587b885e6c6ff495a0c01c344122ffd",
+      "book": "an-book3",
+      "source_labels": [
+        "166"
+      ],
+      "source_pdf_pages": [
+        293,
+        294
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "One intact Candana source passage covers the listed existing text references; it is not a separate complete translation for each reference."
+    },
+    {
+      "kind": "sutta_group",
+      "group_id": "an3-183-352",
+      "canonical_id": "AN 3.183-352",
+      "canonical_ids": [
+        "AN 3.183-352"
+      ],
+      "group_reference": "AN 3.183–352",
+      "collection": "anguttara-nikaya",
+      "title": "Rāga Peyyāla Vagga — The Section on Abbreviated Repetitions, Starting with Passion",
+      "translator": "Bhikkhu Candana",
+      "version": "candana-group-167-352",
+      "source_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf#page=295",
+      "source_revision": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
+      "license": "Candana — free distribution, unaltered contents",
+      "license_url": "https://www.mindreleased.com/s/Book-3_Anguttara-Nikya-A-New-Translation.pdf",
+      "local_path": "theravada/tipitaka/translations/en/candana/groups/an3-183-352.txt",
+      "sha256": "8010b42e13848241453f59fd979e088b7edf6e946773f21c492b90e24971828b",
+      "body_sha256": "cf449ffc66761c1c7d9c3351ee1f59dbbddaf5157a52708519bc06e74639eb02",
+      "book": "an-book3",
+      "source_labels": [
+        "167-352"
+      ],
+      "source_pdf_pages": [
+        295,
+        299
+      ],
+      "rights_status": "EXPLICIT_PERMISSION_VERIFIED",
+      "completeness_status": "GROUPED_SOURCE_SCOPE",
+      "completeness_scope": "Whole-group placement only: the source's 167–352 label and 16 lettered headings are not aligned one-to-one with the site's 183–352 label and 17 topic names. No internal topic mapping is claimed; retain this difference for human review."
+    }
+  ],
+  "numbered_group_extension": {
+    "schema_version": 1,
+    "report": "metadata/reports/candana-numbered-books-2026-11-07.json",
+    "books": [
+      "an-book3"
+    ],
+    "group_count": 12,
+    "reference_count": 27
   }
 }

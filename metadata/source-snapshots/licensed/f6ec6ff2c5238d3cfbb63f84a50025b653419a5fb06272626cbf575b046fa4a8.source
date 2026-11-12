@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:175 The Outcaste | Caṇḍāla Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.175" class="h1">The Outcaste<br/>
+                  Caṇḍāla Sutta  (AN 5:175)</h3><!--end suttahead-->
+                <p><em>This discourse lists—first in negative and then in positive form—the basic requirements for being a Buddhist lay follower in good standing.</em></p>
+                <p class="stars">* * *</p>
+                <p>“Endowed with these five qualities, a lay follower is an outcaste of a lay follower, a stain of a lay follower, a dregs of a lay follower. Which five? He/she does not have conviction (in the Buddha’s awakening); is unvirtuous; is eager for protective charms &amp; ceremonies; trusts protective charms &amp; ceremonies, not kamma; and searches for recipients of his/her offerings outside (of the Saṅgha), and gives offerings there first. Endowed with these five qualities, a lay follower is an outcaste of a lay follower, a stain of a lay follower, a dregs of a lay follower.</p>
+                <p>“Endowed with these five qualities, a lay follower is a jewel of a lay follower, a lotus of a lay follower, a fine flower of a lay follower. Which five? He/she has conviction; is virtuous; is not eager for protective charms &amp; ceremonies; trusts kamma, not protective charms &amp; ceremonies; does not search for recipients of his/her offerings outside (of the Saṅgha), and gives offerings here first. Endowed with these five qualities, a lay follower is a jewel of a lay follower, a lotus of a lay follower, a fine flower of a lay follower.”</p>
+                <p class="seealso">See also: <a href="../SN/SN3_24.html">SN 3:24</a>; <a href="AN5_179.html">AN 5:179</a>; <a href="AN8_26.html">AN 8:26</a>; <a href="AN8_54.html">AN 8:54</a>; AN 10:176</p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

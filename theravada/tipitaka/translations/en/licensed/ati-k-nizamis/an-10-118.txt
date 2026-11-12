@@ -1,0 +1,52 @@
+AN 10.118 - Orimatīra Sutta: The Near Shore
+Translated by K. Nizamis
+Source: https://www.accesstoinsight.org/tipitaka/an/an10/an10.118.niza.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/an/an10/an10.118.niza.html#F_termsOfUse
+Copyright: ©2011 K. Nizamis.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2011 K. Nizamis. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 2 November 2013. Revised 2012.02.25. How to cite this document (a suggested style): "Orimatīra Sutta: The Near Shore" (AN 10.118), translated from the Pali by K. Nizamis. Access to Insight (BCBS Edition), 2 November 2013, https://www.accesstoinsight.org/tipitaka/an/an10/an10.118.niza.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+"Monks, I shall point out the nearest shore and the farthest shore. [1] Hear this, and thoroughly attend to it in mind. I shall speak."
+
+"Just so, Venerable One," the monks assented to the Blessed One.
+
+"What, monks, is the nearest shore; what is the farthest shore?
+
+"Wrong view is the nearest shore; right view is the farthest shore;
+
+"Wrong intention is the nearest shore; right intention is the farthest shore;
+ wrong speech is the nearest shore; right speech is the farthest shore;
+ wrong conduct is the nearest shore; right conduct is the farthest shore;
+ wrong livelihood is the nearest shore; right livelihood is the farthest shore;
+ wrong effort is the nearest shore; right effort is the farthest shore;
+ wrong mindfulness is the nearest shore; right mindfulness is the farthest shore;
+ wrong concentration is the nearest shore; right concentration is the farthest shore;
+ wrong knowledge is the nearest shore; right knowledge is the farthest shore;
+ wrong liberation is the nearest shore; right liberation is the farthest shore.
+
+"This, monks, is the nearest shore; this is the farthest shore.
+
+ "Amongst humans, very few are they, those mortals going to the farthest shore; Rather, the rest of humankind runs just along this shore. Those who, indeed, practise in the Dhamma, in the well-taught Dhamma, They are mortals who will go beyond the sway of death, so difficult to escape. Renouncing the dark qualities, the wise person should cultivate the bright; [2] From home, having come to homelessness, in seclusion, where delight is difficult, One should wish to feel delight there, having destroyed sensuality, a person of nothing. The wise person should purify himself from the defilements of the mind. Those with mind rightly well-cultivated in the qualities of perfect awakening, Who, in the giving-up of grasping, without clinging, are delighted, The brilliant ones, with unconscious influences withered away, [3] they, in the world, are completely unbound." [4]
+
+Notes
+
+These verses also occur at Dhp VI, §§85-89; and in AN 10.117, AN 10.169, AN 10.170, SN 45.34, and SN 46.17.
+
+1.
+
+orimaṃ tīraṃ... pārimaṃ tīraṃ. The adjectives orimaṃ and pārimaṃ are superlatives: hence their translation here as 'nearest' and 'farthest'.
+
+2.
+
+kaṇhaṃ dhammaṃ vippahāya, sukkaṃ bhāvetha paṇḍito. K. R. Norman (A Philological Approach to Buddhism: The Bukkyō Dendō Kyōkai Lectures 1994, The Buddhist Forum Vol. V, The Institute of Buddhist Studies, UK/USA 2012, pp. 14-15) points out that in Pāḷi the accusative singular ending -aṃ "can sometimes, although very rarely, stand also for the accusative plural or the ablative singular". This verse is his example. Moreover, he compares this verse to parallel versions of the Dhammapada, discovered in the last century, in Prakrit (reading kinhe dhamme) and Sanskrit (reading kṛṣnāṃ dharmāṃ), showing that dhammaṃ in this Pāḷi verse should be read as plural (see Norman, ibid., p. 15, fn. 32). Commenting on the same verse, where it occurs also in SN 45.34 (at S v 24), the Pāḷi commentary glosses: kaṇhanti akusaladhammaṃ. sukkanti kusaladhammaṃ (Spk iii 132). In other words, the metaphor of 'dark' and 'light' refers to the doctrine of 'unwholesome' and 'wholesome' states or qualities (akusaladhammaṃ = akusalā dhammā and kusaladhammaṃ = kusalā dhammā), an interpretation that also supports a plural reading of kaṇhaṃ dhammaṃ and sukkaṃ (dhammaṃ). MN 9 summarises the wholesome and the unwholesome in brief, while MN 114 provides a very detailed examination. The brief list is as follows. The unwholesome: Killing living beings; taking what is not given; misconduct in sensual pleasures; false speech; malicious speech; harsh speech; gossip; covetousness; ill will; wrong view. The wholesome: Abstention from killing living beings; abstention from taking what is not given; abstention from misconduct in sensual pleasures; abstention from false speech; abstention from malicious speech; abstention from harsh speech; abstention from gossip; non-covetousness; non-ill will; right view.
+
+3.
+
+khīṇāsavā.
+
+4.
+
+parinibbutā.

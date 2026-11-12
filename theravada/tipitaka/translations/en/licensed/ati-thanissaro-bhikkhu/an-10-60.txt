@@ -1,0 +1,54 @@
+AN 10.60 - Girimananda Sutta: To Girimananda
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an10/an10.060.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©1997 Thanissaro Bhikkhu.
+License notice: The text of this page ("Girimananda Sutta: To Girimananda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1997 Thanissaro Bhikkhu. The text of this page ("Girimananda Sutta: To Girimananda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Girimananda Sutta: To Girimananda" (AN 10.60), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/an/an10/an10.060.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+I have heard that on one occasion the Blessed One was staying near Savatthi, in Jeta's Grove, Anathapindika's monastery. And on that occasion Ven. Girimananda was diseased, in pain, severely ill. Then Ven. Ananda went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, "Lord, Ven. Girimananda is diseased, in pain, severely ill. It would be good if the Blessed One would visit Ven. Girimananda, out of sympathy for him."
+
+"Ananda, if you go to the monk Girimananda and tell him ten perceptions, it's possible that when he hears the ten perceptions his disease may be allayed. Which ten? The perception of inconstancy, the perception of not-self, the perception of unattractiveness, the perception of drawbacks, the perception of abandoning, the perception of dispassion, the perception of cessation, the perception of distaste for every world, the perception of the undesirability of all fabrications, mindfulness of in-&-out breathing.
+
+[1] "And what is the perception of inconstancy? There is the case where a monk — having gone to the wilderness, to the shade of a tree, or to an empty building — reflects thus: 'Form is inconstant, feeling is inconstant, perception is inconstant, fabrications are inconstant, consciousness is inconstant.' Thus he remains focused on inconstancy with regard to the five clinging-aggregates. This, Ananda, is called the perception of inconstancy.
+
+[2] "And what is the perception of not-self? There is the case where a monk — having gone to the wilderness, to the shade of a tree, or to an empty building — reflects thus: 'The eye is not-self, forms are not-self; the ear is not-self, sounds are not-self; the nose is not-self, aromas are not-self; the tongue is not-self, flavors are not-self; the body is not-self, tactile sensations are not-self; the intellect is not-self, ideas are not-self.' Thus he remains focused on not-selfness with regard to the six inner & outer sense media. This is called the perception of not-self.
+
+[3] "And what is the perception of unattractiveness? There is the case where a monk ponders this very body — from the soles of the feet on up, from the crown of the head on down, surrounded by skin, filled with all sorts of unclean things: 'There is in this body: hair of the head, hair of the body, nails, teeth, skin, muscle, tendons, bones, bone marrow, spleen, heart, liver, membranes, kidneys, lungs, large intestines, small intestines, gorge, feces, gall, phlegm, lymph, blood, sweat, fat, tears, oil, saliva, mucus, oil in the joints, urine.' Thus he remains focused on unattractiveness with regard to this very body. This is called the perception of unattractiveness.
+
+[4] "And what is the perception of drawbacks? There is the case where a monk — having gone to the wilderness, to the foot of a tree, or to an empty dwelling — reflects thus: 'This body has many pains, many drawbacks. In this body many kinds of disease arise, such as: seeing-diseases, hearing-diseases, nose-diseases, tongue-diseases, body-diseases, head-diseases, ear-diseases, mouth-diseases, teeth-diseases, cough, asthma, catarrh, fever, aging, stomach-ache, fainting, dysentery, grippe, cholera, leprosy, boils, ringworm, tuberculosis, epilepsy, skin-disease, itch, scab, psoriasis, scabies, jaundice, diabetes, hemorrhoids, fistulas, ulcers; diseases arising from bile, from phlegm, from the wind-property, from combinations of bodily humors, from changes in the weather, from uneven care of the body, from attacks, from the result of kamma; cold, heat, hunger, thirst, defecation, urination.' Thus he remains focused on drawbacks with regard to this body. This is called the perception of drawbacks.
+
+[5] "And what is the perception of abandoning? There is the case where a monk doesn't acquiesce to an arisen thought of sensuality. He abandons it, dispels it, & wipes it out of existence. He doesn't acquiesce to an arisen thought of ill-will. He abandons it, dispels it, & wipes it out of existence. He doesn't acquiesce to an arisen thought of harmfulness. He abandons it, dispels it, & wipes it out of existence. He doesn't acquiesce to arisen evil, unskillful mental qualities. He abandons them, dispels them, & wipes them out of existence. This is called the perception of abandoning.
+
+[6] "And what is the perception of dispassion? There is the case where a monk — having gone to the wilderness, to the shade of a tree, or to an empty building — reflects thus: 'This is peace, this is exquisite — the stilling of all fabrications, the relinquishment of all acquisitions, the ending of craving, dispassion, Unbinding.' This is called the perception of dispassion.
+
+[7] "And what is the perception of cessation? There is the case where a monk — having gone to the wilderness, to the shade of a tree, or to an empty building — reflects thus: 'This is peace, this is exquisite — the stilling of all fabrications, the relinquishment of all acquisitions, the ending of craving, cessation, Unbinding.' This is called the perception of cessation.
+
+[8] "And what is the perception of distaste for every world? There is the case where a monk abandoning any attachments, clingings, fixations of awareness, biases, or obsessions with regard to any world, refrains from them and does not get involved. This is called the perception of distaste for every world.
+
+[9] "And what is the perception of the undesirability of all fabrications? There is the case where a monk feels horrified, humiliated, & disgusted with all fabrications. This is called the perception of the undesirability of all fabrications.
+
+[10] "And what is mindfulness of in-&-out breathing? There is the case where a monk — having gone to the wilderness, to the shade of a tree, or to an empty building — sits down folding his legs crosswise, holding his body erect, and setting mindfulness to the fore. Always mindful, he breathes in; mindful he breathes out.
+
+"[i] Breathing in long, he discerns, 'I am breathing in long'; or breathing out long, he discerns, 'I am breathing out long.' [ii] Or breathing in short, he discerns, 'I am breathing in short'; or breathing out short, he discerns, 'I am breathing out short.' [iii] He trains himself, 'I will breathe in sensitive to the entire body.' He trains himself, 'I will breathe out sensitive to the entire body.' [iv] He trains himself, 'I will breathe in calming bodily fabrication.' He trains himself, 'I will breathe out calming bodily fabrication.'
+
+"[v] He trains himself to breathe in sensitive to rapture, and to breathe out sensitive to rapture. [vi] He trains himself to breathe in sensitive to pleasure, and to breathe out sensitive to pleasure. [vii] He trains himself to breathe in sensitive to mental processes, and to breathe out sensitive to mental processes. [viii] He trains himself to breathe in calming mental processes, and to breathe out calming mental processes.
+
+"[ix] He trains himself to breathe in sensitive to the mind, and to breathe out sensitive to the mind. [x] He trains himself to breathe in satisfying the mind, and to breathe out satisfying the mind. [xi] He trains himself to breathe in steadying the mind, and to breathe out steadying the mind. [xii] He trains himself to breathe in releasing the mind, and to breathe out releasing the mind.
+
+"[xiii] He trains himself to breathe in focusing on inconstancy, and to breathe out focusing on inconstancy. [xiv] He trains himself to breathe in focusing on dispassion,[1] and to breathe out focusing on dispassion. [xv] He trains himself to breathe in focusing on cessation, and to breathe out focusing on cessation. [xvi] He trains himself to breathe in focusing on relinquishment, and to breathe out focusing on relinquishment.
+
+"This, Ananda, is called mindfulness of in-&-out breathing.
+
+"Now, Ananda, if you go to the monk Girimananda and tell him these ten perceptions, it's possible that when he hears these ten perceptions his disease may be allayed."
+
+Then Ven. Ananda, having learned these ten perceptions in the Blessed One's presence, went to Ven. Girimananda and told them to him. As Ven. Girimananda heard these ten perceptions, his disease was allayed. And Ven. Girimananda recovered from his disease. That was how Ven. Girimananda's disease was abandoned.
+
+Notes
+
+1.
+
+Lit., fading.

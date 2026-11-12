@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:25 Nandiya (to Māra)</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag1.25" class="h1">Thag 1:25  Nandiya (to Māra)</h4>
+            <div class="verse">
+              <p>Like splendor, his mind,</p>
+              <p>continually fruitful:</p>
+              <p>Attack a monk like that,</p>
+              <p class="v1">you Dark One,</p>
+              <p class="v3">and you’ll fall</p>
+              <p class="v3">into pain.</p>
+            </div><!--end verse-->
+            <p class="seealso"> See also: SN 5; <a href="../Ud/ud4_4.html">Ud 4:4</a>; <a href="../StNp/StNp3_2.html">Sn 3:2</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

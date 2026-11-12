@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:118 Kimbila</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag1.118" class="h1">Thag 1:118  Kimbila</h4>
+            <div class="verse">
+              <p>As if sent by a curse,<span class="fn"><a href="#thag1.118note01">1</a></span><!--end fn cite--></p>
+              <p>it drops on us—</p>
+              <p class="v4">aging.</p>
+              <p>The body seems     other,</p>
+              <p>though it’s still the same one.</p>
+              <p>I’m still here</p>
+              <p>&amp; have never been absent from it,</p>
+              <p>but I remember myself</p>
+              <p>as if somebody else’s.</p>
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.118note01">1. Reading <em>abhisatto</em> with the Sinhalese and Burmese editions. The Thai and PTS have <em>abhisattho,</em> “ordered.”</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../Thig/thig13_1.html">Thig 13:1</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

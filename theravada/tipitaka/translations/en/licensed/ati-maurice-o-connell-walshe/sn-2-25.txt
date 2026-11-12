@@ -1,0 +1,24 @@
+SN 2.25 - Jantu Sutta: Jantu
+Translated by Maurice O'Connell Walshe
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn02/sn02.025.wlsh.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn02/sn02.025.wlsh.html#F_termsOfUse
+Copyright: ©1985 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1985 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Samyutta Nikaya: An Anthology (WH 318-321), by M. O'C. Walshe (Kandy: Buddhist Publication Society, 1985). Transcribed from the print edition in 2007 by a volunteer, under the auspices of the Access to Insight Dhamma Transcription Project and by arrangement with the Buddhist Publication Society. Minor revisions were made in accordance with the ATI style sheet. Pali diacritics are represented using the Velthuis convention. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Jantu Sutta: Jantu" (SN 2.25), translated from the Pali by Maurice O'Connell Walshe. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn02/sn02.025.wlsh.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. Entire protected source unit, including notes and verses, preserved; canonical completeness has not been independently established.
+
+Thus have I heard. Once a large number of bhikkhus were living among the Kosalans, on the slopes of the Himalayas, in a forest-lodging. And they were haughty, unsteady, garrulous, of loose speech, unmindful, thoughtless, without concentration, with wandering minds and faculties uncontrolled. Now Jantu, son of the devas, on a fifteenth-day Uposatha,[1] came into the presence of those bhikkhus and addressed them in verse:
+
+ Happy was the life in former times, Led by Gotama's disciples then: Unhankering, they sought their frugal alms, Unhankering, their lodging and their bed. The world's impermanence they understood: Knowing this, they made an end of woe. Now, making evil-doers of themselves, Just like village headmen they behave, Eating, eating, till they drop with sleep, Coveting the things their neighbor has. To the Sangha having paid respect, Certain bhikkhus present here I greet: Others are like outcasts, masterless, To the realm of hungry ghosts[2] as if consigned. Those who thus persist in heedlessness Are they to whom my message is addressed. But to those who dwell in mindfulness I accord full honor and respect. 
+
+Notes
+
+1.
+
+The Buddhist "sabbath": the eve of the full moon, the new moon, and the two intervening days, i.e., the 1st, 8th, 14th or 15th and 23rd day of the lunar month. The 15th day is used for exhortation. Called in Sri Lanka poya, and in Thailand wan phra.
+
+2.
+
+Petaa. Miserable beings who, because of previous greed and avarice, go hungry. I do not understand Mrs Rhys Davids rendering: "As cast out bodies of the dead."

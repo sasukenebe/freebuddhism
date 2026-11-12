@@ -1,0 +1,136 @@
+Ne 6 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne6.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+3. The Ninefold Thread in the Mode of Conveying a Construing
+
+119. Herein, what is the Mode of Conveying a Construing? The Mode of Conveying a Construing is this:
+
+“Looking PTS vp En 37 for right and wrong construing
+In the case of all the Conveyings,
+Plane and resort [will] demonstrate
+The Mode Conveying a Construing”.
+
+120. What does it construe? The four Principal Appeals to Authority. These are the appeal to the Enlightened One as authority, the appeal to a community as authority, the appeal to several elders as authority, and the appeal to a single elder as authority. These are the four Principal Appeals to Authority.
+
+121. [In all such appeals to authority] (These terms and phrasing must, in the case of the Thread, be conformable to the ways of entry [to it], and, in the case of the Out-guiding (Discipline), be seen [there] for oneself, and they must, in the case of the essential nature of the idea, be adaptable [to it].
+
+122. PTS vp Pli 22 What is the Thread to whose ways of entry they must be conformable? The four Noble Truths.
+
+123. What is the Outguiding (Discipline) where they must be seen for oneself? The outguiding of lust, the outguiding of hate, and the outguiding of delusion.
+
+124. What is the essential nature of the idea to which they must be adaptable? Dependent arising.
+
+125. If, in the case of the Noble Truths, there is a way of entry [to them], and if, in the case of the Outguiding of defilements, it is PTS vp En 38 seen for oneself, and if, in the case of the essential nature of the idea, there is no running counter [to it], then there is no generation of taints. Whatever is [so] construable from among the four Principal Appeals to Authority can be accepted, whatever it is construable by and however it is construed.
+
+126. When [in the Thread] someone is asked a question, [the question] should be fathomed and investigated as to the terms thus: “How many terms are there in the question? If all the terms are in concord about a single meaning, that is a single question. If four terms are in concord about a single meaning, that is a single question. If three terms are in concord about a single meaning, that is a single question. If two terms are in concord about a single meaning, that is a single question. If one term is in concord about a single meaning, that is a single question”.
+
+127. When scrutinizing it, what one needs to recognize is this: “Now are these ideas different in meaning and different in phrasing, or have these ideas a single meaning, only, the phrasing being different”?.
+
+128. How would that be? According as the deity asked the Blessed One the following questions:
+
+“The world: by what is it struck down?
+And then by what is it beset?
+What barb has it been entered by?
+And by what harassed constantly”.
+
+129. These four terms asked are three questions: How is that recognized? Because the Blessed One answered the deity as follows:
+
+“Mortality strikes down the world.
+And then it is beset by ageing.
+And craving’s barb has entered it.
+And wishes harass it constantly”.
+
+130. Herein, ageing and death are two of the determined charac PTS vp En 39 teristics of the determined; for ageing is (alteration of what is steady) [and] death is (subsidence).
+
+131. Herein, there is a difference between the meanings of ageing and of death. For what reason? PTS vp Pli 23 Because those who die in the womb never become aged. And there is death among the gods though their physical frames do not age. One can get by ageing, but death one cannot get by, except for what is in the province of those possessing supernormal success.
+
+132. Now when it is said “Craving’s barb has entered it”, those without lust are seen to age and die. And if craving were the same as ageing and death, then that being so, all those who were youthful would be without craving. And [if], in the way that craving is the origin of suffering, so too were ageing and death [the origin of suffering], then that [ageing and death] would actually be the origin of suffering and craving would not be the origin of suffering; but ageing and death are not the origin of suffering, and craving is the origin of suffering. And [if], in the way that craving is exterminable by the path, so [too ageing and death were the same], then ageing and death would also be exterminable by the path.
+
+133. By means of this kind of construction it can be examined with various other reasons whether the construction is seen for oneself and [whether] otherness of meaning is co-ordinated; And it should be examined as to phrasing as well.
+
+134. Now in the case of the two ideas, namely “barb” and “harassment”, there is oneness of meaning; for no difference is construable between the meanings of “wishes” and “craving”. When craving’s intent is not fulfilled, anger and spite arise with respect to the nine Grounds for Annoyance.
+
+135. By means of this construction there is otherness in the meanings of ageing, of death, and of craving.
+
+136. However, when the Blessed One calls this by the two names, “wishes” and “craving”, it is in virtue of the external grounds which PTS vp En 40 are its object that it is called by him by the two names, “wishes” and “craving”; for all craving has the single characteristic of cleaving to. Just as all fire has the single characteristic of heating, though it has various other names according to its consumption [assumed], that is to say, “log-fire” and “grass-fire” and “brushwood-fire” and “cowdung-fire” and “chaff-fire” and “rubbish-fire”, yet all fire has only the characteristic of heating, so too, all craving has only one characteristic, namely the characteristic of cleaving to, PTS vp Pli 24 though it is called by various other names according to the fuel-consumption [assumed] that is its object, that is to say, “wishes” and “craving” and “barb” and “harassment” and “the Current” and “attachment” and “affection (moisture)” and “torment” and “the Creeper” and “conceiving [in terms of ‘I’ and ‘mine’]” and “responsibility” and “need” and “thirst” and “expectant-relishing”; yet all craving has only one characteristic, namely the characteristic of cleaving to, according as it is stated in the [Mode of Conveying] Synonyms:
+
+137. Need and longing, expectant relishing,
+Enticements on the several elements based,
+Hankering whose being is rooted in unknowing:
+To all that with its root I put an end.
+
+138. That is synonymous with craving, according as the Blessed One said: (Tissa, when someone is not without lust, not without will, not without love, not without thirst, not without fever, for form … for feeling … for perception … for determinations … for consciousness …) all of which argument can be cited in detail.
+
+139. This synonym for Craving is construable in this way: “All access to suffering has for its root determinations [conditioned] by craving for sensual desires”. It is not construable in this way: “All PTS vp En 41 access to dispassion has for its root some requisite of craving for sensual desires”.
+
+By means of this construction it can be examined with various other reasons.
+
+140. For just as the Blessed One teaches ugliness to a person of lusting temperament, teaches loving kindness to a person of hating temperament, teaches dependent-arising to a person of deluded temperament—for if he taught to a person of lusting temperament the heart-deliverance of loving kindness, or the pleasant way with sluggish acquaintanceship, or the pleasant way with swift acquaintanceship, or the kind of abandoning heralded by insight, the teaching could not be construed—, so too, whatever conforms with the abandoning of lust, whatever conforms with the abandoning of hate, and whatever conforms with the abandoning of delusion, PTS vp Pli 25 can all be construed under the Mode of Conveying a Construing, after investigating it under the Mode of Conveying an Investigation, so far as the plane of knowledge extends.
+
+141. When someone abides in loving kindness, the teaching is not construable thus: “Ill will keeps gripping his heart”, the teaching is construable thus: “Ill will is abandoned and disappears in him”.
+
+142. When someone abides in compassion, the teaching is not construable thus: “Cruelty keeps gripping his heart”, the teaching is construable thus: “Cruelty is abandoned and disappears in him”.
+
+143. When someone abides in gladness, the teaching is not construable thus: “Boredom keeps gripping his heart”, the teaching is construable thus: “Boredom is abandoned and disappears in him”.
+
+144. When someone abides in onlooking-equanimity, the teaching is not construable thus: “Lust keeps gripping his heart”, the teaching is construable thus: “Lust is abandoned and disappears in him”.
+
+145. When someone abides in the signless, the teaching is not construable thus: “His cognizance occurs by means of this or that by following signs”, the teaching is construable thus: “Any sign is abandoned and disappears in him”.
+
+146. When the [conceiving “I] am” is absent, the teaching is not PTS vp En 42 construable thus “I do not see thus ‘I am this’, yet the barb of uncertainty and wondering ‘What am I?, How am I’? keeps gripping my cognizance”, the teaching is construable thus “The barb of uncertainty and wondering is abandoned and disappears [in me]”.
+
+147. [Again,] when someone has entered upon the first meditation, the teaching is not construable thus “Lust for sensual desires and ill will occur in his distinction”, the teaching is construable thus “They occur in his inferior state”, or alternatively, the teaching is not construable thus “Perception and attention accompanied by what is without thinking occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+148. When someone has entered upon the second meditation, the teaching is not construable thus “Perception and attention accompanied by what has thinking and exploring occur in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by what has pleasure due to onlooking-equanimity occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+149. PTS vp Pli 26 When someone has entered upon the third meditation, the teaching is not construable thus “Perception and attention accompanied by what has pleasure due to happiness occur in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by mindfulness whose purity is due to onlooking-equanimity occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+150. When someone has entered upon the fourth meditation, the teaching is not construable thus “Perception and attention accompanied by what has [pleasure due to] onlooking-equanimity occur PTS vp En 43 in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by the base consisting of infiniteness of space occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+151. When someone has entered upon the base consisting of infiniteness of space, the teaching is not construable thus “Perception and attention accompanied by form occur in his distinction”, the teaching is, construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by the base consisting of infiniteness of consciousness occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+152. When someone has entered upon the base consisting of infiniteness of consciousness, the teaching is not construable thus “Perception and attention accompanied by the base consisting of infiniteness of space occur in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by the base consisting of no-owning occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+153. When someone has entered upon the base consisting of no- PTS vp En 44 owning, the teaching is not construable thus “Perception and attention accompanied by the base consisting of infiniteness of consciousness occur in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by the base consisting of neither perception nor non-perception occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+154. When someone has entered upon the base consisting of neither perception nor non-perception, the teaching is not construable thus “The accesses to perception occur in his distinction”, the teaching is construable thus “They occur in his inferior state”; or alternatively, the teaching is not construable thus “Perception and attention accompanied by cessation of perception and feeling occur in his inferior state”, the teaching is construable thus “They occur in his distinction”.
+
+155. The teaching is not construable thus “Cognizance is healthy when it does not submit to directive management”, the teaching is construable thus “Cognizance is healthy when it submits to directive management”.
+
+156. That is how all the ninefold Thread should, after being in all ways investigated in accordance with the Mode of Conveying an Investigation, be construed in accordance with the Mode of Conveying a Construing, doing so according to the True Idea, according to the Outguiding (Discipline), PTS vp Pli 27 and according to the Master’s Dispensation.
+
+157. That is why the venerable Mahā-Kaccāna said:
+
+“Looking for right and wrong construing
+In the case of all the Conveyings’
+Plane and resort [will] demonstrate
+The Mode Conveying a Construing”.
+
+The Mode of Conveying a Construing is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

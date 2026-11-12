@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 3:14 Gotama</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag3.14" class="h1">Thag 3:14  Gotama</h4>
+            <div class="verse">
+              <p>While wandering on</p>
+              <p>I went to hell;</p>
+              <p class="v2">went again &amp; again</p>
+              <p>to the world of the hungry ghosts;</p>
+              <p class="v2">stayed countless times, long,</p>
+              <p>in the pain of the animal womb;</p>
+              <p class="v2">enjoyed</p>
+              <p>the human state;</p>
+              <p>went to heaven</p>
+              <p class="v2">from time to time;</p>
+              <p>settled in the elements of form,</p>
+              <p>the elements of formlessness,</p>
+              <p>neither perception, perception-less.</p>
+              <div class="verse-add">
+                <p>Ways of taking birth</p>
+                <p>are now known:</p>
+                <p class="v2">devoid of essence,</p>
+                <p class="v2">unstable,</p>
+                <p class="v2">conditioned,</p>
+                <p class="v2">always blown along.</p>
+                <p>Knowing them</p>
+                <p>as born from my self,</p>
+                <p>mindful</p>
+                <p>I went right to peace.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 45:171 Floods | Ogha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN45.171" class="h1">Floods<br/>
+                Ogha Sutta  (SN 45:171)</h2>
+              <p>Near Sāvatthī. “Monks, there are these four floods. Which four? The flood of sensuality, the flood of becoming, the flood of views, &amp; the flood of ignorance. These are the four floods.</p>
+              <p>“Now, this noble eightfold path is to be developed for direct knowledge of, comprehension of, the total ending of, &amp; the abandoning of these four floods. Which noble eightfold path? There is the case where a monk develops right view dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment. He develops right resolve… right speech… right action… right livelihood… right effort… right mindfulness… right concentration dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in relinquishment. This noble eightfold path is to be developed for direct knowledge of, for comprehension of, for the total ending of, &amp; for the abandoning of these four floods.”</p>
+              <p class="seealso">See also: <a href="SN1_1.html">SN 1:1</a>; <a href="../AN/AN4_10.html">AN 4:10</a>; <a href="../AN/AN6_63.html">AN 6:63</a>; <a href="../KN/StNp/StNp5_intro.html">Sn 5</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

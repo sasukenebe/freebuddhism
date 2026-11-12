@@ -1,0 +1,44 @@
+SN 36.11 - Rahogata Sutta: Secluded
+Translated by Nyanaponika Thera
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.011.nypo.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.011.nypo.html#F_termsOfUse
+Copyright: ©1983 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1983 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Contemplation of Feeling: The Discourse-grouping on the Feelings (WH 303), translated from the Pali by Nyanaponika Thera (Kandy: Buddhist Publication Society, 1983). Copyright © 1983 Buddhist Publication Society. Used with permission. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Rahogata Sutta: Secluded" (SN 36.11), translated from the Pali by Nyanaponika Thera. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.011.nypo.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+Once a certain monk came to see the Blessed One and, after saluting him respectfully, sat down at one side. Seated thus, he spoke to the Blessed One as follows:
+
+"When I went into seclusion, while I was in solitude, this thought occurred to me: 'Three feelings have been taught by the Blessed One: pleasant, painful and neutral feelings. But the Blessed One has also said that whatever is felt is within suffering.' Now, with reference to what was it stated by the Blessed One that whatever is felt is within suffering?"
+
+"Well spoken, monk, well spoken! While three feelings have been taught by me, the pleasant, the painful and the neutral, yet I have also said that whatever is felt is within suffering. This, however, was stated by me with reference to the impermanence of (all) conditioned phenomena.[1] I have said it because conditioned phenomena are liable to destruction, to evanescence, to fading away, to cessation and to change. It is with reference to this that I have stated: 'Whatever is felt is within suffering.'
+
+"I have further taught, monk, the gradual cessation of conditioned phenomena. In him who has attained the first meditative absorption,[2] speech has ceased. Having attained the second absorption, thought-conception and discursive thinking has ceased. Having attained the third absorption, joy has ceased. Having attained the fourth absorption, inhalation and exhalation have ceased. Having attained the sphere of the infinity of space, perception of form[3] has ceased. Having attained the sphere of the infinity of consciousness, the perception of the sphere of the infinity of space has ceased. Having attained the sphere of no-thingness, the perception of the sphere of infinity of consciousness has ceased. Having attained the sphere of neither-perception-nor-non-perception, the perception of the sphere of no-thingness has ceased. Having attained the cessation of perception and feeling, perception and feeling have ceased. In a taint-free monk greed has ceased, hatred has ceased, delusion has ceased.
+
+"I have further taught, monk the gradual stilling of conditioned phenomena.[4] In him who has attained the first meditative absorption, speech has been stilled. Having attained the second absorption, thought-conception and discursive thinking have been stilled... (To be continued as above, up to:) Having attained the cessation of perception and feeling, perception and feeling have been stilled. In a taint-free monk greed has been stilled, hatred has been stilled, delusion has been stilled.
+
+"There are, monk, these six quietenings. In him who has attained the first absorption, speech is quietened. Having attained the second absorption, thought-conception and discursive thinking are quietened. Having attained the third absorption, rapture is quietened. Having attained the fourth absorption, inhalation and exhalation is quietened.[5] Having attained the cessation of perception and feeling, perception and feeling are quietened. In a taint-free monk greed is quietened, hatred is quietened, delusion is quietened."
+
+Notes
+
+1.
+
+sankhara.
+
+2.
+
+jhana.
+
+3.
+
+Or: matter.
+
+4.
+
+sankhara.
+
+5.
+
+In the section on "being quietened" (patipassaddha), the four immaterial absorptions (arupajjhana) are not mentioned. According to Comy. they are implied in the "cessation of perception and feelings" (for the attainment of which they are a condition).

@@ -1,0 +1,56 @@
+Ne 1 - A. Comprehensive Section
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne1.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+A. Comprehensive Section
+
+Namo tassa bhagavato arahato sammāsambuddhassa
+
+1. PTS vp Pli 1 PTS vp En 3 Wise men can know the Dispensation
+Glorious of the Glorious Man,
+Whom the world and world-protectors
+Ever honour and revere.
+
+Twelve terms [do represent] the Thread,
+[Whose] phrasing and [whose] meaning all
+Should in both instances be known:
+What is the phrasing? What the meaning?
+
+Sixteen conveyings [as] a guide
+[And] five guide-lines the dispensation's
+Search [and] eighteen root-terms, [too],
+Mahā-Kaccāna demonstrated.
+
+Conveyings PTS vp En 4 investigate the Thread's
+Phrasing, three Guide-Lines the Thread's meaning;
+Comprised in both these ways, a Thread
+Is called “according to the Thread”.
+
+[So since] the Teaching and the Taught
+Should both be known, the order can
+Now follow here in which to test
+The Ninefold Thread-of-Argument.
+
+The Comprehensive Section.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

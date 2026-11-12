@@ -1,0 +1,24 @@
+Ud 1.7 - Aja Sutta: Aja
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.07.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2012 Thanissaro Bhikkhu.
+License notice: The text of this page ("Aja Sutta: Aja", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2012 Thanissaro Bhikkhu. The text of this page ("Aja Sutta: Aja", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 1 December 2012. How to cite this document (a suggested style): "Aja Sutta: Aja" (Ud 1.7), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 1 December 2012, https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.07.than.html . Alternate format:
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+I have heard that on one occasion the Blessed One was staying near Pāva at the Ajakalāpaka [Herd-of-Goats] shrine, the dwelling of the Ajakalāpaka spirit. And on that occasion, in the pitch-black darkness of the night, the Blessed One was sitting in the open air, and the rain was falling in scattered drops.
+
+Then the Ajakalāpaka spirit — wanting to cause fear, terror, & horripilation in the Blessed One — went to him and, on arrival, not far from him, three times made a commotion & pandemonium: "Commotion & pandemonium! Commotion & pandemonium! Commotion & pandemonium! — That's a goblin for you, contemplative!"
+
+Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:
+
+ When, with regard to his own qualities,[1] a brahman is one who has gone beyond, he transcends this goblin and his pandemonium. 
+
+Note
+
+1.
+
+Dhammas. This is apparently a reference to skillful and unskillful mental qualities — which would mean that this sutta sides with the passages in the Canon categorizing unbinding not as a dhamma, but as the transcending of all dhammas. (The suttas in general are inconsistent on this point. Iti 90, among others, states clearly that unbinding counts as a dhamma. AN 10.58, on the other hand, calls unbinding the ending of all dhammas. Sn 5.6 calls the attainment of the goal the transcending of all dhammas, just as Sn 4.6 and Sn 4.10 state that the arahant has transcended dispassion, said to be the highest dhamma. MN 22, in the famous simile of the raft, states that all dhammas are abandoned at the end of the path.)

@@ -1,0 +1,98 @@
+SN 22.59 - Anatta-lakkhana Sutta: The Discourse on the Not-self Characteristic
+Translated by N.K.G. Mendis
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.mend.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.mend.html#F_termsOfUse
+Copyright: ©1979 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1979 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From On the No-self Characteristic (WH 268), translated and with an introduction by Dr. N.K.G. Mendis (Kandy: Buddhist Publication Society, 1979). Copyright © 1979 Buddhist Publication Society. Used with permission. Last revised for Access to Insight on 13 June 2010. How to cite this document (a suggested style): "Anatta-lakkhana Sutta: The Discourse on the Not-self Characteristic" (SN 22.59), translated from the Pali by N.K.G. Mendis. Access to Insight (BCBS Edition), 13 June 2010, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.059.mend.html . Alternate format:
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. Entire protected source unit, including notes and verses, preserved; canonical completeness has not been independently established.
+
+Thus it was heard by me. At one time the Blessed One was living in the deer park of Isipatana near Benares. There, indeed, the Blessed One addressed the group of five monks.
+
+"Form, O monks, is not-self; if form were self, then form would not lead to affliction and it should obtain regarding form: 'May my form be thus, may my form not be thus'; and indeed, O monks, since form is not-self, therefore form leads to affliction and it does not obtain regarding form: 'May my form be thus, may my form not be thus.'
+
+"Feeling, O monks, is not-self; if feeling were self, then feeling would not lead to affliction and it should obtain regarding feeling: 'May my feeling be thus, may my feeling not be thus'; and indeed, O monks, since feeling is not-self, therefore feeling leads to affliction and it does not obtain regarding feeling: 'May my feeling be thus, may my feeling not be thus.'
+
+"Perception, O monks, is not-self; if perception were self, then perception would not lead to affliction and it should obtain regarding perception: 'May my perception be thus, may my perception not be thus'; and indeed, O monks, since perception is not-self, therefore, perception leads to affliction and it does not obtain regarding perception: 'May my perception be thus, may my perception not be thus.'
+
+"Mental formations, O monks, are not-self; if mental formations were self, then mental formations would not lead to affliction and it should obtain regarding mental formations: 'May my perception be thus, may my mental formations not be thus'; and indeed, O monks, since mental formations are not-self, therefore, mental formations lead to affliction and it does not obtain regarding mental formations: 'May my mental formations be thus, may my mental formations not be thus.'
+
+"Consciousness, O monks, is not-self; if consciousness were self, then consciousness would not lead to affliction and it should obtain regarding consciousness: 'May my consciousness be thus, may my consciousness not be thus'; and indeed, O monks, since consciousness is not-self, therefore, consciousness leads to affliction and it does not obtain regarding consciousness: 'May my consciousness be thus, may my consciousness not be thus.'
+
+"What do you think of this, O monks? Is form permanent or impermanent?"
+
+"Impermanent, O Lord."
+
+"Now, that which is impermanent, is it unsatisfactory or satisfactory?"
+
+"Unsatisfactory, O Lord."
+
+"Now, that which is impermanent, unsatisfactory, subject to change, is it proper to regard that as: 'This is mine, this I am, this is my self'?"
+
+"Indeed, not that, O Lord."
+
+"What do you think of this, O monks? Is feeling permanent or impermanent?"
+
+"Impermanent, O Lord."
+
+"Now, that which is impermanent, is it unsatisfactory or satisfactory?"
+
+"Unsatisfactory, O Lord."
+
+"Now, that which is impermanent, unsatisfactory, subject to change, is it proper to regard that as: 'This is mine, this I am, this is my self'?"
+
+"Indeed, not that, O Lord."
+
+"What do you think of this, O monks? Is perception permanent or impermanent?"
+
+"Impermanent, O Lord."
+
+"Now, what is impermanent, is it unsatisfactory or satisfactory?"
+
+"Unsatisfactory, O Lord."
+
+"Now, that which is impermanent, unsatisfactory, subject to change, is it proper to regard that as: 'This is mine, this I am, this is my self'?"
+
+"Indeed, not that, O Lord."
+
+"What do you think of this, O monks? Are mental formations permanent or impermanent?"
+
+"Impermanent, O Lord."
+
+"Now, those that are impermanent, are they unsatisfactory or satisfactory?"
+
+"Unsatisfactory, O Lord."
+
+"Now, those that are impermanent, unsatisfactory, subject to change, is it proper to regard them as: 'They are mine, this I am, this is my self'?"
+
+"Indeed, not that, O Lord."
+
+"Now what do you think of this, O monks? Is consciousness permanent or impermanent?"
+
+"Impermanent, O Lord."
+
+"Now, what is impermanent, is that unsatisfactory or satisfactory?"
+
+"Unsatisfactory, O Lord."
+
+"Now, what is impermanent, unsatisfactory, subject to change, is it proper to regard it as: 'This is mine, this I am, this is my self'?"
+
+"Indeed, not that, O Lord."
+
+"Therefore, surely, O monks, whatever form, past, future or present, internal or external, coarse or fine, low or lofty, far or near, all that form must be regarded with proper wisdom, according to reality, thus: 'This is not mine, this I am not, this is not my self.'
+
+"Therefore, surely, O monks, whatever feeling, past, future or present, internal or external, coarse or fine, low or lofty, far or near, all that feeling must be regarded with proper wisdom, according to reality, thus: 'This is not mine, this I am not, this is not my self.'
+
+"Therefore, surely, O monks, whatever perception, past, future or present, internal or external, coarse or fine, low or lofty, far or near, all that perception must be regarded with proper wisdom, according to reality, thus: 'This is not mine, this I am not, this is not my self.'
+
+"Therefore, surely, O monks, whatever mental formations, past, future or present, internal or external, coarse or fine, low or lofty, far or near, all those mental formations must be regarded with proper wisdom, according to reality, thus: 'These are not mine, this I am not, this is not my self.'
+
+"Therefore, surely, O monks, whatever consciousness, past, future or present, internal or external, coarse or fine, low or lofty, far or near, all that consciousness must be regarded with proper wisdom, according to reality, thus: 'This is not mine, this I am not, this is not my self.'
+
+"O monks, the well-instructed noble disciple, seeing thus, gets wearied of form, gets wearied of feeling, gets wearied of perception, gets wearied of mental formations, gets wearied of consciousness. Being wearied he becomes passion-free. In his freedom from passion, he is emancipated. Being emancipated, there is the knowledge that he is emancipated. He knows: 'birth is exhausted, lived is the holy life, what had to be done is done, there is nothing more of this becoming.'"
+
+This the Blessed One said. Pleased, the group of five monks were delighted with the exposition of the Blessed One; moreover, as this exposition was being spoken, the minds of the group of five monks were freed of defilements, without attachment.
+
+Indeed, at that time there were six arahants in the world.

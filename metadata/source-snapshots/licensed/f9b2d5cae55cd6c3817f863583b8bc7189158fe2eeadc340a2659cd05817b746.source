@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 2:9 Visākhā | Visākhā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud2.9" class="h1">Ud 2:9 Visākhā (Visākhā Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at the Eastern Monastery, the palace of Migāra’s mother.<span class="fn"><a href="#ud2.9note01">1</a></span><!--end fn cite--> And on that occasion, Visākhā, Migāra’s mother, had some dealings with King Pasenadi Kosala that he did not settle as she had wished. So in the middle of the day she went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As she was sitting there the Blessed One said to her, “Well now, Visākhā, where are you coming from in the middle of the day?”</p>
+              <p>“Just now, lord, I had some dealings with King Pasenadi Kosala that he did not settle as I had wished.”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>All subjection to others</p>
+                <p class="v2">is painful.</p>
+                <p>All independence</p>
+                <p class="v2">is bliss.</p>
+                <p>What is held in common</p>
+                <p>brings suffering,</p>
+                <p>for duties are hard</p>
+                <p>to overcome.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud2.9note01">1. According to the Commentary, Visākhā was actually Migāra’s daughter, but because she introduced him to the Dhamma, she gained the epithet of being his mother.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

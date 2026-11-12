@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 35:24 For Abandoning | Pahāna Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN35.24" class="h1">For Abandoning<br/>
+                Pahāna Sutta  (SN 35:24)</h2>
+              <p>“Monks, I will teach you the All as a phenomenon to be abandoned. Listen &amp; pay close attention. I will speak.”</p>
+              <p>“As you say, lord,” the monks responded to him.</p>
+              <p>The Blessed One said, “And which All is a phenomenon to be abandoned? The eye is to be abandoned.<span class="fn"><a href="#sn35.24note01">1</a></span><!--end fn cite--> Forms are to be abandoned. Eye-consciousness is to be abandoned. Eye-contact is to be abandoned. And whatever there is that arises in dependence on eye-contact—experienced as pleasure, pain or neither-pleasure-nor-pain—that too is to be abandoned.</p>
+              <p>“The ear is to be abandoned. Sounds are to be abandoned…</p>
+              <p>“The nose is to be abandoned. Aromas are to be abandoned…</p>
+              <p>“The tongue is to be abandoned. Flavors are to be abandoned…</p>
+              <p>“The body is to be abandoned. Tactile sensations are to be abandoned…</p>
+              <p>“The intellect is to be abandoned. Ideas are to be abandoned. Intellect-consciousness is to be abandoned. Intellect-contact is to be abandoned. And whatever there is that arises in dependence on intellect-contact—experienced as pleasure, pain or neither-pleasure-nor-pain—that too is to be abandoned.</p>
+              <p>“This is called the All as a phenomenon to be abandoned.”</p>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="sn35.24note01">1. To abandon the eye, etc., here means to abandon passion and desire for these things. See <a href="SN27_1.html">SN 27:1–10</a></p>
+              </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

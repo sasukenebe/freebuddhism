@@ -1,0 +1,64 @@
+Snp 4.9 - Magandiya Sutta: To Magandiya
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/kn/snp/snp.4.09.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©1994 Thanissaro Bhikkhu.
+License notice: The text of this page ("Magandiya Sutta: To Magandiya", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1994 Thanissaro Bhikkhu. The text of this page ("Magandiya Sutta: To Magandiya", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Magandiya Sutta: To Magandiya" (Sn 4.9), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/kn/snp/snp.4.09.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+[Magandiya offers his daughter to the Buddha, who replies:]
+
+ On seeing [the daughters of Mara] — Discontent, Craving, & Passion — there wasn't even the desire for sex. So what would I want with this, filled with urine & excrement? I wouldn't want to touch it even with my foot. 
+
+Magandiya:
+
+ If you don't want this gem of a woman, coveted by many kings, then for what sort of viewpoint, precept, practice, life, attainment of [further] becoming do you argue? 
+
+The Buddha:
+
+ 'I argue for this' doesn't occur to one when considering what's grasped among doctrines. Looking for what is ungrasped with regard to views, and detecting inner peace, I saw. 
+
+Magandiya:
+
+ Sage, you speak without grasping at any preconceived judgments. This 'inner peace': what does it mean? How is it, by an enlightened person, proclaimed? 
+
+The Buddha:
+
+ He doesn't speak of purity in connection with view, learning, knowledge, precept or practice. Nor is it found by a person through lack of view, of learning, of knowledge, of precept or practice.[1] Letting these go, without grasping, at peace, independent, one wouldn't long for becoming. 
+
+Magandiya:
+
+ If he doesn't speak of purity in connection with view, learning, knowledge, precept or practice. and it isn't found by a person through lack of view, of learning, of knowledge, of precept or practice, it seems to me that this teaching's confused, for some assume a purity in terms of — by means of — a view. 
+
+The Buddha:
+
+ Asking questions dependent on view, you're confused by what you have grasped. And so you don't glimpse even the slightest notion [of what I am saying]. That's why you think it's confused. Whoever construes 'equal,' 'superior,' or 'inferior,' by that he'd dispute; whereas to one unaffected by these three, 'equal,' 'superior,' do not occur. Of what would the brahman say 'true' or 'false,' disputing with whom: he in whom 'equal,' 'unequal' are not. Having abandoned home, living free from society, the sage in villages creates no intimacies. Rid of sensual passions, free from yearning, he wouldn't engage with people in quarrelsome debate.[2] Those things aloof from which he should go about in the world: the great one wouldn't take them up & argue for them. As the prickly lotus is unsmeared by water & mud, so the sage, an exponent of peace, without greed, is unsmeared by sensuality & the world. An attainer-of-wisdom isn't measured made proud[3] by views or what's thought, for he isn't fashioned of them. He wouldn't be led by action,[4] learning; doesn't reach a conclusion in any entrenchments. For one dispassionate toward perception there are no ties; for one released by discernment, no delusions. Those who grasp at perceptions & views go about butting their heads in the world. 
+
+Notes
+
+1.
+
+The Pali of the first sentence puts the words for "view, learning, knowledge, precept, & practice" in the instrumental case. This case stands for the relationship "by means of" or "because of" but it also has an idiomatic meaning: "in terms of." (To keep the translation neutral on this point, I have translated with the idiom, "in connection with," which can carry both possibilities.) The second sentence puts the words for lack of view, etc., in the ablative case, which carries the meaning "because of" or "from." 
+
+If we assume that the instrumental case in the first sentence is meant in the sense of "by means of," then we are dealing — as Magandiya asserts — with plain nonsense: the first sentence would say that a person cannot achieve purity by means of views, etc., while the second sentence would be saying that he cannot achieve purity by means of no view, etc. The fact that the two sentences place the relevant terms in different grammatical cases, though, suggests that they are talking about two different kinds of relationships. If we take the instrumental in the first sentence in the sense of "in terms of," then the stanza not only makes sense but also fits in with teachings of the rest of the Pali discourses: a person cannot be said to be pure simply because he/she holds to a particular view, body of learning, etc. Purity is not defined in those terms. The second sentence goes on to say that a person doesn't arrive at purity from a lack of view, etc. Putting the two sentences together with the third, the message is this: One uses right views, learning, knowledge, precepts, & practices as a path, a means for arriving at purity. Once one arrives, one lets go of the path, for the purity of inner peace, in its ultimate sense, is something transcending the means by which it is reached.
+
+In the stanza immediately following this one, it's obvious that Magandiya has not caught this distinction.
+
+For further illustrations of the role of Right View in taking one to a dimension beyond all views, see AN 10.93, AN 10.96, and MN 24. (The analogy of the relay coaches in MN 24 actually seems more tailored to the issues raised by the Buddha's remarks in this discourse than it does to the question it addresses in that discourse.) See also sections III/H and III/H/i in The Wings to Awakening.
+
+2.
+
+An explanation of this stanza, attributed to Ven. Maha Kaccana, is contained in SN 22.3.
+
+3.
+
+"Measured... made proud" — two meanings of the Pali word manameti.
+
+4.
+
+"Action" here can mean either kamma in its general sense — i.e., the attainer-of-wisdom has gone beyond creating kamma — or in a more restricted sense, as ritual action. According to Nd.I, it refers to the factor of "fabrication" (sankhara) in the analysis of dependent co-arising (see SN 12.2).
+
+See also: SN 1.1; Sn 5.7.

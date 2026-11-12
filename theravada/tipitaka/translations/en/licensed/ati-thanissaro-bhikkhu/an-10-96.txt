@@ -1,0 +1,50 @@
+AN 10.96 - Kokanuda Sutta: To Kokanuda
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an10/an10.096.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©1997 Thanissaro Bhikkhu.
+License notice: The text of this page ("Kokanuda Sutta: To Kokanuda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1997 Thanissaro Bhikkhu. The text of this page ("Kokanuda Sutta: To Kokanuda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Kokanuda Sutta: To Kokanuda" (AN 10.96), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/an/an10/an10.096.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+On one occasion Ven. Ananda was staying near Rajagaha, at Tapoda monastery. Then, as night was ending, he got up & went to the Tapoda Hot Springs to bathe his limbs. Having bathed his limbs and having gotten out of the springs, he stood wearing only his lower robe, drying his limbs. Kokanuda the wanderer, as night was ending, also got up & went to the Tapoda Hot Springs to bathe his limbs. He saw Ven. Ananda from afar, and on seeing him said to him, "Who are you, my friend?"
+
+"I am a monk, my friend."
+
+"Which kind of monk?"
+
+"A son-of-the-Sakyan contemplative."
+
+"I would like to ask you about a certain point, if you would give me leave to pose a question."
+
+"Go ahead and ask. Having heard [your question], I'll inform you."
+
+"How is it, my friend: 'The cosmos is eternal. Only this is true; anything otherwise is worthless.' Is this the sort of view you have?"
+
+"No, my friend, I don't have that sort of view."
+
+"Very well, then: 'The cosmos is not eternal. Only this is true; anything otherwise is worthless.' Is this the sort of view you have?"
+
+"No, my friend, I don't have that sort of view."
+
+"Very well, then: 'The cosmos is finite... The cosmos is infinite... The soul & the body are the same... The soul is one thing and the body another... After death a Tathagata exists... After death a Tathagata does not exist... After death a Tathagata both does & does not exist... After death a Tathagata neither does nor does not exist. Only this is true; anything otherwise is worthless.' Is this the sort of view you have?"
+
+"No, my friend, I don't have that sort of view."
+
+"Then in that case, do you not know or see?"
+
+"No, my friend. It's not the case that I don't know, I don't see. I do know. I do see."
+
+"But on being asked, 'How is it, my friend: "The cosmos is eternal. Only this is true; anything otherwise is worthless." Is this the sort of view you have?' you inform me, 'No, my friend, I don't have that sort of view.' On being asked, 'Very well then: "The cosmos is not eternal... The cosmos is finite... The cosmos is infinite... The soul & the body are the same... The soul is one thing and the body another... After death a Tathagata exists... After death a Tathagata does not exist... After death a Tathagata both does & does not exist... After death a Tathagata neither does nor does not exist. Only this is true; anything otherwise is worthless." Is this the sort of view you have?' you inform me, 'No, my friend, I don't have that sort of view.' But on being asked, 'Then in that case, do you not know or see?' you inform me, 'No, my friend. It's not the case that I don't know or see. I do know. I do see.' Now, how is the meaning of this statement to be understood?"
+
+"'The cosmos is eternal. Only this is true; anything otherwise is worthless,' is a viewpoint. 'The cosmos is not eternal... The cosmos is finite... The cosmos is infinite... The soul & the body are the same... The soul is one thing and the body another... After death a Tathagata exists... After death a Tathagata does not exist... After death a Tathagata both does & does not exist... After death a Tathagata neither does nor does not exist. Only this is true; anything otherwise is worthless,' is a viewpoint. The extent to which there are viewpoints, view-stances, the taking up of views, obsessions of views, the cause of views, & the uprooting of views: that's what I know. That's what I see. Knowing that, I say 'I know.' Seeing that, I say 'I see.' Why should I say 'I don't know, I don't see'? I do know. I do see."
+
+"What is your name, my friend? What do your fellows in the chaste life call you?"
+
+"My name is Ananda, my friend, and that's what my fellows in the chaste life call me."
+
+"What? Have I been talking with the great teacher without realizing that it was Ven. Ananda? Had I recognized that it was Ven. Ananda, I would not have cross-examined him so much. May Ven. Ananda please forgive me."
+
+See also: AN 4.24; AN 4.42; AN 10.93; Sn 4.12.

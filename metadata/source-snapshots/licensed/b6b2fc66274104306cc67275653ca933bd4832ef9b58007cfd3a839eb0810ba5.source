@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 3:5 Mahā Moggallāna | Kolita Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud3.5" class="h1">Ud 3:5 Mahā Moggallāna (Kolita Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Mahā Moggallāna was sitting not far from the Blessed One, his legs crossed, his body held erect, having mindfulness immersed in the body well-established within. The Blessed One saw Ven. Mahā Moggallāna sitting not far away, his legs crossed, his body held erect, having mindfulness immersed in the body well-established within.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>With mindfulness immersed in the body</p>
+                <p class="v2">well-established, restrained</p>
+                <p>with regard to the six contact-media–</p>
+                <p class="v2">continually centered,</p>
+                <p class="v2">a monk</p>
+                <p class="v2">can know</p>
+                <p>unbinding for himself.</p>
+              </div>
+              <p class="seealso">See also: <a href="../../MN/MN119.html">MN 119</a>; <a href="../../SN/SN47_20.html">SN 47:20</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

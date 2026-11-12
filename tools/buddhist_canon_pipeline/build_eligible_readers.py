@@ -20,6 +20,7 @@ from urllib.parse import unquote, urlsplit
 from public_site_catalog import COLLECTION_TITLES, canonical_slug, collection_breadcrumbs, navigation_nodes, natural_key, slug, edition_priority
 from render_cc0_reader import ReaderParser, normalized, render_html, render_pdf, verify_pdf_body
 from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
+from publication_rights import verified_manifest as licensed_manifest
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -249,9 +250,52 @@ def collect_records(output_root: Path = ROOT) -> list[dict]:
             }
             records.append(record)
     records.extend(collect_candana_records(output_root))
+    records.extend(collect_licensed_records(output_root))
     keys = [(record["kind"], record["collection"], record["canonical_id"], record["version"]) for record in records]
     if len(keys) != len(set(keys)):
         raise ValueError("Eligible ledgers contain duplicate text/version identifiers")
+    return records
+
+
+def collect_licensed_records(output_root: Path) -> list[dict]:
+    """Read complete, individually pinned editions under the revised rights policy."""
+    manifest = licensed_manifest()
+    records = []
+    for item in manifest["records"]:
+        row = {"canonical_id": item["canonical_id"], "collection_path": item["collection"],
+               "version": item["version"], "version_label": item["translator"],
+               "source_url": item["source_url"], "txt_path": item["local_path"]}
+        text_path = repo_path(item["local_path"])
+        source, body, notes, translator, body_hash = parse_source_text(text_path, row, item["license"])
+        folder_name = canonical_slug(item["canonical_id"])
+        folder = output_root / "theravada/tipitaka/sutta" / item["collection"] / folder_name
+        base = f"{folder_name}-{item['version']}"
+        output_html = folder / (base + ".html")
+        site_path = ROOT / output_html.relative_to(output_root)
+        entry = TIPITAKA / "sutta" / item["collection"] / folder_name / "index.html"
+        label = COLLECTION_TITLES.get(item["collection"], item["collection"])
+        records.append({
+            "kind": "sutta", "manifest": manifest, "licensed_record": item, "row": row,
+            "canonical_id": item["canonical_id"], "collection": item["collection"],
+            "collection_label": label, "collection_page": entry.parent.parent / "index.html",
+            "folder": folder, "base_name": base, "html_path": output_html,
+            "site_path": site_path, "output_root": output_root,
+            "pdf_path": folder / (base + "-reader.pdf"), "entry_page": entry,
+            "entry_href": route_for(entry, site_path), "version": item["version"],
+            "version_label": item["translator"], "translator": translator, "title": item["title"],
+            "source_url": item["source_url"], "source_repository": item.get("source_repository", ""),
+            "source_revision": item.get("source_revision", ""),
+            "upstream_file": item.get("upstream_file", ""),
+            "license": item["license"], "license_url": item["license_url"],
+            "copyright": item["copyright"], "license_notice": item["license_notice"],
+            "attribution_notice": item.get("attribution_notice", ""), "changes": item.get("changes", ""),
+            "conditions": item["conditions"],
+            "completeness_status": item["completeness_status"],
+            "completeness_scope": item["completeness_scope"],
+            "source_label": item.get("source_label", item["translator"]), "text_path": text_path,
+            "source_sha256": hashlib.sha256(source.encode()).hexdigest(), "body": body,
+            "body_sha256": body_hash, "metadata_notes": notes,
+        })
     return records
 
 
@@ -288,6 +332,40 @@ def collect_candana_records(output_root: Path) -> list[dict]:
             "original_book_path": repo_path(book["local_path"]),
             "original_book_url": book["source_url"],
             "reuse_notice": item.get('reuse_notice', ''),
+        })
+    for item in manifest.get("group_texts", []):
+        book = books[item["book"]]
+        folder = output_root / "theravada/tipitaka/sutta" / item["collection"] / "candana-groups" / item["group_id"]
+        base_name = item["group_id"] + "-candana"
+        output_html = folder / f"{base_name}.html"
+        site_path = ROOT / output_html.relative_to(output_root)
+        canonical_id = item["canonical_ids"][0]
+        entry_page = TIPITAKA / "sutta" / item["collection"] / canonical_slug(canonical_id) / "index.html"
+        text_path = repo_path(item["local_path"])
+        row = {**item, "collection_path": item["collection"], "txt_path": item["local_path"],
+               "version_slug": item["version"], "label": item["title"],
+               "version_label": f"Bhikkhu Candana — shared passage ({item['group_reference']})"}
+        source, body, notes, translator, body_hash = parse_source_text(text_path, row, CANDANA_LICENSE)
+        records.append({
+            "kind": "sutta", "policy": None, "manifest": manifest, "row": row,
+            "canonical_id": canonical_id, "canonical_ids": item["canonical_ids"],
+            "group_id": item["group_id"], "group_reference": item["group_reference"],
+            "collection": item["collection"], "collection_label": COLLECTION_TITLES[item["collection"]],
+            "collection_page": TIPITAKA / "sutta" / item["collection"] / "index.html",
+            "folder": folder, "base_name": base_name, "html_path": output_html,
+            "site_path": site_path, "output_root": output_root,
+            "pdf_path": folder / f"{base_name}-reader.pdf", "entry_page": entry_page,
+            "entry_href": route_for(entry_page, site_path), "version": item["version"],
+            "preference_id": "candana",
+            "version_label": row["version_label"], "translator": translator,
+            "title": item["title"], "source_url": item["source_url"],
+            "source_repository": "", "source_revision": item["source_revision"],
+            "upstream_file": book["local_path"], "license": CANDANA_LICENSE,
+            "license_url": book["source_url"], "source_label": f"Candana source section {', '.join(item['source_labels'])}",
+            "text_path": text_path, "source_sha256": hashlib.sha256(source.encode()).hexdigest(),
+            "body": body, "body_sha256": body_hash, "metadata_notes": notes,
+            "original_book_path": repo_path(book["local_path"]),
+            "original_book_url": book["source_url"], "reuse_notice": "",
         })
     return records
 
@@ -334,28 +412,32 @@ def config_for(record: dict, reader_index: dict) -> dict:
     collection_key = (record["kind"], record["collection"])
     text_key = (*collection_key, record["canonical_id"])
     selected = reader_index["by_text"][text_key]
-    translation_links = [{
-        "label": item["version_label"],
-        "href": route_for(record["site_path"], item["site_path"]),
-        "current": item is record,
-    } for item in selected]
+    if record.get("group_id"):
+        translation_links = [{"label": record["version_label"], "href": "", "current": True}]
+    else:
+        translation_links = [{
+            "label": item["version_label"],
+            "href": route_for(record["site_path"], item["site_path"]),
+            "current": item is record,
+        } for item in selected]
 
-    positions = reader_index["positions"][collection_key]
-    canonical_order = list(positions)
-    position = positions[record["canonical_id"]]
     nav = {}
-    for key, offset, label in (("previous", -1, "Previous"), ("next", 1, "Next")):
-        neighbor_position = position + offset
-        if 0 <= neighbor_position < len(canonical_order):
-            neighbor_id = canonical_order[neighbor_position]
-            versions = reader_index["by_text"][(*collection_key, neighbor_id)]
-            neighbor = next((item for item in versions if item["version"] == record["version"]), versions[0])
-            if neighbor["version"] == record["version"] or record["kind"] == "vinaya":
-                target = neighbor["site_path"]
-            else:
-                target = neighbor["entry_page"]
-            nav[f"{key}_href"] = route_for(record["site_path"], target)
-            nav[f"{key}_label"] = display_text_title(neighbor_id, neighbor["title"])
+    if not record.get("group_id"):
+        positions = reader_index["positions"][collection_key]
+        canonical_order = list(positions)
+        position = positions[record["canonical_id"]]
+        for key, offset, label in (("previous", -1, "Previous"), ("next", 1, "Next")):
+            neighbor_position = position + offset
+            if 0 <= neighbor_position < len(canonical_order):
+                neighbor_id = canonical_order[neighbor_position]
+                versions = reader_index["by_text"][(*collection_key, neighbor_id)]
+                neighbor = next((item for item in versions if item["version"] == record["version"]), versions[0])
+                if neighbor["version"] == record["version"] or record["kind"] == "vinaya":
+                    target = neighbor["site_path"]
+                else:
+                    target = neighbor["entry_page"]
+                nav[f"{key}_href"] = route_for(record["site_path"], target)
+                nav[f"{key}_label"] = display_text_title(neighbor_id, neighbor["title"])
 
     row = record["row"]
     text_href = route_for(record["site_path"], record["text_path"])
@@ -377,6 +459,9 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "source_revision": record["source_revision"],
         "license": record["license"],
         "license_url": record["license_url"],
+        "copyright": record.get("copyright", ""),
+        "license_notice": record.get("license_notice", ""),
+        "completeness_status": record.get("completeness_status", "UNKNOWN"),
         "source_label": record["source_label"],
         "metadata_notes": record["metadata_notes"],
         "original_book_href": record.get("original_book_url", ""),
@@ -392,6 +477,13 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "html_download_href": html_href,
         "pdf_download_href": pdf_href,
         "translations": translation_links,
+        "group_reference": record.get("group_reference", ""),
+        "group_members": [
+            {"label": canonical_id, "href": route_for(
+                record["site_path"], TIPITAKA / "sutta" / record["collection"]
+                / canonical_slug(canonical_id) / "index.html")}
+            for canonical_id in record.get("canonical_ids", [])
+        ],
         "breadcrumbs": breadcrumbs,
         "home_href": route_for(record["site_path"], tipitaka_site / "index.html"),
         "tipitaka_href": route_for(record["site_path"], tipitaka_site / "tipitaka.html"),
@@ -404,6 +496,9 @@ def expected_html(record: dict, reader_index: dict) -> str:
 
 def pdf_render_hash(config: dict) -> str:
     inputs = {key: config.get(key) for key in PDF_CONFIG_FIELDS}
+    if config.get("group_reference"):
+        inputs["group_reference"] = config["group_reference"]
+        inputs["group_members"] = config.get("group_members", [])
     encoded = json.dumps(inputs, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
 
@@ -476,9 +571,9 @@ def validate_page(record: dict, html: str, check_pdf: bool) -> None:
                     and target.parent.parent == canonical_root):
                 continue
             raise ValueError(f"Reader link target missing from {path.relative_to(ROOT)}: {href}")
-    # New permission-cleared editions can introduce source-numbered texts absent
-    # from the legacy navigation. Their canonical pages are built in the bundle.
-    if record.get("version") == "candana":
+    # New edition links are inserted into generated text pages during bundle
+    # assembly. Do not require a new reader in the historical source index.
+    if record.get("version") == "candana" or record.get("group_id") or record.get("licensed_record"):
         if check_pdf:
             verify_pdf_body(record["pdf_path"], record["body"])
         return

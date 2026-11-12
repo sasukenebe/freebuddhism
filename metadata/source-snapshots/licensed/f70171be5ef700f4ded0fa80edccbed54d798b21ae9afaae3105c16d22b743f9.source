@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 45:154 The Spike | Suka Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN45.154" class="h1">The Spike<br/>
+                Suka Sutta  (SN 45:154)</h2><!--end suttahead-->
+              <p>“It’s possible, monks, that a well-aimed spike of bearded wheat or bearded barley, when pressed by a hand or foot, will cut into the hand or foot and draw blood. Why is that? Because of the well-aimed-ness of the spike. In the same way, it is possible that a monk, through well-aimed view, through a well-aimed development of the path, will cut into ignorance, give rise to clear knowing, and realize unbinding. Why is that? Because of the well-aimed-ness of the view.</p>
+              <p>“And how does a monk, through well-aimed view, through a well-aimed development of the path, cut into ignorance, give rise to clear knowing, and realize unbinding? There is the case where a monk develops right view dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go. He develops right resolve… right speech… right action… right livelihood… right effort… right mindfulness… right concentration dependent on seclusion… dispassion… cessation, resulting in letting go. This is how a monk, through well-aimed view, through a well-aimed development of the path, cuts into ignorance, gives rise to clear knowing, and realizes unbinding.”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

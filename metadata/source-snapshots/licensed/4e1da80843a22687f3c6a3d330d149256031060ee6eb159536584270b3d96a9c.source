@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:252 Searches | Pariyesanā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.252" class="h1">Searches<br/>
+                  Pariyesanā Sutta  (AN 4:252)</h3><!--end suttahead-->
+                <p>“Monks, these four are ignoble searches. Which four? There is the case where a person, being subject himself to aging, seeks (happiness in) what is subject to aging. Being subject himself to illness, he seeks (happiness in) what is subject to illness. Being subject himself to death, he seeks (happiness in) what is subject to death. Being subject himself to defilement, he seeks (happiness in) what is subject to defilement. These are four ignoble searches.</p>
+                <p>“Now, these four are noble searches. Which four? There is the case where a person, being subject himself to aging, realizing the drawbacks of what is subject to aging, seeks the unaging, unsurpassed rest from the yoke: unbinding. Being subject himself to illness, realizing the drawbacks of what is subject to illness, he seeks the unailing, unsurpassed rest from the yoke: unbinding. Being subject himself to death, realizing the drawbacks of what is subject to death, he seeks the undying, unsurpassed rest from the yoke: unbinding. Being subject himself to defilement, realizing the drawbacks of what is subject to defilement, he seeks the undefiled, unsurpassed rest from the yoke: unbinding.</p>
+                <p>“These are four noble searches.”</p>
+                <p class="seealso">See also: <a href="../MN/MN26.html">MN 26</a>; <a href="AN3_39.html">AN 3:39</a>; <a href="../KN/Iti/iti54.html">Iti 54</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

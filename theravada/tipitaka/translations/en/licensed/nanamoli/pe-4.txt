@@ -1,0 +1,113 @@
+Pe 4 - IV. Investigation of Threads
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/pe/pe4.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1964. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Piṭaka-Disclosure
+
+IV. Investigation of Threads
+
+PTS vp En 95 PTS vp Pli 74 250. Herein, what is Investigation of Threads?
+
+I. Investigation and Construing of Threads by Profit and Unprofit
+
+[A Thread] is thoroughly scrutinized as to the profitable and unprofitable ideas there according to consecutivity thus: “How then, did he instigate this Thread [in its beginning] … etc. …? Is it construable with those Threads that are fully agreed upon, or is it not so construable”?
+
+251. According as the Blessed One teaches defilement there in the beginning, it should be scrutinized as follows: “How then, is the abandoning of those defilements taught there [too] or is it not taught”? If it is not taught, then the profitable ideas [which bring about the] abandoning of those [defilements] must be sought in the [kind of divine life lived under the] Blessed One (?).
+
+252. If, in searching, one does not find where those unprofitable ideas come to [their] abandonment, then those unprofitable ideas must be reserved [and] inquired into [further, taking the type of Thread in this case to be] that Dealing with Corruption [where no profit is explicitly taught].
+
+253. If, when the defilements—or any one of them—are thus reserved, they [still] do not give the construing, [then] the ideas PTS vp En 96 belonging to the noble paths must be scrutinized as follows: “Do these [particular] defilements come to abandonment in these [particular] planes, [namely those of Seeing and Keeping-in-Being] or do they not”? Now a certain [specific] number of defilements may be taught, [e.g., the ten fetters,] without any correspondingly equal number of noble ideas being taught, [e.g., the four paths] So wherever [on the level of any one of the four paths.] any defilements come to [their] abandonment, any defilements [so far] not construable as opposites of noble ideas there [in that particular plane, say, that of Seeing,] must be reserved.
+
+254. If, when they are [thus] reserved, they give the construction, [still that Thread] must be inquired into herein [in regard to those defilements] as follows: “Do two or three or more defilements come to [their] abandonment by means of any single Path”?
+
+255. If, when thus inquired into, they give the construction, [then that Thread] must be scrutinized therein [in regard to those defilements] as follows: “What is the Thread's meaning and what is not its meaning according to the traditional [interpretation] or by what is given in the texts”?
+
+256. Or even if not capable of PTS vp Pli 75 being demonstrated in this way, [still] the Thread need not [on that account alone] be the object of uncertainty, [rather it should be further investigated] according as to whether the ideas in the beginning are profitable [instead of unprofitable].
+
+257. Whatever the defilements, they must be scrutinized as to how they are abandonable, whether the profitable comes first or whether it is arrived at through its opposite's coming first. The teaching must be taken as having nothing lacking or superfluous.
+
+258. Just as [in the case of] the first statement, [namely PTS vp En 97 that of defilement's coming first,] now [again] any noble ideas taught [for the abandoning] of any defilements must be investigated as to whether they are abandoned by these [particular] noble ideas or not. If, when so scrutinized, they are construable, then they can be accepted [as such]; but [if] they are not [so] construable, then any defilements that are not opposites [of those particular noble ideas] cannot be opposed to them. For noble ideas do not arrive at the abandonment of defilements that are future [to them]. Neither does [any] noble idea [alone indiscriminately] bring about the abandoning of all defilements. As [for example], while loving-kindness is profitable and lust unprofitable, [yet] taking loving-kindness as profitable does not bring about the abandoning of lust; it is [in fact] ill will [not lust] that comes to abandonment by means of loving-kindness. So both sorts of defilement have to be scrutinized, and any idea [so] disclosed, whether profitable or unprofitable, must be reserved. If these [namely ill will and lust in this case] are construed when reserved, then there is nothing [more] to be scrutinized. Either the two defilements may be abandonable by the one noble idea, or else either one of the [two] defilements may be abandonable by two noble ideas [successively].
+
+259. Or alternatively, also when [only] one, on being scrutinized, is construed, herein it must be inquired into how it is construed, [namely by which noble idea,] or it must be inquired into why it is that the Thread cannot be demonstrated; for no Thread must remain an object of uncertainty.
+
+260. PTS vp Pli 76 Any defilement's lapse when any noble ideas that are PTS vp En 98 taught must be scrutinized in both the ways [indicated above for Loving-kindness as follows]: It seems (?) that these [particular] defilements are taught in [this] verse or prose-exposition: How then, are these defilements abandoned by these noble ideas or are they not? Or [conversely] do these noble ideas lead to the abandonment of these defilements? [For] although unprofitable ideas do come to abandonment by means of profitable ideas, still not all unprofitable ideas come to abandonment [indiscriminately] by means of any profitable ideas [indiscriminately]. As [for example] while Loving-kindness is profitable and lust unprofitable, yet, taking Loving-kindness as profitable and lust as unprofitable, lust does not come to abandonment by means of Loving-kindness; it is [in fact] ill will [not lust] that comes to abandonment by means of loving-kindness. Consequently [defilement] does not come to abandonment in a [given] Thread [simply] by taking it as ‘defilement’ [indiscriminately], nor, [simply] by taking a [profitable] idea in a [given] Thread, [in this case Loving-kindness], does that lead to the abandonment of all defilements [indiscrimimately]. In fact, it is [only when] a noble idea [belonging] to a [particular] Thread is a defilement's opposite that that [defilement] comes to be abandoned by means of that [noble idea]”.
+
+261. Herein, when the profitable taught in a [particular verse] or prose-exposition in the Thread and the corruptions [taught there] do not construe—or the noble ideas [do not construe]—these should be reserved in accordance with the parts [of the formula for scrutinizing] demonstrable in the Principal Appeals to Authority.
+
+262. Herein, if, with the defilements taught—and with that noble idea among the noble ideas—those defilements do come to abandonment, [then] it should also be scrutinized as follows: “In which [Path-]function are these defilements abandonable? In which [Path-]function are these noble ideas taught? In whichever mood PTS vp En 99 [that is, as Seeing or as one of the stages of Keeping-in-Being] the noble ideas are taught, that is the aspect in which this defilement stands [in relation thereto]. For there is one defilement abandonable by only one noble idea, not in any other way: while view and lust are abandonable by Seeing [in the first Path], not so ignorance [which is only abandonable by Arahantship]. And if ignorance or ideas belonging to the plane of Keeping-in-Being [i.e. the last three paths and second and third fruits] are abandonable in this way [regarded collectively under “Keeping-in-Being”], it is precisely that [ignorance], which belongs to the further side [fetters], which is abandoned through the kind of non-attention that is due to the deliverance's signless PTS vp Pli 77 heart-concentration for the purpose (?) of seeing the undetermined.
+
+263. That is how the Thread should be scrutinized [in order to verify] that it is (with its meaning and with its phrasing ). When defilements are [of the kind] abandonable by Seeing, then the noble idea is taught in the mood of Seeing, when [they are of the kind] abandonable by Keeping-in-Being, then the noble idea is taught in the mood of Keeping-in-Being. When [of the kind] abandonable by [right] use [of the four requisites of the bhikkhu's life], then the noble idea is taught in the mood of [right] use; and so on from those abandonable by removal down to the [end of the Thread dealing with the] seven kinds of taints, which can be quoted.
+
+264. In so far as this [defilement] idea is abandonable in the various other stages [than that of Seeing], the noble idea [will be appropriately] taught in another mood, [and so] that noble idea must be sought otherwise [according to the mood]. If this [defilement-]idea gives the construing for one when one is seeking it [thus], then in PTS vp En 100 whichever mood that noble idea can be sought out, that is the mood in which the [particular] defilement is abandoned. [And so] that [noble idea] must be scrutinized therein [with respect to the seven moods mentioned above]. Then if it still does not construe, the [meaning of the actual] Thread [itself] which is being sought out by means of that [already] tested [other] Thread must be inquired into, [and] in so far as it is construable it can be accepted, but in so far as it is not construable it cannot be accepted: (Certainly this was not spoken by the Blessed One, or it has been wrongly taken by the venerable one), which is demonstrable according to the [prescribed way of searching (testing) in the] Principal Appeals to Authority. What is taught by the Blessed One is according to how things are.
+
+II. Investigation and Construing of Threads by Conditions
+
+265. Whatever the idea taught, profitable as well as unprofitable, that idea's condition must be sought out; for no idea arises unconditioned, without a condition.
+
+266. Herein, what is the mood for the search? Herein, this Thread [to be sought] must be inquired into as to whether this idea [in question] has been stated with the cause and with the condition appropriate thereto.
+
+267. And the condition is of three kinds: slight, medium, and outstanding. Herein, when the condition is slight, the idea [conditioned] must be taken as slight. That being so, this condition is [again] of two kinds: condition in remote relation and condition in immediate proximity.
+
+268. When the condition is slight, what is unoutstanding owing to it must be sought. What is the reason? [It may be that] a PTS vp En 101 certain condition comes to occurrence (?) or fulfilment through other conditions. PTS vp Pli 78 Herein, whatever the idea taught [in this Thread that is being scrutinized], the cause of that must be sought either through that [idea] or through a.
+
+269. [And] like the condition, the outcome of that idea must be sought by cause and by condition. That condition should be sought in the way that one seeks [how] the basic state was demonstrated in the terms of expression [of the particular Thread]; for there is no slight idea that has an outstanding outcome, nor does any outstanding outcome have a slight [condition-]idea. If the slight is construable of the slight, the medium of the medium, and the outstanding of the outstanding, that can be accepted. [But] if it does not [so] construe, it cannot be accepted.
+
+270. And whatever idea the Blessed One instigates [initially] in order to teach [a particular teaching], that he teaches also in the middle and the end [of it]: he demonstrates in the beginning the idea according as [it is given] in the terms of expression [of that particular teaching, and] only that idea [appears] much [in it] and is that Thread's end; for it is in virtue of that idea that that Thread comes to be such [as it is in type], whether verse or prose-exposition, whether small or large.
+
+271. But as the fixing is twofold, namely fixing that is in conformity as well as fixing the [actual] teaching, [the fixing] of that idea must also be sought (tested) as to whether it is in conformity [with other Threads]. And just as the restraining of the five faculties [of the eye, etc.,] taught by the Blessed One, in having for its purpose the curbing of craving, teaches that [that idea] conveys his PTS vp En 102 wish as in the simile of the Cattle-herd Thread [in the Anguttara], [when tested] also by means of other Threads that the Blessed One has uttered, [namely] the thought (?) in the Majjhima Nikāya, it conveys his wish. This is what is in conformity with the Blessed One's teaching. So this idea has to be sought also in other prose-expositions; for it cannot be regarded [as sought out] in [only] a single Thread. When it construes, it can be accepted.
+
+III. Investigation and Construing by the Blessed One's Agreement
+
+272. Herein, what is the agreed?
+
+[When] any Thread whatever is not uttered by the Blessed One and that [Thread] is found among the Threads too, [then] according as it is uttered by whomsoever it may be, so it should be borne in mind.
+
+273. That Thread must be inquired into as follows: “How then, does this PTS vp Pli 79 Thread allow of the Blessed One's agreement or does it not allow of his agreement”? And some Threads allow of the Blessed One's agreement and some Threads do not allow of his agreement. When someone teaches what is the Ten Powered One's province, [doing so] altogether without giving a way of entry [to the main ideas in his teaching], that Thread does not allow of the Blessed One's agreement. But there is also the kind of hearer who knows the Ten Powered One's province, [doing so] either limitedly or unlimitedly, yet he does not know that power [itself] at all beyond the hearing [of it]; as [for instance, in the case of] the divine exhorted by the venerable Sāriputta. Now that venerable one had no Knowledge of Variety in Faculties and Powers, hence by his not knowing the Encompassing of PTS vp En 103 [Other] Persons, while [the divine] had more he could still have done [i.e. by attaining the Noble Path], he was made to reappear [after death in the world of High Divinity, and so the venerable Sāriputta] was not congratulated by the Blessed One. And as [for instance, in the case of] the venerable Mahā-Kassapa when he advised his nephew, [though] he [the nephew] was possessed of [unprofitable] action ripening straightway [upon rebirth, the Elder] lighting a finger by a feat of supernormal power; [but since] no knowledge of how things are by cause and instance in the case of all Undertaking of Action existed in that venerable one, hence the Blessed One advised him, saying:
+
+Even, O Kassapa, if thou
+Wilt carry ten such luminaries,
+Not even then will he see forms:
+That eye does not exist in him.
+
+[And again] like a messenger who informs a creature of the king's word, so the [mere] emulator teaches to others speech he does not [himself] understand.
+
+A Thread which has the agreed approval can be accepted; that which has not the agreed approval cannot be accepted.
+
+IV. Confusion of Threads
+
+274. Herein, what is Mixing-Up of Threads?
+
+PTS vp Pli 80 The Thread is fivefold: (1) the type of Thread Dealing with Corruption, (2) the type of Thread Dealing with Morality, (3a) the PTS vp En 104 type of Thread Dealing with Seeing, (3b) the type of Thread Dealing with Keeping-in-Being, and (4) the type of Thread Dealing with the Adept. [If] one type would requite, he teaches another, and he demonstrates in one type of Thread the meaning of another type of Thread. Or he demonstrates a Thread's meaning in several moods [and] in the establishing of the [particular] noble idea [taught there] he divulges a meaning not there (?). He demonstrates in those dealing with Seeing the meaning of one dealing with Morality. He demonstrates in the further-side [fetters] the meaning of higher-side fetters. He demonstrates in Threads [dealing] with outstanding [faculties (?) the meaning] of those [dealing] with blunt and medium faculties (?).
+
+275. So this Thread is [thus] broken up [by him]. The breaking up as to cause, outcome and fruit , as to the blunt, medium and outstanding state, and as to meaning and phrasing, is what is called “Mixing-Up of Threads”. The non-breaking-up is what is called “Investigation of Threads”.
+
+276. Herein, this is a mnemonic verse:
+
+i. Untornness of the first, and then
+
+ii. Condition for what comes to be, And Outcome with with Morality,
+
+iii. Agreement, and then (iv) Thread-Mixing-Up.
+
+The Elder Mahā-Kaccayāna's fourth chapter called
+“the Investigation of Threads”.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1964.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,35 @@
+SN 36.21 - SN 36:21 To Sivaka | Sivaka Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN36_21.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+To Sivaka
+ Sivaka Sutta (SN 36:21)
+
+Some people have interpreted this sutta as stating that there are many experiences that cannot be explained by the principle of kamma. A casual glance of the alternative factors here—drawn from the various causes for pain that were recognized in the medical treatises of his time—would seem to support this conclusion. However, if we compare this list with his definition of old kamma in SN 35:145, we see that many of the alternative causes are actually the results of past actions. Those that aren’t are the result of new kamma. For instance, MN 101 counts asceticism—which produces pain in the immediate present—under the factor harsh treatment. The point here is that old and new kamma do not override other causal factors operating in the universe—such as those recognized by the physical sciences—but instead find expression within them. A second point is that some of the influences of past kamma can be mitigated in the present—a disease caused by bile, for instance, can be cured by medicine that brings the bile back to normal. Similarly with the mind: Mental suffering caused by physical pain can be ended by understanding and abandoning the attachment that led to that suffering. In this way, the Buddha’s teaching on kamma avoids determinism and opens the way for a path of practice focused on eliminating the causes of suffering in the here and now.
+
+* * *
+
+On one occasion the Blessed One was staying near Rājagaha in the Bamboo Forest, the Squirrel’s Sanctuary. There Moḷiyasivaka the wanderer went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he said to the Blessed One, “Master Gotama, there are some contemplatives & brahmans who are of this doctrine, this view: Whatever an individual feels—pleasure, pain, neither-pleasure-nor-pain—is entirely caused by what was done before. Now what does Master Gotama say to that?”
+
+[The Buddha:] “There are cases where some feelings arise based on bile [i.e., diseases and pains that come from a malfunction of the gall bladder]. You yourself should know how some feelings arise based on bile. Even the world is agreed on how some feelings arise based on bile. So any contemplatives & brahmans who are of the doctrine & view that whatever an individual feels—pleasure, pain, neither-pleasure-nor-pain—is entirely caused by what was done before—slip past what they themselves know, slip past what is agreed on by the world. Therefore I say that those contemplatives & brahmans are wrong.”
+
+“There are cases where some feelings arise based on phlegm… based on internal winds… based on a combination of bodily humors… from the change of the seasons… from uneven [‘out-of-tune’] care of the body… from harsh treatment… from the result of kamma. You yourself should know how some feelings arise from the result of kamma. Even the world is agreed on how some feelings arise from the result of kamma. So any contemplatives & brahmans who are of the doctrine & view that whatever an individual feels—pleasure, pain, neither pleasure-nor-pain—is entirely caused by what was done before—slip past what they themselves know, slip past what is agreed on by the world. Therefore I say that those contemplatives & brahmans are wrong.”
+
+When this was said, Moḷiyasivaka the wanderer said to the Blessed One: "Magnificent, lord! Magnificent! Just as if he were to place upright what was overturned, to reveal what was hidden, to point out the way to one who was lost, or to carry a lamp into the dark so that those with eyes could see forms, in the same way has the Blessed One—through many lines of reasoning—made the Dhamma clear. I go to the Blessed One for refuge, to the Dhamma, & to the Saṅgha of monks. May the Blessed One remember me as a lay follower who has gone for refuge from this day forward, for life."
+
+“Bile, phlegm, wind, a combination,
+
+Season, uneven, harsh treatment,
+
+and through the result of kamma as the eighth.”1
+
+Note
+
+1. This concluding verse seems to have been added by the compilers of the Canon as a mnemonic device.

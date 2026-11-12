@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:22 Sick People | Gilāna Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.22" class="h1">Sick People<br/>
+                  Gilāna Sutta  (AN 3:22)</h3><!--end suttahead-->
+                <p>“There are these three types of sick people to be found existing in the world. Which three?</p>
+                <p>“There is the case of the sick person who—regardless of whether he does or does not receive amenable food, regardless of whether he does or does not receive amenable medicine, regardless of whether he does or does not receive proper nursing—will not recover from that illness. There is the case of the sick person who—regardless of whether he does or does not receive amenable food, regardless of whether he does or does not receive amenable medicine, regardless of whether he does or does not receive proper nursing—will recover from that illness. There is the case of the sick person who will recover from that illness if he receives amenable food, amenable medicine, &amp; proper nursing, but not if he doesn’t.</p>
+                <p>“Now, it is because of the sick person who will recover from that illness if he receives amenable food, amenable medicine, &amp; proper nursing—but not if he doesn’t—that food for the sick has been allowed, medicine for the sick has been allowed, nursing for the sick has been allowed. And it is because there is this sort of sick person that the other sorts of sick persons are to be nursed as well [on the chance that they may actually turn out to need and benefit from such nursing].</p>
+                <p>“These are the three types of sick people to be found existing in the world.</p>
+                <p>“In the same way, these three types of people, like the three types of sick people, are to be found existing in the world. Which three?</p>
+                <p>“There is the case of the person who—regardless of whether he does or doesn’t get to see the Tathāgata, regardless of whether he does or doesn’t get to hear the Dhamma &amp; Vinaya proclaimed by the Tathāgata—will not alight on the lawfulness, the rightness of skillful qualities. There is the case of the person who—regardless of whether he does or doesn’t get to see the Tathāgata, regardless of whether he does or doesn’t get to hear the Dhamma &amp; Vinaya proclaimed by the Tathāgata—will alight on the lawfulness, the rightness of skillful qualities. There is the case of the person who will alight on the lawfulness, the rightness of skillful qualities if he gets to see the Tathāgata and gets to hear the Dhamma &amp; Vinaya proclaimed by the Tathāgata, but not if he doesn’t.</p>
+                <p>“Now, it is because of the person who will alight on the lawfulness, the rightness of skillful qualities if he gets to see the Tathāgata and gets to hear the Dhamma &amp; Vinaya proclaimed by the Tathāgata—but not if he doesn’t—that the teaching of the Dhamma has been allowed. And it is because there is this sort of person that the other sorts of persons are to be taught the Dhamma as well [on the chance that they may actually turn out to need and benefit from the teaching].</p>
+                <p>“These are the three types of people, like the three types of sick people, to be found existing in the world.”</p>
+                <p class="seealso">See also: <a href="../DN/DN12.html">DN 12</a>; <a href="../MN/MN63.html">MN 63</a>; <a href="../MN/MN75.html">MN 75</a>; <a href="../MN/MN105.html">MN 105</a>; <a href="../SN/SN6_1.html">SN 6:1</a>; <a href="../SN/SN42_7.html">SN 42:7</a>; <a href="AN10_108.html">AN 10:108</a>; <a href="../KN/Iti/iti100.html">Iti 100</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

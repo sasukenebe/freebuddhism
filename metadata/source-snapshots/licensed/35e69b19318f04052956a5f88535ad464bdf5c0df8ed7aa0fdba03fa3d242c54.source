@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 6:9 Jenta, the Royal Chaplain’s Son</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag6.9" class="h1">Thag 6:9  Jenta, the Royal Chaplain’s Son</h4>
+            <div class="verse">
+              <p class="v2">I was</p>
+              <p>drunk with the intoxication</p>
+              <p>of my birth, wealth, &amp; sovereignty.</p>
+              <p>Drunk with the intoxication</p>
+              <p>of my body’s build, coloring, &amp; form,</p>
+              <p>I wandered about,</p>
+              <p>regarding no one</p>
+              <p>as my equal or better.</p>
+              <p class="v2">Foolish, arrogant, haughty,</p>
+              <p class="v2">my banner held high.</p>
+              <p>I—disrespectful, arrogant, proud—</p>
+              <p>bowed down to no one,</p>
+              <p>not even</p>
+              <p class="v4">mother,</p>
+              <p class="v4">father,</p>
+              <p>or those commonly held</p>
+              <p>in respect.</p>
+              <div class="verse-add">
+                <p>Then—seeing the ultimate leader,</p>
+                <p>supreme, foremost of charioteers,</p>
+                <p class="v2">like a blazing sun,</p>
+                <p>arrayed with a squadron of monks—</p>
+                <p>casting away pride &amp; intoxication</p>
+                <p>through an awareness serene &amp; clear,</p>
+                <p class="v2">I bowed down</p>
+                <p class="v2">my</p>
+                <p class="v2">head</p>
+                <p>to him, supreme</p>
+                <p>among all living beings.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>Haughtiness &amp; contempt</p>
+                <p class="v2">have been abandoned</p>
+                <p class="v2">—rooted out—</p>
+                <p>the conceit “I am” is extracted,</p>
+                <p>all forms of pride, destroyed.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <p class="seealso">See also: <a href="../../AN/AN3_39.html">AN 3:39</a>; <a href="../../AN/AN7_48.html">AN 7:48</a>; <a href="../Thig/thig5_2.html">Thig 5:2</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

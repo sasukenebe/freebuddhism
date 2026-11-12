@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 46:5 To a Monk | Bhikkhu Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN46.5" class="h1">To a Monk<br/>
+                Bhikkhu Sutta  (SN 46:5)</h2><!--end suttahead-->
+              <p>Then a certain monk approached the Blessed One and, on arrival, bowed down to him and sat to one side. As he was sitting there, he said to the Blessed One, “Lord, ‘factors for awakening, factors for awakening,’ it is said. To what extent are they said to be factors for awakening?”</p>
+              <p>“They lead to awakening, monk. Therefore they are said to be factors for awakening.</p>
+              <p>“There is the case where a monk develops <em>mindfulness</em> as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go. He develops <em>analysis of qualities</em> as a factor for awakening… <em>persistence</em> as a factor for awakening… <em>rapture</em> as a factor for awakening… <em>calm</em> as a factor for awakening… <em>concentration</em> as a factor for awakening… <em>equanimity</em> as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go.</p>
+              <p>“When these factors for awakening are developed, the mind is released from the effluent of sensuality, the mind is released from the effluent of becoming, the mind is released from the effluent of ignorance. With release, there is the knowledge, ‘Released.’ One discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.’</p>
+              <p>“They lead to awakening, monk. Therefore they are said to be factors for awakening.”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

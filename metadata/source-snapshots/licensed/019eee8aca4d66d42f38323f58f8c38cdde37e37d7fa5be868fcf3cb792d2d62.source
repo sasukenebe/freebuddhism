@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 46:8 Upavāṇa | Upavāṇa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN46.8" class="h1">Upavāṇa<br/>
+                Upavāṇa Sutta  (SN 46:8)</h2><!--end suttahead-->
+              <p>On one occasion Ven. Upavāṇa &amp; Ven. Sāriputta were staying near Kosambī at Ghosita’s Monastery. Then, having left his seclusion in the late afternoon, Ven. Sāriputta went to Ven. Upavāṇa and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings &amp; courtesies, he sat to one side. As he was sitting there he said to Ven. Upavāṇa, “Friend Upavāṇa, would a monk know for himself that ‘Through appropriate attention, the seven factors for awakening, mastered in me in such a way, lead to a pleasant abiding’?”</p>
+              <p>“Friend Sāriputta, a monk would know for himself that ‘Through appropriate attention, the seven factors for awakening, mastered in me in such a way, lead to a pleasant abiding.’</p>
+              <p>“When arousing mindfulness as a factor for awakening, the monk discerns, ‘My mind is well released; sloth &amp; drowsiness are well uprooted in me; restlessness &amp; anxiety are well subdued in me; my persistence is aroused; I attend (to it) in a focused way, not sluggishly.’</p>
+              <p>“When arousing analysis of qualities as a factor for awakening… persistence as a factor for awakening… rapture as a factor for awakening… calm as a factor for awakening… concentration as a factor for awakening…</p>
+              <p>“When arousing equanimity as a factor for awakening, the monk discerns, ‘My mind is well released; sloth &amp; drowsiness are well uprooted in me; restlessness &amp; anxiety are well subdued in me; my persistence is aroused; I attend (to it) in a focused way, not sluggishly.’</p>
+              <p>“It’s in this way, friend Sāriputta, that a monk would know for himself that ‘Through appropriate attention, the seven factors for awakening, mastered in me in such a way, lead to a pleasant abiding.’”</p>
+              <p class="seealso">See also: <a href="SN46_51.html">SN 46:51</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:16 Perceptions | Saññā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN9.16" class="h1">Perceptions<br/>
+                  Saññā Sutta  (AN 9:16)</h3><!--end suttahead-->
+                <p>“Monks, these nine perceptions, when developed &amp; pursued, are of great fruit, of great benefit. They gain a footing in the deathless and have the deathless as their final end. Which nine?</p>
+                <p>“The perception of unattractiveness (of the body), the perception of death, the perception of loathsomeness in food, the perception of distaste for every world, the perception of inconstancy, the perception of stress in inconstancy, the perception of not-self in stress, the perception of abandoning, the perception of dispassion.</p>
+                <p>“These nine perceptions, when developed &amp; pursued, are of great fruit, of great benefit. They gain a footing in the deathless and have the deathless as their final end.”</p>
+                <p class="seealso">See also: <a href="AN7_46.html">AN 7:46</a>; <a href="AN10_60.html">AN 10:60</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

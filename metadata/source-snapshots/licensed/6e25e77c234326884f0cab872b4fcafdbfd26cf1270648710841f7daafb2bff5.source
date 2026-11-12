@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:25 Discernment | Paññā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+    <div id="content">
+     <!--#include virtual="/php/suttasidebar.html" --> 
+      <div id="sutta">
+      
+                <h3 id="AN9.25" class="h1">Discernment<br/>
+                  Paññā Sutta  (AN 9:25)</h3>
+<p>“Monks, when a monk’s mind is well shored-up by discernment, it is suitable for him to say, ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’ And how is a monk’s mind well shored-up by discernment?</p>
+<p>“‘My mind is devoid of passion’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind is devoid of aversion’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind is devoid of delusion’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to being impassioned’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to being aversive’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to being deluded’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to returning for the sake of passion for sensuality’:<span class="fn"><a href="#an9.25note01">1</a></span> His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to returning for the sake of passion for form’: His mind is well shored-up by discernment.</p>
+<p>“‘My mind isn’t subject to returning for the sake of passion for the formless’: His mind is well shored-up by discernment.</p>
+<p>“Monks, when a monk’s mind is well shored-up by discernment, it is suitable for him to say, ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p>
+<p id="an9.25note01">1. Reading <em>kāmarāgāyāti</em> with the Thai edition. The other editions read <em>kāmabhavāyāti,</em> “for the sake of sensuality-becoming.” There are similar differences below, with the Thai reading <em>rūparāgāyāti</em> and <em>arūparāgāyāti</em> where the other editions read <em>rūpabhavāyāti</em> and <em>arūpabhavāyāti.</em></p>
+                </div>
+<p class="seealso">See also: <a href="../MN/MN48.html" class="sutta-ref">MN 48</a>; <a href="../MN/MN60.html" class="sutta-ref">MN 60</a>; <a href="AN4_10.html" class="sutta-ref">AN 4:10</a>; <a href="AN6_13.html" class="sutta-ref">AN 6:13</a>; <a href="AN9_7.html" class="sutta-ref">AN 9:7–8</a>; <a href="AN10_13.html" class="sutta-ref">AN 10:13</a></p>
+
+      </div><!--end sutta-->
+    </div><!--end content-->
+     <!--#include virtual="/php/suttafooter.html" --> 
+  </div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+</body></html>

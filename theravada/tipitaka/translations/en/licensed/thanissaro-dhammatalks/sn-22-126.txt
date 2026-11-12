@@ -1,0 +1,35 @@
+SN 22.126 - SN 22:126 Subject to Origination (1) | Samudaya-dhamma Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN22_126.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Subject to Origination (1)
+ Samudaya-dhamma Sutta (SN 22:126)
+
+At Sāvatthī. Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘Ignorance, ignorance,’ it is said, lord. Which ignorance? And to what extent is one immersed in ignorance?”
+
+“There is the case, monk, where an uninstructed run-of-the-mill person doesn’t discern, as it has come to be, form subject to origination as form subject to origination.1 He doesn’t discern, as it has come to be, form subject to passing away as form subject to passing away. He doesn’t discern, as it has come to be, form subject to origination & passing away as form subject to origination & passing away.
+
+“He doesn’t discern, as it has come to be, feeling subject to origination as feeling subject to origination. He doesn’t discern, as it has come to be, feeling subject to passing away as feeling subject to passing away. He doesn’t discern, as it has come to be, feeling subject to origination & passing away as feeling subject to origination & passing away.
+
+“He doesn’t discern, as it has come to be, perception subject to origination as perception subject to origination. He doesn’t discern, as it has come to be, perception subject to passing away as perception subject to passing away. He doesn’t discern, as it has come to be, perception subject to origination & passing away as perception subject to origination & passing away.
+
+“He doesn’t discern, as it they have come to be, fabrications subject to origination as fabrications subject to origination. He doesn’t discern, as they have come to be, fabrications subject to passing away as fabrications subject to passing away. He doesn’t discern, as they have come to be, fabrications subject to origination & passing away as fabrications subject to origination & passing away.
+
+“He doesn’t discern, as it has come to be, consciousness subject to origination as consciousness subject to origination. He doesn’t discern, as it has come to be, consciousness subject to passing away as consciousness subject to passing away. He doesn’t discern, as it has come to be, consciousness subject to origination & passing away as consciousness subject to origination & passing away.
+
+“This, monk, is called ignorance, and it’s to this extent that one is immersed in ignorance.”
+
+Note
+
+1. Here and in the following sutta, CDB mistranslates samudaya, origination, as “arising.” This gives the impression that ignorance can be ended simply through bare awareness of the aggregates’ arising and passing away. Samudaya, however, denotes a condition responsible for making the aggregates arise, something that cannot be known through simply watching them. One has to interact with them in a way that allows one to see which factors co-arising with the aggregates are actually causing them to arise, and which are not. SN 22:5 recommends developing concentration for this purpose. AN 9:36 expands on this recommendation, showing how concentration is actually composed of aggregates. In this way, one learns about the origination of the aggregates by trying to make a state of concentration from them.
+
+SN 22:5 also identifies acts of enjoying, welcoming, and remaining fastened as the origination of the aggregates. SN 22:56–57 identify the origination of nutriment as the origination of form; the origination of contact as the origination of feeling, perception, and fabrications; and the origination of name-&-form as the origination of consciousness. These two analyses can perhaps be combined by noting, in the case of form, that the simple presence of nutriment does not cause form. There has to be the act of welcoming, etc., that causes one to take the nutriment that nurtures form.
+
+See also: SN 12:2

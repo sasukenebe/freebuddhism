@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 3:4 Dantikā &amp; the Elephant</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig3.4" class="h1">Thig 3:4  Dantikā &amp; the Elephant</h4>
+          <div class="verse">
+            <p>Coming out from my day’s abiding</p>
+            <p>on Vulture Peak Mountain,</p>
+            <p>I saw on the bank of the river</p>
+            <p class="v2">an elephant</p>
+            <p>emerged from its plunge.</p>
+            <div class="verse-add">
+              <p>A man holding a hook requested:</p>
+              <p class="v4">“Give me your foot.”</p>
+              <p>The elephant</p>
+              <p class="v1">extended its foot.</p>
+              <p>The man</p>
+              <p class="v1">got up on the elephant.</p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p>Seeing what was untrained now tamed</p>
+              <p>brought under human control,</p>
+              <p>with that I centered my mind—</p>
+              <p class="v1">why I’d gone to the woods</p>
+              <p class="v4">in the first place.</p>
+            </div><!--end verse-add-->
+          </div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

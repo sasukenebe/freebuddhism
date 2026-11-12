@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 4:6 Piṇḍola | Piṇḍola Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud4.6" class="h1">Ud 4:6 Piṇḍola (Piṇḍola Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Piṇḍola Bhāradvāja was sitting not far from the Blessed One, his legs crossed, his body held erect–a wilderness dweller, an alms-goer, a rag-robe wearer, an owner of only one set of three robes, modest, content, solitary, unentangled, his persistence aroused, an advocate of the ascetic practices, devoted to the heightened mind. The Blessed One saw Ven. Piṇḍola Bhāradvāja sitting not far away, his legs crossed, his body held erect–a wilderness dweller, an alms-goer, a rag-robe wearer, an owner of only one set of three robes, modest, content, solitary, unentangled, his persistence aroused, an advocate of the ascetic practices, devoted to the heightened mind.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Not disparaging, not injuring,</p>
+                <p>restraint      in line with the Pāṭimokkha,</p>
+                <p>moderation      in food,</p>
+                <p>dwelling      in seclusion,</p>
+                <p>commitment to the heightened mind:</p>
+                <p class="v2">this is the teaching</p>
+                <p class="v2">of the Awakened.<span class="fn"><a href="#ud4.6note01">1</a></span><!--end fn cite--></p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud4.6note01">1. This verse also occurs at <a href="../Dhp/Ch14.html#dhp185">Dhp 185</a>, where it forms part of a set including <a href="../Dhp/Ch14.html#dhp183">Dhp 183</a>—184:</p>
+                <div class="verse">
+                  <p>The non-doing      of any evil,</p>
+                  <p>the performance      of what’s skillful,</p>
+                  <p>the cleansing      of one’s own mind:</p>
+                  <p class="v2">this is the teaching</p>
+                  <p class="v2">of the Awakened.</p>
+                  <p>Patient endurance:</p>
+                  <p class="v2">the foremost austerity.</p>
+                  <p>Unbinding:</p>
+                  <p class="v2">the foremost,</p>
+                  <p class="v2">so say the Awakened.</p>
+                  <p>He who injures another</p>
+                  <p>is no contemplative.</p>
+                  <p>He who mistreats another,</p>
+                  <p class="v2">no monk.</p>
+                </div>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

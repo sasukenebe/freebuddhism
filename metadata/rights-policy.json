@@ -1,8 +1,33 @@
 {
   "policy_id": "documented-redistribution-permission",
-  "version": 3,
+  "version": 4,
+  "owner_authorized": "2026-11-11",
+  "purpose": "Maximum accurate coverage under documented redistribution terms; CC0 is not preferred over other authorised translations.",
+  "standard_license_families": ["CC0", "CC-BY", "CC-BY-SA", "CC-BY-NC", "CC-BY-NC-SA"],
+  "standard_license_requirements": [
+    "Verify the exact edition and its publisher or translator license statement",
+    "Preserve attribution, copyright, source, complete license notice and license URL",
+    "Retain noncommercial and share-alike conditions on texts and downloads",
+    "Keep source code licensing separate from text licensing",
+    "Never relabel a conditional edition as unrestricted or CC0"
+  ],
+  "explicit_permission": "A documented grant for free TXT/HTML redistribution is acceptable; preserve all no-alteration and other conditions.",
+  "separate_review": ["CC-BY-ND", "CC-BY-NC-ND", "Any ambiguous grant or unknown edition rights"],
+  "site_operation": {
+    "noncommercial": true,
+    "advertising": false,
+    "affiliate_monetization": false,
+    "paid_access": false,
+    "sale_of_downloads": false
+  },
   "new_publication": {
     "allow": [
+      {
+        "licenses": ["CC-BY", "CC-BY-SA", "CC-BY-NC", "CC-BY-NC-SA"],
+        "scope": "Exact editions with pinned source and text hashes in metadata/source-manifests/licensed-collections.json",
+        "evidence_required": "The original publisher or translator notice identifies the accepted license and version; complete source comparison passes.",
+        "conditions": ["Retain each edition's attribution, copyright, source and license", "Honor noncommercial and share-alike terms"]
+      },
       {
         "license": "Candana — free distribution, unaltered contents",
         "scope": "Only the exact works and source hashes reviewed in metadata/source-manifests/candana.json",
@@ -30,7 +55,8 @@
   },
   "completeness": {
     "independent_of_rights": true,
-    "statuses": ["COMPLETE", "PARTIAL", "UNKNOWN"],
+    "statuses": ["COMPLETE", "ABBREVIATED", "PARTIAL", "UNKNOWN"],
+    "preserve_source": "Preserve wording, numbering, repetitions, paragraphs and verse structure. Never manufacture expanded repetitions.",
     "unknown_is_not_complete": true
   },
   "original_material": {

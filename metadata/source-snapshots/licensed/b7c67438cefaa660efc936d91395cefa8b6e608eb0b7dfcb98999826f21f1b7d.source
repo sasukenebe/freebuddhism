@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 6:13 Sirimaṇḍa</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag6.13" class="h1">Thag 6:13  Sirimaṇḍa</h4>
+            <div class="verse">
+              <p>Rain soddens what’s covered</p>
+              <p>&amp; doesn’t sodden what’s exposed.</p>
+              <p>So open up what’s covered up,</p>
+              <p>so that it won’t get soddened by the rain.<span class="fn"><a href="#thag6.13note01">1</a></span><!--end fn cite--></p>
+              <div class="verse-add">
+                <p class="v1">Attacked by death</p>
+                <p class="v2">is the world,</p>
+                <p class="v1">surrounded by aging,</p>
+                <p class="v1">beset by the arrow of craving,</p>
+                <p class="v1">always obscured by desire.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v1">Attacked by death</p>
+                <p class="v2">is the world,</p>
+                <p class="v1">&amp; encircled by aging,</p>
+                <p class="v1">constantly beaten, with no shelter,</p>
+                <p class="v2">like a thief</p>
+                <p class="v2">sentenced to punishment.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v1">They encroach like masses of flame,</p>
+                <p class="v2">these three:</p>
+                <p class="v2">death, aging, &amp; illness.</p>
+                <p class="v1">There’s no strength to confront them,</p>
+                <p class="v1">no speed to run away.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v1">Make the day not-in-vain,</p>
+                <p class="v2">a little or a lot.</p>
+                <p class="v1">However much</p>
+                <p class="v1">the day passes,</p>
+                <p class="v1">that’s how much less</p>
+                <p class="v2">is life.</p>
+                <p class="v1">Your last day approaches.</p>
+                <p class="v2">This isn’t your time</p>
+                <p class="v2">to be heedless.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag6.13note01">1. This verse is identical with the verse in <a href="../Ud/ud5_5.html">Ud 5:5</a>.</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../../MN/MN82.html">MN 82</a>; <a href="../../SN/SN3_25.html">SN 3:25</a>; <a href="../../SN/SN35_202.html">SN 35:202</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

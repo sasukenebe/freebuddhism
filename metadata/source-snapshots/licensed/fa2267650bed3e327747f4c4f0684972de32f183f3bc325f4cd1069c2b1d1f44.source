@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 1:8 Saṅgāmaji | Saṅgāmaji Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud1.8" class="h1">Ud 1:8 Saṅgāmaji (Saṅgāmaji Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Saṅgāmaji had arrived in Sāvatthī to see the Blessed One. His former wife heard, “Master Saṅgāmaji, they say, has arrived in Sāvatthī.” Taking her small child, she went to Jeta’s Grove. On that occasion Ven. Saṅgāmaji was sitting at the root of a tree for the day’s abiding. His former wife went to him and, on arrival, said to him, “Look after me, contemplative–(a woman) with a little son.” When this was said, Ven. Saṅgāmaji remained silent. A second time… A third time, his former wife said to him, “Look after me, contemplative–(a woman) with a little son.” A third time, Ven. Saṅgāmaji remained silent.</p>
+              <p>Then his former wife, taking the baby and leaving him in front of Ven. Saṅgāmaji, went away, saying, “That’s your son, contemplative. Look after him.”</p>
+              <p>Then Ven. Saṅgāmaji neither looked at the child nor spoke to him. His wife, after going not far away, was looking back and saw Ven. Saṅgāmaji neither looking at the child nor speaking to him. On seeing this, the thought occurred to her, “The contemplative doesn’t even care about his son.” Returning from there and taking the child, she left.</p>
+              <p>The Blessed One–with his divine eye, purified and surpassing the human–saw Ven. Saṅgāmaji’s former wife misbehaving in that way.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>At her coming,</p>
+                <p class="v1">he didn’t delight;</p>
+                <p>at her leaving,</p>
+                <p class="v1">he didn’t grieve.</p>
+                <p>A victor in battle, freed from the tie:<span class="fn"><a href="#ud1.8note01">1</a></span><!--end fn cite--></p>
+                <p class="v1">He’s what I call</p>
+                <p class="v1">a brahman.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud1.8note01">1. This line is a double wordplay on Saṅgāmaji’s name. Literally, it means a victor in battle–a compound of <em>saṅgāma</em> (battle) and <em>-ji</em> (victor)–but the Buddha also extracts from the first member of the compound the word <em>saṅgā,</em> which means “from the tie.” Strictly speaking, <em>saṅgāma</em> and <em>saṅgā</em> are not related to each other. The ability to engage in wordplay using unrelated words like this was considered a sign of intelligence and wit.</p>
+              </div>
+              <p class="seealso">See also: <a href="../Dhp/Ch24.html#dhp345">Dhp 345</a>—346</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

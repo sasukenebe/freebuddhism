@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 3:14 A Battle (1) | Saṅgāma Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN3.14" class="h1">A Battle (1)<br/>
+                Saṅgāma Sutta  (SN 3:14)</h2>
+              <p>Staying near Sāvatthī. Then King Ajātasattu of Magadha, the son of Queen Videha, raising a fourfold army, marched toward Kāsi against King Pasenadi Kosala. King Pasenadi heard, “King Ajātasattu of Magadha, the son of Queen Videha, they say, has raised a fourfold army and is marching toward Kāsi against me.” So King Pasenadi, raising a fourfold army, launched a counter-attack toward Kāsi against King Ajātasattu. Then King Ajātasattu &amp; King Pasenadi fought a battle, and in that battle King Ajātasattu defeated King Pasenadi. King Pasenadi, defeated, marched back to his capital at Sāvatthī.</p>
+              <p>Then in the early morning, a large number of monks, having adjusted their lower robes, and taking their bowls &amp; outer robes, went into Sāvatthī for alms. Having gone for alms in Sāvatthī, after the meal, returning from their alms round, they went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, they said to the Blessed One: “Just now, lord, King Ajātasattu of Magadha, the son of Queen Videha, raising a fourfold army, marched toward Kāsi against King Pasenadi Kosala. King Pasenadi heard, ‘King Ajātasattu of Magadha, the son of Queen Videha, they say, has raised a fourfold army and is marching toward Kāsi against me.’ So King Pasenadi, raising a fourfold army, launched a counter-attack toward Kāsi against King Ajātasattu. Then King Ajātasattu &amp; King Pasenadi fought a battle, and in that battle King Ajātasattu defeated King Pasenadi. King Pasenadi, defeated, marched back to his capital at Sāvatthī.”</p>
+              <p>“Monks, King Ajātasattu has evil friends, evil comrades, evil companions, whereas King Pasenadi has fine friends, fine comrades, fine companions. Yet for now, King Pasenadi will lie down tonight in pain, defeated.”</p>
+              <p>That is what the Blessed One said. Having said that, the One Well-Gone, the Teacher, said further:</p>
+              <div class="verse">
+                <p>“Winning gives birth to hostility.</p>
+                <p>Losing, one lies down in pain.</p>
+                <p>The calmed lie down with ease,</p>
+                <p class="v1">having set</p>
+                <p class="v1">winning &amp; losing</p>
+                <p class="v3">aside.”</p>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

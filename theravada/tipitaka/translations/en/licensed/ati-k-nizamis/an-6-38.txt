@@ -1,0 +1,78 @@
+AN 6.38 - Attakārī Sutta: The Self-Doer
+Translated by K. Nizamis
+Source: https://www.accesstoinsight.org/tipitaka/an/an06/an06.038.niza.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/an/an06/an06.038.niza.html#F_termsOfUse
+Copyright: ©2011 K. Nizamis.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2011 K. Nizamis. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 2 November 2013. How to cite this document (a suggested style): "Attakārī Sutta: The Self-Doer" (AN 6.38), translated from the Pali by K. Nizamis. Access to Insight (BCBS Edition), 2 November 2013, https://www.accesstoinsight.org/tipitaka/an/an06/an06.038.niza.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+Then a certain brahman approached the Blessed One; having approached the Blessed One, he exchanged friendly greetings. After pleasant conversation had passed between them, he sat to one side. Having sat to one side, the brahman spoke to the Blessed One thus:
+
+“Venerable Gotama, I am one of such a doctrine, of such a view: ‘There is no self-doer, there is no other-doer.’”[1]
+
+“I have not, brahman, seen or heard such a doctrine, such a view. How, indeed, could one — moving forward by himself, moving back by himself [2] — say: ‘There is no self-doer, there is no other-doer’? What do you think, brahmin, is there an element or principle of initiating or beginning an action?”[3]
+
+“Just so, Venerable Sir.”
+
+“When there is an element of initiating, are initiating beings [4] clearly discerned?”
+
+“Just so, Venerable Sir.”
+
+“So, brahmin, when there is the element of initiating, initiating beings are clearly discerned; of such beings, this is the self-doer, this, the other-doer. [5]
+
+“What do you think, brahmin, is there an element of exertion [6] ... is there an element of effort [7] ... is there an element of steadfastness [8] ... is there an element of persistence [9] ... is there an element of endeavoring?” [10]
+
+“Just so, Venerable Sir.”
+
+“When there is an element of endeavoring, are endeavoring beings clearly discerned?”
+
+“Just so, Venerable Sir.”
+
+“So, brahmin, when there is the element of endeavoring, endeavoring beings are clearly discerned; of such beings, this is the self-doer, this, the other-doer. I have not, brahmin, seen or heard such a doctrine, such a view as yours. How, indeed, could one — moving forward by himself, moving back by himself — say ‘There is no self-doer, there is no other-doer’?”
+
+“Superb, Venerable Gotama! Superb, Venerable Gotama! Venerable Gotama has made the Dhamma clear in many ways, as though he were turning upright what had been turned upside down, revealing what had been concealed, showing the way to one who was lost, or holding up a lamp in the dark: ‘Those who have eyes see forms!’ Just so, the Venerable Gotama has illuminated the Dhamma in various ways. I go to Venerable Gotama as refuge, and to the Dhamma, and to the assembly of monks. From this day, for as long as I am endowed with breath, let Venerable Gotama remember me as a lay follower who has gone to him for refuge.”
+
+Notes
+
+1.
+
+“Natthi attakāro, natthi parakāro.” Some people might have expected the Buddha to have approved highly of this naïve negative doctrine. The fact that he very succinctly and effectively refutes it is extremely instructive and of great significance for gaining a better understanding of the depth, subtlety, and holism of the Buddha’s actual teaching. Although the Buddha taught that there is no permanent, eternal, immutable, independently-existing core “self” (attā), he also taught that there is “action” or “doing”, and that it is therefore meaningful to speak of one who intends, initiates, sustains and completes actions and deeds, and who is therefore an ethically responsible and culpable being. It should be quite clear from its usage in this sutta, and from the argument of this sutta, that kāra in atta-kāra must be an agent noun, “doer, maker”: this is strongly entailed, for example, by the Buddha’s statement: “ārabbhavanto sattā paññāyanti, ayaṃ sattānaṃ attakāro ayaṃ parakāro”, “initiating beings are clearly discerned: of (such) beings, this is the self-doer, this, the other-doer” (AN iii.338). (This is perhaps even clearer than the term hāra in bhāra-hāra meaning “bearer” (“burden-bearer”) in SN 22.22 (Bhāra Sutta: The Burden; PTS SN iii.25). SN 22.22, which describes the “bearer” of the “burden” of the “five clung-to aggregates” (pañc-upādāna-kkhandhā) as the “person” (puggala), is arguably very closely related to AN 6.38 in meaning and implications. See SN 22.22 and also SN 12.61, note 1.) Atta-kāra could mean that one motivates oneself, or that one acts upon oneself; para-kāra could refer to the atta-kāra as seen from a third-person perspective, or to one who acts upon another being or thing. In each one of these cases, there is necessarily an all-important moment of initiation of action (see also footnotes 2 and 3, below). As for the form of the term atta-kārī, which occurs in the title of this sutta, compare the expression: “yathā-vādī tathā-kārī”, “one who speaks thus, one who does thus”; or, in other words, “he does as he says”, “he practises what he preaches” (compare, for example, PTS DN iii.135, AN ii.24, Sn 359).
+
+2.
+
+Sayaṃ abhikkamanto: “moving forward by oneself”; sayaṃ paṭikkamanto: “moving backward by oneself”. Sayaṃ means “self; by oneself”. The example seems to suggest the action of someone who intentionally takes a step forward, and then intentionally takes a step back again. This example leads directly to the next statement, and thus emphasises the idea of initiating an action (see [3] below): when someone takes a step forward or backward, the origin and impetus of this action must, so to speak, come from “somewhere” or “something”. In other words, it really is an intentionally initiated action (kiriya, kriyā), and not merely the arbitrary mechanical “effect” of some prior mechanical “cause” in a deterministic chain of mechanical push-and-pull. The sense, here, can be better understood if one also consults AN 2.33 (Aññataro Brāhmaṇo: A Certain Brahmin; PTS AN i.62), where the Buddha describes himself thus: “I am one who asserts that which ought to be done... and one who asserts that which ought not to be done.” (“Kiriyavādī cāhaṃ... akiriyavādī cā'ti.”) There, it is made very clear that doing and non-doing are morally significant and morally effective. Similarly, in several other suttas, such as in MN 95 (Caṅkī Sutta; PTS MN ii.164), the Buddha is described thus: “The venerable recluse Gotama is truly one who asserts the doctrine of kamma, one who asserts the doctrine of what ought to be done. . .” (“Samaṇo khalu bho gotamo kammavādī kiriyavādī. . .” (MN ii.167).) Again, in MN 71 (Tevijjavacchagotta Sutta; PTS MN i.481), the Buddha humorously recounts that in the last ninety-one aeons, no ājivaka, or “fatalist” who denies the power of volitional acts, has ever gone to heaven, except one, who happened to follow the doctrine of kamma and of morally effective deeds (“sopāsi kammavādī kiriyavādī”, MN i.483).
+
+3.
+
+Ārabbha-dhātū. Dhātū can mean “constituent element, property, natural condition, state, root principle”. Ārabbha (also spelt ārambha) has the primary meaning of “beginning, undertaking”. In Sanskrit, the verbal root ā-rabh means “to take hold of; gain a footing; undertake, begin”; and in both Sanskrit and Pali ārambha has the meaning of “beginning, origin, commencement; inception of energy”; it can also mean “effort, exertion”. The commentary glosses ārambha-dhātū with “ārabhanavasena pavattavīriyaṃ”, “the energy of setting something in motion by means of the power of beginning or initiating it” (PTS Mp iii.366).
+
+4.
+
+Ārabbhavanto sattā. This phrase is in the plural.
+
+5.
+
+The sense here would seem to be as follows: We clearly discern initiated actions (in ourselves and in others); so we clearly discern that there are initiating beings who initiate those actions; and the “self-doer” and “other-doer” are just particular beings amongst that set of beings (who may be described, for example, from a subjective or objective perspective, respectively).
+
+6.
+
+Nikkama-dhātu. This term, and the four terms that follow, could be translated with a wide variety of different nuances; yet, the overall integrity of sense that is implied would remain quite clear and consistent throughout. Together with the already discussed ārabbha-dhātu, they make a set of six inter-related terms. What is in question here, most essentially, is the intentional attitude and effort of conscious, volitional beings.
+
+7.
+
+Parakkama-dhātu.
+
+8.
+
+Thāma-dhātu.
+
+9.
+
+Ṭhiti-dhātu.
+
+10.
+
+Upakkama-dhātu.

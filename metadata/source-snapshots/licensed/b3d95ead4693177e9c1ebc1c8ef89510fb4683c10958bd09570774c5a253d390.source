@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:109 [A Monk] of the Four Directions | Catuddisa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5_109" class="h1">[A Monk] of the Four Directions<br/>
+                  Catuddisa Sutta  (AN 5:109)</h3><!--end suttahead-->
+<p>“Endowed with five qualities, monks, a monk is one of the four directions. Which five?</p>
+<p>“There is the case where a monk is virtuous. He dwells restrained in accordance with the Pāṭimokkha, consummate in his behavior &amp; sphere of activity. He trains himself, having undertaken the training rules, seeing danger in the slightest faults.</p>
+<p>“He has heard much, has retained what he has heard, has stored what he has heard. Whatever teachings are admirable in the beginning, admirable in the middle, admirable in the end, that—in their meaning &amp; expression—proclaim the holy life that is entirely perfect, surpassingly pure: Those he has listened to often, retained, discussed, accumulated, examined with his mind, &amp; well-penetrated in terms of his views. </p>
+<p>“He is content with any old robe cloth at all, any old alms food, any old lodging, any old medicinal requisites for curing sickness at all.</p>
+<p>“He attains—whenever he wants, without strain, without difficulty—the four jhānas that are heightened mental states, pleasant abidings in the here &amp; now.</p>
+<p>“He—with the ending of effluents—remains in the effluent-free awareness-release &amp; discernment-release, having directly known &amp; realized them for himself right in the here &amp; now.</p>
+<p>“Endowed with these five qualities, monks, a monk is one of the four directions.”</p>
+<p class="seealso">See also: <a href="AN4_28.html" class="sutta-ref">AN 4:28</a>; <a href="AN10_17.html" class="sutta-ref">AN 10:17</a>; <a href="AN10_71.html" class="sutta-ref">AN 10:71</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+
+
+</body></html>

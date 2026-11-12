@@ -1,0 +1,394 @@
+Snp 1.3 - Sn 1:3 A Rhinoceros
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/KN/StNp/StNp1_3.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+1:3 A Rhinoceros
+
+The refrain in this sutta is a subject of controversy. The text literally says, “Wander alone like a ‘sword-horn,’ which is the Pali term for rhinoceros. SnA, however, insists that this refers not to the animal but to its horn, because the Indian rhinoceros, unlike the African, has only one horn. Still, some scholars have noted that while the Indian rhinoceros is a solitary animal, rhinoceros horns don’t wander, and that in other verses in the Pali Canon, the phrase “wander alone like…” takes a person or an animal, not an animal part, for its object. Thus, for example, in Dhp 329 (repeated below), one is told to “wander alone like a king renouncing his kingdom, like the elephant in the Mataṅga woods, his herd.” It’s possible that the rhinoceros was chosen here as an example of solitary wandering both because of its habits and because of its unusual single horn. However, in a translation, it’s necessary to choose one reading over the other. Thus, because wandering ”like a rhinoceros” sounds more natural than wandering “like a horn,” I have chosen the former rendering. Keep in mind, though, that the singularity of the rhinoceros horn reinforces the image.
+
+Other versions of this poem exist in Sanskrit: a short Sanskrit version in the Mahāvastu, and a Gāndhārī version in a manuscript discovered in Central Asia. The Gāndhārī version contains many of the same verses given here, but in a different order. The Mahāvastu version contains only 12 verses, but it is followed by a statement that the full version of the sutta contained 500 verses. How that number was achieved is suggested by the fact that, of the 12 verses, several contain only minor variations from one another. All of this suggests that the verses here originally may have been separate poems, composed on separate occasions, and that they were gathered together because of their common refrain.
+
+Like the Pārānaya Vagga, this poem is given a detailed interpretation in Nd II. Nd II ends its discussion of this sutta by saying that it was spoken by a Private Buddha, i.e., one who gains awakening on his own but is unable to formulate the Dhamma in such a way as to teach others to gain awakening. This assertion, however, is contradicted by the content of some of the verses, such as the one beginning, “Consort with one who is learned, who maintains the Dhamma, a great & quick-witted friend.” Such a friend would not have existed in the time of a Private Buddha.
+
+There is evidence suggesting that in the centuries after the rule of King Asoka, monastery-dwelling monks began to look askance at forest-dwelling monks, and in some cases even forbade them from entering the precincts around the stupas of their monasteries. Because Nd I and Nd II were most likely composed by monastery-dwelling monks, it might be the case that they tried to blunt the message of this sutta by attributing it to a Private Buddha rather than to our Buddha, the implication being that its advice was not appropriate for monks of their day and age.
+
+Renouncing violence
+for all living beings,
+harming not even one of them,
+you would not wish for offspring,
+  so how a companion?
+Wander alone1
+like a rhinoceros.
+
+For a person by nature entangled
+there are affections;
+on the heels of affection, this pain.
+Seeing the drawback born of affection,
+wander alone
+like a rhinoceros.
+
+One whose mind
+is enmeshed in sympathy
+for friends & companions,
+neglects the goal.
+Seeing this danger in intimacy,
+wander alone
+like a rhinoceros.
+
+Like spreading bamboo,
+  entwined,
+is concern for offspring & spouses.
+Like a bamboo sprout,
+  unentangling,
+wander alone
+like a rhinoceros.
+
+As a deer in the wilds,
+  unfettered,2
+goes for forage wherever it wants:
+The observant person, valuing freedom,
+wanders alone
+like a rhinoceros.
+
+In the midst of companions
+—when staying at home,
+  when going out wandering—
+you are prey to requests.
+Valuing the freedom
+that no one else covets,
+wander alone
+like a rhinoceros.
+
+There is sporting & love
+in the midst of companions,
+& abundant love for offspring.
+  Feeling disgust
+at the prospect of parting
+from those who’d be dear,
+wander alone
+like a rhinoceros.
+
+Without resistance in all four directions,
+content with whatever you get,
+enduring troubles without panic,
+wander alone
+like a rhinoceros.
+
+They are hard to please,
+some of those gone forth,
+as well as those living the household life.
+Being unconcerned
+with the offspring of others,
+wander alone
+like a rhinoceros.
+
+Cutting off the householder’s marks,3
+  like a kovilara tree
+  that has shed its leaves,
+the enlightened one, cutting all household ties,
+wanders alone
+like a rhinoceros.
+
+If you gain an astute companion,
+a fellow traveler, right-living, enlightened,
+overcoming all troubles,
+    go with him, gratified,
+    mindful.
+
+If you don’t gain an astute companion,
+a fellow traveler, right-living & wise,
+    wander alone
+like a king renouncing his kingdom,
+like the elephant in the Mataṅga wilds,
+    [his herd].4
+
+We praise companionship
+  —yes!
+Those on a par, or better,
+should be chosen as friends.
+If they’re not to be found,
+  living faultlessly,
+wander alone
+like a rhinoceros.
+
+Seeing radiant bracelets of gold,
+well-made by a smith,
+  clinking, clashing,
+  two on an arm,
+wander alone
+like a rhinoceros,
+
+[Thinking:]
+“In the same way,
+if I were to live with another,
+there would be conversation or attachment.”
+Seeing this future danger,
+wander alone
+like a rhinoceros.
+
+Because sensual pleasures,
+elegant, honeyed, & charming,
+bewitch the mind with their manifold forms—
+seeing this drawback in sensual strings5—
+wander alone
+like a rhinoceros.
+
+“Calamity, tumor, misfortune,
+disease, an arrow, a danger for me.”
+Seeing this danger in sensual strings,
+wander alone
+like a rhinoceros.
+
+Cold & heat, hunger & thirst,
+wind & sun, horseflies & snakes:
+Enduring all these, without exception,
+wander alone
+like a rhinoceros.
+
+As a great white elephant,
+with massive shoulders,
+renouncing his herd,
+lives in the wilds wherever he wants,
+wander alone
+like a rhinoceros.
+
+“There’s no way
+that one delighting in company
+can touch even momentary release.”6
+Heeding the words
+of the Kinsman of the Sun,7
+wander alone
+like a rhinoceros.
+
+Transcending the contortion of views,8
+  the sure way attained,
+  the path gained,
+[realizing:]
+“Unled by others,
+I have knowledge arisen,”
+wander alone
+like a rhinoceros.
+
+With no greed, no deceit,
+no thirst, no hypocrisy—
+  delusion & blemishes
+      blown away—
+with no inclinations for all the world,
+          every world,
+wander alone
+like a rhinoceros.
+
+Avoid the evil companion
+  disregarding the goal,
+  intent on the discordant9 way.
+Don’t associate yourself
+with someone heedless & hankering.
+Wander alone
+like a rhinoceros.
+
+Consort with one who is learned,
+  who maintains the Dhamma,
+  a great & quick-witted friend.
+Knowing the meanings,
+subdue your perplexity,
+[then] wander alone
+like a rhinoceros.
+
+Free from longing, finding no pleasure
+in the world’s sport, ardor, or sensual bliss,
+abstaining from adornment,
+speaking the truth,
+wander alone
+like a rhinoceros.
+
+Abandoning offspring, spouse,
+father, mother,
+riches, grain, relatives,
+& sensual pleasures
+  altogether,
+wander alone
+like a rhinoceros.
+
+  “This is a bondage.
+There’s little happiness here,
+next to no enjoyment,
+all the more suffering & pain.10
+  This is a boil”11:
+Knowing this, circumspect,
+wander alone
+like a rhinoceros.
+
+Shattering fetters,
+like a fish in the water tearing a net,
+like a fire not coming back to what’s burnt,
+wander alone
+like a rhinoceros.
+
+Eyes downcast, not footloose,
+senses guarded, with protected mind,
+not soggy, not burning,12
+wander alone
+like a rhinoceros.
+
+Taking off the householder’s marks,13
+  like a coral tree
+  that has shed its leaves,
+going forth in the ochre robe,
+wander alone
+like a rhinoceros.
+
+Showing no greed for flavors, not wanton,
+going from house to house for alms
+with mind unenmeshed in this family or that,
+wander alone
+like a rhinoceros.
+
+Abandoning barriers to awareness,
+expelling all defilements—all—
+non-dependent, cutting aversion,
+          affection,
+wander alone
+like a rhinoceros.
+
+Turning your back on pleasure & pain,
+as earlier with sorrow & joy,
+attaining pure
+          equanimity,
+          tranquility,14
+wander alone
+like a rhinoceros.
+
+With persistence aroused
+for the highest goal’s attainment,
+with mind unsmeared, not lazy in action,
+firm in effort, with steadfastness & strength arisen,
+wander alone
+like a rhinoceros.
+
+Not neglecting seclusion, jhāna,
+constantly living the Dhamma
+  in line with the Dhamma,
+comprehending the danger
+in states of becoming,
+wander alone
+like a rhinoceros.
+
+Intent on the ending of craving & heedful,
+neither drooling nor dumb,
+but learned, mindful,
+—having reckoned the Dhamma—
+  certain & striving,
+wander alone
+like a rhinoceros.
+
+Unstartled, like a lion at sounds.
+Unsnared, like the wind in a net.
+Unsmeared, like a lotus in water15:
+Wander alone
+like a rhinoceros.
+
+Like a lion—forceful, strong in fang,
+living as a conqueror, the king of beasts—
+resort to a solitary dwelling.
+Wander alone
+like a rhinoceros.
+
+At the right time consorting
+with the release through goodwill,
+          compassion,
+          empathetic joy,
+          equanimity,
+unobstructed by all the world,
+      any world,
+wander alone
+like a rhinoceros.
+
+Having let go of passion,
+          aversion,
+          delusion;
+having shattered the fetters;
+unfazed at the ending of life,
+wander alone
+like a rhinoceros.
+
+People follow & associate
+  for a motive.
+Friends without a motive these days
+  are rare.
+They’re shrewd for their own ends, & impure.
+  Wander alone
+like a rhinoceros.
+
+vv. 35–75
+
+Notes
+
+1. Nd II details the various ways in which a Private Buddha can be said to wander alone (eko). Two of the ways have to do with physical seclusion: He goes forth alone and wanders without a companion. The remaining have to do with mental seclusion: He has abandoned craving; is free of passion, aversion, and delusion; and has followed the path going one way only (ekāyanamagga). Interestingly enough, Nd II defines this path, not as just the four establishings of mindfulness (see DN 22) but as all seven sets of dhammas in the Wings to Awakening.
+
+Nd II illustrates its reference to the abandoning of craving as a type of seclusion with this verse from Iti 15:
+
+With craving his companion, a man
+wanders on a long, long time.
+Neither in this state here
+nor anywhere else
+does he go beyond
+the wandering-on.
+Knowing this drawback—
+that craving brings stress into play—
+free from craving,
+devoid of clinging,
+mindful, the monk
+lives the mendicant life. 
+
+Nd II illustrates its reference to the path going one way only with this verse from SN 47:18 and SN 47:43:
+
+One with vision of the ending of birth,
+sympathetic to welfare,
+discerns the path going one way only,
+by which, in the past, they crossed over,
+are now crossing over,
+and will cross over
+  the flood.
+
+2. SN 35:191 lists two fetters: desire and passion. AN 10:13 lists ten: self-identification views, uncertainty, grasping at habits & practices, sensual desire, ill will, passion for form, passion for what is formless, conceit, restlessness, and ignorance. 
+
+3. Hair and beard.
+
+4. These verses = Dhp 328–329.
+
+5. “There are these five strings of sensuality. Which five? Forms cognizable via the eye—agreeable, pleasing, charming, endearing, enticing, linked with sensual desire; sounds cognizable via the ear… aromas cognizable via the nose… flavors cognizable via the tongue… tactile sensations cognizable via the body—agreeable, pleasing, charming, endearing, enticing, linked with sensual desire. But these are not sensuality. They are called strings of sensuality in the discipline of the noble ones.” — AN 6:63
+
+6. The temporary release from such things as the hindrances, attained when entering right concentration, or the temporary release from some of the factors of lower states of jhāna, attained when entering higher states of jhāna. This release lasts only as long as the necessary causal factors are still in place. This is apparently the same thing as the occasional release/liberation mentioned in MN 29. See note 2 to that sutta.
+
+7. An epithet for the Buddha.
+
+8. According to Nd II, the views here are the 20 forms of identity-views (see SN 22:1) and the 62 views discussed in DN 1. (The connection between these two lists is discussed in SN 41:3.) MN 2, however, explains a “contortion of views” in different terms, which may have been intended here.
+
+9. Visama. See Sn 1:12, note 11.
+
+10. See MN 54.
+
+11. Reading gaṇḍo with the Thai editions. The other editions have gaḷo, fishhook. See AN 9:15.
+
+12. Nd II explains “not soggy” by quoting Ven. Mahā Moggallāna’s words in SN 35:202. The central part of the passage is this: “And how is one soggy? There is the case where a monk, when seeing a form via the eye, is, in the case of pleasing forms, committed to forms and, in the case of displeasing forms, afflicted by forms. He remains with body-mindfulness not present, and with limited awareness. And he does not discern, as it has come to be, the awareness-release & discernment-release where those evil, unskillful qualities that have arisen cease without trace. [Similarly with the remaining sense media.] … 
+
+“And how is one not soggy? There is the case where a monk, when seeing a form via the eye, is not, in the case of pleasing forms, committed to forms nor, in the case of displeasing forms, afflicted by forms. He remains with body-mindfulness present, and with immeasurable awareness. And he discerns, as it has come to be, the awareness-release & discernment-release where those evil, unskillful qualities that have arisen cease without trace. [Similarly with the remaining sense media.]”
+
+See also AN 3:110.
+
+According to Nd II, “not burning” means not burning with the fires of passion, aversion, and delusion. See SN 35:28 and Iti 93.
+
+13. Lay clothing.
+
+14. This is a reference to the fourth jhāna. See MN 119.
+
+15. These lines are repeated at Sn 1:12.
+
+See also: SN 21:10; SN 35:63; AN 9:40; Ud 4:5; Iti 15; Iti 38

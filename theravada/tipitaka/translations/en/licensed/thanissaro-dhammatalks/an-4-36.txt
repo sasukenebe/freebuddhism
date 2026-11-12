@@ -1,0 +1,59 @@
+AN 4.36 - AN 4:36 With Doṇa | Doṇa Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/AN/AN4_36.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+With Doṇa
+ Doṇa Sutta (AN 4:36)
+
+I have heard that on one occasion the Blessed One was traveling along the road between Ukkaṭṭha and Setabya, and Doṇa the brahman was also traveling along the road between Ukkaṭṭha and Setabya. Doṇa the brahman saw, in the Blessed One’s footprints, wheels with 1,000 spokes, together with rims and hubs, complete in all their features. On seeing them, the thought occurred to him, “How amazing! How astounding! These are not the footprints of a human being!”
+
+Then the Blessed One, leaving the road, went to sit at the root of a certain tree—his legs crossed, his body erect, with mindfulness established to the fore. Then Doṇa, following the Blessed One’s footprints, saw him sitting at the root of the tree: confident, inspiring confidence, his senses calmed, his mind calmed, having attained the utmost control & tranquility, tamed, guarded, his senses restrained, a nāga.1 On seeing him, he went to him and said, “Master, are you a deva?”2
+
+“No, brahman, I am not a deva.”
+
+“Are you a gandhabba?”
+
+“No….”
+
+“… a yakkha?”
+
+“No….”
+
+“… a human being?”
+
+“No, brahman, I am not a human being.”
+
+“When asked, ‘Are you a deva?’ you answer, ‘No, brahman, I am not a deva.’ When asked, ‘Are you a gandhabba?’ you answer, ‘No, brahman, I am not a gandhabba.’ When asked, ‘Are you a yakkha?’ you answer, ‘No, brahman, I am not a yakkha.’ When asked, ‘Are you a human being?’ you answer, ‘No, brahman, I am not a human being.’ Then what sort of being are you?”
+
+“Brahman, the effluents by which—if they were not abandoned—I would be a deva: Those are abandoned by me, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising. The effluents by which—if they were not abandoned—I would be a gandhabba… a yakkha… a human being: Those are abandoned by me, their root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising.
+
+“Just like a red, blue, or white lotus—born in the water, grown in the water, rising up above the water—stands unsmeared by the water, in the same way I—born in the world, grown in the world, having overcome the world—live unsmeared by the world. Remember me, brahman, as ‘awakened.’
+
+“The effluents by which I would go
+to a deva-state,
+or become a gandhabba in the sky,
+or go to a yakkha-state & human-state:
+  Those have been destroyed by me,
+  ruined, their stems removed.
+Like a blue lotus, rising up,
+unsmeared by water,
+unsmeared am I by the world,
+and so, brahman,
+  I’m awake.”
+
+Notes
+
+1. “Nāga” is a term used to describe a great being, such as an elephant or a great, magical serpent. Buddhists adopted the term as an epithet for the Buddha and his arahant disciples. See AN 6:43.
+
+2. Doṇa phrases his question in the future tense, which has led to a great deal of discussion as to what this entire dialogue means: Is he asking what the Buddha will be in a future life, or is he asking what he is right now? The context of the discussion seems to demand the second alternative—Doṇa wants to know what kind of being would have such amazing footprints, and the Buddha’s image of the lotus describes his present state—but the grammar of Doṇa’s questions would seem to demand the first. However, A. K. Warder, in his Introduction to Pali (p. 55), notes that the future tense is often used to express perplexity, surprise, or wonder about something in the present: “What might this be?” “What on earth is this?” This seems to be the sense of Doṇa’s questions here. His earlier statement—“These are not the footprints of a human being”—is also phrased in the future tense, and the mood of wonder extends throughout his conversation with the Buddha.
+
+It’s also possible that the Buddha’s answers to Doṇa’s questions—which, like the questions, are put in the future tense—are a form of word-play, in which the Buddha is using the future tense in both its meanings, to refer both to his present and to his future state.
+
+The Buddha’s refusal to identify himself as a human being relates to a point made throughout the Canon, that an awakened person cannot be defined in any way at all. On this point, see MN 72, SN 22:36, SN 22:85–86, SN 23:2, and the article, “A Verb for Nirvana.” Because a mind with clinging is “located” by its clinging, an awakened person takes no place in any world: This is why he/she is unsmeared by the world (loka), like the lotus unsmeared by water. On this point, see The Paradox of Becoming, chapter 7.

@@ -134,9 +134,16 @@ def census(queue: dict, inventory: list, manifest: dict, read, live_index=None) 
     imported = {r['canonical_id']: r for r in manifest['texts']}
     if len(imported) != len(manifest['texts']):
         raise ValueError('Imported reader IDs are duplicated')
+    imported_groups = manifest.get('group_texts', [])
+    group_ids = [row['group_id'] for row in imported_groups]
+    if len(group_ids) != len(set(group_ids)):
+        raise ValueError('Imported shared-passage IDs are duplicated')
     live_ids = ({t['canonical_id'] for t in live_index['texts']
                  if any(e['id'] == 'candana' for e in t['editions'])}
                 if live_index is not None else None)
+    live_group_ids = ({e['group_id'] for t in live_index['texts'] for e in t['editions']
+                       if e.get('group_id')}
+                      if live_index is not None else None)
     book_urls = {b['source_url']: b for b in manifest['books']}
     offers, grouped = [], defaultdict(list)
     for job in jobs.values():
@@ -229,6 +236,10 @@ def census(queue: dict, inventory: list, manifest: dict, read, live_index=None) 
             'automatic_publication': False, 'publisher_network_requests': 0, 'model_calls': 0,
             'queue_sha256': sha(json.dumps(queue, sort_keys=True).encode()),
             'manifest_sha256': sha(json.dumps(manifest, sort_keys=True).encode()),
+            'imported_shared_passages': [{'group_id': row['group_id'],
+                'canonical_ids': row['canonical_ids'], 'local_path': row['local_path'],
+                'sha256': row['sha256'], 'live': (row['group_id'] in live_group_ids
+                    if live_group_ids is not None else None)} for row in imported_groups],
             'publisher_pages': discovery, 'offers': offers, 'groups': groups,
             'historical_manifest_sources': historical,
             'next_import_groups': missing,
@@ -238,6 +249,10 @@ def census(queue: dict, inventory: list, manifest: dict, read, live_index=None) 
                         'distinct_downloaded_file_hashes': len(hashes),
                         'additional_historical_manifest_sources': len(historical),
                         'imported_reader_entries': len(imported), 'live_reader_entries': len(live_ids) if live_ids is not None else None,
+                        'imported_shared_passage_bodies': len(imported_groups),
+                        'imported_shared_passage_references': sum(len(row['canonical_ids']) for row in imported_groups),
+                        'live_shared_passage_bodies': sum(row['group_id'] in live_group_ids for row in imported_groups)
+                            if live_group_ids is not None else None,
                         'identified_standalone_reference_groups': len(canonical_groups),
                         'standalone_groups_with_existing_candana_reader': sum(g['same_reference_is_imported'] for g in canonical_groups),
                         'standalone_groups_without_live_candana_reader': sum(not g['same_reference_is_live'] for g in canonical_groups) if live_ids is not None else None,
@@ -250,11 +265,15 @@ def census(queue: dict, inventory: list, manifest: dict, read, live_index=None) 
 def render(report):
     summary = report['summary']
     lines = ['CANDANA — WHAT IS ON OUR WEBSITE AND WHAT IS STILL MISSING',
-             f"Candana text pages on our website: {summary['live_reader_entries'] if summary['live_reader_entries'] is not None else 'Not checked'}",
+             f"Individual text entries with a Candana edition: {summary['live_reader_entries'] if summary['live_reader_entries'] is not None else 'Not checked'}",
+             f"Shared passages in the local Candana import: {summary['imported_shared_passage_bodies']} bodies covering {summary['imported_shared_passage_references']} existing text pages",
+             (f"Shared passages confirmed live: {summary['live_shared_passage_bodies']} of {summary['imported_shared_passage_bodies']}"
+              if summary['live_shared_passage_bodies'] is not None else "Live website status not checked; shared passages are not separate complete suttas."),
              f"Downloaded files: {summary['downloaded_offers']} of {summary['written_offers']} found links",
              'Different files may contain the same text or different versions of it.', '']
     body = ['<h1>Candana — what is on our website and what is still missing</h1>',
             '<p>This lists the texts found so far. It does not claim we have found everything Candana has published or have permission to publish every text.</p>',
+            '<p>A shared passage is one source body that covers multiple existing text pages. It is counted once as a passage, not as multiple complete sutta translations.</p>',
             ''.join('<p>' + html.escape(line) + '</p>' for line in lines if line) + '<ol>']
     for group in report['groups']:
         state = ('Which text this file contains still needs checking.' if group['needs_reference_review'] else

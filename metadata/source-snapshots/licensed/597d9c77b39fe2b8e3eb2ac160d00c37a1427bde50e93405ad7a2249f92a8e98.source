@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:25 Desire &amp; Passion | Chanda-rāga Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.25" class="h1">Desire &amp; Passion<br/>
+               Chanda-rāga Sutta  (SN 22:25)</h2>
+<p>Near Sāvatthī.</p>
+<p>“Monks, abandon any desire &amp; passion for form. Thus that form will be abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising.</p>
+<p>“Abandon any desire &amp; passion for feeling…</p>
+<p>“Abandon any desire &amp; passion for perception…</p>
+<p>“Abandon any desire &amp; passion for fabrications…</p>
+<p>“Abandon any desire &amp; passion for consciousness. Thus that consciousness will be abandoned, its root destroyed, made like a palmyra stump, deprived of the conditions of development, not destined for future arising.”</p>
+<p class="seealso">See also: <a href="SN22_5.html">SN 22:5</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+</body>
+</html>
+

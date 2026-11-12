@@ -1,0 +1,27 @@
+Thag 1.100 - Thag 1:100 Devasabha
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/KN/Thag/thag1_100.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Thag 1:100 Devasabha
+
+Consummate in the right exertions,
+the establishings of mindfulness his range,1
+blanketed with the flowers of release,
+he will, without effluent, totally unbind.2
+
+Notes
+
+1. The right exertions are the four aspects of right effort; the establishings of mindfulness, the four aspects of right mindfulness. See SN 45:8. On the image of the establishings of mindfulness as a monk’s proper range, see SN 47:6–7.
+
+2. Formally, this verse is noteworthy in that each of the first three lines is composed of a single long compound. This style, which became common in later Indian literature because it was considered to convey strength, is uncommonly “strong” for a verse in the Pali Canon. For a similar example, see Dhp 39.
+
+“Effluent” here is a translation of the term āsava, which stands for three tendencies that “flow out” of the mind and lead to the flood of rebirth: sensuality, becoming, and ignorance. The Jains, contemporaries of the Buddha, also used the term “effluent” in their teachings, but the Buddhist use of the term differed from theirs in two important respects. First, for the Buddhists, effluents were mental, whereas for the Jains they were physical: sticky substances that kept what they regarded as the soul attached to the process of transmigration. Second, for the Jains a living person could become freed of the effluents only at his/her final death. Thus a living person could not be effluent-free. For the Buddhists, however, one became effluent-free at the point of total awakening. Thus a living arahant was effluent-free. Many of the speakers in the Theragāthā and Therīgāthā speak of themselves as effluent-free—see, for instance,Thag 18, Thig 5:11, Thig 14—which means that they are employing the concept in its strictly Buddhist sense.
+
+See also: SN 47:6–7

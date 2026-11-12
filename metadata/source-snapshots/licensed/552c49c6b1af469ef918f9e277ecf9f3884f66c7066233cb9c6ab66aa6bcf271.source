@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:33 Sopāka</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag1.33" class="h1">Thag 1:33  Sopāka</h4>
+<div class="verse">
+<p>Just as one would be good</p>
+<p>to one’s dear only child,</p>
+<p>one should be good to all creatures</p>
+<p>everywhere.<span class="fn"><a href="#thag1.33note01">1</a></span></p>
+</div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.33note01">1. Notice how this image differs from a similar image in <a href="../StNp/StNp1_8.html">Sn 1:8</a>:</p>
+              <div class="verse">
+                <p>As a mother would risk her life</p>
+                <p class="v2">to protect her child, her only child,</p>
+                <p class="v2">even so should one cultivate the heart limitlessly</p>
+                <p class="v2">with regard to all beings.</p>
+              </div><!--end verse-->
+              <p>Whereas the image here draws a parallel between being good to one’s child and being good to others, the image in <a href="../StNp/StNp1_8.html">Sn 1:8</a> draws a parallel between protecting one’s child and protecting one’s limitless attitude of goodwill to all beings.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

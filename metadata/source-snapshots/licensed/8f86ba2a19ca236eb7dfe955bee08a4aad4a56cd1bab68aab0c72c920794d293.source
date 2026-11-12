@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 7:80 The Teacher’s Instruction | Satthusāsana Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN7.80" class="h1">The Teacher’s Instruction<br/>
+                  Satthusāsana Sutta  (AN 7:80)</h3><!--end suttahead-->
+                <p>Then Ven. Upāli went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One: “It would be good, venerable sir, if the Blessed One would teach me the Dhamma in brief such that, having heard the Dhamma from the Blessed One, I might dwell alone, secluded, heedful, ardent, &amp; resolute.”</p>
+                <p>“Upāli, the qualities of which you may know, ‘These qualities do not lead to utter disenchantment, to dispassion, to cessation, to stilling, to direct knowledge, to self-awakening, nor to unbinding’: You may categorically hold, ‘This is not the Dhamma, this is not the Vinaya, this is not the Teacher’s instruction.’</p>
+                <p>“As for the qualities of which you may know, ‘These qualities lead to utter disenchantment, to dispassion, to cessation, to stilling, to direct knowledge, to self-awakening, to unbinding’: You may categorically hold, ‘This is the Dhamma, this is the Vinaya, this is the Teacher’s instruction.’”</p>
+                <p class="seealso">See also: <a href="../MN/MN72.html">MN 72</a>; SN 56:1; <a href="AN3_66.html">AN 3:66</a>; <a href="AN8_53.html">AN 8:53</a>; <a href="AN10_99.html">AN 10:99</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

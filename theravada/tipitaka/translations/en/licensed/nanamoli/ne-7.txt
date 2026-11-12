@@ -1,0 +1,83 @@
+Ne 7 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne7.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+4. The Ninefold Thread in the Mode of Conveying Footings
+
+PTS vp En 45 158. Herein, what is the Mode of Conveying Footings? The Mode of Conveying Footings is this:
+
+“The Victor teaching an idea
+Teaches what that idea has too
+As footing; so with each idea:
+This is the Mode Conveying Footings”.
+
+159. What does this [Mode] teach? [It teaches as follows:]
+
+[Definitions of the 18 Root-Terms—see]
+
+Ignorance has the characteristic of not penetrating ideas according to actuality; its footing is the [four] perversions. Craving has the characteristic of cleaving to; its footing is endearing form or alluring form. Greed has the characteristic of aspiring; its footing is the taking of what is not given. [Hate has the characteristic of willing ill; its footing is killing breathing things. Delusion has the characteristic of wrongly theorizing about things; its footing is wrong theory.] Perception of beauty has the characteristic of apprehending colour, shape and features; its footing is non-restraint of the faculties [beginning with the eye]. Perception of pleasure has the characteristic of approaching contact affected by taints; its footing is gratification. Perception of permanence has the characteristic of unseeing of ideas that have the characteristic of being determined [that they are so]; its footing is consciousness. Perception of self has the characteristic of not seeing with perception of impermanence and perception of pain; its footing is the name-body.
+
+160. Science has the characteristic of penetrating all ideas; its footing is the knowable. Quiet has the characteristic of preventing distraction of cognizance; its footing is the kinds of ugliness. PTS vp En 46 Non-greed has the characteristic of preventing recourse to wishes; its footing is abstention from taking what is not given. Non-hate has the characteristic of non-ill-will; its footing is abstention from killing breathing things. Non-delusion has the characteristic of not wrongly theorizing about things; its footing is right theory. Perception of ugliness has the characteristic of apprehending the discoloured [corpse-stage] and the festering [corpse-stage]; its footing is dispassion. Perception of pain has the characteristic of diagnosing contact affected by taints; its footing is feeling. Perception of impermanence has the characteristic of seeing ideas that have the characteristic of being determined; PTS vp Pli 28 its footing is rise and subsidence (fall). Perception of not-self has the characteristic of non-insistence in the case of all ideas; its footing is perception of ideas.
+
+[Further Definitions]
+
+161. The five strands of sensual desire are the footing for lust for sensual desires. The five faculties [beginning with the eye] that have form are the footing for lust for form. The sixth base [namely that of mind] is the footing for lust for being (existence). The state of a contemplator of being (existence) as occurrence is the footing for the five categories of assumption. Recollection of past life is the footing for knowing and seeing.
+
+[Definitions of the five faculties]
+
+PTS vp En 47 162. Faith has the characteristic of trusting, and its manifestation is belief. Confidence has the characteristic of being undisturbed and its manifestation is confiding (clarification). Faith has the characteristic of credence; its footing is confidence-by-having-undergone. Confidence has the characteristic of being undisturbed; its footing is faith.
+
+163. Energy has the characteristic of instigating; its footing is a right endeavour. Mindfulness has the characteristic of non-drifting; its footing is a foundation of mindfulness. Concentration has the characteristic of unification; its footing is the meditations. Understanding has the characteristic of act-of-understanding; its footing is the four Truths.
+
+[Definitions of the Members of the Formula of Dependent Arising]
+
+164. Another guide-line:
+
+Unreasoned attention has the characteristic of directing attention to gratification; its footing is ignorance. Ignorance has the characteristic of confusing Truth; it is the footing for determinations. Determinations have the characteristic of developing renewal of PTS vp En 48 being (existence); they are the footing for consciousness. Consciousness has the characteristic of causing occurrence by opening the way to reappearance; it is the footing for name-and-form. Name-and-form has the characteristic of conjoining the name-body and the form-body; it is the footing for the sixfold base. The sixfold base has the characteristic of defining the [six] faculties; it is the footing for contact. Contact has the characteristic of causing concurrence of [e.g.] eye, forms, and consciousness; it is the footing for feeling (affectivity). Feeling has the characteristic of being coessential with the wished-for and the un-wished-for; it is the footing for craving. Craving has the characteristic of cleaving to; it is the footing for assuming. Assuming opens the way to reappearance; it is the footing for being (existence). Being (existence) has the characteristic of giving actual being (existence) to the name-body and the form-body; PTS vp Pli 29 it is the footing for birth. Birth has the characteristic of giving manifest being (existence) to the categories; it is the footing for ageing. Ageing PTS vp En 49 has the characteristic of overripening the essentials of existence; it is the footing for death. Death has the characteristic of interrupting the life-faculty; it is the footing for sorrow. Sorrow (soka) causes care (ussukha); it is the footing for lamentation. Lamentation causes constant crying out; it is the footing for pain. Pain is oppression of body; it is the footing for grief. Grief is oppression of cognizance; it is the footing for despair. Despair causes surrendering; it is the footing for being.
+
+[How Being comes about]
+
+165. When these factors of being (existence) are (exist) [by their] having occurrence in harmony, [then] that [is] being (existence); that [is] the footing for the roundabout [of rebirths].
+
+[Further Definitions]
+
+166. The Path has the characteristic of giving outlet; it is the footing for cessation.
+
+167. Knowledge of watering-places is the footing for knowledge of what it is to have drunk [enough]. Knowledge of what it is to have drunk [enough] is the footing for knowledge of the PTS vp En 50 [right] amount. Knowledge of the [right] amount (mattaññutā) is the footing for self-knowledge (attaññuta). Self-knowledge is the footing for the state of having previously performed merit. The state of having previously performed merit is the footing for living in befitting places. Living in befitting places is the footing for waiting on true men. Waiting on true men is the footing for right disposition in self-guidance. Right disposition in self-guidance is the footing for the kinds of virtue. The kinds of virtue are the footing for gladness. Gladness is the footing for tranquillity. Tranquillity is the footing for pleasure. Pleasure is the footing for concentration. Concentration is the footing for knowing and seeing how [things] are. Knowing and seeing how [things] are is the footing for dispassion. Dispassion is the footing for fading of lust. Fading of lust is the footing for deliverance. Deliverance is the footing for knowing and seeing of deliverance.
+
+168. In this way all kinds of general-support, all kinds of conditions, are a footing.
+
+169. That is why the venerable Mahā-Kaccāna said:
+
+“The Victor teaching an idea
+Teaches what that idea has too
+As footing; so with all ideas:
+This is the Mode Conveying Footings”.
+
+The Mode Conveying Footings is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

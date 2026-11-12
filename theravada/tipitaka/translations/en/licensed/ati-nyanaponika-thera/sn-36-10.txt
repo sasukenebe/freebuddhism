@@ -1,0 +1,26 @@
+SN 36.10 - Phassamulaka Sutta: Rooted in Sense-impression
+Translated by Nyanaponika Thera
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.010.nypo.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.010.nypo.html#F_termsOfUse
+Copyright: ©1983 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1983 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Contemplation of Feeling: The Discourse-grouping on the Feelings (WH 303), translated from the Pali by Nyanaponika Thera (Kandy: Buddhist Publication Society, 1983). Copyright © 1983 Buddhist Publication Society. Used with permission. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Phassamulaka Sutta: Rooted in Sense-impression" (SN 36.10), translated from the Pali by Nyanaponika Thera. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.010.nypo.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. Entire protected source unit, including notes and verses, preserved; canonical completeness has not been independently established.
+
+"There are, O monks, these three feelings, rooted in sense-impression, caused by sense-impression, conditioned by sense-impression: pleasant, painful and neutral feelings.
+
+"Dependent on a sense-impression that is liable to be felt as pleasurable, there arises a pleasant feeling. When that very sense-impression liable to be felt as pleasurable has ceased, then the sensation born from it[1] — namely the pleasant feeling that arose dependent on that sense-impression — also ceases and is stilled.
+
+"Dependent on a sense-impression that is liable to be felt as painful, there arises a painful feeling. When that very sense-impression liable to be felt as painful has ceased, then the sensation born from it — namely the painful feeling that arose dependent on that sense-impression — also ceases and is stilled.
+
+"Dependent on a sense-impression that is liable to be felt as neutral, there arises a neutral feeling. When that very sense-impression liable to be felt as neutral has ceased, then the sensation born from it — namely the neutral feeling that arose dependent on that sense-impression — also ceases and is stilled.
+
+"Just as from the coming together and rubbing of two sticks of wood heat results and fire is produced, and by the separation and disconnection of the sticks, the heat produced by them ceases and disappears, so it is also with these three feelings which are born of sense-impression, rooted in sense-impression, caused by sense-impression, dependent on sense-impression: dependent on a sense-impression of a certain kind there arises a corresponding feeling; by the cessation of that sense-impression the corresponding feeling ceases."
+
+Note
+
+1.
+
+Tajjam vedayitam.

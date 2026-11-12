@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:129 Putrid | Kaṭuviya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.129" class="h1">Putrid<br/>
+                  Kaṭuviya Sutta  (AN 3:129)</h3><!--end suttahead-->
+                <p>I have heard that on one occasion the Blessed One was staying near Vārāṇasī in the Deer Park at Isipatana. Then early in the morning the Blessed One, having adjusted his lower robe and carrying his bowl &amp; outer robe, went into Vārāṇasī for alms. As he was walking for alms near the fig-tree at the cattle yoke, he saw a certain monk whose delight was in what is empty, whose delight was in exterior things—his mindfulness muddled, his alertness lacking, his concentration lacking, his mind gone astray, his faculties uncontrolled. On seeing him, the Blessed One said to him: “Monk, monk, don’t let yourself putrefy! On one who lets himself putrefy &amp; stink with the stench of carrion, there’s no way that flies won’t swarm &amp; attack!”</p>
+                <p>Then the monk—admonished with this, the Blessed One’s admonishment—came to his senses.</p>
+                <p>So the Blessed One, having gone for alms in Vārāṇasī, after the meal, returning from his alms round, addressed the monks [and told them what had happened].</p>
+                <p>When this was said, a certain monk said to the Blessed One, “What, lord, is putrefaction? What is the stench of carrion? What are flies?”</p>
+                <p>“Greed, monk, is putrefaction. Ill will is the stench of carrion. Evil, unskillful thoughts are flies. On one who lets himself putrefy &amp; stink with the stench of carrion, there’s no way that flies won’t swarm &amp; attack.</p>
+                <div class="verse">
+                  <p>“On one whose eyes &amp; ears</p>
+                  <p>are unguarded,</p>
+                  <p>whose senses</p>
+                  <p>are unrestrained,</p>
+                  <p class="v1">flies                  swarm:</p>
+                  <p class="v1"> resolves         dependent on passion.</p>
+                  <p>The monk who is putrid,</p>
+                  <p>who stinks of the stench of carrion,</p>
+                  <p>is far from unbinding.</p>
+                  <p>His share is         vexation.</p>
+                  <div class="verse-add">
+                    <p>Whether he stays</p>
+                    <p>in village or wilderness,</p>
+                    <p>having gained for himself no</p>
+                    <p>tranquility,</p>
+                    <p class="v2">he’s surrounded by flies.</p>
+                    <p>But those who are consummate</p>
+                    <p class="v4">in virtue,</p>
+                    <p>who delight</p>
+                    <p class="v4">in discernment &amp; calm,</p>
+                    <p class="v1">pacified, they sleep in ease.</p>
+                    <p class="v2">No flies settle on them.”</p>
+                  </div><!--end verse-add-->
+                </div><!--end verse-->
+                <p class="seealso">See also: <a href="../SN/SN9_1.html">SN 9:1</a>; <a href="../SN/SN9_11.html">SN 9:11</a>; <a href="../SN/SN35_202.html">SN 35:202</a>; <a href="AN3_15.html">AN 3:15</a>; <a href="../KN/Ud/ud5_5.html">Ud 5:5</a>; <a href="../KN/StNp/StNp4_7.html">Sn 4:7</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,50 @@
+SN 22.90 - Channa Sutta: To Channa
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.090.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2001 Thanissaro Bhikkhu.
+License notice: The text of this page ("Channa Sutta: To Channa", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2001 Thanissaro Bhikkhu. The text of this page ("Channa Sutta: To Channa", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 17 December 2013. How to cite this document (a suggested style): "Channa Sutta: To Channa" (SN 22.90), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 17 December 2013, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.090.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Translator's note: Passages in the Vinaya show that Ven. Channa — apparently, Prince Siddhattha's horseman on the night of his Great Renunciation — was proud and obdurate. After becoming a monk, he was unwilling to accept instruction from any of the other monks. (See the origin stories to Sanghadisesa 12 and Pacittiya 12 in Buddhist Monastic Code.) DN 16 tells of how the Buddha, on the night of his parinibbana, imposed the brahma-punishment on him: he was to be left to his own ways without anyone to teach or correct him. According to Cv.XI, news of this punishment so shocked Ven. Channa that he fainted. He then went off into seclusion and practiced diligently to the point of attaining arahantship. As Ven. Ananda later told him, his attainment nullified the punishment. This sutta tells a different version of Channa's change of heart.
+
+On one occasion many elder monks were staying near Varanasi in the Deer Park at Isipatana. Then in the late afternoon Ven. Channa left his seclusion and, taking his key, went from dwelling to dwelling, saying to the elder monks, "May the venerable elders exhort me, may the venerable elders teach me, may the venerable elders give me a Dhamma talk so that I might see the Dhamma."
+
+When this was said, the elder monks said to Ven. Channa, "Form, friend Channa, is inconstant. Feeling is inconstant. Perception is inconstant. Fabrications are inconstant. Consciousness is inconstant. Form is not-self. Feeling is not-self. Perception is not-self. Fabrications are not-self. Consciousness is not-self. All fabrications are inconstant. All phenomena are not-self."
+
+Then the thought occurred to Ven. Channa, "I, too, think that form is inconstant, feeling is inconstant, perception is inconstant, fabrications are inconstant, consciousness is inconstant; form is not-self, feeling is not-self, perception is not-self, fabrications are not-self, consciousness is not-self; all fabrications are inconstant; all phenomena are not-self. But still my mind does not leap up, grow confident, steadfast, & released[1] in the resolution of all fabrications, the relinquishing of all acquisitions, the ending of craving, dispassion, cessation, Unbinding. Instead, agitation & clinging arise, and my intellect pulls back, thinking, 'But who, then, is my self?' But this thought doesn't occur to one who sees the Dhamma. So who might teach me the Dhamma so that I might see the Dhamma?"
+
+Then the thought occurred to Ven. Channa, "This Ven. Ananda is staying at Kosambi in Ghosita's Park. He has been praised by the Teacher and is esteemed by his knowledgeable fellows in the holy life. He is capable of teaching me the Dhamma so that I might see the Dhamma, and I have sudden trust in him. Why don't I go to Ven. Ananda?"
+
+So, setting his lodgings in order and carrying his robes & bowl, Ven. Channa went to Kosambi to where Ven. Ananda was staying in Ghosita's Park. On arrival, he exchanged courteous greetings with the Ven. Ananda. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he [told Ven. Ananda what had happened and added], "May Ven. Ananda exhort me, may Ven. Ananda teach me, may Ven. Ananda give me a Dhamma talk so that I might see the Dhamma."
+
+"Even this much makes me feel gratified & satisfied with Ven. Channa, that he opens up & breaks down his stubbornness. So lend ear, friend Channa. You are capable of understanding the Dhamma."
+
+Then a sudden great rapture & joy welled up in Ven. Channa at the thought, "So I am capable of understanding the Dhamma!"
+
+"Face-to-face with the Blessed One have I heard this, friend Channa. Face-to-face with him have I learned the exhortation he gave to the bhikkhu Kaccayanagotta:[2] 'By & large, Kaccayana, this world is supported by[3] a polarity, that of existence & non-existence. But when one sees the origination of the world as it actually is with right discernment, "non-existence" with reference to the world does not occur to one. When one sees the cessation of the world as it actually is with right discernment, "existence" with reference to the world does not occur to one.
+
+"'By & large, Kaccayana, this world is in bondage to attachments, clingings (sustenances), & biases. But one such as this does not get involved with or cling to these attachments, clingings, fixations of awareness, biases, or obsessions; nor is he resolved on "my self." He has no uncertainty or doubt that, when there is arising, only stress is arising; and that when there is passing away, stress is passing away. In this, one's knowledge is independent of others. It is to this extent, Kaccayana, that there is right view.
+
+"'"Everything exists": That is one extreme. "Everything doesn't exist": That is a second extreme. Avoiding these two extremes, the Tathagata teaches the Dhamma via the middle: From ignorance as a requisite condition come fabrications. From fabrications as a requisite condition comes consciousness. From consciousness as a requisite condition comes name-&-form. From name-&-form as a requisite condition come the six sense media. From the six sense media as a requisite condition comes contact. From contact as a requisite condition comes feeling. From feeling as a requisite condition comes craving. From craving as a requisite condition comes clinging/sustenance. From clinging/sustenance as a requisite condition comes becoming. From becoming as a requisite condition comes birth. From birth as a requisite condition, then aging & death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering.
+
+"'Now from the remainderless fading & cessation of that very ignorance comes the cessation of fabrications. From the cessation of fabrications comes the cessation of consciousness. From the cessation of consciousness comes the cessation of name-&-form. From the cessation of name-&-form comes the cessation of the six sense media. From the cessation of the six sense media comes the cessation of contact. From the cessation of contact comes the cessation of feeling. From the cessation of feeling comes the cessation of craving. From the cessation of craving comes the cessation of clinging/sustenance. From the cessation of clinging/sustenance comes the cessation of becoming. From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering.'
+
+"That's how it is, friend Ananda, for those who have friends in the holy life like Ven. Ananda — sympathetic, helpful, exhorting, & teaching. Just now, for me, listening to Ven. Ananda's Dhamma-teaching, has the Dhamma been penetrated."
+
+Notes
+
+1.
+
+Alternate reading: "firm."
+
+2.
+
+See SN 12.15.
+
+3.
+
+Alternate reading: "takes as its object."

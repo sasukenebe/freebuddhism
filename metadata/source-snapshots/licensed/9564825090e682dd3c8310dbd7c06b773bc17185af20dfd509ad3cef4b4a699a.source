@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:15 A Boil | Gaṇḍa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN9.15" class="h1">A Boil<br/>
+                  Gaṇḍa Sutta  (AN 9:15)</h3><!--end suttahead-->
+                <p>“Monks, it’s just as if there were a boil that had been building for many years with nine openings, nine un-lanced heads. Whatever would ooze out from it would be an uncleanliness oozing out, a stench oozing out, a disgust oozing out. Whatever would be discharged from it would be an uncleanliness discharging, a stench discharging, a disgust discharging.</p>
+                <p>“’A boil,’ monks, is another word for this body composed of the four properties, born of mother &amp; father, fed on rice &amp; porridge, subject to inconstancy, rubbing &amp; abrasion, breaking-up &amp; disintegrating. It has nine openings, nine un-lanced heads. Whatever would ooze out from it would be an uncleanliness oozing out, a stench oozing out, a disgust oozing out. Whatever would be discharged from it would be an uncleanliness discharging, a stench discharging, a disgust discharging. For that reason, you should become disenchanted with this body.”</p>
+                <p class="seealso">See also: <a href="../MN/MN119.html">MN 119</a>; <a href="AN4_163.html">AN 4:163</a>; <a href="../KN/StNp/StNp1_11.html">Sn 1:11</a>; <a href="../KN/Thag/thag10_5.html">Thag 10:5</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

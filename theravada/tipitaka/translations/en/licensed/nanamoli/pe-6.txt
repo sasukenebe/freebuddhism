@@ -1,0 +1,428 @@
+Pe 6 - VI. Compendium of the Thread's Meaning
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/pe/pe6.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1964. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Piṭaka-Disclosure
+
+VI. Compendium of the Thread's Meaning
+
+I. Threefold Division of The Dispensation
+
+PTS vp En 155 436. PTS vp Pli 112 The Dispensation of the Enlightened Ones, the Blessed Ones, comes into comprehension under three headings, namely (i) Categories, (ii) Elements, and (iii) Bases.
+
+(i) 5 Categories
+
+437. Herein, the Categories are five, namely the Form Category, … down to … the Consciousness Category.
+
+The ten Bases having form, namely eye-cum-forms, … down to … body-cum-tangibles, are the form category.
+
+Herein, the six bodies of feeling are the feeling category. These are eye-contact-born feeling, … down to … mind-contact-born feeling.
+
+This is the feeling category.
+
+Perception of forms, … down to … perception of ideas, which are the six bodies of perception, these are the perception category.
+
+Herein, the six bodies of choice are the determinations category. Choice of forms, … down to … choice of ideas. These are the six bodies of choice. These are the determinations category.
+
+Herein, the six bodies of consciousness are the consciousness category. Eye consciousness, … down to … mind consciousness. These are the consciousness category.
+
+438. What is the diagnosis of them? Impermanent, void, painful, not-self. This is the diagnosis of them.
+
+439. Herein, what is the meaning of “category” (khandha)? The meaning of mass is the meaning of category, the meaning of aggregate is the meaning of category, the meaning of class is the meaning of category. PTS vp Pli 113 That also which, among categories (khandha), is the comprehensive meaning, such as “material mass” (dabbakkhandha), “woodland mass” (vanakkhandha), “mass of PTS vp En 156 fire” (aggikkhandha), “trunk of timber” (dārukkhandka), “mass of water” (udakakkhandha), “wind mass” (vāyukkhandha), is the meaning of category.
+
+(ii) 18 Elements
+
+440. Herein, the eighteen Elements are: the eye element, form element, eye-consciousness element; … etc. … the mind element, idea element, mind-consciousness element. These are the eighteen elements.
+
+441. What is the diagnosis of them? Impermanent, void, painful, not-self. This is the diagnosis of them.
+
+442. Herein, what is the meaning of “element” (dhātu)? It may be said that the meaning of component is the meaning of element. “Component”? The eye's clarity (sensitivity) is the eye element; and so with the five elements. Again, the meaning of cutting off lust is the meaning of element; for the eye element is cut off; so with the five. Again, as it is said, the meaning of simple nature is the meaning of element; [for] it can be said that “just as this man is by nature choleric, phlegmatic, volatile, or of complex [nature]”, so the ten [beginning with] the eye element and also in all the faculties … etc. … the meaning of dissimilar is the meaning of element.
+
+(iii) 12 Bases
+
+443. Herein, what are the twelve Bases? They are the six in oneself and the six external: the eye base … down to … the mind base are those in oneself; the form base … down to … the idea base are the external. These are the twelve bases.
+
+PTS vp En 157 444. What is the diagnosis of them? Impermanent, void, painful, not-self. This is the diagnosis of them.
+
+PTS vp Pli 114 Furthermore, the diagnosis is twofold, namely diagnosis as knowledge and diagnosis as abandoning. Herein, diagnosis as knowledge is this: Impermanent, void, painful, not-self; this is diagnosis as knowledge. But diagnosis as abandoning is the abandoning of will and lust; this is diagnosis as abandoning.
+
+445. Herein, what is the meaning of “base” (āyatana)? It may be said that the meaning of aspect (ākāra) is the meaning of base; like the handsome aspect and ugly aspect; [for] just as such and such oxen stand out with those two aspects, so with these the oxen of cognizance and cognizance-concomitants stand out with the defilement of action and inseparably from the idea of suffering. Again, it has been said that the meaning of provision-of-a-way-of-access (āya-dāna) is the meaning of base (āyatana); [for] just as the way-of-access (āya) to a king is through the provisions-for-ways-of-access (āya-dāna), so the meaning of provision-of-a-way-of-access is the meaning of base.
+
+II. Enlightenment
+
+(i) Truths
+
+446. There are four noble Truths: Suffering, Origin, Cessation, and Path.
+
+Suffering as a compound is any behaving not according to the True Idea and [like] mentality; Origin as a compound is ignorance and craving; Cessation as a compound is science and deliverance; the Path as a compound is quiet and insight.
+
+(ii) Actualizing of Truth
+
+PTS vp En 158 447. Herein, what are the thirty-seven ideas siding with enlightenment?
+
+They are the four Foundations of Mindfulness, … down to … the Noble Eight-Factored Path. That is how these ideas siding with enlightenment are thirty-seven, which ideas, being those that conduce to extinction in the case of Fully Self-Enlightened Ones, Hermit Enlightened Ones, and [Enlightened Ones'] disciples (hearers), whether past, future or presently arisen, [constitute] the Path.
+
+448. (Four Foundations of Mindfulness: What four? Here a bhikkhu abides contemplating the body as a body, …).
+
+449. [Also] the [fourfold] (Right Endeavour), the [fourfold] (Base for Success), the five (Faculties) [beginning with faith], and the [five] (Powers) [beginning with faith].
+
+450. Herein, what is the meaning of faculty (indriya)? PTS vp Pli 115 The meaning of ruler (inda) is the meaning of faculty, the meaning of dominance is the meaning of faculty, the meaning of clarity (sensitivity) is the meaning of faculty, the meaning of function unshared with any other is the meaning of faculty.
+
+451. The meaning of unshakability is the meaning of power, the meaning of firm is the meaning of power, the meaning of upholding is the meaning of power, the meaning of stiffening is the meaning of power.
+
+452. Herein, what are the seven Enlightenment Factors? They are PTS vp En 159 the Mindfulness Enlightenment Factor, … down to … the On-looking-Equanimity Enlightenment Factor.
+
+453. Herein, what-is the Eight-Factored Path? It is Right View, …
+
+Down to … Right Concentration.
+
+The Path's 3 Categories
+
+454. Herein, the Eight-FactoredPath has three categories, namely the Virtue Category, the Concentration Category, and the Understanding Category. Herein, the right speech, right action and right livelihood are the Virtue Category; the right mindfulness, right effort, and right concentration are the Concentration Category; and the right intention and right view are the Understanding Category.
+
+455. Likewise, these three [categories] are the three Trainings.
+
+456. So with the three moods there are the ten terms … etc. …
+
+457. Herein, when a devotee is steadied in the Virtue Category he does not assume unprofitable hate, he eradicates the underlying tendency to hate, he extracts the barb of hate, he diagnoses painful feeling, and he surmounts the element of sensual desire.
+
+When he is steadied in the Concentration Category he does not assume unprofitable greed, he eradicates the underlying tendency to lust, he extracts the barb of greed, he diagnoses pleasant feeling, and he surmounts the element of form.
+
+When he is steadied in the Understanding Category he does not assume unprofitable delusion, he eradicates the underlying tendency to ignorance, he extracts the barbs of delusion and view, PTS vp Pli 116 he PTS vp En 160 diagnoses neither-painful-nor-pleasant feeling, and he surmounts the formless element.
+
+So with these three Categories he does not assume the three unprofitable roots, he extracts the four barbs, he diagnoses the three kinds of feeling, and he surmounts the triple element.
+
+Dependent Arising
+
+458. Herein, what is ignorance? It is (any unknowing) of the four Noble Truths, which can be quoted in detail as is done in the case of the steps of the staircase.
+
+459. Herein, what is consciousness? The six bodies of consciousness.
+
+460. Feeling, perception, choice, contact, and attention, are name. Herein, what is form? The four great entities, and any description of form assuming the four great entities. So this name already mentioned and this form are together called name-and-form.
+
+461. Herein, the sixfold base? The six bases in oneself, namely the eye as a base in oneself, … down to … the mind as a base in oneself.
+
+462. Contact? The six bodies of contact, namely eye contact, … down to … mind contact.
+
+463. The six bodies of feeling are feeling.
+
+464. The six bodies of craving are craving.
+
+465. Assuming? The four kinds of assuming, namely sensual-desire assuming, virtue-and-duty assuming, view assuming, and self-theory assuming, are assuming.
+
+PTS vp En 161 466. Being? The three kinds of being, namely sensual-desire being, being with form, formless being.
+
+467. Herein, what is birth? Any first arising of categories, first arising of elements, first arising of bases, any birth, coming to birth, finding a footing, generating, manifesting of categories, this is birth.
+
+468. PTS vp Pli 117 Herein, what is ageing? Any brokenness [of teeth], greyness [of hair], wrinkledness of skin, totteringness, discolouration of the four great entities, doubled-up-ness, ageing, waning, outwane, wane of life-span, waning away, dissolving of faculties, overripening of essentials of existence (?) this is ageing.
+
+Herein, what is death? In the various orders of creatures any creature's decease, deceasing, death, completion of time, corpsebloatedness, dissolution of body, severance of life-faculty: this is death.
+
+So this ageing already mentioned and this death are together called ageing-and-death.
+
+469. Herein, ignorance, as murk and gloom, has the characteristic of not understanding how things are; it is the footing for determinations. Determinations have the characteristic of determinative acts, and their manifestation is implanting, amassing, and renewal of being; they are the footing for consciousness. Consciousness has the characteristic of causing the physical body to give intimation; it is the footing for name-and-form. Name-and-form PTS vp En 162 has the characteristic of plurality of dependence; it is the footing for the sixfold base. The sixfold base has the characteristic of causing the [separate] defining of the faculties [beginning with the eye]; it is the footing for contact. Contact has the characteristic of causing occurrence of the three [namely pairs of bases and appropriate consciousness]; it is the footing for feeling. Feeling has the characteristic of the co-existing [of pleasure, etc.;] it is the footing for craving. Craving has the characteristic of cleaving to; it is the footing for assuming. Assuming has the characteristic of destroying [by consumption of] what is taken up; it is the footing for being. PTS vp Pli 118 Being has the characteristic of flinging [into one or other] among the different types of destination; it is the footing for birth. Birth has the characteristic of causing manifest being (existence) of the categories; it is the footing for ageing. Ageing has the characteristic of overripening of essentials of existence; it is the footing for death. Death has the characteristic of exhausting the life-span and causing life's surcease; it is the footing for pain. Pain has the characteristic of oppressing the body; it is the footing for grief. Grief has the characteristic of oppressing cognizance; it is the footing for sorrow. Sorrow has the characteristic of sorrowing (smouldering); it is the footing for lamentation. Lamentation has the characteristic of speech-utterance; it is the footing for despair. Despairs (upāyāsā) are any kinds of hopelessness (āyāsā).
+
+(iii) Definition of Defilement
+
+The 9 Unprofitable Root-Terms
+
+PTS vp En 163 470. There are nine terms wherein all the unprofitable comes to be comprised and meets together. What nine terms? The two root-defilements, the three unprofitable roots, and the four perversions.
+
+471. Herein, (1–2) the two root-defilements are ignorance and craving-for-being. (3–5) The three unprofitable roots are greed, hate and delusion. (6–9) the four perversions (a) perversion of perception, (b) perversion of cognizance, and (c) perversion of view, (1) of the impermanent that it is permanent; the (a) perversion of perception, (b) perversion of cognizance, and (c) perversion of view, (2) of the painful that it is pleasant; the (a) perversion of perception, (b) perversion of cognizance, and (c) perversion of view, (3) of the not-self that it is self; and (a) the perversion of perception, (b) perversion of cognizance, and (c) perversion of view, (4) of the ugly that it is beautiful.
+
+1–2
+
+472. Herein, what is called ignorance is unknowing of how things are in the four noble Truths; this is ignorance. What is called craving-for-being is lust, lustfulness, wish, infatuation, aspiration, relish, cleaving, not giving up, with regard to the types of being; this is craving for being.
+
+3–5
+
+473. PTS vp Pli 119 Herein, what is greed as a root of unprofit? What is called greed is any greed, greediness, wish, infatuation, aspiration, relish, cleaving, not giving up, with regard to others' lands, others' materials, others' places, others' belongings, others' chattels; this is greed as a root of unprofit.
+
+474. What is it the root of? It is the root of greed-born unprofitable bodily and verbal and mental action, and in the same way also for PTS vp En 164 the cognizance and cognizance-concomitant ideas associated therewith.
+
+475. Herein, what is hate as a root of unprofit? It is annoyance with creatures, impatience, irritation, ill will, hatred, desire for harm, resistance of the heart; this is hate as a root of unprofit.
+
+476. What is it the root of? It is the root of hate-born unprofitable bodily and verbal and mental action, and for the cognizance and cognizance-concomitant ideas associated therewith.
+
+477. Herein, what is delusion as a root of unprofit? It is the non- actualizing of the four noble Truths, non-apprehending-by-entering-upon, non-penetration, [of them, and it is] delusion, deluding, confusion, confusing, ignorance, gloom, dark, obstruction, hindrance, covering up, concealing, non-arrival-at-verification (?), regarding profitable ideas; this is delusion as a root of unprofit.
+
+478. What is it the root of? It is the root of delusion-born unprofitable bodily and verbal and mental action, and for the cognizance and cognizance-concomitant ideas associated therewith.
+
+6–9
+
+479. PTS vp Pli 120 Herein, the perversion has to be known, the object of perversion has to be known, and what is pervertable has to be known. Herein, there are: one perversion, three that are perverted, and four objects of perversion.
+
+480. What is the one perversion? It is that [distortion into the] opposite by which the perverted [perception, etc.,] seizes perman PTS vp En 165 ence in the impermanent, pleasure in the painful, self in the not-self, beauty in the ugly.
+
+481. What are the four objects of perversion? The body, feelings, cognizance, and ideas; these are the four objects of perversion.
+
+482. What are the three perverted? (a) Perception, (b) cognizance, and (c) view. These three are perverted.
+
+483. Herein, (a) when an agreeable object has [either] come within the horizon of the faculties [beginning with that of the eye] or fails to do so (?), any seizing [of it as] a sign is the perversion of perception. Herein, (b) when one whose cognizance is distorted finds intimation in an object, this is the perversion of cognizance. Herein, (c) when one whose cognizance is distorted has, in regard to form that is ugly, any liking, preference, way of regarding, formulating, pondering of views, adjudgment, that it is beautiful, [etc.,] this is the perversion of view.
+
+484. Herein, these perversions become twelve as the three in each of the [four] objects, namely three in a body, three in a feeling, three in a cognizance, and three in an idea; so there are four perversions of perception, four perversions of cognizance, and four perversions of view. [And] when applied to the [six] bases, the four PTS vp En 166 perversions become six dodecads as follows: twelve perversions [as above] with respect to forms in the case of one possessing eye-perception, … down to … twelve perversions with respect to ideas in the case of one possessing mind-perception. PTS vp Pli 121 But as to difference of object, since creatures are ungauged and incalculable the perversions are ungauged and incalculable by way of the inferior, superior, and average.
+
+485. Herein, the five categories are the four grounds for selfhood. The form category is the body-as-a-ground-for-selfhood, the feeling category is feeling-as-a-ground-for-selfhood, the perception category and determinations category are ideas-as-a-ground-for-selfhood, and the consciousness category is cognizance-as-a-ground-for-selfhood. That is how the five categories are the four grounds for selfhood.
+
+486. Herein, it is with respect to the body, which is ugly, that there is the perversion that it is beautiful; so too with respect to feelings … cognizance … ideas that there comes to be the perversion that they are self.
+
+487. Herein, it is for the purpose of the four perversions' eradication that the Blessed One teaches and describes the four foundations of mindfulness: when someone abides contemplating the body as a body, he eradicates his perversion that there is beauty in the ugly. So it can be stated too with respect to feelings, cognizance, and ideas.
+
+1–9
+
+PTS vp En 167 488. Herein, ignorance, which is murk and gloom, has the characteristic of non-penetration; its footing is the perversions. Craving has the characteristic of cleaving to; its footing is a dear likeable form.
+
+489. Greed has the characteristic of converting to one's own bias; its footing is taking-what-is-not-given. Hate has the characteristic of quarrelling here; its footing is killing-breathing-things. Delusion has the characteristic of mis-theorizing about an object; its footing is wrong theory.
+
+490. Perception of permanence has the characteristic of apprehending non-destruction of determined ideas; its footing is determinations. Perception of pleasure has the characteristic of approaching contact affected by taints; its footing is my-making. Perception of self has the characteristic of approaching [wrong theory (?)] about ideas; PTS vp Pli 122 its footing is I-making. Perception of beauty has the characteristic of apprehending colour (appearance); its footing is lack of faculty restraint.
+
+491. By these nine terms' being indicated, all the unprofitable side is demonstrated. And that can be known by one who has learnt much, not by one who has learnt little, by one with understanding, not by one without understanding, by one devoted, not by one undevoted.
+
+(iv) Abandoning
+
+The 9 Profitable Root-Terms
+
+492. There are nine profitable terms wherein all the profitable side comes to be comprised and meets together. What nine terms? Quiet and insight; non-greed, non-hate, and non-delusion; perception of impermanence, perception of pain, perception of not-self, and perception of ugliness.
+
+10–11
+
+PTS vp En 168 493. Herein, what is quiet? Cognizance's steadiness, shaping, stability, steadying, steadying on, establishment, concentration, concentrating, non-distraction, non-remorse, peace of mind, unification of cognizance; this is quiet.
+
+494. Herein, what is insight? Any investigation into how things are, re-investigation, inquiry, re-inquiry, prehension, apprehension, re-prehension, consolidating by the mind, estimating, scrutiny, knowledge; or it is any science, discovery, wit, understanding, illumination, light, radiance, luminosity, sword, javelin, investigation-of-ideas enlightenment-factor, PTS vp Pli 123 right view as path-factor, concerning categories or elements or bases or name-and-forms or dependent-arising [factors] or dependently arisen ideas or kinds of suffering or kinds of origin or cessation or path or ideas profitable and unprofitable or blameable and blameless or black and white or cultivatable and uncultivatable: this is why it is called insight.
+
+495. Or it is [called] insight (vipassanā) since it [occurs] in the various ways (VIvidhā) of seeing (PASSANĀ) impermanence, pain, and not-self. For this twofold (dvidhā) seeing (passanā) is called insight into ideas (dhammavipassanā): by its means one sees twofold, namely the beautiful and ugly, the black and white, the cultivatable and uncultivatable, action and ripening, bondage and liberation, setting-up and dispersal, occurrence and non-occurrence, corruption and cleansing: that is why it is called insight. Or alternatively “in-” (vi-) is a prefix, “sight” (passanā) being the meaning: that is why it is called insight (vipassanā).
+
+This is insight.
+
+496. Herein, creatures have two ailments, namely ignorance and craving-for-being. Two medicines have been stated by the PTS vp En 169 Blessed One for the counteraction of these two ailments, namely quiet and insight. Those who make use of these two medicines verify two kinds of non-ailment, namely the heart-deliverance due to fading of lust and the understanding-deliverance due to fading of ignorance. Herein, quiet is the medicine for the ailment of craving, whose non-ailing is the heart-deliverance due to fading of lust, while insight is the medicine for the ailment of ignorance, whose non-ailing is the understanding-deliverance due to fading of ignorance. For the Blessed One said as follows: (Two ideas should be diagnosed, namely name and form. Two ideas should be abandoned, namely ignorance and craving-for-being. Two ideas should be kept in being, namely quiet and insight. Two ideas should be verified, namely science and deliverance).
+
+497. Herein, one who keeps quiet in being diagnoses form. When he diagnoses form he abandons craving. When he abandons craving he verifies the heart-deliverance due to PTS vp Pli 124 fading of lust. One who keeps insight in being diagnoses name. When he diagnoses name he abandons ignorance. When a bhikkhu has diagnosed the two ideas, namely name and form, then likewise he has abandoned the two ideas, namely ignorance and craving-for-being. Two ideas have been kept in being, namely quiet and insight, while two ideas have been verified, namely science and deliverance.
+
+498. At this point the bhikkhu is one who has done his task. This is the extinction element with trace left. With the termination of his live-span, with the surcease of his life-faculty, this suffering ceases and no other suffering arises. Herein, the cessation, the pacification, of these categories, elements, and bases, and the non-relinking, the non-manifestation, of other categories, elements, and bases, is the extinction element without trace left.
+
+12–14
+
+499. Herein, what is non-greed as a root of profit? It is non-greed about any element, non-greediness, non-greedifiedness, unwishing, unaspiration, unwanting, uncleaving: this is non-greed as a root of profit.
+
+PTS vp En 170 500. What is it the root of? It is the root of non-greed-born profitable bodily and verbal and mental action and of cognizance and cognizance-concomitant ideas associated therewith. Or alternatively, since the Noble Eight-factored Path is called “profitable”, this [non-greed] is the root of three path factors. Of which three? Of right intention, right effort, and right concentration. It is the root of these. That is why it is called a root of profit.
+
+501. Herein, what is non-hate as a root of profit? PTS vp Pli 125 Any unannoyance, non-resistance, non-ill-willing, non-ill-will, non-hate, Loving-kindness, kindly-loving, desire for good, desire for welfare, confidence of heart, with respect to creatures or determinations, is non-hate as a root of profit.
+
+502. What is it the root of? It is the root of non-hate-born profitable bodily and verbal and mental action and for cognizance and cognizance-concomitant ideas associated therewith. Or alternatively, it is [the root] of three path factors. Of which three? Of right speech, right action, and right livelihood. It is the root of these three path factors. That is why it is called a root of profit.
+
+503. Herein, what is non-delusion as a profitable root? Any knowing and seeing with respect to the four Noble Truths how they come to be, any actualizing, apprehending by entering upon (?) penetration, non-delusion, non-confusing, non-confusion, science, displaying, light, non-obstruction of initiates' profitable ideas: this is non-delusion as a root of profit.
+
+504. What is it the root of? It is the root of non-delusion-born profitable bodily and verbal and mental action, and for cognizance and cognizance-concomitant ideas associated therewith. Or alternatively, it is the root of two path factors. Of which two? Of right view and right mindfulness. It is the root of these two path factors. That is why it is called a root of profit.
+
+PTS vp Pli 126 That is how the eight-factored Path can be construed with the three roots.
+
+15–18
+
+PTS vp En 171 505. Herein, what is perception of impermanence? Any perception, perceiving, defining, taking it, that (All determinations are inseparable from the idea of arising and subsidence), this is perception of impermanence.
+
+506. What is its outcome? When perception of impermanence is kept in being, made much of, then with respect to the eight Worldly Ideas cognizance does not keep linking up, does not link, does not shape [itself thereto], [but rather] onlooking-equanimity or else repulsiveness [is what it] shapes [itself to]. This is the outcome.
+
+507. Herein, what is perception of pain? Any perception, perceiving, defining, apprehending, that (All determinations are painful), this is perception of pain.
+
+508. What is its outcome? When perception of pain is kept in being, made much of, then with respect to sloth, negligence, and hypocrisy, cognizance does not keep linking up, does not link, does not shape [itself thereto], [but rather] onlooking-equanimity or else repulsiveness [is what it] shapes [itself to]. This is the outcome.
+
+509. Herein, what is perception of not-self? Any perception, perceiving, defining, apprehending, that (All ideas are not-self), this is perception of not-self.
+
+510. What is its outcome? When perception of not-self is kept in being, made much of, then with respect to I-making cognizance does not keep linking up, does not link, does not shape [itself thereto], [but rather] onlooking-equanimity or else repulsiveness [is what it] shapes [itself to]. This is the outcome.
+
+511. Herein, what is perception of ugliness? PTS vp Pli 127 Any perception, PTS vp En 172 perceiving, defining, apprehending, that (Creatures and determinations are ugly), this is perception of ugliness.
+
+512. What is its outcome? When perception of ugliness is kept in being, made much of, then with respect to the sign of beauty cognizance does not keep linking up, does not link, does not shape [itself thereto], [but rather] onlooking-equanimity or else repulsiveness [is what it] shapes [itself to]. This is the outcome.
+
+513. Herein, the diagnosis of the five categories is taught by the Blessed One, [and] herein, any perception of ugliness is diagnostic of the form category, perception of pain is diagnostic of the feeling category, perception of not-self is diagnostic of the perception category and of the determinations category, and perception of impermanence is diagnostic of the consciousness category.
+
+10–18
+
+514. Herein, one eradicates craving by quiet, one eradicates ignorance by insight. [One eradicates greed by non-greed,] one eradicates hate by non-hate, one eradicates delusion by non-delusion. One eradicates perception of permanence by perception of impermanence, one eradicates perception of pleasure by perception of pain, one eradicates perception of self by perception of not-self, and one eradicates perception of beauty by perception of ugliness.
+
+515. Quiet has the characteristic of preventing distraction of cognizance; its footing is the Meditations. Insight has the characteristic of penetrating how all ideas come to be; its footing is all the knowable.
+
+516. Non-greed has the characteristic of removing Wishes; its footing is abstention from taking-what-is-not-given. Non-hate has the characteristic of non-ill-will; its footing is abstention from killing-breathing-things. Non-delusion has the characteristic of not wrongly theorizing about an object; its footing is right theory.
+
+PTS vp En 173 517. Perception of impermanence has the characteristic of grasping determined ideas' destruction; its footing is rise-and-subsidence. Perception of pain has the characteristic of perceiving contact affected by taints; its footing is feeling. Perception of not-self has the characteristic of not approaching [wrong theory (?) about] all ideas; its PTS vp Pli 128 footing is perception of ideas. Perception of ugliness has the characteristic of apprehending the discoloured, the festering and the bloated [corpse-stages]; its footing is dispassion.
+
+518. When these nine terms are disclosed, all the profitable is disclosed. And that can be known by one who has learnt much, not by one who has learnt little, by one with understanding not by one without understanding, by one devoted, not by one undevoted.
+
+519. Herein, perception of impermanence does not become established in one who, believing in perception of permanence, does not review continuity in the consecutive occurrence of cognizance. Perception of pain does not become established in one who, believing in the gratification offered by pleasure in the five strands of sensual desire, does not review the discomfort of the postures. Perception of not-self does not become established in one who, believing in self in the categories or elements or bases, does not review the resolution into the different elements and many elements. Perception of ugliness does not become established in one for whom, delighting in colour and shape and believing in beauty in the body, it remains concealed.
+
+The 5 Faculties
+
+520. Faith (saddhā) has the characteristic of non-remorse; its manifestation is placing faith (saddahana); its footing is the four PTS vp En 174 factors of Stream-Entry as stated by the Blessed One (Bhikhhus, where is the faith faculty to be seen? In the four factors of Stream Entry).
+
+521. The energy faculty has the characteristic of not dissipating vigour: its manifestation is the instigation of energy; the footing for its being there is the four right endeavours, as stated by the Blessed One (Bhikkhus, where is the energy faculty to be seen? In the four right endeavours).
+
+522. Mindfulness has the characteristic of remembering; its manifestation is non-forgetting; the footing for its being there is the four foundations of mindfulness as stated by the Blessed One PTS vp Pli 129 (Bhikhhus, where is the mindfulness faculty to be seen? In the four foundations of mindfulness).
+
+523. Concentration has the characteristic of unification; its manifestation is non-distraction; its footing is the four meditations, as stated by the Blessed One (Bhikkhus, where is the concentration faculty to be seen? In the four meditations).
+
+524. Understanding has the characteristic of act-of-understanding; its manifestation is judging how a meaning (aim) is; its footing is the four noble Truths, as stated by the Blessed One (Bhikkhus, where is the understanding faculty to be seen? In the four Noble Truths).
+
+The 4 Blessings (Wheels)
+
+525. Four Blessings (Wheels): (1) living in befitting places as a blessing, (2) waiting on true men as a blessing, (3) right disposition in self-guidance as a blessing, and (4) having in the past made merit as a blessing.
+
+PTS vp En 175 526. Herein, (1) living in befitting places has the characteristic of dependence on Noble Ones; it is the footing for waiting on true men. (2) Waiting on True Men has the characteristic of seeing Noble Ones; it is the footing for right disposition in self-guidance. (3) Right disposition in self-guidance has the characteristic of right practice; it is the footing for the kinds of merit. (4) Merit has the characteristic of amassing profitable ideas; it is the footing for all the kinds of excellence.
+
+11 Ideas Rooted in Virtue
+
+527. The eleven Ideas Rooted in Virtue are these: (One who is virtuous … (1) no remorse … etc. … (11) knowing and seeing of deliverance) (that there is no more of this beyond).
+
+528. Herein, virtue has the characteristic of abstention; it is the footing for non-remorse. (1) Non-remorse has the characteristic of no-self-blame; it is the footing for gladness. (2) Gladness has the characteristic of gladdening; it is the footing for happiness. (3) Happiness has the characteristic of mental elation; PTS vp Pli 130 it is the footing for tranquillity. (4) Tranquillity has the characteristic of wieldiness; it is the footing for pleasure. (5) Pleasure has the characteristic of non-affliction; it is the footing for concentration. (6) Concentration has the characteristic of non-distraction; it is the footing for knowing and seeing how things are. (7) Knowing and seeing how things are has the characteristic of undistorted judgment; it is the footing for dispassion. (8) Dispassion has the characteristic of non-reliance; it is the footing for fading of lust. (9) Fading of lust has the characteristic of non-corruption; it is the footing for deliverance. (10) Deliverance has the characteristic of PTS vp En 176 seclusion from unprofitable ideas; it is the footing for (11) knowing and seeing of deliverance.
+
+(v, vi) Planes and Fruits
+
+[The 4 Planes and 4 Fruits]
+
+529. There are four noble planes and four fruits of the monk's state.
+
+530. Herein, when someone “(7) understands how things are” this is (a) the plane of seeing. And it is (b) the fruit of Stream-Entry. Having understood how things are he “(8) finds dispassion”; this is the footing for (c) attenuation of lust for sensual desire and of the kinds of ill will, and for (d) the fruit of Once-Return. When his subtle [sensual lust and ill will] fade this is the heart-deliverance due to (e) fading of lust, and it is (f) the fruit of Non-Return. When with the fading of ignorance he is liberated this is (g) the plane of Him Who Has Done, and it is Arahantship.
+
+531. Fruits of the monk's state: what is the word-meaning? The noble eight-factored path is the “monk's state”. These [things mentioned above], being its fruits, are called fruits of the monk's state.
+
+532. Why are they called fruits of the divine state [also]? The “divine state” is the noble eight-factored path. These, being its fruits, are called fruits of the divine state.
+
+The Stream-Enterer
+
+533. Herein, how is he a Stream-Enterer? With the actualizing of Truth three fetters are abandoned for a noble hearer PTS vp En 177 (disciple), namely embodiment-view, uncertainty, and misapprehension-of-virtue-and-duty. (With the abandoning, complete exhaustion, of these three fetters the noble hearer becomes a Stream-Enterer, no longer inseparable from the idea of perdition … down to … makes an end of suffering).
+
+534. PTS vp Pli 131 Herein, what is the embodiment-view?
+
+(The unlearned foolish ordinary man … down to … unexpert in noble ideas, sees form as self, … down to … self in consciousness). In regard to these five categories, either he is a self-apprehender or a self's-property-apprehender [thus] (This is I) in one of them, taking it as the power-wielder, mover (?), helper, lyer-alongside-limb-for-limb. When treating it thus, any liking, preference, way of regarding, way of arguing a case, liking for pondering views, or seeing (?), on his part is called “embodiment-view”. Herein [in this embodiment-view] five [of the twenty kinds] belong with annihilationism. Which five? (He sees form as self) down to (he sees consciousness as self) [that is, the first of each of the five sets of four positions]. These five belong with annihilationism. The remaining fifteen [that is, the remaining three in each of the five sets] belong with eternalism. So with the abandoning of the embodiment-view the sixty-two types of view are abandoned. The abandoning belongs neither to annihilationism nor to eternalism. So with the abandoning of annihilationism and eternalism the noble hearer has no type of view at all except right view dissociated from worlds. But how does the embodiment-view not come to be? PTS vp En 178 (Here a well taught noble hearer …) and the whole white side can be quoted down to (… expert in noble ideas does not see form as self … down to … consciousness) … etc. When he sees thus he has no embodiment-view.
+
+535. How does uncertainty not come to be? Here a noble hearer does not doubt, is not uncertain, is confident, that the Enlightened One (That Blessed One is such since …) [and] all [the rest of the passage]. He does not doubt, is not uncertain, … about the True Idea … [with] all [the passage] down to … (Exhaustion of craving, fading, ceasing, extinction); he possesses this second undoubtable PTS vp Pli 132 idea. He does not doubt, … about the Community … down to … (merit for gods and men), he possesses this third undoubtable idea. He does not doubt, is not uncertain, believes, is confident, that (all determinations are suffering (painful)). He does not doubt, is not uncertain, … that craving is the origin of suffering. He does not doubt, is not uncertain, … that there is cessation of suffering with cessation of craving. He does not doubt, is not uncertain, believes, is confident, that the noble eight-factored path is the way leading to cessation of suffering. In so far as concerns the Enlightened One or the True Idea or the Community or Suffering or Origin or Cessation or the Path, any doubting, vagueness, uncertainty, ambivalence, …, vacillation, oscillation, indefiniteness, inconclusiveness, ununilateralness, ununilaterality [all] that he has (abandoned, dispelled, cut off at the root, made like a palm-stump, done away with, so that it is no longer inseparable from the idea of arising in the future).
+
+536. Herein, Misapprehension-of-virtue-and-duty is of two kinds: that with regard to virtue and that with regard to one PTS vp En 179 purified. Herein, as to misapprehension-of-virtue-and-duty with respect to virtue: [when someone misapprehends thus] (By means of this virtue or duty or penance or divine-life I shall be some god or other) and (There I shall play, delight and sport with dove-footed nymphs), then any liking, preference, belief, way of regarding, way of arguing a case, liking for pondering views, or seeing, on the part of one such as that, this is misapprehension-of-virtue-and-duty with respect to one purified? When someone has recourse to an uncleansing and unliberating idea as cleansing and liberating thus (Here someone misapprehends virtue thus “It is by virtue that one is purified, by virtue that one finds outlet, by virtue that one is liberated, that one surmounts pleasure, surmounts pain PTS vp Pli 133 surmounts pleasure and pain, arrives accordingly”) and so on (?) [and] (He misapprehends both that virtue and that duty [thus]: “It is by both that virtue and that duty that they are purified, are liberated, find outlet, surmount pleasure, surmount pain, surmount pleasure and pain, arrive accordingly”), then any liking, preference, belief (?), way of regarding, way of arguing a case, pondering of views, or seeing, on the part of one such as that is misapprehension-of-virtue-and-duty with respect to one purified. Now the noble hearer has abandoned both these kinds of misapprehension … down to … (no longer inseparable from the idea of arising in the future). He is virtuous possessing the kinds of virtue desired of noble ones, that are (untorn, … down to … conducive to peace).
+
+537. With the abandoning of these three fetters a well taught (noble hearer is a Stream-Enterer, no more inseparable from the idea of perdition, …) [and] all [the rest].
+
+538. “With the actualizing of truth”: what is the word-meaning? There are four kinds of actualizing: actualizing by diagnosing, actualizing by abandoning, actualizing by verifying, PTS vp En 180 and actualizing by keeping in being. Herein, a noble hearer actualizes suffering by means of the actualizing by diagnosing, he actualizes Origin by means of the actualizing by abandoning, he actualizes Cessation by means of the actualizing by verifying, and he actualizes the Path by means of the actualizing by keeping-in-being. For what reason is there the actualizing of Suffering by diagnosis, the actualizing of Origin by abandoning, the actualizing of Cessation by verification, and the actualizing of the Path by keeping-in-being? Because of quiet and insight.
+
+539. How does he actualize? Having anchored cognizance on the object, he sees the five Categories as suffering. Herein, any anchoring is quiet and any fathoming is insight. PTS vp Pli 134 When he sees the five categories as suffering, then his reliance on the five categories, his attachment, approaching, cleaving, wish, infatuation, disposition, aspiration, [concerning them] are abandoned. Herein, the five categories are suffering; any reliance thereon, attachment, approaching, cleaving, wish, infatuation, disposition, or aspiration, is Origin; the abandoning of that is Cessation; the quiet and insight are the Path. Thus these four Truths have their actualization at one time, at one moment, in one cognizance, neither before nor after. That is Why the Blessed One said “With the actualizing of Truth three fetters are abandoned for a noble hearer”.
+
+Herein, when quiet and insight occur coupled together he performs four functions at one time, at one moment, in one cognizance: he actualizes Suffering by means of the actualizing by diagnosing, … down to … he actualizes the Path by means of the actualizing by keeping-in-being. What is the reason? [Because] the actualizing of suffering [is done] by diagnosis … down to … the actualizing of the Path by keeping-in-being.
+
+540. Because it can be regarded as follows: Just as a boat going on the water performs four functions; it causes one to reach the PTS vp En 181 further shore, it leaves the hither shore, it carries a cargo, and it cleaves the stream—so too, when quiet and insight occur coupled together he performs four functions at one time, at one moment, in one cognizance: he actualizes suffering by means of the actualizing by diagnosing, … down to … he actualizes the Path by means of the actualizing by keeping-in-being.
+
+541. Or just as the sun rising performs four functions at one time, neither before nor after; it dispels darkness, makes light manifest, shows form, and terminates cold—so too, when quiet and insight occur coupled together … etc. …
+
+542. Or just as a lamp burning performs four functions at one time, neither before nor after it dispels darkness, makes light manifest, PTS vp Pli 135 shows form, and uses up fuel (consumption)—so too, when quiet and insight occur coupled together … etc. …
+
+The Plane of Seeing
+
+543. (When the noble hearer becomes a Stream-Enterer, no longer inseparable from the idea of perdition, … down to … makes an end of suffering) this is (a) the plane of seeing, and it is (b) the fruit of Stream-Entry.
+
+The Plane of Attenuation
+
+544. Being steadied in the fruit of Stream-Entry, when he further keeps quiet and insight in being, and when they occur coupled together, then with the abandoning of the greater part of lust for sensual desires and of ill will the noble hearer (becomes a Once-Returner, who having, for the purpose of attaining extinction, returned only once to this world, makes an end of suffering). This is (c) the plane of attenuation, and it is (d) the fruit of Once-Return.
+
+The Plane of the Lust-Free
+
+PTS vp En 182 545. Being steadied in the fruit of Once-Return, when he [further] keeps quiet and insight in being, he abandons without remainder both lust for sensual desires and ill will together with the underlying-tendencies to both, and when both lust for sensual desires and ill will are abandoned without remainder, then the five hither-side fetters are abandoned, namely embodiment-view, misapprehension-of-virtue-and-duty, uncertainty, will-for-sensual-desires, and ill-will. (With the abandoning of these five hither-side fetters the noble hearer becomes a Non-Returner, who will attain extinction there, being no longer inseparable from the idea of return [from that world]). This is (e) the plane of the Lust-Free, and it is (f) the fruit of Non-Return.
+
+The Plane of Him Who Has Done
+
+546. Being steadied in the fruit of Non-Return, when he further keeps quiet and insight in being he abandons the five further-side fetters, namely lust-for-form, lust-for-being, conceit, agitation, and ignorance. With the abandoning of these five further-side fetters the noble hearer (becomes an Arahant with taints exhausted, who has lived out [the divine life], is liberated in awareness, has quite exhausted the fetter of being, and has reached the true goal). This is (g) the plane of Him Who Has Done, and it is (h) Arahantship.
+
+(vii) The 2 Elements of Extinction
+
+547. This is the element of extinction with trace left. But with the exhaustion of his life-span, with the surcease of his life-faculty, this suffering too ceases PTS vp Pli 136 and no other suffering arises. The cessation, pacification, of this suffering and the non-manifestation of any other is the element of extinction without trace left. These are the two elements of extinction.
+
+Summary
+
+548. So the Truths have been stated, Actualizing of the Truths has been stated, Definition of Defilement has PTS vp En 183 been stated, Abandoning has been stated, the Planes have been stated, the Fruits have been stated, and the Elements of Extinction have been stated. So when these have been stated all [the ideas siding with] Enlightenment are stated. The task to be done is here.
+
+III. The 9 Successive Attainments
+Summary Statement and Texts
+
+549. Herein, what are the nine successive attainments? They are the four Meditations, the four Formless Attainments, and Cessation Attainment.
+
+550. Herein, what are the four Meditations? (Here, bhikkhus, quite secluded from sensual desires, … a bhikkhu …) can be quoted in detail.
+
+551. Herein, what are the four Formless Attainments? (Of one lust-freed indeed it can be said …) down to Cessation Attainment can be quoted in detail.
+
+These are the nine successive attainments.
+
+The 4 Meditations—The 1st Meditation
+
+552. (1) Herein, what is the First Meditation? It is that dissociated from five factors and associated with five factors.
+
+Factors of Dissociation
+
+PTS vp En 184 553. What five factors is it dissociated from? From the five Hindrances.
+
+554. Herein, what are the five Hindrances? They are (i) (Will for sensual desires, …), which can be given in detail.
+
+555. (i) Herein, what is will for sensual desires? It is will-and-lust, love, attachment, cleaving, wish, infatuation, aspiration, non-giving-up, underlying-tendency, manifest-obsession, with regard to the five strands of sensual desire; this is the hindrance of will for sensual desires.
+
+556. PTS vp Pli 137 (ii) Herein, what is the hindrance of ill will? It is annoyance with creatures and with determinations … etc. … as demonstrated under hate. This is the hindrance of ill will.
+
+557. (iii) Herein, what is drowsiness? It is dulling of cognizance, heaviness of cognizance, unwieldiness of cognizance, shirking (?) of cognizance, sleepiness, nodding, blinking, winking, this is drowsiness. Herein, what is lethargy? *//* It is any bodily lethargicness, dullness, heaviness of body, untranquillity of body. So this lethargy and the drowsiness mentioned before are together called the hindrance of lethargy-and-drowsiness.
+
+558. (iv) Herein, what is agitation? Any disquiet of cognizance is agitation. Herein, what is worry? Any mental erasing, guilt, guiltiness, heart-erasing, remorse, this is worry. This worry and the agitation mentioned above are together called the hindrance of agitation-and-worry.
+
+PTS vp En 185 559. (v). Herein, what is the hindrance of uncertainty? Any [doubt, uncertainty,] about the Enlightened One, about the True Idea, about the Community, … etc. … this is uncertainty. PTS vp Pli 138 Furthermore, there are five kinds of uncertainty, namely entirely obstructive, partly obstructive, obstructive to attainment [of quiet], obstructive to the Path, and obstructive to heaven; these are the five kinds of uncertainty. Here, however, what is intended is uncertainty obstructive to attainment [of quiet].
+
+560. Herein, as to “hindrances”, what the word-meaning? What do they hinder from? They hinder from all the profitable side. How do they hinder? Will-for-sensual-desires hinders from [perception of] ugliness, ill will hinders from Loving-kindness, lethargy hinders from tranquillity, drowsiness hinders from instigation of energy, agitation hinders from quiet, worry hinders from non-remorse, and uncertainty hinders from understanding as (?) [that of] dependent arising.
+
+561. Another way: Will-for-sensual-desires hinders from non-greed as a root of profit, ill will hinders from non-hate, lethargy-and-drowsiness hinders from concentration, agitation-and-worry hinders from the foundations of mindfulness, and uncertainty hinders from non-delusion as a root of profit.
+
+562. Another way: Three abidings, namely the heavenly abiding, the divine abiding, and the noble abiding. The heavenly abiding is the four meditations. The divine abiding is the four measureless states, and the noble abiding is the thirty-seven ideas that side with enlightenment. Herein, will-for-sensual-desires and agitation-and-worry hinder from the heavenly abiding, ill will hinders from the divine abiding, and lethargy-and-drowsiness and uncertainty hinder from the noble abiding.
+
+563. Another way: Will-for-sensual-desires, ill will, and agitation-and-worry hinder from quiet, and lethargy-and-drowsiness and uncertainty hinder from insight.
+
+That PTS vp En 186 is why these are called hindrances. PTS vp Pli 139 The first meditation is dissociated from these five factors.
+
+Factors of Association
+
+564. What five factors is the first meditation associated with? With (a) thinking and (b) exploring, with (c) happiness, with (d) pleasure, and with (e) unification of cognizance (of the heart). With the arousing, obtaining, possessing and verifying of these five factors the first meditation is said to be Obtained: having aroused, [perfected,] these five factors, he abides, that is why it is said that (.. he enters upon and abides in the first meditation) with the heavenly abiding.
+
+2nd Meditation—Factors of Association
+
+565. Herein, the second meditation possesses four factors with (c) happiness and (d) pleasure, with (e) unification of cognizance (heart), and with (f) confidence (clarity) in oneself. Having aroused, perfected, these four factors, he abides, that is why it is said that (… he enters upon and abides in the second meditation).
+
+3rd Meditation—Factors of Association
+
+566. Herein, the third meditation possesses five factors with (g) mindfulness, (h) awareness, (d) pleasure, (e) unification of cognizance (heart), and (i) onlooking-equanimity. Having aroused, perfected, these five factors, he abides, that is why it is said that (… he enters upon and abides in the third meditation).
+
+4th Meditation—Factors of Association
+
+567. Herein, the fourth meditation possesses four factors with (i) onlooking-equanimity, (j) purity of mindfulness, (h) neither-painful-nor-pleasant feeling, and (e) unification of cognizance (heart). The fourth meditation possesses these four factors. So with the arousing, obtaining, possessing, and verifying of these four factors the fourth meditation is said to be obtained. [Having aroused, PTS vp En 187 perfected, these four factors, he abides, that is why it is said that (… he enters upon and abides in the fourth meditation)].
+
+568. Having aroused, perfected, these four meditations he abides, that is why it is said that (he abides with the heavenly abiding).
+
+4 Meanings
+
+569. PTS vp Pli 140 Herein, what is the meaning of impermanent? The meaning of pressure is the meaning of impermanent, the meaning of fleeting, the meaning of making reach [an end], the meaning of seclusion [from permanence], is the meaning of impermanent. This is the meaning of impermanent.
+
+570. Herein, what is the meaning of painful? The meaning of repressing is the meaning of painful, the meaning of oppressing, the PTS vp En 188 meaning of sense-of-urgency, the meaning of sickness. This is the meaning of painful.
+
+571. Herein, what is the meaning of void? The meaning of unsullied is the meaning of void, the meaning of non-constraint (?), the meaning of non-torment, the meaning of standstill. This is the meaning of void.
+
+572. Herein, what is the meaning of not-self? The meaning of unamenability to lordship-rule is the meaning of not-self, the meaning of unsusceptibility to the wielding of power, the meaning of unsusceptibility to be done with as one wants, the meaning of being secluded [from identification]. This is the meaning of not-self.
+
+The Piṭaka chapter, called “Compendium of the Threads' Meaning in the Actual Presence”, is completed.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1964.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

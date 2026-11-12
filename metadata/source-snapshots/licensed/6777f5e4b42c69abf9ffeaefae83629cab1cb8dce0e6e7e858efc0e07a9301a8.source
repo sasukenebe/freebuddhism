@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 2:26 Puṇṇamāsa</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag2.26" class="h1">Thag 2:26  Puṇṇamāsa</h4>
+            <div class="verse">
+              <p>Shedding five hindrances<span class="fn"><a href="#thag2.26note01">1</a></span><!--end fn cite--></p>
+              <p>to reach rest from the yoke,</p>
+              <p>taking the Dhamma as mirror</p>
+              <p>my own knowledge &amp; vision,</p>
+              <div class="verse-add">
+                <p>I reflected on this body—</p>
+                <p class="v2">the whole thing,</p>
+                <p class="v2">inside &amp; out,</p>
+                <p class="v2">my own &amp; others’.</p>
+                <p>How vain &amp; empty the body appeared!</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag2.26note01">1. The five hindrances are sensual desire, ill will, sloth &amp; drowsiness, restlessness &amp; anxiety, and uncertainty. See <a href="../../SN/SN46_51.html">SN 46:51</a>.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

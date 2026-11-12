@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 20:2 The Tip of the Fingernail | Nakhasikhā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN20.2" class="h1">The Tip of the Fingernail<br/>
+                Nakhasikhā Sutta  (SN 20:2)</h2>
+              <p>Staying near Sāvatthī. Then the Blessed One, picking up a little bit of dust with the tip of his fingernail, said to the monks, “What do you think, monks? Which is greater: the little bit of dust I have picked up with the tip of my fingernail, or the great earth?”</p>
+              <p>“The great earth is far greater, lord. The little bit of dust the Blessed One has picked up with the tip of his fingernail is next to nothing. It doesn’t even count. It’s no comparison. It’s not even a fraction, this little bit of dust the Blessed One has picked up with the tip of his fingernail, when compared with the great earth.</p>
+              <p>“In the same way, monks, few are the beings reborn among human beings. Far more are those reborn elsewhere. Thus you should train yourselves: ‘We will live heedfully.’ That’s how you should train yourselves.”</p>
+              <p class="seealso">See also: <a href="SN56_102.html">SN 56:102–113</a>; <a href="../KN/Dhp/Ch13.html#dhp174">Dhp 174</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

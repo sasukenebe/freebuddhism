@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:64 Hindrances | Nīvaraṇa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN9.64" class="h1">Hindrances<br/>
+                  Nīvaraṇa Sutta  (AN 9:64)</h3><!--end suttahead-->
+                <p>“Monks, there are these five hindrances. Which five? Sensual desire as a hindrance, ill will as a hindrance, sloth &amp; drowsiness as a hindrance, restlessness &amp; anxiety as a hindrance, and uncertainty as a hindrance. These are the five hindrances.</p>
+                <p>“To abandon these five hindrances, one should develop the four establishings of mindfulness. Which four? There is the case where a monk remains focused on the body in &amp; of itself… feelings in &amp; of themselves… mind in &amp; of itself… mental qualities in &amp; of themselves—ardent, alert, &amp; mindful—subduing greed &amp; distress with reference to the world. To abandon the five hindrances, one should develop these four establishings of mindfulness.”</p>
+                <p class="seealso">See also: <a href="../DN/DN02.html">DN 2</a>; <a href="../SN/SN46_51.html">SN 46:51</a>; <a href="AN5_51.html">AN 5:51</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

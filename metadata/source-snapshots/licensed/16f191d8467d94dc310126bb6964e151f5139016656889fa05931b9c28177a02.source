@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 1:1 Crossing over the Flood | Ogha-taraṇa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN1.1" class="h1">Crossing over the Flood<br/>
+                Ogha-taraṇa Sutta  (SN 1:1)</h2>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. Then a certain devatā, in the far extreme of the night, her extreme radiance lighting up the entirety of Jeta’s Grove, went to the Blessed One. On arrival, having bowed down to him, she stood to one side. As she was standing there, she said to him, “Tell me, dear sir, how you crossed over the flood.”</p>
+              <p>“I crossed over the flood without pushing forward, without staying in place.”</p>
+              <p>“But how, dear sir, did you cross over the flood without pushing forward, without staying in place?”</p>
+              <p>“When I pushed forward, I was whirled about. When I stayed in place, I sank. And so I crossed over the flood without pushing forward, without staying in place.”</p>
+              <div class="verse">
+                <p class="vspk">The devatā:</p>
+                <p>“At long last I see</p>
+                <p>a brahman, totally unbound,</p>
+                <p>who</p>
+                <p class="v3">without pushing forward,</p>
+                <p class="v3">without staying in place,</p>
+                <p>has crossed              over</p>
+                <p class="v1">the entanglements</p>
+                <p class="v1">of the world.”</p>
+              </div>
+              <p>That is what the devatā said. The Teacher approved. Realizing that “The Teacher has approved of me,” she bowed down to him, circumambulated him—keeping him to her right—and then vanished right there.</p>
+              <p class="seealso">See also: <a href="../MN/MN138.html">MN 138</a>; <a href="../KN/Ud/ud8_1.html">Ud 8:1</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

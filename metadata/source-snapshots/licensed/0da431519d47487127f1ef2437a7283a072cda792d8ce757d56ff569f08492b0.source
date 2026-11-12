@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:86 Nāgita</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag1.86" class="h1">Thag 1:86  Nāgita</h4>
+            <div class="verse">
+              <p>Outside of this path,</p>
+              <p>the path of the many</p>
+              <p>who teach other things</p>
+              <p>doesn’t go to unbinding</p>
+              <p class="v2">as does this:</p>
+              <p>Thus the Blessed One</p>
+              <p>instructs the Saṅgha,</p>
+              <p>truly showing the palms of his hands.<span class="fn"><a href="#thag1.86note01">1</a></span><!--end fn cite--></p>
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.86note01">1. This is a reference to the fact that the Buddha was an “open-handed” teacher who did not wait to the end of his life to give his most crucial teachings. See <a href="../../DN/DN16.html">DN 16</a>. The message of this verse may be related to the fact that the Buddha addressed three of his most plain-speaking suttas to Nāgita: <a href="../../AN/AN5_30.html">AN 5:30</a>, <a href="../../AN/AN6_42.html">AN 6:42</a>, and <a href="../../AN/AN8_103.html">AN 8:103</a>.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

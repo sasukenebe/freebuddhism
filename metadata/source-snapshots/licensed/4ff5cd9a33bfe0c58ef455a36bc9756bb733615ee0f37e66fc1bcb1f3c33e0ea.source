@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 6:51 Ven. Ānanda | Ānanda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN6.51" class="h1">Ven. Ānanda<br/>
+                  Ānanda Sutta  (AN 6:51)</h3><!--end suttahead-->
+                <p>Then Ven. Ānanda went to Ven. Sāriputta and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings &amp; courtesies, he sat to one side. As he was sitting there he said to Ven. Sāriputta, “Friend Sāriputta, to what extent does a monk hear Dhamma that he has not heard, do the Dhammas he has heard not get confused, do the Dhammas he has touched with his awareness stay current, and does he understand what (previously) was not understood?”</p>
+                <p>“Friend Ānanda is learned. Let the answer occur to him.”</p>
+                <p>“In that case, friend Sāriputta, listen to the Dhamma. Pay close attention. I will speak.”</p>
+                <p>“As you say, friend,” Ven. Sāriputta responded to him.</p>
+                <p>Ven. Ānanda said, “There is the case, friend, where a monk masters the Dhamma: dialogues, narratives of mixed prose &amp; verse, explanations, verses, spontaneous exclamations, quotations, birth stories, amazing events, question &amp; answer sessions. He teaches the Dhamma in detail—as he has heard it, as he has remembered it—to others. He gets others to recite the Dhamma in detail—as they have heard it, as they have remembered it. He holds a group chanting of the Dhamma in detail—as he has heard it, as he has remembered it. He thinks about &amp; evaluates the Dhamma as he has heard it, as he has remembered it; he contemplates it with his intellect. He enters the Rains in monasteries in which there are senior monks who are learned, who know the tradition, who are holders of the Dhamma, the Vinaya, &amp; the Mātikā. Having approached them periodically, he questions them &amp; quizzes them: ‘How is this, venerable sirs? What is the meaning of this?’ They make open for him what wasn’t open, make plain what wasn’t plain, dispel doubt on various doubtful points.</p>
+                <p>“It’s to this extent, friend Sāriputta, that a monk hears Dhamma he has not heard, that the Dhammas he has heard do not get confused, that the Dhammas he has touched with his awareness stay current, and that he understands what (previously) was not understood.”</p>
+                <p>“It’s amazing, my friend. It’s astounding, my friend, how well-said that was by friend Ānanda. And we will remember friend Ānanda as endowed with these six qualities: Friend Ānanda has mastered the Dhamma: dialogues, narratives of mixed prose and verse, explanations, verses, spontaneous exclamations, quotations, birth stories, amazing events, question &amp; answer sessions. Friend Ānanda teaches the Dhamma in detail—as he has heard it, as he has remembered it—to others. Friend Ānanda gets others to recite the Dhamma in detail—as they have heard it, as they have remembered it. Friend Ānanda holds a group chanting of the Dhamma in detail—as he has heard it, as he has remembered it. Friend Ānanda thinks about &amp; evaluates the Dhamma as he has heard it, as he has remembered it; he contemplates it with his intellect. Friend Ānanda enters the Rains in monasteries in which there are senior monks who are learned, who know the tradition, who are holders of the Dhamma, the Vinaya, &amp; the Mātikā. Having approached them periodically, he questions them &amp; quizzes them: ‘How is this, venerable sirs? What is the meaning of this?’ They make open for friend Ānanda what wasn’t open, make plain what wasn’t plain, dispel doubt on various doubtful points.”</p>
+                <p class="seealso">See also: <a href="../MN/MN146.html">MN 146</a>; <a href="AN2_46.html">AN 2:46</a>; <a href="AN5_79.html">AN 5:79</a>; <a href="AN5_170.html">AN 5:170</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

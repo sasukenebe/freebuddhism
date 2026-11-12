@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:102 Thunderheads | Valāhaka Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.102" class="h1">Thunderheads<br/>
+                  Valāhaka Sutta  (AN 4:102)</h3><!--end suttahead-->
+                <p>“There are these four types of thunderheads. Which four? One that thunders but doesn’t rain, one that rains but doesn’t thunder, one that neither thunders nor rains, and one that both thunders and rains. There are these four types of thunderheads.</p>
+                <p>“In the same way, these four types of persons resembling thunderheads are to be found existing in the world. Which four? The one who thunders but doesn’t rain, the one who rains but doesn’t thunder, the one who neither thunders nor rains, and the one who both thunders and rains.</p>
+                <p>“And how is one the type of person who thunders but doesn’t rain? There is the case where a person has mastered the Dhamma: dialogues, narratives of mixed prose and verse, explanations, verses, spontaneous exclamations <em>[udāna],</em> quotations <em>[itivuttaka],</em> birth stories <em>[jātaka],</em> amazing events, question &amp; answer sessions.<span class="fn"><a href="#an4.102note01">1</a></span><!--end fn cite--> Yet he doesn’t discern, as it has come to be, that ‘This is stress.’ He doesn’t discern, as it has come to be, that ‘This is the origination of stress.’ He doesn’t discern, as it has come to be, that ‘This is the cessation of stress.’ He doesn’t discern, as it has come to be, that ‘This is the path of practice leading to the cessation of stress.’ This is the type of person who thunders but doesn’t rain. This type of person, I tell you, is like the thunderhead that thunders but doesn’t rain.</p>
+                <p>“And how is one the type of person who rains but doesn’t thunder? There is the case where a person has not mastered the Dhamma: dialogues… question &amp; answer sessions. Yet he does discern, as it has come to be, that ‘This is stress.’ He discerns, as it has come to be, that ‘This is the origination of stress.’ He discerns, as it has come to be, that ‘This is the cessation of stress.’ He discerns, as it has come to be, that ‘This is the path of practice leading to the cessation of stress.’ This is the type of person who rains but doesn’t thunder. This type of person, I tell you, is like the thunderhead that rains but doesn’t thunder.</p>
+                <p>“And how is one the type of person who neither thunders nor rains? There is the case where a person has not mastered the Dhamma: dialogues… question &amp; answer sessions. He doesn’t discern, as it has come to be, that ‘This is stress’ … ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress.’ This is the type of person who neither thunders nor rains. This type of person, I tell you, is like the thunderhead that neither thunders nor rains.</p>
+                <p>“And how is one the type of person who both thunders and rains? There is the case where a person has mastered the Dhamma: dialogues … question &amp; answer sessions. He discerns, as it has come to be, that ‘This is stress’ … ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress.’ This is the type of person who both thunders and rains. This type of person, I tell you, is like the thunderhead that both thunders and rains.</p>
+                <p>“These are the four types of people to be found existing in the world.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+                  <p id="an4.102note01">1. These are the earliest classifications of the Buddha’s teachings.</p>
+                </div><!--end notes-->
+                <p class="seealso">See also: <a href="../MN/MN95.html">MN 95</a>; <a href="AN10_24.html">AN 10:24</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

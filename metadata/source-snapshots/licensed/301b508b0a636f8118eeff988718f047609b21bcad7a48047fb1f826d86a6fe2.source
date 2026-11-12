@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 5:12 Candā, the Beggar</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig5.12" class="h1">Thig 5:12  Candā, the Beggar</h4>
+          <div class="verse">
+            <p>Before, I had fallen on evil times:</p>
+            <p class="v2">no husband, no children,</p>
+            <p class="v2">no relatives, friends,</p>
+            <p class="v2">no way to obtain clothing &amp; food.</p>
+            <p>So, taking a staff &amp; bowl in hand,</p>
+            <p>begging for alms from house to house,</p>
+            <p>feverish from the cold &amp; heat,</p>
+            <p>I wandered for seven full years.</p>
+            <p>Then seeing a nun</p>
+            <p>obtaining food &amp; drink,</p>
+            <p>I approached her &amp; said:</p>
+            <p class="v2">“Let me go forth</p>
+            <p class="v2">into homelessness.”</p>
+            <div class="verse-add">
+              <p>She, Paṭācārā, from sympathy,</p>
+              <p>let me go forth;</p>
+              <p>then, exhorting me,</p>
+              <p>urged me on to the highest goal.</p>
+              <p>Hearing her words,</p>
+              <p>I did her bidding.</p>
+              <p>Her exhortation was not in vain.</p>
+              <p class="v2">Endowed with the three knowledges,</p>
+              <p class="v2">I’m effluent-     free.</p>
+            </div><!--end verse-add-->
+          </div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

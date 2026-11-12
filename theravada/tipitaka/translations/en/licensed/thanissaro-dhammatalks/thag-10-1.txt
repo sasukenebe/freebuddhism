@@ -1,0 +1,91 @@
+Thag 10.1 - Thag 10:1 Kāludāyin
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/KN/Thag/thag10_1.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Thag 10:1 Kāludāyin
+
+This is a poem in at least two parts. In the first part, Ven. Kāludāyin is addressing the Buddha soon after the latter’s awakening, inviting him to return home to visit his family. In the second part, Kāludāyin is addressing the Buddha’s father, Suddhodana, at the time of the Buddha’s return, perhaps to make Suddhodana favorably inclined to receive his son.
+
+There is a question, though, as to where the first part ends and the second begins. The Commentary assigns only the last stanza—beginning with, “I am the son of the Buddha”—to the second part, and everything before that to the first. This, however, doesn’t fit with the fact that the seventh stanza is obviously addressed to the person who engendered the Buddha, and not to the Buddha himself. For this reason, I have placed the division into two parts after the sixth stanza, as the first six stanzas are unified by the theme of bearing fruit, with the fourth and fifth stanzas possibly included to remind the Buddha of the good results that would come to his family if he provided them with the opportunity to give him alms. Alternatively, the division could be placed after the fourth stanza, in that the fifth stanza could be interpreted as beginning a line of thought aimed at putting the listener into the proper mood to accept the principle of the results of good kamma seen not in this lifetime but in the next.
+
+Covered in embers now are the trees,
+shedding their canopy, lord, in search of fruit.
+As if flaring up, they glow.
+The time, great hero, partakes of savors.
+
+The trees in bloom, delightful,
+    waft delights
+all around, in all directions,
+dropping their petals in hope of fruit.
+Now, O hero, is the time to set forth.
+
+Neither too cold nor too hot:
+pleasant the season, lord, fit for a journey.
+Let them see you—the Sakyans & Koliyans—
+facing west, crossing in the Rohiṇī.1
+
+In hope they plow the field.
+In hope the seed is sown.
+In hope do merchants go to sea,
+    bringing back wealth.
+Let the hope in which I stand bear fruit.2
+
+Again & again they sow the seed.3
+Again & again the deva-kings rain.
+Again & again farmers plow the fields.
+Again & again grain comes to the kingdom.
+
+Again & again beggars wander.
+Again & again lords of giving give.
+Again & again having given, the lords of giving
+again & again go to the heavenly place.
+
+* * *
+Truly, an enlightened4 one of deep discernment
+cleanses, back for seven generations,
+the family in which he’s born.
+I would imagine you to be Sakka,5 the deva of devas
+for you engendered a sage truly named.
+
+Suddhodana is the name of the Great Seer’s father,
+and Māyā name of the Buddha’s mother6
+who, having nurtured the bodhisatta with her womb,
+at the break-up of the body, rejoices in the threefold divine realm.7
+
+She, Gotamī, having passed away,
+having fallen away from here,
+is now endowed with heavenly sensual pleasures.
+She rejoices in the five strings of sensuality,
+surrounded by those groups of devas.
+
+I am the son of the Buddha,
+who endures what is hard to endure—
+Aṅgīrasa8: incomparable, Such.
+You, Sakka, are my father’s father.
+    In the Dhamma, Gotama,
+    you are my grandfather.
+
+Notes
+
+1. Rohiṇī is the name both of a river at the edge of the Sakyan lands and of an asterism, i.e., a star in the zodiac used to indicate a season of time.
+
+2. Reading vipaccatu with the Thai edition, which seems to fit better with the imagery in the earlier part of the poem than the reading in the other editions—samijjhatu, “may it succeed.”
+
+3. Reading kasate with the Thai edition.
+
+4. Reading dhīro with the Thai edition. The other editions read vīro, “hero.”
+
+5. Sakka is the name of the king of the devas of the heaven of the Thirty-three. Ven. Kāludāyin is playing here with the similarity between this name and that of the Sakyan lineage.
+
+6. Reading Māyanāmā with the Sri Lankan and PTS editions. The Thai edition reads Māyā mahesī, so that the line would read, “The Buddha’s mother is Queen Māyā.” This would provide a play on words—mahesi, great seer, and mahesī, queen—but there is nothing in the early suttas to indicate that Suddhodana was a king, or Māyā a queen.
+
+7. The Commentary identifies the threefold divine realm as the Tusita (Contented) heaven, but doesn’t explain why that heaven would be given this name. Some verses in the Jātaka identify the threefold divine realm as the heaven of the Thirty-three, and the later reference to “those groups of devas” in this poem would seem to support this latter interpretation.
+
+8. An epithet for the Buddha, meaning “resplendent.” Aṅgīrasa was the name of an ancient brahmanical sage to which the Gotama clan claimed a connection. The Commentary suggests that this was one of the bodhisatta’s personal names prior to his awakening.

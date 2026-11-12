@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 21:8 About Nanda | Nanda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN21.8" class="h1">About Nanda<br/>
+                Nanda Sutta  (SN 21:8)</h2>
+
+<p>I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍaka’s monastery.</p>
+<p>Then Ven. Nanda, the Blessed One’s maternal cousin, wearing robes pressed inside &amp; out, having put mascara on his eyes and carrying a glazed bowl, went to the Blessed One and, on arrival, having bowed down to him, sat to one side.</p>
+<p>As he was sitting there, the Blessed One said to him, “It’s not proper, Nanda, that—as the son of a good family gone forth through conviction from the home life into homelessness—you wear robes pressed inside &amp; out, that you put mascara on your eyes, and that you carry a glazed bowl.</p>
+<p>“This would be proper for you as the son of a good family gone forth through conviction from the home life into homelessness: that you become a wilderness dweller, one who goes for alms, who wears cast-off cloth, and that you dwell indifferent to sensuality.”</p>
+<p>That is what the Blessed One said. Having said that, the One Well-gone, the Teacher, said further:</p>
+<div class="verse">
+<pre>
+“When will I see Nanda
+a wilderness dweller, wearing cast-off cloth,
+getting by on the alms of strangers,
+indifferent to sensuality?”
+</pre>
+</div><!--end verse-->
+Then, at a later time, Ven. Nanda became a wilderness dweller, one who went for alms, who wore cast-off cloth, and he dwelt indifferent to sensuality.
+<p class="seealso">See also: <a href="../AN/AN8_9.html" class="sutta-ref">AN 8:9</a>; <a href="../KN/Ud/ud3_2.html" class="sutta-ref">Ud 3:2</a>; <a href="../KN/Thag/thag2_19.html" class="sutta-ref">Thag 2:19</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

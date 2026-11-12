@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:96 The Subduing of Passion | Rāga-vinaya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.96" class="h1">The Subduing of Passion<br/>
+                  Rāga-vinaya Sutta  (AN 4:96)</h3><!--end suttahead-->
+                <p>“Monks, these four types of individuals are to be found existing in the world. Which four? The one who practices for his/her own benefit but not for that of others. The one who practices for the benefit of others but not for his/her own. The one who practices neither for his/her own benefit nor for that of others. The one who practices for his/her own benefit and for that of others.</p>
+                <p>“And how is one an individual who practices for his/her own benefit but not for that of others? There is the case where a certain individual practices for the subduing of passion within him/herself but doesn’t encourage others in the subduing of passion; practices for the subduing of aversion within him/herself but doesn’t encourage others in the subduing of aversion; practices for the subduing of delusion within him/herself but doesn’t encourage others in the subduing of delusion. Such is the individual who practices for his/her own benefit but not for that of others.</p>
+                <p>“And how is one an individual who practices for the benefit of others but not for his/her own? There is the case where a certain individual doesn’t practice for the subduing of passion within him/herself but encourages others in the subduing of passion; he/she doesn’t practice for the subduing of aversion within him/herself but encourages others in the subduing of aversion; he/she doesn’t practice for the subduing of delusion within him/herself but encourages others in the subduing of delusion. Such is the individual who practices for the benefit of others but not for his/her own.</p>
+                <p>“And how is one an individual who practices neither for his/her own benefit nor for that of others? There is the case where a certain individual doesn’t practice for the subduing of passion within him/herself and doesn’t encourage others in the subduing of passion; he/she doesn’t practice for the subduing of aversion within him/herself and doesn’t encourage others in the subduing of aversion; he/she doesn’t practice for the subduing of delusion within him/herself and doesn’t encourage others in the subduing of delusion. Such is the individual who practices neither for his/her own benefit nor for that of others.</p>
+                <p>“And how is one an individual who practices for his/her own benefit and for that of others? There is the case where a certain individual practices for the subduing of passion within him/herself and encourages others in the subduing of passion; practices for the subduing of aversion within him/herself and encourages others in the subduing of aversion; practices for the subduing of delusion within him/herself and encourages others in the subduing of delusion. Such is the individual who practices for his/her own benefit and for that of others.</p>
+                <p>“These are the four types of individuals to be found existing in the world.”</p>
+                <p class="seealso">See also: <a href="../SN/SN10_4.html">SN 10:4</a>; <a href="../SN/SN22_2.html">SN 22:2</a>; <a href="../SN/SN47_19.html">SN 47:19</a>; <a href="AN5_20.html">AN 5:20</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

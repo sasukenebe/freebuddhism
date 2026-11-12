@@ -1,0 +1,24 @@
+AN 4.237 - Ariyamagga Sutta: The Noble Path
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an04/an04.235.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2002 Thanissaro Bhikkhu.
+License notice: The text of this page ("Ariyamagga Sutta: The Noble Path", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2002 Thanissaro Bhikkhu. The text of this page ("Ariyamagga Sutta: The Noble Path", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 3 July 2010. How to cite this document (a suggested style): "Ariyamagga Sutta: The Noble Path" (AN 4.235), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 3 July 2010, https://www.accesstoinsight.org/tipitaka/an/an04/an04.235.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+"Monks, these four types of kamma have been directly realized, verified, & made known by me. Which four? There is kamma that is dark with dark result. There is kamma that is bright with bright result. There is kamma that is dark & bright with dark & bright result. There is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma.
+
+"And what is kamma that is dark with dark result? There is the case where a certain person fabricates an injurious bodily fabrication, fabricates an injurious verbal fabrication, fabricates an injurious mental fabrication. Having fabricated an injurious bodily fabrication, having fabricated an injurious verbal fabrication, having fabricated an injurious mental fabrication, he rearises in an injurious world. On rearising in an injurious world, he is there touched by injurious contacts. Touched by injurious contacts, he experiences feelings that are exclusively painful, like those of the beings in hell. This is called kamma that is dark with dark result.
+
+"And what is kamma that is bright with bright result? There is the case where a certain person fabricates a non-injurious bodily fabrication ... a non-injurious verbal fabrication ... a non-injurious mental fabrication ... He rearises in a non-injurious world ... There he is touched by non-injurious contacts ... He experiences feelings that are exclusively pleasant, like those of the Beautiful Black Devas. This is called kamma that is bright with bright result.
+
+"And what is kamma that is dark & bright with dark & bright result? There is the case where a certain person fabricates a bodily fabrication that is injurious & non-injurious ... a verbal fabrication that is injurious & non-injurious ... a mental fabrication that is injurious & non-injurious ... He rearises in an injurious & non-injurious world ... There he is touched by injurious & non-injurious contacts ... He experiences injurious & non-injurious feelings, pleasure mingled with pain, like those of human beings, some devas, and some beings in the lower realms. This is called kamma that is dark & bright with dark & bright result.
+
+"And what is kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration. This is called kamma that is neither dark nor bright with neither dark nor bright result, leading to the ending of kamma.
+
+"These, monks, are the four types of kamma directly realized, verified, & made known by me."
+
+See also: MN 57; "Kamma and the Ending of Kamma" in The Wings to Awakening (Thanissaro Bhikkhu)

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 6:97 Rewards | Ānisaṁsa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN6.97" class="h1">Rewards<br/>
+                  Ānisaṁsa Sutta  (AN 6:97)</h3><!--end suttahead-->
+                <p>“Monks, there are these six rewards in realizing the fruit of stream-entry. Which six? One is certain of the true Dhamma. One is not subject to falling back. There is no suffering over what has had a limit placed on it.<span class="fn"><a href="#an6.97note01">1</a></span><!--end fn cite--> One is endowed with uncommon knowledge.<span class="fn"><a href="#an6.97note02">2</a></span><!--end fn cite--> One rightly sees cause, along with causally-originated phenomena.</p>
+                <p>“These are the six rewards in realizing the fruit of Stream-entry.”</p>
+                <div class="note">
+                  <p class="notetitle">Notes</p><!--end notetitle-->
+                  <p id="an6.97note01">1. <em>Pariyanta-katassa na dukkhaṁ hoti:</em> In other words, one has no regret over the fact that one will experience rebirth only a limited number of times, and that a limit has been placed on the amount of suffering one is still subject to (see <a href="../SN/SN13_1.html">SN 13:1–2</a>, <a href="../SN/SN13_8.html">8</a>). This statement counteracts the notion, sometimes expressed even in Buddhist circles, that a person can get “stuck” in release against his or her will, or that an awakened person might regret putting an end to saṁsāra.</p>
+                  <p>This statement may also refer to the realization, mentioned in <a href="../MN/MN140.html">MN 140</a> and many other suttas, that pains are limited to life and limited to the body. Seeing these limits, and what lies beyond them, allows one not to suffer over those pains.</p>
+                  <p id="an6.97note02">2. According to the Commentary, uncommon knowledge is knowledge in which unawakened people have no share.</p>
+                </div><!--end notes-->
+                <p class="seealso">See also: <a href="../MN/MN22.html">MN 22</a>; <a href="../MN/MN28.html">MN 28</a>; <a href="../MN/MN70.html">MN 70</a>; <a href="../SN/SN25_1.html">SN 25:1–10</a>; <a href="../SN/SN48_53.html">SN 48:53</a>; <a href="../SN/SN55_1.html">SN 55:1</a>; <a href="../SN/SN55_21.html">SN 55:21</a>; <a href="AN5_202.html">AN 5:202</a>; <a href="../KN/Thag/thag5_10.html">Thag 5:10</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

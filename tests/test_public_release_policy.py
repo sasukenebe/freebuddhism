@@ -46,6 +46,7 @@ from validate_public_tree import (  # noqa: E402
     RIGHTS_BASIS_BY_SCOPE,
     validate_excluded_inventory,
     validate_legacy_text_routes,
+    expected_translation_source_paths,
 )
 from buddhist_canon_pipeline.public_html_policy import (  # noqa: E402
     SITE_RIGHTS_BASIS,
@@ -79,7 +80,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
             (root / "index.html").write_text(original, encoding="utf-8")
             _finish_page_navigation(root, {}, {}, [], set())
             result = (root / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(PageAudit(result).paragraphs, PageAudit(original).paragraphs[1:])
+        self.assertEqual(PageAudit(result).paragraphs, PageAudit(original).paragraphs)
         self.assertIn("<h1>Home</h1>", result)
         self.assertIn("<title>Home</title>", result)
 
@@ -232,19 +233,39 @@ class PublicReleasePolicyTests(unittest.TestCase):
 
     def test_text_rights_and_completeness_are_separate(self):
         manifest = json.loads((ROOT / "metadata/eligible-texts.json").read_text(encoding="utf-8"))
-        self.assertEqual(manifest["count"], 7227)
-        self.assertEqual(len(manifest["texts"]), 7227)
-        self.assertEqual({row["license"] for row in manifest["texts"]}, {
+        self.assertEqual(manifest["count"], len(manifest["texts"]))
+        baseline = [row for row in manifest["texts"] if not row.get("licensed_collection")]
+        self.assertEqual(len(baseline), 7227)
+        self.assertEqual({row["license"] for row in baseline}, {
             "CC0-1.0", "Public Domain (original English edition, published 1895–1907)",
             "Candana — free distribution, unaltered contents",
         })
         self.assertTrue(all(row["rights_status"] in {"CLEARED", "EXPLICIT_PERMISSION_VERIFIED"} for row in manifest["texts"]))
-        self.assertTrue(all(row["completeness_status"] == "UNKNOWN" for row in manifest["texts"]))
+        self.assertTrue(all(row["completeness_status"] == "UNKNOWN" for row in baseline))
+        self.assertTrue(all(row["completeness_status"] in {"COMPLETE", "ABBREVIATED", "PARTIAL", "UNKNOWN"}
+                            for row in manifest["texts"]))
+
+    def test_grouped_candana_passages_are_counted_as_approved_source_files(self):
+        paths = expected_translation_source_paths(
+            [{"local_path": "translations/individual.txt"}],
+            [{"local_path": "books/source.pdf"}],
+            {"group_texts": [{"local_path": "translations/groups/passage.txt"}]},
+        )
+        self.assertEqual(paths, {
+            "translations/individual.txt",
+            "books/source.pdf",
+            "translations/groups/passage.txt",
+        })
 
     def test_exclusion_inventory_is_metadata_only_and_complete_at_baseline(self):
         inventory = json.loads((ROOT / "metadata/excluded-sources.json").read_text(encoding="utf-8"))
         validate_excluded_inventory(inventory)
-        self.assertEqual(len(inventory["text_versions"]), 1268)
+        imported_path = ROOT / "metadata/source-manifests/licensed-collections.json"
+        imported = json.loads(imported_path.read_text())["records"] if imported_path.exists() else []
+        released = {row["prior_record_id"] for row in imported if row.get("prior_record_id")}
+        historical = json.loads((ROOT / "metadata/reports/strict-license-classification-2026-10.json").read_text())["records"]
+        self.assertEqual({row["record_id"] for row in inventory["text_versions"]},
+                         {row["record_key"] for row in historical} - released)
         for row in inventory["text_versions"]:
             for key in ("title", "translator", "source_url", "license", "exclusion_reason",
                         "rights_status", "completeness_status"):
@@ -763,6 +784,8 @@ class PublicReleasePolicyTests(unittest.TestCase):
             record = {
                 "version": "sujato", "version_label": "Bhikkhu Sujato translation",
                 "translator": "Bhikkhu Sujato", "output_root": output_root,
+                "license": "CC0-1.0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "source_url": "https://suttacentral.net/mn1/en/sujato",
                 "html_path": output_root / "theravada/tipitaka/sutta/majjhima-nikaya/mn01/mn01-sujato.html",
             }
             pages = {
@@ -830,7 +853,9 @@ class PublicReleasePolicyTests(unittest.TestCase):
                 '<pre class="source-text">' + body + '</pre></body></html>', encoding="utf-8")
             record = {"html_path": webroot / "readers/theravada/tipitaka" / reader_route,
                       "output_root": webroot / "readers", "version": "brahmali",
-                      "version_label": "Bhikkhu Brahmali translation", "translator": "Bhikkhu Brahmali"}
+                      "version_label": "Bhikkhu Brahmali translation", "translator": "Bhikkhu Brahmali",
+                      "license": "CC0-1.0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                      "source_url": "https://suttacentral.net/pli-tv-bu-vb-pc1/en/brahmali"}
             pages = {route: {"canonical_id": "pli-tv-bu-vb-pc1", "title": "A named rule",
                              "display_title": "Bhikkhu Pācittiya 1 — A named rule",
                              "collection": "vinaya/bhikkhu-vibhanga", "eligible": [record]}}

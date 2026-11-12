@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 1:59 Companion | Dutiya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: Riddles and their answers.-->
+<h2 class="h1">Companion<br/>
+Dutiya Sutta  (SN 1:59)</h2>
+<div class="verse">
+<pre>“What is a person’s companion?
+What is it that instructs him?
+Taking delight
+in what 		
+	does a mortal
+	gain release
+	from all suffering &amp; stress?”</pre>
+<pre>“Conviction is a person’s companion.
+Discernment is what instructs him.
+Taking delight
+in unbinding,
+	a mortal
+	gains release
+	from all suffering &amp; stress.”</pre>
+</div><!--end verse-->
+<p class="seealso">See also: <a href="SN1_36.html" class="sutta-ref">SN 1:36</a>; <a href="../AN/AN6_78.html" class="sutta-ref">AN 6:78</a>; <a href="../KN/Dhp/Ch02.html#dhp031" class="sutta-ref">Dhp 31</a>; <a href="../KN/Dhp/Ch06.html#dhp079" class="sutta-ref">Dhp 79</a>; <a href="../KN/Dhp/Ch06.html#dhp088" class="sutta-ref">Dhp 88–89</a>; <a href="../KN/Dhp/Ch14.html#dhp181" class="sutta-ref">Dhp 181</a>; <a href="../KN/Dhp/Ch14.html#dhp187" class="sutta-ref">Dhp 187</a></p>
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

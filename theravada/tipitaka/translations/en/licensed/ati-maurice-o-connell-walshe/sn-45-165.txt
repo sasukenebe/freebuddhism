@@ -1,0 +1,32 @@
+SN 45.165 - Dukkhata Sutta: Suffering
+Translated by Maurice O'Connell Walshe
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.165.wlsh.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.165.wlsh.html#F_termsOfUse
+Copyright: ©1985 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1985 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Samyutta Nikaya: An Anthology (WH 318-321), by M. O'C. Walshe (Kandy: Buddhist Publication Society, 1985). Transcribed from the print edition in 2007 by a volunteer, under the auspices of the Access to Insight Dhamma Transcription Project and by arrangement with the Buddhist Publication Society. Minor revisions were made in accordance with the ATI style sheet. Pali diacritics are represented using the Velthuis convention. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Dukkhata Sutta: Suffering" (SN 45.165), translated from the Pali by Maurice O'Connell Walshe. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.165.wlsh.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+"Monks, there are these three kinds of suffering.[1] What three? Suffering caused by pain,[2] suffering caused by the formations (or conditioned existence),[3] suffering due to change.[4] It is for the full comprehension, clear understanding, ending and abandonment of these three forms of suffering that the Noble Eightfold Path is to be cultivated..."
+
+Notes
+
+1.
+
+Dukkhataa, an abstract noun denoting "suffering" in the most general sense.
+
+2.
+
+Dukkha-dukkhataa, the actual feeling of physical or mental pain or anguish.
+
+3.
+
+Sankhaara-dukkhataa, the suffering produced by all "conditioned phenomena" (i.e., sankhaaras, in the most general sense: see BD [Buddhist Dictionary (2nd ed.), by Ven. Nyaa.natiloka, Ven. Nyaa.naponika (ed.), Colombo 1972] s.v. sankhaara I, 4). This includes also experiences associated with hedonically neutral feeling. The suffering inherent in the formations has its roots in the imperfectability of all conditioned existence, and in the fact that there cannot be any final satisfaction within the incessant turning of the Wheel of Life. The neutral feeling associated with this type of suffering is especially the indifference of those who do not understand the fact of suffering and are not moved by it.
+
+4.
+
+Viparinaama-dukkhataa, the suffering associated with pleasant bodily and mental feelings: "because they are the cause for the arising of pain when they change" (VM XIV, 35).
+
+See also: SN 38.14.

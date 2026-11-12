@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 11:16 Goodwill | Mettā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN11.16" class="h1">Goodwill<br/>
+                  Mettā Sutta  (AN 11:16)</h3><!--end suttahead-->
+                <p>“Monks, for one whose awareness-release through goodwill is cultivated, developed, pursued, given a means of transport, given a grounding, steadied, consolidated, and well-undertaken, eleven benefits can be expected. Which eleven?</p>
+                <p>“One sleeps easily, wakes easily, dreams no evil dreams. One is dear to human beings, dear to non-human beings. The devas protect one. Neither fire, poison, nor weapons can touch one. One’s mind gains concentration quickly. One’s complexion is bright. One dies unconfused and—if penetrating no higher—is headed for a Brahmā world.</p>
+                <p>“These are the eleven benefits that can be expected for one whose awareness-release through goodwill is cultivated, developed, pursued, handed the reins, taken as a basis, steadied, consolidated, and well-undertaken.”</p>
+                <p class="seealso">See also: <a href="../MN/MN97.html">MN 97</a>; <a href="../SN/SN42_8.html">SN 42:8</a>; <a href="../SN/SN46_54.html">SN 46:54</a>; <a href="AN4_67.html">AN 4:67</a>; <a href="AN4_125.html">AN 4:125—126</a>; <a href="AN4_178.html">AN 4:178</a>; <a href="AN5_27.html">AN 5:27</a>; <a href="AN8_70.html">AN 8:70</a>; <a href="AN10_196.html">AN 10:196</a>; <a href="../KN/Khp/khp9.html">Khp 9</a>; <a href="../KN/Iti/iti22.html">Iti 22</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

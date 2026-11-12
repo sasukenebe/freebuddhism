@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:148 A Person of Integrity’s Gifts | Sappurisadāna Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.148" class="h1">A Person of Integrity’s Gifts<br/>
+                  Sappurisadāna Sutta  (AN 5:148)</h3><!--end suttahead-->
+                <p>“These five are a person of integrity’s gifts. Which five? A person of integrity gives a gift with a sense of conviction. A person of integrity gives a gift attentively. A person of integrity gives a gift in season. A person of integrity gives a gift with an empathetic heart. A person of integrity gives a gift without adversely affecting himself or others.</p>
+                <p>“Having given a gift with a sense of conviction, he—wherever the result of that gift ripens—is rich, with much wealth, with many possessions. And he is well-built, handsome, extremely inspiring, endowed with a lotus-like complexion.</p>
+                <p>“Having given a gift attentively, he—wherever the result of that gift ripens—is rich, with much wealth, with many possessions. And his children, wives, slaves, servants, and workers listen carefully to him, lend him their ears, and serve him with understanding hearts.</p>
+                <p>“Having given a gift in season, he—wherever the result of that gift ripens—is rich, with much wealth, with many possessions. And his goals are fulfilled in season.</p>
+                <p>“Having given a gift with an empathetic heart, he—wherever the result of that gift ripens—is rich, with much wealth, with many possessions. And his mind inclines to the enjoyment of the five strings of lavish sensuality.</p>
+                <p>“Having given a gift without adversely affecting himself or others, he—wherever the result of that gift ripens—is rich, with much wealth, with many possessions. And not from anywhere does destruction come to his property—whether from fire, from water, from kings, from thieves, or from hateful heirs.</p>
+                <p>“These five are a person of integrity’s gifts.”</p>
+                <p class="seealso">See also: <a href="../MN/MN113.html">MN 113</a>; <a href="../SN/SN3_19.html">SN 3:19</a>; <a href="../SN/SN3_20.html">SN 3:20</a>; <a href="AN4_73.html">AN 4:73</a>; <a href="AN5_34.html">AN 5:34</a>; <a href="AN5_36.html">AN 5:36</a>; <a href="AN5_41.html">AN 5:41</a>; <a href="AN6_37.html">AN 6:37</a>; <a href="AN7_49.html">AN 7:49</a>; <a href="AN9_20.html">AN 9:20</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

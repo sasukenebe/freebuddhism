@@ -2,8 +2,8 @@
 
 Public source for [freebuddhism.org](https://freebuddhism.org/), a locally readable
 English Theravāda collection. The repository contains texts
-with documented redistribution rights: CC0, verified public domain, or an
-explicit source-specific grant. Some works permit free, unaltered distribution
+with documented redistribution rights: CC0, verified public domain, CC BY,
+BY-SA, BY-NC, BY-NC-SA, or an explicit source-specific grant. Some works permit free, unaltered distribution
 but not modification or sale. Excluded editions appear as metadata only.
 
 ## Rights
@@ -11,6 +11,11 @@ but not modification or sale. Excluded editions appear as metadata only.
 - Original build code is 0BSD; original documentation and project metadata are
   CC0-1.0.
 - Each imported text keeps its own recorded license and source attribution.
+- The owner-approved [November 11 publication requirements](docs/tasks/authorised-bulk-imports-2026-11-11.md)
+  accept attribution, noncommercial and share-alike licenses. Their conditions,
+  copyright and complete notices remain attached to readers and downloads.
+- The site is noncommercial: no advertising, affiliate monetization, paid access or
+  sale of downloads. No-derivatives and unclear rights require separate review.
 - Public-domain status is scoped and evidenced; no repository-wide license
   overrides third-party rights.
 - Explicit grants are reviewed for each exact work, not inferred from a free

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 1:21 A Sword | Satti Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: As if struck by a sword, develop a sense of urgency in the practice.-->
+<h2 class="h1">A Sword<br/>
+Satti Sutta  (SN 1:21)</h2>
+<p>As she was standing there, the devatā recited this verse in the Blessed One’s presence:</p>
+<div class="verse">
+<pre>“As if struck by a sword,
+as if his head were on fire,
+a monk should live the wandering life
+	—mindful—
+for the abandoning of sensual passion.”</pre>
+<p class="vspk">The Buddha:</p>
+<pre>“As if struck by a sword,
+as if his head were on fire,
+a monk should live the wandering life
+	—mindful—
+for the abandoning of self-identity.”</pre>
+</div><!--end verse-->
+<p class="seealso">See also: <a href="SN22_1.html" class="sutta-ref">SN 22:1</a>; <a href="../AN/AN10_51.html" class="sutta-ref">AN 10:51</a>; <a href="../KN/Thag/thag1_39.html" class="sutta-ref">Thag 1:39</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

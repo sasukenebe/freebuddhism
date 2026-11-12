@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 23:2 A Being | Satta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN23.2" class="h1">A Being<br/>
+                Satta Sutta  (SN 23:2)</h2>
+              <p><em>A number of discourses (among them, <a href="SN35_191.html">SN 35:191</a>; <a href="../AN/AN6_63.html">AN 6:63</a>) make the point that the mind is fettered, not by things like the five aggregates or the objects of the six senses, but by the act of passion &amp; delight for them. There are two ways to try to cut through this fetter. One is to focus on the drawbacks of passion &amp; delight in &amp; of themselves, seeing clearly the stress &amp; suffering they engender in the mind. The other is to analyze the objects of passion &amp; delight in such a way that they no longer seem worthy of interest. This second approach is the one recommended in this discourse: when the Buddha talks of “smashing, scattering, &amp; demolishing form (etc.) and making it unfit for play,” he is referring to the practice of analyzing form minutely into its component parts until it no longer seems a fit object for passion &amp; delight. When all five aggregates can be treated in this way, the mind is left with no conditioned object to serve as a focal point for its passion, and so is released—at the very least—to the stage of awakening called non-return.</em></p>
+              <p class="stars">* * *</p>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta’s Grove, Anāthapiṇḍika’s monastery. Then Ven. Rādha went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One: “‘A being,’ lord. ‘A being,’ it’s said. To what extent is one said to be ‘a being’?”</p>
+              <p>“Any desire, passion, delight, or craving for form, Rādha: when one is caught up <em>[satta]</em> there, tied up <em>[visatta]</em> there, one is said to be ‘a being <em>[satta].’</em></p>
+              <p>“Any desire, passion, delight, or craving for feeling… perception… fabrications…</p>
+              <p>“Any desire, passion, delight, or craving for consciousness, Rādha: when one is caught up there, tied up there, one is said to be ‘a being.’</p>
+              <p>“Just as when boys or girls are playing with little sand castles (lit: dirt houses): as long as they are not free from passion, desire, love, thirst, fever, &amp; craving for those little sand castles, that’s how long they have fun with those sand castles, enjoy them, treasure them, feel possessive of them. But when they become free from passion, desire, love, thirst, fever, &amp; craving for those little sand castles, then they smash them, scatter them, demolish them with their hands or feet, and make them unfit for play.</p>
+              <p>“In the same way, Rādha, you too should smash, scatter, &amp; demolish form, and make it unfit for play. Practice for the ending of craving for form.</p>
+              <p>“You should smash, scatter, &amp; demolish feeling, and make it unfit for play. Practice for the ending of craving for feeling.</p>
+              <p>“You should smash, scatter, &amp; demolish perception, and make it unfit for play. Practice for the ending of craving for perception.</p>
+              <p>“You should smash, scatter, &amp; demolish fabrications, and make them unfit for play. Practice for the ending of craving for fabrications.</p>
+              <p>“You should smash, scatter, &amp; demolish consciousness, and make it unfit for play. Practice for the ending of craving for consciousness—because the ending of craving, Rādha, is unbinding.”</p>
+              <p class="seealso">See also: <a href="SN1_55.html">SN 1:55</a>; <a href="SN5_10.html">SN 5:10</a>; <a href="SN22_36.html">SN 22:36</a>; <a href="SN35_205.html">SN 35:205</a>; <a href="../KN/Khp/khp4.html">Khp 4</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

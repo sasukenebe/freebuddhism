@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 56:46 Darkness | Andhakāra Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN56.46" class="h1">Darkness<br/>
+                Andhakāra Sutta  (SN 56:46)</h2>
+              <p>“There is, monks, an inter-cosmic [intergalactic?] void, an unrestrained darkness, a pitch-black darkness, where even the light of the sun &amp; moon—so mighty, so powerful—doesn’t reach.”</p>
+              <p>When this was said, one of the monks said to the Blessed One, “Wow, what a great darkness! What a really great darkness! Is there any darkness greater &amp; more frightening than that?”</p>
+              <p>“There is, monk, a darkness greater &amp; more frightening than that.”</p>
+              <p>“And which darkness, lord, is greater &amp; more frightening than that?”</p>
+              <p>“Any contemplatives or brahmans who do not know, as it has come to be, that ‘This is stress’; who do not know, as it has come to be, that ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress’: They revel in fabrications leading to birth; they revel in fabrications leading to aging; they revel in fabrications leading to death; they revel in fabrications leading to sorrow, lamentation, pain, distress, &amp; despair. Reveling in fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair, they fabricate fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair. Fabricating fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair, they drop into the darkness of birth. They drop into the darkness of aging… the darkness of death… darkness of sorrow, lamentation, pain, distress, &amp; despair. They are not totally released from birth, aging, death, sorrows, lamentations, pains, distresses, &amp; despairs. They are not totally released, I tell you, from suffering &amp; stress.</p>
+              <p>“But as for any contemplatives or brahmans who do know, as it has come to be, that ‘This is stress’; who know, as it has come to be, that ‘This is the origination of stress’ … ‘This is the cessation of stress’ … ‘This is the path of practice leading to the cessation of stress’: They don’t revel in fabrications leading to birth; don’t revel in fabrications leading to aging; don’t revel in fabrications leading to death; don’t revel in fabrications leading to sorrow, lamentation, pain, distress, &amp; despair. Not reveling in fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair, they don’t fabricate fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair. Not fabricating fabrications leading to birth… aging… death… sorrow, lamentation, pain, distress, &amp; despair, they don’t drop into the darkness of birth. They don’t drop into the darkness of aging, don’t drop into the darkness of death, don’t drop into the darkness of sorrow, lamentation, pain, distress, &amp; despair. They are totally released from birth, aging, death, sorrows, lamentations, pains, distresses, &amp; despairs. They are totally released, I tell you, from suffering &amp; stress.</p>
+              <p>“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

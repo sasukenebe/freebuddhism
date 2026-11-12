@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 47:37 Desire | Chanda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN47.37" class="h1">Desire <br/>
+                Chanda Sutta  (SN 47:37)</h2>
+              <p>Near Sāvatthī. “Monks, there are these four establishings of mindfulness. Which four?</p>
+              <p>“There is the case where a monk remains focused on the body in &amp; of itself—ardent, alert, &amp; mindful—subduing greed &amp; distress with reference to the world. For him, remaining focused on the body in &amp; of itself, any desire for the body is abandoned. From the abandoning of desire, the deathless is realized.</p>
+              <p>“He remains focused on feelings in &amp; of themselves—ardent, alert, &amp; mindful—subduing greed &amp; distress with reference to the world. For him, remaining focused on feelings in &amp; of themselves, any desire for feelings is abandoned. From the abandoning of desire, the deathless is realized.</p>
+              <p>“He remains focused on the mind in &amp; of itself—ardent, alert, &amp; mindful—subduing greed &amp; distress with reference to the world. For him, remaining focused on the mind in &amp; of itself, any desire for the mind is abandoned. From the abandoning of desire, the deathless is realized.</p>
+              <p>“He remains focused on mental qualities in &amp; of themselves—ardent, alert, &amp; mindful—subduing greed &amp; distress with reference to the world. For him, remaining focused on mental qualities in &amp; of themselves, any desire for mental qualities is abandoned. From the abandoning of desire, the deathless is realized.”</p>
+              <p class="seealso">See also: SN 51:51; <a href="../AN/AN10_58.html">AN 10:58</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

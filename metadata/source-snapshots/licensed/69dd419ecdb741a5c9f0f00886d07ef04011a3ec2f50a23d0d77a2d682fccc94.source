@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 10:101 Contemplative Perceptions | Samaṇasaññā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+    <div id="content">
+     <!--#include virtual="/php/suttasidebar.html" --> 
+      <div id="sutta">
+
+                <h3 id="AN10.101" class="h1">Contemplative Perceptions<br/>
+                  Samaṇasaññā Sutta  (AN 10:101)</h3>
+<p>“Monks, three contemplative perceptions, when developed &amp; pursued, bring seven things to completion. Which three?</p>
+<p>“‘I have become casteless.</p>
+<p>“‘My life is dependent on others.</p>
+<p>“‘My behavior should be different (from that of householders).’</p>
+<p>“These three contemplative perceptions, when developed &amp; pursued, bring seven things to completion. Which seven?</p>
+<p>“One acts &amp; behaves consistently with the virtues.</p>
+<p>“One isn’t greedy.</p>
+<p>“One is devoid of ill will.</p>
+<p>“One is devoid of arrogance.</p>
+<p>“One desires training.</p>
+<p>“One thinks, ‘They have this purpose,’ with regard to the requisites of life.</p>
+<p>“One remains with one’s persistence aroused.</p>
+<p>“Monks, these three contemplative perceptions, when developed &amp; pursued, bring these seven things to completion.”</p>
+<p class="seealso">See also: <a href="AN5_57.html" class="sutta-ref">AN 5:57</a>; <a href="AN5_114.html" class="sutta-ref">AN 5:114</a>; <a href="AN10_48.html" class="sutta-ref">AN 10:48</a></p>
+
+      </div><!--end sutta-->
+    </div><!--end content-->
+     <!--#include virtual="/php/suttafooter.html" --> 
+  </div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+</body></html>

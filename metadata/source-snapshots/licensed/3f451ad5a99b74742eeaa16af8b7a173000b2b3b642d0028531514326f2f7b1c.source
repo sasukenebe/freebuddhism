@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 2:4 Aḍḍhkāsī</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig2.4" class="h1">Thig 2:4  Aḍḍhkāsī</h4>
+          <div class="verse">
+            <p>All of the Kāsi countryside:</p>
+            <p>My fee was equal to that.</p>
+            <p>Having made that my price,</p>
+            <p>the town<span class="fn"><a href="#thig2.4note01">1</a></span><!--end fn cite--> set me as priceless in price.</p>
+            <p>But then I became disenchanted with my body,</p>
+            <p>and—disenchanted—dispassionate:</p>
+            <p>“May I not run again &amp; again</p>
+            <p>through birth &amp; the wandering-on.”</p>
+            <p class="v2">The three knowledges</p>
+            <p class="v4">have been realized.</p>
+            <p class="v2">The Buddha’s bidding</p>
+            <p class="v4">done.</p>
+          </div><!--end verse-->
+          <div class="note">
+            <p class="notetitle">Note</p><!--end notetitle-->
+            <p id="thig2.4note01">1. Reading <em>nigamo</em> with the Thai edition. The Burmese and Sinhalese editions read <em>negamo,</em> “the townspeople.”</p>
+          </div><!--end notes-->
+          <p class="seealso">See also: <a href="../../AN/AN7_48.html">AN 7:48</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

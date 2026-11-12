@@ -1,0 +1,62 @@
+SN 46.53 - Aggi Sutta: Fire
+Translated by Maurice O'Connell Walshe
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.053.wlsh.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.053.wlsh.html#F_termsOfUse
+Copyright: ©1985 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1985 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Samyutta Nikaya: An Anthology (WH 318-321), by M. O'C. Walshe (Kandy: Buddhist Publication Society, 1985). Transcribed from the print edition in 2007 by a volunteer, under the auspices of the Access to Insight Dhamma Transcription Project and by arrangement with the Buddhist Publication Society. Minor revisions were made in accordance with the ATI style sheet. Pali diacritics are represented using the Velthuis convention. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Aggi Sutta: Fire" (SN 46.53), translated from the Pali by Maurice O'Connell Walshe. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn46/sn46.053.wlsh.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: PARTIAL. Complete source excerpt preserved, including introductions, notes and verse structure; source omits part of the canonical discourse.
+
+"At such times, monks, as the mind is sluggish, that is the wrong time to cultivate the enlightenment-factor[1] of tranquillity, the enlightenment-factor of concentration, the enlightenment-factor of equanimity. What is the reason? A sluggish mind is hard to arouse by these factors.
+
+"Suppose a man wants to make a small fire blaze. If he heaps wet grass, wet cow-dung and wet sticks on it, if he exposes it to wind and rain and sprinkles it with dust, can he make that small fire blaze?"
+
+"No indeed, Lord."
+
+"Just so, when the mind is sluggish it is the wrong time to cultivate the enlightenment-factors of tranquillity, concentration and equanimity, because a sluggish mind is hard to arouse through these factors.
+
+"But, monks, when the mind is sluggish, that is the right time to cultivate the enlightenment-factor of investigation-of-states, the enlightenment-factor of energy, the enlightenment-factor of rapture.[2] What is the reason? A sluggish mind is easy to arouse by these factors.
+
+"Suppose a man wants to make a small fire blaze. If he heaps dry grass, dry cow-dung and dry sticks on it, blows on it with his mouth, and does not sprinkle it with dust, can he make that fire blaze?"
+
+"Yes indeed, Lord."
+
+"... a sluggish mind is easy to arouse through these factors.
+
+"Monks, when the mind is agitated,[3] that is the wrong time to cultivate the enlightenment-factors of investigation-of-states, of energy, of rapture. Why? An agitated mind is hard to calm through these factors.
+
+"Suppose a man wants to put a big fire out. If he heaps dry cow-dung and dry sticks on it, blow on it with his mouth, and does not sprinkle it with dust, can he put that fire out?"
+
+"No indeed, Lord."
+
+"... an agitated mind is not easy to calm through these factors.
+
+"When the mind is agitated, that is the right time to cultivate the enlightenment-factors of tranquillity, concentration, equanimity. Why? Because an agitated mind is easy to calm[4] through these factors.
+
+"Suppose a man wants to put out a big fire. If he heaps wet grass, wet cow-dung, wet sticks on it and if he exposes it to wind and rain, if he sprinkles it with dust, can he put that big fire out?"
+
+"Yes indeed, Lord."
+
+"Just so, monks, when the mind is agitated, that is the right time to cultivate the enlightenment-factors of tranquillity, concentration, equanimity. An agitated mind is easy to calm through these factors.
+
+"But as for mindfulness, monks, I declare that it is always useful."
+
+Notes
+
+1.
+
+Bojjhanga (=bodhi-anga, lit. "limb of enlightenment") or sambojjhanga. The seven bojjhangas are so called (SN 46.5) "because they lead to enlightenment" (bodhi). They are: 1. Mindfulness (sati-sambojjangha), 2. Investigation of (Mental and Physical) States (dhamma-vicaya-s.), 3. Energy (viriya-s.), 4. Rapture (piiti-s.), 5. Tranquillity (passaddhi-s.), 6. Concentration (samaadhi-s.), 7. Equanimity (upekkhaa-s.). The text makes it clear that of these the first, mindfulness, is the most important, since it is valuable in all circumstances, whereas the others are not always appropriate.
+
+2.
+
+Piiti: see SN 12.23, n. 4.
+
+3.
+
+Uddhata.m: not "elated" as translated by Woodward.
+
+4.
+
+Woodward has here, by an oversight, "is easily raised up." Below, he has correctly "is easily calmed."

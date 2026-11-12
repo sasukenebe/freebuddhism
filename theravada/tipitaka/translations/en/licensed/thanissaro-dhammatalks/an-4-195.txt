@@ -1,0 +1,65 @@
+AN 4.195 - AN 4:195 Vappa | Vappa Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/AN/AN4_195.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+To Vappa
+ Vappa Sutta (AN 4:195)
+
+I have heard that on one occasion the Blessed One was staying among the Sakyans at the Banyan Tree Park near Kapilavatthu.
+
+Then Vappa the Sakyan, a disciple of the Nigaṇṭhas, went to Ven. Mahā Moggallāna and, on arrival, bowed down to him and sat to one side. As he was sitting there, Ven. MahāMoggallāna asked him, “Vappa, in case there were a person who—from the fading of ignorance, and from the arising of clear knowing—was restrained in body, restrained in speech, & restrained in mind, do you see the possibility that, from any cause, effluents to be experienced as pain would flow toward that person in a future life?”
+
+“I do see, venerable sir, the possibility where there would be a case where—from the cause of a previously done evil action whose results have yet to ripen— effluents to be experienced as pain would flow toward that person in a future life.”1
+
+And Ven. Mahā Moggallāna’s conversation with Vappa the Sakyan, the disciple of the Nigaṇṭhas, was still interrupted when, in the late afternoon, the Blessed One, rising from his seclusion, went to the meeting hall and on arrival sat down in a seat laid out. When he was seated, he said to Ven. MahāMoggallāna, “For what discussion are you now sitting here together? Or what was your discussion that was interrupted in mid-course?”
+
+“Just now, lord, I said to Vappa the Sakyan, a disciple of the Nigaṇṭhas, ‘Vappa, in case there were a person who—from the fading of ignorance, and from the arising of clear knowing—was restrained in body, restrained in speech, & restrained in mind, do you see the possibility that, from any cause, effluents to be experienced as pain would flow toward that person in a future life?’ When this was said, Vappa the Sakyan said to me, ‘I do see, venerable sir, the possibility where there would be a case where—from the cause of a previously done evil action whose results have yet to ripen—effluents to be experienced as pain would flow toward that person in a future life.’ This was my discussion with Vappa the Sakyan that was interrupted when the Blessed One appeared.”
+
+Then the Blessed One said to Vappa the Sakyan, the disciple of the Nigaṇṭhas, “Vappa, if you will allow of me what should be allowed, protest what should be protested, and further cross-question me directly then & there on the meaning of any statement of mine that you don’t understand—‘How is this, lord? What is the meaning of this?’—then we could have a discussion here.”
+
+“Lord, I will admit what should be admitted, reject what should be rejected, and further cross-question the Blessed One directly on the meaning of any statement of his that I don’t understand—‘How is this, lord? What is the meaning of this?’: Let us have a discussion here.”
+
+“Vappa, as for any effluents causing trouble & vexation that arise in dependence on bodily activity: When one has abandoned bodily activity, those effluents causing trouble & vexation do not exist for him. He does no new action [kamma], and as for old action, he destroys it with each contact: a wasting away that is visible here & now, timeless, inviting inspection, pertinent, to be known by the observant for themselves. Do you see the possibility that, from any cause, effluents to be experienced as pain would flow toward that person in a future life?”
+
+“No, lord.”
+
+“Vappa, as for any effluents causing trouble & vexation that arise in dependence on verbal activity… any effluents causing trouble & vexation that arise in dependence on mental activity… any effluents causing trouble & vexation that arise in dependence on ignorance: From the fading of ignorance, and from the arising of clear knowing, those effluents causing trouble & vexation do not exist for him. He does no new action, and as for old action, he destroys it with each contact: a wasting away that is visible here & now, timeless, inviting inspection, pertinent, to be known by the observant for themselves. Do you see the possibility that, from any cause, effluents to be experienced as pain would flow toward that person in a future life?”
+
+“No, lord.”
+
+“For a monk whose mind is thus rightly released, Vappa, six continual dwellings have been attained. When seeing a form via the eye, he is neither glad nor sad, but dwells equanimous, mindful, & alert.
+
+“When hearing a sound via the ear.…
+
+“When smelling an aroma via the nose.…
+
+“When tasting a flavor via the tongue.…
+
+“When feeling a tactile sensation via the body.…
+
+“When cognizing an idea via the mind, he is neither glad nor sad, but dwells equanimous, mindful, & alert.
+
+“When sensing a feeling limited to the body, he discerns that ‘I am sensing a feeling limited to the body.’ When sensing a feeling limited to life, he discerns that ‘I am sensing a feeling limited to life.’ He discerns that ‘With the breakup of the body, after the termination of life, all that is sensed, not being relished, will grow cold right here.’
+
+“Vappa, suppose a shadow were to be discernable in dependence on a stump. A man would come along carrying a shovel. He would cut the stump at the base. Having cut it at the base, he would dig it out. Having dug it out, he would pull out the roots, down to the rootlets. Then he would cut the stump into pieces. Having cut it into pieces, he would split the pieces. Having split the pieces, he would make them into splinters. Having made them into splinters, he would dry them in the wind & sunlight. Having dried them in the wind & sunlight, he would burn them with fire. Having burned them with fire, he would make them into ashes. Having made them into ashes, he would winnow them before a high wind or dump them into a swift-flowing stream. Thus the shadow dependent on the stump would be destroyed at the root, made like a palmyra stump, deprived of the conditions of development, not destined for future arising.
+
+“In the same way, Vappa, for a monk whose mind is thus rightly released, six continual dwellings have been attained. When seeing a form via the eye.… When hearing a sound via the ear.… When smelling an aroma via the nose.… When tasting a flavor via the tongue.… When feeling a tactile sensation via the body.… When cognizing an idea via the mind, he is neither glad nor sad, but dwells equanimous, mindful, & alert.
+
+“When sensing a feeling limited to the body, he discerns that ‘I am sensing a feeling limited to the body.’ When sensing a feeling limited to life, he discerns that ‘I am sensing a feeling limited to life.’ He discerns that ‘With the breakup of the body, after the termination of life, all that is sensed, not being relished, will grow cold right here.’”
+
+When this was said, Vappa the Sakyan, the disciple of the Nigaṇṭhas, said to the Blessed One, “Lord, suppose that there were a man desiring profit who raised horses for sale but he didn’t gain any profit, and furthermore had his share of trouble & torment. In the same way, I—desiring profit—have attended to the foolish Nigaṇṭhas but I haven’t gained any profit, and furthermore have had my share of trouble & torment. From this day forward, lord, I take my faith in the foolish Nigaṇṭhas and winnow it before a high wind or dump it into a swift-flowing stream.
+
+“Magnificent, lord! Magnificent! Just as if he were to place upright what was overturned, to reveal what was hidden, to show the way to one who was lost, or to carry a lamp into the dark so that those with eyes could see forms, in the same way has the Blessed One—through many lines of reasoning—made the Dhamma clear. I go to the Blessed One for refuge, to the Dhamma, and to the Saṅgha of monks. May the Blessed One remember me as a lay follower who has gone to him for refuge, from this day forward, for life.”
+
+Note
+
+1. The Nigaṇṭhas taught that one could not be freed from the round of rebirth until having experienced all the pain resulting from one’s past actions. For the Buddha’s response to this point, see AN 3:101.
+
+See also: DN 29; MN 14; MN 35; MN 36; MN 56; MN 58; MN 101; SN 22:54; SN 42:8; SN 42:9; AN 3:34; AN 3:62; AN 3:71; AN 9:38; Ud 3:1

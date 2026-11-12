@@ -1,0 +1,76 @@
+SN 22.22 - Bhāra Sutta: The Burden
+Translated by Maurice O'Connell Walshe
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.wlsh.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.wlsh.html#F_termsOfUse
+Copyright: ©1985 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1985 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Samyutta Nikaya: An Anthology (WH 318-321), by M. O'C. Walshe (Kandy: Buddhist Publication Society, 1985). Transcribed from the print edition in 2007 by a volunteer, under the auspices of the Access to Insight Dhamma Transcription Project and by arrangement with the Buddhist Publication Society. Minor revisions were made in accordance with the ATI style sheet. Pali diacritics are represented using the Velthuis convention. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Bhāra Sutta: The Burden" (SN 22.22), translated from the Pali by Maurice O'Connell Walshe. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.wlsh.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+"Monks, I will explain to you the burden,[1] the laying hold of the burden, the holding on to the burden,[2] the laying down of the burden. Listen.
+
+"What, monks, is the burden?
+
+"'The five groups of clinging'[3] is the answer. Which five? They are: the group of clinging to corporeality,... to feelings,... to perceptions,... to mental formations,... to consciousness. This, monks, is called 'the burden.'
+
+"What is the laying hold of the burden? The answer is that it is the person,[4] the Venerable So-and-so, of such-and-such a family. This, monks, is called 'the laying hold of the burden.'
+
+"What is the holding on to the burden? The answer is that it is that craving which gives rise to fresh rebirth and, bound up with lust and greed, now here now there finds ever fresh delight. It is sensual craving,[5] craving for existence,[6] craving for non-existence.[7] This, monks, is called 'the holding on to the burden.'[8]
+
+"What is the laying down of the burden? It is the complete fading away and extinction of this craving, its forsaking and giving up, liberation and detachment from it. This, monks, is called 'the laying down of the burden.'"[9]
+
+Thus said the Blessed One, the Well-farer[10] spoke thus; the Teacher then said:
+
+ The five groups are the heavy load, The seizing of the load is man. Holding it is misery, Laying down the load is bliss. Laying down this heavy load, And no other taking up, By uprooting all desire, Hunger's stilled, Nibbaana's gained.[11]
+
+Notes
+
+1.
+
+This sutta, as E.J. Thomas (Early Buddhist Scriptures, London 1935, p. 123) says, "has been appealed to both by those who would find in Buddhism the doctrine of something permanent in addition to the five groups [i.e., the sankhaaras], and also by those who deny it." To the former party belong, e.g., H.C. Warren, who included it in his Buddhism in Translations (Harvard 1896, rep. 1963), and Erich Frauwallner, who prints in his Philosophie des Buddhismus ([East] Berlin 1956, p. 25f.) a German translation from the Chinese version of Tsa Ahan (Taisho 99, k. 3) which he entitles "Das Suutra vom Lastträger" ("The Suutra of the Burden-Bearer") with the Sanskrit heading (retranslated from the Chinese!) Bhaarahaarasuutram. But Woodward in KS [Book of the Kindred Sayings, trans. of the Sa.myutta Nikaaya, Vol. III, PTS 1924], countering a similar view expressed by A.B. Keith, says: "No bearer of the burden is mentioned at all, but a bearing. Haaro is 'a taking.' The puggalo ['person'] is the taking hold of the fivefold mass." (Woodward's italics). Woodward's view is expressly supported by Mrs Rhys Davids, as editor, in a note of her own, though she doubtless changed her mind about this later, having subsequently (as is well known) drifted into wrong views! The sutta is discussed briefly twice in EB [Encyclopaedia of Buddhism, Colombo 1961], and, curiously, different opinions are expressed on this point. Under Bhaara, U. K[arunaratana] says: "the burden-bearer (bhaarahaara) is the person (puggala)," while under Bhaara Sutta L[akshmi] R. G[oonesekere] writes: "the 'laying hold of the burden' [=bharahara] is the individual." Grammar would seem to be on the side of the latter view, and while I am unable to say whether Frauwallner has translated from the Chinese correctly or not, the same would apply to the Sanskrit title he quotes. It is further noteworthy that in Frauwallner's text the four things are given in a different order from the Pali as: "The Burden," "the taking up of the burden" (but see n. 2), "the laying down of the burden," and "the bearer of the burden" [=bhaarahaara.] The last of these three is said to be "the person," etc., but with a somewhat expanded description. The final verses are also somewhat different. In any case the Sanskrit text (on which the Chinese version is based) is clearly secondary. 
+
+It is easy to understand how this sutta could be misunderstood, both in ancient and in modern times, since (doctrinal issues apart!) one would expect the "person" to be described as the bearer rather than the "bearing." The explanation is that the "person" is in terms of relative truth what the khandhas are according to ultimate truth (cf. SN 1.20, n. 8).
+
+One is tempted to think that this sutta was originally delivered for the benefit of one or other of the Bhaaradvaajas (see SN 7.1, SN 7.2, SN 35.127), whose name appears to mean "twice-born burden"!
+
+2.
+
+Bhaaraadaana: generally translated as "taking up the burden," etc., but aadaana, like upaadaana, can also mean "clinging," which gives a more pregnant meaning.
+
+3.
+
+See Vol. I, n. 49.
+
+4.
+
+Puggala. A term of relative truth, as pointed out in n. 1.
+
+5.
+
+Kaamata.nhaa: "sensual craving," the first and crudest of three kinds of craving.
+
+6.
+
+Bhavata.nhaa, the desire for continued existence connected with "Eternalism" (see SN 12.15, n. 2).
+
+7.
+
+Vibhavata.nhaa, the desire for non-existence or the "death-wish," connected with "Annihilationism" (see SN 12.15, n. 3). In older works sometimes mistranslated as "desire for wealth" (also vibhava but a different word).
+
+8.
+
+The formula is that for the Second Noble Truth.
+
+9.
+
+The formula is that for the Third Noble Truth.
+
+10.
+
+Sugato lit. "well-gone." All three designations refer, of course, to the Buddha. It is difficult to render the whole phrase into English without awkwardness.
+
+11.
+
+Lit. "he is sated and brought to peace (or 'cooled')."

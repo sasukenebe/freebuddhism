@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 10:6 Concentration | Samādhi Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+        <div id="sutta">
+            <h2 id="Tens" class="chap">Tens</h2>
+            <h3 id="AN10.6" class="h1">Concentration<br/>
+                  Samādhi Sutta  (AN 10:6)</h3><!--end suttahead-->
+                <p>Then Ven. Ānanda went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One, “Lord, could a monk have an attainment of concentration such that he would neither be percipient of earth with regard to earth, nor of water with regard to water, nor of fire… wind… the dimension of the infinitude of space… the dimension of the infinitude of consciousness… the dimension of nothingness… the dimension of neither perception nor non-perception… this world… nor of the next world with regard to the next world, and yet he would still be percipient?”</p>
+                <p>“Yes, Ānanda, he could.…”</p>
+                <p>“But how, lord, could a monk have an attainment of concentration such that he would neither be percipient of earth with regard to earth…nor of the next world with regard to the next world, and yet he would still be percipient?”</p>
+                <p>“There is the case, Ānanda, where the monk would be percipient in this way: ‘This is peace, this is exquisite—the pacification of all fabrications; the relinquishing of all acquisitions; the ending of craving; dispassion; cessation; unbinding.’ It’s in this way that a monk could have an attainment of concentration such that he would neither be percipient of earth with regard to earth, nor of water with regard to water, nor of fire… wind… the dimension of the infinitude of space… the dimension of the infinitude of consciousness… the dimension of nothingness… the dimension of neither perception nor non-perception… this world… nor of the next world with regard to the next world, and yet he would still be percipient.”</p>
+                <p class="seealso">See also: <a href="../DN/DN11.html">DN 11</a>; <a href="AN9_36.html">AN 9:36—37</a>; <a href="AN11_10.html">AN 11:10</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

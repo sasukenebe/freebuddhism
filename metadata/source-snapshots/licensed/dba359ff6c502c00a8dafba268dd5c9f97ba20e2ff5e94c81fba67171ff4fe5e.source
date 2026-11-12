@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 1:7 Aja | Aja Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud1.7" class="h1">Ud 1:7 Aja (Aja Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Pāva at the Ajakalāpaka [Herd-of-Goats] shrine, the dwelling of the Ajakalāpaka spirit. And on that occasion, in the pitch-black darkness of the night, the Blessed One was sitting in the open air, and the rain was falling in scattered drops.</p>
+              <p>Then the Ajakalāpaka spirit–wanting to cause fear, terror, &amp; horripilation in the Blessed One–went to him and, on arrival, not far from him, three times made a commotion &amp; pandemonium: “Commotion &amp; pandemonium! Commotion &amp; pandemonium! Commotion &amp; pandemonium!–That’s a goblin for you, contemplative!”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>When,</p>
+                <p>with regard to his own qualities,<span class="fn"><a href="#ud1.7note01">1</a></span><!--end fn cite--></p>
+                <p>a brahman is one</p>
+                <p>who has gone beyond,</p>
+                <p>he transcends this goblin</p>
+                <p>and his pandemonium.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud1.7note01">1. <em>Dhammas.</em> This is apparently a reference to skillful and unskillful mental qualities–which would mean that this sutta sides with the passages in the Canon categorizing unbinding not as a dhamma, but as the transcending of all dhammas. (The suttas in general are inconsistent on this point. <a href="../Iti/iti90.html">Iti 90</a>, among others, states clearly that unbinding counts as a dhamma. <a href="../../AN/AN10_58.html">AN 10:58</a>, on the other hand, calls unbinding the ending of all dhammas. <a href="../StNp/StNp5_6.html">Sn 5:6</a> calls the attainment of the goal the transcending of all dhammas, just as <a href="../StNp/StNp4_6.html">Sn 4:6</a> and <a href="../StNp/StNp4_10.html">Sn 4:10</a> state that the arahant has transcended dispassion, said to be the highest dhamma. <a href="../../MN/MN22.html">MN 22</a>, in the famous simile of the raft, states that all dhammas are abandoned at the end of the path.)</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

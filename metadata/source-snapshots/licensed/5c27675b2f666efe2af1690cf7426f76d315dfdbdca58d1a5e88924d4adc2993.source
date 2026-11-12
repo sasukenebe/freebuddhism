@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 2:3 The Stick | Daṇḍa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud2.3" class="h1">Ud 2:3 The Stick (Daṇḍa Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion, a large number of boys on the road between Sāvatthī &amp; Jeta’s Grove were hitting a snake with a stick. Then early in the morning the Blessed One adjusted his under robe and–carrying his bowl &amp; robes–went into Sāvatthī for alms. He saw the large number of boys on the road between Sāvatthī &amp; Jeta’s Grove hitting the snake with a stick.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Whoever hits with a stick</p>
+                <p>beings desiring ease,</p>
+                <p>when he himself is looking for ease,</p>
+                <p>will meet with no ease after death.</p>
+                <div class="verse-add">
+                  <p>Whoever doesn’t hit with a stick</p>
+                  <p>beings desiring ease,</p>
+                  <p>when he himself is looking for ease,</p>
+                  <p>will meet with ease after death.<span class="fn"><a href="#ud2.3note01">1</a></span><!--end fn cite--></p>
+                </div>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud2.3note01">1. These verses are identical with <a href="../Dhp/Ch10.html#dhp131">Dhp 131</a>—132.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

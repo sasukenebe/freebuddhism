@@ -1,0 +1,30 @@
+Ja 231 - The Story about the Shoes
+Translated by Ānandajoti Bhikkhu
+Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/231.htm
+License: CC-BY-SA-4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+Copyright: Ānandajoti Bhikkhu; source gives no separate copyright year.
+License notice: Translated by Ānandajoti Bhikkhu. Publisher: Ancient Buddhist Texts. Copyright: Ānandajoti Bhikkhu; source supplies no separate copyright year for this verse extraction. Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/231.htm Creative Commons Attribution-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-sa/4.0/ Complete page-footer grant text: Creative Commons Attribution-ShareAlike 4.0 License (https://creativecommons.org/licenses/by-sa/4.0/deed.en). The exact source page loads the pinned ABT Footer.js notice granting CC BY-SA 4.0. ABT copyright notice and exceptions: https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm Complete general grant text from the May 2013 copyright notice: everything except for those works covered in the listings above, including the introductions, translations, studies, and notes accompanying most of these works are subject to the following licence: Creative Commons Attribution-ShareAlike 3.0 Unported License. attribution should be made to Anandajoti Bhikkhu. General default licence URL: https://creativecommons.org/licenses/by-sa/3.0/ . The May 2013 copyright notice names a CC BY-SA 3.0 default; the page's explicit 4.0 footer is retained here. The complete exception list is retained in the linked copyright snapshot. The listed third-party editions and ambiguous BJT/GNU Pali database terms are not relabelled by this extraction. Changes: canonical verse extraction; HTML inline styling removed; explicit verse line breaks retained; embedded verse notes retained with added Source note labels. Synopsis, word commentary and site navigation are outside the body scope; preserved in source/comparison evidence. No repeated passages have been expanded or manufactured. Original wording, punctuation and source ellipses remain. Retain attribution, this notice and source/licence links; identify further changes; share adaptations under the same licence; do not impose additional restrictions. No endorsement is implied. Original saved TXT attribution and change notice: Ja 231 The Story about the Shoes Translated by Ānandajoti Bhikkhu Publisher: Ancient Buddhist Texts Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/231.htm Pali basis: Cst4 digitalisation of the Chaṭṭha Saṅgāyaṇa Tipiṭaka (Burmese tradition) Edition note: 1 Pali stanza(s) differ from the site's pinned SuttaCentral Bilara reference (SuttaCentral Bilara Mahāsaṅgīti Pali Sutta edition). The English is paired with the Cst4 Pali printed on the source page; it is not segment-aligned to the site's Pali text. License: CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/) Changes: Pali and English verse extraction and whitespace normalization; word commentary excluded. This English translation and its paired source text are distributed under CC BY-SA 4.0.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: COMPLETE. Complete canonical Jataka verse set in the ABT Cst4-based edition, with paired source Pali and English; source verse notes retained; narrative story, synopsis, word commentary and trailing collection index excluded. COMPLETE is for this verse set, not the complete source page or all 547 Jatakas.
+
+Verse 1 — Pali source
+1. Yathā pi kītā purisassupāhanā
+Sukhassa atthāya, dukhaṁ udabbahe,
+Ghammābhitattā thalasā papīḷitā,
+Tasseva pāde purisassa khādare.
+
+Verse 1 — English
+Just as when someone, buying men’s shoes for ease and use, so suffering could be removed, oppressed by the scorching heat on the feet, they chafe at the feet of that person.
+
+Verse 2 — Pali source
+2. Evam-eva yo dukkulīno anariyo,
+Tumhāka vijjañ-ca sutañ-ca ādiya,
+Tam-eva so tattha sutena khādati,
+Anariyo vuccati pānadūpamo ti.
+
+Source note 2.1 (Pali source)
+Cst: tammāka, which doesn’t make sense.
+
+Verse 2 — English
+So he of bad family, ignoble, stealing this science and learning of yours, being consumed by his learning right there, the ignoble one is like a bad shoe.

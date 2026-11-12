@@ -1,0 +1,32 @@
+Snp 1.5 - Cunda Sutta: To Cunda
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.05.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2000 Thanissaro Bhikkhu.
+License notice: The text of this page ("Cunda Sutta: To Cunda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2000 Thanissaro Bhikkhu. The text of this page ("Cunda Sutta: To Cunda", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 17 December 2013. How to cite this document (a suggested style): "Cunda Sutta: To Cunda" (Sn 1.5), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 17 December 2013, https://www.accesstoinsight.org/tipitaka/kn/snp/snp.1.05.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+[Cunda the smith:]
+
+ "I ask the sage of abundant discernment, awakened, lord of the Dhamma, free of craving, supreme among two-legged beings, best of charioteers: "How many contemplatives are there in the world? Please tell me." 
+
+[The Buddha:]
+
+ "Four contemplatives, Cunda. There isn't a fifth. Being asked face-to-face, I'll explain: the Victor of the path, the teacher of the path, one who lives by the path, & one who corrupts the path." 
+
+[Cunda:]
+
+ "Whom do the Awakened call the Victor of the path [&] one who is an unequalled teacher of the path? Tell me the one who lives by the path, and explain to me one who corrupts the path." 
+
+[The Buddha:]
+
+ "He's crossed over perplexity, his arrow removed, delighting in Unbinding, free of greed, the leader of the world with its devas: one like this the Awakened call the Victor of the path. He here knows the foremost as foremost, who right here shows & analyzes the Dhamma, that sage, a cutter-of-doubt unperturbed: he's called the second of monks, the teacher of the path. Mindful, restrained, he lives by the well-taught Dhamma-principles, path, associating with principles without blame: he's called the third of monks, one who lives by the path. Creating a counterfeit of those with good practices, self-asserting, a corrupter of families,[1] intrusive, deceitful, unrestrained, chaff, going around in disguise: he's one who corrupts the path. Any householder, having ferreted these out — a discerning disciple of those who are noble — knowing they aren't all the same, seeing this, his conviction's not harmed. For how could the corrupt with the un- corrupt, the impure with the pure, be put on a par?" 
+
+Note
+
+1.
+
+A corrupter of families is a monk who ingratiates himself into a family's affections by performing services for them that are inappropriate for a monk to do, thus diverting their faith away from those who live by the Dhamma and Vinaya. For more on this term, see The Buddhist Monastic Code, Volume 1, Sanghadisesa 13.

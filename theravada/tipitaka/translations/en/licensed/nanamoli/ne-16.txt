@@ -1,0 +1,105 @@
+Ne 16 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne16.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+13. The Ninefold Thread in the Mode of Conveying a Clearing-Up
+
+414. Herein, what is the Mode of Conveying a Clearing-Up? [It is stated in] the verse:
+
+“Seeking PTS vp En 101 if in a question answered
+What in the verse did instigate
+Its asking is cleared up or not:
+This Mode Conveys a Clearing-Up”.
+
+415. For instance, in the Parāyana [Chapter of the Suttanipāta] the venerable Ajita asked the Blessed One the question [and received the answer thus:]
+
+“[Tell] what is the world shut in by?
+And wherefore is it not displayed?
+And what is it besmeared with? Say.
+And what will be its greatest fear”?
+
+“By ignorance is the world shut in,
+Ajita” the Blessed One said.
+“’Tis undisplayed through miswishing and neglect.
+And hankering smears it, I say.
+Suffering is its greatest fear”.
+
+416. In the case of the question “[Tell] what is the world shut in by”? the Blessed One [with his answer] “By ignorance is the world shut in” clears up a term but not the instigation. In the case of the question “And wherefore is it not PTS vp Pli 71 displayed”? The Blessed One [with his answer] “’Tis undisplayed through miswishing and neglect” clears up a term but not the instigation. In the case of the question “And what is it besmeared with? Say” the Blessed One [with his answer] “And hankering smears it, I say” clears up a term but not the instigation. [But] in the case of the question “And what will be its greatest fear”? the Blessed One [with his answer] “Suffering is its greatest fear” clears up a term, and the instigation is cleared up too.
+
+That is why the Blessed One said “By ignorance is the world shut in …”.
+
+PTS vp En 102 417.[Again there are the following question and answer:]
+
+“The streams keep streaming everywhere”
+So said the venerable Ajita.
+“What is it that shuts off the streams?
+Tell then, what is restraint of streams,
+Whereby it is that streams are sealed”?
+
+“Whatever streams are in the world,
+Ajita” the Blessed One said
+“They are shut off by mindfulness;
+The streams’ restraint I tell, whereby
+They can be sealed, is understanding”.
+
+418. In the case of the question “The streams keep streaming everywhere; What is it that shuts off the streams”? the Blessed One [with his answer] “Whatever streams are in the world, They are shut off by mindfulness” clears up a term but not the instigation. In the case of the question “Tell then, what is restraint of streams, Whereby it is that streams are sealed”? [with the answer] “the streams’ restraint I tell, whereby They can be sealed, is understanding” the instigation is cleared up.
+
+That is why the Blessed One said “Whatever streams are in the world …”.
+
+419. [Again,] in the case of the question
+
+“Understanding and mindfulness”.
+So said the venerable Ajita
+“And [now], good sir, this name-and-form,
+Tell me then what I ask of you,
+Where does it came to its surcease”?
+
+[with the answer]
+
+“As to the question that you ask,
+Ajita, I [shall] tell you [now].
+Where both this name and form do come
+To their remainderless surcease:
+With cessation of consciousness,
+’Tis here this comes to its surcease”.
+
+the instigation is cleared up.
+
+That PTS vp En 103 is why the Blessed One said “As to the question that you ask …”
+
+420. PTS vp Pli 72 Wherever the instigation is cleared up in this way the question is answered; but wherever the instigation is not cleared up that question is not yet answered.
+
+421. That is why the venerable Mahā-Kaccāna said:
+
+“Seeking if in a question answered
+What in the verse did instigate
+Its asking is cleared up or not:
+This Mode Conveys a Clearing-Up”.
+
+The Mode of Conveying a Clearing-Up is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:23 Gosāla</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag1.23" class="h1">Thag 1:23  Gosāla</h4>
+            <div class="verse">
+              <p>I—having eaten honey-rice</p>
+              <p>in a bamboo patch</p>
+              <p>and rightly grasping the aggregates’<span class="fn"><a href="#thag1.23note01">1</a></span><!--end fn cite--></p>
+              <p>arising-disbanding—</p>
+              <p class="v1">will return to the hillside, intent</p>
+              <p class="v1">on seclusion.</p>
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.23note01">1. The aggregates of form, feeling, perception, fabrication, and consciousness. See <a href="../../SN/SN22_48.html">SN 22:48</a>, <a href="../../SN/SN22_59.html">SN 22:59</a>, and <a href="../../SN/SN22_79.html">SN 22:79</a>.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,122 @@
+Ne 19 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne19.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+16. The Ninefold Thread in the Mode of Conveying a Co-ordination
+
+465. PTS vp Pli 81 Herein, what is the Mode of Conveying a Co-ordination? [It is this:]
+
+“Ideas with those whose roots they are,
+And those shown by the Sage to have
+One meaning, should be co-ordinated:
+This Mode Conveys Co-ordination”.
+
+466. As many footings as furnish ways of entry should all be co-ordinated with any single footing [mentioned], in the same way as, in the Mode of Conveying a Conversion, several footings are made to furnish ways of entry.
+
+467. Herein, co-ordination is of four kinds, namely (i) footing, (ii) synonym, (iii) keeping in being, and (iv) abandoning.
+
+[(i) Footing]
+
+468. Herein, what is co-ordination of footing?
+
+No doing any kind of evil,
+Perfecting profitable skill,
+And purifying one’s own heart:
+This is the Buddhas’ Dispensation.
+
+469. What is the footing for that? The three kinds of good conduct, namely bodily good conduct, verbal good conduct, and mental good conduct. These are a footing.
+
+PTS vp En 115 470. Herein, any bodily and verbal good conduct are the virtue category. In the case of mental good conduct, any uncovetousness and non-ill-will are the concentration category, and any right view is the understanding category. These are a footing.
+
+471. Herein, the virtue category and the concentration category are quiet, and the understanding category is insight. These are a footing.
+
+472. Herein, the fruit of quiet is the heart-deliverance due to fading of lust, and the fruit of insight is the understanding-deliverance due to fading of ignorance. These are a footing.
+
+473. The (wood) is the footing for the (woodedness). What is the “wood” and what is the “woodedness”? The “wood” means the five strands of sensual desire, while the “woodedness” means craving. This is a footing.
+
+474. PTS vp Pli 82 The “wood” means the apprehending, by signs, of “woman” or “man”, while the “woodedness” is the apprehending of such and such limbs as features thus “Oh an eye! Oh an ear! Oh a nose! Oh a tongue! Oh a body!”. This is a footing.
+
+475. The “wood” means the undiagnosed bases in oneself and external thereto, and the “woodedness” means any fetter that arises dependent on these. This is a footing.
+
+476. The “wood” is the underlying-tendency and the “woodedness” is the manifest-obsession. This is a footing.
+
+477. That is why the Blessed One said:
+
+Having cut down the wood and woodedness.
+
+This is co-ordination of footing.
+
+[(ii) Synonym]
+
+PTS vp En 116 478. Herein, what is co-ordination of synonym? The heart-deliverance due to fading of lust is the Initiate’s fruit, and the understanding-deliverance due to fading of ignorance is the Adept’s fruit. These are synonyms.
+
+479. The heart-deliverance due to fading of lust is the Non-Returner’s fruit, and the understanding-deliverance due to fading of ignorance is arahantship, the highest fruit. These are synonyms.
+
+480. The heart-deliverance due to fading of lust surmounts the element of sensual desire, and the understanding-deliverance due to fading of ignorance surmounts the threefold element [of sensual-desire, form, and formless existence]. These are synonyms.
+
+481. Understanding faculty, understanding power, training in the higher understanding, understanding category, investigation-of-ideas enlightenment factor, equanimity enlightenment factor, knowledge, right view, judgment, adjudgment, conscience, insight, knowledge of the True Idea: all these are synonyms.
+
+This is co-ordination of synonym.
+
+[(iii) Keeping in being]
+
+482. Herein, what is co-ordination of keeping-in-being? It is according as the Blessed One said: (Therefore, bhikkhus, abide contemplating the body as a body, ardent, aware and mindful, guiding out covetousness and grief about the world).
+
+PTS vp Pli 83 Now “ardent” means the energy faculty, “aware” the understanding faculty, “mindful” the mindfulness faculty, and “guiding out covetousness and grief about the world” the concentration faculty.
+
+So when someone abides contemplating the body as a body, the four foundations of mindfulness come to fulfilment through keeping in being. For what reason? Because of the four faculties’ state of single characteristic.
+
+483. When the four foundations of mindfulness are kept in being, the four right endeavours come to fulfilment through keeping in being. When the four right endeavours are kept in being, the four bases for success (roads to power) come to fulfilment through keeping in being. When the four bases for success are kept in being, the five faculties come to fulfilment through keeping in being … And so all. For what reason? Because all the ideas that PTS vp En 117 lead to enlightenment, that partake of enlightenment, have a single characteristic in the characteristic of outlet. They come to fulfilment through keeping in being owing to singleness of characteristic.
+
+This is co-ordination of keeping in being.
+
+[(iv) Abandoning]
+
+484. Herein, what is co-ordination of abandoning?
+
+One who abides contemplating the body as a body abandons the perversion that there is beauty in the ugly, physical nutriment comes within his diagnosis, he is without assuming in regard to sensual-desire assuming, he is unbound in regard to the bond of sensual desire, he is dissociated in regard to the bodily tie of covetousness, he is taintless in regard to the taint of sensual desire, he has crossed over the flood of sensual desire, he is barbless as regards the barb of lust, form as a steadying-point for consciousness passing on comes within his diagnosis, his lust for the form element is abandoned, and he does not go a bad way through will.
+
+485. One who abides contemplating feelings as feelings abandons the perversion that there is pleasure in the painful, contact as nutriment comes within his diagnosis, he is without assuming in regard to existence-assuming, he is unbound in regard to the bond of existence, he is dissociated in regard to the bodily tie of ill-will, he is taintless in regard to the taint of existence, he has PTS vp Pli 84 crossed over the flood of existence, he is barbless in regard to the barb of hate, feeling as a steadying-point for consciousness passing on comes within his diagnosis, his lust for the feeling element is abandoned, and he does not go a bad way through hate.
+
+486. One who abides contemplating cognizance as cognizance abandons the perversion that there is permanence in the impermanent, consciousness as nutriment comes within his diagnosis, he is PTS vp En 118 without assuming in regard to wrong-view assuming, he is unbound in regard to the bond of views, he is dissociated in regard to the bodily tie of misapprehension of virtue and duty, he is taintless in regard to the taint of views, he has crossed over the flood of views, he is barbless in regard to the barb of conceit, perception as a steadying-point for consciousness passing on comes within his diagnosis, his lust for the perception-element is abandoned, and he does not go a wrong way through fear.
+
+487. One who abides contemplating ideas as ideas abandons the perversion that there is self in the not-self, mind-choice as nutriment comes within his diagnosis, he is without assuming in regard to self-doctrine assuming, he is unbound in regard to the bond of ignorance, he is dissociated in regard to the bodily tie of insistence that “only this is the truth”, he is taintless in regard to the taint of ignorance, he has crossed over the flood of ignorance, he is barbless in regard to the barb of delusion, determinations as a steadying-point for consciousness passing on comes within his diagnosis, his lust for the determinations-element is abandoned, and he does not go a bad way through delusion.
+
+This is co-ordination of abandoning.
+
+488. That is why the venerable Mahā-Kaccāna said:
+
+“Ideas with those whose roots they are,
+And those shown by the Sage to have
+One meaning, should be co-ordinated:
+This Mode Conveys Co-ordination”.
+
+The Mode of Conveying a Co-ordination is ended.
+
+The 16 Modes of Conveying in Separate Treatment are ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

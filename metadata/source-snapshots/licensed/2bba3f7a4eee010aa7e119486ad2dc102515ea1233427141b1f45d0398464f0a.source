@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:31 Wheels | Cakka Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.31" class="h1">Wheels<br/>
+                  Cakka Sutta  (AN 4:31)</h3><!--end suttahead-->
+                <p>“There are these four wheels, endowed with which human beings &amp; devas develop a four-wheeled prosperity; endowed with which human beings &amp; devas in no long time achieve greatness &amp; abundance in terms of wealth. Which four? Living in a civilized land, associating with people of integrity, directing oneself rightly, and having done merit in the past. These are the four wheels, endowed with which human beings &amp; devas develop a four-wheeled prosperity; endowed with which human beings &amp; devas in no long time achieve greatness &amp; abundance in terms of wealth.</p>
+                <div class="verse">
+                  <p>“If you dwell in a civilized place,</p>
+                  <p>make friends with the noble ones,</p>
+                  <p>rightly direct yourself,</p>
+                  <p>and have made merit in the past,</p>
+                  <p class="v2">there will roll to you</p>
+                  <p class="v2">crops, wealth, status, honor,</p>
+                  <p class="v2">&amp; happiness.”</p>
+                </div><!--end verse-->
+                <p class="seealso">See also: <a href="AN8_54.html">AN 8:54</a>; <a href="../KN/StNp/StNp2_4.html">Sn 2:4</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

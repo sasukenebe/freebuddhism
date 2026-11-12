@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 7:3 Attached to Sensual Pleasures (1) | Kāmesu Satta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud7.3" class="h1">Ud 7:3 Attached to Sensual Pleasures (1) (Kāmesu Satta Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion, most of the people in Sāvatthī were excessively attached to sensual pleasures. They lived infatuated with, greedy for, addicted to, fastened to, absorbed in sensual pleasures. Then in the early morning, a large number of monks adjusted their under robes and–carrying their bowls &amp; robes–went into Sāvatthī for alms. Having gone for alms in Sāvatthī, after the meal, returning from their alms round, they went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, they said to the Blessed One, “Most of the people in Sāvatthī are excessively attached to sensual pleasures. They live infatuated with, greedy for, addicted to, fastened to, absorbed in sensual pleasures.”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Attached to sensual pleasures,</p>
+                <p>attached to sensual ties,</p>
+                <p>seeing no blame in the fetter,</p>
+                <p>never will those attached to the fetter, the tie,</p>
+                <p>cross over the flood</p>
+                <p>so great &amp; wide.</p>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

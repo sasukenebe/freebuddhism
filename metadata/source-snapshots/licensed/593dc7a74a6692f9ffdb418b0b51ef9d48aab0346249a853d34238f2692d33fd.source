@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 35:135 The Opportunity | Khaṇa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN35.135" class="h1">The Opportunity<br/>
+                Khaṇa Sutta  (SN 35:135)</h2>
+              <p>“It’s a gain for you, monks, a great gain, that you’ve gained the opportunity to live the holy life. I have seen a hell named ‘Six Media of Contact.’ Whatever form one sees there with the eye is undesirable, never desirable; displeasing, never pleasing; disagreeable, never agreeable. Whatever sound one hears there with the ear… Whatever aroma one smells there with the nose… Whatever flavor one tastes there with the tongue… Whatever tactile sensation one touches there with the body… Whatever idea one cognizes there with the intellect is undesirable, never desirable; displeasing, never pleasing; disagreeable, never agreeable.</p>
+              <p>“It’s a gain for you, monks, a great gain, that you’ve gained the opportunity to live the holy life. I have seen a heaven named ‘Six Media of Contact.’ Whatever form one sees there with the eye is desirable, never undesirable; pleasing, never displeasing; agreeable, never disagreeable. Whatever sound one hears there with the ear… Whatever aroma one smells there with the nose… Whatever flavor one tastes there with the tongue… Whatever tactile sensation one touches there with the body… Whatever idea one cognizes there with the intellect is desirable, never undesirable; pleasing, never displeasing; agreeable, never disagreeable.</p>
+              <p>“It’s a gain for you, monks, a great gain, that you’ve gained the opportunity to live the holy life.”<span class="fn"><a href="#sn35.135note01">1</a></span><!--end fn cite--></p>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="sn35.135note01">1. The message here is that in realms where sense objects are totally disagreeable or totally agreeable it is very difficult to practice the holy life, for in the former, one is too distracted by pain; in the latter, too distracted by pleasure.</p>
+              </div><!--end notes-->
+              <p class="seealso">See also: <a href="../MN/MN130.html">MN 130</a>; <a href="SN9_9.html">SN 9:9</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

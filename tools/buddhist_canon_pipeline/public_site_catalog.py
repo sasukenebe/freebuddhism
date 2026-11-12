@@ -19,7 +19,7 @@ PREFERRED_TRANSLATORS = ("candana", "sujato")
 
 
 def edition_priority(record: dict) -> tuple:
-    version = record.get("version", "")
+    version = record.get("preference_id", record.get("version", ""))
     return (PREFERRED_TRANSLATORS.index(version) if version in PREFERRED_TRANSLATORS else len(PREFERRED_TRANSLATORS),
             record.get("version_label", "").casefold())
 

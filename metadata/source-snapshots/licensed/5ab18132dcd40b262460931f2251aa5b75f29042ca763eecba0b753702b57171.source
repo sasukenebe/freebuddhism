@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 25:2 Forms | Rūpa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN25.1" class="h1"><a href="SN25_1.html">The Eye<br/>
+                  Cakkhu Sutta  (SN 25:1)</a></h2>
+              <p>Near Sāvatthī. “Monks, the eye is inconstant, changeable, alterable. The ear… The nose… The tongue… The body… The mind is inconstant, changeable, alterable.</p>
+              <h2 id="SN25.2" class="h1 first">Forms<br/>
+                Rūpa Sutta  (SN 25:2)</h2>
+              <p>Near Sāvatthī. “Monks, forms are inconstant, changeable, alterable. Sounds.… Aromas.… Flavors.… Tactile sensations.… Ideas are inconstant, changeable, alterable.…</p>
+              <p>“One who has conviction &amp; belief that these phenomena are this way is called a faith-follower: one who has entered the orderliness of rightness, entered the plane of people of integrity, transcended the plane of the run-of-the-mill. He is incapable of doing any deed by which he might be reborn in hell, in the animal womb, or in the realm of hungry ghosts. He is incapable of passing away until he has realized the fruit of stream-entry.</p>
+              <p>“One who, after pondering with a modicum of discernment, has accepted that these phenomena are this way is called a Dhamma-follower: one who has entered the orderliness of rightness, entered the plane of people of integrity, transcended the plane of the run-of-the-mill. He is incapable of doing any deed by which he might be reborn in hell, in the animal womb, or in the realm of hungry ghosts. He is incapable of passing away until he has realized the fruit of stream-entry.</p>
+              <p>“One who knows and sees that these phenomena are this way is called a stream-enterer, steadfast, never again destined for states of woe, headed for self-awakening.”</p>
+              <p class="seealso">See also: <a href="../MN/MN70.html">MN 70</a></p>
+              <h2 id="SN25.3" class="h1 first"><a href="SN25_3.html">Consciousness<br/>
+                  Viññāṇa Sutta  (SN 25:3)</a></h2>
+              <p>Near Sāvatthī. “Monks, eye-consciousness is inconstant, changeable, alterable. Ear-consciousness.… Nose-consciousness.… Tongue-consciousness.… Body-consciousness.… Intellect-consciousness is inconstant, changeable, alterable.…</p>
+              <h2 id="SN25.4" class="h1 first"><a href="SN25_4.html">Contact<br/>
+                  Phassa Sutta  (SN 25:4)</a></h2>
+              <p>Near Sāvatthī. “Monks, eye-contact is inconstant, changeable, alterable. Ear-contact.… Nose-contact.… Tongue-contact.… Body-contact.… Intellect-contact is inconstant, changeable, alterable…</p>
+              <h2 id="SN25.5" class="h1 first"><a href="SN25_5.html">Feeling<br/>
+                  Vedanā Sutta  (SN 25:5)</a></h2>
+              <p>Near Sāvatthī. “Monks, feeling born of eye-contact is inconstant, changeable, alterable. Feeling born of ear-contact.… Feeling born of nose-contact.… Feeling born of tongue-contact.… Feeling born of body-contact.… Feeling born of intellect-contact is inconstant, changeable, alterable…</p>
+              <h2 id="SN25.6" class="h1 first"><a href="SN25_6.html">Perception<br/>
+                  Saññā Sutta  (SN 25:6)</a></h2>
+              <p>Near Sāvatthī. “Monks, perception of forms is inconstant, changeable, alterable. Perception of sounds.… Perception of smells.… Perception of tastes.… Perception of tactile sensations.… Perception of ideas is inconstant, changeable, alterable.…</p>
+              <h2 id="SN25.7" class="h1 first"><a href="SN25_7.html">Intention<br/>
+                Cetanā Sutta  (SN 25:7)</a></h2>
+              <p>Near Sāvatthī. “Monks, intention for forms is inconstant, changeable, alterable. Intention for sounds.… Intention for smells.… Intention for tastes.… Intention for tactile sensations.… Intention for ideas is inconstant, changeable, alterable.…</p>
+              <h2 id="SN25.8" class="h1 first"><a href="SN25_8.html">Craving<br/>
+                  Taṇhā Sutta  (SN 25:8)</a></h2>
+              <p>Near Sāvatthī. “Monks, craving for forms is inconstant, changeable, alterable. Craving for sounds.… Craving for smells.… Craving for tastes.… Craving for tactile sensations.… Craving for ideas is inconstant, changeable, alterable.…</p>
+              <h2 id="SN25.9" class="h1 first"><a href="SN25_9.html">Properties<br/>
+                  Dhātu Sutta  (SN 25:9)</a></h2>
+              <p>Near Sāvatthī. “Monks, the earth property is inconstant, changeable, alterable. The liquid property.… The fire property.… The wind property.… The space property.… The consciousness property is inconstant, changeable, alterable.…</p>
+              <h2 id="SN25.10" class="h1 first"><a href="SN25_10.html">Aggregates<br/>
+                  Khandha Sutta  (SN 25:10)</a></h2>
+              <p>Near Sāvatthī. “Monks, form is inconstant, changeable, alterable. Feeling.… Perception.… Fabrications.… Consciousness is inconstant, changeable, alterable.</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

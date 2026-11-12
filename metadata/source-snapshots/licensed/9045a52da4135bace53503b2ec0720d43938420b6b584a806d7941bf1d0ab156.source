@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 2:4 Veneration | Sakkāra Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud2.4" class="h1">Ud 2:4 Veneration (Sakkāra Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion the Blessed One was worshipped, revered, honored, venerated, and given homage–a recipient of robes, alms food, lodgings, &amp; medicinal requisites for the sick. The community of monks was also worshipped, revered, honored, venerated, and given homage–a recipient of robes, alms food, lodgings, &amp; medicinal requisites for the sick. But the wanderers of other sects were not worshipped, revered, honored, venerated, or given homage; nor were they recipients of robes, alms food, lodgings, or medicinal requisites for the sick. So the wanderers of other sects, unable to stand the veneration given to the Blessed One and the community of monks, on seeing monks in village or wilderness, would insult, revile, irritate, &amp; harass them with discourteous, abusive language.</p>
+              <p>Then a large number of monks went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, they said to him, “At present the Blessed One is worshipped, revered, honored, venerated, and given homage–a recipient of robes, alms food, lodgings, &amp; medicinal requisites for the sick. The community of monks is also worshipped, revered, honored, venerated, and given homage–a recipient of robes, alms food, lodgings, &amp; medicinal requisites for the sick. But the wanderers of other sects are not worshipped, revered, honored, venerated, or given homage; nor are they recipients of robes, alms food, lodgings, or medicinal requisites for the sick. So the wanderers of other sects, unable to stand the veneration given to the Blessed One and the community of monks, on seeing monks in village or wilderness, insult, revile, irritate, &amp; harass them with discourteous, abusive language.”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>When in contact with pleasure or pain</p>
+                <p class="v2">in village or wilderness,</p>
+                <p>don’t take it as yours or as others’.</p>
+                <p>Contacts make contact</p>
+                <p class="v2">dependent on a sense of acquisition.</p>
+                <p>Where there’s no sense of acquisition,</p>
+                <p class="v2">contacts would make contact</p>
+                <p class="v4">with what?</p>
+              </div>
+              <p class="seealso">See also: <a href="../../DN/DN21.html">DN 21</a>; <a href="../../MN/MN28.html">MN 28</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

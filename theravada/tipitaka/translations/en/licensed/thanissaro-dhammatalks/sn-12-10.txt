@@ -1,0 +1,119 @@
+SN 12.10 - SN 12:10 About Gotama | Gotama Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN12_10.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+About Gotama
+ Gotama Sutta (SN 12:10)
+
+“Monks, before my self-awakening, when I was still just an unawakened bodhisatta, the realization came to me: ‘How this world has fallen on difficulty! It is born, it ages, it dies, it falls away & rearises, but it doesn’t discern the escape from this stress, from this aging & death. O when will it discern the escape from this stress, from this aging & death?’
+
+“Then the thought occurred to me, ‘Aging-&-death exists when what exists? From what as a requisite condition comes aging-&-death?’ From my appropriate attention there came the breakthrough of discernment: ‘Aging-&-death exists when birth exists.1 From birth as a requisite condition comes aging-&-death.’
+
+Then the thought occurred to me, ‘Birth exists when what exists? From what as a requisite condition comes birth?’ From my appropriate attention there came the breakthrough of discernment: ‘Birth exists when becoming exists. From becoming as a requisite condition comes birth.’ …
+
+“‘Becoming exists when clinging exists.…
+
+“‘Clinging exists when craving exists.…
+
+“‘Craving exists when feeling exists.…
+
+“‘Feeling exists when contact exists.…
+
+“‘Contact exists when the six sense media exist.…
+
+“‘The six sense media exist when name-&-form exists.…
+
+“‘Name-&-form exists when consciousness exists.…
+
+“‘Consciousness exists when fabrications exist.…
+
+Then the thought occurred to me, ‘Fabrications exist when what exists? From what as a requisite condition come fabrications?’ From my appropriate attention there came the breakthrough of discernment: ‘Fabrications exist when ignorance exists. From ignorance as a requisite condition come fabrications.
+
+“‘Thus:
+
+From ignorance as a requisite condition come fabrications.
+
+From fabrications as a requisite condition comes consciousness.
+
+From consciousness as a requisite condition comes name-&-form.
+
+From name-&-form as a requisite condition come the six sense media.
+
+From the six sense media as a requisite condition comes contact.
+
+From contact as a requisite condition comes feeling.
+
+From feeling as a requisite condition comes craving.
+
+From craving as a requisite condition comes clinging/sustenance.
+
+From clinging/sustenance as a requisite condition comes becoming.
+
+From becoming as a requisite condition comes birth.
+
+From birth as a requisite condition, then aging & death, sorrow, lamentation, pain, distress, & despair come into play. Such is the origination of this entire mass of stress & suffering. Origination, origination.’ Vision arose, clear knowing arose, discernment arose, knowledge arose, illumination arose within me with regard to things never before heard.
+
+“Then the thought occurred to me, ‘Aging & death don’t exist when what doesn’t exist? From the cessation of what comes the cessation of aging & death?’ From my appropriate attention there came the breakthrough of discernment: ‘Aging-&-death doesn’t exist when birth doesn’t exist. From the cessation of birth comes the cessation of aging & death.’
+
+“Then the thought occurred to me, ‘Birth doesn’t exist when what doesn’t exist? From the cessation of what comes the cessation of birth?’ From my appropriate attention there came the breakthrough of discernment: ‘Birth doesn’t exist when becoming doesn’t exist. From the cessation of becoming comes the cessation of birth.’ …
+
+“‘Becoming doesn’t exist when clinging doesn’t exist.…
+
+“‘Clinging doesn’t exist when craving doesn’t exist.…
+
+“‘Craving doesn’t exist when feeling doesn’t exist.…
+
+“‘Feeling doesn’t exist when contact doesn’t exist.…
+
+“‘Contact doesn’t exist when the six sense media don’t exist.…
+
+“‘The six sense media don’t exist when name-&-form doesn’t exist.…
+
+“‘Name-&-form doesn’t exist when consciousness doesn’t exist.…
+
+“‘Consciousness doesn’t exist when fabrications don’t exist.…
+
+Then the thought occurred to me, ‘Fabrications don’t exist when what doesn’t exist? From the cessation of what comes the cessation of fabrications?’ From my appropriate attention there came the breakthrough of discernment: ‘Fabrications don’t exist when ignorance doesn’t exist. From the cessation of ignorance comes the cessation of fabrications.
+
+“‘Thus:
+
+From the cessation of ignorance comes the cessation of fabrications.
+
+From the cessation of fabrications comes the cessation of consciousness.
+
+From the cessation of consciousness comes the cessation of name-&-form.
+
+From the cessation of name-&-form comes the cessation of the six sense media.
+
+From the cessation of the six sense media comes the cessation of contact.
+
+From the cessation of contact comes the cessation of feeling.
+
+From the cessation of feeling comes the cessation of craving.
+
+From the cessation of craving comes the cessation of clinging/sustenance.
+
+From the cessation of clinging/sustenance comes the cessation of becoming.
+
+From the cessation of becoming comes the cessation of birth. From the cessation of birth, then aging & death, sorrow, lamentation, pain, distress, & despair all cease. Such is the cessation of this entire mass of stress & suffering. Cessation, cessation.’ Vision arose, clear knowing arose, discernment arose, knowledge arose, illumination arose within me with regard to things never before heard.”
+
+Note
+
+1. The statements, “X exists when Y exists” and “X doesn’t exist when Y doesn’t exist” appear as part of the general causal principle—idappaccayatā, this/that conditionality—underlying dependent co-arising as a whole. In that principle, these statements are paired with two other statements: “From the arising of X comes the arising of Y” and “From the cessation of X comes the cessation of Y.” This latter pair of statements is expressed in this sutta by the formulae, “From X as a requisite condition comes Y” and “From the cessation of X comes the cessation of Y.”
+
+The first pair of statements can be read in two ways, loosely and precisely. Read loosely, they can mean that the existence of X creates the conditions for Y eventually to exist; when X goes out of existence, that creates the conditions for Y eventually to go out of existence. Read in this way, the statements are equivalent with the second pair of statements. The resulting interpretation of this/that conditionality, however, has very little explanatory power, for it cannot account for the Buddha’s rejection of determinism (see MN 101 and AN 3:62), nor can it account for the complexity of feedback loops in the Buddha’s detailed descriptions of causality.
+
+Read as precise statements, however, these statements can mean that Y will come into existence simultaneously with X’s coming into existence and that Y will go out of existence simultaneously with X’s going out of existence. Read in this way, this/that conditionality contains the interplay of two fairly different causal principles, which goes a great way toward explaining both the complexity and the non-deterministic nature of the causal relationships described in the Buddha’s teachings. (See the Introduction to The Wings to awakening for a discussion of this point.)
+
+However, it has been argued that this second reading is invalid because it obviously does not apply to the statement that aging-&-death exist when birth exists, for the aging and death of a being can obviously occur many years after its birth. This argument, however, ignores the possibility that the Buddha in this passage is referring to the arising, decay, and passing away of momentary mind-states, which can occur so quickly that the process of aging-&-death on this level would occur simultaneously with the process of birth.
+
+This interpretation is supported by two considerations. The first is that the Buddha terms this insight a “breakthrough of discernment,” which would hardly apply to the general observation that aging and death follow on birth. The second consideration is that in SN 23:2, the Buddha states that one becomes a “being” whenever one gets caught up in desire for any of the aggregates. Because this is a purely mental process, and because individual aggregates and their attendant desires can arise and pass away very quickly—SN 22:95 compares the arising and passing away of feelings with the evanescent appearance and disappearance of bubbles caused by rain falling on a body of water—the aging-&-death of a “being” on this level could very easily occur simultaneously with its birth.
+
+See also: SN 12:65

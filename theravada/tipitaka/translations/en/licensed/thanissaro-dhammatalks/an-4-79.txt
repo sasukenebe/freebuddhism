@@ -1,0 +1,27 @@
+AN 4.79 - AN 4:79 Trade | Vaṇijja Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/AN/AN4_79.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Trade
+ Vaṇijja Sutta (AN 4:79)
+
+Then Ven. Sāriputta went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “What is the reason, lord, what is the cause why a certain trade, when engaged in by some people, turns out a failure? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out not as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out better than intended?”
+
+“There is the case, Sāriputta, where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he doesn’t give what he offered. If he passes away from there and comes here, then whatever trade he engages in, it turns out a failure.
+
+“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he gives him something other than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out not as intended.
+
+“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out as intended.
+
+“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him more than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out better than intended.
+
+“This is the reason, Sāriputta, this is the cause why a certain trade, when engaged in by some people, turns out a failure; why the same sort of trade, when engaged in by other people, turns out not as intended; why the same sort of trade, when engaged in by other people, turns out as intended; why the same sort of trade, when engaged in by other people, turns out better than intended.”
+
+See also: AN 5:177

@@ -1,0 +1,80 @@
+Ne 20 - 4. Chapter ii 16 Modes of Conveying: Combined Treatment
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne20.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+4. Chapter ii 16 Modes of Conveying: Combined Treatment
+
+PTS vp En 119 489. PTS vp Pli 85 It was said as follows:
+
+“Sixteen Conveyings first, surveying
+With Plotting then of the Directions,
+And having collected with the Hook,
+Three Guide-Lines demonstrate a Thread”.
+
+490. Now where is a demonstration of that to be found? In the Modes of Conveying in Combined Treatment.
+
+[1]
+
+491. Herein, what is the Mode of Conveying a Teaching in Combined Treatment? [It is, for example, as follows]
+
+With an unguarded cognizance,
+Encumbered by wrong view, oppressed
+By lethargy and drowsiness,
+One travels on in Mara’s power.
+
+492. What does “with an unguarded cognizance” teach? Negligence. That is the state of Mortality.
+
+493.“Encumbered by wrong view”: one is called “encumbered by wrong view” when he sees permanence in the impermanent. That is a perversion. Now what is the characteristic of a perversion? A perversion has the characteristic of distorted apprehension. What does it pervert? Three ideas, namely perception, cognizance, and view. What does it cause perversion in? The four grounds for self-hood. [It does so] as follows (He sees form as self, or self as possessed of form, or form in self or self in form) PTS vp En 120 . Likewise with feeling, perception, determinations, and consciousness.
+
+494. Herein, form is the first ground for perversion, namely that there is beauty in the ugly; feeling is the second ground for perversion, namely that there is pleasure in the painful; perception and determinations are the third ground for perversion, namely that there is self in the not-self; and consciousness is the fourth ground for perversion, namely that there is permanence in the impermanent.
+
+495. PTS vp Pli 86 Two ideas are corruptions of cognizance: they are craving and ignorance. Cognizance shut in (hindered) by craving is perverted by the two perversions that there is beauty in the ugly and that there is pleasure in the painful. Cognizance shut in (hindered) by ignorance is perverted by the two perversions that there is permanence in the impermanent and that there is self in the not-self.
+
+496. Herein, any perversion of view sees past form as self, sees past feeling … past perception … past determinations … sees past consciousness as self.
+
+497. Herein, any perversion of craving expectantly relishes future form, expectantly relishes future feeling … future perception … future determinations, expectantly relishes future consciousness.
+
+498. Two ideas are imperfections of cognizance, they are craving and ignorance. [It is when] purified from these that cognizance is purified.
+
+499. Of those who have ignorance for their hindrance and craving for their fetter no first beginning is evident as they run on and on and go the roundabout, now in hell, now among animals, now in the ghost realm, now in the body of the Asura Demons, now among gods, now among men.
+
+500.“Oppressed by lethargy and drowsiness”: lethargy is any unhealthiness, unwieldiness, of cognizance; drowsiness is any sloth of the body.
+
+501.“One travels on in Māra’s power”: he travels on in the power of Māra (the Death-Dealer) as Defilement and Māra as Creature; for he faces the roundabout [of births].
+
+502. Now these two Truths have been taught by the Blessed One: Suffering and its Origin. The Blessed One teaches the True Idea for their diagnosis and abandoning: for the diagnosis of Suffering PTS vp En 121 and for the abandoning of its Origin. That by way of which one diagnoses and that by way of which one abandons is the Path. The abandoning of craving and of ignorance is Cessation. These are the four Truths.
+
+503. That is why the Blessed One said “With an unguarded cognizance …”.
+
+504. That is why the venerable Mahā-Kaccāna said:
+
+“Gratification, Disappointment,
+Escape, Fruit, Means, the Blessed One’s
+Injunction to devotees: this Mode
+Is the Conveying of a Teaching”.
+
+The Mode of Conveying a Teaching in Combined Treatment is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,38 @@
+SN 12.11 - Ahara Sutta: Nutriment
+Translated by Nyanaponika Thera
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.011.nypo.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.011.nypo.html#F_termsOfUse
+Copyright: ©1981 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1981 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From The Four Nutriments of Life, by Nyanaponika Thera (Kandy: Buddhist Publication Society, 1981). Copyright © 1999 Buddhist Publication Society. Used with permission. Last revised for Access to Insight on 13 June 2010. How to cite this document (a suggested style): "Ahara Sutta: Nutriment" (SN 12.11), translated from the Pali by Nyanaponika Thera. Access to Insight (BCBS Edition), 13 June 2010, https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.011.nypo.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+At Savatthi.
+
+"There are, O monks, four nutriments for the sustenance of beings born, and for the support of beings seeking birth. What are the four?
+
+"Edible food, coarse and fine; secondly, sense-impression; thirdly, volitional thought; fourthly, consciousness.
+
+"Of these four nutriments, O monks, what is their source, what is their origin, from what are they born, what gives them existence?
+
+"These four nutriments, O monks, have craving as their cause, have craving as their origin, are born of craving, and craving gives them existence.
+
+"And this craving, O monks, what is its source, what its origin, from what is it born, what gives it existence? Craving has feeling as its source and origin, it is born of feeling, and feeling gives existence to it.
+
+"And this feeling, O monks, what is its source and origin, from what is it born and what gives existence to it? Feeling has sense-impression as its source and origin...
+
+"And this sense-impression, O monks, what is its source...? sense-impression has the six sense-bases as its source and origin...
+
+"And these six sense-bases, O monks, what is their source...? The six sense-bases have mind-and-body as their source and origin...
+
+"And this mind-and-body, O monks, what is its source...? Mind-and-body has consciousness as its source and origin...
+
+"And this consciousness, O monks, what is its source...? Consciousness has kamma-formations as its source and origin...
+
+"And these kamma-formations, O monks, what is their source and origin, from what are they born, what gives existence to them? Kamma-formations have ignorance as their source and origin, they are born of ignorance and ignorance gives existence to them.
+
+"Thus, O monks, through ignorance conditioned are kamma-formations; through the kamma-formations conditioned is consciousness; through consciousness conditioned is mind-and-body; through mind-and-body conditioned are the six sense-bases; through the six sense-bases conditioned is sense-impression; through sense-impression conditioned is feeling, through feeling conditioned is craving; through craving conditioned is clinging; through clinging conditioned is becoming; through becoming conditioned is birth; through birth conditioned are decay and death, sorrow, lamentation, pain, grief and despair. Thus arises this whole mass of suffering."
+
+See also: SN 12.12; SN 12.31; SN 12.63; SN 12.64; AN 10.27; The Four Nutriments of Life by Nyanaponika Thera.

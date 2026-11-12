@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 7:6 The Ending of Craving | Taṇhākhaya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud7.6" class="h1">Ud 7:6 The Ending of Craving (Taṇhākhaya Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion Ven. Aññāta Koṇḍañña<span class="fn"><a href="#ud7.6note01">1</a></span><!--end fn cite--> was sitting not far from the Blessed One, his legs crossed, his body held erect, reflecting on [his] release through the total ending of craving. The Blessed One saw Ven. Aññāta Koṇḍañña sitting not far away, his legs crossed, his body held erect, reflecting on [his] release through the total ending of craving.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>For someone with no root, no soil, no leaves</p>
+                <p class="v2">–how creepers?</p>
+                <p>Who’s fit to criticize him?–</p>
+                <p>the enlightened one freed</p>
+                <p class="v4">from bonds.</p>
+                <p class="v2">Even devas praise him.</p>
+                <p class="v2">Even by Brahmā he’s praised.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud7.6note01">1. The Buddha’s first disciple. See <a href="../../SN/SN56_11.html">SN 56:11</a>.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

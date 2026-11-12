@@ -10,7 +10,7 @@ do not make the reader decode storage or internal numbering terminology.
 
 ## Current result
 
-The latest November 9 live check finds 875 Candana reader entries: 452 AN Book One,
+The latest November 10 live check finds 875 Candana reader entries: 452 AN Book One,
 194 Book Two, 156 Book Three and all 73 Sutta Nipāta entries. All 875 live HTML
 bodies match their pinned TXT sources. The follow-up deploys source 00a943e1 at
 production pin 7b13d45, adding AN 3.156 to the preceding 874-reader release.
@@ -19,9 +19,11 @@ Later source-only permission-policy and review notes do not change the live pin.
 
 ### AN Book Three follow-up
 
-The separate mapping review is finished and its saved input hashes, 27 output files
-and 23 tests verify. Twelve of the thirteen held source groups have supported scopes;
-one remains unresolved. These are twelve source bodies, not 27 new independent suttas.
+As of November 10, every one of the book's 169 extracted source sections is now
+represented locally: 156 individual reader entries plus 12 intact group passages.
+The group passages cover 27 existing site references: 26 individual entries and
+the single existing AN 3.183–352 group. They are additional editions, not 27 new
+independent suttas. Nothing in this batch has been deployed.
 
 One source group fits the existing reader model: Candana's source 155, Modes of
 Practice – Part 1, corresponds to site AN 3.156. Both complete texts teach the three
@@ -38,61 +40,183 @@ for all 875. The existing 874 readers, other translations, source PDFs, raw
 extractions and homepage are unchanged. No additional individual-PDF permission
 is established by this exact-book import.
 
-The remaining eleven supported groups need whole-group edition handling: source 156
-covers six existing site references, and sources 157–166 each cover a conduct pair.
-Do not copy one body under multiple single-sutta labels, silently split it, or invent
-a combined canonical ID. Source 164's awkward printed wording remains unchanged.
-Source 167–352 stays unresolved: its sixteen lettered subjects have not been matched
-exactly to the site's seventeen-subject group. These are source-scope issues, not a
-reason to rerun PDF conversion.
+### Rolling human-review list
 
-### Whole-group reader implementation checkpoints
+This is the running list of converted Candana material that still needs a human
+decision. The private queue at `build/candana-final-review-20261110/index.html`
+puts each original PDF beside its extracted text and review evidence. Nothing in
+that queue is public unless marked live below.
 
-Primary review read all eleven remaining source bodies and the 26 candidate
-Sujato bodies, and checked source boundary images at PDF pages 284, 286, 289 and
-293. The sealed proposal still verifies all 27 artifacts without changing its
-inputs. Accept the proposed passage scopes, not word-for-word translation
-equivalence or a complete human proofread. The original source 164 really prints
-"or to be full of longing" in its positive paragraph; preserve and flag it rather
-than silently correcting the translator.
+- Book Three: all 169 source sections are represented locally. Its 156 individual
+  readers are live. Twelve additional intact passages are local-only; compare the
+  final source, printed 167–352, with the existing AN 3.183–352 page. Its 16
+  subject headings and the other edition's 17 do not match one-to-one. Also review
+  source 164's printed wording and the continuous-reader behavior.
+- Standalone texts: 196 downloaded PDFs cover 190 not-yet-live Candana reference
+  groups. Automated comparison covers 1,728 pages, but these are still private
+  drafts. The additional AN 4.171 PDF has no extractor character mismatch and all
+  three pages were visually checked. The earlier batch's flags remain review
+  prompts. Resolve permission scope, reference and
+  layout flags before importing any. There are 14 extractor-difference flags,
+  225 layout flags, 73 possible line-wrap-hyphen flags, 10 word-boundary flags,
+  and 222 permission leads. These counts overlap and are review prompts, not
+  confirmed errors or approvals.
+- Sutta Nipāta: 73 texts are live. All 391 PDF pages passed automated text
+  comparison, but only 25 pages were visually sampled. Finish visual review and
+  confirm its numbering against the original.
+- English Manual: its own permission covers that English work. It is a separate
+  author resource, not a sutta; review 20 footnote-number placements and decide
+  its final presentation. The other language editions are not covered by this
+  notice.
+- Dissertation: one separate PDF; confirm author, permission, and extraction.
+- Dhammasaṅgaṇī: conversion is stopped. The 1900 scan has serious recognition
+  errors and is not ready to import.
 
-The existing importer, node pages and continuous reader each assume one edition
-body belongs to one canonical text ID. Adding the same complete source body to
-every covered ID would publish six copies of source 156 and two copies of each
-conduct pair. Keep canonical references separate from the source's edition units.
+Earlier background check, November 10 at 15:55 Eastern: all 195 saved text
+comparisons were reused; zero new conversions, publisher requests, or model
+calls. Later that evening, the paced collector added and fetched one newly found
+PDF. Current collector state: 244 URLs total; 242 collected (228 PDFs and 14
+publisher pages); two offers remain missing. This bounded list still does not
+prove that every Candana work online has been found.
 
-1. Edition metadata: add one source-group identity per intact body, an ordered
-   canonical_ids list of existing IDs, source label/title, exact body hash and
-   original PDF interval. Source 156 covers AN 3.157 through 3.162; source 157
-   covers 3.163/164, continuing in pairs through source 166 at 3.181/182.
-   These are eleven bodies covering 26 references. Do not invent range IDs in the
-   canonical ledger. Reject overlapping group memberships, changed bodies,
-   missing references, duplicates, reordered parts and the held 167–352 group.
-2. Ordinary readers and text pages: generate each group once, clearly list its
-   covered references, and link that same edition from every covered text page.
-   Preserve other translators, source wording, ordinary fonts and existing layout.
-   Count eleven edition bodies separately from 26 references with that edition.
-3. Continuous reader: plan the chosen editions before rendering; place each
-   selected group at its first covered reference and display its body only once.
-   Preserve direct links for every covered text. A saved individual Sujato choice
-   must not be silently applied to other group members. If other members still
-   select the intact Candana group, show it once with its full coverage and show
-   the individually selected different edition separately. Do not split the
-   source body or silently discard the override. Test translator changes, saved
-   choices, anchor navigation, fallback and stale asynchronous responses.
-4. Release: compare every added body with its source hash; exercise every covered
-   node, the continuous reading order, mixed translator choices and mobile/keyboard
-   use. Verify the existing readers, homepage and public review files remain
-   unchanged. Source 167–352 remains held regardless of the earlier groups' result.
+New find, November 10: “Catukka Sañcetanā Sutta” (AN 4.171) appeared without a
+download link on the publisher's Pāli Suttas index, but its official Squarespace
+file host has a matching Candana PDF. The paced collector downloaded it; its
+SHA-256 is `5bc3eb8b95469186e701c51cbb1d5052f76c4dd4728d3c01621cbeadd463e495`.
+The PDF is 3 pages. Poppler and MuPDF extractions agree on every page after
+whitespace normalization; all three page images were visually inspected. The
+PDF prints a 2022 copyright notice but no reuse grant in its extracted text.
+The site already has the canonical AN 4.171 page with Sujato's edition, so this
+would be an additional translation on that page, not a new canonical sutta.
+Keep it private until the permission scope is resolved.
 
-These checkpoints specify the next implementation; they do not mark the eleven
-groups as published or resolve the final group's numbering/subject-list disagreement.
+- Index: https://www.mindreleased.com/pali-suttas
+- PDF: https://static1.squarespace.com/static/578af02af5e231074e974635/t/62e54c29ea7101690954f258/1659194412183/AN%2B4.171%2B-%2BCatukka%2BSa%C3%B1cetana%2BSutta.pdf
+- Local original: `build/candana-audit/78c31923bc789c5163e38694dbc69ee9af217e84eeb7329bba911ddfb423496a.pdf`
+- Local text: `build/candana-audit/78c31923bc789c5163e38694dbc69ee9af217e84eeb7329bba911ddfb423496a.poppler.txt`
+
+Sources 156–166 are eleven intact passages: source 156 covers six individual site
+references, and sources 157–166 each cover a conduct pair. They are each stored once;
+no passage is copied under several single-sutta labels or split into invented texts.
+Source 164's awkward printed wording remains unchanged.
+
+The final source passage, printed as 167–352, is now stored once under the site's
+existing AN 3.183–352 group. This is a whole-chapter placement only. Its 16 lettered
+subject headings do not map one-to-one to the other translation's 17 topic names,
+and the printed number ranges differ. The internal topics are not mapped or matched
+individually; keep that discrepancy on the final review list. The source passage is
+preserved complete and unchanged.
+
+### Whole-group reader import status
+
+Primary review read the 12 grouped source bodies and compared their proposed
+references against the local site texts. The saved Book Three proposal still
+verifies its original 27 artifacts without changing its inputs. The final group
+addition uses only the broad AN 3.183–352 reference; it does not claim internal
+word-for-word or topic-by-topic correspondence. This is not a complete human
+proofread. The original source 164 really prints "or to be full of longing" in its
+positive paragraph; preserve and flag it rather than silently correcting it.
+
+The importer, text pages, and continuous reader now support one intact source
+passage covering multiple existing sutta pages. Each body is stored and generated
+once; every covered page links to it. The continuous reader displays it once at
+the first selected reference while retaining separate per-text translation choices.
+No combined canonical IDs were created.
+
+The private site preview now has all 12 group passages. Its full build passes with
+7,239 reader versions, 16,418 sitemap HTML routes, 31 archives, and zero broken
+local links. The live site remains at 875 individual Candana readers and has no
+shared-passage bodies; the preview is local only. All 12 passages use the exact
+Book Three reuse notice. That grant is not applied to separately published PDFs.
+
+The full suite passes in a temporary environment with the pinned project
+dependencies: 177 tests run, 176 passed and one optional integration test was
+skipped. The homepage-preservation check confirms the original copy is unchanged.
+
+For final review, compare the original PDF pages 295–299 with the converted passage
+and confirm that displaying the whole passage under AN 3.183–352 is acceptable
+despite the printed-number and topic-count differences. Do not split it or infer
+individual topic matches. Also inspect the reader and continuous view, confirm a
+per-text translation override does not alter other selections, and verify the
+homepage and unrelated readers remain unchanged. Preserve source 164's printed
+"or to be full of longing"; do not silently edit it.
+
+### Candidate review batches collected November 10
+
+The private final review queue is at
+`build/candana-final-review-20261110/index.html`. It links the original PDFs,
+extracted text, saved comparisons, proposed site locations, and known questions
+in one place. It is local-only and is not part of the public website. Review it
+after the remaining discovery/import work is finished.
+
+The latest automatic pass reused all 227 saved PDF reports without another
+download and prepared 481 passage drafts. Its overlapping flags are 14 extractor
+differences, 225 layout checks, 73 hyphen-wrap checks, 10 word-boundary checks,
+and 222 permission checks. These are review prompts, not confirmed text errors.
+
+The owner says the Sutta Nipāta permission should apply to Candana's other
+suttas too. The saved notice itself says “this work,” and the publisher's Pāli
+Suttas page calls its list a selection without stating a general text-reuse
+grant. This one scope question is recorded in the final checklist; individual
+PDFs remain private until that interpretation is settled. This does not affect
+the exact Book Three reuse notice used for the 12 locally prepared group passages.
+
+- Dīgha and Majjhima: 47 reference groups and 48 PDF offers. Forty-six groups
+  have straightforward proposed mappings; the two MN 121 PDF offers remain
+  separate editions. The missing MN 135 offer stays recorded as missing. One
+  MN 1 page-1 spacing difference needs visual confirmation. Every offer remains
+  marked as needing permission review.
+- Saṃyutta and remaining Aṅguttara: 134 reference groups and 139 PDF offers.
+  The batch reports 105 clear reference matches and 34 scope/identification
+  questions, including opening-page labels the automatic check did not recognize
+  and SN 51.81, which has no matching existing site text. Five groups have more
+  than one offer and remain separate. Forty-six pages across 24 PDFs are flagged
+  for visual inspection of line-wrap hyphens. AN 8.12 and SN 12.2 also have
+  publisher filenames that do not match the printed reference. All need
+  permission review.
+- Other small collections: eight offers cover Udāna (four), Theragāthā (two),
+  Dhammapada (one grouped passage), and Milindapañha (one). Six have proposed
+  one-to-one mappings. Dhammapada 2.21–23 remains grouped pending alignment to
+  three site entries; Udāna 1.10 needs its opening-page reference confirmed.
+  All need permission review.
+- The existing Sutta Nipāta book conversion covers all 73 suttas. Automated
+  comparison passed all 391 PDF pages, and all 80 source intervals and hashes
+  were checked. Twenty-five pages were visually sampled, not all 391. Its saved
+  review records the index layout, stanza breaks, footer labels, and omitted
+  image-only artwork; the latest revision addresses those presentation findings.
+  Remaining review is full visual coverage and the exact numbering correspondence.
+- The English Manual is a separate author resource, not a sutta. Its own grant
+  covers that English work only. Twenty pages have flagged footnote-number
+  placement differences; 21 of 214 pages were visually checked. Its other ten
+  language editions are not included by that grant.
+- One doctoral-dissertation PDF is listed separately, not as a sutta. Its exact
+  author identity, reuse permission, and extraction/layout still need review.
+- The 1900 Dhammasaṅgaṇī extraction remains stopped because page images show
+  serious recognition errors. It is not a complete book and is not ready to add.
+- The publisher's Sutta Nipāta page currently lists six audio parts. These are
+  not extra written translations and are outside the text counts. Keep them for
+  a separate later audio inventory/transcription stage; no audio reuse right is
+  recorded here.
+
+The 48 + 139 + 8 candidate offers are saved review material, not 195 newly
+approved translations. The known queue covers 189 reference groups but is a
+bounded discovery, not proof that every work Candana has made is accounted for.
+The final queue must keep rights, mapping, and text-accuracy decisions separate.
+Do not publish a standalone offer merely because it is freely downloadable or
+because another Candana book has a reuse notice.
 
 The bounded publisher inventory has 229 written offers: 227 downloaded PDFs and two
 recorded missing links. All 227 downloaded file hashes are distinct. Repeated references
 can therefore represent different editions or revisions, not byte-identical copies.
 The older 364-page Sutta Nipāta PDF remains a separately checked historical manifest
 source outside that queue; it is neither discarded nor counted as a second work.
+
+The separate rate-limited source collector currently records 243 URLs: 241 collected
+and two missing. Of the collected URLs, 227 are PDFs and 14 are publisher-site pages
+used to find or describe works. Therefore 241 collected URLs does not mean 241
+distinct translation offers. The numbered-book inventory reconciles the 227 PDFs
+and two missing offers above. The collector timer remains enabled at one request
+per 120 seconds, and there is no automatic publication.
 
 - Standalone offers resolve to 204 explicit reference groups. Fifteen references already
   have an imported Candana book edition; the standalone versions remain separate and
@@ -206,19 +330,19 @@ does not, by itself, establish explicit coverage of every other separately publi
 file. Prepare one consolidated request if clarification is needed; no message has
 been sent.
 
-1. Finish whole-group edition support for eleven checked AN Book Three groups:
-   source 156 and the ten conduct pairs at 157–166. The primary review accepts
-   source 155 at AN 3.156 independently. Keep 167–352 unresolved; do not extend
-   the earlier piecewise numbering map by assumption or duplicate a grouped body.
-2. Work through next-imports.json, starting with MN 1, DN 1, DN 2, DN 16, MN 10,
-   SN 22.59 and SN 56.11. The sources and extracted drafts already exist. Verify
-   exact-source permission and source boundaries; do not reconvert every PDF manually.
-   Explicit redistribution permission is acceptable; CC0 is not required.
-3. Keep the Manual's 20 number-placement cases and detached opening letters visible.
-   It belongs in a clearly labeled author-resource area, not a guessed sutta node.
-4. After a checked source-specific recipe, generate the whole compatible batch,
-   compare every reader automatically, spot-check changed layouts, and release only
-   the accepted entries. Preserve source wording and all unrelated translations.
+1. At final review, check the Book Three original and local preview linked above.
+   All source sections are represented, but the final source's internal topic mapping
+   remains deliberately unresolved.
+2. Next is the 195 downloaded standalone-PDF offer batch for 189 text groups. The
+   PDFs, extracted text, and automated comparisons are already prepared; do not spend
+   time converting them again. Resolve the one permission-scope question and the
+   listed reference/layout flags, then bulk-import only the approved sources.
+3. Keep the English Manual's 20 number-placement cases and detached opening letters
+   visible. It is a separate author resource, not a guessed sutta node.
+4. Preserve the existing Sutta Nipāta text and its review findings; full visual
+   proofreading and numbering correspondence remain open. After a checked
+   source-specific recipe, compare every generated reader automatically, spot-check
+   changed layouts, and preserve all unrelated translations.
 
 No supplier/author message or paid service is authorized by this worklist. If permission
 cannot be established from published evidence, prepare one consolidated clarification

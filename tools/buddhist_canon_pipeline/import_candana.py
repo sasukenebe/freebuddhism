@@ -295,6 +295,8 @@ def verified_manifest(root: Path = ROOT, *, require_review: bool = False) -> dic
     supported_text_books = {"an-book1"} | additional
     if any(row.get("book") not in supported_text_books for row in manifest["texts"]):
         raise ValueError("Candana text refers to an unsupported source book")
+    if any(row.get("book") not in supported_text_books for row in manifest.get("group_texts", [])):
+        raise ValueError("Candana grouped text refers to an unsupported source book")
     if len({row["canonical_id"] for row in manifest["texts"]}) != len(manifest["texts"]):
         raise ValueError("Duplicate Candana text ID across source books")
     sections, pages = split_an_one(extract(root / books["an-book1"]["local_path"]))

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:85 The Vajjian Monk | Vajjiputta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.85" class="h1">The Vajjian Monk<br/>
+                  Vajjiputta Sutta  (AN 3:85)</h3><!--end suttahead-->
+                <p>On one occasion the Blessed One was staying near Vesālī in the Great Forest. Then a certain Vajjian monk approached him and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One, “Lord, this recitation of more than 150 training rules comes every fortnight.<span class="fn"><a href="#an3.85note01">1</a></span><!--end fn cite--> I cannot train in reference to them.”</p>
+                <p>“Monk, can you train in reference to the three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment?”<span class="fn"><a href="#an3.85note02">2</a></span><!--end fn cite--></p>
+                <p>“Yes, lord, I can train in reference to the three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment.”</p>
+                <p>“Then train in reference to those three trainings: the training in heightened virtue, the training in heightened mind, the training in heightened discernment. As you train in heightened virtue, heightened mind, &amp; heightened discernment, your passion, aversion, &amp; delusion—when trained in heightened virtue, heightened mind, &amp; heightened discernment—will be abandoned. You—with the abandoning of passion, the abandoning of aversion, the abandoning of delusion—will not do anything unskillful or engage in any evil.”</p>
+                <p>Later on, that monk trained in reference to heightened virtue, heightened mind, &amp; heightened discernment. His passion, aversion, &amp; delusion—when trained in heightened virtue, heightened mind, &amp; heightened discernment were abandoned. He—with the abandoning of passion, the abandoning of aversion, the abandoning of delusion—did not do anything unskillful or engage in any evil.</p>
+                <div class="note">
+                  <p class="notetitle">Notes</p><!--end notetitle-->
+                  <p id="an3.85note01">1. This statement refers to the Pāṭimokkha recitation, which contains 227 rules. Some have argued that this statement is proof that the Pāṭimokkha currently contains some rules that it did not contain in the Buddha’s time. However, this assertion ignores two points: (a) The sutta texts are notoriously vague about large numbers, and—given their manner in reporting large numbers—“more than 150” could cover anything from 150 to 250 rules. (b) The Buddha added rules to the Pāṭimokkha over the course of many years. This sutta may have taken place earlier in his life before the Pāṭimokkha had reached its current size.</p>
+                  <p id="an3.85note02">2. For definitions of these trainings, see <a href="AN3_90.html">AN 3:90</a>.</p>
+                </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

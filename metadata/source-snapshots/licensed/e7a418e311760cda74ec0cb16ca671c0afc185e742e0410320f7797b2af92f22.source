@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 2:7 The Only Son | Ekaputta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud2.7" class="h1">Ud 2:7 The Only Son (Ekaputta Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion the dear and beloved only son of a certain lay follower had died. So a large number of lay followers–their clothes wet, their hair wet–went to the Blessed One in the middle of the day and, on arrival, having bowed down to him, sat to one side. As they were sitting there the Blessed One said to them: “Why have you come here–your clothes wet, your hair wet–in the middle of the day?”</p>
+              <p>When this was said, the lay follower said to the Blessed One, “My dear and beloved only son, lord, has died. This is why we have come here–our clothes wet, our hair wet–in the middle of the day.”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Tied down by the allure</p>
+                <p>of what seems dear,<span class="fn"><a href="#ud2.7note01">1</a></span><!--end fn cite--></p>
+                <p>hosts of devas, most human beings,</p>
+                <p>worn out with misery,</p>
+                <p>fall under the sway</p>
+                <p>of the King of Death.</p>
+                <p>But those who, day &amp; night,</p>
+                <p>heedfully abandon</p>
+                <p>what seems dear,</p>
+                <p>dig up misery</p>
+                <p>by the root–</p>
+                <p class="v2">Death’s bait</p>
+                <p class="v2">so hard</p>
+                <p class="v2">to overcome.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud2.7note01">1. Following the reading, <em>piyarūpassāda-gaddhitāse</em> in the Thai, Burmese, and BJT editions. The Sri Lankan edition available from the <em>Journal of Buddhist Ethics</em> has, <em>piyarūpa-sātarūpa-gaddhitā ye:</em> “Those tied down by what seems dear &amp; what seems agreeable”; the PTS edition, <em>piyarūpāsāta-gaddhitā ve:</em> “Truly tied down by what seems dear &amp; what is disagreeable.” The parallel passage in the Udānavarga (5.10) has, <em>priyarūpa-sāta-grathitā:</em> “Tied down by what seems dear and is agreeable.”</p></div>
+              <p class="seealso">See also: <a href="../../MN/MN87.html">MN 87</a>, <a href="../../SN/SN42_11.html">SN 42:11</a>, <a href="ud2_8.html">Ud 2:8</a>, <a href="ud8_8.html">Ud 8:8</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

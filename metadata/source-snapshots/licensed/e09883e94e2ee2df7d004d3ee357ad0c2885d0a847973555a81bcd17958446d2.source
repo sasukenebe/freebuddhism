@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:39 In Accordance with the Dhamma (1) | Anudhamma Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.39" class="h1">In Accordance with the Dhamma (1)<br/>
+                Anudhamma Sutta  (SN 22:39)</h2>
+              <p><em>Toward the end of his life (see <a href="../DN/DN16.html">DN 16</a>), the Buddha stated that the proper way to pay homage to him was to practice the Dhamma in accordance with the Dhamma. This short sutta and the following three define what that means.</em></p>
+              <p class="stars">* * *</p>
+              <p>Near Sāvatthī. “For a monk practicing the Dhamma in accordance with the Dhamma, what accords with the Dhamma is this: that he keep cultivating disenchantment with regard to form, that he keep cultivating disenchantment with regard to feeling, that he keep cultivating disenchantment with regard to perception, that he keep cultivating disenchantment with regard to fabrications, that he keep cultivating disenchantment with regard to consciousness. As he keeps cultivating disenchantment with regard to form… feeling… perception… fabrications… consciousness, he comprehends form… feeling… perception… fabrications… consciousness. As he comprehends form… feeling… perception… fabrications… consciousness, he is totally released from form… feeling… perception… fabrications… consciousness. He is totally released from sorrows, lamentations, pains, distresses, &amp; despairs. He is totally released, I tell you, from suffering &amp; stress.”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

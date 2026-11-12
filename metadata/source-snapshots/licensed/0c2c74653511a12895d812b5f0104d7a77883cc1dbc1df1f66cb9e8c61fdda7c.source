@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:32 The Bonds of Fellowship | Saṅgaha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.32" class="h1">The Bonds of Fellowship<br/>
+                  Saṅgaha Sutta  (AN 4:32)</h3><!--end suttahead-->
+                <p>“There are these four grounds for the bonds of fellowship. Which four? Giving, kind words, beneficial help, consistency. These are the four grounds for the bonds of fellowship.”</p>
+                <div class="verse">
+                  <p>Giving, kind words, beneficial help,</p>
+                  <p>&amp; consistency in the face of events,</p>
+                  <p class="v2">in line with what’s appropriate</p>
+                  <p class="v2">in each case, each case.</p>
+                  <p>These bonds of fellowship (function) in the world</p>
+                  <p class="v2">like the linchpins in a moving cart.</p>
+                  <p>Now, if these bonds of fellowship were lacking,</p>
+                  <p>a mother would not receive</p>
+                  <p class="v2">the honor &amp; respect owed by her child,</p>
+                  <p>nor would a father receive</p>
+                  <p class="v2">what his child owes him.</p>
+                  <p>But because the wise show regard</p>
+                  <p>for these bonds of fellowship,</p>
+                  <p class="v2">they achieve greatness</p>
+                  <p class="v2">and are praised.</p>
+                </div><!--end verse-->
+                <p class="seealso">See also: <a href="AN2_31.html">AN 2:31—32</a>; <a href="AN2_118.html">AN 2:118</a>; <a href="AN6_12.html">AN 6:12</a>; <a href="AN7_35.html">AN 7:35</a>; <a href="AN8_24.html">AN 8:24</a>; <a href="AN8_54.html">AN 8:54</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

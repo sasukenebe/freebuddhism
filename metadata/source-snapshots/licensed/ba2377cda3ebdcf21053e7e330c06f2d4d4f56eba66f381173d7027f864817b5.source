@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+<head>
+    <title>SN 20:3 Families | Kula Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+<!--<p>Blurb: Protect yourself through goodwill.</p>-->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h2 id="SN20.3" class="h1">Families<br/>
+                   Kula Sutta  (SN 20:3)</h2><!--end suttahead-->
+<p>Dwelling near Sāvatthi. “Just as families with many women and few men are easy for thieves &amp; burglars to overpower, in the same way, when a monk’s awareness-release through goodwill is undeveloped &amp; uncultivated, he is easy for non-human beings to overpower.</p>
+<p>“Just as families with few women and many men are hard for thieves &amp; burglars to overpower, in the same way, when a monk’s awareness-release through goodwill is developed, cultivated, handed the reins, taken as a basis, steadied, consolidated, &amp; well-undertaken, he is hard for non-human beings to overpower.<span class="fn"><a href="#sn20.3note01">1</a></span><!--end fn cite--></p>
+<p>“Therefore, monks, you should train yourselves: ‘Our awareness-release through goodwill will be developed, cultivated, handed the reins, taken as a basis, steadied, consolidated, &amp; well-undertaken.’ That’s how you should train yourselves.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+<p id="sn20.3note01">1. Following the Thai edition of the Canon. The Sri Lankan and Burmese editions have: “when a monk’s awareness-release through goodwill is developed and cultivated, he is hard for non-human beings to overpower.”</p>
+                </div><!--end notes-->
+<p class="seealso">See also: <a href="../MN/MN21.html">MN 21</a>; <a href="../AN/AN11_16.html">AN 11:16</a>; <a href="../KN/StNp/StNp1_8.html">Sn 1:8</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+
+

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 20:6 The Archer | Dhanuggaha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN20.6" class="h1">The Archer<br/>
+                Dhanuggaha Sutta  (SN 20:6)</h2>
+              <p>Staying near Sāvatthī. “Monks, suppose there were four strong archers—well-trained, practiced, &amp; drilled—standing in the four directions, and a man were to come along saying, ‘I will catch &amp; bring down the arrows let fly by these four strong archers—well-trained, practiced, &amp; drilled—before they have fallen to the ground.’ What do you think? Would that be enough to call him a swift man, endowed with the foremost speed?”</p>
+              <p>“Even if he were to catch &amp; bring down the arrows let fly by one archer—well-trained, practiced, &amp; drilled—before they fell to the ground, lord, that would be enough to call him a swift man, endowed with the foremost speed, to say nothing of four such archers.”</p>
+              <p>“Faster than the speed of that man, monks, is the speed of the sun &amp; moon. Faster than the speed of that man, faster than the speed of the sun &amp; moon, is the speed of the devas who rush ahead of the sun &amp; moon. Faster than the speed of that man, faster than the speed of the sun &amp; moon, faster than the speed of the devas who rush ahead of the sun &amp; moon, the force of one’s life span comes to an end. Thus you should train yourselves: ‘We will live heedfully.’ That’s how you should train yourselves.”</p>
+              <p class="seealso">See also: <a href="SN2_19.html">SN 2:19</a>; <a href="../AN/AN4_113.html">AN 4:113</a>; <a href="../AN/AN5_78.html">AN 5:78</a>; <a href="../AN/AN6_19.html">AN 6:19–20</a>; <a href="../AN/AN7_70.html">AN 7:70</a>; <a href="../AN/AN10_15.html">AN 10:15</a>; <a href="../KN/Iti/iti23.html">Iti 23</a>; <a href="../KN/StNp/StNp4_6.html">Sn 4:6</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

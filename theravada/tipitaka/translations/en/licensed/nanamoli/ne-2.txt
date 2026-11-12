@@ -1,0 +1,166 @@
+Ne 2 - 1. Indicative Subsection
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne2.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+1. Indicative Subsection
+
+PTS vp En 5 2. Herein, what are the sixteen Modes of Conveying?
+
+[They are sixteen modes of the Ninefold Thread as conveying:]
+
+1. a Teaching,
+
+2. an Investigation,
+
+3. a Construing,
+
+4. Footings,
+
+5. Characteristics,
+
+6. a Fourfold Array,
+
+7. a Conversion,
+
+8. an Analysis,
+
+9. a Reversal,
+
+10. Synonyms,
+
+11. Descriptions,
+
+12. Ways of Entry,
+
+13. a Clearing Up,
+
+14. Terms of Expression,
+
+15. Requisites,
+
+16. a Co-ordination.
+
+PTS vp Pli 2 Here follows a paraphrasing-verse:
+
+As Teaching, Investigation, Construing,
+As Footings, and Characteristics,
+Fourfold Array, and then Conversion,
+Analysis, Reversal too,
+As Synonyms, and as Descriptions,
+As Ways of Entry, Clearing Up,
+Terms of Expression, Requisites,
+And for sixteenth Co-ordination.
+These Modes are the Sixteen Conveyings
+[And] as to the significance [of each]
+A separate statement [follows]
+With detailed method-analysis for each one.
+
+PTS vp En 6 3. Herein, what are the five Guide-Lines? [They are:]
+
+1. the Conversion of Relishing,
+
+2. the Trefoil,
+
+3. the Lions’ Play;
+
+4. the Plotting of Directions,
+
+5. the Hook.
+
+Here follows a paraphrasing-verse:
+
+Conversion of Relishing comes first,
+In second place the Trefoil follows,
+The Lions’ Play is the name they give
+To the Third Guide-Line formula;
+The fourth Guide-Line most rare they call
+The Plotting of Directions, then
+The Hook is what the fifth is termed:
+That is how all five Guide-Lines go.
+
+4. Herein, what are the eighteen Root-Terms? They are the nine profitable Root-Terms and nine unprofitable Root-Terms.
+
+Herein, what are the nine unprofitable Root-Terms? [They are:]
+
+1. Craving,
+
+2. Ignorance;
+
+3. Greed,
+
+4. PTS vp En 7 Hate,
+
+5. Delusion;
+
+6. Perception of Beauty,
+
+7. Perception of Pleasure,
+
+8. Perception of Permanence,
+
+9. Perception of Self.
+
+These are the nine unprofitable Root-Terms, wherein all that belongs to the unprofitable side is comprised and collated.
+
+Herein, what are the nine profitable Root-Terms? [They are:]
+
+1. Quiet,
+
+2. Insight;
+
+3. Non-greed,
+
+4. Non-hate,
+
+5. Non-delusion;
+
+6. Perception of Ugliness,
+
+7. Perception of Pain,
+
+8. Perception of Impermanence,
+
+9. Perception of Not-self.
+
+These are the nine profitable Root-Terms, wherein all that belongs to the profitable side is comprised and collated.
+
+Here is a mnemonic for it:
+
+The nine terms Craving and Ignorance
+And Greed, Hate and Delusion too
+And with Perversions four besides
+Do constitute defilement’s plane.
+PTS vp Pli 3 The nine terms Quiet and then Insight
+With the three Profitable Roots
+And Mindfulness-Foundations four
+Do constitute the faculties’ plane.
+With nine terms on the side of profit
+And nine terms on unprofit’s side
+Construed, these Root-Terms [thus] do come
+[In all] to number eighteen terms.
+
+The Indicative Subsection.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

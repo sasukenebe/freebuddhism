@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 8:10 Dabba (2) | Dabba Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud8.10" class="h1">Ud 8:10 Dabba (2) (Dabba Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. There he addressed the monks, “Monks!”</p>
+              <p>“Yes, lord,” the monks responded to him.</p>
+              <p>The Blessed One said, “When Dabba Mallaputta rose up into the air and, sitting cross-legged in the sky, in space, entered &amp; emerged from the fire property and was totally unbound, his body burned and was consumed so that neither ashes nor soot could be discerned. Just as when ghee or oil is burned and consumed, neither ashes nor soot can be discerned, in the same way, when Dabba Mallaputta rose up into the air and, sitting cross-legged in the sky, in space, entered &amp; emerged from the fire property and was totally unbound, his body burned and was consumed so that neither ashes nor soot could be discerned.”</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Just as the destination of a glowing fire</p>
+                <p class="v2">struck with a [blacksmith’s] iron hammer,</p>
+                <p class="v2">gradually growing calm,</p>
+                <p class="v4">isn’t known:<span class="fn"><a href="#ud8.10note01">1</a></span><!--end fn cite--></p>
+                <p>Even so, there’s no destination to describe</p>
+                <p>for those rightly released</p>
+                <p class="v2">–having crossed over the flood</p>
+                <p class="v4">of sensuality’s bond–</p>
+                <p>for those who’ve attained</p>
+                <p class="v2">unwavering bliss.</p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud8.10note01">1. For a discussion of the ancient Buddhist view of what happened to an extinguished fire, see <em>The Mind Like Fire Unbound,</em> Chapters 1 and 2.</p></div>
+              <p class="seealso">See also: <a href="../../MN/MN72.html">MN 72</a>; <a href="../../SN/SN6_15.html">SN 6:15</a>; <a href="../../SN/SN22_86.html">SN 22:86</a>; <a href="../../AN/AN4_173.html">AN 4:173</a>; <a href="../Thig/thig5_10.html">Thig 5:10</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

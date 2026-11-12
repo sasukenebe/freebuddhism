@@ -1,0 +1,170 @@
+Ne 3 - 2. Demonstrative Subsection
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne3.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+2. Demonstrative Subsection
+
+PTS vp En 8 5. Here is a summary statement of the guide.
+
+The 16 Modes of Conveying
+
+Gratification, Disappointment,
+Escape, Fruit, Means, the Blessed One’s
+Injunction to devotees, this Mode
+Is the Conveying of a Teaching.
+
+6. What in the Thread is asked and answered,
+As well as a verse-paraphrase,
+And the Thread’s [term-] investigation
+This Mode Conveys Investigation.
+
+7. Looking for right and wrong construing
+In the case of all the Conveyings’
+Plane and resort [will] demonstrate
+The Mode Conveying a Construing.
+
+8. The Victor teaching an idea
+Teaches what that idea has too
+As footing; so with each idea:
+This is the Mode Conveying Footings.
+
+9. When one idea is mentioned, all
+Ideas of like characteristic
+Are mentioned too: this constitutes
+The Mode Conveying Characteristics.
+
+10. By PTS vp En 9 way of phrasing, (i) the Linguistic,
+(ii) The Purport, and (iii) the teaching’s Source,
+And (iv) the Consecutive-Sequence:
+This Mode Conveys a Fourfold Array.
+
+11. The Mode that, when there is one Footing,
+Searches for a footing that remains
+And then Converts the opposites
+Is that Conveying a Conversion.
+
+12. It analyses idea, footing,
+Plane [of types of men], the shared
+And unshared: this Mode should be known
+As that Conveying Analysis.
+
+13. That into opposites reversing
+Ideas of profit and unprofit
+Shown to be kept in being and left
+Is called the Mode Conveying Reversal.
+
+14. PTS vp Pli 4 Knower of Threads is he that knows
+How many synonyms for one
+Idea are in the Thread: this Mode
+Is that Conveying Synonyms.
+
+15. The Blessed One one idea teaches
+By means of manifold descriptions;
+This mood can thus be known to be
+The Mode that does Convey Descriptions.
+
+16. Dependent-Rising, Faculties,
+Categories, Elements, Bases:
+The Mode that by these means gives entry
+Is that Conveying Ways of Entry.
+
+17. PTS vp En 10 Seeking if in a question answered
+What in the verse did instigate
+Its asking is cleared up or not:
+This Mode Conveys a Clearing Up.
+
+18. Ideas when demonstrated by
+
+[Both] unity and diversity,
+Need thereby suffer no disjunction
+This Mode Conveys Expression’s Terms.
+
+19. Ideas that generate each an idea
+In due relation are conditions;
+And by its picking out the cause
+This Mode Conveys the Requisite.
+
+20. Ideas with those whose roots they are,
+And those shown by the Sage to have
+One meaning, should be co-ordinated:
+This Mode conveys Co-ordination.
+
+The 5 Guide-Lines
+
+21. The Guide-Line Craving and Ignorance guiding
+By Quiet and Insight, and construing
+Appropriately the four Truths
+Is the Conversion of Relishing.
+
+22. Guiding [ideas of] profit and
+Unprofit by their [triple] roots
+As they are, really, not unreally,
+That Guide-Line they call the Trefoil.
+
+23. The PTS vp En 11 wise in Guide-Lines have called that
+Lions’ Play which by the faculties
+Does faith’s true objects guide, and also
+By the perversions the defilements.
+
+24. What mentally plots out [ideas
+of] profit and unprofit stated
+Or here or there in expositions
+They call the Plotting of Directions.
+
+25. After [thus] plotting with the Plotting
+Of Directions, what then throws up
+All profit [ideas] and unprofit
+And guides them in is called the Hook.
+
+How the Modes of Conveying and the Guide-Lines are Employed
+
+26. Sixteen Conveyings first, surveying
+With Plotting then of the Directions,
+And having collected with the Hook,
+Three Guide-Lines demonstrate a Thread.
+
+27. (i) The Letter, (ii) the Term, an then (iii) the Phrasing,
+Also (iv) the Linguistic [inflexion],
+(v) the Demonstration, and (vi) the Mood
+As sixth: this much concerns the phrasing.
+
+28. PTS vp Pli 5 (vii) Explaining, (viii) Displaying, and (ix) Divulging,
+(x) Analysing, (xi) Exhibiting, (xii) Describing:
+By these six terms are demonstrated
+A meaning and an action too.
+
+29. PTS vp En 12 The Blessed One’s Utterance’s meaning
+Yokes nine terms for its meaning, namely:
+The [first] three Guide-Lines, dropping none,
+And meaning-words that number six.
+
+30. For meaning nine terms, twenty-four
+For searching of the phrasing, too,
+These come in all to thirty-three,
+And that much constitutes the guide.
+
+The Demonstrative Subsection.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

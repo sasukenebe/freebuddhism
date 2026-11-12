@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 6:1 Paṭācārā’s 500 Students</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig6.1" class="h1">Thig 6:1  Paṭācārā’s 500 Students</h4>
+          <div class="verse">
+            <p class="vspk">[Paṭācārā recounts the Buddha’s words:]</p>
+            <p>“You don’t know</p>
+            <p class="v2">the path</p>
+            <p>of his coming or going,</p>
+            <p>that being who has come</p>
+            <p class="v2">from       where?—</p>
+            <p>the one you lament as ‘my son.’</p>
+            <div class="verse-add">
+              <p>But when you know</p>
+              <p class="v2">the path</p>
+              <p>of his coming or going,</p>
+              <p>you don’t grieve after him,</p>
+              <p>for that is the nature</p>
+              <p class="v2">of beings.</p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p>Unasked,</p>
+              <p>he came from there.</p>
+              <p>Without permission,</p>
+              <p>he went from here</p>
+              <p>—coming from     where?—</p>
+              <p>having stayed a few days.</p>
+              <p>And coming one way from here,</p>
+              <p>he goes yet another</p>
+              <p class="v2">from there.</p>
+              <p>Dying in the human form,</p>
+              <p>he will go wandering on.</p>
+              <p>As he came, so he has gone—</p>
+              <p class="v2">so what is there</p>
+              <p class="v2">to lament?”</p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p>Pulling out</p>
+              <p class="v2">—completely out—</p>
+              <p>the arrow so hard to see,</p>
+              <p>embedded in my heart,</p>
+              <p>he [the Buddha] expelled from me</p>
+              <p class="v2">—overcome with grief—</p>
+              <p>the grief</p>
+              <p>over my son.</p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p>Today—with arrow removed,</p>
+              <p class="v2">without hunger, entirely</p>
+              <p class="v4">unbound—</p>
+              <p>to the Buddha, Dhamma, &amp; Saṅgha I go,</p>
+              <p class="v2">for refuge to</p>
+              <p class="v2">the Sage.</p>
+            </div><!--end verse-add-->
+          </div><!--end verse-->
+          <p class="seealso">See also: <a href="../../SN/SN47_13.html">SN 47:13</a>; <a href="../../AN/AN5_49.html">AN 5:49</a>; <a href="../Ud/ud5_1.html">Ud 5:1</a>; <a href="../Ud/ud8_8.html">Ud 8:8</a>; <a href="../StNp/StNp3_8.html">Sn 3:8</a>; <a href="thig3_5.html">Thig 3:5</a> </p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

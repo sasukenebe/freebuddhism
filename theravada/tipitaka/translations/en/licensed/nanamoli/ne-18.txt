@@ -1,0 +1,77 @@
+Ne 18 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne18.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+15. The Ninefold Thread in the Mode of Conveying Requisites
+
+448. Herein, what is the Mode of Conveying Requisites? [It is this:]
+
+“Ideas that generate each an idea
+In due relation are conditions;
+And by its picking out the cause
+This Mode Conveys the Requisite”.
+
+449. Any idea that generates an idea is a requisite of that idea.
+
+450. What is the Requisite’s characteristic? The Requisite has the characteristic of a generator.
+
+PTS vp En 110 451. Two kinds of ideas generate, namely a cause and a condition.
+
+452. Herein, what is a cause’s characteristic? What is a condition’s characteristic? A cause has the characteristic of not being shared in common, while a condition has the characteristic of being shared in common.
+
+453. How might that be? In the same way that for the occurrence of a [seed’s] sprout the seed is not shared in common [with the sprout] while earth PTS vp Pli 79 and water are common to both [seed and sprout]; for while the earth and the water are each a condition for the sprout, still individual essence is its cause; or in the same way that milk left in a pot is curd, and yet there is no simultaneous con PTS vp En 111 currence of milk and curd, so too there is no simultaneous concurrence of the cause and the condition.
+
+454. Now this roundabout [of rebirths] has occurrence with cause and with condition; for this is said: (With ignorance as condition, determinations; with determinations as condition, consciousness; … and so with all the formula of Dependent Arising. Consequently ignorance is the cause and unreasoned attention the condition).
+
+455. Previous ignorance is the cause of subsequent ignorance. Herein, the previous ignorance is underlying tendency to ignorance, while the subsequent ignorance is [open] obsession by ignorance. The previous underlying tendency to ignorance is the cause, in causality-by-immediate-proximity, of the subsequent obsession by ignorance, like the seed and the sprout in the growing; but wherever any fruit [of that seed] occurs, this [seed] is [then only] the cause-in-remote-relation of that [fruit]; for cause is of two kinds, namely cause-in-immediate-proximity [as that of the seed for the sprout] and cause-in-remote-relation [as that of the seed for the fruit]. So the cause of ignorance is also of two kinds, namely cause-in-immediate-proximity and cause-in-remote-relation.
+
+456. Or in the same way that vessel, wick and oil are, as it were, the light’s condition, but not its cause-as-individual-essence—for one cannot, without a flame, light the vessel, wick and oil, which are the light’s condition—; the individual-essence-as-cause being like the light. So the individual-essence is the cause, while the other-essence is the condition; the in-itself is the cause while the external-to-it is the condition; the generator is the cause while the accessory PTS vp En 112 is the condition; the not-shared-in-common is the cause while the shared-in-common is the condition.
+
+457. The meaning of continuity, the meaning of non-interruption, the meaning of fruit, the meaning of being-made-to-occur, the meaning of renewal of being, the meaning of relinking, the meaning of obsession, the meaning of impediment, the meaning of underlying-tendency, the meaning of non-eradication, the meaning of ignorance, the meaning of non-penetration, the meaning of being undiagnosed, are consciousness’s meaning of seed.
+
+458. Where there is non-interruption there is continuity, where there is continuity there is PTS vp Pli 80 occurrence, where there is occurrence there is fruit, where there is fruit there is relinking, where there is relinking there is renewal of being, where there is renewal of being there is impediment, where there is impediment there is obsession, where there is obsession there is non-eradication, where there is non-eradication there is underlying tendency, where there is underlying tendency there is non-penetration, where there is non-penetration there is ignorance, where there is ignorance there is undiagnosed consciousness affected by taints, where there is undiagnosed consciousness affected by taints there is the meaning of seed.
+
+459. The virtue category is the condition for the concentration category, the concentration category is the condition for the understanding category, the understanding category is the condition for the deliverance category, the deliverance category is the condition for the knowing-and-seeing-of-deliverance category.
+
+PTS vp En 113 460. Knowledge of watering-places is the condition for knowledge of what it is to have drunk [enough], knowledge of what it is to have drunk [enough] is the condition for knowledge of the [right] amount, knowledge of the [right] amount is the condition for knowledge of self.
+
+461. Or in the same way that (eye consciousness arises depending upon eye and forms): Herein, the eye is a condition through the conditionality of predominance, while forms are a condition through conditionality of object, light is a condition through co-supporting, and attention, as the individual-essence, is the cause.
+
+462. While consciousness’s condition is determinations, its individual essence is its cause. While name-and-form’s condition is consciousness, its individual essence is its cause. While the sixfold base’s condition is name-and-form, its individual essence is its cause. While contact’s condition is the sixfold base, its individual essence is its cause. While feeling’s condition is contact, its individual essence is its cause. While craving’s condition is feeling, its individual essence is its cause. While assuming’s condition is craving, its individual essence is its cause. While being’s condition is assuming, its individual essence is its cause. While birth’s condition is being, its individual essence is its cause. While ageing-and-death’s condition is birth, its individual essence is its cause. While sorrow’s condition is ageing-and-death, its individual essence is its cause. While lamentation’s condition is sorrow, its individual essence is its cause. While pain’s condition is lamentation, its individual essence is its cause. While grief’s condition is pain, its individual essence is its cause. While despair’s condition is grief, its individual essence is its cause.
+
+PTS vp En 114 463. In this way all kinds of general-support are a requisite.
+
+464. That is why the venerable Mahā-Kaccāna said:
+
+“Ideas that generate each an idea
+In due relation are conditions;
+And by its picking out the cause
+This Mode Conveys the Requisite”.
+
+The Mode of Conveying Requisites is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

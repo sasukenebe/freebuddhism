@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 1:57 Engendered (3) | Jana Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN1.57" class="h1">Engendered (3)<br/>
+                Jana Sutta  (SN 1:57)</h2>
+<div class="verse">
+<p>“What engenders a person?</p>
+<p>What does one have that runs around?</p>
+<p>What rushes toward the wandering-on?</p>
+<p>What does one have</p>
+<p class="v3">as one’s support?”</p>
+<div class="verse-add">
+<p class="vspk">The Buddha:</p>
+<p>“Craving           engenders a person.</p>
+<p>One’s mind           is what runs around.</p>
+<p>A being           rushes toward the wandering-on.</p>
+<p>Action           is one’s support.”</p>
+</div><!--end verse-add-->
+</div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

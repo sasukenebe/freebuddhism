@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 48:38 An Analysis (of the Feeling Faculties) (3) | Vibhaṅga Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN48.38" class="h1">An Analysis (of the Feeling Faculties) (3)<br/>
+                Vibhaṅga Sutta  (SN 48:38)</h2>
+              <p>“Monks, there are these five faculties. Which five? The pleasure-faculty, the pain-faculty, the happiness-faculty, the distress-faculty, the equanimity-faculty.</p>
+              <p>“And what is the pleasure-faculty? Any physical pleasure, physical comfort born of body-contact to be experienced as pleasure &amp; comfort. That is called the pleasure-faculty.</p>
+              <p>“And what is the pain-faculty? Any physical pain, physical discomfort born of body-contact to be experienced as pain &amp; discomfort. That is called the pain-faculty.</p>
+              <p>“And what is the happiness-faculty? Any mental pleasure, mental comfort born of intellect-contact to be experienced as pleasure &amp; comfort. That is called the happiness -faculty.</p>
+              <p>“And what is the distress-faculty? Any mental pain, mental discomfort born of intellect-contact to be experienced as pain &amp; discomfort. That is called the distress-faculty.</p>
+              <p>“And what is the equanimity-faculty? Anything, physical or mental, to be experienced as neither comfort nor discomfort. That is called the equanimity-faculty.</p>
+              <p>“With regard to this, the pleasure-faculty &amp; happiness-faculty are to be seen as a feeling of pleasure. The pain-faculty &amp; distress-faculty are to be seen as a feeling of pain. The equanimity-faculty is to be seen as a feeling of neither pleasure nor pain. Thus, by this exposition, the five are three; and the three, five.”</p>
+              <p class="seealso">See also: <a href="../MN/MN59.html">MN 59</a>; <a href="SN36_22.html">SN 36:22</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

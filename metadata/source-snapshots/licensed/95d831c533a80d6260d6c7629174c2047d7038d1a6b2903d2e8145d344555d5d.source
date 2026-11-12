@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Khp 8 Nidhi Kaṇḍa — The Reserve Fund</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h3 id="khp8" class="h1">Khp 8.  Nidhi Kaṇḍa — The Reserve Fund</h3>
+            <div class="verse">
+            <p>A person stashes a fund away</p>
+            <p>deep underground, at the water line:</p>
+            <p>“When a need or duty arises,</p>
+            <p>this will provide for my needs,</p>
+            <p>for my release if I’m denounced by the king,</p>
+            <p>molested by thieves,</p>
+            <p>in case of debt, famine, or accidents.”</p>
+            <p>With aims like this</p>
+            <p class="v2">in the world</p>
+            <p>a reserve fund is stashed away.</p>
+            <div class="verse-add">
+              <p>But no matter how well it’s stored,</p>
+              <p>deep underground, at the water line,</p>
+              <p>it won’t all always serve one’s need.</p>
+              <p>The fund gets shifted from its place,</p>
+              <p>or one’s memory gets confused;</p>
+              <p class="v2">or—unseen—</p>
+              <p class="v2">nāgas make off with it,</p>
+              <p class="v2">spirits steal it,</p>
+              <p class="v2">or hateful heirs run off with it.</p>
+              <p>When one’s merit’s ended,</p>
+              <p>it’s totally destroyed.</p>
+            </div>
+            <div class="verse-add">
+              <p>But when a man or woman</p>
+              <p>has laid aside a well-stored fund</p>
+              <p>of generosity, virtue,</p>
+              <p>restraint, &amp; self-control,</p>
+              <p class="v2">with regard to a shrine,</p>
+              <p class="v2">the Saṅgha,</p>
+              <p class="v2">a fine individual,</p>
+              <p class="v2">guests,</p>
+              <p class="v2">mother, father,</p>
+              <p class="v2">or elder sibling:</p>
+              <p>That’s a well-stored fund.</p>
+              <p class="v2">It can’t be wrested away.</p>
+              <p class="v2">It follows you along.</p>
+              <p>When, having left this world,</p>
+              <p class="v2">for wherever you must go,</p>
+              <p class="v2">you take it with you.</p>
+              <p>This fund is not held in common with others,</p>
+              <p>&amp; cannot be stolen by thieves.</p>
+            </div>
+            <div class="verse-add">
+              <p>So, enlightened, you should make merit,</p>
+              <p>the fund that will follow you along.</p>
+              <p>This is the fund</p>
+              <p>that gives all they want</p>
+              <p>to beings human, divine.</p>
+            </div>
+            <div class="verse-add">
+              <p>Whatever devas aspire to,</p>
+              <p class="v2">that is all gained by this.</p>
+              <p>A fine complexion, fine voice,</p>
+              <p>a body well-built, well-formed,</p>
+              <p>lordship, a following:</p>
+              <p class="v2">That is all gained by this.</p>
+              <p>Earthly kingship, supremacy,</p>
+              <p>the bliss of an emperor,</p>
+              <p>kingship over devas in the heavens:</p>
+              <p class="v2">That is all gained by this.</p>
+              <p>The attainment of the human state,</p>
+              <p>any delight in heaven,</p>
+              <p>the attainment of unbinding:</p>
+              <p class="v2">That is all gained by this.</p>
+              <p>Excellent friends,</p>
+              <p>appropriate application,<span class="fn"><a href="#khp8note01">1</a></span><!--end fn cite--></p>
+              <p>mastery of clear knowing &amp; release<span class="fn"><a href="#khp8note02">2</a></span><!--end fn cite-->:</p>
+              <p class="v2">That is all gained by this.</p>
+              <p>Acumen,<span class="fn"><a href="#khp8note03">3</a></span><!--end fn cite--> emancipations,<span class="fn"><a href="#khp8note04">4</a></span><!--end fn cite--></p>
+              <p>the perfection of disciplehood:</p>
+              <p class="v2">That is all gained by this.</p>
+              <p>Private awakening,<span class="fn"><a href="#khp8note05">5</a></span><!--end fn cite--></p>
+              <p>Buddhahood:</p>
+              <p class="v2">That is all gained by this.</p>
+            </div>
+            <div class="verse-add">
+              <p>So powerful this,</p>
+              <p class="v2">the accomplishment of merit.</p>
+              <p>Thus the wise, the enlightened,</p>
+              <p class="v2">praise the fund of merit</p>
+              <p class="v2">already made.</p>
+            </div>
+            </div>
+            <div class="note">
+              <p class="notetitle">Notes</p><!--end notetitle-->
+              <p id="khp8note01">1. Proper practice of the Dhamma.</p>
+              <p id="khp8note02">2. Clear knowing <em>(vijjā)</em> = knowledge of previous lives, knowledge of the passing away and arising (rebirth) of beings, knowledge of the ending of the [mental] effluents: sensual passion, becoming, and ignorance.  Release <em>(vimutti)</em> = release from the cycle of rebirth.</p>
+              <p id="khp8note03">3. Acumen <em>(paṭisambhidā)</em> = acumen with regard to the Dhamma, to its meaning, to language, &amp; to quick-wittedness. These four talents are found in some, but not all, arahants.</p>
+              <p id="khp8note04">4. <em>Vimokkha.</em> <a href="../../DN/DN15.html">DN 15</a> describes the eight emancipations as follows:</p>
+              <div class="iblock">
+                <p>“Possessed of form, one sees forms. This is the first emancipation.</p>
+                <p>“Not percipient of form internally, one sees forms externally. This is the second emancipation.</p>
+                <p>“One is intent only on the beautiful. This is the third emancipation.</p>
+                <p>“With the complete transcending of perceptions of [physical] form, with the disappearance of perceptions of resistance, and not heeding perceptions of multiplicity, [perceiving,] ‘Infinite space,’ one enters and remains in the dimension of the infinitude of space. This is the fourth emancipation.</p>
+                <p>“With the complete transcending of the dimension of the infinitude of space, [perceiving,] ‘Infinite consciousness,’ one enters and remains in the dimension of the infinitude of consciousness. This is the fifth emancipation.</p>
+                <p>“With the complete transcending of the dimension of the infinitude of consciousness, [perceiving,] ‘There is nothing,’ one enters and remains in the dimension of nothingness. This is the sixth emancipation.</p>
+                <p>“With the complete transcending of the dimension of nothingness, one enters and remains in the dimension of neither perception nor non-perception. This is the seventh emancipation.</p>
+                <p>“With the complete transcending of the dimension of neither perception nor non-perception, one enters and remains in the cessation of perception &amp; feeling. This is the eighth emancipation.</p>
+                <p>“Now, when a monk attains these eight emancipations in forward order, in reverse order, in forward and reverse order, when he attains them and emerges from them wherever he wants, however he wants, and for as long as he wants, when through the ending of the [mental] effluents he enters &amp; remains in the effluent-free awareness-release &amp; discernment-release, directly knowing &amp; realizing them for himself right in the here-&amp;-now, he is said to be a monk released in both ways. And as for another release in both ways, higher or more sublime than this, there is none.”</p>
+              </div>
+              <p id="khp8note05">5. Private Awakening: Awakening as a Private Buddha, one who can gain Awakening without relying on the teachings of others, but who cannot formulate the Dhamma in the way a Full Buddha can.</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../../SN/SN1_41.html">SN 1:41</a>; <a href="../../SN/SN3_19.html">SN 3:19–20</a>; <a href="../../SN/SN3_25.html">SN 3:25</a>; <a href="../../SN/SN10_12.html">SN 10:12</a>; <a href="../../SN/SN47_19.html">SN 47:19</a>; <a href="../../AN/AN3_52.html">AN 3:52–53</a>; <a href="../../AN/AN7_6.html">AN 7:6–7</a>; <a href="../Iti/iti22.html">Iti 22</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

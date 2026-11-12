@@ -1,0 +1,80 @@
+AN 5.95 - Akuppa Sutta: Discourse on the Unshakeable
+Translated by K. Nizamis
+Source: https://www.accesstoinsight.org/tipitaka/an/an05/an05.095.niza.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/an/an05/an05.095.niza.html#F_termsOfUse
+Copyright: ©2011 K. Nizamis.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2011 K. Nizamis. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 2 November 2013. How to cite this document (a suggested style): "Akuppa Sutta: Discourse on the Unshakeable" (AN 5.95), translated from the Pali by K. Nizamis. Access to Insight (BCBS Edition), 2 November 2013, https://www.accesstoinsight.org/tipitaka/an/an05/an05.095.niza.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+When endowed with five qualities, monks, in no long time a monk penetrates and intuits[1] the Unshakeable.[2] Which five? Here, monks, a monk is one who has attained discrimination[3] of meanings,[4] is one who has attained discrimination of principles,[5] is one who as attained discrimination of language,[6] is one who has attained discrimination of the illuminating qualities (of knowledge),[7] and he reflects upon the mind as liberated.[8] When endowed with these five qualities, monks, a monk in no long time penetrates and intuits the Unshakeable.
+
+Translator's Notes
+
+1.
+
+Paṭivijjhati: here, both the literal sense ('penetrates') and the figurative sense ('intuits') have been given in the translation, as both senses of the verb are important and mutually illuminate one another.
+
+2.
+
+Akuppa: (1) as adjective, 'not able to be disturbed; stable; immovable'; as noun, (2) 'what is not able to be disturbed; a state of stability', (3) 'lack of agitation; the state of not being provoked or angered; forbearance' (Cone, A Dictionary of Pāli, Part I, p.711.1). From the Sanskrit root kup, 'to be moved, excited, agitated; to swell, heave, or boil with emotion; be angry' (Monier-Williams, Sanskrit English Dictionary, p. 291.2). MN 43 Mahāvedalla Sutta (PTS MN i.292) informs us that of all the various types of deliverance of mind (cetovimutti), the unshakeable deliverance of mind is declared the best or highest (akuppā tāsaṃ cetovimutti aggamakkhāyati; PTS MN i.298). Moreover, it says, the 'unshakeable deliverance of mind' is empty of lust, empty of ill will, and empty of delusion (sā kho panākuppā cetovimutti suññā rāgena, suññā dosena, suññā mohena; ibid.). The commentary to this same passage says that the unshakeable deliverance of mind is the fruit of arahantship; it is the strongest (jeṭṭhikā) of all, hence it is said in the sutta that it is declared the best or highest (akuppāti arahattaphalacetovimutti; sā hi tāsaṃ sabbajeṭṭhikā, tasmā aggamakkhāyatīti vuttā; PTS Ps ii.354). The commentary to MN 122 Mahāsuññata Sutta (PTS MN iii.110), where again the 'permanent and unshakeable deliverance of mind' is referred to (cetovimuttiṃ... asāmāyikaṃ vā akuppanti; PTS MN iii.111), further glosses akuppa with the meaning, 'not to be agitated by the impure passions' (akuppanti kilesehi akopetabbaṃ; PTS Ps iv.159).
+
+3.
+
+Paṭisambhidā: formed from paṭi- + saṃ- + bhid, where paṭi + saṃ should probably be understood as 'back together', and the verbal root bhid means 'to break, split, sever'. Rhys Davids and Stede propose that a literal rendering would be "resolving continuous breaking up", and gloss this as 'analysis, analytic insight, discriminating knowledge'; moreover, they associate it with the idea of 'logical analysis' (Pali-English Dictionary, p. 400.2). Bhikkhu Nyanatiloka similarly renders the term as 'analytical knowledge', but also as 'discrimination' (Buddhist Dictionary, p. 137). Bhikkhu Ñāṇamoli voices a divergent view in a note to his translation of in Buddhaghosa's Visuddhimagga, XIV.8, where he renders paṭisambhidā as 'discrimination':
+
+Paṭisambhidā is usually rendered by 'analysis'... But the Tipiṭaka explanations of the four paṭisambhidā suggest no emphasis on analysis rather than synthesis... 'Discrimination' has been chosen for paṭisambhidā because, while it has the sense of 'division', it does not imply an opposite process as 'analysis' does. Also it may be questioned whether the four are well described as 'entirely logical': 'entirely epistemological' might perhaps be both less rigid and nearer; for they seem to cover four interlocking fields, namely: meanings of statements and effects of causes (etc.), statements of meanings and causes of effects (etc.), language as restricted to etymological rules of verbal expression, and clarity (or perspicuous inspiration) in marshalling the other three. (The Path of Purification, 5th ed., 1991, p. 804, n. 4) 
+
+In this translation, I have decided to follow Ñāṇamoli's rendering of the term. Even so, 'discrimination' does not so clearly capture the double sense of both 'taking apart' ('analysis') and 'combining together' ('synthesis') that seems to be suggested by paṭisambhidā. One kind of epistemological process which involves both of these activities is 'classification', in which various things, even within a given class or group (e.g., attha, 'meaning, result', dhamma, 'principle, cause', nirutti, 'language, means of expression'), are divided and grouped according to their peculiar differences and similarities with respect to one another. So, while each of the paṭisambhidā is itself a classification of a kind of knowledge, it is also possible that each one is also understood to be a kind of ability to 'classify' correctly the elements belonging to the kind of knowledge that falls into its scope.
+
+In Visuddhimagga, Buddhaghosa (PTS Vism 438), presents a list of what he considers to be twelve different kinds of paññā ('understanding', 'wisdom'); the set of catasso paṭisambhidā, 'four discriminations', is the twelfth of these. He goes on to give an extensive discussion of them (XIV.21-31, PTS Vism 440-443), which, although of interest, is very much influenced by the Abhidhamma interpretation of the term: Buddhaghosa begins by citing the definition of the Abhidhamma Vibhaṅga (Vibh 293), and then proceeds to follow the subsequent Vibhaṅga discussion (XIV.24, Vism 441, citing Vibh 293-295). If Buddhaghosa was indeed the author of the Sumaṅgalavilāsinī (see note 8 below for details), then his Abhidhamma-based account of the four paṭisambhidā may well diverge from the original meaning of the term in the period in which the Suttas evolved and were committed to memory. For the same reasons, this is very probably also the case for many commentarial interpretations of earlier Sutta concepts.
+
+4.
+
+Attha-paṭisambhidā.
+
+5.
+
+Dhamma-paṭisambhidā.
+
+6.
+
+Nirutti-paṭisambhidā: nirutti might best be thought of as the study of language: that is to say, as 'philology' or 'linguistics', implying a knowledge of grammar, syntax, and etymology.
+
+7.
+
+Paṭibhāna: 'understanding, illumination, intelligence, readiness or confidence of speech, promptitude, wit' (Rhys Davids and Stede, PED, p. 397.2). Cf. the Sanskrit pratibhāna, from prati- + √bhā, pratibhāti, 'to shine upon, to appear to the mind (used also with manasi, 'in the mind'), to become clear or manifest' (cf. Monier-Williams, SED, p. 668.2-3); thus pratibhāna, 'becoming clear or visible; obviousness; intelligence; eloquence; brilliancy; boldness, audacity' (ibid.).
+
+We might also cite here the definition from Vibhaṅga with which Buddhaghosa opens his discussion of the four paṭisambhidā (see note 3 above):
+
+Knowledge with respect to meaning is discrimination (paṭisambhidā) of meaning, knowledge with respect to dhamma is discrimination of dhamma, knowledge with respect to the linguistic expression of dhamma is discrimination of language, and knowledge with respect to kinds of knowledge is discrimination of paṭibhāna.
+
+atthe ñāṇaṃ atthapaṭisambhidā, dhamme ñāṇaṃ dhammapaṭisambhidā, tatra dhammaniruttābhilāpe ñāṇaṃ niruttipaṭisambhidā, ñāṇesu ñāṇaṃ paṭibhānapaṭisambhidā. (PTS Vibh 293)
+
+Ñāṇamoli, in his translation of this passage as cited within Buddhaghosa's text, renders paṭibhāna as 'perspicuity' (see Path of Purification, XIV.21, p. 440).
+
+8.
+
+Yathā vimuttaṃ cittaṃ paccavekkhati. (See also Ven. Thanissaro's note to this expression in AN 5.96, note 1; the expression recurs also in AN 5.97 and 5.98.)
+
+In the 'Introduction' (Nidāna-kathā) to the commentary to Dīgha Nikāya, known as the Sumaṅgalavilāsinī and traditionally attributed to Buddhaghosa, there is the following interesting reference to the 'four discriminations':
+
+Moreover, a bhikkhu well-practised in Vinaya, depending on the attainment of virtue, arrives at the three knowledges... well-practised in Sutta, depending on the attainment of concentration, he arrives at the six higher knowledges... well-practised in Abhidhamma, depending on the attainment of wisdom, he arrives at the four discriminations...
+
+vinaye pana suppaṭipanno bhikkhu sīlasampadaṃ nissāya tisso vijjā pāpuṇāti... sutte suppaṭipanno samādhisampadaṃ nissāya cha abhiññā pāpuṇāti... abhidhamme suppaṭipanno paññāsampadaṃ nissāya catasso paṭisambhidā pāpuṇāti... (PTS Sv i.21-22)
+
+From this we see that the commentator believed that the 'four discriminations' (catasso paṭisambhidā) were the result of mastery of the Abhidhamma, and that the Abhidhamma is associated with the development of wisdom (paññā).
+
+However, given that the attainment of the four paṭisambidhā is mentioned here in this sutta, it follows that the paṭisambidhā cannot be a result of a mastery of the Abhidhamma, because the Abhidhamma did not even exist at the time of the compilation of the suttas. We know this even according to the traditional evidence, from the reports of the First and Second Councils contained in the last two sections of the Cullavagga, the second part of the Khandhaka in the Vinaya Piṭaka.
+
+In the report of the First Council therein, only the Vinaya and the Dhamma are mentioned: "Come, friends, let us chant the Dhamma and the Vinaya..." (handa mayaṃ, āvuso, dhammañca vinayañca saṅgāyāma... PTS Vin ii.285). Venerable Mahākassapa questions Venerable Upāli concerning the contexts of the Vinaya; and then he questions the Venerable Ānanda concerning the contexts of the Suttas, starting with the Brahmajāla, then the Sāmaññaphala. "In this way, he asked about the five Nikāyas; questioned consecutively, Venerable Ānanda answered." (eteneva upāyena pañcapi nikāye pucchi; puṭṭho puṭṭho āyasmā ānando vissajjesi. PTS Vin ii.287).
+
+Again, in the report of the Second Council, said in the text itself to have taken place one hundred years after the Buddha's Parinibbāna (tena kho pana samayena vassa-sata-parinibbute bhagavati...; PTS Vin ii.294), the resolution of the dispute between the two groups of monks depends upon a sound knowledge of the Vinaya and the Dhamma. Thus, for example: "The Venerable Elder has learned much Dhamma and Vinaya at the feet of his spiritual teacher. When the Venerable Elder is reflecting upon the Dhamma and Vinaya, how is it?" (therena, bhante, upajjhāyassa mūle bahudhammo ca vinayo ca pariyatto. therassa bhante, dhammañca vinayañca paccavekkhantassa kathaṃ hoti? PTS Vin ii.304.) The Venerable Revata, to whom this passage refers, is earlier described (in a stereotypical formula) as "very learned, one to whom the āgama (the four Nikāyas) has been handed down, a bearer of the Dhamma, the Vinaya, the mātikā, intelligent, accomplished, wise, modest, meticulous, anxious to observe the discipline (bahussuto āgatāgamo dhammadharo vinayadharo mātikādharo paṇḍito viyatto medhāvī lajjī kukkuccako sikkhākāmo; PTS Vin ii.299.) Here, the word mātikā, 'matrices, codes', most probably refers to the rules of the Pātimokkha-sutta (which has come down to us embedded within its commentary, the Sutta-vibhaṅga, in the Vinaya Piṭaka): 227 rules for monks and 311 rules for nuns. On this matter, see O. von Hinüber, A Handbook of Pāli Literature, §15 and §131. See also Bhikkhus Bodhi and Ñāṇamoli, The Middle Length Discourses of the Buddha, p. 1226, n. 365: "The Codes (mātikā) are probably the rules of the Pātimokkha abstracted from their explanatory matrix, as well as lists of the primary doctrinal categories used for expounding the Dhamma." Again, see also F. Watanabe, Philosophy and its Development in the Nikāyas and Abhidhamma, p. 43:
+
+The word mātikā can also be found in the Vinaya Piṭaka, where it appears with the word vibhaṅga (indicating the Suttavibhaṅga or Vinayavibhaṅga) and the word khandhaka (indicating the Khandhakas). Therefore, it is also a word used for a special study of the vinaya (abhivinaya: probably studying the Pātimokkhasutta...).
+
+This is clearly the earliest usage and meaning of the word mātikā, as it is found in the Vinaya and Suttas. From such indications we may conclude that it was fundamentally anachronistic of the commentator (perhaps Buddhaghosa) to suppose that the paṭisambhidā were attainments resulting from a mastery of the much later Abhidhamma literature; for, the latter simply did not exist at the time of the learning, compilation and original transmission of the Suttas.
+
+Now, in this present sutta (AN 5.95), we find very specific reference made to five qualities (pañcahi dhammehi): that is, the four paṭisambidhā in conjunction with what we must evidently take to be the fifth quality in question: "yathāvimuttaṃ cittaṃ paccavekkhati", "he reflects upon mind as liberated". It is probable that this fifth quality is the crucial one, and that, without it, the four other qualities would by no means produce the result which is the theme of the sutta, i.e., "nacirasseva akuppaṃ paṭivijjhati", "in no long time he penetrates and intuits the Unshakeable".

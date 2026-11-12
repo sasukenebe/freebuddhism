@@ -1,0 +1,33 @@
+SN 56.27 - SN 56:27 Real | Tatha Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN56_27.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Real
+ Tatha Sutta (SN 56:27)
+
+“Monks, there are these four noble truths. Which four? The noble truth of stress, the noble truth of the origination of stress, the noble truth of the cessation of stress, & the noble truth of the path of practice leading to the cessation of stress.
+
+“These four noble truths are real, not unreal, with no alteration. That is why they are called ‘noble truths.’1
+
+“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”
+
+Note
+
+1. The Pali term for noble truth, ariyasacca, is a compound of two words, ariya (noble) and sacca (truth). Because the first term of the compound lacks a case ending, its relationship to the second term is not clearly defined, which means that it could be related to the second term in a variety of ways. This is a cause for ambiguity in Pali compounds in general, an ambiguity that is sometimes intentional, in that it allows for the compound to carry many meanings, all of them valid.
+
+The standard English translation of ariyasacca, “noble truth,” takes ariya as an adjective modifying sacca. That is the interpretation offered by this sutta. The following sutta, SN 56:28 suggests another interpretation: The truths are called noble because they are espoused by a noble one, i.e., the Buddha. In that case, ariya- in ariyasacca would be a shortened version of ariyassa, of the noble one, or ariyānaṁ, of the noble ones. The compilers of the Commentary, instead of allowing for ambiguity here, decided to make that the primary meaning of ariyasacca. So they explain away this sutta by saying that noble ones would espouse only truths that are real and not otherwise. Thus, because these are truths that meet the criteria of the noble ones, they are truths of the noble ones. In other words, the truths are not noble per se. Nobility pertains directly only to the noble ones, and only by extension to the truths. However, the sutta makes clear that being real and not otherwise makes the truths, in and of themselves, noble.
+
+Strangely, the Visuddhimagga—a cornerstone of the commentarial literature—cites both this sutta and the following one in its discussion of what makes the noble truths noble, and yet it does not privilege either interpretation over the other. It simply lists, as equally valid alternatives, the idea that the truths are noble per se, and that they are the truths of the noble one. See The Path of Purification, 16:20–22.
+
+Some modern scholars have taken to an extreme the idea promoted by the commentators to this sutta, saying that the noble truths are true only for noble ones, and not for those who are not yet noble. This, however, cannot be the case. In SN 42:11, for instance, the Buddha shows how the second noble truth is clearly true for his listener, who is obviously not a noble one.
+
+The same scholars try to extend their interpretation to the noble eightfold path, saying that the path is not noble per se, and that it is a path only for noble ones, but the Pali of the term does not allow for that interpretation at all. It is not a compound and so doesn’t contain the ambiguity of compounds. Instead, it is a series of independent terms—ariyo aṭṭhaṅgiko maggo—in which the case endings show clearly that “noble” acts as an adjective modifying “path.”
+
+See also: SN 56:20

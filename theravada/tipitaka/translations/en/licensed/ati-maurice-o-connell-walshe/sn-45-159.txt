@@ -1,0 +1,52 @@
+SN 45.159 - Agantuka Sutta: For All Comers
+Translated by Maurice O'Connell Walshe
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.159.wlsh.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.159.wlsh.html#F_termsOfUse
+Copyright: ©1985 Buddhist Publication Society.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1985 Buddhist Publication Society. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge and, in the case of reprinting, only in quantities of no more than 50 copies; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. From Samyutta Nikaya: An Anthology (WH 318-321), by M. O'C. Walshe (Kandy: Buddhist Publication Society, 1985). Transcribed from the print edition in 2007 by a volunteer, under the auspices of the Access to Insight Dhamma Transcription Project and by arrangement with the Buddhist Publication Society. Minor revisions were made in accordance with the ATI style sheet. Pali diacritics are represented using the Velthuis convention. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Agantuka Sutta: For All Comers" (SN 45.159), translated from the Pali by Maurice O'Connell Walshe. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn45/sn45.159.wlsh.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+"Suppose, monks, there is a guest-house. Travelers come from the east, the west, the north, the south to lodge here: nobles and Brahmans, merchants and serfs.[1] In the same way, monks, a monk who cultivates the Noble Eightfold Path, who assiduously practices the Noble Eightfold Path, comprehends with higher knowledge those states that are to be so comprehended, abandons with higher knowledge those states that are to be so abandoned, comes to experience with higher knowledge those states that are to be so experienced, and cultivates with higher knowledge those states that are to be so cultivated.
+
+"What, monks, are the states to be comprehended with higher knowledge?[2]
+
+"They are the five groups of clinging. Which five? The body-group, the feeling-group, the perception-group, the mental-formation group, the consciousness-group...
+
+"What, monks, are the states to be abandoned with higher knowledge?
+
+"They are ignorance and the desire for [further] becoming.
+
+"And what, monks, are the states to be experienced with higher knowledge?
+
+"They are knowledge and liberation.
+
+"And what, monk, are the states to be cultivated with higher knowledge?
+
+"They are calm and insight.[3]
+
+"And how does a monk who cultivates the Noble Eightfold Path, who assiduously practices the Noble Eightfold Path, comprehend... abandon... come to experience... cultivate with higher knowledge those states that are to be so comprehended, abandoned, experienced, cultivated?
+
+"In this, monks, a monk cultivates Right View... Right Concentration that is based on detachment, dispassion, leading to maturity of surrender.[4] In this way he comprehends... abandons... comes to experience... cultivates with higher knowledge those states that are to be so comprehended, abandoned, experienced, cultivated."
+
+Notes
+
+1.
+
+The four "colors" from which the later caste system developed: the khattiyas (Sanskrit ksatriya) or nobles, the group to which Gotama himself belonged; the braahm.anas or Brahmans, the "priestly" caste (see SN 35.187, n. 1); the vessas (Sanskrit vaisya) or merchant class, and the suddas (Sanskrit suudra), the lowest class. For these, the term "serfs" in the text is not entirely appropriate, but it is hard to find an equivalent. See EB [Encyclopaedia of Buddhism, Colombo 1961] s.v. Caste.
+
+2.
+
+Abhiññaa.
+
+3.
+
+Samatha, vipassanaa: see SN 35.204, n. 9.
+
+4.
+
+Vossaggapari.naami. In a note to SN 3.18 (not included in this Anthology), Mrs Rhys Davids quotes SA [SN Commentary] on this term: "Surrender... is twofold: the ejection of all lower passions (kilesas) and the forward leap, or elan, to Nibbaana."
+
+See also: SN 36.14.

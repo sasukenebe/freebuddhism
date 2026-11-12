@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 6:9 Rushing | Upāti Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud6.9" class="h1">Ud 6:9 Rushing (Upāti Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. Now on that occasion, in the pitch-black darkness of the night, the Blessed One was sitting in the open air while oil lamps were burning. And on that occasion, many flying insects, flying into &amp; around those lamps, were meeting their downfall, meeting their misfortune, meeting their downfall &amp; misfortune in those oil lamps. The Blessed One saw those flying insects, flying into &amp; around those lamps, meeting their downfall, meeting their misfortune, meeting their downfall &amp; misfortune in those oil lamps.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Rushing headlong,</p>
+                <p>missing what’s essential,</p>
+                <p>bringing on one new bond</p>
+                <p class="v2">after another,</p>
+                <p>they fall, like insects into a flame:</p>
+                <p class="v2">those intent</p>
+                <p class="v2">on things seen,</p>
+                <p class="v2">things heard.</p>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

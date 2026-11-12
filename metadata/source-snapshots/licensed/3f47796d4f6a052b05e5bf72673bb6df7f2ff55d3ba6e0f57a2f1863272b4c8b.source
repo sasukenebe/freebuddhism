@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 36:4 The Bottomless Chasm | Pātāla Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN36.4" class="h1">The Bottomless Chasm<br/>
+                Pātāla Sutta  (SN 36:4)</h2>
+              <p>“Monks, when an uninstructed run-of-the-mill person makes the statement, ‘There is a bottomless chasm in the ocean,’ he is talking about something that doesn’t exist, that can’t be found. The word ‘bottomless chasm’ is actually a designation for painful bodily feeling.</p>
+              <p>“When an uninstructed run-of-the-mill person is touched by a painful bodily feeling, he sorrows, grieves, &amp; laments, beats his breast, becomes distraught. This is called an uninstructed run-of-the-mill person who has not risen up out of the bottomless chasm, who has not gained a foothold.</p>
+              <p>“When a well-instructed disciple of the noble ones is touched by a painful bodily feeling, he does not sorrow, grieve, or lament, does not beat his breast or become distraught. This is called a well-instructed disciple of the noble ones who has risen up out of the bottomless chasm, whose foothold is gained.”</p>
+              <div class="verse">
+                <p>Whoever can’t endure them</p>
+                <p>once they’ve arisen—</p>
+                <p class="v2">painful bodily feelings</p>
+                <p class="v2">that could kill living beings—</p>
+                <p>who trembles at their touch,</p>
+                <p>who cries &amp; wails,</p>
+                <p>a weakling with no resilience:</p>
+                <p class="v2">He hasn’t risen up</p>
+                <p class="v2">out of the bottomless chasm</p>
+                <p class="v2">or even gained</p>
+                <p class="v2">a foothold.</p>
+                <div class="verse-add">
+                  <p>Whoever endures them</p>
+                  <p>once they’ve arisen—</p>
+                  <p class="v2">painful bodily feelings</p>
+                  <p class="v2">that could kill living beings—</p>
+                  <p>who doesn’t tremble at their touch:</p>
+                  <p class="v2">He’s risen up</p>
+                  <p class="v2">out of the bottomless chasm;</p>
+                  <p class="v2">his foothold is gained.</p>
+                </div>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

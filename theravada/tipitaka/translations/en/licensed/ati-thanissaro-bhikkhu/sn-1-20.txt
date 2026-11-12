@@ -1,0 +1,60 @@
+SN 1.20 - Samiddhi Sutta: About Samiddhi
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn01/sn01.020.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©1999 Thanissaro Bhikkhu.
+License notice: The text of this page ("Samiddhi Sutta: About Samiddhi", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1999 Thanissaro Bhikkhu. The text of this page ("Samiddhi Sutta: About Samiddhi", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Samiddhi Sutta: About Samiddhi" (SN 1.20), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn01/sn01.020.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Translator's note: The Pali canon is unique in its approach to the spirit world. While confirming the existence of spirits and other more refined levels of beings, it insists that they are not worthy of worship. The Buddha, after all, is the teacher not only of human beings but also of heavenly beings; and many heavenly beings are not especially knowledgeable or spiritually advanced, in spite of their refined state. The Canon illustrates this point in a number of gentle satires. The most famous is the Kevatta Sutta (DN 14), where the ignorance & pomposity of a supposedly all-knowing creator is lampooned. This discourse is another entertaining example of the same genre, pointing out the difficulties of teaching more advanced Dhamma to any being — human or divine — who is obsessed with sensual pleasures. On hearing some verses concerning the awakened one's state of mind — which is not subject to time and is visible here-&-now — the devata cannot understand them, and is able to grasp only a few very basic principles of Dhamma practice. It's unusual for the Buddha to aim his words so far over the heads of his listeners. Perhaps in this case, as in SN 1.1, he wants to subdue the devata's pride. At any rate, there is hope for her: as the Commentary points out, her understanding covers in a rudimentary fashion all the elements of the Noble Eightfold Path. If she follows through with her understanding, she's on the road to the higher attainments.
+
+This discourse also contains some word play on the words "time" (kala) and "subject to time" (kalika). "Time" can mean not only time in the general sense, but also one's time of death (a person who has died is said to have "done his/her time"). These two meanings of the word underlie the first exchange between Ven. Samiddhi and the devata. "Subject to time" can mean "obtainable only after a certain time" or "good only for a certain length of time": these meanings underlie their second exchange.
+
+I have heard that on one occasion the Blessed One was staying near Rajagaha at Tapoda monastery. Then Ven. Samiddhi, as night was ending, got up & went to the Tapoda Hot Springs to bathe his limbs. Having bathed his limbs and gotten out of the springs, he stood wearing only his lower robe, letting his limbs dry.
+
+Then a certain devata, in the far extreme of the night, her extreme radiance lighting up the entire Tapoda Hot Springs, approached Ven. Samiddhi. On arrival, while standing in the air, she addressed him with this verse:
+
+ Without having enjoyed [sensual pleasures], you go for alms, monk. You don't go for alms after having enjoyed. Having enjoyed, monk, then go for alms. Don't let time pass you by. 
+
+[Ven. Samiddhi replied:]
+
+ I don't know my time. My time is hidden. It can't be seen. That's why, not having enjoyed, I go for alms: Don't let my time pass me by. 
+
+Then the devata, coming down to earth, said to Ven. Samiddhi, "You have gone forth while young, monk — black-haired, endowed with the blessings of youth in the first stage of life — without having played with sensual pleasures. Enjoy human sensuality, monk. Don't drop what is visible here-&-now in pursuit of what's subject to time."
+
+"My friend, I'm not dropping what's visible here-&-now in pursuit of what's subject to time. I'm dropping what's subject to time in pursuit of what's visible here-&-now. For the Blessed One has said that sensual pleasures are subject to time, of much stress, much despair, & greater drawbacks; whereas this Dhamma is visible here-&-now, not subject to time, inviting all to come & see, pertinent, to be known by the wise for themselves."
+
+"But, monk, in what way has the Blessed One said that sensual pleasures are subject to time, of much stress, much despair, & greater drawbacks? And how is this Dhamma visible here-&-now, not subject to time, inviting all to come & see, pertinent, to be known by the wise for themselves?"
+
+"I'm new, my friend, not long gone forth, only recently come to this Dhamma & discipline. I can't explain it in detail. But the Blessed One, worthy & rightly self-awakened, is staying here in Rajagaha at Tapoda monastery. Having gone to him, ask him this matter. As he explains it, that's how you should remember it."
+
+"Monk, it's not easy for us to go to the Blessed One, as he is surrounded by other devas of great influence. But if you go to the Blessed One and ask him this matter, I will come along to hear the Dhamma."
+
+Responding to the devata, "As you say, my friend," Ven. Samiddhi went to the Blessed One. On arrival, he bowed down to the Blessed One and sat to one side. As he was sitting there [he told the Blessed One his entire conversation with the devata]. "Now, lord, if that devata was telling the truth, she is not far from here."
+
+When this was said, the devata said to Ven. Samiddhi, "Ask, monk! Ask! I've gotten through."
+
+Then the Blessed One recited this verse to the devata:
+
+ Perceiving in terms of signs, beings take a stand on signs. Not fully comprehending signs, they come into the bonds of death. But fully comprehending signs, one doesn't construe a signifier. Yet nothing exists for him by which one would say, 'To him no thought occurs.' If you know this, spirit, then say so. 
+
+"I don't understand, lord, the detailed meaning of the Blessed One's brief statement. It would be good if the Blessed One would speak in such a way that I would understand the detailed meaning of the Blessed One's brief statement."
+
+[The Blessed One said:]
+
+ Whoever construes 'equal,' 'superior,' or 'inferior,' by that he'd dispute. Whereas to one unaffected by these three, 'equal' 'superior' do not occur. If you know this, spirit, then say so. 
+
+"I don't understand, lord, the detailed meaning of the Blessed One's brief statement. It would be good if the Blessed One would speak in such a way that I would understand the detailed meaning of the Blessed One's brief statement."
+
+[The Blessed One said:]
+
+ Having shed classifications, gone beyond conceit, he has here cut through craving for name & form: This one — his bonds cut through, free from trouble, from longing — though they search they can't find him, human & heavenly beings, here & beyond, in heaven or any abode. If you know this, spirit, then say so. 
+
+"Lord, here's how I understand the detailed meaning of the Blessed One's brief statement:
+
+ In all the world, every world, you should do no evil with speech, body, or mind. Having abandoned sensual pleasures — mindful, alert — don't consort with suffering & stress, with what doesn't pertain to the goal." 
+
+See also: DN 11; SN 5.1; SN 5.4; SN 5.7; Iti 63; Sn 5.6; also Sn 4.9 (quoted in The Mind Like Fire Unbound, chapter III).

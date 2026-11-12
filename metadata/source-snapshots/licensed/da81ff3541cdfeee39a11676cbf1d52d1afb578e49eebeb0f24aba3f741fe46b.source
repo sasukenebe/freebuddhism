@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 48:46 The Eastern Monastery | Pubbārāma Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN48.46" class="h1">The Eastern Monastery<br/>
+                Pubbārāma Sutta  (SN 48:46)</h2><!--end suttahead-->
+              <p>“Through the development &amp; pursuit of how many faculties, monks, does a monk whose effluents are ended declare gnosis: ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world’?”</p>
+              <p>“For us, lord, the teachings have the Blessed One as their root, their guide, &amp; their arbitrator. It would be good if the Blessed One himself would explicate the meaning of this statement. Having heard it from the Blessed One, the monks will remember it.”</p>
+              <p>“Monks, it’s through the development &amp; pursuit of two faculties that a monk whose effluents are ended declares gnosis: ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.’ Through which two? Through noble discernment &amp; noble release. Whatever is his noble discernment is his faculty of discernment. Whatever is his noble release is his faculty of concentration.</p>
+              <p>“It’s through the development &amp; pursuit of these two faculties that a monk whose effluents are ended declares gnosis: ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.’”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 6:5 Anopamā, the Millionaire’s Daughter</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig6.5" class="h1">Thig 6:5  Anopamā, the Millionaire’s Daughter</h4>
+          <div class="verse">
+            <p>Born in a high-ranking family</p>
+            <p>with much property, great wealth,</p>
+            <p>consummate in complexion &amp; figure,</p>
+            <p>I was the daughter of Majjha, the treasurer.</p>
+            <p>Kings’ sons sought for me,</p>
+            <p>rich merchants’ sons</p>
+            <p class="v2">longed for me.</p>
+            <p>One of them sent my father a messenger,</p>
+            <p>saying, “Give me Anopamā.</p>
+            <p>I will give in return</p>
+            <p class="v2">eight times her weight</p>
+            <p class="v2">in jewels &amp; gold.”</p>
+            <div class="verse-add">
+              <p>But I, having seen</p>
+              <p class="v2">the One Self-awakened,</p>
+              <p class="v2">unsurpassed, excelling the world,</p>
+              <p>paid homage to his feet,</p>
+              <p>sat down to one side.</p>
+              <p>He, Gotama, from sympathy,</p>
+              <p>taught me the Dhamma.</p>
+              <p>And as I sat in that very seat,</p>
+              <p class="v2">I attained the third fruit</p>
+              <p class="v2">[of non-return.]</p>
+              <p>Then I cut off my hair,</p>
+              <p>and went forth into homelessness.</p>
+              <p>Today is the seventh day</p>
+              <p>since I made craving</p>
+              <p class="v2">wither away.</p>
+            </div><!--end verse-add-->
+          </div><!--end verse-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

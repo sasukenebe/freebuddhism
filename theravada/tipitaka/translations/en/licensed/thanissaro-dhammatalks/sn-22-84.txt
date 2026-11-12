@@ -1,0 +1,113 @@
+SN 22.84 - SN 22:84 Tissa | Tissa Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN22_84.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Tissa
+ Tissa Sutta (SN 22:84)
+
+Near Sāvatthī. On that occasion Ven. Tissa, the Blessed One’s paternal cousin, told a large number of monks, ”Friends, it’s as if my body is drugged. I’ve lost my bearings. Things aren’t clear to me. My mind keeps being overwhelmed with sloth & torpor. I lead the holy life dissatisfied. I have uncertainty about the teachings.”
+
+Then a large number of monks went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, they told him: “Lord, Ven. Tissa, the Blessed One’s paternal cousin, has told a large number of monks, ‘Friends, it’s as if my body is drugged. I’ve lost my bearings. Things aren’t clear to me. My mind keeps being overwhelmed with sloth & torpor. I lead the holy life dissatisfied. I have uncertainty about the teachings.’”
+
+Then the Blessed One told a certain monk, “Come, monk. In my name, call Tissa, saying, ‘The Teacher calls you, my friend.’”
+
+“As you say, lord,” the monk answered and, having gone to Ven. Tissa, on arrival he said, “The Teacher calls you, my friend.”
+
+“As you say, my friend,” Ven. Tissa replied. Then he went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, the Blessed One said to him, “Is it true, Tissa, that you have told a large number of monks, ‘Friends, it’s as if my body is drugged. I’ve lost my bearings. Things aren’t clear to me. My mind keeps being overwhelmed with sloth & torpor. I lead the holy life dissatisfied. I have uncertainty about the teachings’?”
+
+“Yes, lord.”
+
+“What do you think, Tissa? In one who is not without passion, desire, love, thirst, fever, & craving for form, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his form?”
+
+“Yes, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is not without passion for form.
+
+“What do you think, Tissa? In one who is not without passion, desire, love, thirst, fever, & craving for feeling… perception… fabrications, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his fabrications?”
+
+“Yes, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is not without passion for fabrications.
+
+“What do you think, Tissa? In one who is not without passion, desire, love, thirst, fever, & craving for consciousness, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his consciousness?”
+
+“Yes, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is not without passion for consciousness.
+
+“Now what do you think, Tissa? In one who is without passion, desire, love, thirst, fever, & craving for form, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his form?”
+
+“No, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is without passion for form.
+
+“What do you think, Tissa? In one who is without passion, desire, love, thirst, fever, & craving for feeling… perception… fabrications, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his fabrications?”
+
+“No, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is without passion for fabrications.
+
+“What do you think, Tissa? In one who is without passion, desire, love, thirst, fever, & craving for consciousness, does there arise sorrow, lamentation, pain, distress, & despair from change & alteration in his consciousness?”
+
+“No, lord.”
+
+“Good, Tissa, good. That’s how it is for one who is without passion for consciousness.
+
+“What do you think, Tissa? Is form constant or inconstant?”
+
+“Inconstant, lord.”
+
+“And is that which is inconstant easeful or stressful?”
+
+“Stressful, lord.”
+
+“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”
+
+“No, lord.”
+
+“… Is feeling constant or inconstant?”—“Inconstant, lord.” …
+
+“… Is perception constant or inconstant?”—“Inconstant, lord.” …
+
+“… Are fabrications constant or inconstant?”—“Inconstant, lord.” …
+
+“What do you think, Tissa? Is consciousness constant or inconstant?”
+
+“Inconstant, lord.”
+
+“And is that which is inconstant easeful or stressful?”
+
+“Stressful, lord.”
+
+“And is it fitting to regard what is inconstant, stressful, subject to change as: ‘This is mine. This is my self. This is what I am’?”
+
+“No, lord.”
+
+“Thus, Tissa, any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every form is to be seen as it has come to be with right discernment as: ‘This is not mine. This is not my self. This is not what I am.’
+
+“Any feeling whatsoever.…
+
+“Any perception whatsoever.…
+
+“Any fabrications whatsoever.…
+
+“Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Every consciousness is to be seen as it has come to be with right discernment as: ‘This is not mine. This is not my self. This is not what I am.’
+
+“Seeing thus, the instructed disciple of the noble ones grows disenchanted with form, disenchanted with feeling, disenchanted with perception, disenchanted with fabrications, disenchanted with consciousness. Disenchanted, he becomes dispassionate. Through dispassion, he is released. With release, there is the knowledge, ‘Released.’ He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’
+
+“Tissa, it’s as if there were two men, one not skilled in the path, the other skilled in the path. In that case the man not skilled in the path would ask the man skilled in the path about the path. The second man would say, ‘Come, my good man, this is the path. Go along it a little further and you will see a fork in the road. Avoiding the left fork, take the right. Go along a little further and you will see an intense forest grove. Go along a little further and you will see a large marshy swamp. Go along a little further and you will see a deep drop-off. Go along a little further and you will see a delightful stretch of level ground.
+
+“I have made this comparison, Tissa, to convey a meaning. The meaning is this: The man unskilled in the path stands for a run-of-the-mill person. The man skilled in the path stands for the Tathāgata, worthy & rightly self-awakened. The fork in the road stands for uncertainty. The left fork stands for the eightfold wrong path—i.e., wrong view, wrong resolve, wrong speech, wrong action, wrong livelihood, wrong effort, wrong mindfulness, wrong concentration. The right fork stands for the noble eightfold path—i.e., right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration. The intense forest grove stands for ignorance. The large marshy swamp stands for sensual desires. The deep drop-off stands for anger & despair. The delightful stretch of level ground stands for unbinding.
+
+“Rejoice, Tissa! Rejoice! I am here to exhort you, I am here to aid you, I am here to instruct you!”
+
+That is what the Blessed One said. Gratified, Ven. Tissa delighted in the Blessed One’s words.
+
+See also: MN 4; MN 107; MN 126; SN 42:11; SN 47:13

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:43 Bodily Witness* | Kāyasakkhī Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN9.43" class="h1">Bodily Witness*<br/>
+                  Kāyasakkhī Sutta  (AN 9:43)</h3><!--end suttahead-->
+                <p>[Ven. Udāyin:] “‘Bodily witness, bodily witness,’ it is said. To what extent is one described by the Blessed One as a bodily witness?”</p>
+                <p>[Ven. Ānanda:] “There is the case, my friend, where a monk, quite secluded from sensuality, secluded from unskillful qualities, enters &amp; remains in the first jhāna: rapture &amp; pleasure born of seclusion, accompanied by directed thought &amp; evaluation. He remains touching with his body in whatever way there is an opening there.<span class="fn"><a href="#an9.43note01">1</a></span><!--end fn cite--> It’s to this extent that one is described by the Blessed One as a bodily witness, though with a sequel.</p>
+                <p>“And further, with the stilling of directed thoughts &amp; evaluations, he enters &amp; remains in the second jhāna… the third jhāna… the fourth jhāna… the dimension of the infinitude of space… the dimension of the infinitude of consciousness… the dimension of nothingness… the dimension of neither perception nor non-perception. He remains touching with his body in whatever way there is an opening there. It’s to this extent that one is described by the Blessed One as a bodily witness, though with a sequel.</p>
+                <p>“Then, with the complete transcending of the dimension of neither perception nor non-perception, he enters &amp; remains in the cessation of perception &amp; feeling. And as he sees (that) with discernment, effluents are completely ended. He remains touching with his body in whatever way there is an opening there. It’s to this extent that one is described by the Blessed One as a bodily witness without a sequel.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+                  <p id="an9.43note01">1. See <a href="AN5_28.html">AN 5:28</a> and <a href="AN9_35.html">AN 9:35</a>.</p>
+                </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

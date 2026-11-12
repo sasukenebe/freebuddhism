@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:255 On Families | Kula Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.255" class="h1">On Families<br/>
+                  Kula Sutta  (AN 4:255)</h3><!--end suttahead-->
+                <p>“In every case where a family cannot hold onto its great wealth for long, it is for one or another of these four reasons. Which four? They don’t look for things that are lost. They don’t repair things that have gotten old. They are immoderate in consuming food and drink. They place a woman or man of no virtue or principles in the position of authority. In every case where a family cannot hold onto its great wealth for long, it is for one or another of these four reasons.</p>
+                <p>“In every case where a family can hold onto its great wealth for long, it is for one or another of these four reasons. Which four? They look for things that are lost. They repair things that have gotten old. They are moderate in consuming food and drink. They place a virtuous, principled woman or man in the position of authority. In every case where a family can hold onto its great wealth for long, it is for one or another of these four reasons.”</p>
+                <p class="seealso">See also: <a href="../SN/SN42_9.html">SN 42:9</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

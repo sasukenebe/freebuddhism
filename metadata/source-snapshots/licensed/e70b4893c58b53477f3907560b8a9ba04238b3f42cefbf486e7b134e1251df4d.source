@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 35:99 Concentration | Samādhi Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN35.99" class="h1">Concentration<br/>
+                Samādhi Sutta  (SN 35:99)</h2>
+              <p>“Develop concentration, monks. A concentrated monk discerns things as they have come to be. And what does he discern as it has come to be?</p>
+              <p>“He discerns, as it has come to be, that ‘The eye is inconstant’ … ‘Forms are inconstant’ … ‘Eye-consciousness is inconstant’ … ‘Eye-contact is inconstant’ … ‘Whatever arises in dependence on eye-contact—experienced either as pleasure, as pain, or as neither-pleasure-nor-pain—that too is inconstant.’</p>
+              <p>“He discerns, as it has come to be, that ‘The ear is inconstant’ … ‘The nose is inconstant’ … ‘The tongue is inconstant’ … ‘The body is inconstant’ …</p>
+              <p>“He discerns, as it has come to be, that ‘The intellect is inconstant’ … ‘Ideas are inconstant’ … ‘Intellect-consciousness is inconstant’ … ‘Intellect-contact is inconstant’ … ‘Whatever arises in dependence on intellect-contact—experienced either as pleasure, as pain, or as neither-pleasure-nor-pain—that too is inconstant.’</p>
+              <p>“So develop concentration, monks. A concentrated monk discerns things as they have come to be.”</p>
+              <p class="seealso">See also: <a href="../MN/MN52.html">MN 52</a>; <a href="SN22_5.html">SN 22:5</a>; <a href="../AN/AN3_74.html">AN 3:74</a>; <a href="../AN/AN4_41.html">AN 4:41</a>; <a href="../AN/AN5_28.html">AN 5:28</a>; <a href="../AN/AN9_36.html">AN 9:36</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

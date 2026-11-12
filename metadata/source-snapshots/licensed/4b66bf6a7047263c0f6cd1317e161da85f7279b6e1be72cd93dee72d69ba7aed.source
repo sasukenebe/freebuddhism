@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 6:91 Incapable | Abhabba Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN6.91" class="h1">Incapable<br/>
+                  Abhabba Sutta  (AN 6:91)</h3><!--end suttahead-->
+<p>“Monks, a person consummate in view<span class="fn"><a href="#an6.91note01">1</a></span><!--end fn cite--> is incapable of giving rise to six things. Which six? Self-identity view, doubt, grasping at habits &amp; practices, passion that would lead to a lower realm, anger that would lead to a lower realm, delusion that would lead to a lower realm. </p>
+<p>“A person consummate in view is incapable of giving rise to these six things.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+<p id="an6.91note01">1. Consummate in view, <em>diṭṭhi-sampanna,</em> is an epithet for a person who has attained stream-entry.</p>
+                </div><!--end notes-->
+<p class="seealso">See also: <a href="AN3_87.html" class="sutta-ref">AN 3:87–88</a></p>
+
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+
+</body></html>

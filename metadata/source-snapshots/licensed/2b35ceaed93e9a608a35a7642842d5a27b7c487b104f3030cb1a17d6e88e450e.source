@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 7:2 Bhaddiya (2) | Bhaddiya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud7.2" class="h1">Ud 7:2 Bhaddiya (2) (Bhaddiya Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. At that time Ven. Sāriputta was–with a variety of approaches–instructing, urging, rousing, &amp; encouraging Ven. Bhaddiya the Dwarf with Dhamma-talk to an even greater extent, as he thought that Bhaddiya was still just a learner.</p>
+              <p>The Blessed One saw that Ven. Sāriputta was–with a variety of approaches–instructing, urging, rousing, &amp; encouraging Ven. Bhaddiya the Dwarf with Dhamma-talk to an even greater extent, as he thought that Bhaddiya was still just a learner.</p>
+              <p>Then, on realizing the significance of that, the Blessed One on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>He has cut the cycle,</p>
+                <p>has gone away</p>
+                <p>to freedom from longing.</p>
+                <p>The dried-up stream</p>
+                <p class="v2">no longer flows.</p>
+                <p>The cycle, cut,</p>
+                <p class="v2">no longer turns.</p>
+                <p>This, just this,</p>
+                <p>is the end of stress.</p>
+              </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

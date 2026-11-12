@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 2:2 Kassapa the Deva’s Son | Kassapa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN2.2" class="h1">Kassapa the Deva’s Son<br/>
+                Kassapa Sutta  (SN 2:2)</h2>
+<p>Near Sāvatthi in the monastery… Standing to one side, Kassapa the deva’s son recited this verse in the Blessed One’s presence:</p>
+<div class="verse">
+<p>“A monk should have jhāna,</p>
+<p>be released in mind,</p>
+<p class="v2">if he wants the heart’s attainment:</p>
+<p>knowing the arising &amp; passing away of the world,</p>
+<p>good in his awareness, independent,</p>
+<p class="v2">aimed at that reward.”</p>
+</div><!--end verse-->
+              <p class="seealso">See also: <a href="SN12_15.html">SN 12:15</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 9:9 The Vajjian Princeling | Vajjīputta Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN9.9" class="h1">The Vajjian Princeling<br/>
+                Vajjīputta Sutta  (SN 9:9)</h2>
+              <p>On one occasion a certain monk, a Vajjian princeling, was staying near Vesālī in a forest grove. And on that occasion an all-night festival was being held in Vesālī. The monk—lamenting as he heard the resounding din of wind music, string music, &amp; gongs coming from Vesālī, on that occasion recited this verse:</p>
+              <div class="verse">
+                <p>“I live in the wilderness</p>
+                <p class="v1">all alone</p>
+                <p>like a log cast away in the forest.</p>
+                <p>On a night like this,</p>
+                <p class="v1">who could there be</p>
+                <p class="v1">more miserable</p>
+                <p class="v5">than me?”</p>
+              </div>
+              <p>Then the devatā inhabiting the forest grove, feeling sympathy for the monk, desiring his benefit, desiring to bring him to his senses, approached him and addressed him with this verse:</p>
+              <div class="verse">
+                <p>“As you live in the wilderness all alone</p>
+                <p>like a log cast away in the forest,</p>
+                <p>many are those who envy you,</p>
+                <p class="v1">as hell-beings do,</p>
+                <p class="v1">those headed for heaven.”</p>
+              </div>
+              <p>The monk, chastened by the devatā, came to his senses.</p>
+              <p class="seealso">See also: <a href="../MN/MN130.html">MN 130</a>; <a href="SN35_135.html">SN 35:135</a>; <a href="../KN/Dhp/Ch14.html#dhp181">Dhp 181</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

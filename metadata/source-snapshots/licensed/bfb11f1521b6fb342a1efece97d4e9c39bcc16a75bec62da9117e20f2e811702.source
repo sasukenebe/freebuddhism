@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 7:11 Obsessions (1) | Anusaya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN7.11" class="h1">Obsessions (1)<br/>
+                  Anusaya Sutta  (AN 7:11)</h3><!--end suttahead-->
+                <p>“Monks, there are these seven obsessions.<span class="fn"><a href="#an7.11note01">1</a></span><!--end fn cite--> Which seven?</p>
+                <p>“The obsession of sensual passion, the obsession of resistance, the obsession of views, the obsession of uncertainty, the obsession of conceit, the obsession of passion for becoming, the obsession of ignorance: These are the seven obsessions.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+                  <p id="an7.11note01">1. This term—<em>anusaya</em>—is usually translated as “underlying tendency” or “latent tendency.” These translations are based on the etymology of the term, which literally means, “to lie down with.” However, in actual usage, the related verb <em>(anuseti)</em> means to be obsessed with something, for one’s thoughts to return and “lie down with it” over and over again.</p>
+                </div><!--end notes-->
+                <p class="seealso">See also: <a href="../MN/MN44.html">MN 44</a>; <a href="../SN/SN22_36.html">SN 22:36</a>; <a href="../SN/SN36_6.html">SN 36:6</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

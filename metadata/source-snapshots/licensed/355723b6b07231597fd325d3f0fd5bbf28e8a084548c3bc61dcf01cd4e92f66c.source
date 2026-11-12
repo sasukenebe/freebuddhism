@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 3:2 A Man | Purisa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: What, arising from within you, can destroy you?-->
+<h2 class="h1">A Man<br/>
+Purisa Sutta  (SN 3:2)</h2>
+<p>Near Sāvatthī. Then King Pasenadi Kosala went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, he said to the Blessed One, “Lord, what qualities, arising in a man, arise for his harm, suffering, &amp; discomfort?”</p>
+<p>“Three qualities, great king, arising in a man, arise for his harm, suffering, &amp; discomfort. Which three?</p>
+<p>“Greed is a quality that, arising in a man, arises for his harm, suffering, &amp; discomfort.</p>
+<p>“Aversion is a quality that, arising in a man, arises for his harm, suffering, &amp; discomfort.</p>
+<p>“Delusion is a quality that, arising in a man, arises for his harm, suffering, &amp; discomfort.</p>
+<p>“These are the three qualities, great king, that, arising in a man, arise for his harm, suffering, &amp; discomfort.”</p>
+<p>That is what the Blessed One said. Having said that, the One Well-Gone, the Teacher, said further:</p>
+<div class="verse">
+<pre>“Greed, aversion, &amp; delusion
+arisen from within oneself,
+destroy the man of evil awareness,
+like its own fruit, the reed.”</pre>
+</div><!--end verse-->
+<p class="seealso">See also: <a href="../AN/AN3_34.html" class="sutta-ref">AN 3:34</a>; <a href="../AN/AN3_70.html" class="sutta-ref">AN 3:70</a>; <a href="../KN/Dhp/Ch12.html#dhp164" class="sutta-ref">Dhp 164</a></p>
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

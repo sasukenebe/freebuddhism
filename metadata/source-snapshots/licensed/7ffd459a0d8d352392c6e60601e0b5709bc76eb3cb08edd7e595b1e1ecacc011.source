@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:137 One Sleeps Little | Appaṁ Supati Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5_137" class="h1">One Sleeps Little<br/>
+                  Appaṁ Sutta  (AN 5:137)</h3><!--end suttahead-->
+<p>“Monks, these five get little sleep at night, and are mostly awake. Which five? A woman intent on a man gets little sleep at night, and is mostly awake. A man intent on a woman gets little sleep at night, and is mostly awake. A thief intent on theft gets little sleep at night, and is mostly awake. A king fettered by royal duties gets little sleep at night, and is mostly awake. A monk intent on becoming unfettered gets little sleep at night, and is mostly awake. </p>
+<p>“These five, monks, get little sleep at night, and are mostly awake.”</p>
+<p class="seealso">See also: <a href="AN4_37.html" class="sutta-ref">AN 4:37</a>; <a href="../KN/Thag/thag1_84.html" class="sutta-ref">Thag 1:84</a>; <a href="../KN/Thag/thag2_37.html" class="sutta-ref">Thag 2:37</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+
+
+</body></html>

@@ -1,0 +1,31 @@
+AN 5.191 - AN 5:191 The Dog Discourse | Soṇa Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/AN/AN5_191.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+The Dog Discourse
+ Soṇa Sutta (AN 5:191)
+
+An example of how pointed the Buddha’s sense of humor could be. The deadpan style is typical of humor in the Pali Canon.
+
+“Monks, these five ancient brahmanical traditions are now observed among dogs but not among brahmans. Which five?
+
+“In the past, brahman males mated only with brahman females and not with non-brahman females. At present, brahman males mate with brahman females and with non-brahman females. At present, male dogs mate only with female dogs and not with female non-dogs. This is the first ancient brahmanical tradition that is now observed among dogs but not among brahmans.
+
+“In the past, brahman males mated with brahman females only in-season and not out-of-season. At present, brahman males mate with brahman females in-season and out-of-season. At present, male dogs mate with female dogs only in-season and not out-of-season. This is the second ancient brahmanical tradition that is now observed among dogs but not among brahmans.
+
+“In the past, brahman males did not buy or sell brahman females, but took up cohabitation for the sake of reproduction simply through mutual attraction. At present, brahman males buy and sell brahman females, and take up cohabitation for the sake of reproduction simply through mutual attraction. At present, male dogs do not buy or sell female dogs, but take up cohabitation for the sake of reproduction simply through mutual attraction. This is the third ancient brahmanical tradition that is now observed among dogs but not among brahmans.
+
+“In the past, brahmans did not make a stash of wealth, grain, silver, or gold. At present, brahmans make stashes of wealth, grain, silver, & gold. At present, dogs do not make a stash of wealth, grain, silver, or gold. This is the fourth ancient brahmanical tradition that is now observed among dogs but not among brahmans.
+
+“In the past, brahmans searched for alms for their morning meal in the morning, and for their evening meal in the evening. At present, brahmans, having eaten as much as they like, swelling their bellies, leave taking the leftovers. At present, dogs search for alms for their morning meal in the morning, and for their evening meal in the evening. This is the fifth ancient brahmanical tradition that is now observed among dogs but not among brahmans.
+
+“These, monks, are the five ancient brahmanical traditions that are now observed among dogs but not among brahmans.”
+
+See also: DN 11; MN 93; SN 3:24

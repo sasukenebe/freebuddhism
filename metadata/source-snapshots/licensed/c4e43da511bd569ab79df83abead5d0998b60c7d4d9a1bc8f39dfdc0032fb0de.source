@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:199 A Family | Kula Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.199" class="h1">A Family <br/>
+                  Kula Sutta  (AN 5:199)</h3><!--end suttahead-->
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, there the people give rise to a great deal of merit by five means. Which five?</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, the minds of the people, on seeing him, are brightened. On that occasion the family is practicing the practice leading to heaven.</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, the people rise up to greet him, bow down, give him/her a seat. On that occasion the family is practicing the practice leading to birth in a high family.</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, the people dispel their stinginess. On that occasion the family is practicing the practice leading to great influence.</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, the people share with him/her in line with their ability, in line with their strength. On that occasion the family is practicing the practice leading to great wealth.</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, the people inquire, ask questions, listen to the Dhamma. On that occasion the family is practicing the practice leading to great discernment.</p>
+                <p>“On the occasion when a virtuous person who has gone forth approaches a family, there the people give rise to a great deal of merit by these five means.”</p>
+                <p class="seealso">See also: <a href="../MN/MN135.html">MN 135</a>; <a href="AN5_38.html">AN 5:38</a>; <a href="../KN/Iti/iti107.html">Iti 107</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

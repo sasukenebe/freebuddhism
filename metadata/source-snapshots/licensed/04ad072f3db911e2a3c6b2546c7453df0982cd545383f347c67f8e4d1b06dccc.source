@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:126 Subject to Origination (1) | Samudaya-dhamma Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.126" class="h1">Subject to Origination (1)<br/>
+                Samudaya-dhamma Sutta  (SN 22:126)</h2>
+              <p>At Sāvatthī. Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘Ignorance, ignorance,’ it is said, lord. Which ignorance? And to what extent is one immersed in ignorance?”</p>
+              <p>“There is the case, monk, where an uninstructed run-of-the-mill person doesn’t discern, as it has come to be, form subject to origination as form subject to origination.<span class="fn"><a href="#sn22.126note01">1</a></span><!--end fn cite--> He doesn’t discern, as it has come to be, form subject to passing away as form subject to passing away. He doesn’t discern, as it has come to be, form subject to origination &amp; passing away as form subject to origination &amp; passing away.</p>
+              <p>“He doesn’t discern, as it has come to be, feeling subject to origination as feeling subject to origination. He doesn’t discern, as it has come to be, feeling subject to passing away as feeling subject to passing away. He doesn’t discern, as it has come to be, feeling subject to origination &amp; passing away as feeling subject to origination &amp; passing away.</p>
+              <p>“He doesn’t discern, as it has come to be, perception subject to origination as perception subject to origination. He doesn’t discern, as it has come to be, perception subject to passing away as perception subject to passing away. He doesn’t discern, as it has come to be, perception subject to origination &amp; passing away as perception subject to origination &amp; passing away.</p>
+              <p>“He doesn’t discern, as it they have come to be, fabrications subject to origination as fabrications subject to origination. He doesn’t discern, as they have come to be, fabrications subject to passing away as fabrications subject to passing away. He doesn’t discern, as they have come to be, fabrications subject to origination &amp; passing away as fabrications subject to origination &amp; passing away.</p>
+              <p>“He doesn’t discern, as it has come to be, consciousness subject to origination as consciousness subject to origination. He doesn’t discern, as it has come to be, consciousness subject to passing away as consciousness subject to passing away. He doesn’t discern, as it has come to be, consciousness subject to origination &amp; passing away as consciousness subject to origination &amp; passing away.</p>
+              <p>“This, monk, is called ignorance, and it’s to this extent that one is immersed in ignorance.”</p>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="sn22.126note01">1. Here and in the following sutta, CDB mistranslates <em>samudaya,</em> origination, as “arising.” This gives the impression that ignorance can be ended simply through bare awareness of the aggregates’ arising and passing away. <em>Samudaya,</em> however, denotes a condition responsible for making the aggregates arise, something that cannot be known through simply watching them. One has to interact with them in a way that allows one to see which factors co-arising with the aggregates are actually causing them to arise, and which are not. <a href="SN22_5.html">SN 22:5</a> recommends developing concentration for this purpose. <a href="../AN/AN9_36.html">AN 9:36</a> expands on this recommendation, showing how concentration is actually composed of aggregates. In this way, one learns about the origination of the aggregates by trying to make a state of concentration from them.</p>
+                <p><a href="SN22_5.html">SN 22:5</a> also identifies acts of enjoying, welcoming, and remaining fastened as the origination of the aggregates. <a href="SN22_56.html">SN 22:56–57</a> identify the origination of nutriment as the origination of form; the origination of contact as the origination of feeling, perception, and fabrications; and the origination of name-&amp;-form as the origination of consciousness. These two analyses can perhaps be combined by noting, in the case of form, that the simple presence of nutriment does not cause form. There has to be the act of welcoming, etc., that causes one to <em>take</em> the nutriment that nurtures form.</p>
+              </div><!--end notes-->
+              <p class="seealso">See also: <a href="SN12_2.html">SN 12:2</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

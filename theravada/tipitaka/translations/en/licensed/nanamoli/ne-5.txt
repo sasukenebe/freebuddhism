@@ -1,0 +1,266 @@
+Ne 5 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne5.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+2. The Ninefold Thread in the Mode of Conveying an Investigation
+
+61. Herein, what is the Mode of Conveying an Investigation?
+
+The Mode of Conveying an Investigation is [summarized] in the following verse:
+
+“What in the Thread is asked and answered,
+As well as a verse-paraphrase,
+And the Thread’s term-investigation:
+This Mode Conveys Investigation”.
+
+62. What does it investigate? It investigates:
+
+1. term, question, answer, consecutivity;
+
+2. gratification, disappointment, escape; fruit, means, injunction (Mode 1);
+
+3. PTS vp En 21 paraphrasing-verse;
+
+4. all that is in the ninefold Thread-of-Argument.
+
+How would that be?
+
+[(1) Term, Question, Answer, Consecutivity]
+
+63. It would be [firstly] according to the venerable Ajita’s question asked of the Blessed One in the Pārāyana [Chapter of the Suttanipāta]:
+
+“[Tell] what is the world shut in by”
+So said the venerable Ajita
+“And whereby is it not displayed?
+And what is it besmeared with? Say.
+And what will be its greatest fear”?
+
+64. These four terms asked are one question. Why? Because of their comprising a single thing. PTS vp Pli 11 For in asking thus “[Tell] what is the world shut in by”? he asks [the question] expressed in terms of the world, [in asking] “And wherefore is it not displayed”? he asks about the world’s undisplayedness, [in asking] “And what is PTS vp En 22 it besmeared with”? Say he asks about the world’s besmearedness, [and in asking] “And what will be its greatest fear”? he asks about that same world’s greatest fear.
+
+The world is of three kinds: world of defilement, world of being (existence), and world of faculties.
+
+65. Herein, the answer is this:
+
+“By ignorance is the world shut in,
+Ajita” the Blessed One said.
+“’Tis undisplayed through miswishing and neglect,
+And hankering smears it, I say;
+Suffering is its greatest fear”.
+
+66. Those four terms are answered by these four terms: the first by the first, the second by the second, the third by the third, and the fourth by the fourth.
+
+“By ignorance is the world shut in” is the answer to “[Tell] what is the world shut in by”? The world is shut in by hindrances; for all creatures have ignorance as their [in-shutting] hindrance, according as the Blessed One said (Bhikkhus, I say that, relatively speaking, all creatures, all breathing things, all beings, have one hindrance only, that is to say, ignorance; for all creatures have ignorance as hindrance. And bhikkhus, it is with the entire cessation of ignorance, with giving it up and relinquishing it, that creatures have no more hindrance, I say) (). By this the answer to the first term is appropriately construed.
+
+67. [And again] “’Tis undisplayed through miswishing and neglect” is the answer to “And wherefore is it undisplayed”? When a person PTS vp En 23 is shut in by hindrances, he miswishes (vivicchati), and “miswishing” (vivicchā) is what uncertainty (vicikicchā) is called. When he is uncertain (vicikicchanto) he does not settle his faith. When he does not settle his faith he does not instigate energy for the abandoning of unprofitable ideas [and] for the verification of profitable ideas. Here he abides devoted to negligence. When he is negligent he does not arouse ideas that belong to the white [side]. Not being aroused, they are not displayed to him, according as the Blessed One said:
+
+The True are from afar displayed,
+As Himalaya’s Mountain is;
+But the untrue are seen not here,
+Like arrows in the night let fly.
+They are displayed by qualities,
+By reputation and by fame.
+
+PTS vp Pli 12 By this the answer to the second term is appropriately construed.
+
+68.“And hankering smears it, I say” is the answer to “And what is it besmeared with? Say”. “Hankering” so named is what craving is called. How does that besmear? In the way stated by the Blessed One:
+
+Who lusts no meaning ever knows,
+Who lusts sees never an idea,
+The murk of darkness laps a man
+When he will suffer lust to be.
+
+This craving, in a person greatly clutching [at existence] taken thus as great hankering, is that wherein the world comes to be “besmeared”. By this the answer to the third term is appropriately construed.
+
+69. [And lastly] “Suffering is its greatest fear” is the answer to “And what will be its greatest fear”? Suffering is of two kinds: bodily and mental. The bodily kind is pain, while the mental kind is grief. All creatures are sensitive to suffering. Since there is no fear equal to [that of] suffering, how could there be any greater? There are three kinds of painfulness: painfulness as [bodily] pain, painfulness in change, and painfulness in determinations. PTS vp En 24 Herein, the world is, at one time or another, limitedly free from painfulness as [bodily] pain, and likewise from painfulness in change. Why is that? Because there are those in the world who have little sickness and are long-lived. But only the element of extinction without trace left liberates from the painfulness in determinations. That is why “Suffering is its greatest fear”, taking it that painfulness in determinations is the world’s [inherent liability to] suffering. By this the answer to the fourth term is appropriately construed.
+
+That is why the Blessed One said “By ignorance is the world shut in …”.
+
+70. “The streams keep streaming everywhere”
+So said the venerable Ajita.
+“What is it that shuts off the streams?
+Tell then, what is restraint of streams,
+Whereby it is that streams are sealed”.
+
+71. PTS vp Pli 13 These four terms asked are two questions. Why? Because here [the question] is asked with a plurality of designations. With the world proceeding in this way, with the world thus defiled, what is (1) its cleansing and (2) its emergence?
+
+72. Accordingly he said “The streams keep streaming everywhere”: when someone is unconcentrated and much given to covetousness, ill-will, and negligence, they keep streaming in him. Herein, “covetousness” is the unprofitable root consisting in greed, “ill-will” is the unprofitable root consisting in hate, and “negligence” is the unprofitable root consisting in delusion. When someone is unconcentrated, craving keeps streaming in his six bases: craving for forms, craving for sounds, craving for odours, craving for flavours, craving for tangibles, and craving for ideas; according as the Blessed One said: (“It keeps streaming”, bhikkhus: this is a designation for the six bases in oneself. The eye keeps streaming to agreeable forms and resisting disagreeable forms. The ear … nose … tongue … body … PTS vp En 25 The mind keeps streaming to agreeable ideas and resisting disagreeable ideas) (). So it keeps streaming on in all ways and in all manners. That is why he said “The streams keep streaming everywhere”.
+
+73. [With the words] “What is it that shuts off the streams”? he asks about deterrence of obsession. This is cleansing. [With the words] “Tell then, what is restraint of streams, Whereby it is that streams are sealed” he asks about eradication of underlying-tendencies. This is emergence.
+
+74. Here are the answers:
+
+“Whatever streams are in the world,
+Ajita” the Blessed One said,
+“They are shut off by mindfulness;
+The streams’ restraint I tell, whereby
+They can be sealed, is understanding”.
+
+75. (When mindfulness occupied with the body is kept in being and made much of, the eye is not attracted among agreeable forms, and is unresistant among disagreeable forms. The ear … nose … tongue … body … The mind is not attracted among agreeable ideas, is unresistant among disagreeable ideas). For what reason? Because the faculties are restrained and shut off. PTS vp Pli 14 Restrained and shut off by what? By mindfulness’s preservation. That is why the Blessed One said “They are shut off by mindfulness”.
+
+76. [And again] the underlying-tendencies are abandoned by understanding. When the underlying-tendencies are abandoned the obsessions are abandoned. Why with the abandoning of the underlying-tendencies? Just as, when the complete uprooting of a tree with its trunk is effected, the continuity of flowers, fruits, shoots, and buds, is severed, so too, when the underlying-tendencies are abandoned, the continuity of obsessions is severed, closed, covered up. By what? By understanding. That is why the Blessed One said that “Whereby they can be sealed is understanding”.
+
+77. PTS vp En 26 “Understanding and mindfulness”.
+So said the venerable Ajita.
+“And [now], good sir, this name-and-form:
+Tell me then what I ask of you,
+Where does this come to its surcease”?
+“As to the question that you ask,
+Ajita, I [shall] tell you [now]
+Where both this name and form do come
+To their remainderless surcease:
+With cessation of consciousness,
+’Tis here this comes to its surcease”.
+
+78. This question asks about the sequence [of meaning]. When asking about sequence [of meaning], what does it ask about? About the element of extinction without trace left.
+
+79. Three Truths are determined, inseparable from the idea of cessation: they are Suffering, Origin, and the Path; Cessation is undetermined. Herein, origin is abandoned on two planes: on the plane of seeing and on the plane of keeping in being. Three fetters are abandoned by seeing: embodiment view, uncertainty, and misapprehension of virtue and duty. Seven fetters are abandoned by PTS vp En 27 keeping in being: will to sensual desire, ill will, lust for form, lust for formlessness, conceit, agitation, and the remainder of ignorance.
+
+80. These are the ten fetters in the triple element [of existence]: five belong to the hither side and five to the further side.
+
+81. PTS vp Pli 15 Herein, three fetters, namely embodiment view, uncertainty, and misapprehension of virtue and duty, cease with the expression of the I-shall-come-to-know-finally-the-as-yet-not-finally-known faculty, and seven fetters, namely will to sensual desire, ill will, lust for form, lust for formlessness, conceit, agitation, and the remainder of ignorance, cease with the expression of the act-of-final-knowing faculty. Now two kinds of knowledge, namely what he knows thus “Birth is exhausted for me”, which is knowledge about exhaustion, and what he knows thus “There is no more of this beyond”, which is knowledge of non-arising, constitute the final-knower faculty.
+
+82. Herein, the I-shall-come-to-know-finally-the-as-yet-not-finally-known faculty and the act-of-final-knowing faculty cease in him who reaches the supreme fruit that is Arahantship.
+
+83. Herein, the two kinds of knowledge, namely knowledge about exhaustion and knowledge about non-arising, are one kind of understanding; but it has two names according to imputation in one who is understanding thus “Birth is exhausted for me” it has the name “knowledge about exhaustion”, while in one who is understanding thus “There is no more of this beyond” it has the name “knowledge about non-arising”. That is “understanding” in the PTS vp En 28 sense of act-of-understanding, and it is “mindfulness” in the sense of the act-of-not-floating-away [from its object] according as [it has] seen [it].
+
+84. Herein, the five categories of assumption constitute “name-and-form”. And herein, the ideas that have contact as fifth constitute name; while the five form-faculties [beginning with the eye] constitute form; and both of these, with the associated consciousness, constitute name-and-form.
+
+85. It was in asking the Blessed One about the cessation of that [name-and-form] that the venerable Ajita spoke in the Pārāyana thus “Understanding and mindfulness. And [now], good sir, this name-and-form, Tell me then what I ask of you, Where does this come to its surcease”?.
+
+86. Herein, mindfulness and understanding [represent] four faculties: mindfulness [represents] two faculties, namely the mindfulness faculty and the concentration faculty, while understanding [represents] two faculties, namely the understanding faculty and the PTS vp En 29 energy faculty. Any act-of-having-faith, act of trusting, in these four faculties is the faith faculty.
+
+87. Herein, any unification of cognizance with faith in predominance is concentration of will. Any power-of-deliberation, or any power-of-keeping-in-being, owed to suppression of defilements while cognizance is concentrated, is endeavour. PTS vp Pli 16 Herein, any in-breath and out-breath, any thinking and exploring, any perception and feeling, any memories and intentions, are determinations. So the prior concentration of will, and then the endeavour owed to suppression of defilement—and these determinations—both these he keeps in being as this [first] (basis for success that possesses concentration-of-will with endeavour and determinations), which (is supported by seclusion, supported by fading, supported by cessation, and changes to relinquishment).
+
+88. Herein, any unification of cognizance with energy in predominance is concentration of energy …
+
+89. Herein, any unification of cognizance with [natural concentration of] cognizance in predominance is concentration of cognizance …
+
+90. Herein, any unification of cognizance with inquiry in predominance is concentration of inquiry. Any power-of-deliberation, or any power-of-keeping-in-being, owed to suppression of defilements when cognizance is concentrated, is endeavour. Herein, any in-breath and out-breath, any thinking and exploring, any perception and feeling, any memories and intentions, are determinations. So the prior concentration of inquiry, and then the endeavour owed to suppression of defilements—and these determinations—both these he keeps in being as this [fourth] (basis for success that possesses concentration of inquiry, as well as endeavour and determinations), which (is supported by seclusion, supported by fading, supported by cessation, and changes to relinquishment).
+
+91. All concentration has knowledge for its root, is heralded by knowledge, and has parallel occurrence with knowledge. With PTS vp En 30 open and untrammelled cognizance he keeps in being cognizance with lucidity thus:
+
+As before, so after; as after, so before; …
+And as by night, by day; and as by day, by night.
+
+92. The five profitable faculties [of faith, etc.] are coexistent with cognizance, arise when cognizance arises, and cease when cognizance ceases; and name-and-form has consciousness for its cause, and it has occurrence with consciousness for its condition. When its cause is interrupted by the path, consciousness being then without nutriment, with nothing expectantly relished, without standing, without re-linking, ceases. No name-and-form occurs in a new existence without cause and without condition. PTS vp Pli 17 So with the cessation of consciousness, name-and-form ceases, and also understanding and mindfulness. That is why the Blessed One said:
+
+“As to the question that you ask,
+Ajita, I [shall] tell you [now]
+Where both this name and form do come
+To their remainderless surcease:
+With cessation of consciousness
+’Tis here this comes to its surcease”.
+
+93. “There are the masters of ideas”
+So said the venerable Ajita.
+“And several initiates here:
+Good sir, if asked, you have the skill
+To tell me their behaviour”.
+
+PTS vp En 31 94. These three terms asked are three questions. Why? By construing [respectively] as the adept, the initiate, and also the kind of abandoning heralded by insight. For when he said “There are the masters of ideas” he was asking about Arahantship; when he said “And several initiates here” he was asking about the [seven kinds of] initiate; and when he said “Good sir, if asked, you have the skill, To tell me their behaviour” he was asked about the kind of abandoning heralded by insight.
+
+95. Here is the answer:
+
+“Sensual desires he would not want,
+Ajita” the Blessed One said.
+“He would be undisturbed in mind;
+And skilled in all ideas, a bhikkhu
+Is mindful in his wanderings”.
+
+96. All the Blessed One’s bodily action is heralded by knowledge and has parallel occurrence with knowledge. All his verbal action is heralded by knowledge and has parallel occurrence with knowledge. All his mental action is heralded by knowledge and has parallel occurrence with knowledge. His knowing and seeing is unrestricted in the case of the past period, in the case of the future period, and in the case of the presently-arisen period. What resistance to his knowing and seeing should there be? PTS vp Pli 18 Resistance to knowing and seeing is any unknowing and unseeing in the case of what is impermanent, painful, and not-self. Just as a man here might see the forms of the stars but might not know what number to impute to them: this is resistance to knowing and seeing. But the Blessed One’s knowing and seeing is unresisted; for the Enlightened Ones, the Blessed Ones, have unobstructed knowing and seeing.
+
+97. Herein cognizance has to be guarded by an initiate with respect to two [kinds of] ideas: from wanting with respect to ideas provoca PTS vp En 32 tive of lust and from hate with respect to ideas provocative of obsession.
+
+98. With respect to these the Blessed One said “Sensual desires he would not want” warning against any wishes, infatuations, aspirations, longing, or toying; and [with the words] “He would be undisturbed in mind” he mentioned abolition of obsession. For when an initiate wants accordingly he arouses unarisen defilement and he swells arisen defilement. But he who makes efforts with undisturbed intention and not wanting, ((i) produces will for the non-arising of unarisen evil unprofitable ideas, makes efforts, instigates energy, exerts cognizance, and endeavours; (ii) he produces will for the abandoning of arisen evil unprofitable ideas, makes efforts, instigates energy, exerts cognizance, and endeavours; (iii) he produces will for the arising of unarisen profitable ideas, makes efforts, instigates energy, exerts cognizance, and endeavours, and (iv) he produces will for the endurance, non-forgetting, increase, abundance, maintenance in being, and fulfilment, of arisen profitable ideas, and he makes efforts, instigates energy, exerts cognizance, and endeavours) .
+
+99. (i) What are the unarisen evil unprofitable ideas? They are thinking with sensual desire, thinking with ill will, and thinking with cruelty. These are the unarisen evil unprofitable ideas. (ii) What are the arisen evil unprofitable ideas? They are the underlying-tendencies, the roots of the unprofitable. These are the arisen evil unprofitable ideas. (iii) What are the unarisen profitable ideas? They are the faculties that belong to the Stream-Enterer. These are the unarisen profitable ideas. PTS vp Pli 19 (iv) What are the arisen profitable ideas? They are the faculties that belong to him who stands [on a path]. These are the arisen profitable ideas.
+
+PTS vp En 33 100. That whereby he shuts off thinking with sensual desire is the mindfulness faculty. That whereby he shuts off thinking with ill will is the concentration faculty. That whereby he shuts off thinking with cruelty is the energy faculty. That whereby he (abandons, dispels, terminates, annihilates, and will not endure, evil unprofitable ideas as soon as they arise) is the understanding faculty. And any act of trusting in these four faculties is the faith faculty.
+
+101. (Herein, where is the faith faculty met with? In the four factors of Stream-Entry. Where is the energy faculty met with? In the four Right Endeavours. Where is the mindfulness faculty met with? In the four foundations of Mindfulness. Where is the concentration faculty met with? In the four meditations. Where is the understanding faculty met with? In the four Noble Truths).
+
+102. That is why the initiate who is diligent in all profitable ideas is spoken of by the Blessed One [in terms of] mental non-disturbance. That is why the Blessed One said “He would be undisturbed in mind”.
+
+103.“Skilled in all ideas”: the world is threefold as the world of defilement, the world of being (existence), and the world of faculties.
+
+104. Herein, the world of being (existence) comes about by way of the world of defilement. That causes the occurrence of the faculties. When the faculties are kept in being there is diagnosis of what is knowable. That [diagnosis] has to be scrutinized in two ways as diagnosis by seeing and diagnosis by abandoning. For when an initiate understands the knowable, then the knowable is diagnosed with perception and attention accompanied by dispassion, and two ideas in him then attain to skill: skill in seeing and skill in keeping in being.
+
+That PTS vp En 34 knowledge should be understood as fivefold, namely acquaintanceship, diagnosis, abandoning, keeping in being, and verification.
+
+105. PTS vp Pli 20 Herein, what is acquaintanceship? It is any knowledge about the individual characteristics of ideas, and about the Discrimination of Ideas and the Discrimination of Meanings. This is acquaintanceship.
+
+106. Herein, what is diagnosis? After becoming acquainted in these ways, it is any diagnosis as follows: “This is profitable, this is unprofitable, this is blameworthy, this is blameless, this is black, this is bright, this is to be cultivated, this is not to be cultivated, these ideas, having been taken thus, make this fruit occur—this is their meaning when taken thus”. This is diagnosis.
+
+107. After diagnosing in this way, three kinds of ideas remain: those to be abandoned, those to be kept in being, and those to be verified.
+
+108. Herein, what ideas are to be abandoned? Any that are unprofitable.
+
+109. Herein, what ideas are to be kept in being? Any that are profitable.
+
+110. Herein, what ideas are to be verified? The undetermined.
+
+111. He who knows this is called skilled in meanings, skilled in ideas, skilled in goodness, skilled in fruits, skilled in ways, skilled in unease, skilled in ease, possessed of great skill.
+
+That is why the Blessed One said “Skilled in all ideas”.
+
+112.“A bhikkhu is mindful in his wanderings”: he should, for the purpose of a pleasant abiding here and now, abide mindful and aware in advancing and retreating, in looking and looking away, in flexing and extending, in wearing the patched-cloak, bowl and [other] robes, in eating, drinking, chewing and tasting, in evacuating and making water, in walking, standing, sitting, going to sleep, waking, talking and keeping silent.
+
+113. Two kinds of conduct agreed by the Blessed One are these: one for those already purified, and one for those still being purified. Who are those already purified? They are the Arahants. Who are those still being purified? They are the Initiates; an Arahant’s faculties have done their task.
+
+114. The discoverable is fourfold as actualization of the diagnosis of suffering, actualization of the abandoning of origin, actualization of the keeping in being of the path, and actualization of the verification of cessation. This is the fourfold discoverable.
+
+PTS vp En 35 115. He who knows this PTS vp Pli 21 is called one who advances mindful, who retreats mindful, with the exhaustion of lust, the exhaustion of hate, and the exhaustion of delusion.
+
+That is why the Blessed One said:
+
+“Sensual desires he would not want,
+He would be undisturbed in mind;
+And skilled in all ideas, a bhikkhu
+Is mindful in his wanderings”.
+
+That is how it can be asked, and that is how it can be answered.
+
+[(2) Gratification, etc.: see Mode 1.
+
+(3) Paraphrasing Verse]
+
+116. And a Thread’s paraphrasing-verse must be properly guided in as to meaning as well as to phrasing; for phrasing destitute of meaning is idle chatter. Also the meaning of badly presented terms and phrasing is hard to apply a guide-line to. That is why [a paraphrase-verse] should be versified in a manner furnished with meaning as well as phrasing.
+
+[(4) All that is in the Ninefold Thread-of-Argument]
+
+117. The Thread should also be investigated thus: What kind is this Thread-of-Argument? Is it one that consists of an original statement, a statement [elucidating] a sequence [of meaning]? One PTS vp En 36 whose meaning is already guided? One whose meaning has yet to be guided? And also, is it one that deals with corruption, that deals with morality, that deals with penetration, or that deals with the Adept? Where in this Thread-of-Argument are all the four Truths met with: in its beginning, in its middle, or in its end? That is how the Thread-of-Argument should be investigated.
+
+118. That is why the venerable Mahā-Kaccāna said:
+
+“What in the Thread is asked and answered,
+As well as a verse-paraphrase,
+And the Thread’s term-investigation:
+This Mode Conveys Investigation”.
+
+The Mode of Conveying an Investigation is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

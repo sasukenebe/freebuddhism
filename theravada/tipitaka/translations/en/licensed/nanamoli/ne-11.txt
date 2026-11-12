@@ -1,0 +1,79 @@
+Ne 11 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne11.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+8. The Ninefold Thread in the Mode of Conveying an Analysis
+
+263. Herein, what is the Mode of Conveying an Analysis? [It is this:]
+
+“It analyses idea, footing,
+Plane [of types of men], the shared
+And unshared: this Mode should be known
+As that Conveying Analysis”.
+
+264. The two kinds of Thread, namely that dealing with morality and that dealing with penetration are the two ways, namely that dealing with merit and that dealing with the fruit [of the Divine Life], which are the two kinds of virtue, namely virtue as restraint and virtue as abandoning.
+
+265. Herein, it is for the purpose of the way dealing with merit that PTS vp En 74 the Blessed One teaches a Thread dealing with morality. He [who needs this kind of teaching] is steadied [by it] in virtue as restraint, and he is one who lives the Divine Life by that kind of Divine Life.
+
+266. PTS vp Pli 49 Herein, it is for the purpose of the way dealing with the fruit [of the Divine Life] that the Blessed One teaches a Thread dealing with penetration. He [who needs this kind of teaching] is steadied [by it] in virtue as abandoning, and he is one who lives the Divine Life by that kind of Divine Life.
+
+267. Herein, what is a Thread dealing with morality? A Thread dealing with morality is this: talk on giving, talk on virtue, talk on heaven and the disappointment in sensual desires and the benefits in renunciation.
+
+268. Herein, what is a Thread dealing with penetration? A Thread dealing with penetration is this: any displaying of the four Truths.
+
+269. In a Thread dealing with morality there is no act-of-under-standing, there is no Path, there is no Fruit [of the Path]. In a Thread dealing with penetration there is the act-of-understanding, there is the Path, there is the Fruit [of the Path].
+
+270. These are [two of] the [first] four types of Thread [which] should, after being in all ways, in so far as the plane of knowledge extends.
+
+271. (1) Herein, what kinds of ideas are [shared] in common? Two PTS vp En 75 kinds of ideas are [shared] in common, namely [shared] in common by a name and [shared] in common by a thing [or person] or also any other such kind.
+
+272. Defilements to be abandoned by seeing are common to [ordinary men whether they are] creatures certain of wrongness or those not thus certain. Lust for sensual desires and ill will are common to the ordinary man and to the Stream Enterer. The further-side fetters are common to the ordinary man and to the Non-Returner. Any attainment belonging to the worlds that an [initiate] Noble Disciple attains is common to [him and to] those without lust. For ideas shared in common remain thus each within the successive limits of their own provinces, and the type of person possessed of any one of these ideas does not [as such] surpass the [limit set by any such] idea.
+
+These kinds of ideas are shared in common.
+
+273. Herein, what kinds of ideas are not shared in common has to be examined as to whether the teaching is about Initiates or Adepts [in the case of Noble Persons] or those capable or incapable [of enlightenment in this life, in the case of ordinary men].
+
+274. Lust for sensual desires and ill will are PTS vp Pli 50 common to the Stream Enterer standing upon [the Path and to the ordinary man, but] the essential nature of the idea [of Stream Entry] is not common [to both]. And the further-side fetters are common to the Non-Returner standing upon [that path and to those below him, but] the essential nature of the idea [of Non-Return] is not common [to both]. The name [“Initiate”] is common to all the seven kinds of initiate, [but] the essential nature of the idea [of each kind] is not common [to the rest]. The name [“on the way”] is common to all [the four] kinds of those on the way [of their respective paths, but] the essential nature of the idea [of each kind] is not common [to all the rest]. Initiates’ virtue is common to all kinds of Initiate [but] the essential nature of the idea [of each kind] is not common [to the rest]. That is how it has to be examined according to the inferior, superior, and medium, by one who sees the distinctions.
+
+PTS vp En 76 275. (2) The plane of seeing is (3) the footing for finding a footing in certainty. (2) The plane of keeping in being is (3) the footing for the reaching of the higher fruits. The painful way with sluggish acquaintanceship is the footing for quiet. The pleasant way with swift acquaintanceship is the footing for insight.
+
+The ground-for-making-merit-consisting-in-giving is the footing, shared in common, for [hearing about the True Idea from] another’s utterance. The ground-for-making-merit-consisting-in-virtue is the footing, shared in common, for understanding-consisting-in-cogitation. The ground-for-making-merit-consisting-in-keeping-in-being is the footing, shared in common, for understanding-consisting-in-keeping-in-being. The ground-for-making-merit-consisting-in-giving is the footing, shared in common, for [hearing about the True Idea from] another’s utterance and for understanding-consisting-in-what-is-heard. The ground-for-making-merit-consisting-in-virtue is the footing, shared in common, for understanding-consisting-in-cogitation and for reasoned attention. The ground-for-making-merit-consisting-in-keeping-in-being is the footing, shared in common, for understanding-consisting-in-keeping-in-being and for right view.
+
+Living in befitting places is the footing, shared in common, for seclusion and for concentration. Waiting on True Men is the footing, shared in common, for the three kinds of confidence due to undergoing and for quiet. Right disposition in self-guidance is the footing, shared in common, for conscience and for insight.
+
+Giving up the unprofitable is the footing, shared in common, for inquiry into the profitable and for the concentration faculty. The well-proclaimedness of the True Idea is the footing, shared in common, for the planting of the profitable root and for the attainment of the fruits [of the paths]. The Community’s having progressed by the good way is the footing, shared in common, for the Community’s goodness. The excellence of the Master is the footing, shared in common, for instilling confidence in the unconfident and for strengthening the already confident. The state of not having resisted the Patimokkha Rule PTS vp Pli 51 is the footing, shared in common, for the deterrence of contumacious persons and for the comfort of pious persons.
+
+PTS vp En 77 276. That is why the venerable Mahā-Kaccāna said:
+
+“It analyses idea, footing,
+Plane [of types of men], the shared
+And unshared: this Mode should be known
+As that Conveying Analysis”.
+
+The Mode Conveying an Analysis is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

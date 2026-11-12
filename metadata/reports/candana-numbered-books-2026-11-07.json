@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed": "2026-11-07",
+  "observed": "2026-11-10",
   "status": "SOURCE_VERIFIED_WITH_EXPLICIT_MAPPING_LIMITS",
   "recipe_sha256": "1b0948079bb9a386d92550d34c7c41c3d5dff664792020fea638535fe265ba57",
   "books": {
@@ -228,8 +228,14 @@
       "imported_source_sections": 312,
       "imported_readers": 194,
       "held_source_labels": [],
-      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; the site's chapter heading alone is not its scope.",
-      "scope_limit": "Later Book Three practices, paired good/evil conduct, and passion repetitions require grouped correspondence; they are not attached to incorrect single-sutta IDs."
+      "held_source_labels_scope": "Source labels not represented either by a single-ID reader or an intact grouped edition.",
+      "grouped_source_labels": [],
+      "grouped_source_bodies": [],
+      "grouped_source_body_count": 0,
+      "grouped_canonical_reference_count": 0,
+      "unresolved_group_source_labels": [],
+      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; sources 156–166 are retained as eleven intact grouped bodies covering AN 3.157–182. Source 167–352 is retained once as an intact passage under the existing grouped site reference AN 3.183–352; no one-to-one mapping of its internal topics is claimed.",
+      "scope_limit": "Sources 156–166 are represented as eleven shared group editions across 26 existing references. Source 167–352 is one whole-group edition under existing site reference AN 3.183–352; its source/site numbering and internal topic wording remain flagged for human review."
     },
     "an-book3": {
       "source_sha256": "ee5230c458ad6c1566f518d5909916ad92d12aebf1240750c5357dd9b5699f30",
@@ -544,9 +550,11 @@
         299
       ],
       "source_sections": 169,
-      "imported_source_sections": 157,
+      "imported_source_sections": 169,
       "imported_readers": 156,
-      "held_source_labels": [
+      "held_source_labels": [],
+      "held_source_labels_scope": "Source labels not represented either by a single-ID reader or an intact grouped edition.",
+      "grouped_source_labels": [
         "156",
         "157",
         "158",
@@ -560,8 +568,196 @@
         "166",
         "167-352"
       ],
-      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; the site's chapter heading alone is not its scope.",
-      "scope_limit": "Later Book Three practices, paired good/evil conduct, and passion repetitions require grouped correspondence; they are not attached to incorrect single-sutta IDs."
+      "grouped_source_bodies": [
+        {
+          "group_id": "an3-157-162",
+          "source_labels": [
+            "156"
+          ],
+          "canonical_ids": [
+            "AN 3.157",
+            "AN 3.158",
+            "AN 3.159",
+            "AN 3.160",
+            "AN 3.161",
+            "AN 3.162"
+          ],
+          "source_pdf_pages": [
+            286,
+            288
+          ],
+          "body_sha256": "cf363139e54784393ea41f49fcb6f35dbb8a86a5fe44513798c65321441f46a9"
+        },
+        {
+          "group_id": "an3-163-164",
+          "source_labels": [
+            "157"
+          ],
+          "canonical_ids": [
+            "AN 3.163",
+            "AN 3.164"
+          ],
+          "source_pdf_pages": [
+            289,
+            289
+          ],
+          "body_sha256": "d742bb1d4946ef2903d340590b9a7512eb8dd8dd3e655bb75597a1d51a246037"
+        },
+        {
+          "group_id": "an3-165-166",
+          "source_labels": [
+            "158"
+          ],
+          "canonical_ids": [
+            "AN 3.165",
+            "AN 3.166"
+          ],
+          "source_pdf_pages": [
+            289,
+            290
+          ],
+          "body_sha256": "6a592f8a0129507bf0de1caf68eaa6d7ae212439f28410b3572038f7861e632b"
+        },
+        {
+          "group_id": "an3-167-168",
+          "source_labels": [
+            "159"
+          ],
+          "canonical_ids": [
+            "AN 3.167",
+            "AN 3.168"
+          ],
+          "source_pdf_pages": [
+            290,
+            290
+          ],
+          "body_sha256": "2bcdfc7c62cba94b73c10ea06956ff8308299168e309f92d82f286127a23b551"
+        },
+        {
+          "group_id": "an3-169-170",
+          "source_labels": [
+            "160"
+          ],
+          "canonical_ids": [
+            "AN 3.169",
+            "AN 3.170"
+          ],
+          "source_pdf_pages": [
+            291,
+            291
+          ],
+          "body_sha256": "98f1e9753ce4083e55672945e43622a33db227cf8db2e718c4cdb1fe3446187d"
+        },
+        {
+          "group_id": "an3-171-172",
+          "source_labels": [
+            "161"
+          ],
+          "canonical_ids": [
+            "AN 3.171",
+            "AN 3.172"
+          ],
+          "source_pdf_pages": [
+            291,
+            291
+          ],
+          "body_sha256": "25e95e7814abff9f06c4aa95467336e0fd3501725777656a64298fde5a939d09"
+        },
+        {
+          "group_id": "an3-173-174",
+          "source_labels": [
+            "162"
+          ],
+          "canonical_ids": [
+            "AN 3.173",
+            "AN 3.174"
+          ],
+          "source_pdf_pages": [
+            291,
+            292
+          ],
+          "body_sha256": "b3ffdeb60276895df8755ae9e35e990859d5569d9608c920300347a56b3313e6"
+        },
+        {
+          "group_id": "an3-175-176",
+          "source_labels": [
+            "163"
+          ],
+          "canonical_ids": [
+            "AN 3.175",
+            "AN 3.176"
+          ],
+          "source_pdf_pages": [
+            292,
+            292
+          ],
+          "body_sha256": "7ca45849b368ab8e9badd91551f35caae96ebba1c8338ec74993d2ca6f7c045b"
+        },
+        {
+          "group_id": "an3-177-178",
+          "source_labels": [
+            "164"
+          ],
+          "canonical_ids": [
+            "AN 3.177",
+            "AN 3.178"
+          ],
+          "source_pdf_pages": [
+            292,
+            293
+          ],
+          "body_sha256": "a782d957f191539831738c6b1fc24e71e068ef63dbb024a2ee436627c22e5eaa"
+        },
+        {
+          "group_id": "an3-179-180",
+          "source_labels": [
+            "165"
+          ],
+          "canonical_ids": [
+            "AN 3.179",
+            "AN 3.180"
+          ],
+          "source_pdf_pages": [
+            293,
+            293
+          ],
+          "body_sha256": "2df65a789a3f9d70bb614111d71563c9a1a8e8d5fa9c77d3e1afbba715c91866"
+        },
+        {
+          "group_id": "an3-181-182",
+          "source_labels": [
+            "166"
+          ],
+          "canonical_ids": [
+            "AN 3.181",
+            "AN 3.182"
+          ],
+          "source_pdf_pages": [
+            293,
+            294
+          ],
+          "body_sha256": "600eb173bcf710c6cfa0fa89d1ec2c26f587b885e6c6ff495a0c01c344122ffd"
+        },
+        {
+          "group_id": "an3-183-352",
+          "source_labels": [
+            "167-352"
+          ],
+          "canonical_ids": [
+            "AN 3.183-352"
+          ],
+          "source_pdf_pages": [
+            295,
+            299
+          ],
+          "body_sha256": "cf449ffc66761c1c7d9c3351ee1f59dbbddaf5157a52708519bc06e74639eb02"
+        }
+      ],
+      "grouped_source_body_count": 12,
+      "grouped_canonical_reference_count": 27,
+      "unresolved_group_source_labels": [],
+      "mapping": "Book Two uses explicit source numbers; Book Three uses a reviewed piecewise map through site AN 3.156. The coarse/fine cloth source sections 97 and 98 are retained together at AN 3.99. Source 155 is the complete three-practice teaching at AN 3.156, including its closing sentence on PDF 286; sources 156–166 are retained as eleven intact grouped bodies covering AN 3.157–182. Source 167–352 is retained once as an intact passage under the existing grouped site reference AN 3.183–352; no one-to-one mapping of its internal topics is claimed.",
+      "scope_limit": "Sources 156–166 are represented as eleven shared group editions across 26 existing references. Source 167–352 is one whole-group edition under existing site reference AN 3.183–352; its source/site numbering and internal topic wording remain flagged for human review."
     }
   },
   "reader_body_hashes": {

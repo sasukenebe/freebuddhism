@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:5 Inappropriately | Ayoniso Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+                <h3 id="AN3.5" class="h1">Inappropriately<br/>
+                  Ayoniso Sutta  (AN 3:5)</h3><!--end suttahead-->
+<p>“Monks, a person endowed with three qualities is to be recognized as a fool. Which three? He formulates a question inappropriately. He answers a question inappropriately. When another answers a question appropriately—having chosen circumscribed, coherent words &amp; phrases—he doesn’t approve of it. A person endowed with these three qualities is to be recognized as a fool.</p>
+<p>“Monks, a person endowed with three qualities is to be recognized as a wise person. Which three? He formulates a question appropriately. He answers a question appropriately. When another answers a question appropriately—having chosen circumscribed, coherent words &amp; phrases—he approves of it. A person endowed with these three qualities is to be recognized as a wise person.”</p>
+<p class="seealso">See also: <a href="../MN/MN2.html" class="sutta-ref">MN 2</a>; <a href="AN3_68.html" class="sutta-ref">AN 3:68</a>; <a href="AN4_42.html" class="sutta-ref">AN 4:42</a>; <a href="AN4_192.html" class="sutta-ref">AN 4:192</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

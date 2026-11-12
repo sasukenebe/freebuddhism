@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 1:16 Belaṭṭhasīsa</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag1.16" class="h1">Thag 1:16  Belaṭṭhasīsa</h4>
+            <div class="verse">
+              <p>Just as a fine thoroughbred steed,</p>
+              <p>with swishing tail &amp; mane</p>
+              <p>runs with next-to-no effort,</p>
+              <p>so my days &amp; nights</p>
+              <p>run with next-to-no effort</p>
+              <p>now that I’ve gained a pleasure</p>
+              <p class="v4">not of the flesh.<span class="fn"><a href="#thag1.16note01">1</a></span><!--end fn cite--></p>
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag1.16note01">1. See <a href="../../SN/SN36_31.html">SN 36:31</a> and <a href="thag1_85.html">Thag 1:85</a>.</p>
+            </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

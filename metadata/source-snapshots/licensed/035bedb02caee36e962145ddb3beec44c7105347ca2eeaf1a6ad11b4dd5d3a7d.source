@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 46:11 Living Beings | Pāṇa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN46.11" class="h1">Living Beings<br/>
+                Pāṇa Sutta  (SN 46:11)</h2><!--end suttahead-->
+              <p>“Monks, just as the living beings that assume the four postures—at times walking, at times standing, at times sitting down, at times lying down—all assume the four postures in dependence on the earth, established on the earth; in the same way, it’s in dependence on virtue, established on virtue, that a monk develops the seven factors for awakening &amp; pursues the seven factors for awakening.</p>
+              <p>“And how is it that a monk—in dependence on virtue, established on virtue—develops the seven factors for awakening &amp; pursues the seven factors for awakening?</p>
+              <p>“There is the case where a monk develops <em>mindfulness</em> as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go. He develops <em>analysis of qualities</em> as a factor for awakening… <em>persistence</em> as a factor for awakening… <em>rapture</em> as a factor for awakening… <em>calm</em> as a factor for awakening… <em>concentration</em> as a factor for awakening… <em>equanimity</em> as a factor for awakening dependent on seclusion, dependent on dispassion, dependent on cessation, resulting in letting go.</p>
+              <p>“It’s in this way that a monk—in dependence on virtue, established on virtue—develops the seven factors for awakening &amp; pursues the seven factors for awakening.”</p>
+              <p class="seealso">See also: <a href="SN46_1.html">SN 46:1</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

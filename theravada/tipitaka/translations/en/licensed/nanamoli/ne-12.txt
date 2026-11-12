@@ -1,0 +1,113 @@
+Ne 12 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne12.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+9. The Ninefold Thread in the Mode of Conveying a Reversal
+
+277. Herein, what is the Mode of Conveying a Reversal? [It is this:]
+
+“That into opposites reversing
+Ideas of profit and unprofit
+Shown to be kept in being and left
+Is called the Mode Conveying Reversal”.
+
+278. In a mature person with right view wrong view is abolished, and the many unprofitable ideas that might arise in him with wrong view for their condition are also abolished in him, and the many profitable ideas that gain actual being with right view for their condition come to perfection in him through keeping in being.
+
+In a mature person with right intention …
+
+… right speech …
+
+… right action …
+
+… right livelihood …
+
+… right effort …
+
+… right mindfulness …
+
+… right concentration …
+
+… right deliverance …
+
+In a mature person with right knowing and seeing of deliverance wrong knowing and seeing of deliverance is abolished, and the many evil unprofitable ideas that might arise in him with wrong knowing and seeing of deliverance for their condition are also abolished in him, and the many profitable ideas that gain actual being with PTS vp En 78 right knowing and seeing of deliverance for their condition come to perfection in him through keeping in being.
+
+279. Killing of breathing things has been abandoned in one who abstains from killing breathing things.
+
+Taking what is not given has been abandoned in one who abstains from taking what is not given.
+
+What is not the divine life has been abandoned in one who lives the divine life.
+
+False speech has been abandoned in one who speaks truth.
+
+Malicious speech has been abandoned in one who speaks unmaliciously.
+
+Harsh speech has been abandoned in one who speaks in a timely manner.
+
+Covetousness PTS vp Pli 52 has been abandoned in one who is uncovetous.
+
+Ill will has been abandoned in one who has no cognizance of ill will.
+
+Wrong view has been abandoned in one who has right view.
+
+280. If there are any who censure the eight-factored path, then from their assertions certain legitimate deductions to be seen for oneself come up which are censurable [as follows].
+
+281. For when those worthy ones censure the idea of right view, the consequence is that those who have wrong view must be honoured and praised by those worthy ones. For when those worthy ones censure the idea [of] right intention …
+
+… right speech …
+
+… right action …
+
+… right livelihood …
+
+… right effort …
+
+… right mindfulness …
+
+… right concentration …
+
+… right deliverance …
+
+For when those worthy ones censure the idea of right knowing and seeing of deliverance, the consequence is that those who have wrong knowing and seeing of deliverance must be honoured and praised by those worthy ones.
+
+282. And if there are any who say “Sensual desires should be PTS vp En 79 enjoyed, sensual desires should be rejoiced in, sensual desires should be repeated, sensual desires should be used, sensual desires should be kept in being, sensual desires should be made much of”, then abstention from sensual desires is not the True Idea according to them.
+
+Or if there are any who say “The True Idea is devotion to self-torment”, then the True Idea that is the outlet is not the True Idea according to them.
+
+And if there are any who say “The True Idea is painful”, then the True Idea that is pleasant is not the True Idea according to them.
+
+283. According as a bhikkhu’s perception of beauty in all determinations is abandoned when he abides contemplating ugliness, according as his perception of pleasure is abandoned when he abides contemplating pain, according as his perception of permanence is abandoned when he abides contemplating impermanence, and according as his perception of self is abandoned when he abides contemplating not-self, then whatever idea he elects or approves, [thereby] he has implicated the contrary-opposite of any such idea as un-wished-for.
+
+284. That is why the venerable Mahā-Kaccāna said:
+
+“That into opposites reversing
+Ideas of profit and unprofit
+Shown to be kept in being and left
+Is called the Mode Conveying Reversal”.
+
+The Mode of Conveying a Reversal is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

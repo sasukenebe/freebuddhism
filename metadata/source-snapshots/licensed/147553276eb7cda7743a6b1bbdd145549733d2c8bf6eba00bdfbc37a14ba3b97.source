@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:127 Subject to Origination (2) | Samudaya-dhamma Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.127" class="h1">Subject to Origination (2)<br/>
+                Samudaya-dhamma Sutta  (SN 22:127)</h2>
+              <p>At Sāvatthī. Then a certain monk went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “‘Clear knowing, clear knowing,’ it is said, lord. Which clear knowing? And to what extent is one immersed in clear knowing?”</p>
+              <p>“There is the case, monk, where an instructed disciple of the noble ones discerns, as it has come to be, form subject to origination as form subject to origination. He discerns, as it has come to be, form subject to passing away as form subject to passing away. He discerns, as it has come to be, form subject to origination &amp; passing away as form subject to origination &amp; passing away.</p>
+              <p>“He discerns, as it has come to be, feeling subject to origination as feeling subject to origination. He discerns, as it has come to be, feeling subject to passing away as feeling subject to passing away. He discerns, as it has come to be, feeling subject to origination &amp; passing away as feeling subject to origination &amp; passing away.</p>
+              <p>“He discerns, as it has come to be, perception subject to origination as perception subject to origination. He discerns, as it has come to be, perception subject to passing away as perception subject to passing away. He discerns, as it has come to be, perception subject to origination &amp; passing away as perception subject to origination &amp; passing away.</p>
+              <p>“He discerns, as it they have come to be, fabrications subject to origination as fabrications subject to origination. He discerns, as they have come to be, fabrications subject to passing away as fabrications subject to passing away. He discerns, as they have come to be, fabrications subject to origination &amp; passing away as fabrications subject to origination &amp; passing away.</p>
+              <p>“He discerns, as it has come to be, consciousness subject to origination as consciousness subject to origination. He discerns, as it has come to be, consciousness subject to passing away as consciousness subject to passing away. He discerns, as it has come to be, consciousness subject to origination &amp; passing away as consciousness subject to origination &amp; passing away.</p>
+              <p>“This, monk, is called clear knowing, and it’s to this extent that one is immersed in clear knowing.”</p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

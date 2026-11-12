@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:115 Courses of Action | Ṭhāna Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.115" class="h1">Courses of Action<br/>
+                  Ṭhāna Sutta  (AN 4:115)</h3><!--end suttahead-->
+                <p>“Monks, there are these four courses of action. Which four? There is the course of action that is unpleasant to do and that, when done, leads to what is unprofitable. There is the course of action that is unpleasant to do but that, when done, leads to what is profitable. There is the course of action that is pleasant to do but that, when done, leads to what is unprofitable. There is the course of action that is pleasant to do and that, when done, leads to what is profitable.</p>
+                <p>“Now as for the course of action that is unpleasant to do and that, when done, leads to what is unprofitable, one considers it as not worth doing for both reasons: because the course of action is unpleasant to do, one considers it as not worth doing; and because the course of action, when done, leads to what is unprofitable, one considers it as not worth doing. Thus one considers it as not worth doing for both reasons.</p>
+                <p>“As for the course of action that is unpleasant to do but that, when done, leads to what is profitable, it is in light of this course of action that one may be known—in terms of manly stamina, manly persistence, manly effort—as a fool or a wise person. For a fool doesn’t reflect, ‘Even though this course of action is unpleasant to do, still when it is done it leads to what is profitable.’ So he doesn’t do it, and thus the non-doing of that course of action leads to what is unprofitable for him. But a wise person reflects, ‘Even though this course of action is unpleasant to do, still when it is done it leads to what is profitable.’ So he does it, and thus the doing of that course of action leads to what is profitable for him.</p>
+                <p>“As for the course of action that is pleasant to do but that, when done, leads to what is unprofitable, it is in light of this course of action that one may be known—in terms of manly stamina, manly persistence, manly effort—as a fool or a wise person. For a fool doesn’t reflect, ‘Even though this course of action is pleasant to do, still when it is done it leads to what is unprofitable.’ So he does it, and thus the doing of that course of action leads to what is unprofitable for him. But a wise person reflects, ‘Even though this course of action is pleasant to do, still when it is done it leads to what is unprofitable.’ So he doesn’t do it, and thus the non-doing of that course of action leads to what is profitable for him.</p>
+                <p>“As for the course of action that is pleasant to do and that, when done, leads to what is profitable, one considers it as worth doing for both reasons: because the course of action is pleasant to do, one considers it as worth doing; and because the course of action, when done, leads to what is profitable, one considers it as worth doing. Thus one considers it as worth doing for both reasons.</p>
+                <p>“These are the four courses of action.”</p>
+                <p class="seealso">See also: <a href="../MN/MN45.html">MN 45</a>; <a href="../MN/MN61.html">MN 61</a>; <a href="AN3_2.html">AN 3:2</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

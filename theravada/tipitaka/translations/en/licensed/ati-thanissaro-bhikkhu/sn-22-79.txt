@@ -1,0 +1,90 @@
+SN 22.79 - Khajjaniya Sutta: Chewed Up
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.079.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©2001 Thanissaro Bhikkhu.
+License notice: The text of this page ("Khajjaniya Sutta: Chewed Up", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2001 Thanissaro Bhikkhu. The text of this page ("Khajjaniya Sutta: Chewed Up", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 30 November 2013. How to cite this document (a suggested style): "Khajjaniya Sutta: Chewed Up" (SN 22.79), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 30 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.079.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+At Savatthi. "Monks, any brahmans or contemplatives who recollect their manifold past lives all recollect the five clinging-aggregates, or one among them. Which five? When recollecting, 'I was one with such a form in the past,' one is recollecting just form. Or when recollecting, 'I was one with such a feeling in the past,' one is recollecting just feeling. Or when recollecting, 'I was one with such a perception in the past,' one is recollecting just perception. Or when recollecting, 'I was one with such mental fabrications in the past,' one is recollecting just mental fabrications. Or when recollecting, 'I was one with such a consciousness in the past,' one is recollecting just consciousness.
+
+"And why do you call it 'form'?[1] Because it is afflicted,[2] thus it is called 'form.' Afflicted with what? With cold & heat & hunger & thirst, with the touch of flies, mosquitoes, wind, sun, & reptiles. Because it is afflicted, it is called form.
+
+"And why do you call it 'feeling'? Because it feels, thus it is called 'feeling.' What does it feel? It feels pleasure, it feels pain, it feels neither-pleasure-nor-pain. Because it feels, it is called feeling.
+
+"And why do you call it 'perception'? Because it perceives, thus it is called 'perception.' What does it perceive? It perceives blue, it perceives yellow, it perceives red, it perceives white. Because it perceives, it is called perception.
+
+"And why do you call them 'fabrications'? Because they fabricate fabricated things, thus they are called 'fabrications.' What do they fabricate as a fabricated thing? For the sake of form-ness, they fabricate form as a fabricated thing. For the sake of feeling-ness, they fabricate feeling as a fabricated thing. For the sake of perception-hood... For the sake of fabrication-hood... For the sake of consciousness-hood, they fabricate consciousness as a fabricated thing. Because they fabricate fabricated things, they are called fabrications. [3]
+
+"And why do you call it 'consciousness'? Because it cognizes, thus it is called consciousness. What does it cognize? It cognizes what is sour, bitter, pungent, sweet, alkaline, non-alkaline, salty, & unsalty. Because it cognizes, it is called consciousness.
+
+"Thus an instructed disciple of the noble ones reflects in this way: 'I am now being chewed up by form. But in the past I was also chewed up by form in the same way I am now being chewed up by present form. And if I delight in future form, then in the future I will be chewed up by form in the same way I am now being chewed up by present form.' Having reflected in this way, he becomes indifferent to past form, does not delight in future form, and is practicing for the sake of disenchantment, dispassion, and cessation with regard to present form.
+
+"[He reflects:] ''I am now being chewed up by feeling... perception... fabrications... consciousness. But in the past I was also chewed up by consciousness in the same way I am now being chewed up by present consciousness. And if I delight in future consciousness, then in the future I will be chewed up by consciousness in the same way I am now being chewed up by present consciousness.' Having reflected in this way, he becomes indifferent to past consciousness, does not delight in future consciousness, and is practicing for the sake of disenchantment, dispassion, and cessation with regard to present consciousness.
+
+"What do you think, monks — Is form constant or inconstant?" "Inconstant, lord." "And is that which is inconstant easeful or stressful?" "Stressful, lord." "And is it fitting to regard what is inconstant, stressful, subject to change as: 'This is mine. This is my self. This is what I am'?"
+
+"No, lord."
+
+"... Is feeling constant or inconstant?" "Inconstant, lord."...
+
+"... Is perception constant or inconstant?" "Inconstant, lord."...
+
+"... Are fabrications constant or inconstant?" "Inconstant, lord."...
+
+"What do you think, monks — Is consciousness constant or inconstant?" "Inconstant, lord." "And is that which is inconstant easeful or stressful?" "Stressful, lord." "And is it fitting to regard what is inconstant, stressful, subject to change as: 'This is mine. This is my self. This is what I am'?"
+
+"No, lord."
+
+"Thus, monks, any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: every form is to be seen as it actually is with right discernment as: 'This is not mine. This is not my self. This is not what I am.'
+
+"Any feeling whatsoever...
+
+"Any perception whatsoever...
+
+"Any fabrications whatsoever...
+
+"Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: every consciousness is to be seen as it actually is with right discernment as: 'This is not mine. This is not my self. This is not what I am.'
+
+"This, monks, is called a disciple of the noble ones who tears down and does not build up; who abandons and does not cling; who discards and does not pull in; who scatters and does not pile up.
+
+"And what does he tear down and not build up? He tears down form and does not build it up. He tears down feeling... perception... fabrications... consciousness and does not build it up.
+
+"And what does he abandon and not cling to? He abandons form and does not cling to it. He abandons feeling... perception... fabrications... consciousness and does not cling to it.
+
+"And what does he discard and not pull in? He discards form and does not pull it in. He discards feeling... perception... fabrications... consciousness and does not pull it in.
+
+"And what does he scatter and not pile up? He scatters form and does not pile it up. He scatters feeling... perception... fabrications... consciousness and does not pile it up.
+
+"Seeing thus, the instructed disciple of the noble ones grows disenchanted with form, disenchanted with feeling, disenchanted with perception, disenchanted with fabrications, disenchanted with consciousness. Disenchanted, he becomes dispassionate. Through dispassion, he is fully released. With full release, there is the knowledge, 'Fully released.' He discerns that 'Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.'
+
+"This, monks, is called a disciple of the noble ones who neither builds up nor tears down, but who stands having torn down; who neither clings nor abandons, but who stands having abandoned; who neither pulls in nor discards, but who stands having discarded; who neither piles up nor scatters, but who stands having scattered.
+
+"And what is it that he neither builds up nor tears down, but stands having torn it down? He neither builds up nor tears down form, but stands having torn it down. He neither builds up nor tears down feeling... perception... fabrications... consciousness, but stands having torn it down.
+
+"And what is it that he neither clings to nor abandons, but stands having abandoned it? He neither clings to nor abandons form, but stands having abandoned it. He neither clings to nor abandons feeling... perception... fabrications... consciousness, but stands having abandoned it.
+
+"And what is it that he neither pulls in nor discards, but stands having discarded it? He neither pulls in nor discards form, but stands having discarded it. He neither pulls in nor discards feeling... perception... fabrications... consciousness, but stands having discarded it.
+
+"And what is it that he neither piles up nor scatters, but stands having scattered it? He neither piles up nor scatters form, but stands having scattered it. He neither piles up nor scatters feeling... perception... fabrications... consciousness, but stands having scattered it.
+
+"And to the monk whose mind is thus released, the devas, together with Indra, the Brahmas, & Pajapati, pay homage even from afar:
+
+ 'Homage to you, O thoroughbred man. Homage to you, O superlative man — you of whom we don't know even what dependent on which you're absorbed.'" 
+
+Notes
+
+1.
+
+Rupa.
+
+2.
+
+Ruppati.
+
+3.
+
+This passage suggests that there is a potential for each of the aggregates (form-ness, feeling-ness, etc.) to turn into discernible aggregates through the process of fabrication. See MN 109, note 2.

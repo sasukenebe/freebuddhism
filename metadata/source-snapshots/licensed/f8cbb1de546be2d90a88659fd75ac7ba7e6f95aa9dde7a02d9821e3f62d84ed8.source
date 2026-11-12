@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:79 Trade | Vaṇijja Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN4.79" class="h1">Trade<br/>
+                  Vaṇijja Sutta  (AN 4:79)</h3><!--end suttahead-->
+                <p>Then Ven. Sāriputta went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there he said to the Blessed One, “What is the reason, lord, what is the cause why a certain trade, when engaged in by some people, turns out a failure? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out not as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out as intended? What is the reason, what is the cause why the same sort of trade, when engaged in by other people, turns out better than intended?”</p>
+                <p>“There is the case, Sāriputta, where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he doesn’t give what he offered. If he passes away from there and comes here, then whatever trade he engages in, it turns out a failure.</p>
+                <p>“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ But he gives him something other than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out not as intended.</p>
+                <p>“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out as intended.</p>
+                <p>“Then there is the case where a certain person, having gone to a contemplative or brahman, makes him an offer: ‘Tell me, sir, what you need in terms of the (four) requisites.’ He gives him more than what he intended by his offer. If he passes away from there and comes here, then whatever trade he engages in, it turns out better than intended.</p>
+                <p>“This is the reason, Sāriputta, this is the cause why a certain trade, when engaged in by some people, turns out a failure; why the same sort of trade, when engaged in by other people, turns out not as intended; why the same sort of trade, when engaged in by other people, turns out as intended; why the same sort of trade, when engaged in by other people, turns out better than intended.”</p>
+                <p class="seealso">See also: <a href="AN5_177.html">AN 5:177</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

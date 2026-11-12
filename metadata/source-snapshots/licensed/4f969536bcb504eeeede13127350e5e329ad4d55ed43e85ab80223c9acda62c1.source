@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Khp 2 Dasa Sikkhāpada — The Ten Training Rules</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h3 id="khp2" class="h1">Khp 2.  Dasa Sikkhāpada — The Ten Training Rules</h3>
+            <div class="hblock">
+              <p>I undertake the training rule to refrain from taking life.</p>
+              <p>I undertake the training rule to refrain from stealing.</p>
+              <p>I undertake the training rule to refrain from sexual intercourse.</p>
+              <p>I undertake the training rule to refrain from telling lies.</p>
+              <p>I undertake the training rule to refrain from intoxicating fermented &amp; distilled beverages that lead to carelessness.</p>
+              <p>I undertake the training rule to refrain from eating at the wrong time [after noon &amp; before dawn].</p>
+              <p>I undertake the training rule to refrain from dancing, singing, music, &amp; watching shows.</p>
+              <p>I undertake the training rule to refrain from wearing garlands and beautifying myself with perfumes &amp; cosmetics.</p>
+              <p>I undertake the training rule to refrain from high &amp; luxurious seats &amp; beds.</p>
+              <p>I undertake the training rule to refrain from accepting gold &amp; money.</p>
+            </div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

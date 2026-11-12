@@ -1,0 +1,80 @@
+Ne 8 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne8.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: UNKNOWN. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+5. The Ninefold Thread in the Mode of Conveying Characteristics
+
+170. PTS vp Pli 30 Herein, what is the Mode of Conveying Characteristics? The Mode of Conveying Characteristics is this:
+
+“When PTS vp En 51 one idea is mentioned, all
+Ideas of like characteristic
+Are mentioned too: this constitutes
+The Mode Conveying Characteristics”.
+
+171. How does it characterize? [It does so as follows: When] certain ideas have a single [common] characteristic, then when one of those ideas is stated, the rest of those ideas are stated.
+
+172. How would that be? According [for example] as the Blessed One said: (Bhikkhus, the eye is unstable, small, trifling, fleeting: besides (?) it is painful, destructible, liable to dislodgement, ashes (?), a determination (?); it is a victim for slaughter in the midst of enemies) (). Now when this eye is stated, the rest of the bases in oneself [beginning with the ear] are stated. For what reason? Because all the bases in oneself have a single [common] characteristic in the sense of victim for slaughter.
+
+173. And according as the Blessed One said: (Rādha, do not look back with yearning to past form; do not expectantly relish future form; practise the way to dispassion, fading of lust, ceasing, giving up, and relinquishment, as to presently-arisen form) (). Now when this form category is stated, the rest of the categories are stated. For what reason? Because in the Yamakovāda Sutta all the five categories of assumption have a single characteristic in the sense of victim for slaughter.
+
+174. And according as the Blessed One said:
+
+They whose mindfulness of body
+Is constantly well instigated
+Do never what should not be done
+And ever do what should be done.
+
+So when Mindfulness Occupied with the Body is stated, Mindfulness Occupied with Feeling and that Occupied with Cognizance and that Occupied with Ideas are stated. And likewise when anything whatever that is seen or heard or PTS vp En 52 sensed is stated, what is cognized is stated. And the Blessed One said accordingly: PTS vp Pli 31 (Therefore, bhikkhus, abide contemplating the body as a body, ardent, aware and mindful, guiding out covetousness and grief about the world).
+
+Now “ardent” [here means] the energy faculty, “aware” the understanding faculty, “mindful” the mindfulness faculty, and “guiding out covetousness and grief” the concentration faculty. So when someone abides contemplating the body as a body the four Foundations of Mindfulness come to fulfilment through keeping in being. For what reason? Because of the four faculties’ state of having a single characteristic.
+
+175. When the four Foundations of Mindfulness are kept in being the four Right Endeavours come to fulfilment through keeping in being. When the four Right Endeavours are kept in being the four Bases for Success (Roads to Power) come to fulfilment through keeping in being. When the four Bases for Success are kept in being the five Faculties [beginning with Faith] come to fulfilment through keeping in being. When the five Faculties are kept in being the five Powers come to fulfilment through keeping in being. When the five Powers are kept in being the seven Enlightenment Factors come to fulfilment through keeping in being. When the seven Enlightenment Factors are kept in being the Noble Eight-Factored Path comes to fulfilment through keeping in being. And all ideas that tend to enlightenment and partake of enlightenment come to fulfilment through keeping in being. For what reason? Because all ideas that tend to enlightenment and partake of enlightenment have a single characteristic with their characteristic of giving outlet. They come to fulfilment through keeping in being owing to their singleness of characteristic.
+
+PTS vp En 53 176. Also unprofitable ideas are abandoned and disappear owing to their singleness of characteristic. When the four Foundations of Mindfulness are kept in being the Perversions are abandoned, the Nutriments come to diagnosis, one becomes free from assuming as regards the Assumptions, one is unfettered from the Bonds, one is dissociated from the Ties, one is untainted by the Taints, one has crossed over the Floods, one is barbless as regards the Barbs, the Steadying-Points for Consciousness come to one’s diagnosis, and one goes no bad way as regards the Goings on the Bad Ways. PTS vp Pli 32 In this way also one’s unprofitable ideas are abandoned and disappear.
+
+177. Or else, wherein a faculty having form [such as the eye, etc.] is taught, therein too are taught the form element, the form category, and the form base.
+
+178. Or else, wherein pleasant feeling is taught, therein too are taught the pleasure faculty, the joy faculty, and the origin of suffering as a Noble Truth.
+
+179. Or else, wherein painful feeling is taught, therein too are taught the pain faculty, the grief faculty, and suffering as a Noble Truth.
+
+180. Or else, wherein neither-painful-nor-pleasant feeling is taught, therein too are taught the onlooking-equanimity faculty, and all dependent arising. For what reason? Because ignorance underlies neither-painful-nor-pleasant feeling; with ignorance as condition, determinations; with determinations as condition, consciousness; with consciousness as condition, name-and-form; with name-and-form as condition, the sixfold base; with the sixfold base as condition, contact; with contact as condition, PTS vp En 54 feeling; with feeling as condition, craving; with craving as condition, assuming; with assuming as condition, being; with being as condition, birth; with birth as condition ageing and death have actual being, and also sorrow and lamentation, pain, grief, and despair; that is how there is an origin to this whole category of suffering.
+
+181. Now this [Dependent Arising] can be brought to abandonment by way of that which is on the side of corruption through its being affected by lust, affected by hate, and affected by delusion; and it can be brought to abandonment by way of the noble ideas that are without lust, without hate, and without delusion.
+
+182. In this way, as regards those ideas that have a single characteristic in their function and in their characteristic and in their generality, and also in their death and reappearance, when one of these ideas is stated the rest of such ideas are also stated.
+
+183. That is why the venerable Mahā-Kaccāna said:
+
+“When one idea is mentioned, all
+Ideas of like characteristic
+Are mentioned too: this constitutes
+The Mode Conveying Characteristics”.
+
+The Mode of Conveying Characteristics is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 5:10 Yasadatta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+            <h4 id="thag5.10" class="h1">Thag 5:10  Yasadatta</h4>
+            <div class="verse">
+              <p>Intent on quibbling,</p>
+              <p>the dullard hears the Conqueror’s teaching.</p>
+              <div class="verse-add">
+                <p class="v2">He’s as far from the True Dhamma</p>
+                <p class="v2">as the ground is from the sky.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>Intent on quibbling,</p>
+                <p>the dullard hears the Conqueror’s teaching.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v2">He wanes from the True Dhamma</p>
+                <p class="v2">like the moon in the dark half of the month.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>Intent on quibbling,</p>
+                <p>the dullard hears the Conqueror’s teaching.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v2">He dries up in the True Dhamma</p>
+                <p class="v2">like a fish in next to no water.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>Intent on quibbling,</p>
+                <p>the dullard hears the Conqueror’s teaching.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p class="v2">He doesn’t grow in the True Dhamma,</p>
+                <p class="v2">like a rotten seed in a field.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>But whoever hears the Conqueror’s teaching</p>
+                <p class="v2">with guarded<span class="fn"><a href="#thag5.10note01">1</a></span><!--end fn cite--> intent,</p>
+                <p class="v2">doing away with effluents</p>
+                <p class="v4">—all—</p>
+                <p class="v2">realizing the unshakable,</p>
+                <p class="v2">attaining the foremost peace,</p>
+                <p class="v4">—effluent-free—</p>
+                <p class="v8">totally unbinds.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <div class="note">
+              <p class="notetitle">Note</p><!--end notetitle-->
+              <p id="thag5.10note01">1. Reading <em>guttena</em> with the Thai edition. Other editions have <em>tuṭṭhena,</em> “contented.”</p>
+            </div><!--end notes-->
+            <p class="seealso">See also: <a href="../../AN/AN6_86.html">AN 6:86–88</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

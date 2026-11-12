@@ -1,0 +1,16 @@
+AN 4.255 - Pariyesana Sutta: Searches
+Translated by Thanissaro Bhikkhu
+Source: https://www.accesstoinsight.org/tipitaka/an/an04/an04.252.than.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: ©1997 Thanissaro Bhikkhu.
+License notice: The text of this page ("Pariyesana Sutta: Searches", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions.
+Attribution: ©1997 Thanissaro Bhikkhu. The text of this page ("Pariyesana Sutta: Searches", by Thanissaro Bhikkhu) is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/4.0/. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 3 July 2010. How to cite this document (a suggested style): "Pariyesana Sutta: Searches" (AN 4.252), translated from the Pali by Thanissaro Bhikkhu. Access to Insight (BCBS Edition), 3 July 2010, https://www.accesstoinsight.org/tipitaka/an/an04/an04.252.than.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+"Monks, these four are ignoble searches. Which four? There is the case where a person, being subject himself to aging, seeks [happiness in] what is subject to aging. Being subject himself to illness, he seeks [happiness in] what is subject to illness. Being subject himself to death, he seeks [happiness in] what is subject to death. Being subject himself to defilement, he seeks [happiness in] what is subject to defilement. These are four ignoble searches.
+
+"Now, these four are noble searches. Which four? There is the case where a person, being subject himself to aging, realizing the drawbacks of what is subject to aging, seeks the unaging, unsurpassed rest from the yoke: Unbinding. Being subject himself to illness, realizing the drawbacks of what is subject to illness, he seeks the unailing, unsurpassed rest from the yoke: Unbinding. Being subject himself to death, realizing the drawbacks of what is subject to death, he seeks the undying, unsurpassed rest from the yoke: Unbinding. Being subject himself to defilement, realizing the drawbacks of what is subject to defilement, he seeks the undefiled, unsurpassed rest from the yoke: Unbinding.
+
+"These are four noble searches."

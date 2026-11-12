@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 10:15 Heedfulness | Appamāda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN10.15" class="h1">Heedfulness<br/>
+                  Appamāda Sutta  (AN 10:15)</h3><!--end suttahead-->
+                <p>“To the extent that there are animals—footless, two-footed, four-footed, many footed; with form or formless; percipient, non-percipient, or neither percipient nor non-percipient—the Tathāgata, worthy &amp; rightly self-awakened, is reckoned the foremost among them. In the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as the footprints of all legged animals are encompassed by the footprint of the elephant, and the elephant’s footprint is reckoned the foremost among them in terms of size; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as the rafters in a peak-roofed house all go to the roof-peak, incline to the roof-peak, converge at the roof-peak, and the roof-peak is reckoned the foremost among them; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as, of all root fragrances, black aloes-root is reckoned the foremost; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as, of all wood fragrances, red sandalwood is reckoned the foremost; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as, of all flower fragrances, jasmine is reckoned the foremost; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as all wattle-and-daub-town princes fall subject to a wheel-turning emperor, and the wheel-turning emperor is reckoned the foremost among them; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as all the light of the constellations does not equal one sixteenth of the light of the moon, and the light of the moon is reckoned the foremost among them; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as in the last month of the rains, in autumn, when the sky is clear &amp; cloudless, the sun, on ascending the sky, overpowers the space immersed in darkness, shines, blazes, &amp; dazzles; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.</p>
+                <p>“Just as the great rivers—such as the Ganges, the Yamunā, the Aciravatī, the Sarabhū, &amp; the Mahī—all go to the ocean, incline to the ocean, slope to the ocean, tend toward the ocean, and the ocean is reckoned the foremost among them; in the same way, all skillful qualities are rooted in heedfulness, converge in heedfulness, and heedfulness is reckoned the foremost among them.”</p>
+                <p class="seealso">See also: <a href="../MN/MN97.html">MN 97</a>; <a href="../SN/SN3_17.html">SN 3:17</a>; <a href="../SN/SN35_97.html">SN 35:97</a>; <a href="../SN/SN55_40.html">SN 55:40</a>; <a href="AN4_113.html">AN 4:113</a>; <a href="AN6_19.html">AN 6:19—20</a>; <a href="../KN/Iti/iti23.html">Iti 23</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

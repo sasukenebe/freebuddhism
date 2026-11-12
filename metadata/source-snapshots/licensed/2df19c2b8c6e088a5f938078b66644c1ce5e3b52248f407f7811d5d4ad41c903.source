@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 22:131 Origination (1) | Samudaya Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN22.131" class="h1">Origination (1)<br/>
+                Samudaya Sutta  (SN 22:131)</h2>
+              <p>On one occasion Ven. Sāriputta and Ven. Mahā Koṭṭhita were staying near Vārāṇasī in the Deer Park at Isipatana. As he was sitting to one side, Ven. Mahā Koṭṭhita said to Ven. Sāriputta, “‘Ignorance, ignorance,’ it is said, friend Sāriputta. Which ignorance? And to what extent is one immersed in ignorance?”</p>
+              <p>“There is the case, my friend, where an uninstructed, run-of-the-mill person doesn’t discern, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and the escape from—form.</p>
+              <p>“He doesn’t discern, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and the escape from—feeling.</p>
+              <p>“He doesn’t discern, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and the escape from—perception.</p>
+              <p>“He doesn’t discern, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and the escape from—fabrications.</p>
+              <p>“He doesn’t discern, as they have come to be, the origination, the disappearance, the allure, the drawbacks of—and the escape from—consciousness.</p>
+              <p>“This, my friend, is called ignorance, and it’s to this extent that one is immersed in ignorance.”</p>
+              <p class="seealso">See also: <a href="SN22_5.html">SN 22:5</a>; <a href="SN22_56.html">SN 22:56–57</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

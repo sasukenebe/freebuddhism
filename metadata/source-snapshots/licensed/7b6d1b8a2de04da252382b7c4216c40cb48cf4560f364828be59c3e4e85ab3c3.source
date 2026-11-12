@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 9:8 To Sajjha | Sajjha Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+    <div id="content">
+     <!--#include virtual="/php/suttasidebar.html" --> 
+      <div id="sutta">
+      
+                <h3 id="AN9.8" class="h1">To Sajjha<br/>
+                  Sajjha Sutta  (AN 9:8)</h3>
+<p>I have heard that on one occasion the Blessed One was staying near Rājagaha on Vulture Peak Mountain. Then Sajjha the wanderer went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings &amp; courtesies, he sat to one side. As he was sitting there he said to the Blessed One: “One day recently when I was staying right here in Rājagaha, at Giribbaja, I heard it in the Blessed One’s presence, learned it in the Blessed One’s presence: ‘Sajjha, an arahant monk whose effluents are ended, who has reached fulfillment, done the task, laid down the burden, attained the true goal, totally destroyed the fetter of becoming, and who is released through right gnosis, cannot possibly transgress these five principles. It is impossible for a monk whose effluents are ended to intentionally deprive a living being of life. It is impossible for a monk whose effluents are ended to take, in the manner of stealing, what is not given. It is impossible for a monk whose effluents are ended to engage in sexual intercourse. It is impossible for a monk whose effluents are ended to tell a conscious lie. It is impossible for a monk whose effluents are ended to consume stored-up sensual things as he did before, when he was a householder.’ Now, did I hear this rightly from the Blessed One? Did I learn it rightly, attend to it rightly, understand it rightly?”</p>
+<p>“Yes, Sajjha, you heard it rightly, learned it rightly, attended to it rightly, &amp; understood it rightly. Both before &amp; now I say to you that an arahant monk whose effluents are ended, who has reached fulfillment, done the task, laid down the burden, attained the true goal, totally destroyed the fetter of becoming, and who is released through right gnosis, cannot possibly transgress these <em>nine</em> principles.</p>
+<p>“[1] It is impossible for a monk whose effluents are ended to intentionally deprive a living being of life. [2] It is impossible for a monk whose effluents are ended to take, in the manner of stealing, what is not given. [3] It is impossible for a monk whose effluents are ended to engage in sexual intercourse. [4] It is impossible for a monk whose effluents are ended to tell a conscious lie. [5] It is impossible for a monk whose effluents are ended to consume stored-up sensual things as he did before, when he was a householder.</p>
+<p>“[6] It is impossible for a monk whose effluents are ended to reject the Buddha. [7] It is impossible for a monk whose effluents are ended to reject the Dhamma. [8] It is impossible for a monk whose effluents are ended to reject the Saṅgha. [9] It is impossible for a monk whose effluents are ended to reject the training.<span class="fn"><a href="#an9.8note01">1</a></span></p>
+<p>“Both before and now I say to you that an arahant monk whose effluents are ended, who has reached fulfillment, done the task, laid down the burden, attained the true goal, totally destroyed the fetter of becoming, and who is released through right gnosis, cannot possibly transgress these nine principles.”</p>
+                <div class="note">
+                  <p class="notetitle">Note</p>
+<p id="an9.8note01">1. This translation and that of the preceding sutta follow the Thai edition of the Canon. In other editions, the last four principles are reversed between the two suttas. In other words, the last four principles listed here in 9:8 are given in 9:7 in those editions, and the last four listed in 9:7 are given here.</p>
+                </div>
+<p class="seealso">See also: <a href="../DN/DN29.html" class="sutta-ref">DN 29</a>; <a href="../MN/MN1.html" class="sutta-ref">MN 1</a>; <a href="../SN/SN22_122.html" class="sutta-ref">SN 22:122</a>; <a href="AN6_13.html" class="sutta-ref">AN 6:13</a>; <a href="AN6_43.html" class="sutta-ref">AN 6:43</a>; <a href="AN9_62.html" class="sutta-ref">AN 9:62</a>; <a href="AN10_13.html" class="sutta-ref">AN 10:13</a>; <a href="AN10_81.html" class="sutta-ref">AN 10:81</a></p>
+
+      </div><!--end sutta-->
+    </div><!--end content-->
+     <!--#include virtual="/php/suttafooter.html" --> 
+  </div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+</body></html>

@@ -1,0 +1,47 @@
+SN 22.48 - SN 22:48 Aggregates | Khandha Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN22_48.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+Aggregates
+ Khandha Sutta (SN 22:48)
+
+Near Sāvatthī. There the Blessed One said, “Monks, I will teach you the five aggregates & the five clinging-aggregates. Listen & pay close attention. I will speak.”
+
+“As you say, lord,” the monks responded to him.
+
+The Blessed One said, “Now what, monks, are the five aggregates?
+
+“Any form whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the form aggregate.
+
+“Any feeling whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the feeling aggregate.
+
+“Any perception whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the perception aggregate.
+
+“Any fabrications whatsoever that are past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: Those are called the fabrication aggregate.
+
+“Any consciousness whatsoever that is past, future, or present; internal or external; blatant or subtle; common or sublime; far or near: That is called the consciousness aggregate.
+
+“These are called the five aggregates.
+
+“And what are the five clinging-aggregates?
+
+“Any form whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the form clinging-aggregate.
+
+“Any feeling whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the feeling clinging-aggregate.
+
+“Any perception whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the perception clinging-aggregate.
+
+“Any fabrications whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that are clingable, offer sustenance, and are accompanied with effluents: Those are called the fabrication clinging-aggregate.
+
+“Any consciousness whatsoever—past, future, or present; internal or external; blatant or subtle; common or sublime; far or near—that is clingable, offers sustenance, and is accompanied with effluents: That is called the consciousness clinging-aggregate.
+
+“These are called the five clinging-aggregates.”
+
+See also: MN 44; MN 109; SN 22:121; SN 35:191

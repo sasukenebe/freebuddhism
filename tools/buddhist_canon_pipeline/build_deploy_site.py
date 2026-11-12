@@ -214,10 +214,22 @@ def _record_relative_path(record: dict, key: str, output_root: Path, repo_root: 
 
 
 def _record_license_is_allowed(record: dict) -> bool:
+    item = record.get("licensed_record")
+    if item is not None:
+        return (record.get("kind") == "sutta"
+                and item in record.get("manifest", {}).get("records", [])
+                and item.get("canonical_id") == record.get("canonical_id")
+                and item.get("license") == record.get("license")
+                and item.get("sha256") == record.get("source_sha256")
+                and item.get("source_comparison") == "PASS")
     if record.get("kind") == "sutta" and record.get("license") in {CC0_LICENSE, COWELL_PD_LICENSE}:
         return True
     if record.get("kind") == "sutta" and record.get("license") == CANDANA_LICENSE:
         manifest = record.get("manifest", {})
+        if record.get("group_id"):
+            return any(row["group_id"] == record["group_id"]
+                       and row["sha256"] == record.get("source_sha256")
+                       for row in manifest.get("group_texts", []))
         return any(row["canonical_id"] == record.get("canonical_id")
                    and row["sha256"] == record.get("source_sha256")
                    for row in manifest.get("texts", []))
@@ -872,7 +884,8 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     });
     const allChoices=new Map();
     data.texts.forEach(function(item){item.editions.forEach(function(edition){
-      if(!allChoices.has(edition.id))allChoices.set(edition.id,edition.label);
+      const preferenceId=edition.preference_id||edition.id;
+      if(!allChoices.has(preferenceId))allChoices.set(preferenceId,edition.label);
     });});
     const defaultSelect=document.getElementById("default-translation");
     function getStored(key){try{return localStorage.getItem(key);}catch(_){return null;}}
@@ -892,6 +905,31 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     const sections=document.getElementById("reader-texts");
     const overridesKey="freebuddhism-reading-overrides";
     function getOverrides(){try{return JSON.parse(getStored(overridesKey)||"{}");}catch(_){return {};}}
+    function chooseEdition(item,overrides){
+      const choice=overrides[item.key]||defaultSelect.value;
+      const fallbackIds=[choice,defaultSelect.value].concat(preferred)
+        .concat(orderedChoices.map(function(entry){return entry[0];}));
+      const seenIds=new Set();
+      const edition=fallbackIds.filter(function(id){
+        if(!id||seenIds.has(id))return false;seenIds.add(id);return true;
+      }).map(function(id){
+        return item.editions.find(function(entry){return entry.id===id||(entry.preference_id||entry.id)===id;});
+      }).find(function(entry){return Boolean(entry);});
+      return {choice:choice,edition:edition};
+    }
+    function selectionPlan(){
+      const overrides=getOverrides();
+      const chosen=texts.map(function(item){return {item:item,...chooseEdition(item,overrides)};});
+      const firstGroup=new Map();
+      chosen.forEach(function(entry){
+        if(entry.edition&&entry.edition.group_id&&!firstGroup.has(entry.edition.group_id))
+          firstGroup.set(entry.edition.group_id,entry.item.key);
+      });
+      return {chosen:chosen,firstGroup:firstGroup};
+    }
+    function refreshVisited(){
+      texts.forEach(function(item){if(item.section&&item.section.dataset.visited)item.display();});
+    }
     if(!texts.length){setStatus("No eligible local texts are available in this collection.");return;}
     setStatus(texts.length+" text"+(texts.length===1?"":"s")+".");
     const observer="IntersectionObserver" in window?new IntersectionObserver(function(entries){
@@ -913,21 +951,31 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       label.append(select);section.append(label);
       const notice=document.createElement("p");notice.setAttribute("aria-live","polite");section.append(notice);
       const body=document.createElement("div");body.className="reader-text";section.append(body);
+      const rights=document.createElement("details");rights.hidden=true;section.append(rights);
       let generation=0;
       async function display(){
-        const overrides=getOverrides();
-        const choice=overrides[item.key]||defaultSelect.value;
-        select.value=overrides[item.key]||"";
-        const fallbackIds=[choice,defaultSelect.value].concat(preferred)
-          .concat(orderedChoices.map(function(entry){return entry[0];}));
-        const seenIds=new Set();
-        const edition=fallbackIds.filter(function(id){
-          if(!id||seenIds.has(id))return false;seenIds.add(id);return true;
-        }).map(function(id){
-          return item.editions.find(function(entry){return entry.id===id;});
-        }).find(function(entry){return Boolean(entry);});
-        generation++;const currentGeneration=generation;body.replaceChildren();
+        const plan=selectionPlan();
+        const selected=plan.chosen.find(function(entry){return entry.item.key===item.key;});
+        const choice=selected.choice;
+        select.value=getOverrides()[item.key]||"";
+        const edition=selected.edition;
+        generation++;const currentGeneration=generation;body.replaceChildren();rights.hidden=true;rights.replaceChildren();
         if(!edition){notice.textContent="No eligible translation is available for this text.";return;}
+        if(edition.group_id){
+          const firstKey=plan.firstGroup.get(edition.group_id);
+          if(firstKey!==item.key){
+            const chosen=edition.id===choice||(edition.preference_id||edition.id)===choice;
+            notice.textContent=(chosen?"":"Fallback: ")+"This shared Candana passage covers "+edition.group_reference+" and is shown once at its first selected reference. ";
+            const firstItem=texts.find(function(entry){return entry.key===firstKey;});
+            if(firstItem&&firstItem.section&&!firstItem.section.dataset.visited){
+              firstItem.section.dataset.visited="true";
+              if(observer)observer.unobserve(firstItem.section);
+              firstItem.section._load();
+            }
+            const jump=document.createElement("a");jump.href="#"+edition.group_id;
+            jump.textContent="Jump to the shared passage";notice.append(jump);return;
+          }
+        }
         notice.textContent="Loading "+edition.label+"…";
         try{
           const response=await fetch(edition.url);if(!response.ok)throw new Error("HTTP "+response.status);
@@ -945,9 +993,21 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
             const value=node.getAttribute("src");if(value)node.src=new URL(value,edition.url).href;
           });
           if(currentGeneration!==generation)return;
+          if(edition.group_id)copy.id=edition.group_id;
           body.replaceChildren(copy);
-          notice.textContent=edition.id===choice
-            ?"Translation: "+edition.label+"."
+          if(edition.license_notice){
+            rights.hidden=false;
+            const summary=document.createElement("summary");summary.textContent="Source and licence";rights.append(summary);
+            const terms=document.createElement("p");terms.textContent=(edition.copyright||"")+" "+edition.license_notice;rights.append(terms);
+            [edition.attribution_notice,edition.changes].filter(Boolean).forEach(function(value){
+              const paragraph=document.createElement("p");paragraph.textContent=value;rights.append(paragraph);
+            });
+            const license=document.createElement("a");license.href=edition.license_url;license.textContent=edition.license;rights.append(license);
+            rights.append(document.createTextNode(" · "));
+            const source=document.createElement("a");source.href=edition.source_url;source.textContent="Original source";rights.append(source);
+          }
+          notice.textContent=(edition.id===choice||(edition.preference_id||edition.id)===choice)
+            ?(edition.group_id?"Shared passage covering "+edition.group_reference+". Translation: "+edition.label+".":"Translation: "+edition.label+".")
             :"Fallback translation: "+edition.label+" (the chosen translation is not available for this text).";
           if(edition.reuse_notice){
             notice.append(document.createTextNode(" "+edition.reuse_notice+" "));
@@ -963,7 +1023,7 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
       select.addEventListener("change",function(){
         const overrides=getOverrides();
         if(select.value)overrides[item.key]=select.value;else delete overrides[item.key];
-        setStored(overridesKey,JSON.stringify(overrides));display();
+        setStored(overridesKey,JSON.stringify(overrides));refreshVisited();
       });
       item.display=display;item.section=section;section._load=display;
       const listItem=document.createElement("li");const link=document.createElement("a");
@@ -987,12 +1047,12 @@ _CONTINUOUS_READER_SCRIPT = r'''<script>
     showLinkedText();window.addEventListener("hashchange",showLinkedText);
     defaultSelect.addEventListener("change",function(){
       setStored("freebuddhism-reading-default",defaultSelect.value);
-      texts.forEach(function(item){if(item.section.dataset.visited)item.display();});
+      refreshVisited();
       setStatus("Default saved on this device. Texts without it use the next eligible edition, labeled under the text.");
     });
     document.getElementById("apply-default").addEventListener("click",function(){
       setStored("freebuddhism-reading-default",defaultSelect.value);
-      texts.forEach(function(item){if(item.section.dataset.visited)item.display();});
+      refreshVisited();
       setStatus("Default applied where available; other texts use the next eligible edition. Individual overrides are unchanged.");
     });
     document.getElementById("customize-editions").addEventListener("click",function(event){
@@ -1044,12 +1104,24 @@ def _write_continuous_reader(
             reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
             editions.append({
                 "id": record["version"],
+                "preference_id": "candana" if record.get("group_id") else record["version"],
                 "label": record["version_label"],
                 "translator": record["translator"],
+                "license": record["license"],
+                "license_url": record["license_url"],
+                "copyright": record.get("copyright", ""),
+                "license_notice": record.get("license_notice", ""),
+                "attribution_notice": record.get("attribution_notice", ""),
+                "changes": record.get("changes", ""),
+                "source_url": record["source_url"],
+                "completeness_status": record.get("completeness_status", "UNKNOWN"),
                 "url": "/theravada/tipitaka/" + reader.as_posix(),
                 "reuse_notice": (record.get('reuse_notice') or "Copyright © Bhikkhu Candana, 2020, 2026. Free distribution only; do not alter the contents."
                                  if record.get("license") == CANDANA_LICENSE else ""),
                 "original_book_url": record.get("original_book_url", ""),
+                "group_id": record.get("group_id", ""),
+                "group_reference": record.get("group_reference", ""),
+                "canonical_ids": record.get("canonical_ids", []),
             })
         display = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         text_rows.append({
@@ -1173,6 +1245,8 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
         if not info["eligible"]:
             unavailable_routes.add(route)
         for record in info["eligible"]:
+            if record.get("group_id"):
+                continue
             reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
             contexts[reader.as_posix()] = (info["collection"], info)
     unavailable_routes.update(node["route"] for key, node in nodes.items() if key not in available_collections)
@@ -1181,6 +1255,8 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
     anchors = re.compile(r'<a\b(?P<attrs>[^>]*)>(?P<label>.*?)</a>', re.DOTALL | re.IGNORECASE)
     hrefs = re.compile(r'\bhref\s*=\s*([\'"])(.*?)\1', re.DOTALL | re.IGNORECASE)
     for page in sorted(destination.rglob("*.html")):
+        if page == destination / "index.html":
+            continue
         relative = page.relative_to(tipitaka_root).as_posix() if page.is_relative_to(tipitaka_root) else ""
         source = page.read_text(encoding="utf-8")
         if relative != "site/read.html":
@@ -1739,6 +1815,9 @@ def _write_navigation_pages(
     impact_map: dict,
     archive_names: list[str],
 ) -> dict:
+    released = {record["licensed_record"].get("prior_record_id") for record in records if record.get("licensed_record")}
+    impact_map = {**impact_map, "records": [item for item in impact_map.get("records", [])
+                                          if item.get("record_key") not in released]}
     site_dir = tipitaka_root / "site"
     existing_text_index = (site_dir / "sutta-texts.html").read_text(encoding="utf-8")
     source_rows = _source_rows(existing_text_index)
@@ -1781,8 +1860,9 @@ def _write_navigation_pages(
     for record in records:
         if record["kind"] != "sutta":
             continue
-        route = Path("sutta") / record["collection"] / canonical_slug(record["canonical_id"]) / "index.html"
-        page_info(route.as_posix(), record["canonical_id"], record["collection"], record["title"])["eligible"].append(record)
+        for canonical_id in record.get("canonical_ids", [record["canonical_id"]]):
+            route = Path("sutta") / record["collection"] / canonical_slug(canonical_id) / "index.html"
+            page_info(route.as_posix(), canonical_id, record["collection"], record["title"])["eligible"].append(record)
 
     blocked_file_paths: set[Path] = set()
     blocked_reader_routes: dict[Path, dict] = {}
@@ -2016,8 +2096,9 @@ def _write_navigation_pages(
     for record in records:
         if record["kind"] != "sutta":
             continue
-        route = (Path("sutta") / record["collection"] / canonical_slug(record["canonical_id"]) / "index.html").as_posix()
-        counts_by_route[route] += 1
+        for canonical_id in record.get("canonical_ids", [record["canonical_id"]]):
+            route = (Path("sutta") / record["collection"] / canonical_slug(canonical_id) / "index.html").as_posix()
+            counts_by_route[route] += 1
     collection_index_routes = set(COLLECTION_TITLES) | set(SUTTA_NODE_INFO) | set(WHOLE_BOOK_PDF_SOURCES) | set(collections) | {"khuddaka-nikaya"}
     updated_collection_rows = 0
     localized_source_links = 0
@@ -2032,12 +2113,16 @@ def _write_navigation_pages(
         localized_source_links += _localize_suttafriends_story_links(page, relative_page, tipitaka_root, allowed)
     unique_ids = len({row["canonical_id"] for row in source_rows})
     available_ids = len({
-        (record["collection"], record["canonical_id"])
+        (record["collection"], canonical_id)
         for record in records if record["kind"] == "sutta"
+        for canonical_id in record.get("canonical_ids", [record["canonical_id"]])
     })
+    grouped_body_count = sum(bool(record.get("group_id")) for record in records)
+    grouped_reference_count = sum(len(record.get("canonical_ids", [])) for record in records if record.get("group_id"))
     intro = (
         f"<p>Source index: {len(source_rows)} entries across {unique_ids} IDs. "
-        f"This build includes {sum(counts_by_route.values())} rights-cleared editions across {available_ids} IDs. "
+        f"This build provides {sum(counts_by_route.values())} local edition links across {available_ids} IDs. "
+        f"This includes {grouped_body_count} shared Candana passages covering {grouped_reference_count} text references. "
         "A zero means no edition cleared for local redistribution; it does not mean no translation exists.</p>"
     )
     updated_text_index = _replace_sutta_coverage_intro(existing_text_index, intro)
@@ -2147,7 +2232,8 @@ def _write_navigation_pages(
 
     summary = (
         f"<p>The text index retains {len(source_rows)} source entries across {unique_ids} IDs. "
-        f"This build includes {sum(counts_by_route.values())} rights-cleared Sutta editions across {available_ids} IDs. "
+        f"This build provides {sum(counts_by_route.values())} local Sutta edition links across {available_ids} IDs. "
+        f"It includes {grouped_body_count} shared Candana passages covering {grouped_reference_count} text references. "
         f"The Vinaya source manifest maps {vinaya_report['source_files']} English files; {vinaya_report['local_files']} have local readers and {vinaya_report['review_required_files']} are held for passage-level review. "
         "No Abhidhamma book currently clears the reuse policy. Text availability and translation completeness are separate; unavailable entries remain in the navigation.</p>"
     )
@@ -2218,6 +2304,8 @@ def _write_navigation_pages(
         "vimanavatthu_story_availability_pages": vimanavatthu_story_pages,
         "source_index_entries": len(source_rows),
         "available_canonical_ids": available_ids,
+        "candana_grouped_bodies": grouped_body_count,
+        "candana_grouped_references": grouped_reference_count,
         "anguttara_index_entries": anguttara_index_entries,
         "vinaya_source_files": vinaya_report["source_files"],
         "vinaya_review_required_files": vinaya_report["review_required_files"],
@@ -2376,7 +2464,7 @@ def assemble_webroot(
         raise ValueError(f"Refusing to assemble into a non-empty directory: {destination}")
     selected = records if records is not None else collect_records(READER_OUTPUT)
     if not selected:
-        raise ValueError("No CC0 or verified public-domain text versions passed the reader allowlist")
+        raise ValueError("No editions with verified redistribution rights passed the reader allowlist")
 
     if impact_map is None:
         if not IMPACT_MAP.is_file():
@@ -2413,7 +2501,7 @@ def assemble_webroot(
 
     for record in selected:
         if not _record_license_is_allowed(record):
-            raise ValueError(f"Record outside the CC0/verified-PD allowlist: {record.get('license')} {record.get('canonical_id')}")
+            raise ValueError(f"Record lacks verified edition permission: {record.get('license')} {record.get('canonical_id')}")
         row = record["row"]
         key = (record["kind"], record["collection"], record["canonical_id"], record["version"])
         if key in seen_records:
@@ -2482,7 +2570,8 @@ def assemble_webroot(
     archive_content = _write_archives(tipitaka_root, allowed, archive_names, content_collections | set(COLLECTION_TITLES) | set(WHOLE_BOOK_PDF_SOURCES))
     if archive_content != navigation_report["archive_content"]:
         raise ValueError("Download-page archive labels differ from the built archive contents")
-    review_files = write_public_candana_review(destination, ROOT)
+    from check_licensed_readers import write_public_review
+    review_files = write_public_candana_review(destination, ROOT) | write_public_review(destination)
     crawler_files = _write_crawler_files(destination)
 
     expected_files = ({destination / "index.html", *crawler_files}

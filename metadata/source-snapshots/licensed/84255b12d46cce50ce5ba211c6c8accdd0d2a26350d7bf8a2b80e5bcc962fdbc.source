@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+  <head>
+    <title>SN 1:63 Craving | Taṇhā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" -->
+      <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+      <!--#if expr="$EPUB_CSS_DISABLED" -->
+          <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+      <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+<!--Blurb: Different answers to the riddles in SN 1:62.-->
+<h2 class="h1">Craving<br/>
+Taṇhā Sutta  (SN 1:63)</h2>
+<div class="verse">
+<pre>“By what	is the world led?
+By what	is it dragged around?
+What	is the one thing
+	that has the all
+	under its sway?”</pre>
+<pre>“By craving 	is the world led.
+By craving 	is it dragged around.
+Craving 		is the one thing
+	that has the all
+	under its sway.”</pre>
+</div><!--end verse-->
+<p> See also: <a href="SN35_23.html" class="sutta-ref">SN 35:23</a>; <a href="SN35_82.html" class="sutta-ref">SN 35:82</a>; <a href="../AN/AN10_58.html" class="sutta-ref">AN 10:58</a></p>
+
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+

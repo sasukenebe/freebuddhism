@@ -1,0 +1,31 @@
+Ja 261 - The Story about (Begging for) Lotuses
+Translated by Ānandajoti Bhikkhu
+Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/261.htm
+License: CC-BY-SA-4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+Copyright: Ānandajoti Bhikkhu; source gives no separate copyright year.
+License notice: Translated by Ānandajoti Bhikkhu. Publisher: Ancient Buddhist Texts. Copyright: Ānandajoti Bhikkhu; source supplies no separate copyright year for this verse extraction. Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/261.htm Creative Commons Attribution-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-sa/4.0/ Complete page-footer grant text: Creative Commons Attribution-ShareAlike 4.0 License (https://creativecommons.org/licenses/by-sa/4.0/deed.en). The exact source page loads the pinned ABT Footer.js notice granting CC BY-SA 4.0. ABT copyright notice and exceptions: https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm Complete general grant text from the May 2013 copyright notice: everything except for those works covered in the listings above, including the introductions, translations, studies, and notes accompanying most of these works are subject to the following licence: Creative Commons Attribution-ShareAlike 3.0 Unported License. attribution should be made to Anandajoti Bhikkhu. General default licence URL: https://creativecommons.org/licenses/by-sa/3.0/ . The May 2013 copyright notice names a CC BY-SA 3.0 default; the page's explicit 4.0 footer is retained here. The complete exception list is retained in the linked copyright snapshot. The listed third-party editions and ambiguous BJT/GNU Pali database terms are not relabelled by this extraction. Changes: canonical verse extraction; HTML inline styling removed; explicit verse line breaks retained; embedded verse notes retained with added Source note labels. Synopsis, word commentary and site navigation are outside the body scope; preserved in source/comparison evidence. No repeated passages have been expanded or manufactured. Original wording, punctuation and source ellipses remain. Retain attribution, this notice and source/licence links; identify further changes; share adaptations under the same licence; do not impose additional restrictions. No endorsement is implied. Original saved TXT attribution and change notice: Ja 261 The Story about (Begging for) Lotuses Translated by Ānandajoti Bhikkhu Publisher: Ancient Buddhist Texts Source: https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/261.htm Pali basis: Cst4 digitalisation of the Chaṭṭha Saṅgāyaṇa Tipiṭaka (Burmese tradition) Edition note: 2 Pali stanza(s) differ from the site's pinned SuttaCentral Bilara reference (SuttaCentral Bilara Mahāsaṅgīti Pali Sutta edition). The English is paired with the Cst4 Pali printed on the source page; it is not segment-aligned to the site's Pali text. License: CC-BY-SA-4.0 (https://creativecommons.org/licenses/by-sa/4.0/) Changes: Pali and English verse extraction and whitespace normalization; word commentary excluded. This English translation and its paired source text are distributed under CC BY-SA 4.0.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: COMPLETE. Complete canonical Jataka verse set in the ABT Cst4-based edition, with paired source Pali and English; source verse notes retained; narrative story, synopsis, word commentary and trailing collection index excluded. COMPLETE is for this verse set, not the complete source page or all 547 Jatakas.
+
+Verse 1 — Pali source
+1. Yathā kesā ca massū ca, chinnaṁ chinnaṁ virūhati,
+Evaṁ ruhatu te nāsā, padumaṁ dehi yācito ti.
+
+Verse 1 — English
+Just like head hair and beard which are cut off, grow back, so will your nose grow, when begged, give us a lotus.
+
+Verse 2 — Pali source
+2. Yathā sāradikaṁ bījaṁ khette vuttaṁ virūhati,
+Evaṁ ruhatu te nāsā, padumaṁ dehi yācito ti.
+
+Verse 2 — English
+Just as in the autumn seeds sewn in the field grow, so will your nose grow, when begged give us a lotus.
+
+Verse 3 — Pali source
+3. Ubho pi palapantete, api padmāni dassati,
+Vajjuṁ vā te na vā vajjuṁ, natthi nāsāya rūhanā,
+Dehi samma padumāni, ahaṁ yācāmi yācito ti.
+
+Verse 3 — English
+Both of these talk nonsense, though he give lotuses, whether they say or don’t say, there is no nose grown, friend, give me lotuses, I am begging this ask.

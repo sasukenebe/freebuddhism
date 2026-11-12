@@ -1,0 +1,31 @@
+SN 44.9 - SN 44:9 The Debating Hall | Kutūhalasālā Sutta
+Translated by Ṭhānissaro Bhikkhu
+Source: https://www.dhammatalks.org/suttas/SN/SN44_9.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017
+License notice: Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Attribution: From Handful of Leaves, Ṭhānissaro Bhikkhu; https://www.dhammatalks.org/Archive/Writings/Ebooks/SuttaPitaka_251113.epub. Copyright 2014 Ṭhānissaro Bhikkhu, Revised edition 2017 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported. To see a copy of this license visit http://creativecommons.org/licenses/by-nc/4.0/. “Commercial” shall mean any sale, whether for commercial or non-profit purposes or entities. Questions about this book may be addressed to Metta Forest Monastery Valley Center, CA 92082-1409 U.S.A. Additional resources More Dhamma talks, books and translations by Ṭhānissaro Bhikkhu are available to download in digital audio and various ebook formats at dhammatalks.org. Printed copy A paperback copy of this book is available free of charge. To request one, write to: Book Request, Metta Forest Monastery, PO Box 1409, Valley Center, CA 92082 USA.
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved, including introductions, notes and verse structure. Thanissaro's collection-level note explicitly states that repetitions were cut: https://www.dhammatalks.org/suttas/about.html. This is evidence about the translation method, not an assertion that every individual unit contains an omission; no repetitions reconstructed.
+
+The Debating Hall
+ Kutūhalasālā Sutta (SN 44:9)
+
+Then Vacchagotta the wanderer went to the Blessed One and, on arrival, exchanged courteous greetings with him. After an exchange of friendly greetings & courtesies, he sat to one side. As he was sitting there, he said to the Blessed One, “Master Gotama, a few days ago a large number of contemplatives, brahmans, and wanderers of various sects were sitting together in the Debating Hall when this conversation arose among them: ‘This Pūraṇa Kassapa—the leader of a community, the leader of a group, the teacher of a group, honored and famous, esteemed as holy by the mass of people—describes a disciple who has died and passed on in terms of places of rebirth: “That one is reborn there; that one is reborn there.” Even when the disciple is an ultimate person, a foremost person, attained to the foremost attainment, Pūraṇa Kassapa describes him, when he has died and passed on, in terms of places of rebirth: “That one is reborn there; that one is reborn there.”
+
+“‘This Makkhali Gosāla… This Nigaṇṭha Nāṭaputta… This Sañjaya Velaṭṭhaputta… This Pakudha Kaccāna… This Ajita Kesakambala—the leader of a community, the leader of a group, the teacher of a group, honored and famous, esteemed as holy by the mass of people—describes a disciple who has died and passed on in terms of places of rebirth: “That one is reborn there; that one is reborn there.” Even when the disciple is an ultimate person, a foremost person, attained to the foremost attainment, Ajita Kesakambala describes him, when he has died and passed on, in terms of places of rebirth: “That one is reborn there; that one is reborn there.”
+
+“This contemplative Gotama—the leader of a community, the leader of a group, the teacher of a group, honored and famous, esteemed as holy by the mass of people—describes a disciple who has died and passed on in terms of places of rebirth: “That one is reborn there; that one is reborn there.” But when the disciple is an ultimate person, a foremost person, attained to the foremost attainment, the contemplative Gotama does not describe him, when he has died and passed on, in terms of places of rebirth: “That one is reborn there; that one is reborn there.” Instead, he describes him thus: “He has cut through craving, severed the fetter, and by rightly breaking through conceit has made an end of suffering & stress.”’
+
+“So I was simply befuddled. I was uncertain: How is the teaching of Gotama the contemplative to be understood?”
+
+“Of course you are befuddled, Vaccha. Of course you are uncertain. When there is a reason for befuddlement in you, uncertainty arises. I designate the rebirth of one who has sustenance, Vaccha, and not of one without sustenance. Just as a fire burns with sustenance and not without sustenance, even so I designate the rebirth of one who has sustenance and not of one without sustenance.”
+
+“But, Master Gotama, at the moment a flame is being swept on by the wind and goes a far distance, what do you designate as its sustenance then?”
+
+“Vaccha, when a flame is being swept on by the wind and goes a far distance, I designate it as wind-sustained, for the wind is its sustenance at that time.”
+
+“And at the moment when a being sets this body aside and is not yet reborn in another body, what do you designate as its sustenance then?”
+
+“Vaccha, when a being sets this body aside and is not yet reborn in another body, I designate it as craving-sustained, for craving is its sustenance at that time.”

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 3:2 Uttamā</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig3.2" class="h1">Thig 3:2  Uttamā</h4>
+          <div class="verse">
+            <p>Four times, five, I ran amok from my dwelling,</p>
+            <p class="v2">having gained no peace of awareness,</p>
+            <p class="v2">my thoughts out of control.</p>
+            <p>So I went to a trustworthy nun.</p>
+            <p>She taught me the Dhamma:</p>
+            <p class="v2">aggregates, sense media, properties.<span class="fn"><a href="#thig3.2note01">1</a></span><!--end fn cite--></p>
+            <p>Hearing the Dhamma,</p>
+            <p class="v2">I did as she said.</p>
+            <p>For seven days I sat in one spot,</p>
+            <p>absorbed in rapture &amp; bliss.</p>
+            <p>On the eighth, I stretched out my legs,</p>
+            <p class="v2">having burst the mass</p>
+            <p class="v2">of darkness.</p>
+          </div><!--end verse-->
+          <div class="note">
+            <p class="notetitle">Note</p><!--end notetitle-->
+            <p id="thig3.2note01">1. On the aggregates (khandha), see <a href="../../SN/SN22_59.html">SN 22:59</a> and <a href="../../SN/SN22_79.html">SN 22:79</a>; on the sense media (āyatana), <a href="../../SN/SN35_28.html">SN 35:28</a>; on the properties (dhātu), <a href="../../MN/MN140.html">MN 140</a>. On the relationships among these frameworks for analyzing experience, see <a href="../../MN/MN28.html">MN 28</a>.</p>
+          </div><!--end notes-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

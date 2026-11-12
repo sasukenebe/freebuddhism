@@ -1,0 +1,170 @@
+Ne 14 - 3. Counter-Demonstrative Subsection (Continued)
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne14.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+3. Counter-Demonstrative Subsection (Continued)
+
+11. The Ninefold Thread in the Mode of Conveying Descriptions
+
+302. Herein, what is the Mode of Conveying Descriptions? [It is this:]
+
+“The Blessed One one idea teaches
+By means of manifold descriptions:
+This mood can thus be known to be
+The Mode that does Convey Descriptions”.
+
+303. PTS vp Pli 57 Any teaching by [explanatory] talk about the nature [of anything] is a description [in terms of] presentation. And what is the teaching as [explanatory] talk about the nature [of anything]? It is the four Truths, according as the Blessed One said: (This is suffering). This is a description. It is a description [in terms of] presentation [applied] to the five categories, the six elements, the eighteen elements, the twelve bases, and the ten faculties.
+
+PTS vp En 85 304. (Bhikkhus, if there is lust, if there is relish, if there is craving, for physical nutriment, there consciousness finds a steadying-point and develops. Wherever consciousness finds a steadying-point and develops, there is the finding of a footing for name-and-form. Wherever there is the finding of a footing for name-and-form, there is maturing of determinations. Wherever there is maturing of determinations, there renewed being is made to occur in the future. Wherever renewed being is made to occur in the future, there is future birth, ageing and death. Wherever there is future birth, ageing and death, that is accompanied by sorrow, bhihkhus, accompanied by trouble, accompanied by despair, I say. If there is lust … for contact, … despair. If there is lust … for mind-choice, … despair. If there is lust … for consciousness, … despair).
+
+305. This is description [in terms] of giving-being [applied] to suffering and to its origin.
+
+306. (Bhihhhus, if there is no lust, if there is no relish, if there is no craving, for physical nutriment, there consciousness does not find a steadying-point or develop. Wherever consciousness does not find a steadying-point or develop, there is no finding of a footing for name-and-form. Wherever there is no finding of a footing for name-and-form, there is no maturing of determinations. Wherever there is no maturing of determinations, there no renewal of being is made to occur in the future. Wherever no renewal of being is made to occur in the future, PTS vp Pli 58 there is no future birth, ageing and death. Wherever there is no future birth, ageing and death, that is sorrowless, bhihkhus, untroubled and free from despair, I say. If there is no lust … for contact, … free from despair. If there is no lust … for mind- PTS vp En 86 choice, … free from despair. If there is no lust … for consciousness, … free from despair).
+
+307. This is a description [in terms] of diagnosis [applied] to suffering, a description in terms of abandoning applied to origin, a description in terms of keeping in being applied to the path, a description in terms of verification applied to cessation.
+
+308. (Bhikkhus, maintain concentration in being: a bhikkhu who is diligent, prudent, mindful, concentrated, understands how [things] are. And how does he understand how [things] are? The eye is impermanent. That is how he understands how it is. Forms are impermanent: That is how he understands how it is. Eye consciousness is impermanent: That is how he understands how it is. Eye contact is impermanent: That is how he understands how it is. Whatever is felt, whether pleasant or painful or neither painful-nor-pleasant that arises with eye contact for its condition, that too is impermanent: That is how he understands how it is. The ear is impermanent … sounds are impermanent … The nose is impermanent … odours are impermanent … The tongue is impermanent … flavours are impermanent … The body is impermanent … tangibles are impermanent … The mind is impermanent: That is how he understands how it is. Ideas are impermanent: That is how he understands how it is. Mind consciousness is impermanent: That is how he understands how it is. Mind contact is impermanent: That is how he understands how it is. Whatever is felt, whether pleasant or painful or neither-painful-nor-pleasant, that arises with mind contact for its condition, that too is impermanent: That is how he understands how it is).
+
+309. This is a description in terms of keeping in being applied to the path, a description in terms of diagnosis applied to suffering, a description in terms of abandoning applied to origin, a description in terms of verification applied to cessation.
+
+310. PTS vp Pli 59 (Dispense with form, Rādha, shatter it, put it out of play, by means of understanding, practise the way to exhaustion of craving. With exhaustion of craving there is exhaustion of suffering. With exhaustion of suffering there is extinction. Dispense with feeling … Dispense with perception … Dispense with determinations … Dispense with consciousness, shatter it, put it out of play, by means of understanding, practise the way to exhaustion of craving. With exhaustion of craving there is exhaustion of suffering. With exhaustion of suffering there is extinction).
+
+311. This is a description in terms of cessation applied to cessation, a description in terms of dispassion applied to gratification, a PTS vp En 87 description in terms of diagnosis applied to suffering, a description in terms of abandoning applied to origin, a description in terms of keeping in being applied to the path, a description in terms of verification applied to cessation.
+
+312. (“This is suffering”: that is how he understands how it is. “This is the origin of suffering”: that is how he understands how it is. “This is the cessation of suffering”: that is how he understands how it is. “This is the way leading to the cessation of suffering”: that is how he understands how it is).
+
+313. This is a description in terms of penetration applied to the truths, a description in terms of presentation applied to the plane of seeing, a description in terms of keeping in being applied to the path, a description in terms of verification applied to the fruit of Stream-Entry.
+
+314. (“These are taints”: that is how he understands how it is. “This is the origin of taints”: that is how he understands how it is. “This is the cessation of taints”: that is how he understands how it is. “This is the way leading to the cessation of taints”: that is how he understands how it is).
+
+315. This is a description in terms of arising applied to knowledge of exhaustion, a description in terms of opportunity applied to knowledge of non-arising, a description in terms of keeping in being applied to the path, a description in terms of diagnosis applied to suffering, a description in terms of abandoning applied to origin, a description in terms of instigation applied to the energy faculty, a description in terms of “removal” applied to “grubs”, a description in terms of presentation applied to the plane of keeping in being, a description in terms of counteraction applied to evil unprofitable ideas.
+
+316. (“This is suffering”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to ideas not heard by me before. “This is the origin of suffering”: such … “This is the cessation of suffering”: such … “This is the way leading to cessation of suffering”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to PTS vp Pli 60 ideas not heard by me before).
+
+317. This is a description in terms of teaching applied to the truths, a description in terms of presentation applied to understanding- PTS vp En 88 consisting-in-what-is-heard, a description in terms of verification applied to the I-shall-come-to-know-finally-the-as-yet-not-finally-known faculty, a description in terms of “setting rolling” (making occur) applied to the “Wheel (Blessing) of the True Idea”.
+
+318. (“‘This suffering must be diagnosed”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to ideas not heard by me before. “This origin of suffering must be abandoned”: such … “This cessation of suffering must be verified”: such … “This way leading to the cessation of suffering must be kept in being”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to ideas not heard by me before).
+
+319. This is a description in terms of keeping in being applied to the path, a description in terms of presentation applied to understanding-consisting-in-cogitation, a description in terms of verification applied to the final-knowing faculty.
+
+320. (“This suffering has been diagnosed”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to ideas not heard by me before. “This origin of suffering has been abandoned”: such … “This cessation of suffering has been verified”: such … “This way leading to the cessation of suffering has been kept in being”: such was the vision, the knowledge, the understanding, the science, the light, that arose in regard to ideas not heard by me before).
+
+321. This is a description in terms of keeping in being applied to the path, a description in terms of presentation applied to understanding-consisting-in-keeping-in-being, a description in terms of verification applied to the final-knower faculty, a description in terms of “setting rolling” applied to the “Wheel of the True Idea”.
+
+322. The Stilled One dropped the being-determinant
+That gives existence measured and unmeasured,
+And happy in himself and concentrated
+He sundered, like a mail-coat, self-existence.
+
+323. PTS vp Pli 61 “Measured” is the determinations-element. “Unmeasured” is the extinction-element.
+
+“That gives existence measured and unmeasured” is a description PTS vp En 89 in terms of acquaintanceship applied to all ideas, a description in terms of presentation applied to the Discrimination-of-Ideas.
+
+324.“The Stilled One dropped the being-determinant” is a description in terms of giving-up applied to origin, a description in terms of diagnosis applied to suffering.
+
+325.“And happy in himself and concentrated” is a description in terms of keeping-in-being applied to Mindfulness-Occupied-with-the-Body, a description in terms of steadiness applied to unification of cognizance.
+
+326.“He sundered, like a mail-coat, self-existence” is a description in terms of “breaking out” applied to cognizance, a description in terms of assuming applied to omniscience, a description in terms of “bursting open” applied to the “egg-shell of ignorance”.
+
+That is why the Blessed One said:
+
+“The Stilled One dropped the being-determinant
+That gives existence measured and unmeasured …”.
+
+327. How could a man to sensual desires stoop
+Who pain has seen and that wherefrom it sources?
+Who knows they make for clinging in the world
+Should mindful train in guiding them away.
+
+PTS vp En 90 328.“Who pain” is a description in terms of a synonym applied to pain (suffering) and it is a description in terms of diagnosis applied to it.
+
+329.“And that wherefrom it sources” is a description in terms of giving-being applied to origin and it is a description in terms of abandoning applied to it.
+
+330.“Has seen” is a description in terms of a synonym applied to the eye of knowledge and it is a description in terms of penetration applied to it.
+
+331.“How could a man to sensual desires stoop” is a description in terms of sensual desires applied to craving for sensual desires and it is a description in terms of insistence applied to it.
+
+332.“Who knows they make for clinging in the world” is a description in terms of “seeing an enemy” applied to sensual desires; for sensual desires have the simile of a pit of coals, the simile of a lump of flesh, are like a conflagration, and have the similes of a chasm and a serpent’s head.
+
+333.“Mindful … them” is a description in terms of dispersal applied to abandoning, a description in terms of presentation applied to Mindfulness-Occupied-with-the-Body, and a description in terms of keeping-in-being applied to the path.
+
+334.“Should train in guiding … away” is a description in terms of penetration applied to outguiding of lust, outguiding of hate, and outguiding of delusion.
+
+335.“A man” is a description in terms of a synonym applied to a devotee.
+
+336. Now when a devotee understands that “they make for clinging” then without the arising of sensual desires he arouses profitable ideas, he makes efforts for the arising of unarisen profitable ideas. PTS vp Pli 62 This is a description in terms of effort applied to the reaching of the as yet unreached, a description in terms of presentation applied to discontent with what deals with the hither-side.
+
+337. Herein, (He makes efforts for the steadiness of arisen profitable ideas): this is a description in terms of diligence applied to keeping in being, a description in terms of presentation applied to the energy faculty, a description in terms of preservation applied to profitable ideas, a description in terms of steadiness applied to the training in the higher cognizance.
+
+That is why the Blessed One said:
+
+“How PTS vp En 91 could a man to sensual desires stoop
+Who pain has seen and that wherefrom it sources? …”.
+
+338. The world is held in bondage by delusion
+And only looks as though ’twere capable:
+Wrapped in bewilderment a fool is held
+In bondage by essentials of existence;
+To him who sees, it will appear devoid
+Of features, he will have no owning there.
+
+339.“The world is held in bondage by delusion” is a description in terms of teaching applied to the perversions.
+
+340.“And only looks as though ’twere capable” is a description in terms of the distorted applied to the world.
+
+341.“A fool is held In bondage by essentials of existence” is a description in terms of giving-being applied to recourse to evil wishes, a description in terms of function applied to the obsessions, a description in terms of strength applied to the defilements, a description in terms of development applied to determinations.
+
+342.“Wrapped in bewilderment” is a description in terms of teaching applied to the murk of ignorance, and a description in terms of a synonym applied to it.
+
+343.“It will appear devoid Of features” is a description in terms of seeing applied to the heavenly eye, a description in terms of presentation applied to the eye of understanding.
+
+344.“To him who sees … he will have no owning there” is a description in terms of penetration applied to creatures: (Lust is an owning, hate is an owning, delusion is an owning).
+
+That is why the Blessed One said:
+
+“The world is held in bondage by delusion …”.
+
+345. (Bhikkhus, there is an unborn, an un-brought-to-being, an unmade, an undetermined. If that were not unborn, un-brought-to-being, unmade, undetermined, no escape from the born, the brought-to-being, the made, the determined, would be evident here. And it is because PTS vp En 92 there is an unborn, an un-brought-to-being, an unmade, an undetermined, that therefore the escape from the born, the brought-to-being, the made, the determined, is evident.
+
+346. PTS vp Pli 63 “If that were not unborn, un-brought-to-being, unmade, undetermined” is a description in terms of the teaching applied to extinction, and a description in terms of synonyms applied to it.
+
+347.“No escape from the born, the brought-to-being, the made, the determined would be evident here” is a description in terms of synonyms applied to the determined, and a description in terms of guiding-example applied to it.
+
+348.“And it is because there is an unborn, an un-brought-to-being, an unmade, an undetermined” is a description in terms of synonyms applied to extinction, and a description in terms of illustrative proof applied to it.
+
+349.“That therefore the escape from the born, the brought-to-being, the made, the determined, is evident” is a description in terms of synonyms applied to extinction, a description in terms of outlet applied to the path, a description in terms of escape applied to the roundabout [of rebirths].
+
+That is why the Blessed One said: “If that were not …”.
+
+350. That is why the venerable Mahā-Kaccāna said:
+
+“The Blessed One one idea teaches
+By means of manifold descriptions;
+This mood can thus be known to be
+The Mode that does Convey Descriptions”.
+
+The Mode of Conveying Descriptions is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.

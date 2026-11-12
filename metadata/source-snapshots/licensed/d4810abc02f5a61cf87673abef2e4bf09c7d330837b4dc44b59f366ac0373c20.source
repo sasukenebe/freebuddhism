@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:165 On Asking Questions | Pañhapucchā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.165" class="h1">On Asking Questions<br/>
+                  Pañhapucchā Sutta  (AN 5:165)</h3><!--end suttahead-->
+                <p>Then Ven. Sāriputta addressed the monks: “Friend monks.”</p>
+                <p>“Yes, friend,” the monks responded to him.</p>
+                <p>Ven. Sāriputta said: “All those who ask questions of another do so from any one of five motivations. Which five?</p>
+                <p>“One asks a question of another through stupidity &amp; bewilderment. One asks a question of another through evil desires &amp; overwhelmed with greed. One asks a question of another through contempt. One asks a question of another when desiring knowledge. Or one asks a question with this thought,<span class="fn"><a href="#an5.165note01">1</a></span><!--end fn cite--> ‘If, when asked, he answers correctly, well &amp; good. If not, then I will answer correctly (for him).’</p>
+                <p>“All those who ask questions of another do so from any one of these five motivations. And as for me, when I ask a question of another, it’s with this thought: ‘If, when asked, he answers correctly, well &amp; good. If not, then I will answer correctly (for him).’</p>
+                <div class="note">
+                  <p class="notetitle">Note</p><!--end notetitle-->
+                  <p id="an5.165note01">1. Reading <em>panevaṁ-citto</em> with the Thai edition. The PTS reading—<em>pakuppanto citto,</em> “with a provoked heart”—does not fit the context at all.</p>
+                </div><!--end notes-->
+                <p class="seealso">See also: <a href="AN3_68.html">AN 3:68</a>; <a href="AN4_42.html">AN 4:42</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

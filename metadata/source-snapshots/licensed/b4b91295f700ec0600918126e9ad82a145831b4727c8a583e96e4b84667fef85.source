@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Ud 6:3 It Was | Ahu Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h4 id="ud6.3" class="h1">Ud 6:3 It Was (Ahu Sutta)</h4>
+              <p>I have heard that on one occasion the Blessed One was staying near Sāvatthī at Jeta’s Grove, Anāthapiṇḍika’s monastery. And on that occasion the Blessed One sat reflecting on the various evil, unskillful qualities that had been abandoned [in him] and on the various skillful qualities that had gone to the culmination of their development. Then as he realized the various evil, unskillful qualities that had been abandoned [in him] and the various skillful qualities that had gone to the culmination of their development, he on that occasion exclaimed:</p>
+              <div class="verse">
+                <p>Before, it was, then it wasn’t.</p>
+                <p>Before, it wasn’t, then it was.</p>
+                <p>It wasn’t, won’t be,</p>
+                <p>&amp; now isn’t to be found.<span class="fn"><a href="#ud6.3note01">1</a></span><!--end fn cite--></p>
+              </div>
+              <div class="note">
+                <p class="notetitle">Note</p><!--end notetitle-->
+                <p id="ud6.3note01">1. The last half of this verse also appears as the last half a verse attributed to Ven. Kaṇhadinna at <a href="../Thag/thag2_30.html">Thag 2:30</a> (verse 180 in the PTS edition). According to the Commentary, these lines refer to the moment of the path to arahantship, which occurs only once and is never repeated.</p></div>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 3:79 Habit &amp; Practice | Sīlabbata Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN3.79" class="h1">Habit &amp; Practice<br/>
+                  Sīlabbata Sutta  (AN 3:79)</h3><!--end suttahead-->
+                <p>Then Ven. Ānanda went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As he was sitting there, the Blessed One said to him, “Ānanda, every habit &amp; practice, every life, every holy life that is followed as of essential worth: is every one of them fruitful?”</p>
+                <p>“Lord, that is not (to be answered) with a categorical answer.”</p>
+                <p>“In that case, Ānanda, give an analytical answer.”</p>
+                <p>“When—by following a life of habit &amp; practice, a life, a holy life that is followed as of essential worth—one’s unskillful mental qualities increase while one’s skillful mental qualities decline: That sort of habit &amp; practice, life, holy life that is followed as of essential worth is fruitless. But when—by following a life of habit &amp; practice, a life, a holy life that is followed as of essential worth—one’s unskillful mental qualities decline while one’s skillful mental qualities increase: That sort of habit &amp; practice, life, holy life that is followed as of essential worth is fruitful.”</p>
+                <p>That is what Ven. Ānanda said, and the Teacher approved. Then Ven. Ānanda, (realizing,) “The Teacher approves of me,” got up from his seat and, having bowed down to the Blessed One and circumambulating him, left.</p>
+                <p>Then not long after Ven. Ānanda had left, the Blessed One said to the monks, “Monks, Ānanda is still in training, but it would not be easy to find his equal in discernment.”</p>
+                <p class="seealso">See also: <a href="../DN/DN16.html">DN 16</a>; <a href="AN3_68.html">AN 3:68</a>; <a href="AN3_73.html">AN 3:73</a>; <a href="AN4_42.html">AN 4:42</a>; <a href="AN4_192.html">AN 4:192</a>; <a href="AN10_94.html">AN 10:94</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

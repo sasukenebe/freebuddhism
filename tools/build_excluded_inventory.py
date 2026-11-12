@@ -7,9 +7,11 @@ import argparse
 import json
 import re
 from pathlib import Path
+from buddhist_canon_pipeline.publication_rights import canonical_license
 
 
 ROOT = Path(__file__).resolve().parents[1]
+LICENSED = ROOT / "metadata/source-manifests/licensed-collections.json"
 CLASSIFICATION = ROOT / "metadata/reports/strict-license-classification-2026-10.json"
 IMPACT = ROOT / "metadata/reports/remediation-impact-map-2026-10.json"
 OUTPUT = ROOT / "metadata/excluded-sources.json"
@@ -56,8 +58,11 @@ def build() -> dict:
     impact = json.loads(IMPACT.read_text(encoding="utf-8"))
     impact_records = {row["record_key"]: row for row in impact["records"]}
     versions = []
+    released = {row.get("prior_record_id") for row in json.loads(LICENSED.read_text(encoding="utf-8"))["records"]} if LICENSED.exists() else set()
     for record in classified:
         key = record["record_key"]
+        if key in released:
+            continue
         mapped = impact_records.get(key)
         if mapped is None:
             raise ValueError(f"No impact-map record for {key}")
@@ -66,6 +71,10 @@ def build() -> dict:
             f"Rights status is {record.get('rights_status', 'unknown')}; "
             "the edition did not pass the CC0/verified-public-domain allowlist."
         )
+        status = record.get("rights_status")
+        if status == "RIGHTS_RESTRICTED" and canonical_license(license_name):
+            status = "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK"
+            reason = "The current publication policy accepts this license; complete source validation and import are still pending."
         versions.append({
             "record_id": key,
             "canonical_id": record.get("canonical_id"),
@@ -79,7 +88,7 @@ def build() -> dict:
                 record.get("local_text_path"), record.get("local_pdf_path")
             ) if value],
             "license": license_name,
-            "rights_status": record.get("rights_status"),
+            "rights_status": status,
             "exclusion_reason": reason,
             "rights_evidence": clean_evidence(record.get("rights_evidence", "")),
             "completeness_status": record.get("completeness_status", "UNKNOWN"),
@@ -114,8 +123,8 @@ def build() -> dict:
             "existing_site_routes": record.get("published_urls", {}),
         })
 
-    if len(versions) != len(impact_records):
-        raise ValueError(f"Classification/impact counts differ: {len(versions)}/{len(impact_records)}")
+    if {row["record_key"] for row in classified} != set(impact_records):
+        raise ValueError("Historical classification and impact identifiers differ")
     return {
         "schema_version": 1,
         "license": "CC0-1.0",

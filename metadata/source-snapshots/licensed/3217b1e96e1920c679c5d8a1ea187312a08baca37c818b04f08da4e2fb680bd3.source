@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 20:4 Serving Dishes | Okkhā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+              <h2 id="SN20.4" class="h1">Serving Dishes<br/>
+                Okkhā Sutta  (SN 20:4)</h2>
+              <p>Staying near Sāvatthī. “Monks, if someone were to give a gift of one hundred serving dishes (of food) in the morning, one hundred at mid-day, and one hundred in the evening; and another person were to develop a mind of good-will—even for the time it takes to pull on a cow’s udder—in the morning, again at mid-day, and again in the evening, this [the second action] would be more fruitful than that (the first).</p>
+              <p>“Thus you should train yourselves: ‘Our awareness-release through good-will will be cultivated, developed, pursued, given a means of transport, given a grounding, steadied, consolidated, &amp; well-undertaken. That’s how you should train yourselves.”</p>
+              <p class="seealso">See also: <a href="../MN/MN21.html">MN 21</a>; <a href="../AN/AN2_30.html">AN 2:30</a>; AN 3:65; <a href="../AN/AN3_101.html">AN 3:101</a>; <a href="../AN/AN8_70.html">AN 8:70</a>; <a href="../AN/AN11_16.html">AN 11:16</a>; <a href="../KN/Iti/iti27.html">Iti 27</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

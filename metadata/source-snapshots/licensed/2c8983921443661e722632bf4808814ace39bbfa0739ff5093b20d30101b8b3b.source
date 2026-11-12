@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thag 3:5 Mātaṅgaputta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thag3.5" class="h1">Thag 3:5  Mātaṅgaputta</h4>
+            <div class="verse">
+              <p class="v1"><em>It’s too cold,</em></p>
+              <p class="v1"><em>too hot,</em></p>
+              <p class="v1"><em>too late in the evening—</em></p>
+              <p>people who say this,</p>
+              <p>shirking their work:</p>
+              <p class="v2">The moment passes them by.</p>
+              <div class="verse-add">
+                <p>Whoever regards cold &amp; heat</p>
+                <p>as no more than grass,</p>
+                <p>doing his manly duties,</p>
+                <p class="v2">won’t fall away</p>
+                <p class="v2">from ease.</p>
+              </div><!--end verse-add-->
+              <div class="verse-add">
+                <p>With my chest</p>
+                <p>I push through wild grasses—</p>
+                <p class="v2">spear-grass,</p>
+                <p class="v2">ribbon-grass,</p>
+                <p class="v2">rushes—</p>
+                <p>cultivating a heart</p>
+                <p class="v4">bent on seclusion.</p>
+              </div><!--end verse-add-->
+            </div><!--end verse-->
+            <p class="seealso">See also: <a href="../../AN/AN8_95.html">AN 8:95</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

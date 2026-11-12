@@ -1,0 +1,66 @@
+SN 22.22 - Bhāra Sutta: The Burden
+Translated by K. Nizamis
+Source: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.niza.html
+License: Free redistribution with attribution and complete notice
+License URL: https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.niza.html#F_termsOfUse
+Copyright: ©2011 K. Nizamis.
+License notice: You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions.
+Attribution: ©2011 K. Nizamis. You may copy, reformat, reprint, republish, and redistribute this work in any medium whatsoever, provided that: (1) you only make such copies, etc. available free of charge; (2) you clearly indicate that any derivatives of this work (including translations) are derived from this source document; and (3) you include the full text of this license in any copies or derivatives of this work. Otherwise, all rights reserved. Documents linked from this page may be subject to other restrictions. Transcribed from a file provided by the translator. Last revised for Access to Insight on 2 November 2013. How to cite this document (a suggested style): "Bhāra Sutta: The Burden" (SN 22.22), translated from the Pali by K. Nizamis. Access to Insight (BCBS Edition), 2 November 2013, https://www.accesstoinsight.org/tipitaka/sn/sn22/sn22.022.niza.html .
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. Every source-unit character is preserved; source ellipsis or repetition-omission statement retained. Canonical repetitions were not reconstructed.
+
+At Sāvatthī... There the Blessed One said this: 
+
+“I will preach to you, monks, the burden,[1] the bearer of the burden,[2] the taking up of the burden,[3] and the putting down of the burden.[4] Hear this.
+
+“And which, monks, is the burden? That of which it should be said: the five clung-to aggregates. [5] “Which five? The form clung-to aggregate, the feeling clung-to aggregate, the perception clung-to aggregate, the formative mental functions clung-to aggregate, the sensory consciousness clung-to aggregate. This, monks, is called the burden. 
+
+And which, monks, is the burden-bearer? That of which it should be said: the individual person, [6] who is this venerable one, of such a name, of such ancestry. This, monks, is called the burden-bearer. [7]
+
+“And which, monks, is the taking up of the burden? That which is this craving leading to rebirth, connected with delight and passion, finding delight here and there: namely, craving for sensual pleasure, craving for being, and craving for extinction. This, monks, is called the taking up of the burden. 
+
+“And which, monks, is the putting down of the burden? That which, of just this craving, is the cessation by means of the absence of desire without remainder: the abandoning, the forsaking, the freedom, the non-attachment. This, monks, is called the putting down of the burden.”
+
+This said the Blessed One. Having said this, the Fortunate One, the Teacher, furthermore said this: 
+
+ Ah, surely, the five aggregates are burdens, And the individual person is the burden-bearer; Taking up the burden is suffering in the world, Putting down the burden is bliss. Having put down the heavy burden, Without taking up another burden, Pulling out craving along with its root, One is without hunger, fully extinguished. 
+
+Notes
+
+1.
+
+Bhāra.
+
+2.
+
+Bhāra-hāra.
+
+3.
+
+Bhāra-ādāna. Ādāna means “taking up, grasping, seizing”; and figuratively, “attachment, appropriating, clinging”. In verses that occur in several suttas, including AN 10.118 (Orimatīra Sutta: The Near Shore; AN 10.3.2.6; PTS AN v.233), a very nice connection is made between the sense of ādāna as “taking up” and the more technical sense of upādāna, which is usually translated as “clinging”: 
+
+ Yesaṃ sambodhiyaṅgesu sammā cittaṃ subhāvitaṃ ādānapaṭinissagge anupādāya ye ratā khīṇāsavā jutimanto te loke parinibbutā ti. Those with right mind well-cultivated in the seven qualities of perfect awakening, Who, in the giving-up of grasping [ādāna], without clinging [anupādāya], are delighted, The brilliant ones with mental intoxicants exhausted, they, even in this world, are completely extinguished. 
+
+See also note 5 below. (This poem occurs also in AN 10.117, SN 45.34, SN 46.17, and forms the last section of Dhammapada, Chapter 6, “Panditavagga: The Wise”, verses 85-89.)
+
+4.
+
+Bhāra-nikkhepana.
+
+5.
+
+Pañca-upādāna-khandhā: literally, “five clinging aggregates”; note that in this compound “clinging” is a noun, not an adjective. In English, however, it may be mistakenly read as an adjective, which would imply that it is the aggregates themselves that are characterized as “clinging”. Rather, the phrase ought to be read: “the five aggregates of clinging”, or “the five aggregates for clinging”; which is to say: the five aggregates that provide the basis for the act of clinging. For this reason, I have translated the phrase as “the five clung-to aggregates”, to emphasise that the aggregates are, so to speak, the “objects”, or “objectivated phenomena”, of clinging, not the “subject” of clinging, as such. The act of clinging is essentially an inflection of “mind” or “consciousness”: but here, “mind” or “consciousness” does not refer to, and cannot be reduced to and completely identified with, any or all of the mental factors and functions of the five aggregates (as the later Abhidhamma doctrine presumed). Rather, it transcends them; and therefore, it is definitely not any “self” (attā). This sense of the transcendence of the true nature of “mind” is what provides the possibility and the meaning of Nibbāna; and thus also the possibility of the Buddhadhamma itself as a practical method for realizing Nibbāna. “Mind” or “consciousness” clings to the aggregates and identifies “itself” with them. By fully recognizing and realizing its innate “detachment” from the aggregates, it is ultimately “released”, and can finally attain the absolute “cessation” (nirodha) of its individuated “natural evolutionary” functions: hence, for example, the expression “mind-liberation” (ceto-vimutti), which in the suttas is equivalent to attaining the condition of Nibbāna.
+
+For an excellent perspective upon this theme, see Ven. Thanissaro's various discussions of the expression viññāṇa anidassana, which occurs in DN 11 and MN 49 and refers to liberated consciousness that cannot in any way be “pointed out”; and of how this is closely related to the crucial idea, occurring frequently in the suttas, of appatiṭṭhita viññāṇa, consciousness that does not support itself on anything, is not established upon anything, because it does not cling to or identify with anything.
+
+6.
+
+Puggala. (The later Sanskritized form of this word is pudgala.) The primary sense of this very old word seems to have been “separate individual”, and it was used both of the “body” and of the “soul” (as well as of other kinds of “things”). It may well be related, in etymology and meaning, to the Vedic pṛthak, “separate, different”, and pṛthu, “spread out”, and would therefore be closely related to the term puthujjana (see SN 12.61, note 1). (There is an interesting etymological discussion in P. Tedesco, “Sanskrit Pudgala: Body; Soul”, Journal of the American Oriental Society, Vol. 67, No. 3, 1947.)
+
+For a significant account of the philosophical concept of the puggala in the Buddhadhamma, and the doctrinal and ideological struggles that have occurred around it, see L. Priestley, Pudgalavāda Buddhism: The Reality of the Indeterminate Self, University of Toronto, Canada, 1999. Although Priestley's account focuses especially on later non-Indian Buddhist sources, his survey of course includes the earlier Indian literature, and his perceptive philosophical conclusions are of deep value for anyone sensitive to and familiar with the earlier (pre-Abhidhamma) texts.
+
+7.
+
+This does not mean that the puggala, as the “burden-bearer”, is a separate entity that takes hold of the “burden”. Nor does it mean, as the post-Abhidhamma Theravāda commentary supposes, that the expression “bearer of the burden” is meant to show that “the “person” is admitted only as a mere convention” (“iti vohāramattasiddhaṃ puggalaṃ ‘bhārahāro’ti katvā dasseti”, PTS Spk ii.263), which is the standard Theravāda Abhidhamma dogma on the matter. The real point is that the “person” is neither separable from the five clung-to aggregates, nor is the “person” merely reducible to them. The nature of the “person” thereby defies reductionism (and thus nihilism), while at the same time eschewing eternalism. There is a very deep and important parallelism here between the concept of the “person” and Aristotle's concept of the psukhē, or individuated life principle, in de Anima. Aristotle defined the concept of the psukhē in a radically new way within Greek philosophy: as the “form” of the living sentient being, which is neither reducible to the “material” upon which it depends, nor separable from that “material”. Thus, he steered a middle way between the reductive materialism of the Atomists and the dualism of Plato. His paradigm is “hylomorphic”, and I have argued elsewhere (forthcoming) that it is profoundly relevant to and even helpful for a proper understanding of the teachings of the Suttanta Piṭaka, as the literature from which we may recover definite and coherent elements of the earliest extant (pre-Abhidhamma) Buddhadhamma.
+
+Incidentally, the first chapter, “Puggalakathā”, “Debate about the Person”, of the fifth book of the Theravāda Abhidhamma Piṭaka, the Kathāvatthu or “Subjects of Debate”, purports to be an extensive refutation by a Theravādin of the alleged Puggalavāda “heresy”. However, a careful analysis of these arguments reveals that the Theravādins either misunderstood or misrepresented what may well have been an actually “non-heretical” Puggalavāda interpretation of the earlier Buddhadhamma teachings. On this view, the entire “Puggalakathā” section of the Kathāvatthu is based upon a fallacy, and “refutes” nothing more than a “straw man”.

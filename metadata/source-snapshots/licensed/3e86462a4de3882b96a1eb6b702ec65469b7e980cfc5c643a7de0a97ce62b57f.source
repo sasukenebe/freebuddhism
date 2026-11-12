@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 5:37 A Meal | Bhojana Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h3 id="AN5.37" class="h1">A Meal<br/>
+                  Bhojana Sutta  (AN 5:37)</h3><!--end suttahead-->
+                <p><em>The verse from this discourse is often chanted by monks as a blessing at meals or other offerings.</em></p>
+                <p class="stars">* * *</p>                
+                <p>“In giving a meal, the donor gives five things to the recipient. Which five? He/she gives life, beauty, happiness, strength, &amp; quick-wittedness. Having given life, he/she has a share in long life, either human or divine. Having given beauty, he/she has a share in beauty, either human or divine. Having given happiness, he/she has a share in happiness, either human or divine. Having given strength, he/she has a share in strength, either human or divine. Having given quick-wittedness, he/she has a share in quick-wittedness, either human or divine. In giving a meal, the donor gives these five things to the recipient.”</p>
+                <div class="verse">
+                  <p>The enlightened person giving life, strength,</p>
+                  <p class="v1">beauty, quick-wittedness—</p>
+                  <p>the intelligent person, a giver of happiness—</p>
+                  <p class="v1">attains happiness himself.</p>
+                  <p>Having given life, strength, beauty,</p>
+                  <p class="v1">happiness, &amp; quick-wittedness,</p>
+                  <p>he has long life &amp; status</p>
+                  <p class="v1">wherever he arises.</p>
+                </div><!--end verse-->
+                <p class="seealso">See also: <a href="AN5_31.html">AN 5:31</a>; <a href="AN5_34.html">AN 5:34</a>; <a href="../KN/Iti/iti26.html">Iti 26</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

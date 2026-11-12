@@ -24,6 +24,9 @@ from buddhist_canon_pipeline.import_candana import (
     LICENSE as CANDANA_LICENSE, RIGHTS_BASIS as CANDANA_RIGHTS_BASIS,
     verified_manifest as candana_manifest,
 )
+from buddhist_canon_pipeline.publication_rights import (
+    STANDARD_SCOPES, FREE_GRANT, SCOPE_BASIS, verified_manifest as licensed_manifest,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,6 +68,7 @@ RIGHTS_BASIS_BY_SCOPE = {
     "Public Domain (original English edition, published 1895–1907)": "Original edition dates and U.S. public-domain evidence are recorded in the Cowell source manifest.",
     "Public domain in the United States": "Edition-specific publication and rights evidence are recorded in the asset manifest.",
 }
+RIGHTS_BASIS_BY_SCOPE.update({name: SCOPE_BASIS for name in STANDARD_SCOPES | {FREE_GRANT}})
 SELF_RIGHTS_BASIS = "This allowlist is project metadata under CC0-1.0; its own hash is intentionally self-referential."
 HTML_TAGS = {
     "html", "head", "meta", "title", "body", "nav", "a", "h1", "h2", "h3",
@@ -380,6 +384,17 @@ def expected_license_scopes(
     return scope_by_path, route_count
 
 
+def expected_translation_source_paths(
+    eligible_texts: list[dict], eligible_assets: list[dict], candana_manifest: dict
+) -> set[str]:
+    """Include separately manifested, intact group passages in approved sources."""
+    return (
+        {entry["local_path"] for entry in eligible_texts}
+        | {entry["local_path"] for entry in eligible_assets}
+        | {entry["local_path"] for entry in candana_manifest.get("group_texts", [])}
+    )
+
+
 TEXT_EXCLUSION_FIELDS = {
     "record_id", "canonical_id", "collection", "source_group", "title", "translator",
     "translator_label", "source_url", "historical_local_paths", "license", "rights_status",
@@ -468,8 +483,8 @@ def validate_excluded_inventory(excluded: dict) -> None:
 
     texts = excluded.get("text_versions")
     assets = excluded.get("standalone_assets")
-    if not isinstance(texts, list) or len(texts) != 1268:
-        raise ValueError("Expected exactly 1,268 excluded text-version metadata records")
+    if not isinstance(texts, list):
+        raise ValueError("Excluded text-version metadata records must be a list")
     if not isinstance(assets, list) or len(assets) != 11:
         raise ValueError("Expected all 11 excluded standalone-asset records")
 
@@ -514,9 +529,9 @@ def validate_excluded_inventory(excluded: dict) -> None:
                 if not isinstance(row["translator_label"], str) or len(row["translator_label"]) > 120:
                     raise ValueError(f"Excluded-source metadata field is invalid: {row_label}.translator_label")
             _require_https_url(row["source_url"], f"{row_label}.source_url")
-            if row["rights_status"] not in {"RIGHTS_RESTRICTED", "RIGHTS_UNVERIFIED", "PERMISSION_SCOPE_UNCLEAR"}:
+            if row["rights_status"] not in {"RIGHTS_RESTRICTED", "RIGHTS_UNVERIFIED", "PERMISSION_SCOPE_UNCLEAR", "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK"}:
                 raise ValueError(f"Excluded-source rights status is invalid: {row_label}")
-            if row["completeness_status"] not in {"COMPLETE", "PARTIAL", "UNKNOWN"}:
+            if row["completeness_status"] not in {"COMPLETE", "ABBREVIATED", "PARTIAL", "UNKNOWN"}:
                 raise ValueError(f"Excluded-source completeness status is invalid: {row_label}")
             if not isinstance(row.get("historical_local_paths", []), list) or not all(
                     isinstance(path, str) for path in row.get("historical_local_paths", [])):
@@ -542,12 +557,12 @@ def validate_excluded_inventory(excluded: dict) -> None:
     if set(counts) != {"excluded_text_versions", "excluded_standalone_assets", "rights_status", "completeness_status"}:
         raise ValueError("Excluded-source inventory counts have unknown fields")
     expected_status_counts = {
-        "rights_status": {"RIGHTS_RESTRICTED", "RIGHTS_UNVERIFIED", "PERMISSION_SCOPE_UNCLEAR"},
-        "completeness_status": {"COMPLETE", "PARTIAL", "UNKNOWN"},
+        "rights_status": {"RIGHTS_RESTRICTED", "RIGHTS_UNVERIFIED", "PERMISSION_SCOPE_UNCLEAR", "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK"},
+        "completeness_status": {"COMPLETE", "ABBREVIATED", "PARTIAL", "UNKNOWN"},
     }
     for name, expected_statuses in expected_status_counts.items():
         values = counts.get(name)
-        if (not isinstance(values, dict) or set(values) != expected_statuses
+        if (not isinstance(values, dict) or not set(values) <= expected_statuses
                 or not all(isinstance(value, int) and not isinstance(value, bool) and value >= 0
                            for value in values.values())
                 or sum(values.values()) != len(texts)):
@@ -608,9 +623,15 @@ def check() -> dict:
         raise ValueError(f"Public file allowlist has missing or incorrect rights evidence: {wrong_basis[:20]}")
 
     eligible = json.loads(ELIGIBLE.read_text(encoding="utf-8"))
-    expected_texts = {entry["local_path"] for entry in eligible["texts"]}
     assets = json.loads(ASSETS.read_text(encoding="utf-8"))
-    expected_assets = {entry["local_path"] for entry in assets["assets"]}
+    licensed = licensed_manifest()
+    expected_licensed = {row["local_path"]: row for row in licensed["records"]}
+    actual_licensed = {row["local_path"]: row for row in eligible["texts"] if row.get("licensed_collection")}
+    if set(expected_licensed) != set(actual_licensed) or any(
+            actual_licensed[path].get(field) != row.get(field)
+            for path, row in expected_licensed.items()
+            for field in ("sha256", "body_sha256", "license", "copyright", "license_notice", "completeness_status")):
+        raise ValueError("Eligible conditional-license texts differ from the verified edition manifest")
     candana = candana_manifest(require_review=True)
     expected_candana = {entry["local_path"]: entry for entry in candana["texts"]}
     listed_candana = {entry["local_path"]: entry for entry in eligible["texts"] if entry.get("version") == "candana"}
@@ -627,7 +648,9 @@ def check() -> dict:
         for path in content_root.rglob("*")
         if path.is_file() and path.suffix.lower() in {".txt", ".pdf"}
     }
-    expected_sources = expected_texts | expected_assets
+    expected_sources = expected_translation_source_paths(
+        eligible["texts"], assets["assets"], candana
+    )
     if actual_sources != expected_sources:
         raise ValueError(
             "Translation source tree differs from the approved manifests: "
@@ -643,6 +666,11 @@ def check() -> dict:
 
     excluded = json.loads(EXCLUDED.read_text(encoding="utf-8"))
     validate_excluded_inventory(excluded)
+    classified = json.loads((ROOT / "metadata/reports/strict-license-classification-2026-10.json").read_text(encoding="utf-8"))["records"]
+    released_ids = {row.get("prior_record_id") for row in licensed["records"]}
+    expected_excluded = {row["record_key"] for row in classified} - released_ids
+    if {row["record_id"] for row in excluded["text_versions"]} != expected_excluded:
+        raise ValueError("Excluded inventory must account for every historical entry not yet imported")
     excluded_paths = {path for entry in excluded["text_versions"] for path in entry.get("historical_local_paths", [])}
     if excluded_paths & actual:
         raise ValueError("An excluded text path is also listed as eligible")

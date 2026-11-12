@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
+<head>
+    <title>SN 20:1 The Ridge-Beam | Kūṭa Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+<!--<p>Blurb: Just as all rafters depend on the ridge-beam of a roof, all unskillful qualities depend on ignorance.</p>-->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+                <h2 id="SN20.1" class="h1">The Ridge-Beam<br/>
+                   Kūṭa Sutta  (SN 20:1)</h2><!--end suttahead-->
+<p>I have heard that on one occasion the Blessed One was staying near Sāvatthī in Jeta's Grove, Anāthapiṇḍika’s monastery. There he addressed the monks: “Monks!”</p>
+<p>“Yes, lord,” the monks responded to him.</p>
+<p>The Blessed One said, “Monks, just as all the rafters in a ridge-roofed house go to the ridge-beam, converge on the ridge-beam, and are removed when the ridge-beam is removed, in the same way, all unskillful qualities are rooted in ignorance, converge on ignorance, and are removed when ignorance is removed.</p>
+<p>“Therefore, monks, you should train yourselves: ‘We will dwell heedfully.’ That’s how you should train yourselves.”</p>
+<p class="seealso">See also: <a href="SN48_52.html">SN 48:52</a>; <a href="../AN/AN10_15.html">AN 10:15</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+</body>
+</html>
+
+

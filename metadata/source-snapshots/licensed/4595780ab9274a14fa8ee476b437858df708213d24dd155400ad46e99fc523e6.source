@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>Thig 5:6 Mittakālī</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+  
+    <h4 id="thig5.6" class="h1">Thig 5:6  Mittakālī</h4>
+          <div class="verse">
+            <p>Going forth through conviction</p>
+            <p>from home into homelessness,</p>
+            <p>I wandered this place &amp; that,</p>
+            <p>greedy for tribute &amp; gains.</p>
+            <p>Missing out on the foremost goal,</p>
+            <p>I pursued a lowly one.</p>
+            <p>Under the sway of defilements,</p>
+            <p>I didn’t awaken<span class="fn"><a href="#thig5.6note01">1</a></span><!--end fn cite--> to the goal</p>
+            <p>of the contemplative life.</p>
+            <div class="verse-add">
+              <p>Then, sitting in my dwelling,</p>
+              <p>I suddenly came to my senses:</p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p class="v2"><em>I’m following a miserable path.</em></p>
+              <p class="v2"><em>I’m under the sway of</em></p>
+              <p class="v4"><em>craving.</em></p>
+              <p class="v2"><em>Next to nothing, my life,</em></p>
+              <p class="v6"><em>crushed</em></p>
+              <p class="v2"><em>by aging &amp; illness.</em></p>
+              <p class="v2"><em>Before the body breaks apart,</em></p>
+              <p class="v2"><em>I have no time</em></p>
+              <p class="v4"><em>for heedlessness.</em></p>
+            </div><!--end verse-add-->
+            <div class="verse-add">
+              <p>After watching, as it actually was,</p>
+              <p>the arising-disbanding of aggregates,</p>
+              <p>I stood up with mind released,</p>
+              <p>the Awakened One’s bidding</p>
+              <p>done.</p>
+            </div><!--end verse-add-->
+          </div><!--end verse-->
+          <div class="note">
+            <p class="notetitle">Note</p><!--end notetitle-->
+            <p id="thig5.6note01">1. Reading <em>na bujjhi’ham</em> with the Burmese and Sinhalese editions.</p>
+          </div><!--end notes-->
+          <p class="seealso">See also: <a href="../../MN/MN29.html">MN 29–30</a>; <a href="../../SN/SN17_3.html">SN 17:3</a>; <a href="../../SN/SN17_5.html">SN 17:5</a>; <a href="../../SN/SN17_8.html">SN 17:8</a></p><!--end seealso-->
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

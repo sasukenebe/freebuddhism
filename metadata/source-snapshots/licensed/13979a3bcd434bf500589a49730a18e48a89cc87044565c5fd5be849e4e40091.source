@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>AN 4:116 Heedfulness | Appamāda Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+
+                <h3 id="AN4.116" class="h1">Heedfulness<br/>
+                  Appamāda Sutta  (AN 4:116)</h3><!--end suttahead-->
+<p>“Monks, there are four instances where heedfulness should be exercised. Which four? Abandon bodily misconduct, develop good bodily conduct: Don’t be heedless there. Abandon verbal misconduct, develop good verbal conduct: Don’t be heedless there. Abandon mental misconduct, develop good mental conduct: Don’t be heedless there. Abandon wrong view, develop right view: Don’t be heedless there.<span class="fn"><a href="#an4.116note01">1</a></span><!--end fn cite--></p>
+<p>“When, in a monk, bodily misconduct is abandoned, good bodily conduct is developed; verbal misconduct is abandoned, good verbal conduct is developed; mental misconduct is abandoned, good mental conduct is developed; wrong view is abandoned, right view is developed, then he has no fear of death as it relates to the next life.”<span class="fn"><a href="#an4.116note02">2</a></span><!--end fn cite--></p>
+                <div class="note">
+                  <p class="notetitle">Notes</p><!--end notetitle-->
+<p id="an4.116note01">1. In <a href="../MN/MN41.html" class="sutta-ref">MN 41</a>, right view concerning kamma and rebirth is included under good mental conduct. The fact that right view is mentioned separately here may mean that, in this context, “right view” means right view as defined in the noble eightfold path, i.e., knowledge in terms of suffering, the origination of suffering, the cessation of suffering, and the path of practice leading to the cessation of suffering.</p>
+<p id="an4.116note02">2. This seems to mean that, although one may fear the pain of death, one has no fear of where one will be reborn after death.</p>
+                </div><!--end notes-->
+<p class="seealso">See also: <a href="AN4_184.html" class="sutta-ref">AN 4:184</a>, <a href="AN5_179.html" class="sutta-ref">AN 5:179</a>, <a href="AN10_92.html" class="sutta-ref">AN 10:92</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+
+
+
+</body></html>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"><head>
+    <title>SN 56:26 Friends | Mittā Sutta</title>
+    <meta name="description" content="Theravada Buddhist Sutta from the Pāli Canon"/>
+    <!--#include virtual="/php/header.html" --> 
+    <!--#include virtual="/php/bookheader.html" --> 
+    <link rel="stylesheet" href="../css/suttas-min.css" type="text/css" />
+    <!--#if expr="$EPUB_CSS_DISABLED" -->
+    <link href="../css/suttas-epub.css" rel="stylesheet" type="text/css"/>
+    <!--#endif -->
+</head>  
+
+<body>
+  <div id="container">
+    
+     <!--#include virtual="/php/suttabanner-nav.html" --> 
+
+    <div id="content">
+
+     <!--#include virtual="/php/suttasidebar.html" --> 
+
+  <div id="sutta">
+              <h2 id="SN56.26" class="h1">Friends<br/>
+                Mittā Sutta  (SN 56:26)</h2>
+<p>“Monks, those for whom you have sympathy and who think you should be listened to—whether friends or companions, relatives or kinsmen: Those you should rouse, direct, &amp; establish for the sake of breaking through to the four noble truths as they have come to be. To which four? To the noble truth of stress, to the noble truth of the origination of stress, to the noble truth of the cessation of stress, &amp; to the noble truth of the path of practice leading to the cessation of stress.</p>
+<p>“Those for whom you have sympathy and who think you should be listened to—whether friends or companions, relatives or kinsmen: Those you should rouse, direct, &amp; establish for the sake of breaking through to these four noble truths as they have come to be.</p>
+<p>“Therefore, monks, your duty is the contemplation, ‘This is stress … This is the origination of stress … This is the cessation of stress.’ Your duty is the contemplation, ‘This is the path of practice leading to the cessation of stress.’”</p>
+<p class="see also">See also: <a href="../AN/AN4_96.html" class="sutta-ref">AN 4:96</a>; <a href="../AN/AN4_99.html" class="sutta-ref">AN 4:99</a>; <a href="../AN/AN4_201.html" class="sutta-ref">AN 4:201</a></p>
+      </div><!--end:sutta-->
+    </div><!--end:content-->
+    
+     <!--#include virtual="/php/suttafooter.html" --> 
+
+</div><!--end:container-->
+
+<!--________ALL SCRIPTS BELOW HERE________-->
+
+     <!--#include virtual="/php/scripts.html" --> 
+  
+
+
+</body></html>

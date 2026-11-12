@@ -1,0 +1,507 @@
+Ne 36 - 5. Chapter iii The Moulding of the Guide-Lines
+Translated by Bhikkhu Ñāṇamoli
+Source: https://github.com/suttacentral/sc-data/blob/2d9ca8da858f94302ed6783e2717bf73d651881b/html_text/en/pli/sutta/kn/ne/ne36.html
+License: CC-BY-NC-4.0
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Copyright: All copyright is owned by the Pali Text Society.
+License notice: Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977. Published by The Pali Text Society, Oxford. This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0) All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement. For non-commercial use only. This version has not been proofread. Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala. Source footer links: http://creativecommons.org/licenses/by-nc/4.0/ ; http://www.palitext.com/
+Changes: Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.
+Completeness: ABBREVIATED. All text of this pinned SC source unit, including headings, references, ordered lists, paragraph/stanza breaks and footer, is preserved. Printed elisions are retained; independent canonical/translation completeness is not established.
+
+The Guide
+
+B. Specification Section
+
+5. Chapter iii The Moulding of the Guide-Lines
+
+PTS vp En 148 644. Herein, what is the Moulding of the Guide-Lines? [It is as follows.]
+
+[Introductory]
+
+No past term is evident of ignorance and of craving for being. Herein, ignorance is the hindrance and craving the fetter.
+
+645. Creatures with ignorance for their hindrance and fettered [by craving] to ignorance, explore on the side of ignorance. They are called “of view-temperament”. Creatures with craving as their fetter and fettered to craving, explore on the side of craving. They are called “of craving-temperament”.
+
+[The Conversion of Relishing]
+
+646. PTS vp Pli 110 Those of view-temperament who have gone forth [into homelessness] outside this [dispensation] abide devoted to the pursuit of self-torment. Those of craving-temperament who have gone forth [into homelessness] outside this [dispensation] abide devoted to the pursuit of indulging sensual pleasure among sensual desires.
+
+647. Herein what is the reason why those of view-temperament who have gone forth outside this [dispensation] abide devoted to the pursuit of self-torment, why those of craving-temperament who have gone forth outside this [dispensation] abide devoted to the pursuit of indulging sensual pleasure among sensual desires? Outside this [dispensation] there is no definition of truth, so whence any explanation of the four truths, or any skill in quiet and insight, or any reaching the pleasure of peace?
+
+648. With cognizance distorted through having no acquaintanceship with the pleasure of peace, they have made such pronouncements as (There is no pleasure [arrived at] through pleasure: pleasure is to PTS vp En 149 be arrived at through pain (suffering) ), and (He who cultivates sensual desires enriches the world; he who enriches the world lays by much merit). So perceiving, and with such views, aspiring to pleasure through pain, [or] perceiving merit in sensual desires, they abide devoted to the pursuit of self-torment and devoted to the pursuit of indulging sensual pleasure. Such being their acquaintanceship, they enrich only the sickness, they enrich only the boil, they enrich only the barb. Overwhelmed by the sickness, oppressed by the boil, wounded by the barb, doing their diving in and out of the hells, the animal womb, ghosts and demons, making their existence co-essential with exhilaration and depression, they find no medicine for the sickness, the boil, the barb.
+
+649. (i) Herein, the pursuit of self-torment and the pursuit of indulgence of sensual pleasures are the corruption; quiet and insight are the cleansing. The pursuit of self-torment and the pursuit of indulgence of sensual pleasure are the sickness; quiet and insight are the counteractive medicine for the sickness. The pursuit of self-torment and the pursuit of indulgence of sensual pleasure are the boil; quiet and insight are the counteractive medicine for the boil. The pursuit of self-torment and the pursuit of indulgence of sensual pleasure are the barb; quiet and insight are the medicine that extracts the barb.
+
+650. Herein, the corruption is Suffering; craving, as the clinging thereto, is the Origin; cessation of craving is Cessation of Suffering; quiet and insight are the Way Leading to Cessation of Suffering.
+
+651. PTS vp Pli 111 These are the four Truths. Suffering has to be diagnosed, the Origin abandoned, the Path kept in being, and Cessation verified.
+
+652. (iii) [Again] herein, one of view-temperament approaches form as self, approaches feeling … perception … determinations … consciousness as self. One of craving-temperament approaches self as possessing form, or form as in self, or self as in form; or he PTS vp En 150 approaches self as possessing feeling … possessing perception … possessing determinations … possessing consciousness, or consciousness as in self, or self as in consciousness. This is what is called the twenty-based embodiment view.
+
+653. Opposed to this is right view disjoined from worlds, and its attendant right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. This is the noble eight-factored path.
+
+654. That is the three categories: the virtue category, the concentration category, and the understanding category. The virtue category and the concentration category are quiet, and the understanding category is insight.
+
+655. Herein, embodiment is Suffering, the origin of embodiment is the Origin of Suffering, the cessation of embodiment is Cessation of Suffering, and the noble eight-factored path is the Way Leading to Cessation of Suffering.
+
+656. These are the four Truths. Suffering has to be diagnosed, the Origin abandoned, the Path kept in being, and Cessation verified.
+
+657. (iii) Herein, those who approach form as self, who approach feeling … perception … determinations … consciousness as self, are called annihilationists. Those who approach self as possessing form, or form as in self, or self as in form, who approach self as possessing feeling … possessing perception … possessing determinations … possessing consciousness, or consciousness as in self, or self as in consciousness, are called eternalists.
+
+658. Herein, annihilationism and eternalism are the two extremes. They [both cause] the occurrence of the roundabout.
+
+659. PTS vp Pli 112 The opposite of that is the middle way, the noble eight-factored path. This is the non-occurrence of the roundabout.
+
+660. Herein, occurrence is Suffering; craving, as the clinging thereto, is the Origin; cessation of craving is Cessation of Suffering; the noble eight-factored path is the Way Leading to Cessation of Suffering.
+
+661. These are the four Truths. Suffering has to be diagnosed, the Origin abandoned, the Path kept in being, and Cessation verified.
+
+662. (iv) Herein, in combination annihilationism and eternalism are the twenty-based embodiment view, while in detail they are the sixty-two types of views.
+
+PTS vp En 151 663. The opposites of these are the forty-three ideas that side with enlightenment, the eight liberations, the ten bases for wholeness.
+
+664. The sixty-two types of views are delusion’s net, which has no beginning and continues its occurrence unremittingly. The forty-three ideas that partake of enlightenment are the diamond of knowledge that bursts open delusion’s net.
+
+665. Herein, the delusion is ignorance, and the net is craving for being.
+
+That is why it was said above “No past term is evident of ignorance and of craving for being”.
+
+666. Herein, when one of view-temperament has gone forth [into homelessness] in this dispensation he becomes one who lives with continuous effacement, having keen regard for effacement, while when one of craving-temperament has gone forth in this dispensation he is one who lives with the training preserved, having keen regard for the training.
+
+667. When one of view-temperament finds a footing in the certainty of rightness, he is a Follower by Ideas, while when one of craving-temperament finds a footing in the certainty of rightness, he is a Follower by Faith.
+
+668. One of view-temperament finds the outlet on the pleasant way with sluggish acquaintanceship and with swift acquaintanceship, and one of craving-temperament finds the outlet on the painful way with sluggish acquaintanceship and with swift acquaintanceship.
+
+669. Herein, what is the reason why one of craving-temperament finds outlet on the painful way with sluggish acquaintanceship and with swift acquaintanceship? Because sensual desires have not been given up by him. PTS vp Pli 113 When PTS vp En 152 he is secluding himself from sensual desires, he relinquishes painfully and sluggishly gains knowledge of the True Idea. Now as to one of view-temperament, from the very beginning he is no seeker of sensual desires. [So] when he is secluding himself from them he relinquishes swiftly and he swiftly gains knowledge of the True Idea.
+
+670. The painful way is of two kinds: with sluggish acquaintanceship and with swift acquaintanceship. And the pleasant way is of two kinds: with sluggish acquaintanceship and with swift acquaintanceship. And creatures are of two kinds: with blunt faculties and with keen faculties. Those with blunt faculties relinquish sluggishly and sluggishly gain knowledge of the True Idea. Those with keen faculties relinquish swiftly and swiftly gain knowledge of the True Idea.
+
+671. These are the four ways. It is by these same four ways that anyone at all ever has found the outlet, or finds the outlet, or will find the outlet.
+
+672. That is how Noble Ones describe a tetrad path for unwise folk to cultivate, for fools to desire, for the lustful to master their lust by, the aim of which is conversion of relishing, of craving for being.
+
+This is called the Plane of Conversion of Relishing. That is why it was said
+
+“[The Guide-Line] Craving and Ignorance [guiding]
+By Quiet and Insight, [and construing
+Appropriately the four Truths
+Is the Conversion of Relishing”].
+
+[The PTS vp En 153 Plotting of Directions]
+
+673. “What mentally plots out [ideas
+Of] profit and unprofit stated
+Or here or there in expositions
+[They call the Plotting of Directions]”.
+
+[Now] these [ideas are] scrutinizable in two ways, namely whether they follow the world’s round or whether they follow the world’s stopping, what is called “round” being the roundabout [of rebirths] and what is called “stopping” being extinction, with action and defilements [as] the roundabout’s cause. Herein, the action is demonstrable as choice and as concomitant of cognizance. How is that to be regarded? Through the storing up.
+
+674. Now all defilements are demonstrable through the four perversions. Where are they to be found? In the conglomeration of defilement with its ten grounds. PTS vp Pli 114 What ten grounds?
+
+1. Four Nutriments [physical nutriment, contact, choice, and consciousness].
+
+2. Four Perversions [seeing beauty, pleasure, permanence, and self, where there are none].
+
+3. Four Assumptions [sensual-desire, views, virtue-and-duty, and self-doctrine].
+
+4. Four Bonds [sensual-desire, being, views, and ignorance].
+
+5. Four Ties [covetousness, ill-will, misapprehension of virtue-and-duty, and insistence that “only this is true”].
+
+6. Four Taints [sensual-desire, being, views, and ignorance].
+
+7. Four Floods [sensual-desire, being, views, and ignorance]
+
+8. Four Barbs [lust, hate, conceit, and delusion].
+
+9. PTS vp En 154 Four Steadying-points for consciousness [form, feeling, perception, and determinations].
+
+10. Four Goings on Bad Ways [through will, hate, fear, and delusion].
+
+675. 1–2. In the first nutriment there is the first perversion; in the second nutriment, the second perversion; in the third nutriment, the third perversion; in the fourth nutriment, the fourth perversion.
+
+2–3. In the first perversion there is the first assumption; in the second perversion, the second assumption; in the third perversion, the third assumption; in the fourth perversion, the fourth assumption.
+
+3–4. In the first assumption there is the first bond; in the second assumption, the second bond; in the third assumption, the third bond; in the fourth assumption, the fourth bond.
+
+4–5. In the first bond there is the first tie; in the second bond, the second tie; in the third bond, the third tie; in the fourth bond, the fourth tie.
+
+5–6. In the first tie there is the first taint; in the second tie, the second taint; in the third tie, the third taint; in the fourth tie, the fourth taint.
+
+6–7. In the first taint there is the first flood; in the second taint, the second flood; in the third taint, the third flood; in the fourth taint, the fourth flood.
+
+7–8. In the first flood there is the first barb; in the second flood, the second barb; in the third flood, the third barb; in the fourth flood, the fourth barb.
+
+8–9. In the first barb there is the first steadying-point for consciousness; in the second barb, the second steadying-point for consciousness; in the third barb, the third steadying-point for consciousness; in the fourth barb, the fourth steadying-point for consciousness.
+
+9–10. In the first steadying-point for consciousness there is the first going on a bad way; in the second steadying-point for consciousness, the second going on a bad way; in the third steadying-point for consciousness, the third going on a bad way; in the fourth steadying-point for consciousness, the fourth going on a bad way.
+
+676. 1. Herein, physical nutriment and nutriment as contact are imperfections in a person of craving-temperament, while nutriment PTS vp En 155 as mind-choice and nutriment as consciousness are imperfections in a person of view-temperament.
+
+677. 2. Herein, the perversion that there is beauty in the ugly and the perversion that there is pleasure in the painful are imperfections in a person of craving-temperament, while the perversion that there is permanence in the impermanent and the perversion that there is self in the not-self are imperfections in a person of view-temperament.
+
+678. PTS vp Pli 115 3. Herein, sensual-desire-assumption and being-assumption are imperfections in a person of craving-temperament, while view-assumption and self-doctrine-assumption are imperfections in a person of view-temperament.
+
+679. 4. Herein, the bond of sensual desire and the bond of being are imperfections in a person of craving-temperament, while the bond of views and the bond of ignorance are imperfections in a person of view-temperament.
+
+680. 5. The body-tie of covetousness and the body-tie of ill-will are imperfections in a person of craving-temperament, while the body-tie of misapprehension-of-virtue-and-duty and the body-tie of insistence-that-only-this-is-true are imperfections in a person of view-temperament.
+
+681. 6. Herein, the taint of sensual desire and the taint of being are imperfections in a person of craving-temperament, while the taint of views and the taint of ignorance are imperfections in a person of view-temperament.
+
+682. 7. Herein, the flood of sensual desire and the flood of being are imperfections in a person of craving-temperament, while the flood of views and the flood of ignorance are imperfections in a person of view-temperament.
+
+683. 8. Herein, the barb of lust and the barb of hate are imperfections in a person of craving-temperament, while the barb of conceit and the barb of delusion are imperfections in a person of view-temperament.
+
+684. 9. Herein, form as a steadying-point for consciousness passing on and feeling as a steadying-point for consciousness passing on are imperfections in a person of craving-temperament, while perception as a steadying-point for consciousness passing on and determinations as a steadying-point for consciousness passing on are imperfections in a person of view-temperament.
+
+685. 10. Herein, the going on a bad way through will and the going PTS vp En 156 on a bad way through hate are imperfections in a person of craving-temperament, while the going on a bad way through fear and the going on a bad way through delusion are imperfections in a person of view-temperament.
+
+686. 1–2. Herein, the perversion that there is beauty in the ugly [occurs] with respect to physical nutriment; the perversion that there is pleasure in the painful, with respect to nutriment as contact; the perversion that there is permanence in the impermanent, with respect to nutriment as consciousness; the perversion that there is self in the not-self, with respect to nutriment as mind-choice.
+
+687. 2–3. One steady in the first perversion assumes sensual desires: this is called sensual-desire-assuming. One steady in the second perversion PTS vp Pli 116 assumes future being: this is called being-assuming. One steady in the third perversion assumes the view that has expectant relish for the roundabout: this is called view-assuming. One steady in the fourth perversion, having supposed a self, assumes [accordingly]: this is called self-doctrine-assuming.
+
+688. 3–4. He is fettered (bound) by sensual desires through sensual-desire-assuming: this is called the bond of sensual desire. He is fettered by the kinds of being through being-assuming: this is called the bond of being. He is fettered by an evil view through view-assuming: this is called the bond of views. He is fettered by ignorance through self-doctrine-assuming: this is called the bond of ignorance.
+
+689. 4–5. One steady in the first bond ties the body with covetousness: this is called the body-tie of covetousness. One steady in the second bond ties the body with the tie of ill-will: this is called the body-tie of ill-will. One steady in the third bond ties the body with misapprehension [of virtue and duty]: this is called the body-tie of misapprehension. One steady in the fourth bond ties the body with the insistence that only this is true: this is called the body-tie of insistence-that-only-this-is-true.
+
+690. 5–6. His defilements, thus tied, taint [him]. And as what are they said to taint [him]? As underlying tendency, or as [open] obsession. Herein, there is the taint of sensual desire PTS vp En 157 through the body-tie of covetousness, the taint of being through the body-tie of ill-will, the taint of views through the body-tie of misapprehension [of virtue and duty], and the taint of ignorance through the body-tie of insistence-that-only-this-is-true.
+
+691. 6–7. When these four taints abound they are floods, so with the abundance of taints there is abundance of floods. Herein, there is the flood of sensual desires through the taint of sensual desires, the flood of being through the taint of being, the flood of views through the taint of views, the flood of ignorance through the taint of ignorance.
+
+692. 7–8. These four floods, accompanied by the underlying tendencies, intrude into one’s inclinations till they strike one’s heart and remain steady there: hence they are called “barbs”. Herein, there is the barb of lust with the flood of sensual desire, the barb of hate with the flood of being, the barb of conceit with the flood of views, and the barb of delusion with the flood of ignorance.
+
+693. 8–9. When one’s consciousness is gripped by these four barbs it shapes itself to the following four ideas, namely to form, to feeling, to perception, and to determinations.
+
+694. Herein, form PTS vp Pli 117 is the steadying-point for consciousness passing on when consciousness has an infection of relishing through the barb of lust; feeling is the steadying-point for consciousness passing on when consciousness has an infection of relishing through the barb of hate; perception is the steadying-point for consciousness passing on when consciousness has an infection of relishing through the barb of conceit; determinations are the steadying-point for consciousness passing on when consciousness has an infection of relishing through the barb of delusion.
+
+695. 9–10. When one’s consciousness is stiffened by these four steadying-points for consciousness one goes a bad way because of the following four ideas, namely because of will, because of hate, because of fear, and because of delusion.
+
+696. Herein, it is owing to lust that one goes a bad way through will, owing to hate that one goes a bad way through hate, owing to fear that one goes a bad way through fear, and owing to delusion that one goes a bad way through delusion.
+
+That is how that action and those defilements are the cause of the roundabout. That is how all defilements can be demonstrated by the four perversions.
+
+PTS vp En 158 697. Herein, the directions are these four: (i) physical nutriment, the perversion that there is beauty in the ugly, sensual-desire-assumption, the bond of sensual desire, the body-tie of covetousness, the taint of sensual desire, the flood of sensual desire, the barb of lust, form as steadying-point for consciousness passing on, going a bad way through will, are the first direction. (ii) Nutriment as contact, the perversion that there is pleasure in the painful, being-assumption, the bond of being, the body-tie of ill-will, the taint of being, the flood of being, the barb of hate, feeling as steadying-point for consciousness passing on, going a bad way through hate, are the second direction. (iii) Nutriment as consciousness, the perversion that there is permanence in the impermanent, view-assumption, the bond of views, the body-tie of misapprehension, the taint of views, the flood of views, the barb of conceit, perception as steadying-point for consciousness passing on, going a bad way through fear, are the third direction. (iv) Nutriment as mind-choice, the perversion that there is self in the not-self, self-doctrine-assumption, the bond of ignorance, the body-tie of insistence that only this is true, the taint of ignorance, the flood of ignorance, the barb of delusion, determinations as steadying-point for consciousness passing on, going a bad way through delusion, are the fourth direction.
+
+698. (i) Herein, as to the following ten Thread-[terms], physical nutriment, the perversion that there is beauty in the ugly, sensual-desire-assumption, the bond of sensual desire, the body-tie of covetousness, the taint of sensual desire, the flood of sensual desire, the barb of lust, form as steadying-point for consciousness passing on, and going a bad way through will: their meaning is one and only the phrasing is different. These are imperfections in a person of lusting temperament.
+
+699. (ii) PTS vp Pli 118 Herein, as to the following ten Thread-[terms], nutriment as contact, the perversion that there is pleasure in the painful, being-assumption, the bond of being, the body-tie of ill-will, the taint of being, the flood of being, the barb of hate, feeling as steadying-point for consciousness passing on, and going a bad way through hate: their meaning is one and only the phrasing is different. These are imperfections in a person of hating temperament.
+
+700. (iii) Herein, as to the following ten Thread-[terms], nutriment as consciousness, the perversion that there is permanence in the PTS vp En 159 impermanent, view-assumption, the bond of views, the body-tie of misapprehension, the taint of views, the flood of views, the barb of conceit, perception as steadying-point for consciousness passing on, and going a bad way through fear; their meaning is one, and only the phrasing is different. These are imperfections in one of dull view-temperament.
+
+701. (iv) Herein, as to the following ten Thread-[terms], nutriment as mind-choice, the perversion that there is self in the not-self, the bond of ignorance, self-theory-assumption, the body-tie of insistence-that-only-this-is-true, the taint of ignorance, the flood of ignorance, the barb of delusion, determinations as steadying-point for consciousness passing on, and going a bad way through delusion: their meaning is one and only the phrasing is different. These are imperfections in one of intelligent view-temperament.
+
+702. 1. Herein, physical nutriment and nutriment as contact come to diagnosis through the dispositionless gateway to liberation, nutriment as consciousness through the void [gateway to liberation], and nutriment as mind-choice through the signless [gateway to liberation].
+
+703. 2. Herein, the perversion that there is beauty in the ugly and the perversion that there is pleasure in the painful come to disappearance through the dispositionless gateway to liberation, the perversion that there is permanence in the impermanent [does so] through the void, and the perversion that there is self in the not-self [does so] through the signless.
+
+704. 3. Herein, sensual-desire-assumption and being-assumption come to abandonment through the dispositionless gateway to liberation, view-assumption through the void, and self-theory-assumption through the signless.
+
+705. 4. Herein, the bond of sensual desire and the bond of being come to abandonment through the dispositionless gateway to liberation, the bond of views through the void, and the bond of ignorance through the signless.
+
+706. 5. Herein, the body-tie of covetousness and the body-tie of ill-will come to abandonment through the dispositionless gateway to liberation, PTS vp Pli 119 the body-tie of misapprehension through the void, and the body-tie of insistence-that-only-this-is-true through the signless.
+
+707. 6. Herein, the taint of sensual desire and the taint of being come to abandonment through the dispositionless gateway to PTS vp En 160 liberation, the taint of views through the void, and the taint of ignorance through the signless.
+
+708. 7. Herein, the flood of sensual desire and the flood of being come to abandonment through the dispositionless gateway to liberation, the flood of views through the void, and the flood of ignorance through the signless.
+
+709. 8. Herein, the barb of lust and the barb of hate come to abandonment through the dispositionless gateway to liberation, the barb of conceit through the void, and the barb of delusion through the signless.
+
+710. 9. Herein, form as steadying-point for consciousness passing on and feeling as steadying-point for consciousness passing on come to diagnosis through the dispositionless gateway to liberation, perception as steadying-point for consciousness passing on [does so] through the void, and determinations as steadying-point for consciousness passing on [does so] through the signless.
+
+711. 10. Herein, going a bad way through will and going a bad way through hate come to abandonment through the dispositionless gateway to liberation, going a bad way through fear [does so] through the void, and going a bad way through delusion [does so] through the signless.
+
+712. So all the ideas that follow the world’s round find outlet from the triple world by way of the three Gateways to Liberation.
+
+713. Here is the outlet:
+
+1. Four Ways.
+
+2. Four Foundations of Mindfulness [body, feelings, cognizance, ideas].
+
+3. Four Meditations [1st, 2nd, 3rd, 4th].
+
+4. Four Abidings [heavenly, divine, noble, imperturbable].
+
+5. Four Right Endeavours [the effort to prevent the arising of unarisen unprofit, to get rid of the arisen, to arouse unarisen profit, and to increase the arisen].
+
+6. Four Wonderful Marvellous Ideas [abandoning conceit, eliminating reliance, abandoning ignorance, pacification of being].
+
+7. Four Expressions [truth, generosity, understanding, peace].
+
+8. PTS vp En 161 Four Ways of keeping Concentration in Being [will, energy, cognizance, inquiry—4 bases for success)].
+
+9. Four ideas dealing with pleasure [faculty-restraint, ardour, discovery, relinquishment of all essentials of existence].
+
+10. Four Measureless States [loving-kindness, compassion, gladness, onlooking-equanimity].
+
+714. 1–2. The first way [corresponds to] the first foundation of mindfulness; the second way to the second foundation of mindfulness; the third way to the third foundation of mindfulness; the fourth way to the fourth foundation of mindfulness.
+
+2–3. The first foundation of mindfulness [corresponds to] the first meditation; the second foundation of mindfulness to the second meditation; the third foundation of mindfulness to the third meditation; the fourth foundation of mindfulness to the fourth meditation.
+
+3–4. The first meditation [corresponds to] the first abiding; the second meditation to the second abiding; the third meditation to the third abiding; the fourth meditation to the fourth abiding.
+
+4–5. The first abiding [corresponds to] the first right endeavour; the second abiding to the second right endeavour; the third abiding to the third right endeavour; the fourth abiding PTS vp Pli 120 to the fourth right endeavour.
+
+5–6. The first right endeavour [corresponds to] the first wonderful marvellous idea; the second right endeavour to the second wonderful marvellous idea; the third right endeavour to the third wonderful marvellous idea; the fourth right endeavour to the fourth wonderful marvellous idea.
+
+6–7. The first wonderful marvellous idea [corresponds to] the first expression; the second wonderful marvellous idea to the second expression; the third wonderful marvellous idea to the third expression; the fourth wonderful marvellous idea to the fourth expression.
+
+7–8. The first expression [corresponds to] the first keeping of concentration in being; the second expression to the second keeping of concentration in being; the third expression to the third keeping of concentration in being; the fourth expression to the fourth keeping of concentration in being.
+
+8–9. PTS vp En 162 The first keeping of concentration in being [corresponds to] the first idea dealing with pleasure; the second keeping of concentration in being to the second idea dealing with pleasure; the third keeping of concentration in being to the third idea dealing with pleasure; the fourth keeping of concentration in being to the fourth idea dealing with pleasure.
+
+9–10. The first idea dealing with pleasure [corresponds to] the first measureless state; the second idea dealing with pleasure to the second measureless state; the third idea dealing with pleasure to the third measureless state; the fourth idea dealing with pleasure to the fourth measureless state.
+
+715. 1–2. When the first way is kept in being, made much of, it fulfils the first foundation of mindfulness; when the second way is kept in being, made much of, it fulfils the second foundation of mindfulness; when the third way is kept in being, made much of, it fulfils the third foundation of mindfulness; when the fourth way is kept in being, made much of, it fulfils the fourth foundation of mindfulness.
+
+716. 2–3. When the first foundation of mindfulness is kept in being, made much of, it fulfils the first meditation; when the second foundation of mindfulness is kept in being, made much of, it fulfils the second meditation; when the third foundation of mindfulness is kept in being, made much of, it fulfils the third meditation; when the fourth foundation of mindfulness is kept in being, made much of, it fulfils the fourth meditation.
+
+717. 3–4. When the first meditation is kept in being, made much of, it fulfils the first abiding; when the second meditation is kept in being, made much of, it fulfils the second abiding; when the third meditation is kept in being, made much of, it fulfils the third abiding; when the fourth meditation is kept in being, PTS vp Pli 121 made much of, it fulfils the fourth abiding.
+
+718. 4–5. When the first abiding is kept in being, made much of, it fulfils the non-arising of unarisen evil unprofitable ideas. When the second abiding is kept in being, made much of, it fulfils the abandoning of arisen evil unprofitable ideas. When the third abiding is kept in being, made much of, it fulfils the arising of unarisen profitable ideas; when the fourth abiding is kept in being, made much of, it fulfils the steadiness, unlostness and plentifulness of arisen profitable ideas.
+
+719. 5–6. When the first right endeavour is kept in being, made PTS vp En 163 much of, it fulfils the abandoning of conceit. When the second right endeavour is kept in being, made much of, it fulfils the eradication of reliance. When the third right endeavour is kept in being, made much of, it fulfils the abandoning of ignorance. When the fourth right endeavour is kept in being, made much of, it fulfils the pacification of being.
+
+720. 6–7. When the abandoning of conceit is kept in being, made much of, it fulfils the expression of truth. When the eradication of reliance is kept in being, made much of, it fulfils the expression of generosity. When the abandoning of ignorance is kept in being, made much of, it fulfils the expression of understanding. When the pacification of being is kept in being, made much of, it fulfils the expression of peace.
+
+721. 7–8. When the expression of truth is kept in being, made much of, it fulfils concentration of will. When the expression of generosity is kept in being, made much of, it fulfils concentration of energy. When the expression of understanding is kept in being, made much of, it fulfils concentration of [purity of] cognizance. When the expression of peace is kept in being, made much of, it fulfils concentration of inquiry.
+
+722. 8–9. When concentration of will is kept in being, made much of, it fulfils faculty-restraint. When concentration of energy is kept in being, made much of, it fulfils ardour. When concentration of [purity of] cognizance is kept in being, made much of, it fulfils discovery. When concentration of inquiry is kept in being, made much of, it fulfils the relinquishing of all essentials of existence.
+
+723. 9–10. When faculty-restraint is kept in being, made much of, it fulfils loving-kindness. When ardour is kept in being, made much of, it fulfils compassion. When discovery is kept in being, made much of, it fulfils gladness [at others’ success]. When relinquishment of all essentials of existence is kept in being, made much of, it fulfils onlooking-equanimity.
+
+724. Herein, the four directions are these: (i) The first way, first foundation of mindfulness, first meditation, first abiding, PTS vp En 164 first right endeavour, first wonderful marvellous idea, the expression of truth, concentration of will, faculty-restraint, and loving-kindness, PTS vp Pli 122 are the first direction. (ii) The second way, second foundation of mindfulness, second meditation, second abiding, second right endeavour, second wonderful marvellous idea, the expression of generosity, concentration of energy, ardour, and compassion, are the second direction. (iii) The third way, third foundation of mindfulness, third meditation, third abiding, third right endeavour, third wonderful marvellous idea, the expression of understanding, concentration of [purity of] cognizance, discovery, and gladness, are the third direction. (iv) The fourth way, fourth foundation of mindfulness, fourth meditation, fourth abiding, fourth right endeavour, fourth wonderful marvellous idea, the expression of peace, concentration of inquiry, relinquishment of all essentials of existence, and onlooking-equanimity, are the fourth direction.
+
+725. (i)Herein, as to the following ten Thread-[terms], the first way, first foundation of mindfulness, first meditation, first abiding, first right endeavour, first wonderful marvellous idea, the expression of truth, concentration of will, faculty-restraint, and loving-kindness: their meaning is one and only the phrasing is different. These are the medicine for a person of lusting temperament.
+
+726. (ii)Herein, as to the following ten Thread-[terms], the second way, second foundation of mindfulness, second meditation, second abiding, second right endeavour, second wonderful marvellous idea, the expression of generosity, concentration of energy, ardour, and compassion: their meaning is one and only the phrasing is different. These are the medicine for a person of hating temperament.
+
+727. (iii)Herein, as to the following ten Thread-[terms], the third way, third foundation of mindfulness, third meditation, third abiding, third right endeavour, third wonderful marvellous idea, the expression of understanding, concentration of [purity of] cognizance, discovery, and gladness: their meaning is one and only the phrasing is different. These are the medicine for a person of dull view-temperament.
+
+728. (iv)Herein, as to the following ten Thread-[terms], the fourth way, fourth foundation of mindfulness, fourth meditation, fourth abiding, fourth right endeavour, fourth wonderful marvellous idea, the expression of peace, concentration of inquiry, relinquishment of all essentials of existence, and onlooking-equanimity: their PTS vp En 165 meaning is one and only the phrasing is different. PTS vp Pli 123 These are the medicine for a person of intelligent view-temperament.
+
+729. 1. Herein, the painful way with sluggish acquaintance-ship and the painful way with swift acquaintanceship are the dispositionless gateway to liberation; the pleasant way with sluggish acquaintanceship is the void gateway to liberation; and the pleasant way with swift acquaintanceship is the signless gateway to liberation.
+
+730. 2. Herein, the foundation of mindfulness as the state of a contemplator-of-the-body-as-a-body and the foundation of mindfulness as the state of a contemplator-of-feelings-as-feelings are the dispositionless gateway to liberation; the foundation of mindfulness as the state of a contemplator-of-cognizance-as-cognizance is the void gateway to liberation; and the foundation of mindfulness as the state of a contemplator-of-ideas-as-ideas is the signless gateway to liberation.
+
+731. 3. Herein, the first meditation and the second meditation are the dispositionless gateway to liberation; the third meditation is the void gateway to liberation; and the fourth meditation is the signless gateway to liberation.
+
+732. 4. Herein, the first abiding and the second abiding are the dispositionless gateway to liberation; the third abiding is the void gateway to liberation; and the fourth abiding is the signless gateway to liberation.
+
+733. 5. Herein, the first right endeavour and the second right endeavour are the dispositionless gateway to liberation; the third right endeavour is the void gateway to liberation; and the fourth right endeavour is the fourth gateway to liberation.
+
+734. 6. Herein, the abandoning of conceit and the eradication of reliance are the dispositionless gateway to liberation; the abandoning of ignorance is the void gateway to liberation; and the pacification of being is the signless gateway to liberation.
+
+735. 7. Herein, the expression of truth and the expression of generosity are the dispositionless gateway to liberation; the expression of understanding is the void gateway to liberation; and the expression of peace is the signless gateway to liberation.
+
+736. 8. Herein, concentration of will and concentration of energy are the dispositionless gateway to liberation; concentration of cognizance is the void gateway to liberation; and concentration of inquiry is the signless gateway to liberation.
+
+PTS vp En 166 737.9. Herein, faculty-restraint and ardour are the dispositionless gateway to liberation; discovery is the void gateway to liberation; renunciation of all essentials of existence is the signless gateway to liberation.
+
+738. 10. PTS vp Pli 124 Herein, loving-kindness and compassion are the dispositionless gateway to liberation; gladness is the void gateway to liberation; and onlooking-equanimity is the signless gateway to liberation.
+
+[The Play of Lions]
+
+739. The play of these [is as follows]:
+
+There are four nutriments: their opposites are the four ways. There are four perversions: their opposites are the four foundations of mindfulness. There are four assumings: their opposites are the four meditations. There are four bonds: their opposites are the four abidings. There are four ties: their opposites are the four right endeavours. There are four taints: their opposites are the four wonderful marvellous ideas. There are four floods: their opposites are the four expressions. There are four barbs: their opposites are the four ways of keeping concentration in being. There are four steadying-points for consciousness: their opposites are the four ideas that deal with pleasure. There are four goings on a bad way: their opposites are the four measureless states.
+
+740. The Lions are the Enlightened Ones, the Hermit Enlightened Ones, and the hearers who have destroyed lust, hate, and delusion.
+
+Their play [consists in] keeping in being, in verification, and in termination.
+
+The play is the expression of the faculties [beginning with faith, and] the play is the non-expression of the pervertednesses the [four] faculties [of energy, mindfulness, concentration, and understanding] are the pasture for the true object of [the faculty of] faith, the pervertednesses being the pasture for defilement. This is called the Play-of -Lions Guide-Line and the Plotting-of-Directions Guide-Line. That is why it was said:
+
+PTS vp En 167 “The wise in Guide-Lines have called that
+Lions’ Play, which by the faculties
+Does faith’s true objects guide, and also
+By the perversions the defilements”,
+
+and also
+
+“What mentally plots out [ideas
+Of] profit and unprofit stated
+Or here or there in expositions
+They call the Plotting of Directions”.
+
+[The Trefoil and Hook]
+
+741. Herein, those who find outlet by the painful way with sluggish acquaintanceship and [by that] with swift acquaintanceship are two [types of] persons. And those who find outlet by the pleasant way with sluggish acquaintanceship and [by that] with swift acquaintanceship are two [types of] persons.
+
+742. Corruption for those four types of persons is as follows: the four nutriments, four perversions, four assumings, four bonds, four ties, four taints, four floods, four barbs, four steadying-points for consciousness, and four goings on a bad way.
+
+743. PTS vp Pli 125 Cleansing for these four types of persons is as follows: the four ways, four foundations of mindfulness, four meditations, four abidings, four right endeavours, four wonderful marvellous ideas, four expressions, four ways of keeping concentration in being, four ideas dealing with pleasure, and four measureless states.
+
+744. Herein, those who find outlet by the painful way with sluggish acquaintanceship and that with swift acquaintanceship are two types of persons, and those who find outlet by the pleasant way with sluggish acquaintanceship and that with swift acquaintanceship are two types of persons.
+
+745. Herein, one who finds outlet by the pleasant way with swift acquaintanceship is one who gains knowledge from what is condensed. One who [does so by both the painful way with swift PTS vp En 168 acquaintanceship and the pleasant way with sluggish acquaintanceship] in common is one who gains knowledge by what is expanded. One who finds outlet by the painful way with sluggish acquaintanceship is guidable.
+
+746. Herein, the Blessed One discloses quiet to a person who gains knowledge by what is condensed, insight to one who is guidable, and quiet and insight to one who gains knowledge by what is expanded.
+
+747. Herein, the Blessed One discloses a blunt teaching of the True Idea to a person who gains knowledge by what is condensed, a keen one to one who is guidable, and a blunt-to-keen one to one who gains knowledge by what is expanded.
+
+748. Herein, the Blessed One teaches the True Idea in brief to a person who gains knowledge by what is condensed, in brief and in detail to one who gains knowledge by what is expanded, and in detail to one who is guidable.
+
+749. Herein, the Blessed One discloses escape to a person who gains knowledge by what is condensed, disappointment and escape to a person who gains knowledge by what is expanded, and gratification, disappointment and escape to one who is guidable.
+
+750. Herein, the Blessed One describes training in higher understanding to one who gains knowledge by what is condensed, training in higher cognizance to one who gains knowledge by what is expanded, and training in higher virtue to one who is guidable.
+
+751. Herein, [to repeat,] those who find outlet by the painful way with sluggish acquaintanceship and by that with swift acquaintanceship are two types of persons. And those who find outlet by the pleasant way with sluggish acquaintanceship and by that with swift acquaintanceship are two types of persons.
+
+752. [But although] four in this way they are [yet] three, namely one who gains knowledge by what is condensed, one who gains knowledge by what is expanded, and one who is guidable.
+
+753. The corruption of these three types of persons is as follows:
+
+1. Three roots of unprofit: greed as a root of unprofit, hate as a root of unprofit, delusion PTS vp Pli 126 as a root of unprofit.
+
+2. PTS vp En 169 Three kinds of misconduct: bodily misconduct, verbal misconduct, mental misconduct.
+
+3. Three unprofitable types of thinking: thinking of sensual desires, thinking of ill-will, thinking of cruelty.
+
+4. Three unprofitable types of perception: perception of sensual desires, perception of ill-will, perception of cruelty.
+
+5. Three distorted types of perception: perception of permanence, perception of pleasure, perception of self ().
+
+6. Three kinds of feelings: pleasant feeling, painful feeling, neither-painful-nor-pleasant feeling.
+
+7. Three kinds of painfulness: painfulness in pain, painfulness in change, painfulness in determinations.
+
+8. Three fires: the fire of lust, the fire of hate, the fire of delusion.
+
+9. Three barbs: the barb of lust, the barb of hate, the barb of delusion.
+
+10. Three tangles: the tangle of lust, the tangle of hate, the tangle of delusion ().
+
+11. Three unprofitable scrutinies: unprofitable bodily action, unprofitable verbal action, unprofitable mental action.
+
+12. Three failures: failure in virtue, failure in views, failure in conduct.
+
+754. The cleansing of these three types of persons is as follows:
+
+1. Three roots of profit: non-greed as a root of profit, non-hate as a root of profit, non-delusion as a root of profit.
+
+2. Three kinds of good conduct: bodily good conduct, verbal good conduct, mental good conduct.
+
+3. Three profitable types of thinking: thinking of renunciation, thinking of non-ill-will, thinking of non-cruelty.
+
+4. Three kinds of concentration: concentration with thinking and with exploring, concentration without thinking and with only exploring, concentration without thinking and without exploring.
+
+5. Three profitable types of perception: perception of renunciation, perception of non-ill-will, perception of non-cruelty.
+
+6. Three undistorted types of perception: perception of impermanence, perception of suffering, perception of not-self ().
+
+7. Three profitable scrutinies: profitable bodily action, profitable verbal action, profitable mental action.
+
+8. PTS vp En 170 Three purenesses: bodily pureness, verbal pureness, mental pureness.
+
+9. Three successes: success in virtue, success in concentration, success in understanding ().
+
+10. Three trainings: training in higher virtue, training in higher concentration, training in higher understanding.
+
+11. Three categories: the virtue category, the concentration category, the understanding category.
+
+12. Three gateways to liberation: the void, the signless, the dispositionless.
+
+755. [Now although] four in this way [yet] they are three, being three [yet] they are two, namely one of craving-temperament and one of view-temperament.
+
+756. The corruption of these two types of persons is as follows:
+
+1. Craving and ignorance,
+
+2. consciencelessness and shamelessness,
+
+3. unmindfulness and unawareness, PTS vp Pli 127
+
+4. [unreason and] unreasoned attention,
+
+5. idleness and difficult admonishability,
+
+6. I-making and my-making,
+
+7. faithlessness and negligence,
+
+8. not hearing faith’s true object, and non-restraint,
+
+9. covetousness and ill will,
+
+10. hindrances and fetters,
+
+11. anger and spite,
+
+12. contempt and domineering,
+
+13. envy and avarice,
+
+14. PTS vp En 171 deceit and fraud,
+
+15. the eternalist view and the annihilationist view.
+
+757. The cleansing of these two types of persons is as follows:
+
+1. Quiet and insight,
+
+2. conscience and shame,
+
+3. mindfulness and awareness,
+
+4. [reason and] reasoned attention,
+
+5. instigation of energy and easy admonishability,
+
+6. knowledge of the True Idea and knowledge of inferences,
+
+7. knowledge of exhaustion and knowledge of non-arising,
+
+8. faith and diligence,
+
+9. hearing faith’s true object and restraint,
+
+10. uncovetousness and non-ill-will,
+
+11. heart-deliverance due to fading of lust and understanding-deliverance due to fading of ignorance,
+
+12. fewness of wishes and content,
+
+13. unanger and unspitefulness,
+
+14. uncontempt and undomineering,
+
+15. abandoning of envy and abandoning of avarice,
+
+16. science and deliverance,
+
+17. the kind of liberation whose object is determined and the kind of liberation whose object is undetermined,
+
+18. the extinction element with trace left and the extinction element without trace left.
+
+758. This is called the plane of the Trefoil Guide-Line and the Hook Guide-Line.
+
+That is why it was said:
+
+“Guiding [ideas of] profit and
+Unprofit by their [triple] roots
+As they are, really, not unreally,
+That Guide-Line they call the Trefoil”,
+
+[and PTS vp En 172 also]
+
+“After [thus] plotting with the Plotting
+Of Directions, what then throws up
+All profit [ideas] and unprofit
+And guides them in is called the Hook”.
+
+The Moulding of the Guide-Lines is ended.
+
+Translated from the Pāḷi by Bhikkhu Ñāṇamoli, 1977.
+
+Published by The Pali Text Society, Oxford.
+
+This electronic version is published under the terms of the Creative Commons Attribution Non-Commercial 4.0 licence (CC BY-NC 4.0)
+
+All copyright is owned by the Pali Text Society. See also the statement under http://www.palitext.com/ → Publications → Copyright Announcement.
+
+For non-commercial use only.
+
+This version has not been proofread.
+
+Prepared in laTex by Manfred Wierich, prepared for SuttaCentral by Ven. Vimala.
