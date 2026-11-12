@@ -15,9 +15,32 @@ from distribution_policy import distribution, WEBSITE_LICENSE, WEBSITE_DISTRIBUT
 from archive_rights import edition_rights, write_release_metadata
 from build_deploy_site import _zip_write
 from build_eligible_readers import parse_args
+import build_eligible_readers as readers
 
 
 class CandanaWebsiteTests(unittest.TestCase):
+    def test_incremental_output_preserves_active_download_and_removes_only_known_stale_text(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            output = root / "build/readers"
+            output.mkdir(parents=True)
+            (output / ".eligible-readers-managed").write_text("Generated reader output")
+            text = output / "theravada/tipitaka/translations/en/candana-website/an-4-1-candana.txt"
+            text.parent.mkdir(parents=True)
+            text.write_bytes(b"Synthetic reviewed download")
+            with patch.object(readers, "ROOT", root):
+                for _ in range(2):
+                    readers.prepare_incremental_output(output, {text}, {text})
+                    self.assertEqual(text.read_bytes(), b"Synthetic reviewed download")
+                unknown = output / "unreviewed.txt"
+                unknown.write_text("Unknown input; do not remove")
+                with self.assertRaisesRegex(ValueError, "Unexpected file"):
+                    readers.prepare_incremental_output(output, {text}, {text})
+                self.assertTrue(unknown.is_file())
+                unknown.unlink()
+                readers.prepare_incremental_output(output, set(), {text})
+                self.assertFalse(text.exists())
+
     def fixture(self, root):
         pdf = root / "supplied.pdf"
         pdf.write_bytes(b"%PDF-1.4 original synthetic test input, not a translated work")

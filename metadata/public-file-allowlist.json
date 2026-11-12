@@ -17535,7 +17535,7 @@
     },
     {
       "path": "tests/test_candana_website.py",
-      "sha256": "266483917713e8011020c91b233a0548800ff901924894b7a327ffa210b95452",
+      "sha256": "ef81209562921b0f2e3646d7293313106feb5c95e36fadd22dffa9a33522279e",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -130125,7 +130125,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_eligible_readers.py",
-      "sha256": "7132117420a3edc1f37622f0a53ce273cd63023881df1bc959cd2142b1e85152",
+      "sha256": "b4b8880437be8e52784b40b048b802bc89d3f1003c839613dc7d2c94cbf89825",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
