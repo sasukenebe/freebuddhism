@@ -3,6 +3,8 @@
   "prior_editions": 2690,
   "editions": 2685,
   "title_only_associations_reviewed": 83,
+  "additional_numbering_associations_reviewed": 4,
+  "additional_numbering_associations_confirmed": 2,
   "corrections": [
     {
       "source_url": "https://www.dhammatalks.org/suttas/AN/AN10_76.html",
@@ -749,6 +751,46 @@
       "publisher_id": "SN 56.22",
       "canonical_id": "SN 56.22",
       "review_id": "sn-source-56-22-ati-maurice-o-connell-walshe-f94a95ee11a0",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.033.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.34",
+      "publisher_id": "AN 3.33",
+      "canonical_id": "AN 3.34",
+      "review_id": "an-ati-extra-3-33-than-20261112",
+      "review_scope": "additional_edition_numbering",
+      "action": "EDITION_NUMBERING_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.034.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.35",
+      "publisher_id": "AN 3.34",
+      "canonical_id": "AN 3.35",
+      "review_id": "an-ati-extra-3-34-than-20261112",
+      "review_scope": "additional_edition_numbering",
+      "action": "EDITION_NUMBERING_CONFIRMED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.076.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.77",
+      "publisher_id": "AN 3.76",
+      "canonical_id": "AN 3.76",
+      "review_id": "an-ati-extra-3-76-than-20261112",
+      "review_scope": "additional_edition_numbering",
+      "action": "CORRECTED"
+    },
+    {
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.094.than.html",
+      "version": "ati-thanissaro-bhikkhu",
+      "previous_canonical_id": "AN 3.97",
+      "publisher_id": "AN 3.94",
+      "canonical_id": "AN 3.96",
+      "review_id": "an-ati-extra-3-94-than-20261112",
+      "review_scope": "additional_edition_numbering",
       "action": "CORRECTED"
     }
   ],

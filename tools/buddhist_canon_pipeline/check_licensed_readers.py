@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 
 from check_candana_readers import SourceText
-from publication_rights import ROOT, verified_manifest
+from publication_rights import ROOT, verified_manifest, verify_published_source
 from public_site_catalog import canonical_slug
 
 
@@ -51,16 +51,19 @@ def check_reader(row: dict, source_root: Path, site_root: Path) -> dict:
 
 def check_release(site_root: Path) -> dict:
     rows = verified_manifest()["records"]
+    for row in rows:
+        verify_published_source(row)
     reviews = [check_reader(row, ROOT, site_root) for row in rows]
     return {"status": "ALL_LICENSED_READERS_MATCH", "edition_count": len(rows),
             "unique_text_ids": len({(r["collection"], r["canonical_id"]) for r in rows}),
             "completeness": dict(Counter(r["completeness_status"] for r in rows)),
+            "publisher_html_sources_recompared": sum(bool(r.get("mapping_evidence")) for r in rows),
             "comparison": "Every displayed character, whitespace and punctuation matches the pinned translation body; TXT downloads are byte-identical; rights notices/links and PDF presence checked.",
             "limits": "Not a translation-quality verdict or full visual proofreading. Source extraction comparisons are recorded separately. PDF text is spot-checked separately.",
             "model_calls": 0, "review": reviews}
 
 
-def write_public_review(site_root: Path) -> set[Path]:
+def write_public_review(site_root: Path, source_revision: str = "") -> set[Path]:
     """Simple original-versus-new links, with the entire rolling exception list."""
     rows = verified_manifest()["records"]
     if not rows:
@@ -102,13 +105,17 @@ def write_public_review(site_root: Path) -> set[Path]:
                          '<a href="' + escape(row["source_url"], quote=True) + '">Publisher source</a>.</li>')
         corrections_html = (f'<p>Correction: {len(corrections)} discourse associations were wrong and have been reassigned; '
                             f'{confirmed} other title-remapped associations were confirmed by content. '
+                            f'{audit.get("additional_numbering_associations_reviewed", 0)} additional edition-number differences were reviewed, '
+                            f'of which {audit.get("additional_numbering_associations_confirmed", 0)} existing targets were confirmed. '
                             f'{len(audit["held"])} source pages are held for discourse-boundary review. '
                             'Publisher cross-references are now separate from the sutta body.</p>'
                             '<details><summary>Corrected references</summary><ul>' + ''.join(items) + '</ul></details>')
     page = site_root / "review/licensed-2026-11-11/index.html"
     page.parent.mkdir(parents=True, exist_ok=True)
+    release = ('<p>Release: <a href="https://github.com/sasukenebe/freebuddhism/commit/' + source_revision
+               + '">' + source_revision[:12] + '</a> · <a href="/release.json">Release details</a>.</p>') if source_revision else ''
     page.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Compare translations</title></head><body><p><a href="/">Home</a> · <a href="/theravada/tipitaka/site/tipitaka.html">Buddhist Texts</a></p><h1>Compare translations</h1>' +
-                    f"<p>{len(rows)} imported editions. Open a collection, then compare Original source with Converted text.</p>" +
+                    release + f"<p>{len(rows)} imported editions. Open a collection, then compare Original source with Converted text.</p>" +
                     "<p>Automated source comparison checks text preservation, not whether two reference numbers identify the same discourse. Identity reviews are separate. This is not full human proofreading. COMPLETE refers to the scope recorded for that edition; ABBREVIATED and PARTIAL preserve the source's omissions. UNKNOWN means completeness is not established.</p>" +
                     corrections_html + "".join(sections) + "<h2>Still held</h2><ul><li>The Path of Discrimination: 154 of 664 pages differ in extraction order; no book published.</li><li>Access to Insight/dhammatalks source pages listed below need numbering, grouping or source-scope review. These are source pages, not necessarily distinct suttas.</li><li>PTS Nikāya EPUBs: original translation permissions identified; editorial additions and mappings still need checking before import.</li><li>Candana's separate PDFs: awaiting confirmation of the permission scope; not imported by this batch.</li></ul>" + held_html + "</body></html>\n", encoding="utf-8")
     return {page}

@@ -28,6 +28,10 @@ from build_eligible_readers import VINAYA_CONTENTS, collect_records
 from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
 from public_html_policy import NAVIGATION_SCOPE, SITE_SCOPE, require_allowlisted_page, validate_site_content_manifest
 from public_candana_review import write_review as write_public_candana_review
+from archive_rights import (
+    TERMS_NAME, MANIFEST_NAME, RESERVED_NAMES, TERMS, edition_rights, metadata_bytes,
+    verify_archive_rights, archive_label, write_release_metadata,
+)
 from public_site_catalog import (
     ABHIDHAMMA_BOOKS,
     COLLECTION_TITLES,
@@ -2180,7 +2184,7 @@ def _write_navigation_pages(
     )
     downloads_html = downloads_html.replace(
         "Every archive is rebuilt from editions cleared as CC0 or verified public domain.",
-        "Every archive contains rights-cleared editions with their own licenses or explicit permission. Candana editions are for free, unaltered distribution only.",
+        "Every archive contains rights-cleared editions with their own licenses or explicit permission. Archives may contain mixed licenses, including noncommercial or free-unaltered-distribution terms. Each populated ZIP includes REUSE-TERMS.txt and LICENSE-MANIFEST.json; individual files retain their notices. No blanket CC0 or public-domain license applies to the collection.",
     )
     if "<p>Every archive contains rights-cleared" not in downloads_html:
         raise ValueError("Could not replace the old archive-content claim")
@@ -2192,10 +2196,7 @@ def _write_navigation_pages(
         linked_archives.add(name)
         if name not in archive_content:
             raise ValueError(f"Downloads page links to an archive not scheduled for safe rebuilding: {name}")
-        if not archive_content[name]:
-            label = label.replace(" — complete English book", "")
-            label = label.replace(" — complete English text and scan (TXT + PDF)", "")
-            label += " — no eligible files; notice only"
+        label = archive_label(label, archive_content[name])
         return f'<li><a href="../downloads/{html.escape(name, quote=True)}">{html.escape(label)}</a></li>'
 
     downloads_html = archive_link_re.sub(update_download_label, downloads_html)
@@ -2377,6 +2378,7 @@ def _zip_write(
         raise ValueError(f"Archive notice should only be written when no eligible files exist: {path.name}")
     path.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        licenses = []
         for relative in unique_paths:
             relative = _safe_relative(relative)
             if relative not in allowed or relative.parts[0] == "downloads" or not allowed[relative].get("archive"):
@@ -2385,18 +2387,34 @@ def _zip_write(
             info = zipfile.ZipInfo(relative.as_posix(), date_time=(1980, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
-            archive.writestr(info, source.read_bytes(), compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+            payload = source.read_bytes()
+            rights = allowed[relative].get("rights", [])
+            if not rights or relative.as_posix() in RESERVED_NAMES:
+                raise ValueError("Archive payload lacks explicit edition terms: " + relative.as_posix())
+            rights = [edition_rights(edition) for edition in rights]
+            licenses.append({"path": relative.as_posix(), "sha256": hashlib.sha256(payload).hexdigest(),
+                             "editions": rights})
+            archive.writestr(info, payload, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+        if unique_paths:
+            for name, payload in ((TERMS_NAME, TERMS.encode()), (MANIFEST_NAME, metadata_bytes(licenses))):
+                info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = 0o100644 << 16
+                archive.writestr(info, payload)
         if notice is not None:
             info = zipfile.ZipInfo(ARCHIVE_NOTICE, date_time=(1980, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             archive.writestr(info, notice.encode("utf-8"), compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
     with zipfile.ZipFile(path) as archive:
-        bad_member = archive.testzip()
-        if bad_member:
-            raise ValueError(f"Archive integrity check failed for {path.name}: {bad_member}")
+        if unique_paths:
+            verify_archive_rights(archive, licenses)
+        elif archive.testzip():
+            raise ValueError("Archive notice CRC check failed")
         actual = set(archive.namelist())
     expected = {item.as_posix() for item in unique_paths}
+    if unique_paths:
+        expected.update(RESERVED_NAMES)
     if notice is not None:
         expected.add(ARCHIVE_NOTICE)
     if actual != expected:
@@ -2521,11 +2539,13 @@ def assemble_webroot(
                 raise FileNotFoundError(f"Eligible reader/source output is missing or unsafe: {source}")
             entry = {"source": source, "kind": source.suffix.lower().removeprefix("."),
                      "collection": record["collection"] if record["kind"] == "sutta" else "vinaya",
-                     "archive": True}
+                     "archive": True, "rights": [edition_rights(record)]}
             if relative in allowed:
                 previous = allowed[relative]
                 if previous["source"].resolve() != source.resolve():
                     raise ValueError(f"Two records map different files to one public path: {relative}")
+                entry["rights"] = previous.get("rights", []) + [r for r in entry["rights"]
+                                                              if r not in previous.get("rights", [])]
             allowed[relative] = entry
         if hashlib_sha256(Path(record["text_path"])) != record["source_sha256"]:
             raise ValueError(f"Source text changed after reader validation: {row['txt_path']}")
@@ -2547,7 +2567,8 @@ def assemble_webroot(
             source = source_root / "theravada" / "tipitaka" / relative
             if source.is_symlink() or not source.is_file():
                 raise FileNotFoundError(f"Verified public-domain book PDF is missing: {relative}")
-            allowed[relative] = {"source": source, "kind": "pdf", "collection": collection, "archive": True}
+            allowed[relative] = {"source": source, "kind": "pdf", "collection": collection, "archive": True,
+                                 "rights": [edition_rights({**book, "source_url": pdf.get("source_url") or book.get("source_url")})]}
             content_collections.add(collection)
 
     _copy_site_pages(destination, allowed, site_root, site_entry)
@@ -2575,7 +2596,8 @@ def assemble_webroot(
     if archive_content != navigation_report["archive_content"]:
         raise ValueError("Download-page archive labels differ from the built archive contents")
     from check_licensed_readers import write_public_review
-    review_files = write_public_candana_review(destination, ROOT) | write_public_review(destination)
+    release_files, revision = write_release_metadata(destination, ROOT, selected)
+    review_files = release_files | write_public_candana_review(destination, ROOT) | write_public_review(destination, revision)
     crawler_files = _write_crawler_files(destination)
 
     expected_files = ({destination / "index.html", *crawler_files}
@@ -2596,6 +2618,8 @@ def assemble_webroot(
         if len(names) != len(set(names)):
             raise ValueError(f"Duplicate members in archive: {archive_path.name}")
         for name in names:
+            if name in RESERVED_NAMES and archive_content[archive_path.name]:
+                continue
             if name == ARCHIVE_NOTICE:
                 if archive_content[archive_path.name]:
                     raise ValueError(f"Non-empty archive unexpectedly contains a notice only: {archive_path.name}")

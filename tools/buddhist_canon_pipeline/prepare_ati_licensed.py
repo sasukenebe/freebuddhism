@@ -436,6 +436,8 @@ def resolve_id(prefix: str, number: str, title: str, reference: dict, alternate=
             raise ValueError("Reviewed source identity differs from publisher header or site inventory")
         return canonical, {**evidence, "method": "Content-verified edition concordance",
                            "review_id": reviewed["review_id"]}
+    if candidate != proposed:
+        raise ValueError("Different publisher/alternate numbers need content review; edition labels alone are insufficient")
     # DN/MN and these small-collection numbering systems match the site's IDs.
     # AN/SN require title corroboration: both publishers use other editions.
     if prefix not in {"AN", "SN"}:

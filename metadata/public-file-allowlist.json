@@ -39,7 +39,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4c6c0e57f2e59b28061cb4145113d1bc4953e47d7e7edf795b2962ac6381508e",
+      "sha256": "f338f446653f260697e40cdf9d00078dfbc020b4ed66f1be32373867aed789de",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -110,6 +110,12 @@
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
+      "path": "docs/tasks/license-archives-and-identity-gates-2026-11-12.md",
+      "sha256": "a926f71b09a9b46c84156d0942cef66bc70eb1d205686f7f1d4170f547485a55",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
       "path": "docs/tasks/navigation-reading-experience.md",
       "sha256": "b39c15f74d824befc3bc36bd6ccb196b3d1447aa4a91a7e3565b22276bc2470d",
       "license_scope": "CC0-1.0 project documentation",
@@ -141,7 +147,7 @@
     },
     {
       "path": "metadata/eligible-texts.json",
-      "sha256": "827191fa8f0cf507ab1240453fe98cfa5b1a2b5df6f4d0a56df6c3583f0f8dea",
+      "sha256": "0ea18b6a3bc700c0158dcab9c7da644dcf0d905bf820a1822fb754ff29940bc9",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -207,7 +213,7 @@
     },
     {
       "path": "metadata/reports/licensed-identity-corrections-2026-11-11.json",
-      "sha256": "33c7bd410a52c1ff3f67166a492315dd29495477b3cfd302460c8870da151f83",
+      "sha256": "99b149c385ca8b88d10436dfefdc2cf09b92f2e78efd66a3b81abd06a61d251f",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -231,13 +237,13 @@
     },
     {
       "path": "metadata/reports/translation-coverage-2026-11-11.csv",
-      "sha256": "a214534b6c802d7bf7ca70cadb7490536ef52d213a3d310c96fcc227b3820dcd",
+      "sha256": "a311d0bd275fb3f99904dc3148db695fc95fc059a1c273d3cdb71242e2356348",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/reports/translation-coverage-2026-11-11.json",
-      "sha256": "1cb229e8930b96c3fce0ca446d9cb407aee7b268135ab6554c3952110047713e",
+      "sha256": "5bbc8a9bac258a9f09981d4a6fc7279a7e5103153a9e48bab882aee022963d6a",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -279,13 +285,13 @@
     },
     {
       "path": "metadata/source-manifests/licensed-collections.json",
-      "sha256": "8a246d50ed65f6833edc6d551897d21157acb96c77211d78e942ce320409f653",
+      "sha256": "de01e19c78b176d2e78a82be7b76621ec08ca482bbeb34a56d21432628a22483",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
       "path": "metadata/source-manifests/licensed-identity-review-2026-11-11.json",
-      "sha256": "2223da93fdcaf35ba7864bc75ef4c2c60c940693160ed0a08424eb579d8dcb41",
+      "sha256": "bd47b02b43d11d7700479e40a1a3846db86a651fa36c77ffd8f82d71a98f66f0",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -16556,8 +16562,14 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tests/test_archive_rights.py",
+      "sha256": "cde7b651764d7164751080f8b5d2fbc72ebf7842647fee59f930e1bd463f90e8",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tests/test_ati_licensed.py",
-      "sha256": "c844be1017a325800fe04738753cd59e2a59534a47e59524107ae35ce064dcea",
+      "sha256": "19881a3f0093f8f84970019fd592bb49dd154d178dcb29a2c68435e7ca0df83a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -16641,7 +16653,7 @@
     },
     {
       "path": "tests/test_licensed_readers.py",
-      "sha256": "5c3c54d818f410cfde073666aac21a5deb8a0ae5b5971f3216d9aedde2a153af",
+      "sha256": "0d43da987182d54d9a2295a8269f0c63831210ba59abb4c7d3f0f2a2cf0a6a54",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -16660,6 +16672,12 @@
     {
       "path": "tests/test_publication_rights.py",
       "sha256": "b9083c320b17d3ae4f309f31fddbbdf42d944a48f49c3a070be03ce962883d1e",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_published_source_identity.py",
+      "sha256": "f642673a0ad988b0fd60ee3c19ded49b6c211ebfa65c74216c4020900a36b96e",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -80510,8 +80528,8 @@
       "rights_basis": "The exact edition's source license, full notice and source/text SHA-256 values are verified in the licensed-collections manifest; its conditions remain attached to every copy."
     },
     {
-      "path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-77.txt",
-      "sha256": "0ffd63b78f96d46190fb6b7642c48453261c901e1f7cd66e20a8df350bd7f20d",
+      "path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-76.txt",
+      "sha256": "be6775854c468cc843f484cf1dad80fd41ee095f0073331f5a6319d21f9f307a",
       "license_scope": "CC-BY-NC-4.0",
       "rights_basis": "The exact edition's source license, full notice and source/text SHA-256 values are verified in the licensed-collections manifest; its conditions remain attached to every copy."
     },
@@ -80540,8 +80558,8 @@
       "rights_basis": "The exact edition's source license, full notice and source/text SHA-256 values are verified in the licensed-collections manifest; its conditions remain attached to every copy."
     },
     {
-      "path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-97.txt",
-      "sha256": "1fdb5fe2a8e52887cd2c4fcdd3bb0033e8acef31c6af592f5d3c9ca67f2f58ab",
+      "path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-96.txt",
+      "sha256": "443d97d3bbcca0aa0cf295a5f5f65bedc2201491dad34cb2a6ba8861481f41b6",
       "license_scope": "CC-BY-NC-4.0",
       "rights_basis": "The exact edition's source license, full notice and source/text SHA-256 values are verified in the licensed-collections manifest; its conditions remain attached to every copy."
     },
@@ -128372,8 +128390,14 @@
       "rights_basis": "Source license and revision are recorded in the approved text or asset manifest and pinned by SHA-256."
     },
     {
+      "path": "tools/buddhist_canon_pipeline/archive_rights.py",
+      "sha256": "e850fc9bf9f4ef3210598ea8cb743dba3fc33e122ad7e316ea2d34e5eacbce60",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "1dfda1de71cad6beef5a486bc80582be536d44462893c674db6365f5080e3c61",
+      "sha256": "28baee80678e85aa7ce30c61c9c537cc128d605830be37142800062e9c4d8594",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128433,7 +128457,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/check_licensed_readers.py",
-      "sha256": "dd4b4762522e4c5f431e0aa2cd8de7b0885154731a490142680bd3346df46545",
+      "sha256": "07f0825ab8f1b67c6fccfa19847c29a764c5ecfcaa6c59ddf9a074e6fc651c42",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128463,7 +128487,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/prepare_ati_licensed.py",
-      "sha256": "1c58702709815dfce9f72d9ea57cb21f1b6854d612a3a9811a37df86c3031c73",
+      "sha256": "6843a99d2da6fcd5195b673f4e97b8212b11c5989207001fb5bc3462138399e9",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128499,19 +128523,19 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/publication_rights.py",
-      "sha256": "057dc0ba25194c6f98be6418c180a3eaeb7931d6c140b97202dce4e6b0c1df81",
+      "sha256": "6ed1800a512bd7094fec4e128348aebd6adff44b8057953cd222857e5f8803a8",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/render_cc0_reader.py",
-      "sha256": "3ff3caf7db4b3298689c4553db8f84f25dece84b7b0a1b8983fabe639bda551d",
+      "sha256": "0183de26ae8a10ee557ea535cd62394ca29df869814930da5bc5dc84567c41b6",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
       "path": "tools/buddhist_canon_pipeline/repair_licensed_identity.py",
-      "sha256": "9f0ef2ff1aad6acb9cf84667ee90ef05041c73345efed839c3625cd9ee48cee8",
+      "sha256": "14b2203f75caf756abdfce6ed26373c40918a44572bd88e8a8d3c638f8a2d73a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

@@ -3888,16 +3888,13 @@
       "prior_record_id": null,
       "review_flags": [
         "Translation completeness is ABBREVIATED; see completeness_scope.",
-        "Publisher numbering differs; see mapping_evidence."
+        "Publisher numbering differs; a pinned discourse-content comparison establishes this association."
       ],
       "mapping_evidence": {
-        "method": "single-unit ID and pinned Pali title agree",
-        "pali": {
-          "git_blob_sha1": "b861a904af39827f4745118fee35c200a8f2e53c",
-          "upstream_file": "root/pli/ms/sutta/an/an3/an3.34_root-pli-ms.json"
-        },
-        "publisher_alternate_id": "Thai 3.34; BJT 3.34",
-        "publisher_id": "AN 3.33"
+        "method": "Content-verified edition concordance",
+        "review_id": "an-ati-extra-3-33-than-20261112",
+        "publisher_id": "AN 3.33",
+        "publisher_alternate_id": "Thai 3.34; BJT 3.34"
       },
       "source_partition_version": 2
     },
@@ -3985,16 +3982,13 @@
       "prior_record_id": null,
       "review_flags": [
         "Translation completeness is PARTIAL; see completeness_scope.",
-        "Publisher numbering differs; see mapping_evidence."
+        "Publisher numbering differs; a pinned discourse-content comparison establishes this association."
       ],
       "mapping_evidence": {
-        "method": "single-unit ID and pinned Pali title agree",
-        "pali": {
-          "git_blob_sha1": "c973767f277e9257f87b32ab09cb5272a63b6f69",
-          "upstream_file": "root/pli/ms/sutta/an/an3/an3.35_root-pli-ms.json"
-        },
-        "publisher_alternate_id": "Thai 3.35; BJT 3.35",
-        "publisher_id": "AN 3.34"
+        "method": "Content-verified edition concordance",
+        "review_id": "an-ati-extra-3-34-than-20261112",
+        "publisher_id": "AN 3.34",
+        "publisher_alternate_id": "Thai 3.35; BJT 3.35"
       },
       "source_partition_version": 2
     },
@@ -4652,7 +4646,7 @@
       "source_partition_version": 2
     },
     {
-      "canonical_id": "AN 3.77",
+      "canonical_id": "AN 3.76",
       "collection": "anguttara-nikaya",
       "title": "Bhava Sutta: Becoming (1)",
       "translator": "Thanissaro Bhikkhu",
@@ -4670,8 +4664,8 @@
         "identify-changes",
         "noncommercial"
       ],
-      "local_path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-77.txt",
-      "sha256": "0ffd63b78f96d46190fb6b7642c48453261c901e1f7cd66e20a8df350bd7f20d",
+      "local_path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-76.txt",
+      "sha256": "be6775854c468cc843f484cf1dad80fd41ee095f0073331f5a6319d21f9f307a",
       "body_sha256": "e1dad5fbac3ebb81bb87278c3c5b4530009f5dae069e1ea892fade10ae684529",
       "source_snapshot": "metadata/source-snapshots/licensed/72bb66fd22a4bce15a59168a930de97f6cbd086b7cd285643d2a116662c84d81.source",
       "source_sha256": "72bb66fd22a4bce15a59168a930de97f6cbd086b7cd285643d2a116662c84d81",
@@ -4685,17 +4679,13 @@
       "changes": "Presentation only: original HTML markup reflowed into plain text; wording, numbering and source repetitions retained. No repetitions expanded.",
       "prior_record_id": null,
       "review_flags": [
-        "Translation completeness is ABBREVIATED; see completeness_scope.",
-        "Publisher numbering differs; see mapping_evidence."
+        "Translation completeness is ABBREVIATED; see completeness_scope."
       ],
       "mapping_evidence": {
-        "method": "single-unit ID and pinned Pali title agree",
-        "pali": {
-          "git_blob_sha1": "cd5357d08355f0fe5d1a533be60e361a96974334",
-          "upstream_file": "root/pli/ms/sutta/an/an3/an3.77_root-pli-ms.json"
-        },
-        "publisher_alternate_id": "Thai 3.77",
-        "publisher_id": "AN 3.76"
+        "method": "Content-verified edition concordance",
+        "review_id": "an-ati-extra-3-76-than-20261112",
+        "publisher_id": "AN 3.76",
+        "publisher_alternate_id": "Thai 3.77"
       },
       "source_partition_version": 2
     },
@@ -5159,7 +5149,7 @@
       "source_partition_version": 2
     },
     {
-      "canonical_id": "AN 3.97",
+      "canonical_id": "AN 3.96",
       "collection": "anguttara-nikaya",
       "title": "Ajaniya Sutta: The Thoroughbred",
       "translator": "Thanissaro Bhikkhu",
@@ -5177,8 +5167,8 @@
         "identify-changes",
         "noncommercial"
       ],
-      "local_path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-97.txt",
-      "sha256": "1fdb5fe2a8e52887cd2c4fcdd3bb0033e8acef31c6af592f5d3c9ca67f2f58ab",
+      "local_path": "theravada/tipitaka/translations/en/licensed/ati-thanissaro-bhikkhu/an-3-96.txt",
+      "sha256": "443d97d3bbcca0aa0cf295a5f5f65bedc2201491dad34cb2a6ba8861481f41b6",
       "body_sha256": "e76e26bdf96c4fb93276691aaeb84fa3728e7a6ff03c917a216b8982cc706b75",
       "source_snapshot": "metadata/source-snapshots/licensed/bca1045719c5176d248f7050fea6ba178c858374f41800025fab764c91530903.source",
       "source_sha256": "bca1045719c5176d248f7050fea6ba178c858374f41800025fab764c91530903",
@@ -5193,16 +5183,13 @@
       "prior_record_id": null,
       "review_flags": [
         "Translation completeness is ABBREVIATED; see completeness_scope.",
-        "Publisher numbering differs; see mapping_evidence."
+        "Publisher numbering differs; a pinned discourse-content comparison establishes this association."
       ],
       "mapping_evidence": {
-        "method": "single-unit ID and pinned Pali title agree",
-        "pali": {
-          "git_blob_sha1": "3764fbaa7292de36b15d85c84c8a183ecffaa29b",
-          "upstream_file": "root/pli/ms/sutta/an/an3/an3.97_root-pli-ms.json"
-        },
-        "publisher_alternate_id": "Thai 3.97",
-        "publisher_id": "AN 3.94"
+        "method": "Content-verified edition concordance",
+        "review_id": "an-ati-extra-3-94-than-20261112",
+        "publisher_id": "AN 3.94",
+        "publisher_alternate_id": "Thai 3.97"
       },
       "source_partition_version": 2
     },

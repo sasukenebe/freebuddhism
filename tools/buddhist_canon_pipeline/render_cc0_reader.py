@@ -199,6 +199,18 @@ def render_html(config: dict, body: str) -> str:
         if group_members else ""
     )
     metadata_notes = config.get("metadata_notes", [])
+    # These values are already shown in the source block. Do not alter the full
+    # original notice; omit only redundant presentation copies of the same fields.
+    duplicate_notes = {label + config.get(field, "") for label, field in (
+        ("Copyright: ", "copyright"), ("License notice: ", "license_notice"), ("License URL: ", "license_url"))}
+    cleaned_notes = []
+    for note in metadata_notes:
+        if config.get("license_notice") and note in duplicate_notes:
+            continue
+        if note.startswith("Attribution: ") and config.get("license_notice"):
+            note = note.replace(config["license_notice"], "").rstrip()
+        cleaned_notes.append(note)
+    metadata_notes = cleaned_notes
     details_html = (
         '<details><summary>Edition details</summary><ul>'
         + "".join(f"<li>{html.escape(note)}</li>" for note in metadata_notes)
@@ -215,8 +227,9 @@ def render_html(config: dict, body: str) -> str:
         if config.get("original_book_href") else ""
     )
     rights_notice = (
-        '<p>' + html.escape(config.get("copyright", "")) + '</p><p>'
-        + html.escape(config.get("license_notice", "")) + '</p>'
+        (('<p>' + html.escape(config.get("copyright", "")) + '</p>')
+         if config.get("copyright") and config["copyright"] not in config["license_notice"] else '')
+        + '<p>' + html.escape(config.get("license_notice", "")) + '</p>'
         if config.get("license_notice") else ""
     )
     publisher_references = (

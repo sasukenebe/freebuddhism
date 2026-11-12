@@ -1,8 +1,100 @@
 {
   "schema_version": 1,
   "date": "2026-11-11",
-  "scope": "Explicit discourse-content comparisons for the previously title-remapped editions. Intervals pin comparison evidence without quoting licensed passages in project metadata.",
+  "scope": "Explicit discourse-content comparisons for title-remapped editions and additional edition-number differences. Intervals pin comparison evidence without quoting licensed passages in project metadata.",
   "records": [
+    {
+      "review_id": "an-ati-extra-3-33-than-20261112",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.033.than.html",
+      "source_sha256": "5dadfa68f73bc42ed4a659ade059b0b7f1d1f394320d3103b2484bb530e39c1a",
+      "source_snapshot": "metadata/source-snapshots/licensed/5dadfa68f73bc42ed4a659ade059b0b7f1d1f394320d3103b2484bb530e39c1a.source",
+      "publisher_id": "AN 3.33",
+      "canonical_id": "AN 3.34",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.34.txt",
+      "canonical_text_sha256": "13b59d18b19f5d15dd59208b4942099c770a061d06e94e38fc0263f305564261",
+      "source_anchors": [
+        {
+          "start": 385,
+          "end": 537,
+          "sha256": "403577a40790a2a062d3f7a7fe1f4a5e67fd4924276d471d11c39ba21c59f742"
+        },
+        {
+          "start": 1634,
+          "end": 1695,
+          "sha256": "a6d6d98d666fd377d6760682482ab2714ccde5a00a4bbfa2fd0f69396f5e21f7"
+        },
+        {
+          "start": 3489,
+          "end": 3607,
+          "sha256": "8d453b3f2e2c64fb23f77e5ea9196fb2fdafa792fa705f185a54b929d2b8316e"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 253,
+          "end": 315,
+          "sha256": "e6f8619649a232a284d2d2f3b19ae73c9ac4ba2c25ab22ac40766ece3334f93f"
+        },
+        {
+          "start": 1258,
+          "end": 1308,
+          "sha256": "e581aa1ce47e19d7f7505ca5ac9d1c8b06b53369c9ccb8137ff56ff1e9a49339"
+        },
+        {
+          "start": 2842,
+          "end": 2980,
+          "sha256": "d1fa76ac930a271b9cbd2d0ac26a85616951469515bbc78fc9723aad0ae786ae"
+        }
+      ],
+      "review_basis": "Both discourses explain greed, hate and delusion as sources of actions and their later results, compare those actions to viable seeds growing in prepared soil with rain, then contrast actions rooted in non-greed, non-hate and non-delusion with seeds burned to ashes and dispersed by wind or water. Both conclude with verses about the ignorant person experiencing those actions and the knowledgeable mendicant abandoning bad destinies. This content establishes canonical AN 3.34. Canonical AN 3.33 instead has Sariputta ask for a teaching, instructions against I-making, mine-making and conceit, and a quotation from the Questions of Udaya. Preserve the existing AN 3.34 target and the original publisher AN 3.33 identifier; alternate numbering supports provenance but does not establish identity."
+    },
+    {
+      "review_id": "an-ati-extra-3-34-than-20261112",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.034.than.html",
+      "source_sha256": "2a8e5a14ee88b55f6fa74f71259152d3cef40d95b7aeb8addc8e54efe3563756",
+      "source_snapshot": "metadata/source-snapshots/licensed/2a8e5a14ee88b55f6fa74f71259152d3cef40d95b7aeb8addc8e54efe3563756.source",
+      "publisher_id": "AN 3.34",
+      "canonical_id": "AN 3.35",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.35.txt",
+      "canonical_text_sha256": "9b7a97fb3bfa61de6b3294a0d760c2a8fbc822f569e002ba0ccc5406a0346829",
+      "source_anchors": [
+        {
+          "start": 369,
+          "end": 484,
+          "sha256": "b8bdc8849f6a26e663178cade82de6d9c0b9810329f94891d6ef55cf67d34a07"
+        },
+        {
+          "start": 1812,
+          "end": 1882,
+          "sha256": "65f48e278b275368c98e7e600867b2ab9c01310dc3109017ac74477733914077"
+        },
+        {
+          "start": 3391,
+          "end": 3503,
+          "sha256": "dadf2362552ca1a3bee64ddcfa8a760f5dae1deac6f03d1a876ac64d5055f73e"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 202,
+          "end": 302,
+          "sha256": "21829a6fdddcd67b12535a0077bcf4e6c2c42eea7eae9357b1ca9ba10006a9cb"
+        },
+        {
+          "start": 1381,
+          "end": 1478,
+          "sha256": "32ff8d5572a0716cfae3ccd71205baff0cc7b9aaec3de7e43cb6cfb684259dbd"
+        },
+        {
+          "start": 2301,
+          "end": 2437,
+          "sha256": "a11266b691f54f70b71b6a5fcc85b25b7af5ab4257ba259e57e6c0a579e47f4a"
+        }
+      ],
+      "review_basis": "Both narrate Hatthaka finding the Buddha on leaves beside a cattle track near Alavi in a cold winter and asking whether he slept comfortably. Both contrast this with a wealthy householder in a sheltered house on a luxurious couch, attended by four wives, who can nevertheless suffer fevers born of passion, aversion and delusion; the Buddha has abandoned those causes and sleeps at ease. Both close with a verse about the quenched brahmin sleeping peacefully. This content establishes canonical AN 3.35. Canonical AN 3.34 instead teaches roots of actions and viable versus burned seeds. Preserve the existing AN 3.35 target and original publisher AN 3.34 identifier. The publisher labels this source an excerpt and the manifest marks it PARTIAL; identity verification does not change that completeness classification."
+    },
     {
       "review_id": "an-ati-3-60-than",
       "status": "VERIFIED",
@@ -168,6 +260,52 @@
       "review_basis": "Both have Ananda at Ghosita monastery in Kosambi answer an Ajivaka lay follower by counterquestions about teaching, practicing and having abandoned greed/hate/delusion; the listener praises the impartial reply and takes refuge. Canonical AN 3.73 instead has Mahānāma ask whether concentration or knowledge comes first."
     },
     {
+      "review_id": "an-ati-extra-3-76-than-20261112",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.076.than.html",
+      "source_sha256": "72bb66fd22a4bce15a59168a930de97f6cbd086b7cd285643d2a116662c84d81",
+      "source_snapshot": "metadata/source-snapshots/licensed/72bb66fd22a4bce15a59168a930de97f6cbd086b7cd285643d2a116662c84d81.source",
+      "publisher_id": "AN 3.76",
+      "canonical_id": "AN 3.76",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.76.txt",
+      "canonical_text_sha256": "65b23639e64f9a3868e222c103c8fd535642a8ac845b03a99c17860b3f01bfa2",
+      "source_anchors": [
+        {
+          "start": 660,
+          "end": 734,
+          "sha256": "be0b3e39fb0be1a075aced1fcc5b7d0519206c2ea04fa01fa8aafe375650762c"
+        },
+        {
+          "start": 738,
+          "end": 861,
+          "sha256": "5d144db019ff1e46203f212491dfaf56a31552cc9de3d4afdac51b7b08617015"
+        },
+        {
+          "start": 1481,
+          "end": 1606,
+          "sha256": "3dd86208ea309777f17656f847432918b147c74d5e1d85a57167b8e27d0afa1b"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 525,
+          "end": 613,
+          "sha256": "29e41cb3cb2162426bb5c139e9925525441bbdaaa5c62046eb7c357c88bc0a13"
+        },
+        {
+          "start": 614,
+          "end": 729,
+          "sha256": "615d9a37471da8433987aaae85b6f2032af1f8833b422251c59ab7f0c80ff338"
+        },
+        {
+          "start": 1467,
+          "end": 1583,
+          "sha256": "7482b4acbb0071339ea9e9f40e2bcccbfbabeb1ee5e762d2472a62bff8de851b"
+        }
+      ],
+      "review_basis": "Both have Ananda ask how becoming or continued existence occurs, test whether it could occur without deeds ripening in the sensual, form and formless realms, and compare deeds to a field, consciousness to a seed and craving to moisture. The decisive repeated statement is that the consciousness of beings hindered by ignorance and fettered by craving is established in a lower, middle or higher realm. Canonical AN 3.76 has that same subject in all three statements. Canonical AN 3.77 shares the question, simile and realms but replaces the established consciousness with the intention and aim of beings in all three statements. Therefore the source belongs to AN 3.76, despite its recorded Thai alternate AN 3.77 and current site target AN 3.77. Preserve both publisher identifiers while correcting the canonical association."
+    },
+    {
       "review_id": "an-ati-3-78-than",
       "status": "VERIFIED",
       "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.078.than.html",
@@ -330,6 +468,52 @@
         }
       ],
       "review_basis": "Both enumerate urgent farming tasks but deny a farmer can command crops to grow/ripen today/tomorrow; likewise a monk must train without commanding immediate liberation. Canonical AN 3.91 is Kassapagotta at Pankadha regretting impatience about training rules; AN 3.93 concerns three forms of seclusion and a different harvest simile."
+    },
+    {
+      "review_id": "an-ati-extra-3-94-than-20261112",
+      "status": "VERIFIED",
+      "source_url": "https://www.accesstoinsight.org/tipitaka/an/an03/an03.094.than.html",
+      "source_sha256": "bca1045719c5176d248f7050fea6ba178c858374f41800025fab764c91530903",
+      "source_snapshot": "metadata/source-snapshots/licensed/bca1045719c5176d248f7050fea6ba178c858374f41800025fab764c91530903.source",
+      "publisher_id": "AN 3.94",
+      "canonical_id": "AN 3.96",
+      "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an3/an3.96.txt",
+      "canonical_text_sha256": "ad68fb818f0f8acb253eaafa0665790235f3a3ff249daece9680efadad6f81f1",
+      "source_anchors": [
+        {
+          "start": 996,
+          "end": 1100,
+          "sha256": "e0e632a6117e012c10dee2c33629b603d2e79662516147dee5057a1d28ac150e"
+        },
+        {
+          "start": 1808,
+          "end": 1976,
+          "sha256": "b5214f55deda897652c7c0d5bfc91e3d2a458dc8504a62a92e4196e5c09fcb80"
+        },
+        {
+          "start": 1977,
+          "end": 2164,
+          "sha256": "78a4b83c1dab385b253d9d896122e934895f1f692f667bffff96a7361ff6ddf4"
+        }
+      ],
+      "canonical_anchors": [
+        {
+          "start": 740,
+          "end": 793,
+          "sha256": "6b0bce434b0f63cdc3b7793569b8055bd058520985c4e7aeae2c16e1ea47fa11"
+        },
+        {
+          "start": 1395,
+          "end": 1491,
+          "sha256": "a79075cfdeb534f3dbda4f7ace0356036963ac7854b89d565fe2288250f5dfd5"
+        },
+        {
+          "start": 1494,
+          "end": 1629,
+          "sha256": "4b2758705dd33c52b8efb417679b70685136c5ea82f071826c5ebfd183d86f18"
+        }
+      ],
+      "review_basis": "Both compare a monk with a royal thoroughbred whose three qualities are beauty, strength and speed: beauty is ethical restraint, strength is energy for abandoning unskillful qualities and developing skillful qualities, and speed is understanding suffering, its origin, its cessation and the path to its cessation. The four-truths definition of speed identifies canonical AN 3.96. Canonical AN 3.97 shares the horse simile, ethics and energy but defines speed as non-returning after ending the five lower fetters. Canonical AN 3.98 instead defines speed as undefiled liberation after ending all defilements. Canonical AN 3.94 uses the autumn sun to illustrate the Dhamma eye and abandoning fetters, with no horse simile. Correct the current AN 3.97 target to AN 3.96, preserving publisher AN 3.94 and its Thai alternate AN 3.97."
     },
     {
       "review_id": "an-ati-3-120-than",

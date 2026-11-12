@@ -195,6 +195,9 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
         mapping = record.get("mapping_evidence", {})
         if mapping.get("method") == "unique pinned Pali title within publisher chapter; numbering corrected":
             raise ValueError(f"Title-only discourse remapping is not publishable: {key}")
+        if (mapping.get("publisher_id") and mapping["publisher_id"] != record["canonical_id"]
+                and mapping.get("method") != "Content-verified edition concordance"):
+            raise ValueError(f"Different publisher/site numbers require discourse-content review: {key}")
         if mapping.get("method") == "Content-verified edition concordance":
             review = identity_for_source(record["source_url"], record["source_sha256"], root)
             if (not review or review["canonical_id"] != record["canonical_id"]
@@ -218,3 +221,51 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
               or held["conditions"] != license_conditions(name)):
             raise ValueError("Held publisher-source license changed")
     return manifest
+
+
+def verify_published_source(record: dict, root: Path = ROOT) -> None:
+    """Recompare real protected HTML and its original ID, not just saved hashes."""
+    if not record.get("mapping_evidence"):
+        return
+    from prepare_ati_licensed import fields, region, split_publisher_references
+    source_path = checked_path(root, record["source_snapshot"])
+    if sha256(source_path) != record["source_sha256"]:
+        raise ValueError("Publisher source changed")
+    source = source_path.read_text(encoding="utf-8")
+    is_ati = urlsplit(record["source_url"]).netloc == "www.accesstoinsight.org"
+    if is_ati:
+        metadata = fields(source)
+        prefix = metadata["NIKAYA_ABBREV"]
+        if prefix == "KN":
+            prefix = {"khp": "Kp", "ud": "Ud", "iti": "Iti", "snp": "Snp",
+                      "thag": "Thag", "thig": "Thig"}[urlsplit(record["source_url"]).path.split("/")[3]]
+        number = metadata["NUMBER"]
+        if prefix in {"AN", "SN"}:
+            number = metadata["SECTION"] + "." + number
+    else:
+        class Title(HTMLParser):
+            def __init__(self):
+                super().__init__(convert_charrefs=True)
+                self.active, self.parts = False, []
+            def handle_starttag(self, tag, attrs):
+                if tag == "title": self.active = True
+            def handle_endtag(self, tag):
+                if tag == "title": self.active = False
+            def handle_data(self, value):
+                if self.active: self.parts.append(value)
+        parser = Title()
+        parser.feed(source)
+        match = re.match(r"\s*(DN|MN|SN|AN|Kp|Khp|Ud|Iti|Snp|Sn|Thag|Thig)\s+(\d+(?:[.:]\d+)?)\b", "".join(parser.parts))
+        if not match:
+            raise ValueError("Publisher title has no clear original discourse ID")
+        prefix, number = match.groups()
+        prefix = {"Khp": "Kp", "Sn": "Snp"}.get(prefix, prefix)
+    publisher_id = prefix + " " + ".".join(str(int(n)) for n in number.replace(":", ".").split("."))
+    if publisher_id != record["mapping_evidence"]["publisher_id"]:
+        raise ValueError("Published source ID differs from its original HTML header: " + publisher_id)
+    if record.get("source_partition_version") != 2:
+        raise ValueError("Publisher source must use the reviewed text/reference partition")
+    body, references = split_publisher_references(region(source, "COPYRIGHTED_TEXT_CHUNK" if is_ati else "sutta"))
+    actual = checked_path(root, record["local_path"]).read_text(encoding="utf-8").split("\n\n", 1)[1]
+    if body != actual or references != record.get("publisher_references", ""):
+        raise ValueError("Published body/reference partition differs from its complete source: " + publisher_id)

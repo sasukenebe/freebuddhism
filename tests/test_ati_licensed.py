@@ -105,10 +105,9 @@ class AtiRightsAndMappingTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "per-text"):
             ati.ati_rights(source, "https://example.org/text")
 
-    def test_ati_an_numbering_uses_explicit_thai_and_pali_evidence(self):
-        canonical, evidence = ati.resolve_id("AN", "3.33", "Nidana Sutta", reference(), "Thai 3.34; BJT 3.34")
-        self.assertEqual(canonical, "AN 3.34")
-        self.assertEqual(evidence["publisher_id"], "AN 3.33")
+    def test_alternate_edition_numbers_alone_cannot_authorize_remapping(self):
+        with self.assertRaisesRegex(ValueError, "need content review"):
+            ati.resolve_id("AN", "3.33", "Nidana Sutta", reference(), "Thai 3.34; BJT 3.34")
 
     def test_unique_pali_title_cannot_override_source_identity(self):
         with self.assertRaisesRegex(ValueError, "needs content review"):

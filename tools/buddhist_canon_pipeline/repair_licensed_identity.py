@@ -72,7 +72,7 @@ def prepare_reviews(paths: list[Path]) -> dict:
                 raise ValueError("Conflicting reviewed identity decisions: " + row["source_url"])
             records[key] = row
     return {"schema_version": 1, "date": "2026-11-11",
-            "scope": "Explicit discourse-content comparisons for the previously title-remapped editions. Intervals pin comparison evidence without quoting licensed passages in project metadata.",
+            "scope": "Explicit discourse-content comparisons for title-remapped editions and additional edition-number differences. Intervals pin comparison evidence without quoting licensed passages in project metadata.",
             "records": sorted(records.values(), key=lambda row: row["source_url"])}
 
 
@@ -101,7 +101,9 @@ def plan(review_data: dict) -> tuple[dict, dict, dict[str, bytes], list[dict]]:
         if hashlib.sha256(old_body.encode()).hexdigest() != row["body_sha256"]:
             raise ValueError("Correction body changed: " + row["local_path"])
         mapping = row.get("mapping_evidence", {})
-        if mapping.get("method") == TITLE_ONLY:
+        additional_numbering = (mapping.get("publisher_id") and mapping["publisher_id"] != row["canonical_id"]
+                                and mapping.get("method") != "Content-verified edition concordance")
+        if mapping.get("method") == TITLE_ONLY or additional_numbering:
             review = reviews.get((row["source_url"], row["source_sha256"]))
             if not review:
                 retain_source_rights(original)
@@ -124,7 +126,11 @@ def plan(review_data: dict) -> tuple[dict, dict, dict[str, bytes], list[dict]]:
             changes.append({"source_url": row["source_url"], "version": row["version"],
                             "previous_canonical_id": original["canonical_id"], "publisher_id": review["publisher_id"],
                             "canonical_id": row["canonical_id"], "review_id": review["review_id"],
-                            "action": "CORRECTED" if row["canonical_id"] != original["canonical_id"] else "CONTENT_CONFIRMED"})
+                            "review_scope": ("additional_edition_numbering" if additional_numbering and mapping.get("method") != TITLE_ONLY
+                                             else "title_remapping"),
+                            "action": ("CORRECTED" if row["canonical_id"] != original["canonical_id"]
+                                       else "EDITION_NUMBERING_CONFIRMED" if additional_numbering and mapping.get("method") != TITLE_ONLY
+                                       else "CONTENT_CONFIRMED")})
             row["review_flags"] = [flag for flag in row.get("review_flags", [])
                                    if flag != "Publisher numbering differs; see mapping_evidence."]
             if review["publisher_id"] != row["canonical_id"]:
@@ -167,7 +173,10 @@ def plan(review_data: dict) -> tuple[dict, dict, dict[str, bytes], list[dict]]:
     manifest.update(count=len(records), records=records,
                     held_source_records=sorted(held_sources.values(), key=lambda row: row["source_url"]))
     report = {"date": "2026-11-11", "prior_editions": len(records) + len(held), "editions": len(records),
-              "title_only_associations_reviewed": len(changes), "corrections": changes,
+              "title_only_associations_reviewed": sum(r.get("review_scope") != "additional_edition_numbering" for r in changes),
+              "additional_numbering_associations_reviewed": sum(r.get("review_scope") == "additional_edition_numbering" for r in changes),
+              "additional_numbering_associations_confirmed": sum(r["action"] == "EDITION_NUMBERING_CONFIRMED" for r in changes),
+              "corrections": changes,
               "held": held, "publisher_reference_editions": sum(bool(r.get("publisher_references")) for r in records),
               "limits": "Full-source character preservation and discourse identity are separate checks. No translation wording or repeated passage is invented."}
     return manifest, report, texts, json.loads(MANIFEST.read_text())["records"]

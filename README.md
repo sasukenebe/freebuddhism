@@ -23,6 +23,9 @@ but not modification or sale. Excluded editions appear as metadata only.
   retain their free-distribution/no-alteration terms and original PDFs.
 - Rights and translation completeness are separate fields. Unknown completeness
   is not represented as complete.
+- Populated download ZIPs retain file-specific terms in REUSE-TERMS.txt and
+  LICENSE-MANIFEST.json, including source links and payload hashes. No blanket
+  license overrides the individual works. Empty collections contain only a notice.
 - `metadata/excluded-sources.json` records excluded editions and assets without
   including their text.
 

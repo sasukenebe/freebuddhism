@@ -8,10 +8,30 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools/buddhist_canon_pipeline"))
 from check_licensed_readers import check_reader
 from build_eligible_readers import validate_page
-from render_cc0_reader import render_pdf, verify_pdf_body
+from render_cc0_reader import render_html, render_pdf, verify_pdf_body
 
 
 class LicensedReaderTests(unittest.TestCase):
+    def test_copyright_display_is_deduplicated_without_shortening_the_notice(self):
+        copyright = "Copyright Example Author"
+        notice = copyright + ". Attribution and noncommercial use; preserve this complete notice."
+        config = {"canonical_id": "AN 1.1", "title": "Example", "translator": "Author",
+                  "source_url": "https://example.org/original", "source_repository": "", "source_revision": "",
+                  "license": "CC-BY-NC-4.0", "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+                  "copyright": copyright, "license_notice": notice,
+                  "metadata_notes": ["Copyright: " + copyright, "License notice: " + notice,
+                                     "Attribution: Original publication; " + notice,
+                                     "Copyright: A different earlier edition"],
+                  "collection_href": "index.html", "collection_label": "AN",
+                  "local_text_href": "example.txt", "html_download_href": "example.html",
+                  "pdf_download_href": "example.pdf",
+                  "translations": [{"label": "Author", "current": True}]}
+        page = render_html(config, "Original discourse.\n")
+        self.assertEqual(page.count(notice), 1)
+        self.assertEqual(page.count(copyright), 1)
+        self.assertIn("Attribution: Original publication;", page)
+        self.assertIn("Copyright: A different earlier edition", page)
+
     def test_pdf_preserves_spaced_asterisk_separator_and_all_words(self):
         with tempfile.TemporaryDirectory() as temporary:
             target = Path(temporary) / "separator.pdf"
