@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "scope": "All held ATI/dhammatalks source pages and the SC PDF in this bounded batch; source pages are not necessarily unique suttas. PTS EPUB and Candana work have separate review lists.",
-  "count": 847,
+  "count": 848,
   "sources": [
     {
       "source": "ati",
@@ -7625,6 +7625,15 @@
       "questions": [
         "HOLD_EXTRACTION_ORDER",
         "154 of 664 PDF pages differ in text extraction order."
+      ]
+    },
+    {
+      "source": "Ancient Buddhist Texts",
+      "title": "Ja 93",
+      "original": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/093.htm",
+      "source_sha256": "63a15156c6cd2f7659d0c23fbd9a4110774e87c563c6e6c05ceb5161f3598ddf",
+      "questions": [
+        "Unmapped private-use source font characters: U+F82A. Preserve original; verify publisher font mapping before release."
       ]
     }
   ]

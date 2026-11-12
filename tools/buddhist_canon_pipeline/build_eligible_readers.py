@@ -465,6 +465,7 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "source_label": record["source_label"],
         "metadata_notes": record["metadata_notes"],
         "pdf_separator_spaces": bool(re.search(r"(?m)^\s*\*(?:[ \t]+\*)+[ \t]*$", record["body"])),
+        "pdf_soft_hyphens": "\u00ad" in record["body"],
         "original_book_href": record.get("original_book_url", ""),
         "collection_label": record["collection_label"],
         "collection_href": route_for(record["site_path"], record["collection_page"]),
@@ -499,6 +500,8 @@ def pdf_render_hash(config: dict) -> str:
     inputs = {key: config.get(key) for key in PDF_CONFIG_FIELDS}
     if config.get("pdf_separator_spaces"):
         inputs["pdf_separator_spaces"] = 1
+    if config.get("pdf_soft_hyphens"):
+        inputs["pdf_soft_hyphens"] = 1
     if config.get("group_reference"):
         inputs["group_reference"] = config["group_reference"]
         inputs["group_members"] = config.get("group_members", [])

@@ -6,6 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -108,6 +109,8 @@ def verified_manifest(root: Path = ROOT, manifest_path: Path | None = None) -> d
             raise ValueError(f"Licensed translation body changed: {key}")
         if not body.strip() or record.get("source_comparison") != "PASS":
             raise ValueError(f"Complete source comparison is required: {key}")
+        if any(unicodedata.category(c) == "Co" for c in body):
+            raise ValueError(f"Unmapped private-use source font character: {key}")
     if manifest.get("count", len(identifiers)) != len(identifiers):
         raise ValueError("Licensed-collection manifest count differs from its records")
     return manifest

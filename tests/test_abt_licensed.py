@@ -254,11 +254,14 @@ class SavedBatchTests(unittest.TestCase):
             abt.write_json(proposal, {"records": rows})
             manifest_path = metadata / "source-manifests/licensed-collections.json"
             with patch.object(importer, "ROOT", root), patch.object(importer, "MANIFEST", manifest_path), patch.object(importer, "verified_manifest", lambda: rights.verified_manifest(root=root, manifest_path=manifest_path)):
-                self.assertEqual(importer.import_proposal(proposal), 287)
+                self.assertEqual(importer.import_proposal(proposal), 286)
                 manifest = rights.verified_manifest(root=root, manifest_path=manifest_path)
-                self.assertEqual(len(manifest["records"]), 287)
+                self.assertEqual(len(manifest["records"]), 286)
                 by_id = {r["prior_record_id"]: r for r in manifest["records"]}
                 for row in self.rows:
+                    if row["canonical_id"] == "Ja 93":
+                        self.assertNotIn(row["prior_record_id"], by_id)
+                        continue
                     imported = by_id[row["prior_record_id"]]
                     wrapped = (root / imported["local_path"]).read_text(encoding="utf-8")
                     self.assertIn(" ".join(row["license_notice"].split()), wrapped)

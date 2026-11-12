@@ -5,6 +5,63 @@
   "rights_and_completeness_are_independent": true,
   "text_versions": [
     {
+      "record_id": "abt-jataka-text-ledger.tsv:Ja 93:anandajoti-abt",
+      "canonical_id": "Ja 93",
+      "collection": "khuddaka-nikaya/jataka",
+      "source_group": "ABT Jataka English verse sets",
+      "title": "The Story about Using Things on Trust",
+      "translator": "Ānandajoti Bhikkhu",
+      "translator_label": "Ānandajoti Bhikkhu — English verses (CC-BY-SA-4.0)",
+      "source_url": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/093.htm",
+      "historical_local_paths": [
+        "theravada/tipitaka/translations/en/ancient-buddhist-texts/anandajoti/jataka-verses/ja93.txt"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "rights_status": "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK",
+      "exclusion_reason": "The current publication policy accepts this license; complete source validation and import are still pending.",
+      "rights_evidence": {
+        "note": "source manifest abt-jataka-verses.json",
+        "urls": [
+          "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+        ]
+      },
+      "completeness_status": "COMPLETE",
+      "completeness_scope": "Complete canonical Jataka verse set only; not the narrative story or commentary.",
+      "completeness_evidence": {
+        "note": "Manifest scope and pinned verse audit; source set matched against the pinned Pali edition. Evidence: source manifest abt-jataka-verses.json",
+        "urls": []
+      },
+      "existing_site_routes": {
+        "reader_html": "https://freebuddhism.org/theravada/tipitaka/sutta/khuddaka-nikaya/jataka/ja93/ja93-anandajoti-abt.html",
+        "reader_txt": "https://freebuddhism.org/theravada/tipitaka/translations/en/ancient-buddhist-texts/anandajoti/jataka-verses/ja93.txt",
+        "reader_pdf": "",
+        "source_text": "https://freebuddhism.org/theravada/tipitaka/translations/en/ancient-buddhist-texts/anandajoti/jataka-verses/ja93.txt",
+        "source_pdf": "",
+        "canonical_index": "https://freebuddhism.org/theravada/tipitaka/sutta/khuddaka-nikaya/jataka/ja93/index.html",
+        "collection_index": "https://freebuddhism.org/theravada/tipitaka/sutta/khuddaka-nikaya/jataka/index.html",
+        "tipitaka_index": "https://freebuddhism.org/theravada/tipitaka/site/tipitaka.html",
+        "downloads_index": "https://freebuddhism.org/theravada/tipitaka/site/downloads.html",
+        "global_archives": [
+          "https://freebuddhism.org/theravada/tipitaka/downloads/tipitaka-all.zip",
+          "https://freebuddhism.org/theravada/tipitaka/downloads/tipitaka-html.zip",
+          "https://freebuddhism.org/theravada/tipitaka/downloads/tipitaka-txt.zip"
+        ],
+        "collection_archive": "https://freebuddhism.org/theravada/tipitaka/downloads/khuddaka-nikaya-jataka.zip",
+        "archive_membership": {
+          "all": true,
+          "html": true,
+          "txt": true,
+          "pdf": false,
+          "collection_zip": {
+            "html": true,
+            "txt": true,
+            "pdf": false
+          }
+        },
+        "upstream_source_page": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/093.htm"
+      }
+    },
+    {
       "record_id": "licensed-sutta-books-text-ledger.tsv:Ps complete:nanamoli",
       "canonical_id": "Ps complete",
       "collection": "khuddaka-nikaya/patisambhidamagga",
@@ -19753,15 +19810,15 @@
     }
   ],
   "counts": {
-    "excluded_text_versions": 332,
+    "excluded_text_versions": 333,
     "excluded_standalone_assets": 11,
     "rights_status": {
-      "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 1,
+      "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 2,
       "PERMISSION_SCOPE_UNCLEAR": 136,
       "RIGHTS_UNVERIFIED": 195
     },
     "completeness_status": {
-      "COMPLETE": 138,
+      "COMPLETE": 139,
       "UNKNOWN": 194
     }
   }

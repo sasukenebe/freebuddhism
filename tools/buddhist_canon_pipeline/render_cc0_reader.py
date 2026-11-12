@@ -333,7 +333,9 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
         # marker √). Select a real Unicode glyph instead of silently dropping it.
         primary = pdfmetrics.getFont("ReaderNotoSans").face.charToGlyph
         parts = []
-        for character in value:
+        # U+00AD is a discretionary line-layout hint, not a printed hyphen.
+        # Keep it in source TXT/HTML, but do not create a visible PDF hyphen.
+        for character in value.replace("\u00ad", ""):
             escaped = html.escape(character)
             if character.isspace() or ord(character) in primary:
                 parts.append(escaped)
@@ -359,6 +361,8 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
         *(["Source revision: " + config["source_revision"]] if config.get("source_revision") else []),
         "License: " + config["license"] + (" — " + config["license_url"] if config.get("license_url") else ""),
         *config.get("metadata_notes", []),
+        *(["PDF presentation: discretionary soft-hyphen layout hints are omitted; original TXT and HTML retain them."]
+          if "\u00ad" in body else []),
     ]
     display_reference = config.get("group_reference", "").strip() or config["canonical_id"]
     story = [
@@ -372,7 +376,7 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             rendered = pdf_markup(line)
             # ReportLab/Poppler otherwise collapse the publisher's spaced
             # ornamental separator into "***". Preserve its visible spacing.
-            if re.fullmatch(r"\s*\*(?:\s+\*)+\s*", line):
+            if re.fullmatch(r"\s*(?:\*(?:\s+\*)+|\[[ \t]+[IVXLCDM]+[ \t]+\])\s*", line):
                 rendered = rendered.replace(" ", "&#160;&#160;")
             story.append(Paragraph(rendered, styles["body"]))
         else:
@@ -414,7 +418,7 @@ def verify_pdf_body(pdf_path: Path, body: str) -> None:
     if "\nText\n" not in extracted:
         raise ValueError("PDF is missing its source-text heading")
     extracted = extracted.split("\nText\n", 1)[1]
-    if normalized(body) not in normalized(extracted):
+    if normalized(body.replace("\u00ad", "")) not in normalized(extracted):
         raise ValueError(f"PDF text does not contain the complete source body in order: {pdf_path}")
 
 

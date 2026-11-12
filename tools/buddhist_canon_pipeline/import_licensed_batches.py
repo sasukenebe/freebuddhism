@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 import re
 import shutil
+import unicodedata
 
 from publication_rights import (
     ROOT, MANIFEST, FREE_GRANT, SCOPE_BASIS, COMPLETENESS,
@@ -99,6 +100,10 @@ def import_proposal(proposal_path: Path) -> int:
         body_hash = hashlib.sha256(body.encode()).hexdigest()
         if body_hash != row["body_sha256"] or not body.strip():
             raise ValueError(f"Prepared body changed: {row['canonical_id']}")
+        if any(unicodedata.category(character) == "Co" for character in body):
+            # Preserve the draft, but do not publish an unidentified font code
+            # as though it were a portable Unicode character.
+            continue
         original = input_path(row["source_snapshot"], proposal_path)
         source_hash = sha256(original)
         if source_hash != row["source_sha256"]:
@@ -113,6 +118,8 @@ def import_proposal(proposal_path: Path) -> int:
         if key in by_key:
             if by_key[key]["body_sha256"] != body_hash or by_key[key]["source_sha256"] != source_hash:
                 raise ValueError(f"Refusing to overwrite a different edition at {key}")
+            if row.get("mapping_evidence"):
+                by_key[key]["mapping_evidence"] = row["mapping_evidence"]
             continue
         slug = re.sub(r"[^a-z0-9]+", "-", row["canonical_id"].lower()).strip("-")
         relative = f"theravada/tipitaka/translations/en/licensed/{version}/{slug}.txt"
@@ -154,6 +161,8 @@ def import_proposal(proposal_path: Path) -> int:
                       review_flags=row.get("exceptions", []))
         if explicit:
             record["explicit_grant"] = explicit
+        if row.get("mapping_evidence"):
+            record["mapping_evidence"] = row["mapping_evidence"]
         by_key[key] = record
         added += 1
     manifest.update(schema_version=1, policy_version=4, count=len(by_key),
@@ -245,6 +254,15 @@ def write_held_sources() -> None:
                      "original": "https://palitextsociety.org/copyright-information/",
                      "source_sha256": row["source_sha256"],
                      "questions": [row["decision"], "154 of 664 PDF pages differ in text extraction order."]})
+    abt = ROOT / "build/abt-bulk-20261111/proposal.json"
+    if abt.is_file():
+        for row in json.loads(abt.read_text())["records"]:
+            body = input_path(row["body_path"], abt).read_text(encoding="utf-8")
+            codes = sorted({f"U+{ord(c):04X}" for c in body if unicodedata.category(c) == "Co"})
+            if codes:
+                rows.append({"source": "Ancient Buddhist Texts", "title": row["canonical_id"],
+                             "original": row["source_url"], "source_sha256": row["source_sha256"],
+                             "questions": ["Unmapped private-use source font characters: " + ", ".join(codes) + ". Preserve original; verify publisher font mapping before release."]})
     write_json(ROOT / "metadata/reports/licensed-held-sources-2026-11-11.json",
                {"date": "2026-11-11", "scope": "All held ATI/dhammatalks source pages and the SC PDF in this bounded batch; source pages are not necessarily unique suttas. PTS EPUB and Candana work have separate review lists.",
                 "count": len(rows), "sources": rows})

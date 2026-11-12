@@ -5,8 +5,8 @@
   "scope": "All 937 historically excluded entries with stated conditional licenses or free-distribution terms; counts are editions/sections, not promises of complete books.",
   "count": 937,
   "decisions": {
-    "IMPORTED": 936,
-    "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 1
+    "IMPORTED": 935,
+    "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 2
   },
   "records": [
     {
@@ -999,7 +999,7 @@
         "identify-changes",
         "share-alike"
       ],
-      "decision": "IMPORTED"
+      "decision": "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK"
     },
     {
       "record_id": "abt-jataka-text-ledger.tsv:Ja 94:anandajoti-abt",

@@ -1,11 +1,11 @@
 {
   "date": "2026-11-11",
   "scope": "Known English edition records. BUILD_ELIGIBLE means validated source/build inclusion; actual public deployment is recorded separately.",
-  "build_eligible_editions": 9918,
+  "build_eligible_editions": 9917,
   "build_eligible_text_ids": 6848,
-  "known_edition_records": 10250,
+  "known_edition_records": 10249,
   "by_state": {
-    "BUILD_ELIGIBLE": 9918,
+    "BUILD_ELIGIBLE": 9917,
     "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK": 1,
     "PERMISSION_SCOPE_UNCLEAR": 136,
     "RIGHTS_UNVERIFIED": 195
@@ -76987,15 +76987,6 @@
       "state": "BUILD_ELIGIBLE",
       "completeness": "COMPLETE",
       "source_url": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/092.htm"
-    },
-    {
-      "canonical_id": "Ja 93",
-      "collection": "khuddaka-nikaya/jataka",
-      "translator": "Ānandajoti Bhikkhu",
-      "license": "CC-BY-SA-4.0",
-      "state": "BUILD_ELIGIBLE",
-      "completeness": "COMPLETE",
-      "source_url": "https://ancient-buddhist-texts.net/English-Texts/Jataka-Verses/093.htm"
     },
     {
       "canonical_id": "Ja 94",
