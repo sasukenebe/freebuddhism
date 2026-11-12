@@ -1,6 +1,6 @@
 # Archive licenses and expanded identity gates
 
-Status: implemented and locally validated; clean-build checks and publication pending.
+Status: published and technically verified; full human proofreading remains pending.
 This is not a new text-license policy and does not approve full human proofreading.
 
 ## Scope and requirements
@@ -33,7 +33,7 @@ Retain publisher and alternate identifiers even where their numbering disagrees
 with the content-based decision. The original 28 corrections plus these two are
 30 confirmed errors; this does not clear all other associations semantically.
 
-## Planned verification
+## Verification scope
 
 - Each populated ZIP contains REUSE-TERMS.txt and LICENSE-MANIFEST.json. Compare
   its exact member set, payload SHA-256 values, full per-file rights and ZIP CRCs.
@@ -49,13 +49,12 @@ with the content-based decision. The original 28 corrections plus these two are
 - Run local regressions, full exact-file validation, exact-source GitHub checks,
   one deployment build and public browser/download/release-identity checks.
 
-Record measured results and remaining questions here after execution. The existing
-original-versus-converted review page remains the owner's review entry point:
+The original-versus-converted review page remains the owner's review entry point:
 https://freebuddhism.org/review/licensed-2026-11-11/.
 
 ## Local results
 
-- All 258 unit tests pass; one optional test is skipped. The real-source tests
+- All 260 unit tests pass; one optional test is skipped. The real-source tests
   cover all 1,750 protected publisher regions and all 30 previous wrong targets.
 - Exact-file validation passes: 21,430 allowlisted paths, 9,931 verified source
   hashes and 8,643 checked source HTML routes. Exclusion metadata is unchanged.
@@ -70,5 +69,34 @@ https://freebuddhism.org/review/licensed-2026-11-11/.
   Missing notices, conditions or license links cannot become a valid baseline
   for restricted works. Two additional regressions cover the repair, including
   all five original Candana books.
-- Full clean-build, deployed archive and live-browser checks remain pending;
-  these local results alone do not establish the current public server state.
+
+## Published release
+
+- Deployed source: 885f3b3463f24036f87399096bae6d7e7d3888dc. GitHub main was
+  advanced to that revision by a normal fast-forward, preserving all history.
+  Later documentation-only commits do not change the deployed source pin.
+- Exact-source GitHub checks passed on both the correction branch and main:
+  https://github.com/sasukenebe/freebuddhism/actions/runs/43186988074
+  and https://github.com/sasukenebe/freebuddhism/actions/runs/43192261127.
+  Clean regressions ran 249 tests with ten optional skips; the separate
+  secret-hook integration ran ten tests. The complete site and archive build
+  and every licensed/Candana reader check passed.
+- The normal targeted deployment passed both public hostname checks. Its build
+  contains 9,924 reader versions, 18,169 HTML routes and 31 archives, with zero
+  broken local links. Release identity is available at
+  https://freebuddhism.org/release.json and records an unmodified source tree.
+- All 2,685 licensed bodies/downloads match; all 87 reviewed associations appear
+  under their reviewed text nodes. The five held sources remain absent from the
+  reading index. All 875 individual Candana reader bodies match their pinned TXT.
+- Live browser checks pass for AN 10.76 and the two further AN corrections,
+  withdrawn wrong routes, separate references, copyright presentation, download
+  labels, UTF-8, plain fonts, mobile width, continuous reading, linked headings
+  and keyboard expansion. No page-script errors were reported.
+- The original homepage SHA-256 remains
+  d0c8848a045b7666438f0ba8146b167fabf2b284665c1388c009a7a9c90f4ff3.
+  Compression, image pins, shared proxy and other website containers are unchanged.
+- Immediate rollback point: 20261112T093154Z-1039692. Three earlier review
+  snapshots remain retained separately. No source or history cleanup was done.
+
+These checks establish this release's recorded preservation, association and
+license checks, not whole-corpus semantic clearance or full human proofreading.
