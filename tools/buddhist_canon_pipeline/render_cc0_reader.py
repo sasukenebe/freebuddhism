@@ -226,8 +226,8 @@ def render_html(config: dict, body: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(display_title)}</title>
 <style>
-.source-text {{ white-space: pre-wrap; font: inherit; overflow-wrap: anywhere; }}
-footer {{ overflow-wrap: anywhere; }}
+.source-text {{ white-space: pre-wrap; font: inherit; }}
+footer {{ overflow-wrap: break-word; }}
 @media print {{ nav, .downloads {{ display: none; }} }}
 </style>
 </head>

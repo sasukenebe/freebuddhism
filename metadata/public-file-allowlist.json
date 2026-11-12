@@ -128524,7 +128524,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/render_cc0_reader.py",
-      "sha256": "bd403c6d4bd0f785995472dac0f9675275a0be209a854c7fd91a4ea252212090",
+      "sha256": "ca39704d3aa57b0ef1eb9c38279c4311665d7093af3cee7d63771dd060245557",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
