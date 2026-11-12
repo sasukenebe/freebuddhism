@@ -9,7 +9,7 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "sha256": "8c19a86f771c35137dc638a5f409bc05332acbdc8793ad2071db30a45ebb91ed",
+      "sha256": "f409f3b59a167252cf98d9853f599bfa6bdd45edbc91eadca5f0067154d472db",
       "license_scope": "CC0-1.0 project configuration",
       "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
     },
@@ -18,6 +18,12 @@
       "sha256": "b8c3cae16756dd3c069197dd0fad3acc8e9e27cb2115899b38be8b1e2c3f5ee8",
       "license_scope": "CC0-1.0 project configuration",
       "rights_basis": "Owner-authored project configuration is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "CURRENT.md",
+      "sha256": "98e64f27b07c10d5b174d0b7b19e517d26a04f9643d8d4bf8301bceebf55c55f",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
     {
       "path": "LICENSE",
@@ -39,7 +45,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "f338f446653f260697e40cdf9d00078dfbc020b4ed66f1be32373867aed789de",
+      "sha256": "850fb7948a4b5f8cc2485964dbe6206e5942eef2d847900ab7a21c4df85bf5a7",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -69,7 +75,7 @@
     },
     {
       "path": "docs/tasks/authorised-bulk-imports-2026-11-11.md",
-      "sha256": "cb4dc31dfba41e0d11bbca722c67db38b2fa6fc0a26b2ea3963a33134f3a6305",
+      "sha256": "6ca2731e502638f2e85d4d913f20030574ffdaa690184e4177504eb468bb453a",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -118,6 +124,12 @@
     {
       "path": "docs/tasks/navigation-reading-experience.md",
       "sha256": "b39c15f74d824befc3bc36bd6ccb196b3d1447aa4a91a7e3565b22276bc2470d",
+      "license_scope": "CC0-1.0 project documentation",
+      "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
+    },
+    {
+      "path": "docs/tasks/sutta-coverage-first-2026-11-12.md",
+      "sha256": "a32fc0621a79e20d584cf3289fbdb543724755a0733959d7595cc72201a8beb2",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -232,6 +244,18 @@
     {
       "path": "metadata/reports/strict-license-classification-2026-10.json",
       "sha256": "0a4df14b22c859de0ed1a4e2f3a2192aaceb91316a8ec6f6a8318217673a5495",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/reports/sutta-coverage-current.json",
+      "sha256": "7fdf54c474bb16a7a8f413efa351efbfb91a54fdceba3aa580276424f0b8ac52",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/reports/sutta-gaps-current.csv",
+      "sha256": "51ab7d0f714fb773d43049e4b1ebfe24a543b5dacaac278a32245c760a6d6bc5",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -16490,6 +16514,18 @@
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
     {
+      "path": "metadata/sutta-coverage-priorities.json",
+      "sha256": "23b88fdb9d56faa533176846509ce4d917ad24e2805e519f932fcd533b7d8617",
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
+    },
+    {
+      "path": "metadata/sutta-reference-units.json",
+      "sha256": "7db5ea44168eb261e854897d0460e11b9ac832bf141d4dffc702614d118dec7f",
+      "license_scope": "CC0-1.0 SuttaCentral reference metadata",
+      "rights_basis": "SuttaCentral reference metadata is released under CC0-1.0; these files contain names and navigation ranges, not translated passages."
+    },
+    {
       "path": "metadata/vinaya-khandhaka-menu.json",
       "sha256": "805396686ee23f8f43191c4c154f3a1ae8d93e5f8d925b762cb6a4390ced840b",
       "license_scope": "CC0-1.0 SuttaCentral reference metadata",
@@ -16690,6 +16726,18 @@
     {
       "path": "tests/test_sc_licensed.py",
       "sha256": "e3537381acbde2219a365a1655af6994bd8f97bf4f739ec8191883295cde286c",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_sutta_coverage.py",
+      "sha256": "09c20b6b423da7c4a1f8e2f7bda2b94d7b5577a50c5456f63e5438ef29398961",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tests/test_suttafriends_preparation.py",
+      "sha256": "63022d7c13c15431c2e74bc555c41149083a4134daabae7057c89a5abc56285c",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128504,6 +128552,12 @@
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
     {
+      "path": "tools/buddhist_canon_pipeline/prepare_suttafriends.py",
+      "sha256": "f16baa65c4b4446fae229848dd2d35569b7afa488c4f5f994d7d97bb032b9672",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
       "path": "tools/buddhist_canon_pipeline/public_candana_review.py",
       "sha256": "1d278aec0a43a7cf18ad6c667deddca08c83aadb799e18fee01981838406e4fc",
       "license_scope": "0BSD",
@@ -128548,6 +128602,12 @@
     {
       "path": "tools/buddhist_canon_pipeline/serve_candana_review.py",
       "sha256": "d63e6d3aa58960102ca67a8874301265da5b160ac8ff7e49dd19864813938d9e",
+      "license_scope": "0BSD",
+      "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "tools/buddhist_canon_pipeline/sutta_coverage.py",
+      "sha256": "997255d46a893ebf03088dbba1c1d6c6aa657592c5df2a6e86b9ee80ac647509",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

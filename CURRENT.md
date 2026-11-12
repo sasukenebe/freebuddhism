@@ -1,0 +1,65 @@
+# Current path: complete Sutta Piṭaka coverage
+
+Owner direction: November 12, 2026. This is the active project path, not a claim
+that every text or translation has already been published.
+
+## Priority and completion target
+
+1. Provide at least one complete, correctly identified, legally redistributable
+   English edition of every text in the Theravāda Sutta Piṭaka, including the
+   Khuddaka collections represented by the reference inventory.
+2. Fill missing texts and replace partial-only coverage before increasing the
+   number of alternative translations of already covered texts.
+3. Publish checked gap-filling batches without waiting for the entire collection.
+4. Defer Abhidhamma until last. Preserve its existing sources and audit records,
+   but do not resume Abhidhamma conversion, OCR, import or publication work while
+   the Sutta Piṭaka coverage path remains unfinished.
+
+Use the broad existing Khuddaka collection scope, including Netti, Peṭakopadesa
+and Milindapañha. Record the reference edition and grouped numbering explicitly;
+do not pretend that different traditions have identical book or discourse counts.
+Vinaya already published remains available; unrelated Vinaya expansion and
+noncanonical author resources do not outrank missing Sutta Piṭaka texts.
+
+## Current execution
+
+- Build a reproducible inventory against pinned reference sources, not only the
+  site's existing reader pages. Empty books must not disappear from the report.
+- Keep text availability, completeness, source identity, reuse rights and actual
+  deployment as separate fields. An unknown field is not a pass.
+- Prioritize empty and thinly covered Khuddaka books: Niddesa, Buddhavaṃsa,
+  Paṭisambhidāmagga and Vimānavatthu. Check every other collection too; a large
+  translation count is not a complete-canon certificate.
+- For each missing unit record a candidate source and its precise next blocker.
+  Prefer existing native text/HTML/EPUB over a new OCR project. A complete verified
+  source book can be presented intact while individual segmentation is reviewed.
+- Prepare the largest cleared gap-filling batch. Keep source hashes, complete
+  notices, numbering evidence, repetitions, notes and verse structure intact.
+- Continue other cleared sources when one work needs permission or source review.
+  Unavailable English translations or unresolved rights remain explicit gaps;
+  never fabricate a translation, expansion or permission grant.
+
+## Required release checks
+
+Follow [authorised import requirements](docs/tasks/authorised-bulk-imports-2026-11-11.md)
+and the [identity and archive safeguards](docs/tasks/license-archives-and-identity-gates-2026-11-12.md).
+Require source preservation, discourse-content evidence for changed IDs, full
+file-specific rights, reader/download regressions, clean builds and deployed-page
+checks. Preserve the original homepage and established plain reading presentation.
+Human proofreading remains separately recorded; automated agreement is not its
+replacement. Author contact requires a separately approved exact message.
+
+The previous correction release is live at source commit
+885f3b3463f24036f87399096bae6d7e7d3888dc. Its 9,924 reader versions include
+alternative editions and Vinaya; that number is not a count of complete suttas.
+
+## First execution checkpoint
+
+The [coverage-first checkpoint](docs/tasks/sutta-coverage-first-2026-11-12.md)
+records the pinned reference inventory, gap counts and the next prepared batch.
+Machine-readable outputs are
+[coverage](metadata/reports/sutta-coverage-current.json) and
+[unresolved coverage CSV](metadata/reports/sutta-gaps-current.csv).
+Regenerate with `python tools/buddhist_canon_pipeline/sutta_coverage.py` after
+updating edition coverage; `--check` rejects stale outputs in local tests and CI.
+These are source/build reports, not an assertion that unimported drafts are live.

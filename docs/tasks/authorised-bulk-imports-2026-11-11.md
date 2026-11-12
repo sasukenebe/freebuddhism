@@ -4,11 +4,16 @@ The owner approved this requirements change on November 11, 2026. The goal is ma
 accurate, legally redistributable coverage of the English Sutta Piṭaka, followed by
 comparison and selection of preferred translations for each text.
 
+The owner's November 12 direction makes [complete Sutta Piṭaka coverage](../../CURRENT.md)
+the current path: fill missing texts and partial-only coverage before adding more
+alternative editions. Abhidhamma is deferred until last. Historical batch counts
+below describe their original checkpoints, not present completeness.
+
 The [November 11 identity correction](translation-identity-corrections-2026-11-11.md)
-is published and technically verified. Copy-preservation tests did not detect
-incorrect discourse associations. The correction reassigns 28 editions after reviewing
-all 83 title-only matches, retains 55 supported associations and holds five
-source-boundary cases.
+and [November 12 follow-up](license-archives-and-identity-gates-2026-11-12.md) are
+published and technically verified. Copy-preservation tests did not detect
+incorrect discourse associations. Together the reviews correct 30 editions across
+87 reviewed associations and retain five source-boundary holds.
 Do not treat the earlier text-preservation results as full identity clearance.
 
 ## Publication requirements

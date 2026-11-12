@@ -6,6 +6,13 @@ with documented redistribution rights: CC0, verified public domain, CC BY,
 BY-SA, BY-NC, BY-NC-SA, or an explicit source-specific grant. Some works permit free, unaltered distribution
 but not modification or sale. Excluded editions appear as metadata only.
 
+## Current path
+
+[CURRENT.md](CURRENT.md) owns the active coverage-first plan: provide at least
+one complete, correctly identified English edition of every Sutta Piṭaka text,
+filling missing and partial-only coverage before adding alternatives. Abhidhamma
+is deferred until last; its earlier sources and review records are retained.
+
 ## Rights
 
 - Original build code is 0BSD; original documentation and project metadata are
@@ -49,6 +56,11 @@ for each source file. New paths are denied until an explicit entry is reviewed;
 directory names and extensions do not grant a license. It lists itself with an
 explicit self-reference marker because a file cannot contain its own stable
 checksum. The generated site output is checked separately by the build.
+
+The pinned Sutta Piṭaka reference and gap inventory are checked separately with
+`python tools/buddhist_canon_pipeline/sutta_coverage.py --check`. Regenerate that
+report after changing the edition coverage inputs. Unverified completeness and
+whole-book alignment remain visible even when a matching identifier exists.
 
 The validator also reads Git's tracked-file index, independently of filesystem
 traversal. Tracked files under build/, .venv/ or __pycache__ are rejected even if
@@ -119,7 +131,7 @@ or proof of survival through a power or filesystem failure.
 
 ## Publishing
 
-The [current Candana import checkpoint](docs/tasks/candana-import-expansion-2026-11-07.md)
+The [Candana import checkpoint](docs/tasks/candana-import-expansion-2026-11-07.md)
 records imported editions, background draft preparation, verification and remaining
 source/permission work. Extra translations and filling previously empty canon books
 are tracked separately; edition counts are not counts of complete books.

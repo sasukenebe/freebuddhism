@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "collections": {
+    "khuddaka-nikaya/vimanavatthu": {
+      "next_action": "Prepare all 85 cached individual Sutta Friends sources; retain the publisher's explicit flat/chapter concordance. Review individual-sharing versus collection-archive scope before publication.",
+      "sources": ["https://suttafriends.org/vimana-vatthu/", "https://suttafriends.org/vimana-vatthu-numbering/", "https://suttafriends.org/copyright/"]
+    },
+    "khuddaka-nikaya/petavatthu": {
+      "next_action": "Prepare all 51 cached individual Sutta Friends sources, preserving source numbering and notes; apply the same individual-sharing/collection-archive review as Vimana Vatthu.",
+      "sources": ["https://suttafriends.org/peta-vatthu/", "https://suttafriends.org/copyright/"]
+    },
+    "khuddaka-nikaya/niddesa": {
+      "next_action": "English source not established. PTS explicitly reports no translation for its Niddesa edition; search other primary publishers without claiming global nonexistence. Do not fabricate a translation.",
+      "sources": ["https://palitextsociety.org/product/niddesa-3-volume-set/", "https://palitextsociety.org/the-books-of-the-pali-canon/"]
+    },
+    "khuddaka-nikaya/buddhavamsa": {
+      "next_action": "Locate an exact English source and edition-specific redistribution grant. The Horner book exists, but its inclusion in the PTS permissive notice is not established; do not infer rights from other PTS works.",
+      "sources": ["https://palitextsociety.org/product/chronicle-and-basket/", "https://palitextsociety.org/copyright-information/"]
+    },
+    "khuddaka-nikaya/patisambhidamagga": {
+      "next_action": "CC-BY-NC-4.0 permission is established. Resolve the retained source conversion's 154 reading-order disagreements among 664 pages, or find a better native-text source; do not publish the unreviewed conversion.",
+      "sources": ["https://palitextsociety.org/copyright-information/", "https://www.abhidhamma.com/Patisambhidamagga_en.pdf"]
+    },
+    "khuddaka-nikaya/milindapanha": {
+      "next_action": "Keep the complete historical two-volume Rhys Davids scans available. Review their correspondence to reference units separately; do not count an unsegmented whole-book scan as hundreds of verified individual readers.",
+      "sources": ["https://archive.org/details/questionsofkingm01davi", "https://archive.org/details/questionsofkingm02davi"]
+    },
+    "khuddaka-nikaya/apadana": {
+      "next_action": "Review source/publisher numbering. The unmatched reference IDs tha-ap562 and tha-ap563 name Upavana and Ratthapala, not empty headings. Check whether existing Walters articles cover them under different numbers before claiming missing translations or reassigning any ID.",
+      "sources": ["https://apadanatranslation.org/", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap562_root-pli-ms.json", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap563_root-pli-ms.json"]
+    },
+    "khuddaka-nikaya/jataka": {
+      "next_action": "Distinguish canonical verses, commentary stories and full narratives. Recorded completeness of a verse-only edition does not certify a complete narrative; retain the separate Cowell whole-source scope.",
+      "sources": ["https://github.com/suttacentral/sc-data", "https://ancient-buddhist-texts.net/English-Texts/Jataka/index.htm"]
+    }
+  }
+}
