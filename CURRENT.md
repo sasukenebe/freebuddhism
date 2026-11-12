@@ -49,9 +49,10 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The previous correction release is live at source commit
-885f3b3463f24036f87399096bae6d7e7d3888dc. Its 9,924 reader versions include
-alternative editions and Vinaya; that number is not a count of complete suttas.
+The previous correction release used source commit
+885f3b3463f24036f87399096bae6d7e7d3888dc. The latest individual-reader release is
+live at ede22e4b1af1ebb2800f6b90671557c5a42ad04f, with 10,060 reader versions.
+These include alternative editions and Vinaya, not 10,060 distinct complete suttas.
 
 ## First execution checkpoint
 
@@ -65,6 +66,10 @@ updating edition coverage; `--check` rejects stale outputs in local tests and CI
 These are source/build reports, not an assertion that unimported drafts are live.
 
 The [individual-reader import](docs/tasks/suttafriends-individual-readers-2026-11-12.md)
-adds all 136 prepared Vv/Pv articles locally, filling 133 identifier gaps. It keeps
+publishes all 136 prepared Vv/Pv articles, filling 133 identifier gaps. It keeps
 the original notices and excludes these editions from combined readers and site/
-source archives. Import, build verification and live deployment remain separate.
+source archives. All 408 public HTML/TXT/PDF payloads match the validated build.
+There remain 101 unmatched reference identifiers and 142 Milindapañha whole-book
+alignment cases. Continue source/rights work on Niddesa, Paṭisambhidāmagga and
+Buddhavaṃsa, plus content review of the two Apadāna numbering cases. Complete
+publisher articles and matching identifiers do not close unverified completeness.

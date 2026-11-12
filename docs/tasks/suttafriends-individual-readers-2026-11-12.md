@@ -1,8 +1,7 @@
 # Sutta Friends individual readers
 
-Status: 136 individual articles imported locally; source checks and regressions pass.
-Full site and release validation remain in progress.
-No deployment is claimed by this checkpoint. This follows the owner's Sutta-first
+Status: 136 individual articles published and technically verified.
+Live source: ede22e4b1af1ebb2800f6b90671557c5a42ad04f. This follows the owner's Sutta-first
 direction in [CURRENT.md](../../CURRENT.md); Abhidhamma remains deferred until last.
 
 ## Coverage and source preservation
@@ -50,7 +49,7 @@ every aggregation; broader rights have not been established here.
 
 The source-export mechanism is documented by Git:
 https://git-scm.com/docs/gitattributes#_creating_an_archive
-Actual GitHub source-archive exclusion must also be checked for the released commit;
+Actual GitHub source-archive exclusion was also checked for the released commit;
 a local attribute check alone is not a deployed-archive test.
 
 ## Verification and release
@@ -68,3 +67,35 @@ The regression suite passes 281 tests, with one optional test skipped. A separat
 staged-tree ZIP check confirms all 272 individual TXT/article payloads are excluded
 and all 21,446 remaining source files are retained. The importer is idempotent:
 repeating it adds zero editions and preserves the same article records.
+
+### Completed release checks
+
+- Exact-source GitHub runs 43214741302 and 43216086138 pass: source/rights,
+  regressions, full website build, all reader comparisons and history secret checks.
+- The normal Free Buddhism-only deployment completed from the pinned source.
+  Both public hostnames return HTTP 200. The homepage remains byte-identical;
+  JSON gzip and Vary: Accept-Encoding remain enabled. No image or Compose setting
+  changed, and retained recovery evidence remains in the production repository.
+- Complete build: 10,060 reader versions, 18,169 HTML routes, 31 ZIPs and zero
+  broken local links. The production build reuses all 10,060 verified PDFs.
+- All 2,821 conditionally licensed readers/TXT downloads match their pinned bodies,
+  source regions and complete notices. Existing Candana checks also pass in CI.
+- All 408 new public HTML/TXT/PDF files match the actual production build by
+  SHA-256. All 31 deployed server ZIPs match the validated files; fresh public
+  Vimana/Peta ZIP downloads match as well. No individual-only edition is bundled.
+- Live browser checks pass for seven representative editions, including Vv 53,
+  Pv 31 and Pv 38: source bodies/notices, canonical links, UTF-8, inherited plain
+  font, mobile width, current collection notices and no page-script errors.
+- Live combined-reading data omits Sutta Friends while retaining other eligible
+  editions. The combined reader and download page explain this boundary.
+- GitHub's actual released-source ZIP excludes all 272 individual article/TXT
+  payloads. All remaining 21,446 file hashes match the exact-file inventory.
+
+Read the individual editions from:
+
+- https://freebuddhism.org/theravada/tipitaka/sutta/khuddaka-nikaya/vimanavatthu/index.html
+- https://freebuddhism.org/theravada/tipitaka/sutta/khuddaka-nikaya/petavatthu/index.html
+
+These results do not certify full human proofreading, unabridged canonical scope
+or the semantic identity of every existing edition. The 101 unmatched reference
+identifiers and 142 whole-book alignment cases remain separate follow-up work.

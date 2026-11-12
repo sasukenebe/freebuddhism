@@ -27,7 +27,7 @@
     },
     {
       "path": "CURRENT.md",
-      "sha256": "39377034660affe8b1b4d2373857c5a5cb836ea691def3d7e8af55a0670ba380",
+      "sha256": "594ac84e254c0ec91130706f0a50144340f5c7cb440b123c51cbb4c006613ab3",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -141,7 +141,7 @@
     },
     {
       "path": "docs/tasks/suttafriends-individual-readers-2026-11-12.md",
-      "sha256": "2b692e246b146b740ed2743f4e8fa66b1b489a4935e2410d147318a52b230e15",
+      "sha256": "d71254bf75eb0ea344f8a452302e8348044226527fdbcbc2a6487e83145ab0dc",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
