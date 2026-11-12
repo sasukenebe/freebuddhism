@@ -103,6 +103,9 @@ def build() -> dict:
             continue
         license_name = record.get("license") or "Not verified"
         status = record.get("rights_status", "RIGHTS_UNVERIFIED")
+        accepted_license = bool(canonical_license(license_name))
+        if accepted_license and status == "RIGHTS_RESTRICTED":
+            status = "LICENSE_ACCEPTED_PENDING_SOURCE_CHECK"
         translator_name = STANDALONE_TRANSLATORS.get(record.get("title", ""))
         standalone.append({
             "record_id": record.get("record_key") or None,
@@ -115,8 +118,9 @@ def build() -> dict:
             "license": license_name,
             "rights_status": status,
             "exclusion_reason": (
-                f"{status}; license is {license_name}, which is not cleared "
-                "under the CC0/verified-public-domain publication policy."
+                (f"The current policy accepts the declared {license_name}; exact source, extraction and publication checks remain pending."
+                 if accepted_license else
+                 f"{status}; this exact edition's redistribution terms and source have not yet been verified.")
             ),
             "completeness_status": record.get("completeness_status", "UNKNOWN"),
             "completeness_scope": record.get("completeness_scope") or None,

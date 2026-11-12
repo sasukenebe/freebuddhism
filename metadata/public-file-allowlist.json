@@ -69,7 +69,7 @@
     },
     {
       "path": "docs/tasks/authorised-bulk-imports-2026-11-11.md",
-      "sha256": "8dca61ce85c51341348f1d7cc24d5c54548bfc786efe25185871e66be1a7bb15",
+      "sha256": "1f3de07680804137d70ff4559b1187fa2ce29d5124cd3b14f1b9d41898942ef7",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -141,7 +141,7 @@
     },
     {
       "path": "metadata/excluded-sources.json",
-      "sha256": "b51f0633b4e4bb7bcebe792143b2339ffae5e00cc4afeb7b950aa71e6e3e63ab",
+      "sha256": "705f5e3634bbc42670dff5911b50b7d4be1971bcd80a0a6a3ee1c21f5c2803d8",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -128392,7 +128392,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "45ec97bcbc575dbfb02db9b88be8ce5608989d3dbba88f74318ac7d473343aa9",
+      "sha256": "1dfda1de71cad6beef5a486bc80582be536d44462893c674db6365f5080e3c61",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128524,7 +128524,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/render_cc0_reader.py",
-      "sha256": "f6c5d25e9aa4e2a6b94bed040a6c963e4416cac03c880760a84e326c0fcbdf39",
+      "sha256": "bd403c6d4bd0f785995472dac0f9675275a0be209a854c7fd91a4ea252212090",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -128548,7 +128548,7 @@
     },
     {
       "path": "tools/build_excluded_inventory.py",
-      "sha256": "744f20041c0d9ffbdb6709ecc5544bc11fac31034c87c5c00ec854233fbb907b",
+      "sha256": "992d106de9c8249b4b8861d310dfe71da38d74c2984ab9c5f27861eb20a241a7",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

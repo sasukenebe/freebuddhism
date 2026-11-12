@@ -465,6 +465,10 @@ def _update_collection_index(
     """Preserve existing collection page content while correcting its edition counts."""
     source = page.read_text(encoding="utf-8")
     updated = source.replace("<th>Texts</th>", "<th>Local editions</th>").replace("<th>CC0/PD editions</th>", "<th>Local editions</th>")
+    updated = updated.replace(
+        "Sutta Friends translations are not hosted in this build under the CC0/public-domain-only policy.",
+        "Sutta Friends editions still need verification of their exact redistribution terms and source text.",
+    )
     row_re = re.compile(
         r'<tr><td>(?P<canonical_id>.*?)</td><td><a href="(?P<href>[^"]+)">(?P<title>.*?)</a></td><td>\d+</td></tr>',
         re.DOTALL,

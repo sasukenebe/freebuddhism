@@ -108,6 +108,8 @@ The original homepage is unchanged. New editions use the existing plain readers,
 text pages, translator choices and continuous-reading view. Full source comparisons
 passed for each accepted batch. Publication is pending the complete site build,
 reader/download checks and deployment; do not treat local imports as live content.
+Policy-related availability notices and exclusion metadata use the revised rights
+rules; historical CC0-only wording is not a current reason to exclude a work.
 
 PDF regressions cover spaced asterisk and bracketed section markers plus the Sanskrit
 root symbol. Unsupported visible glyphs use an installed supporting Unicode font.
