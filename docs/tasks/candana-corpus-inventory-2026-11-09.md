@@ -10,12 +10,14 @@ do not make the reader decode storage or internal numbering terminology.
 
 ## Current result
 
-The latest November 10 live check finds 875 Candana reader entries: 452 AN Book One,
-194 Book Two, 156 Book Three and all 73 Sutta Nipāta entries. All 875 live HTML
-bodies match their pinned TXT sources. The follow-up deploys source 00a943e1 at
-production pin 7b13d45, adding AN 3.156 to the preceding 874-reader release.
-Publication and validation are recorded in the separate deployment repository.
-Later source-only permission-policy and review notes do not change the live pin.
+The November 11 release has 875 individual Candana reader entries: 452 AN Book One,
+194 Book Two, 156 Book Three and all 73 Sutta Nipāta entries. It also publishes twelve
+intact Book Three group passages. All 875 individual HTML bodies match their pinned
+TXT sources. Grouped bodies and shared-passage behavior are checked separately.
+Live content source: 4e222f56; content deployment pin: 0732bcc; configuration follow-up:
+eea021a. Publication, browser verification and rollback points are recorded in the
+separate deployment repository. Source-only follow-up notes do not change the live
+content pin. The homepage and unrelated translations remain unchanged.
 
 ### AN Book Three follow-up
 
@@ -23,7 +25,7 @@ As of November 10, every one of the book's 169 extracted source sections is now
 represented locally: 156 individual reader entries plus 12 intact group passages.
 The group passages cover 27 existing site references: 26 individual entries and
 the single existing AN 3.183–352 group. They are additional editions, not 27 new
-independent suttas. Nothing in this batch has been deployed.
+independent suttas. All twelve passages are published by the November 11 release.
 
 One source group fits the existing reader model: Candana's source 155, Modes of
 Practice – Part 1, corresponds to site AN 3.156. Both complete texts teach the three
@@ -47,11 +49,13 @@ decision. The private queue at `build/candana-final-review-20261110/index.html`
 puts each original PDF beside its extracted text and review evidence. Nothing in
 that queue is public unless marked live below.
 
-- Book Three: all 169 source sections are represented locally. Its 156 individual
-  readers are live. Twelve additional intact passages are local-only; compare the
+- Book Three: all 169 source sections are represented. Its 156 individual readers
+  and twelve additional intact passages are live; compare the
   final source, printed 167–352, with the existing AN 3.183–352 page. Its 16
   subject headings and the other edition's 17 do not match one-to-one. Also review
   source 164's printed wording and the continuous-reader behavior.
+  Original final passage: https://freebuddhism.org/theravada/tipitaka/translations/en/candana/books/an-book3.pdf#page=295
+  Converted final passage: https://freebuddhism.org/theravada/tipitaka/sutta/anguttara-nikaya/candana-groups/an3-183-352/an3-183-352-candana.html
 - Standalone texts: 196 downloaded PDFs cover 190 not-yet-live Candana reference
   groups. Automated comparison covers 1,728 pages, but these are still private
   drafts. The additional AN 4.171 PDF has no extractor character mismatch and all
@@ -123,10 +127,11 @@ once; every covered page links to it. The continuous reader displays it once at
 the first selected reference while retaining separate per-text translation choices.
 No combined canonical IDs were created.
 
-The private site preview now has all 12 group passages. Its full build passes with
-7,239 reader versions, 16,418 sitemap HTML routes, 31 archives, and zero broken
-local links. The live site remains at 875 individual Candana readers and has no
-shared-passage bodies; the preview is local only. All 12 passages use the exact
+The November 11 release publishes all 12 intact group passages alongside the 875
+individual Candana readers. The complete site, including other translators' additions,
+has 9,929 reader versions, 18,174 sitemap HTML routes, 31 archives and no broken local
+links. All 875 individual bodies match their pinned text; grouped-body preservation
+and per-text preference behavior are checked separately. All 12 passages use the exact
 Book Three reuse notice. That grant is not applied to separately published PDFs.
 
 The full suite passes in a temporary environment with the pinned project
@@ -330,7 +335,7 @@ does not, by itself, establish explicit coverage of every other separately publi
 file. Prepare one consolidated request if clarification is needed; no message has
 been sent.
 
-1. At final review, check the Book Three original and local preview linked above.
+1. At final review, check the Book Three original and published readers described above.
    All source sections are represented, but the final source's internal topic mapping
    remains deliberately unresolved.
 2. Next is the 195 downloaded standalone-PDF offer batch for 189 text groups. The

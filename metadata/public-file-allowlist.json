@@ -69,7 +69,7 @@
     },
     {
       "path": "docs/tasks/authorised-bulk-imports-2026-11-11.md",
-      "sha256": "1f3de07680804137d70ff4559b1187fa2ce29d5124cd3b14f1b9d41898942ef7",
+      "sha256": "5602f5a9a1faa928c67231a0a28058e03f81164e3d0dd73793a1f64749e6581b",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -81,7 +81,7 @@
     },
     {
       "path": "docs/tasks/candana-corpus-inventory-2026-11-09.md",
-      "sha256": "f7f9b01b653dfd563e4a40e3dd9d69b77c9d6452d94f2ae3d8e7de7a508600b3",
+      "sha256": "79c940478b544a45e63919dca2206e308ef996aa3449963f24afd4cc20bf663a",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -144,13 +144,6 @@
       "sha256": "705f5e3634bbc42670dff5911b50b7d4be1971bcd80a0a6a3ee1c21f5c2803d8",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
-    },
-    {
-      "path": "metadata/public-file-allowlist.json",
-      "sha256": null,
-      "license_scope": "CC0-1.0 project metadata",
-      "rights_basis": "This allowlist is project metadata under CC0-1.0; its own hash is intentionally self-referential.",
-      "self_referential": true
     },
     {
       "path": "metadata/reports/candana-an-book1-conversion-2026-11-09.json",
@@ -128563,6 +128556,13 @@
       "sha256": "a6a465c9e64d7b32ff9cd776bc44957214842b175cd369afd96951225c75e081",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
+    },
+    {
+      "path": "metadata/public-file-allowlist.json",
+      "sha256": null,
+      "license_scope": "CC0-1.0 project metadata",
+      "rights_basis": "This allowlist is project metadata under CC0-1.0; its own hash is intentionally self-referential.",
+      "self_referential": true
     }
   ]
 }

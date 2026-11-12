@@ -49,13 +49,13 @@ mapping questions and publication results will be added here as batches are vali
 
 ## November 11 import batch
 
-Imported locally: 2,690 editions across 1,923 text IDs. This supplies text for 649
+Published November 11: 2,690 editions across 1,923 text IDs. This supplies text for 649
 previously unavailable entries; the other additions are alternative editions.
 
 - SuttaCentral and Ireland: 649 editions, including all 601 saved Walters Apadāna
   articles, 37 Netti sections, nine Peṭakopadesa sections and two Vimānavatthu texts.
 - Ancient Buddhist Texts: 286 Jātaka verse editions. These are verse sets, sometimes
-  alternate Pāli readings, not 287 new stories or complete narrative translations.
+  alternate Pāli readings, not 286 new stories or complete narrative translations.
 - Access to Insight and dhammatalks: 1,755 editions from their original bulk archives.
   Exact per-text terms, attribution, copyright and complete notices are retained.
 - All 937 earlier conditional-license exclusions reassessed: 935 imported; The Path of
@@ -106,8 +106,11 @@ edition. A review note is not necessarily an error.
 
 The original homepage is unchanged. New editions use the existing plain readers,
 text pages, translator choices and continuous-reading view. Full source comparisons
-passed for each accepted batch. Publication is pending the complete site build,
-reader/download checks and deployment; do not treat local imports as live content.
+passed for each accepted batch. The content release at source revision 4e222f56 is
+live, with 9,929 reader versions, 18,174 HTML routes, 31 archives and no broken local
+links. The exact deployed revision passed GitHub source/rights validation, regression
+tests, full site build and secret scanning. All 2,690 licensed readers/downloads and
+875 individual Candana reader bodies match their pinned text.
 Policy-related availability notices and exclusion metadata use the revised rights
 rules; historical CC0-only wording is not a current reason to exclude a work.
 
@@ -117,3 +120,17 @@ Five discretionary soft-hyphen layout hints are omitted only in PDF presentation
 with an explicit note. Original TXT and HTML retain them. Word deletion/substitution
 still fails verification. Successful exports are checkpointed; a failed export stops
 the batch promptly without claiming success or discarding verified progress.
+
+Public browser checks pass for the original homepage, all 2,690 original/converted
+review link pairs, UTF-8, inherited plain fonts, mobile width, continuous Apadāna
+text, larger linked section headings and keyboard expansion, with no script errors.
+The public review is https://freebuddhism.org/review/licensed-2026-11-11/.
+Its remaining-review list is not a claim that human proofreading is complete.
+
+A configuration-only follow-up enables gzip for this site's public static text and
+JSON. The reading index transfers as 456,703 bytes instead of 12,210,124; the measured
+download changed from 32.3 seconds to 0.6 seconds. Decoded SHA-256 is unchanged.
+The source pin, homepage text, reading layout, shared proxy and other sites are unchanged.
+Deployment and rollback details remain in the production repository's November 11
+licensed-text release note. Naming cleanup awaits the owner's review; no Git history
+has been rewritten.
