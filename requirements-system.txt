@@ -1,0 +1,7 @@
+# Ubuntu 24.04 / Debian-family build prerequisites; installed only on explicit request.
+git
+python3-venv
+poppler-utils
+mupdf-tools
+fontconfig
+fonts-noto-core

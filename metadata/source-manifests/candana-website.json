@@ -39,7 +39,10 @@
         "header_characters": 303,
         "header_sha256": "2d4afa8da3c113ffb8b5385f21670b08ffd1dabcfcf3a9b0db7872519590617d",
         "raw_body_sha256": "dbc5f2066a576bc21fa6d2fcf966287664d1623a45e31d33902dc637e8d9752f",
-        "page_break_paragraphs": [1, 2]
+        "page_break_paragraphs": [
+          1,
+          2
+        ]
       },
       "identity_review": {
         "status": "VERIFIED",
@@ -49,15 +52,718 @@
         "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.171.txt",
         "canonical_text_sha256": "5cffd83f2d6a2ca4cc10c6382aae80c3daa5b7308f201e7cee468b6e26a0b7d0",
         "source_anchors": [
-          {"start": 3475, "end": 3540, "sha256": "107878f3b5f79b32fd60401a235b4e279016125ee475fa1635a7302e82e61909"},
-          {"start": 5222, "end": 5306, "sha256": "5831cdcfc785a3d220914e7a43e7fb288596fc0e6545d7511eb8e63aa3199c8f"}
+          {
+            "start": 3475,
+            "end": 3540,
+            "sha256": "107878f3b5f79b32fd60401a235b4e279016125ee475fa1635a7302e82e61909"
+          },
+          {
+            "start": 5222,
+            "end": 5306,
+            "sha256": "5831cdcfc785a3d220914e7a43e7fb288596fc0e6545d7511eb8e63aa3199c8f"
+          }
         ],
         "canonical_anchors": [
-          {"start": 1288, "end": 1348, "sha256": "5ebfa4a184b4e5690f9d7024f4d6be0bd3b104f69265eb152d6710cb71dd9833"},
-          {"start": 2818, "end": 2887, "sha256": "b88dff9e6d4b1701cf3b57827be9844c3fbf9492f717dd99c69369ee2db8f1de"}
+          {
+            "start": 1288,
+            "end": 1348,
+            "sha256": "5ebfa4a184b4e5690f9d7024f4d6be0bd3b104f69265eb152d6710cb71dd9833"
+          },
+          {
+            "start": 2818,
+            "end": 2887,
+            "sha256": "b88dff9e6d4b1701cf3b57827be9844c3fbf9492f717dd99c69369ee2db8f1de"
+          }
         ]
       },
       "processing_review_entry_id": "candana-f326da7227828c33cc5a62e9",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 6.86",
+      "collection": "anguttara-nikaya",
+      "title": "Āvaraṇa Sutta — Obstructions",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-686-varaa-Sutta.pdf",
+      "source_sha256": "9e490ac52b0e31c4903a95594acf4ecd70f8e0d5f1d67aad276a1d7bf06445e1",
+      "copyright": "Copyright © Bhikkhu Candana 2022",
+      "pdf_pages": 1,
+      "raw_text_sha256": "09e1fefb843383cd58c9026d757113b25a9c661d2f7509d47990ee4232fd46f8",
+      "body_sha256": "42136ce63025834a8eb961e3016fa7610a8a506e3fa8d3a831c667384382d0c4",
+      "text_sha256": "e6feb24dcbcb140eef8fafbd085ef72b1b7688ed651b33bd32e8e151a5e2ec5f",
+      "partition": {
+        "header_characters": 291,
+        "header_sha256": "c98de8f166af5dd55c8f84b08538f0df95535b50070c19abc83c830b63aa1c2e",
+        "raw_body_sha256": "e050476927dcdd9d07957e85aadc8b2b7e9095a077a4f95e89a9621ce3f5316d",
+        "page_break_paragraphs": []
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-6-86-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato AN 6.86 and visually inspected the complete one-page original at 1600 pixels. Both have the same two contrasting groups: obstruction by deeds, defilements and results, plus lack of faith, enthusiasm and wisdom; then their positive counterparts and ability to enter the sure path while hearing the teaching. Identity rests on this complete content sequence, not the shared title or number alone. The source has six prose paragraphs followed by three Sadhu closings. All are retained. The heading, translator attribution and 2022 copyright remain in edition details; only physical line wrapping and indentation are reflowed. No notes, words, punctuation or repetitions are removed or repaired. No human/full-character proofread or Pali translation assessment is claimed.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an6/an6.86.txt",
+        "canonical_text_sha256": "c06616a71aae4b3605682a920eec9c46638d8b3060a3005593ee6dd831f1a042",
+        "source_anchors": [
+          {
+            "start": 326,
+            "end": 394,
+            "sha256": "724b520ec8414a9c1d83016b50b2fa744d2679c986c73b4cf63f3ffa4695de67"
+          },
+          {
+            "start": 994,
+            "end": 1066,
+            "sha256": "71ee18d01de5bba34d8ad4d937b0192ea7ed9cfa83ca6ade5fd9dea97c9fc909"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 326,
+            "end": 379,
+            "sha256": "b211d713a88108dc4c3e2cdf8bbdef8ba7cf6d0e201da36d77df00ee9da2f411"
+          },
+          {
+            "start": 722,
+            "end": 779,
+            "sha256": "fb20f7a765ed71b1d61ad95a5d1132e3dc767d7174e52596254e71ef267aac55"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-aede605144b8d6a5494fd873",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 6.88",
+      "collection": "anguttara-nikaya",
+      "title": "Sussūsati Sutta — Desiring to Listen",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-688-Susssati-Sutta.pdf",
+      "source_sha256": "6ef11167cb96c49d79ad427770c136460b8337b33745f1e96be64e1a9afe5c27",
+      "copyright": "Copyright © Bhikkhu Candana 2022",
+      "pdf_pages": 1,
+      "raw_text_sha256": "44e20c5ba93539ecd2e43e3a177362c146b14bde8426f37c7f08dd81ef374bbb",
+      "body_sha256": "6924e514919f57a73bcada8edc47d791aeda520a562b0a203dd45890383fa5d3",
+      "text_sha256": "5ae6b9d0541f5ca928f098127d86f89666b7bf054ec67ab3440f7173bc5baced",
+      "partition": {
+        "header_characters": 301,
+        "header_sha256": "49ac040e809e9bfa535a30817e4845f71c436923033759020953775609e1c7e5",
+        "raw_body_sha256": "d6e3c0fb3f7555839773a5eb4672a36f074dca4abe96323a8391907c107bbb14",
+        "page_break_paragraphs": []
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-6-88-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato AN 6.88 and visually inspected the complete one-page original at 1600 pixels. Both contrast unwillingness/willingness to hear the teaching, actively listen and understand, learn its correct rather than incorrect meaning, and accept views consistent rather than inconsistent with it, concluding with inability/ability to enter the sure path. This detailed sequence distinguishes it from neighboring six-qualities discourses. The source has six prose paragraphs followed by three Sadhu closings. All are retained. The heading, translator attribution and 2022 copyright remain in edition details; only physical line wrapping and indentation are reflowed. No notes, words, punctuation or repetitions are removed or repaired. No human/full-character proofread or Pali translation assessment is claimed.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an6/an6.88.txt",
+        "canonical_text_sha256": "e22a2aabe8b1323b56cd21681e699379aaf7b216c50107ed8ab7b45b4fc30a22",
+        "source_anchors": [
+          {
+            "start": 334,
+            "end": 417,
+            "sha256": "18add05ff02b39e5f60fda011a1cac87327c31820ceb021cfba4dcaffceb0a4d"
+          },
+          {
+            "start": 1252,
+            "end": 1328,
+            "sha256": "5dadd8ae9c2aba8a00b49ad0fef31e072fdf349689035ef1672459122554028b"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 342,
+            "end": 446,
+            "sha256": "0284f0e9b0665a570b62e23b50f2a3955edd7475f46de08d37e749d3b51018ec"
+          },
+          {
+            "start": 900,
+            "end": 998,
+            "sha256": "95b977ce7ac6c1ab1e97e94381b332adbe5a63e562332c01db6fe931a58d31bd"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-a04ad254827983779d5fa351",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 4.170",
+      "collection": "anguttara-nikaya",
+      "title": "Yuganaddha Sutta — With Both Combined",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-4170-Yuganaddha-Sutta.pdf",
+      "source_sha256": "02b3142def50dd9fd1bfa5c68cb36717099aded1fd3d2e10ab2ebadfce72bdf3",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "e3ae1ce1d4faa90d0523f204eed33161ac8c99211303be83100b67a42768d993",
+      "body_sha256": "a994d397ad940b510d93833e2e4740c33fe6c30d5361613889d63159330450e9",
+      "text_sha256": "f69ccbbb685389266f56fefe875f1c2393347931d7b6abd3c7a35962be8b95fe",
+      "partition": {
+        "header_characters": 290,
+        "header_sha256": "18561a151fa46522d9d1d3d13c212ec325f9fc3c45ce5203a2766d5856295d70",
+        "raw_body_sha256": "e001351833f3ea98fbbe36dc75c8031beba3db0b187cb6d2a203408803e6524b",
+        "page_break_paragraphs": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-4-170-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato AN 4.170 and visually inspected both original PDF pages at 1400 pixels. Both locate Ananda at Ghosita's monastery in Kosambi and give the same four routes: serenity before insight, insight before serenity, both together, and the mind settling after restlessness about the teaching, each leading to abandoning fetters and underlying tendencies. All four numbered sections and the three Sadhu closings are present. The sole physical page break occurs between the completed second route and the paragraph beginning numbered route 3; preserving it as a paragraph break is visually supported. The heading, translator attribution and 2023 copyright remain in edition details. No wording, punctuation, notes or repetitions are removed, repaired or expanded. This is content identity and presentation review, not human proofreading or Pali translation-accuracy approval.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an4/an4.170.txt",
+        "canonical_text_sha256": "74e6439d13938bd557fe38459f3fc027c3c140e197414577804a6d643a81b5b0",
+        "source_anchors": [
+          {
+            "start": 640,
+            "end": 729,
+            "sha256": "ab0d45b07db994a96656e0c68aca2420e727a24f0ba657297ba429f8c1741e31"
+          },
+          {
+            "start": 2205,
+            "end": 2318,
+            "sha256": "f8ff79c720c0ccf7501ad723a8e6d80b8bde11d1ee6aa3be647c111730d4ece7"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 535,
+            "end": 588,
+            "sha256": "a613295f5c5408e433fd5a44ec82fb501f7f04f3fdab071f8c4598f2385f82ef"
+          },
+          {
+            "start": 1211,
+            "end": 1287,
+            "sha256": "e2b4961857084d4e28554a80f4f5e1fb9213c4dc24bd000261f817dfa6dda8f9"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-15f7d23a446b0e89d2676a91",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 10.58",
+      "collection": "anguttara-nikaya",
+      "title": "Bhagavā Mūlaka Sutta — Rooted in The Blessed One",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-1058-Bhagav-Mlaka-Sutta.pdf",
+      "source_sha256": "1a6a48126710fff35441f4f310eab3f8ad7a7341dcae70a9b3e3ce0f63a302d2",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "ce856c7fe30281681e6159a396c2b17ca46c4d92c8cc6a884ec3f62ccb9a2880",
+      "body_sha256": "55d565b4c9bb85fb5fa33b65b9839ccbe5efb08c762ec7647583f57dbea31398",
+      "text_sha256": "0e4eed26808d0fff6e520d1540d4f7fee2683daa2f0f790cbb6ee1209263453a",
+      "partition": {
+        "header_characters": 297,
+        "header_sha256": "fbe2fa57800660b20a85621c2751d0e6e2d45ba90bfc31ed27747bb1322a6a81",
+        "raw_body_sha256": "1d369409ae5efff4df30ba44ae37503409bf3833d00f1430974baa7ccc84657b",
+        "page_break_paragraphs": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-10-58-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato AN 10.58 and visually inspected both original PDF pages at 1400 pixels. Both ask how to answer other wanderers' ten questions, include the disciples' request for the Buddha to explain, repeat the questions, and answer in the same order: desire, attention, contact, feeling, concentration, mindfulness, wisdom, release, the deathless and Nibbana. The ten questions and answers distinguish this discourse from the neighboring root discourses. All repeated questions, all ten answers and three Sadhu closings remain. The sole physical page break separates the completed contact answer from the distinct feeling answer, so it remains a paragraph break. The heading, translator attribution and 2023 copyright stay in edition details. No wording, punctuation, notes or repetitions are removed, repaired or expanded. This is content identity and presentation review, not human proofreading or Pali translation-accuracy approval.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an10/an10.58.txt",
+        "canonical_text_sha256": "18d0ad713ba1485230c42c9dee89c058b82a98bfcd4476177d3310e5466be480",
+        "source_anchors": [
+          {
+            "start": 1828,
+            "end": 1860,
+            "sha256": "ca5b942d3d4972bce5861856294dc9b96d75df5c438df62d8918728a6cab706a"
+          },
+          {
+            "start": 2295,
+            "end": 2357,
+            "sha256": "d9ad80ac65ae40b82e4e13761c77985535d97a24e81ab1ec68e50d0656ef1550"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 1163,
+            "end": 1195,
+            "sha256": "b53109428fb7c9ec5b21177b56e9819c1ce15564909c51a6af247322a91df333"
+          },
+          {
+            "start": 1437,
+            "end": 1477,
+            "sha256": "591e8bfbb7ed1645a65c2b641e2ea49f5f7b73c41cd9d5e4223c1dbe3888ed88"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-b2315e497ada7e2cd5201aa3",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 12.38",
+      "collection": "samyutta-nikaya",
+      "title": "Cetanā Sutta — Intentionality",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-1238-Cetan-Sutta.pdf",
+      "source_sha256": "563326b6708ec36293159c3b01eae18df5be777047d43a576c5a5f43f4fbef60",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "7a3b154b2e172e70bed825a8e6e36e9001394eba8925d863b911c1539eb1b19d",
+      "body_sha256": "33a831c0e8dd8ea15d860925e13b29b87570f03995f61a505eb0751da1f41521",
+      "text_sha256": "9c20c5c3c4709255eb19e99a44bea97fefb896e39303a75006d5eb11cd3b2595",
+      "partition": {
+        "header_characters": 528,
+        "header_sha256": "2d106541d7ba2a5b3bceffee6217ac86a3bd322572366a5959f684066e08bb9a",
+        "raw_body_sha256": "81b25f6da2be084428dc9cca0fc079c192459ec2d94ceb235536926401fdce24",
+        "page_break_paragraphs": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-12-38-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato SN 12.38 and visually inspected both original PDF pages at 1500 pixels. Both begin at Savatthi and distinguish three cases: intention/planning with underlying tendencies supports consciousness and renewed existence; absence of intention/planning while tendencies remain still supports renewed existence; absence of all three removes the support and ends future birth, aging and death and the mass of suffering. All three cases, their repeated causal sequences and the three Sadhu closings remain. The sole page break separates a completed future-existence paragraph from the next birth/aging/death paragraph within the second case, matching the visibly separate parallel paragraphs in the first case. It remains a paragraph break. The source spelling 'sill' is preserved unchanged, as are 'nor determines', punctuation and all repeated wording. No source wording is repaired or supplied. The full heading, attribution and 2023 copyright stay in edition details. This is content identity and presentation review, not human proofreading or Pali translation assessment.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn12/sn12.38.txt",
+        "canonical_text_sha256": "a50b856acd923fa88db2cf409f9209bf6fcd56ff682f38433cf60d2e82e4e744",
+        "source_anchors": [
+          {
+            "start": 315,
+            "end": 427,
+            "sha256": "cbec611fc0363886640ec69d0c0ada044ce82d3df5f783f13e491f271d1599e0"
+          },
+          {
+            "start": 1861,
+            "end": 1950,
+            "sha256": "90a0f23283ea47547e276bf0df8719c3868aa6604e19c21532c55819a03f3080"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 203,
+            "end": 327,
+            "sha256": "f22983ff473712ab76dbf80c0d74dccfbe31da285ae0b76ce782596765b0e9f8"
+          },
+          {
+            "start": 1261,
+            "end": 1388,
+            "sha256": "6df772357df130c4ef38bb2655ebce8fa2a74194c3dab2dffe27025925c8eec7"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-27f3a351253a439a726e8306",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 47.42",
+      "collection": "samyutta-nikaya",
+      "title": "Samudaya Sutta — The Arising",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-4742-Samudaya-Sutta.pdf",
+      "source_sha256": "f121626c744f032b8acc50bdcf7b063003d768283f7b76a2732b2a036e19bf81",
+      "copyright": "Copyright © Bhikkhu Candana 2024",
+      "pdf_pages": 2,
+      "raw_text_sha256": "1a8e91bc4b58a6cd2da9672998bfdd07ee229885cf4e46bd8745b1ca15db13d0",
+      "body_sha256": "b604caa738c33235d8edadf9c34c86a2f5a42c18f9ae523623169dbe081a61ae",
+      "text_sha256": "4d653d7627eed6dba2920dc1c54e64836740ff98bd0e811cf69cd815ddbb49f0",
+      "partition": {
+        "header_characters": 750,
+        "header_sha256": "42fec948da3e68dab2b15ba3a9d74cb270923e313c48273c96f25d8d017f140a",
+        "raw_body_sha256": "bc4a844474a44c1205458f51fc86bc89c652cc80be861a6e3fff8cff398574aa",
+        "page_break_paragraphs": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-47-42-content-identity-2026-11-13",
+        "review_basis": "Compared the complete Candana extraction with Sujato SN 47.42 and visually inspected both original PDF pages at 1500 pixels. Both announce the arising and disappearance of the four mindfulness domains, then give the same four causes and their ending: nourishment for body, contact for feelings, name and form for mind, and attention for mental objects/principles. All four numbered sections and three Sadhu closings survive. The sole page break is between the completed feelings section 2 and the paragraph beginning section 3 on mind; it remains a paragraph break. All source wording, including the author's elaborations, is retained without correction or expansion. The full collection/discourse heading, attribution and 2024 copyright remain in edition details. This establishes discourse-content identity and presentation preservation, not approval of the translation against Pali or a human proofread.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn47/sn47.42.txt",
+        "canonical_text_sha256": "067d1f70045ce35896d4c06c7f9bea2ee720dcd44107d8219e14e9463fea4ca6",
+        "source_anchors": [
+          {
+            "start": 589,
+            "end": 676,
+            "sha256": "9e0202ee69b49c6b790acd852b15a43c4e4b54b0e201c6ca56e9228bff5a4706"
+          },
+          {
+            "start": 1491,
+            "end": 1616,
+            "sha256": "eac3ba24688b5699e886cba7c74e7aeda6e3d64775834c5623ae28ffdd988fcd"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 313,
+            "end": 382,
+            "sha256": "eaea38fd8234abf45baaa3876fb356f44058e5b0a3291c6a122667534a0e4ff1"
+          },
+          {
+            "start": 457,
+            "end": 543,
+            "sha256": "e266cd21cf5de3e6279831aa52147b48302f0665b4c9082e16998c0ae47aea3b"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-507bfe4cbdd8e26bd6d3dcd0",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 6.13",
+      "collection": "anguttara-nikaya",
+      "title": "Nissāraṇīya Sutta — Elements to be Driven Out",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-613-Nissraya-Sutta.pdf",
+      "source_sha256": "605ab2eb6ab4092c8ba2865ad0cf463da90e764d823c6bb45c862406c30606de",
+      "copyright": "Copyright © Bhikkhu Candana 2022",
+      "pdf_pages": 3,
+      "raw_text_sha256": "536e6297a7ab9388b867c83c79b424302a410a64b856b5b85a614626c7cc3981",
+      "body_sha256": "9c036ddce3914d6cda5ac58b59f01029611b8be3718602c79f28d24db1fc23a8",
+      "text_sha256": "5ed061539eb7607cff2d06cb7ab1b73fcff703f6b7b5596ef42237afb37e031e",
+      "partition": {
+        "header_characters": 307,
+        "header_sha256": "ed9cb4b3bedc97374c30b2a3ce71d0b4355afe99f9d60625a9316087bd0784ae",
+        "raw_body_sha256": "e426c25c4b30a4a052180a84926718383c4dfa43ab8efd7a98c72abc136ee60b",
+        "page_break_paragraphs": [
+          1
+        ],
+        "page_break_joins": [
+          2
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-6-13-content-identity-2026-11-13",
+        "review_basis": "Compared both complete preserved extractions with complete local Sujato AN 6.13 and inspected supplied source-page images 1–3. Both announce six elements and give the same ordered six claim-and-correction cases: loving kindness/love against hatred/ill will; compassion against hostility/thoughts of harming; altruistic joy/rejoicing against resentment/discontent; equanimity against lust/desire; signless release against signs; and uprooting the conceit 'I am', with no 'I am this' identification, against doubts and confusion/indecision. Each claimant is corrected for misrepresenting the Buddha and claiming the excluded state still overwhelms a developed release. Candana spells out the repeated corrective passages where Sujato abbreviates several; all six are present in order. The final six-elements summary and all three Sadhu words are present. Page 1 contains cases 1–2; page 2 contains cases 3–4 and most of case 5; page 3 completes that same case-5 paragraph, then gives case 6 and the ending. Break 1 is a paragraph boundary; break 2 requires a same-paragraph join. The printed English title differs from Sujato's title, but content establishes the discourse identity. Retain original heading, attribution, copyright, numbered case headings, quotations, repeated wording and closing words unchanged. No missing content is inferred from the unsupported page continuation. The importer-only page/header limitation from the original review is addressed in this candidate by the explicit reviewed prose layout; words and punctuation are unchanged. Complete website checks and human proofreading remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an6/an6.13.txt",
+        "canonical_text_sha256": "b7333c0829bfef2963ebd984b80999fd8a90f2ff033932b8d72ea1fdee30c532",
+        "source_anchors": [
+          {
+            "start": 1185,
+            "end": 1276,
+            "sha256": "b478126987af3a52649a02dcf474249a3dcf59817d3f69bd5d5eba967d0c0177"
+          },
+          {
+            "start": 5531,
+            "end": 5617,
+            "sha256": "1caaad5894a1a64988a150823c42476b72f36b794b3210c4d2bd922ef22ad3ff"
+          },
+          {
+            "start": 6478,
+            "end": 6554,
+            "sha256": "90e4ec7c8efdacafb631149634d3dd8dfbafe2aa6b4828a81b0b8afc714fb99a"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 817,
+            "end": 888,
+            "sha256": "675817885e776ed6cffe2f2e9967908efeb2e57264eeda0da861434b8e09ea56"
+          },
+          {
+            "start": 2297,
+            "end": 2375,
+            "sha256": "e732dbdf049181ffc38fc6d541c813b781665220c8bcb4e5ee8941ff3cb48af5"
+          },
+          {
+            "start": 2931,
+            "end": 3034,
+            "sha256": "379c97d1b06b14c5a80179f07932afb930298aa38abbb4b58b8f5efbe17ab49f"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-b4e460b1cbfabe87e9d7f682",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 20.7",
+      "collection": "samyutta-nikaya",
+      "title": "Āṇi Sutta — Discourse on the Drum-Peg",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-207-i-Sutta.pdf",
+      "source_sha256": "ff731ccf95aedc38eadb0f0baa894c94b5b5c72ba6744426c408a03ef5ea6dd6",
+      "copyright": "Copyright © Bhikkhu Candana 2024",
+      "pdf_pages": 2,
+      "raw_text_sha256": "1300152dbc40541ce7f9f36b635e5fdadb88ea913fc60773c215d5af628d88a3",
+      "body_sha256": "e96666ee9586687799bf2706b8b0d1c1e1b3f1b05d5bb27cac8717649ac234bf",
+      "text_sha256": "0d3dc8cf11d52fd50134c10bea3a21c1a36606b0a72c79045d52ae73691f6d67",
+      "partition": {
+        "header_characters": 726,
+        "header_sha256": "4549150bfe67dc6e2a8f0232e1d107e3ff0eda00a451f2c65e56a048266e4714",
+        "raw_body_sha256": "f2145a1b5d81f2a5a1aba31ecd0aa55d52b344fb36461f41fd64afaa41bff446",
+        "page_break_paragraphs": [],
+        "page_break_joins": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-20-7-content-identity-2026-11-13",
+        "review_basis": "Read both full frozen extractions and the complete selected Sujato SN 20.7 file; verified their manifest hashes and identical whitespace-collapsed text on each of the two source pages. Visually inspected both supplied original-PDF page images through view_image. The sequence matches throughout: Savatthi setting; the Dasaraha people's named drum repeatedly patched with pegs until its original structure disappears; a future refusal to hear, attend to, understand or memorize the Tathagata's profound, transcendent teachings dealing with emptiness; preference for ornate compositions of poets, outsiders or disciples; disappearance of the original teaching; and the instruction to train in hearing, understanding, learning and memorizing the original discourses. Candana's additional explanatory wording and its drum-name/drumhead description differ from Sujato's wording but do not leave this sequence or closing identity uncertain; this is not an endorsement of those renderings against Pali. There is no numbered doctrinal list whose members are absent. Page 1 contains the complete heading, attribution and 2024 copyright, the opening hearing formula, setting, full drum simile and the start of the future neglect passage. Its last words are 'teachings that far'; page 2 starts 'surpass anything mundane, having nothing to do with the world.' This is one continuing sentence within the paragraph beginning 'Thus, the Bhikkhus will not want to listen to, nor examine'. Classify break 1 as a continuation join, not a paragraph boundary: page_break_joins [1], page_break_paragraphs []. Page 2 completes that paragraph, all contrasting future behavior and the closing training instruction, followed by three Sadhu words. No lineated verse block was found. The proposed body begins at the hearing formula after the complete preserved header; the header's first line stripped of padding is exactly SN 20.7. HOLD LAYOUT_PENDING because the inspected importer always inserts a paragraph break between physical pages; this is an implementation limitation, not source incompleteness. A future explicitly checked continuation recipe may join only the classified break without adding or changing words. The importer-only page/header limitation from the original review is addressed in this candidate by the explicit reviewed prose layout; words and punctuation are unchanged. Complete website checks and human proofreading remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn20/sn20.7.txt",
+        "canonical_text_sha256": "0ca3ab9a1456b704a4dd5208b575ee2c285a9a2d03f3f996869ad57e8f57d456",
+        "source_anchors": [
+          {
+            "start": 481,
+            "end": 593,
+            "sha256": "6eb3e2fab4aee46eef82afc62948b154445351c3d42ef2c8e239fe2e78e74dc4"
+          },
+          {
+            "start": 1932,
+            "end": 2117,
+            "sha256": "36e6e29e990bea3c9c5ab20769f3a701027d20988c3665da3af64955481c2e66"
+          },
+          {
+            "start": 4084,
+            "end": 4185,
+            "sha256": "84d5d3cdee09cacc6e98bac8c4ad81578fc24ca967a3f734a649219ef4919966"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 232,
+            "end": 286,
+            "sha256": "e2198a5101aa1df23e5b91b7ba3290e90b2df1d402e5075911cb2fe2d7b3b856"
+          },
+          {
+            "start": 829,
+            "end": 993,
+            "sha256": "626aa971504b3ea638665886a7c63c057422138f4fda71b757bff9e331f225ab"
+          },
+          {
+            "start": 1458,
+            "end": 1553,
+            "sha256": "5f12b0069c9764d2dab2cda76f4a7d2b37e1ddd385935ce9ca6549b9a9aec98c"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-75adcfd4320b311b6ecb9a33",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 8.82",
+      "collection": "anguttara-nikaya",
+      "title": "Puṇṇiya Sutta — The Venerable Puṇṇiya",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-882-Puiya-Sutta.pdf",
+      "source_sha256": "e3c767a2c53834bba2e2694399fedf225c1a7aa43c5f6d3f7f550fb09c64e044",
+      "copyright": "Copyright © Bhikkhu Candana 2023,2024",
+      "pdf_pages": 3,
+      "raw_text_sha256": "ecfc193e5c3e6d9c69626f78061f40317090e527b1e7b2438fe6dc227096f979",
+      "body_sha256": "66b7d6f44d6e705202ff2fbccf40ca3d797d874ad43303e517964affecc74911",
+      "text_sha256": "eaed275a0e1350d3f2ba0c3bece301509de97e1252378dc0ace680f196a53a4e",
+      "partition": {
+        "header_characters": 524,
+        "header_sha256": "5013f2a8dd30f1b1c5ea0aa0afc5223b700ba9e36f67be767e74a7cac65998f2",
+        "raw_body_sha256": "6298a11f45e2a2033389d217faf88cf7cb926e1d93bb1335b870245f36fb2aeb",
+        "page_break_paragraphs": [
+          2
+        ],
+        "page_break_joins": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-8-82-content-identity-2026-11-13",
+        "review_basis": "Read both complete original extractions and complete local Sujato AN 8.82, then inspected original images 1-3 via view_image. Identity follows from Puṇṇiya approaching and questioning the Buddha and the ordered cumulative conditions involving faith, approaching, homage/attending respectfully, questions, attentive listening, retention, investigation of meaning and practice. Candana presents eight negative numbered cases, the transition On the other hand, eight affirmative numbered cases, a final Puṇṇiya conclusion and all three Sādhu closings. Pages 1-2 split negative case 4 inside attentively listening and require a prose join; pages 2-3 separate complete affirmative case 3 from case 4 and retain a paragraph break. Both extraction engines preserve the same ordered characters and word tokens on each of the three pages. Candana frames the question and results around the listener's realization, while Sujato frames them around the teacher's inspiration to teach; this identity review records that difference without adjudicating translation accuracy. No apparent missing content unit was identified in this comparison. The below-first-line standalone ID and the prose join require bounded importer support. These are layout limits, not a missing-source finding. Keep 2023,2024, nor memorizes it, all repeated wording and the entire original heading unchanged. No verse stanza needs preserved lines. The importer-only page/header limitation from the original review is addressed in this candidate by the explicit reviewed prose layout; words and punctuation are unchanged. Complete website checks and human proofreading remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an8/an8.82.txt",
+        "canonical_text_sha256": "c6e574fca4b34c522fb17028d34229469c2fdef04a822824c337d707ca9e9e9a",
+        "source_anchors": [
+          {
+            "start": 343,
+            "end": 608,
+            "sha256": "783519bfb915cb1fb5f4d0063439f1a3b3f42204573b3d0a1863ab0fd5604d9b"
+          },
+          {
+            "start": 2274,
+            "end": 2379,
+            "sha256": "223472d99cbf36558bc688e70fd59671f8eb5af6fe215c7c7b0370323c476aa1"
+          },
+          {
+            "start": 7247,
+            "end": 7356,
+            "sha256": "18ed23a2fec67042caefc80c20cb25f83dacfc6e512a72532ad28123dec1adf5"
+          },
+          {
+            "start": 7464,
+            "end": 7584,
+            "sha256": "e79eeea1a1a3d6f2c86c5f6c18d4bc5d43508ff2df230ca8df345299d712ae07"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 172,
+            "end": 263,
+            "sha256": "4b8208988315955a835cd0a6d56640cb1615555f7f29d895141084d4f047921d"
+          },
+          {
+            "start": 758,
+            "end": 841,
+            "sha256": "1d3a37d4a4f0f57c8d8cb50fe57de5fddb3cee36985368776000bf2b012a8d6e"
+          },
+          {
+            "start": 1186,
+            "end": 1440,
+            "sha256": "507409a2e8ef9e668690d0619648a9b4f6ab31fbb747d653d969f97514fcab50"
+          },
+          {
+            "start": 1441,
+            "end": 1536,
+            "sha256": "e163b358d4320a20ba4f7a67bc1b54033df229a9fb6df7793235acdc45b4eef9"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-98918751bde0fe242f1a8746",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 36.8",
+      "collection": "samyutta-nikaya",
+      "title": "Dutiya Gelañña Sutta — The Sick Bay – Part 2",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-368-Dutiya-Gelaa-Sutta.pdf",
+      "source_sha256": "7a7436f0c096fe7a87e6a4889a84484703670b50dcbfdced38c3c3e8a1e073c2",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 4,
+      "raw_text_sha256": "509b565e7ba96787cb627db79e7fdeb7a6d522bd786950f94c8ad797a227984a",
+      "body_sha256": "0e4790dfb7fce7f5d1a86fa31e07f90145b1b9ff08cf6ac53c319cb272532293",
+      "text_sha256": "c6c2ed79123fb8022312e065fc7d808c302af8f1ac3d1db64f699d18dd6e82bc",
+      "partition": {
+        "header_characters": 524,
+        "header_sha256": "8ccb2b1133869a8dbcdee33b3a009d1b0a1250101f0262c3cf94cf211ae358e1",
+        "raw_body_sha256": "4440f4bbba020eec6a8926d9ee44de6ac13b1ee889ca42501a398a40662c28c7",
+        "page_break_paragraphs": [
+          1,
+          2,
+          3
+        ],
+        "page_break_joins": []
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-36-8-content-identity-2026-11-13",
+        "review_basis": "Read both complete original extractions and complete local Sujato SN 36.8, then inspected original images 1-4 via view_image. Both begin at Vesali's Great Wood/peaked-roof hall, move from retreat to the infirmary, instruct mindfulness and awareness, enumerate the four mindfulness domains and ordinary activities, and apply impermanence specifically to contact and the feeling dependent on it. This contact-focused causal passage, rather than only the title The Sick Bay Part 2, supports the SN 36.8 mapping. Candana explicitly develops pleasant, painful and neutral feeling in that order, their observation through impermanence, vanishing, dispassion, cessation and relinquishment, abandonment of the associated tendencies, nonattachment to all three feelings, approaching bodily/life ending, cooling and the oil/wick simile with its repeated final application. The complete closing and three Sādhu words survive. Sujato's local SN 36.8 abbreviates repetitions and explicitly refers to the preceding discourse; that comparator abbreviation is not an omission from Candana, and this review has not replaced or expanded either text. All three physical page breaks coincide with paragraph boundaries, including the separate italic reflection after the painful-feeling introduction; the parallel cases on pages 2 and 3 support that choice. The ID already occupies the raw first line. Both engines agree in ordered characters and word tokens on all four pages. Although the section heading says The Sections with Verses, none of this discourse's body is a verse stanza requiring preserved internal lines; the three parallel aloofness sentences are prose. Preserve the complete heading, 2023 copyright, all conditionals, repeated endings and unusual grammar without correction. This establishes the examined source preservation, discourse identity and layout, not independent full canonical-completeness certification across Sujato's elision or approval against Pali. The importer-only page/header limitation from the original review is addressed in this candidate by the explicit reviewed prose layout; words and punctuation are unchanged. Complete website checks and human proofreading remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn36/sn36.8.txt",
+        "canonical_text_sha256": "886a2f13046b6aacb47b7cdc929ad7e3b03b93eb5ff7128dec75685e1a72950c",
+        "source_anchors": [
+          {
+            "start": 204,
+            "end": 319,
+            "sha256": "038c70ca3e1c3e7f56f54e49f4430904af1095d274b56121b59beae9fe9cc94a"
+          },
+          {
+            "start": 3708,
+            "end": 3886,
+            "sha256": "3354b7e725ad6743736a1003c9f7ce57d547e177a6916d97937d2fd6b7471593"
+          },
+          {
+            "start": 7982,
+            "end": 8139,
+            "sha256": "2c40b4ef689fc98d955ac597a4a827e0ee310505756a3522b1f0c9d560a909a6"
+          },
+          {
+            "start": 9632,
+            "end": 9876,
+            "sha256": "38b54409451135f379f68daac0e4f8394f41dfdb43e50da7552bd18b702e05c8"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 184,
+            "end": 284,
+            "sha256": "748a6ec87085f2003c8901572d62153c8a3c1c057fe5e8a2f9ea56ce058f0c8e"
+          },
+          {
+            "start": 1703,
+            "end": 1804,
+            "sha256": "d9879c982d222d78469e46a220c4e08b957fd7b20f84133d24d87f2ea4d1d56f"
+          },
+          {
+            "start": 1955,
+            "end": 2074,
+            "sha256": "15aac0ff244a0136bcb82a77cd0dbaa9c6db5b31b7ebcf6c081a846168e7bf43"
+          },
+          {
+            "start": 2454,
+            "end": 2498,
+            "sha256": "021e8d203bddd36e654a713547d83566d605fea310623f7c44cf0784cf069f24"
+          },
+          {
+            "start": 2654,
+            "end": 2793,
+            "sha256": "f54df13866ff455c584c9effcf6ea7bfb4a7d766b09498c3ac49040061e454d7"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-0d55f602bd054d74d350add7",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 46.14",
+      "collection": "samyutta-nikaya",
+      "title": "Kassapa Bojjhaṅga Sutta — Kassapa & the Seven Factors of Awakening",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-4614-Kassapa-Bojjhaga-Sutta.pdf",
+      "source_sha256": "fe3da5008e04ce92e20dacb238f512a468608b821e8c954cc2dbf36b01d2e495",
+      "copyright": "Copyright © Bhikkhu Candana 2022",
+      "pdf_pages": 2,
+      "raw_text_sha256": "0e8c67a98077dbb33b8de3fd5a23707b99492f245bd42887fc3983ce4c38401c",
+      "body_sha256": "12cc530a813c2e2e11701781037c9aa51960ae0d26228d32aabae156ad4cf2fd",
+      "text_sha256": "1959685438648e3bae7d522b2cd9c789d8de1844bd76251c1a57e24818cdb8f1",
+      "partition": {
+        "header_characters": 650,
+        "header_sha256": "d5c18acd12a410101de51ff2b50240d84485564fbd969201b0f50337a4bb6d63",
+        "raw_body_sha256": "f5f0874184c3f1bf8dde5f71f99a4737c1e92a2c88bc2b8e02f16dd754e50e3a",
+        "page_break_paragraphs": [
+          1
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-46-14-content-identity-2026-11-13",
+        "review_basis": "Read the complete Candana extraction and the pinned local Sujato SN 46.14, and inspected both original PDF pages at 1500 pixels. Both place the Buddha in Rajagaha's Bamboo Grove, with Mahakassapa ill in Pipphali cave; the Buddha visits in the late afternoon, asks about increasing pain, teaches the seven awakening factors, receives Kassapa's assent, and Kassapa recovers. The Candana PDF retains all seven named factors in order, repeated explanations, assent, approval and recovery, and three Sadhu closings. The sole page break follows the complete question asking which seven factors, before the list starts; it remains a paragraph break. All words, the missing punctuation after one Nibbana occurrence, apostrophe choices and repeated clauses remain unchanged. The complete dual-title heading and original attribution/copyright stay in edition details. This is discourse identity and source-preserving presentation review, not translation assessment against Pali or human proofreading.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn46/sn46.14.txt",
+        "canonical_text_sha256": "e0dacc06d6e3dd1614912623d56d95dd9a0a9a99070097dc96e2cebf2ea849af",
+        "source_anchors": [
+          {
+            "start": 493,
+            "end": 614,
+            "sha256": "cdfa6b2d1b64ba8460f77e45c0653551169e2d174755055354effab6f35fcdd3"
+          },
+          {
+            "start": 3684,
+            "end": 3764,
+            "sha256": "2d6c3f04a839f7148f536f3275be5efad3ce3cdcda0e4821d649fce7e5a4e31e"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 280,
+            "end": 376,
+            "sha256": "08e870182f0db04e709de8d1275c69913e144fde7b8384351ae6ce4a56e70d43"
+          },
+          {
+            "start": 1461,
+            "end": 1507,
+            "sha256": "97ae75d71423a1906046f99864536dcff4cfe190df1f6f7d9fae59b0a44f3cfd"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-d7fd9a4545ec4d474ffdf476",
       "completeness_status": "UNKNOWN"
     }
   ]

@@ -41,12 +41,48 @@ is deferred until last; its earlier sources and review records are retained.
 
 ## Build and verify
 
-Use Python 3.12, install `requirements.txt`, and provide Poppler's `pdfinfo`
-and `pdftotext` commands, fontconfig and the Noto Sans regular/bold fonts. Then run
-`python tools/buddhist_canon_pipeline/build_deploy_site.py` to create the local
+Use Python 3.12 or newer. On Ubuntu 24.04/Debian-family Linux, run
+`python3 tools/bootstrap.py --install-system` from the checkout. This explicitly
+installs the packages declared in `requirements-system.txt` through apt/sudo,
+creates a managed `.venv`, installs the exact `requirements.txt` pins from wheels,
+and checks dependency consistency, working native tools and Noto Sans regular/bold
+fonts. It does not change an existing unmarked `.venv` or other environments.
+System installation needs administrator authorization; the Python packages stay
+in this checkout, not the system interpreter. On other platforms, provide the
+listed native tools/fonts using the OS package manager, then run
+`python3 tools/bootstrap.py` without the system-install option.
+
+Run `python3 tools/bootstrap.py --check` for a read-only readiness check. Missing
+native tools, substituted fonts or wrong package versions fail explicitly. The
+bootstrap does not import translations, download private PDFs, start a build or
+deploy. Run `.venv/bin/python tools/buddhist_canon_pipeline/build_deploy_site.py` to create the local
 static site in `build/site-root/`. The build does not publish or deploy. It
 rebuilds downloads from the allowlist and checks links, text integrity, archive
 members, and blocked routes.
+
+### Set up a worker from another computer
+
+The repository-owned SSH helper stages only the bootstrap code and native-package
+list, clones the public source at a complete commit ID, and runs the same setup:
+
+```sh
+python3 tools/setup_worker.py --host worker-alias \
+  --destination /srv/build/freebuddhism2 --revision "$SOURCE_COMMIT" --install-system
+```
+
+Git and Python 3.12 or newer must already be available on the worker.
+Use an existing SSH alias and verified host key. Run the command in a terminal so
+the worker can request sudo authorization. Obtain approval for the extra checkout
+before running it. Existing destinations are reused only when they are clean,
+unlinked checkouts of this source at the exact requested revision; other paths or
+local edits are left unchanged. The helper does not reset or delete a checkout.
+
+Bootstrap files are staged outside the worker checkout, so this command also works
+before a local bootstrap change is pushed. The worker's source remains pinned and
+clean; setup code comes from the operator's local checkout. The retained temporary
+setup directory is printed. No credentials, private correspondence, PDF inputs or
+unrelated local files are transferred. No build or deployment starts automatically;
+later sustained builds need their own resource/thermal guard and release checks.
 
 Use a Git checkout for a full source build. Source ZIP/tarball exports intentionally
 omit individual-sharing translation bodies and article snapshots using the exact

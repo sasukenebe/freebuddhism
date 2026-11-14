@@ -41,12 +41,14 @@ class CandanaWebsiteTests(unittest.TestCase):
                 readers.prepare_incremental_output(output, set(), {text})
                 self.assertFalse(text.exists())
 
-    def fixture(self, root):
+    def fixture(self, root, *, header_prefix="", source=None, page_break_paragraphs=None, page_break_joins=None):
         pdf = root / "supplied.pdf"
         pdf.write_bytes(b"%PDF-1.4 original synthetic test input, not a translated work")
-        header = "AN 4.1\nSynthetic title\nTranslated by Bhikkhu Candana\nCopyright synthetic\n\n"
+        header = header_prefix + "AN 4.1\nSynthetic title\nTranslated by Bhikkhu Candana\nCopyright synthetic\n\n"
         body = "Section One:\n\nFirst synthetic source paragraph.\n\nSecond synthetic source paragraph.\n\nSadhu Sadhu Sadhu\n"
-        raw = header + body + "\f"
+        source = body + "\f" if source is None else source
+        raw = header + source
+        pdf_pages = len(website.pages_of(raw))
         canonical = "AN 4.1 - Synthetic\n\nFirst synthetic source paragraph.\nSecond synthetic source paragraph.\n"
         (root / "reference.txt").write_text(canonical)
         def anchors(text, phrases):
@@ -56,16 +58,18 @@ class CandanaWebsiteTests(unittest.TestCase):
         phrases = ["First synthetic source paragraph.", "Second synthetic source paragraph."]
         row = {"canonical_id": "AN 4.1", "collection": "anguttara-nikaya", "title": "Synthetic title",
                "translator": "Bhikkhu Candana", "version": "candana", "source_url": "https://www.mindreleased.com/s/test.pdf",
-               "source_sha256": website.sha(pdf.read_bytes()), "copyright": "Copyright synthetic", "pdf_pages": 1,
+               "source_sha256": website.sha(pdf.read_bytes()), "copyright": "Copyright synthetic", "pdf_pages": pdf_pages,
                "raw_text_sha256": website.sha(raw.encode()), "body_sha256": website.sha(body.encode()),
                "text_sha256": "", "partition": {"header_characters": len(header),
-                    "header_sha256": website.sha(header.encode()), "raw_body_sha256": website.sha((body + "\f").encode()),
-                    "page_break_paragraphs": []},
+                    "header_sha256": website.sha(header.encode()), "raw_body_sha256": website.sha(source.encode()),
+                    "page_break_paragraphs": list(range(1, pdf_pages)) if page_break_paragraphs is None else page_break_paragraphs},
                "identity_review": {"status": "VERIFIED", "review_kind": "CONTENT_IDENTITY_REVIEW",
                     "review_id": "synthetic-content-review", "review_basis": "Synthetic content comparison, no real review claimed",
                     "canonical_text_path": "reference.txt", "canonical_text_sha256": website.sha(canonical.encode()),
                     "source_anchors": anchors(raw, phrases), "canonical_anchors": anchors(canonical, phrases)},
                "processing_review_entry_id": "synthetic-entry", "completeness_status": "UNKNOWN"}
+        if page_break_joins is not None:
+            row["partition"]["page_break_joins"] = page_break_joins
         row["text_sha256"] = website.sha(website.attributed_text(row, header, body).encode())
         manifest = {"schema_version": 1, "license": WEBSITE_LICENSE, "conditions": website.CONDITIONS,
                     "distribution": WEBSITE_DISTRIBUTION, "permission": {
@@ -75,6 +79,12 @@ class CandanaWebsiteTests(unittest.TestCase):
         path.parent.mkdir(parents=True)
         path.write_text(json.dumps(manifest))
         return pdf, raw, row, manifest
+
+    def prose_fixture(self, root):
+        source = ("  \nSection One:\n\nFirst synthetic source\n\n \t\f\n \t\nparagraph.\n\n  \f"
+                  "\n\n Second synthetic source\nparagraph.\n\nSadhu Sadhu Sadhu\n\f")
+        return self.fixture(root, header_prefix="Synthetic collection\n", source=source,
+                            page_break_paragraphs=[2], page_break_joins=[1])
 
     def extractor(self, raw, alternate=None):
         return patch.object(website.subprocess, "check_output", side_effect=lambda args, **kw:
@@ -131,6 +141,191 @@ class CandanaWebsiteTests(unittest.TestCase):
             self.assertFalse((root / website.public_text_path(row)).exists())
             website.verify_public_boundary(root)
 
+    def test_legacy_fixture_bytes_hashes_and_notice_are_unchanged(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, _value = self.fixture(root)
+            header, body = website.partition(raw, row)
+            changes = ("Presentation only: original heading retained in edition details; physical line wraps reflowed; "
+                       "reviewed page breaks retained as paragraph breaks. No words, punctuation, notes or closings removed or repaired.")
+            expected_body = ("Section One:\n\nFirst synthetic source paragraph.\n\n"
+                             "Second synthetic source paragraph.\n\nSadhu Sadhu Sadhu\n")
+            expected = (
+                "AN 4.1 - Synthetic title\n"
+                "Translated by Bhikkhu Candana\n"
+                "Source: https://www.mindreleased.com/s/test.pdf\n"
+                "License: Candana — permission for freebuddhism.org\n"
+                "License URL: https://freebuddhism.org/theravada/tipitaka/site/candana-permission.html\n"
+                "Copyright: Copyright synthetic\n"
+                "License notice: No part of the content of the translations may be changed or altered; "
+                "Available free of charge and never monetized in any way, now or in the future; "
+                "The content of these translations must never be used for advertisements. "
+                "Permission is for republication on freebuddhism.org; no general public-repository or third-party archive grant is claimed.\n"
+                "Original document heading: AN 4.1 Synthetic title Translated by Bhikkhu Candana Copyright synthetic\n"
+                "Distribution: Website-only edition; excluded from combined readers and site/source archives in this build.\n"
+                "Changes: " + changes + "\n"
+                "Completeness: UNKNOWN. Whole reviewed source translation, including section headings and closings; "
+                "completeness and translation accuracy remain unverified.\n\n" + expected_body)
+            self.assertEqual(body.encode(), expected_body.encode())
+            self.assertEqual(website.attributed_text(row, header, body).encode(), expected.encode())
+            self.assertEqual(row["body_sha256"], website.sha(expected_body.encode()))
+            self.assertEqual(row["text_sha256"], website.sha(expected.encode()))
+            self.assertEqual(website.changes_for(row), changes)
+            self.assertEqual(website.CHANGES, changes)
+
+    def test_explicit_prose_joins_continuation_and_preserves_true_paragraph(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, _value = self.prose_fixture(root)
+            source = raw[row["partition"]["header_characters"]:]
+            body = website.reflow_body(source, row["partition"], row["pdf_pages"])
+            self.assertEqual(body, "Section One:\n\nFirst synthetic source paragraph.\n\n"
+                                   "Second synthetic source paragraph.\n\nSadhu Sadhu Sadhu\n")
+            self.assertEqual(body.split(), source.split())
+            header, checked_body = website.partition(raw, row)
+            self.assertEqual(checked_body, body)
+            self.assertTrue(header.startswith("Synthetic collection\nAN 4.1\n"))
+            self.assertEqual(raw.split(), (header + "\n" + body).split())
+
+    def test_empty_joins_selects_explicit_header_review_and_paragraph_layout(self):
+        sources = (None, "Section One:\n\nFirst synthetic source paragraph.\n\n\f\n\n"
+                         "Second synthetic source paragraph.\n\nSadhu Sadhu Sadhu\n\f")
+        for source in sources:
+            with self.subTest(source=source), TemporaryDirectory() as directory:
+                root = Path(directory)
+                _pdf, raw, row, _value = self.fixture(root, header_prefix="Synthetic collection\n",
+                                                    source=source, page_break_joins=[])
+                header, body = website.partition(raw, row)
+                self.assertTrue(header.startswith("Synthetic collection\nAN 4.1\n"))
+                self.assertIn("First synthetic source paragraph.\n\nSecond synthetic source paragraph.", body)
+                self.assertIn("reviewed paragraph boundaries retained", website.changes_for(row))
+                self.assertIn("continued prose reflowed without word changes", website.changes_for(row))
+                legacy = deepcopy(row)
+                del legacy["partition"]["page_break_joins"]
+                with self.assertRaisesRegex(ValueError, "Source identity"):
+                    website.partition(raw, legacy)
+
+    def test_explicit_classifications_reject_duplicates_types_gaps_overlap_and_range(self):
+        invalid = (
+            ("duplicate joins", [2], [1, 1]), ("duplicate paragraphs", [2, 2], [1]),
+            ("boolean join", [2], [True]), ("boolean paragraph", [True, 2], []),
+            ("float join", [2], [1.0]), ("float paragraph", [1.0, 2], []),
+            ("unsorted joins", [], [2, 1]), ("unsorted paragraphs", [2, 1], []),
+            ("missing one", [2], []), ("missing all", [], []),
+            ("overlap", [1, 2], [1]), ("zero index", [2], [0, 1]),
+            ("negative index", [2], [-1, 1]), ("past final page", [2], [1, 3]),
+            ("paragraph past final page", [2, 3], [1]),
+            ("joins not list", [2], "1"), ("paragraphs not list", None, [1, 2]),
+        )
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, value = self.prose_fixture(root)
+            source = raw[row["partition"]["header_characters"]:]
+            for fault, paragraphs, joins in invalid:
+                with self.subTest(fault=fault):
+                    changed = deepcopy(row)
+                    changed["partition"].update(page_break_paragraphs=paragraphs, page_break_joins=joins)
+                    with self.assertRaises(ValueError):
+                        website.reflow_body(source, changed["partition"], changed["pdf_pages"])
+                    with self.assertRaises(ValueError):
+                        website.partition(raw, changed)
+                    value["records"] = [changed]
+                    (root / website.MANIFEST_PATH).write_text(json.dumps(value))
+                    with self.assertRaises(ValueError):
+                        website.manifest(root)
+
+    def test_partition_keys_cannot_be_missing_or_unknown(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, value = self.prose_fixture(root)
+            for fault in ("missing paragraphs", "unknown key"):
+                with self.subTest(fault=fault):
+                    changed = deepcopy(row)
+                    if fault == "missing paragraphs":
+                        del changed["partition"]["page_break_paragraphs"]
+                    else:
+                        changed["partition"]["unreviewed_layout"] = True
+                    with self.assertRaises(ValueError):
+                        website.partition(raw, changed)
+                    value["records"] = [changed]
+                    (root / website.MANIFEST_PATH).write_text(json.dumps(value))
+                    with self.assertRaises(ValueError):
+                        website.manifest(root)
+
+    def test_explicit_reference_must_occur_once_as_standalone_line_inside_header(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, _value = self.prose_fixture(root)
+            offset = row["partition"]["header_characters"]
+            header, source = raw[:offset], raw[offset:]
+            variants = (
+                (header.replace("AN 4.1\n", ""), "AN 4.1\n" + source),
+                ("AN 4.1\n" + header, source),
+                (header.replace("AN 4.1\n", "Reference: AN 4.1\n"), source),
+                (header.replace("Copyright synthetic", "Copyright changed"), source),
+                (header.replace("Translated by Bhikkhu Candana", "Translated by Unknown"), source),
+            )
+            for changed_header, changed_source in variants:
+                with self.subTest(header=changed_header):
+                    changed_raw = changed_header + changed_source
+                    changed = deepcopy(row)
+                    changed["raw_text_sha256"] = website.sha(changed_raw.encode())
+                    changed["partition"].update(header_characters=len(changed_header),
+                        header_sha256=website.sha(changed_header.encode()),
+                        raw_body_sha256=website.sha(changed_source.encode()))
+                    with self.assertRaisesRegex(ValueError, "Source identity"):
+                        website.partition(changed_raw, changed)
+
+    def test_explicit_staging_records_and_download_use_same_changes_notice(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            pdf, raw, row, value = self.prose_fixture(root)
+            with self.extractor(raw):
+                website.stage(pdf, root)
+                record = website.collect_records(root / "build/readers", root)[0]
+                self.assertTrue(website.verify_record(record, root))
+                self.assertEqual(record["changes"], website.changes_for(row))
+                self.assertIn("Changes: " + record["changes"] + "\n", record["text_path"].read_text())
+                self.assertFalse(website.verify_record(dict(record, changes=website.CHANGES), root))
+                value["records"][0]["identity_review"]["source_anchors"][0]["sha256"] = "0" * 64
+                (root / website.MANIFEST_PATH).write_text(json.dumps(value))
+                with self.assertRaisesRegex(ValueError, "Identity review content interval changed"):
+                    website.collect_records(root / "build/readers", root)
+
+    def test_explicit_layout_still_requires_pinned_words_and_extractor_agreement(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            pdf, raw, row, _value = self.prose_fixture(root)
+            with self.extractor(raw):
+                website.stage(pdf, root)
+            for changed_raw in (raw.replace("First synthetic", "Changed synthetic"),
+                                raw.replace("Sadhu Sadhu Sadhu", "Sadhu"),
+                                raw.replace("paragraph.", "paragraph!")):
+                with self.subTest(changed_raw=changed_raw):
+                    with self.assertRaises(ValueError):
+                        website.partition(changed_raw, row)
+                    with self.extractor(changed_raw), self.assertRaises(ValueError):
+                        website.checked_input(row, root)
+                    changed = deepcopy(row)
+                    changed["raw_text_sha256"] = website.sha(changed_raw.encode())
+                    source = changed_raw[row["partition"]["header_characters"]:]
+                    changed["partition"]["raw_body_sha256"] = website.sha(source.encode())
+                    with self.assertRaisesRegex(ValueError, "differs from reviewed output"):
+                        website.partition(changed_raw, changed)
+            for alternate in (raw.replace("First synthetic", "Firstsynthetic"), raw + "Extra page\f"):
+                with self.subTest(alternate=alternate), self.extractor(raw, alternate), self.assertRaises(ValueError):
+                    website.checked_input(row, root)
+
+    def test_explicit_reflow_rejects_hyphen_wraps_within_and_across_pages(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            _pdf, raw, row, _value = self.prose_fixture(root)
+            source = raw[row["partition"]["header_characters"]:]
+            for changed in (source.replace("synthetic source", "synthetic-\nsource", 1),
+                            source.replace("source\n\n \t\f", "source-\n\n \t\f", 1)):
+                with self.subTest(source=changed), self.assertRaisesRegex(ValueError, "hyphen-wrap"):
+                    website.reflow_body(changed, row["partition"], row["pdf_pages"])
+
     def test_wrong_pdf_and_mutated_cached_input_cannot_be_replaced_silently(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
@@ -174,7 +369,8 @@ class CandanaWebsiteTests(unittest.TestCase):
             self.assertTrue(website.verify_record(record, root))
             for field, value in (("body", "Changed"), ("license_notice", "Reduced notice"),
                                  ("source_url", "https://example.org"), ("conditions", []),
-                                 ("site_text_path", root / "wrong.txt"), ("source_sha256", "0" * 64)):
+                                 ("site_text_path", root / "wrong.txt"), ("source_sha256", "0" * 64),
+                                 ("changes", "Unreviewed presentation changes")):
                 with self.subTest(field=field): self.assertFalse(website.verify_record(dict(record, **{field: value}), root))
             record["text_path"].write_text("Changed saved download")
             self.assertFalse(website.verify_record(record, root))

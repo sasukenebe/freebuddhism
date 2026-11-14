@@ -15,6 +15,12 @@ that every text or translation has already been published.
    but do not resume Abhidhamma conversion, OCR, import or publication work while
    the Sutta Piṭaka coverage path remains unfinished.
 
+Owner preference, November 13: prioritize preparing and checking Candana's
+translations where available. Continue the missing-text and source-permission
+tracks alongside that work; alternative editions are not newly filled corpus
+gaps. This preference does not waive source-preservation, identity, completeness
+or publication checks, and does not remove other translators' editions.
+
 Use the broad existing Khuddaka collection scope, including Netti, Peṭakopadesa
 and Milindapañha. Record the reference edition and grouped numbering explicitly;
 do not pretend that different traditions have identical book or discourse counts.
@@ -51,8 +57,9 @@ replacement. Author contact requires a separately approved exact message.
 
 The previous correction release used source commit
 885f3b3463f24036f87399096bae6d7e7d3888dc. The latest individual-reader release is
-live at ede22e4b1af1ebb2800f6b90671557c5a42ad04f, with 10,060 reader versions.
-These include alternative editions and Vinaya, not 10,060 distinct complete suttas.
+live at d0f0e8adb38f494733744cc3ea452f8958fd8682, with 10,061 reader versions,
+verified November 13. These include alternative editions and Vinaya, not 10,061
+distinct complete suttas.
 
 ## First execution checkpoint
 
@@ -91,7 +98,8 @@ retained privately and human proofreading recorded separately. The first local b
 contains 123 whole-document drafts with matching text layers and clear opening
 references, of which 115 lack an existing Candana reference. Another 89 standalone
 offers remain held. These counts are source offers, not new public sutta readers
-or full semantic/proofreading approval. No new edition was deployed by this work.
+or full semantic/proofreading approval. Only the separately checked AN 4.171
+website edition below has been newly published from these standalone drafts.
 
 AN 4.171 now has an opt-in website-only reader recipe with pinned source/body/TXT
 hashes and content-identity evidence. The original heading is retained in edition
@@ -101,7 +109,12 @@ inputs. The full local preview passes with 10,061 reader versions, 31 archives a
 zero broken local links. All 875 existing Candana readers and 2,821 other licensed
 editions retain their checked bodies; the new HTML/TXT/PDF notices and archive/
 combined-reader exclusions pass. This adds a Candana edition of an already covered
-reference, not a newly filled identifier gap. Nothing new is live. The owner has
-authorized the prepared source push and deployment after exact-source CI. Publication needs
-production staging/opt-in and deployed-page checks. A successful default build
-does not include these optional editions.
+reference, not a newly filled identifier gap. It is now live following exact-source
+CI, a complete worker build and server-side file verification. All 38,407 deployed
+files match the checked inventory. Actual public reader/TXT/PDF, permission page,
+canonical link and release bytes match; the homepage is unchanged. Desktop/mobile
+viewport captures were checked. This is not a new human-proofreading approval.
+Deployment now supports checked remote output without a local rebuild or bulk
+checksum work. A successful default source build still omits optional editions;
+production must retain explicit input/edition checks or their trusted completed
+worker receipts bound to the exact output files. Abhidhamma remains deferred.

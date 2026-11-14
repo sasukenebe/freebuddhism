@@ -44,23 +44,21 @@ jobs:
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.12'
-      - name: Install PDF tools and reader fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends -y poppler-utils mupdf-tools fontconfig fonts-noto-core
-      - name: Install pinned Python dependencies
-        run: python -m pip --disable-pip-version-check install -r requirements.txt
+      - name: Bootstrap the same isolated build environment used locally
+        run: python tools/bootstrap.py --install-system
+      - name: Check the installed build environment without changes
+        run: python tools/bootstrap.py --check
       - name: Validate exact files, rights records and source hashes
-        run: python tools/validate_public_tree.py
+        run: .venv/bin/python tools/validate_public_tree.py
       - name: Check generated exclusion metadata
-        run: python tools/build_excluded_inventory.py --check
+        run: .venv/bin/python tools/build_excluded_inventory.py --check
       - name: Check pinned Sutta coverage and gap inventory
-        run: python tools/buddhist_canon_pipeline/sutta_coverage.py --check
+        run: .venv/bin/python tools/buddhist_canon_pipeline/sutta_coverage.py --check
       - name: Run regressions
-        run: python -m unittest discover -s tests
+        run: .venv/bin/python -m unittest discover -s tests
       - name: Build and validate site, archives and local links
-        run: python tools/buddhist_canon_pipeline/build_deploy_site.py --reader-jobs 2
+        run: .venv/bin/python tools/buddhist_canon_pipeline/build_deploy_site.py --reader-jobs 2
       - name: Compare every Candana reader against its pinned source text
-        run: python tools/buddhist_canon_pipeline/check_candana_readers.py --output build/candana-reader-check.json
+        run: .venv/bin/python tools/buddhist_canon_pipeline/check_candana_readers.py --output build/candana-reader-check.json
       - name: Check licensed reader bodies, downloads and retained notices
-        run: python tools/buddhist_canon_pipeline/check_licensed_readers.py
+        run: .venv/bin/python tools/buddhist_canon_pipeline/check_licensed_readers.py

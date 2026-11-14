@@ -93,6 +93,23 @@ three closing Sadhu words; its original printed heading and copyright remain in
 the edition details. Two visually checked page breaks become paragraph breaks.
 No wording, notes, punctuation or repetitions are repaired or removed.
 
+New prose recipes may explicitly distinguish continued paragraphs from true
+paragraph boundaries at physical page breaks. In partition metadata,
+page_break_joins lists reviewed continuation breaks and page_break_paragraphs
+lists reviewed paragraph breaks; 1 means the break after source page 1. Every
+actual boundary must appear exactly once, with sorted unique integer indexes.
+Unknown keys, omitted classifications, overlaps and out-of-range indexes fail.
+The explicit recipe also requires the exact discourse reference as one standalone
+line inside the preserved original heading. Content-identity evidence is still
+required; the printed number alone is insufficient.
+
+Continuation reflow removes only physical wrapping and page-margin whitespace;
+the ordered words and punctuation must match both extractors and the pinned
+source/output hashes. Older recipes retain their exact previous output and
+notices. This does not infer paragraph boundaries elsewhere, join hyphenated
+words or preserve deliberately lineated verse. Sources needing those operations
+remain held until their layout has its own checked representation.
+
 Stage the exact original PDF explicitly, then enable website editions:
 
 ```sh

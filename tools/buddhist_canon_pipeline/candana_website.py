@@ -38,11 +38,39 @@ RIGHTS_URL = "https://freebuddhism.org/" + RIGHTS_PATH
 NOTICE = "; ".join(CONDITIONS) + ". Permission is for republication on freebuddhism.org; no general public-repository or third-party archive grant is claimed."
 CHANGES = ("Presentation only: original heading retained in edition details; physical line wraps reflowed; "
            "reviewed page breaks retained as paragraph breaks. No words, punctuation, notes or closings removed or repaired.")
+LAYOUT_CHANGES = ("Presentation only: original heading retained in edition details; reviewed paragraph boundaries retained "
+                  "and continued prose reflowed without word changes. No words, punctuation, notes or closings removed or repaired.")
 SCOPE = "Whole reviewed source translation, including section headings and closings; completeness and translation accuracy remain unverified."
 
 
 def sha(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def _validate_partition(recipe: dict, pdf_pages: int) -> None:
+    required = {"header_characters", "header_sha256", "raw_body_sha256", "page_break_paragraphs"}
+    if not isinstance(recipe, dict) or not required <= set(recipe) <= required | {"page_break_joins"}:
+        raise ValueError("Source partition contains unexpected or missing fields")
+    if type(pdf_pages) is not int or pdf_pages < 1:
+        raise ValueError("Invalid reviewed PDF page count")
+    fields = ["page_break_paragraphs"]
+    if "page_break_joins" in recipe:
+        fields.append("page_break_joins")
+    classified = set()
+    for field in fields:
+        boundaries = recipe[field]
+        if (not isinstance(boundaries, list) or any(type(index) is not int for index in boundaries)
+                or boundaries != sorted(set(boundaries))
+                or any(not 1 <= index < pdf_pages for index in boundaries)
+                or classified.intersection(boundaries)):
+            raise ValueError("Page breaks need sorted unique integer classifications without overlap or out-of-range indexes")
+        classified.update(boundaries)
+    if classified != set(range(1, pdf_pages)):
+        raise ValueError("Every page break must be explicitly classified exactly once")
+
+
+def changes_for(row: dict) -> str:
+    return LAYOUT_CHANGES if "page_break_joins" in row["partition"] else CHANGES
 
 
 def manifest(root: Path = ROOT) -> dict:
@@ -73,6 +101,7 @@ def manifest(root: Path = ROOT) -> dict:
             raise ValueError("Unreviewed website edition identity/scope")
         if checked_url(row["source_url"]) != row["source_url"]:
             raise ValueError("Use the exact approved original PDF URL")
+        _validate_partition(row["partition"], row["pdf_pages"])
         for digest in (row["source_sha256"], row["raw_text_sha256"], row["body_sha256"],
                        row["text_sha256"], row["partition"]["header_sha256"], row["partition"]["raw_body_sha256"]):
             if not re.fullmatch(r"[0-9a-f]{64}", digest):
@@ -94,26 +123,55 @@ def public_text_path(row: dict) -> str:
     return f"theravada/tipitaka/translations/en/candana-website/{slug}-{row['version']}.txt"
 
 
+def reflow_body(source: str, recipe: dict, pdf_pages: int) -> str:
+    """Reflow reviewed prose only; boundary 1 is the break after source page 1.
+
+    The recipe is the complete partition metadata. Presence of page_break_joins,
+    even an empty list, selects explicit layout review. Callers must still verify
+    the pinned source/header/output hashes and independent extractor agreement.
+    """
+    _validate_partition(recipe, pdf_pages)
+    pages = pages_of(source)
+    if len(pages) != pdf_pages or re.search(r"\w-\n[ \t]*\w", source):
+        raise ValueError("Unreviewed page-break or hyphen-wrap layout")
+    if "page_break_joins" in recipe:
+        joins = set(recipe["page_break_joins"])
+        parts = []
+        for index, page in enumerate(pages):
+            if index:
+                parts.append("\n" if index in joins else "\n\n")
+            parts.append(page.strip())
+        layout = "".join(parts)
+        if re.search(r"\w-\n[ \t]*\w", layout):
+            raise ValueError("Unreviewed hyphen-wrap layout across a page break")
+    else:
+        # Preserve the original recipe's page-margin handling and output bytes.
+        layout = "\n\n".join(pages).strip()
+    paragraphs = re.split(r"\n[ \t]*\n+", layout)
+    body = "\n\n".join(" ".join(p.split()) for p in paragraphs if p.strip()) + "\n"
+    if source.split() != body.split():
+        raise ValueError("Reader reflow changed words/order")
+    return body
+
+
 def partition(raw: str, row: dict) -> tuple[str, str]:
     recipe = row["partition"]
+    _validate_partition(recipe, row["pdf_pages"])
     offset = recipe["header_characters"]
     if type(offset) is not int or not 0 < offset < len(raw):
         raise ValueError("Invalid source header/body boundary")
     header, source = raw[:offset], raw[offset:]
+    if "page_break_joins" in recipe:
+        reference_matches = sum(line.strip() == row["canonical_id"] for line in header.splitlines()) == 1
+    else:
+        reference_matches = raw.splitlines()[0].strip() == row["canonical_id"]
     if (sha(header.encode()) != recipe["header_sha256"]
             or sha(source.encode()) != recipe["raw_body_sha256"]
-            or raw.splitlines()[0].strip() != row["canonical_id"]
+            or not reference_matches
             or row["copyright"] not in header
             or "Translated by Bhikkhu Candana" not in " ".join(header.split())):
         raise ValueError("Source identity, notice or exact reader boundary changed")
-    pages = pages_of(source)
-    if (len(pages) != row["pdf_pages"] or recipe["page_break_paragraphs"] != list(range(1, len(pages)))
-            or re.search(r"\w-\n[ \t]*\w", source)):
-        raise ValueError("Unreviewed page-break or hyphen-wrap layout")
-    # Each source page starts a new paragraph in this exact reviewed recipe.
-    # Never apply this to a PDF with a page break inside a continuing paragraph.
-    paragraphs = re.split(r"\n[ \t]*\n+", "\n\n".join(pages).strip())
-    body = "\n\n".join(" ".join(p.split()) for p in paragraphs if p.strip()) + "\n"
+    body = reflow_body(source, recipe, row["pdf_pages"])
     if raw.split() != (header + "\n" + body).split() or sha(body.encode()) != row["body_sha256"]:
         raise ValueError("Reader reflow changed words/order or differs from reviewed output")
     return header, body
@@ -127,7 +185,7 @@ def attributed_text(row: dict, header: str, body: str) -> str:
         "License notice: " + NOTICE,
         "Original document heading: " + " ".join(header.split()),
         "Distribution: Website-only edition; excluded from combined readers and site/source archives in this build.",
-        "Changes: " + CHANGES, "Completeness: UNKNOWN. " + SCOPE,
+        "Changes: " + changes_for(row), "Completeness: UNKNOWN. " + SCOPE,
     ]) + "\n\n" + body
 
 
@@ -210,7 +268,7 @@ def collect_records(output_root: Path, root: Path = ROOT) -> list[dict]:
             "title": item["title"], "source_url": item["source_url"], "source_repository": "",
             "source_revision": item["source_sha256"], "upstream_file": "", "license": WEBSITE_LICENSE,
             "license_url": RIGHTS_URL, "copyright": item["copyright"], "license_notice": NOTICE,
-            "changes": CHANGES, "conditions": CONDITIONS, "distribution": WEBSITE_DISTRIBUTION,
+            "changes": changes_for(item), "conditions": CONDITIONS, "distribution": WEBSITE_DISTRIBUTION,
             "completeness_status": "UNKNOWN", "completeness_scope": SCOPE,
             "source_label": "Mind Released · original Candana PDF", "text_path": text_path,
             "site_text_path": root / public_text_path(item), "source_sha256": sha(text.encode()),
@@ -230,6 +288,7 @@ def verify_record(record: dict, root: Path = ROOT) -> bool:
             and record.get("version") == item["version"] and record.get("source_url") == item["source_url"]
             and record.get("body_sha256") == item["body_sha256"] and record.get("source_sha256") == item["text_sha256"]
             and record.get("distribution") == WEBSITE_DISTRIBUTION and record.get("conditions") == CONDITIONS
+            and record.get("changes") == changes_for(item)
             and record.get("license_notice") == NOTICE and record.get("license_url") == RIGHTS_URL
             and record.get("title") == item["title"] and record.get("copyright") == item["copyright"]
             and isinstance(record.get("body"), str) and sha(record["body"].encode()) == item["body_sha256"]
