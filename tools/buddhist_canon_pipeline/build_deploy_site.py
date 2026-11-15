@@ -643,7 +643,7 @@ _BROWSE_STYLE = (
 )
 
 
-_BROWSE_SCRIPT = '''<script>(function(){
+_BROWSE_SCRIPT = r'''<script>(function(){
 const root=document.getElementById("collection-browser");if(!root)return;
 const fontKey="freebuddhism-browse-font-scale";
 const legacyFontKey="freebuddhism-browse-font-size";
@@ -687,10 +687,23 @@ buttons.forEach(button=>button.addEventListener("click",()=>{
   const url=new URL(location.href);url.searchParams.set("view",button.dataset.mode);history.replaceState(null,"",url);
 }));
 const search=root.querySelector("[data-list-search]");
-if(search)search.addEventListener("input",()=>{
-  const term=search.value.trim().toLocaleLowerCase();
-  root.querySelectorAll("[data-list-results] li").forEach(item=>item.hidden=!item.dataset.search.includes(term));
-});})();</script>'''
+if(search){
+  const results=root.querySelector("[data-list-results]");
+  const normalize=value=>value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim().replace(/\s+/g," ");
+  const reference=value=>value.replace(/([a-z])\s+(?=\d)/g,"$1");
+  const entries=Array.from(results.querySelectorAll("li"),item=>({
+    item,text:normalize(item.dataset.search),
+    reference:reference(normalize(item.dataset.search)),id:reference(normalize(item.dataset.canonicalId))
+  }));
+  search.addEventListener("input",()=>{
+    const term=normalize(search.value),id=reference(term);
+    const ordered=entries.slice().sort((a,b)=>Number(b.id===id)-Number(a.id===id));
+    ordered.forEach((entry,index)=>{
+      entry.item.hidden=!(entry.text.includes(term)||entry.reference.includes(id));
+      if(results.children[index]!==entry.item)results.insertBefore(entry.item,results.children[index]);
+    });
+  });
+}})();</script>'''
 
 
 def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
@@ -781,12 +794,13 @@ def _collection_browse_markup(
         display_title = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         label_text = html.escape(display_title)
         availability = len(info["eligible"])
-        search = html.escape(f'{info["canonical_id"]} {display_title}'.casefold(), quote=True)
+        search = html.escape(f'{info["canonical_id"]} {display_title}', quote=True)
         status = f"{availability} eligible edition{'s' if availability != 1 else ''}"
         if not availability:
             status = "no eligible local edition"
         text = f'<a href="{href}">{label_text}</a>' if availability else label_text
-        listing.append(f'<li data-search="{search}">{text} — {status}</li>')
+        canonical_id = html.escape(info["canonical_id"], quote=True)
+        listing.append(f'<li data-canonical-id="{canonical_id}" data-search="{search}">{text} — {status}</li>')
 
     read_url = "/theravada/tipitaka/site/read.html?collection=" + quote(collection, safe="/-")
     read_control = (
@@ -1326,7 +1340,7 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
                     read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
                     controls = (
                         '<nav aria-label="Collection views">'
-                        f'<a href="{html.escape(node_url, quote=True)}">Tree</a> · '
+                        f'<a href="{html.escape(node_url, quote=True)}">All translations for {html.escape(info["canonical_id"])}</a> · '
                         f'<a href="{html.escape(node_url, quote=True)}?view=list">Flat list</a> · '
                         f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
                     )

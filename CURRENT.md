@@ -55,11 +55,15 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The previous correction release used source commit
-885f3b3463f24036f87399096bae6d7e7d3888dc. The latest individual-reader release is
-live at d0f0e8adb38f494733744cc3ea452f8958fd8682, with 10,061 reader versions,
-verified November 13. These include alternative editions and Vinaya, not 10,061
-distinct complete suttas.
+The previously verified live release is source
+c244ce390ef353264c53d6fc0f83f00be9df941b, with 10,072 reader versions and twelve
+standalone website-only Candana editions, verified November 15. The next checked
+batch adds Candana AN 7.65 and SN 55.21 plus easier number/title search and clearer
+links back to all translations. Its preview has 10,074 readers and fourteen
+website-only editions. Original wording, source paragraphs, notices and archive
+exclusions are preserved. Publication requires the clean-source checks and actual
+deployed-page verification above. These counts include alternatives and Vinaya;
+they are not counts of distinct complete suttas or human proofreading approvals.
 
 ## First execution checkpoint
 

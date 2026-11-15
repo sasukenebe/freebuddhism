@@ -68,6 +68,9 @@ class PublicReleasePolicyTests(unittest.TestCase):
         footer = ('<p>This page is open source, Contribute here: '
                   '<a href="https://github.com/sasukenebe/freebuddhism">GitHub repository</a></p>\n')
         original = original.replace("</body>", footer + "</body>")
+        search_link = ('<p><a href="/theravada/tipitaka/site/tipitaka.html?view=list">'
+                       'Find a text by ID or title</a></p>\n')
+        original = original.replace("\n<p>Contact:", search_link + "\n<p>Contact:", 1)
         self.assertEqual(page, original)
         self.assertEqual(page.count("This page is open source, Contribute here:"), 1)
         self.assertNotIn("http-equiv=\"refresh\"", page.casefold())

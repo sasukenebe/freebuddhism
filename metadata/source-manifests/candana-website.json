@@ -765,6 +765,124 @@
       },
       "processing_review_entry_id": "candana-d7fd9a4545ec4d474ffdf476",
       "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 7.65",
+      "collection": "anguttara-nikaya",
+      "title": "Hirī Ottappa Sutta — Wise Moral Shame & Wise Moral Fear",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-765-Hir-Ottappa-Sutta.pdf",
+      "source_sha256": "712f482117b5e5ec14a9edfada27dc6832d14566b304ad61148c115f1bfb7ed5",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "e6b67af54a74d6cec7c2363bbef3be4fe1a14da2a1dcd23ee46db581cf16923e",
+      "body_sha256": "73d859844a28ec1bcd09f840346dc39bb43afb6716d08a0870f04d4e610f68b4",
+      "text_sha256": "39f2951ff71958c08d2314b959ea594f1043cd8b5cad52b580ee577e9fa5cafd",
+      "partition": {
+        "header_characters": 301,
+        "header_sha256": "54bc4e2527d1be79c7205e9acf54e83fa692038c6426172cc6950986a8dc85dc",
+        "raw_body_sha256": "1aa7b75bf9ef72b682cac90d9eb436909a04bf3217f4a6d068c6ce3be34c7fb2",
+        "page_break_paragraphs": [
+          1
+        ],
+        "page_break_joins": []
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-7-65-content-identity-2026-11-15",
+        "review_basis": "Compared both complete retained source extractions with the complete Sujato AN 7.65 and inspected both original PDF pages at 1600 pixels. The four negative/positive chains, six links in each chain, deficient/flourishing tree similes and three Sadhu closings establish the association. The physical page boundary separates the repeated negative e and f clauses. Preserve every existing prose paragraph and literal label. The final positive repetition has no a label in the original image; no label is inserted. Only physical prose wraps and indentation are reflowed. Identity and source presentation only: no human proofreading, qualified Pali translation assessment or full completeness approval.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an7/an7.65.txt",
+        "canonical_text_sha256": "e6a6af0a1760d4a071fb1b76bb517ab1822ad483415e54a8e25bc1d27910fca7",
+        "source_anchors": [
+          {
+            "start": 1113,
+            "end": 1250,
+            "sha256": "52bffd1f2d67c500837c4d4af52a68e6abf08aaabc50c7fc8fab77f30b6de725"
+          },
+          {
+            "start": 3219,
+            "end": 3355,
+            "sha256": "a380ff56198f41e4bed8587fc912af9005381682d01b70cdf8b51722c48e0ad3"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 1013,
+            "end": 1141,
+            "sha256": "78215bd6a48ba66119c539bdfe164e77930c215020146e6540c5659598c23d3d"
+          },
+          {
+            "start": 2808,
+            "end": 2943,
+            "sha256": "40f24fa2364f5d8a963afaa6879876ef4d4f1d413529c2490fe0740c971fab54"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-6314157db80c06becff52ce5",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 55.21",
+      "collection": "samyutta-nikaya",
+      "title": "Paṭhama Mahānāma Sutta — Discourse to Mahānāma – Part 1",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-5521-Pahama-Mahnma-Sutta.pdf",
+      "source_sha256": "bd03cbab9746870da2570671c255265a5f0bb42412b2ee7c95766bbdfe5551f1",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "70a394b1b8f8140b8ccc310ee8685de21fc85cead829c909d5c275d13a52a93e",
+      "body_sha256": "4550b2c98818de608c0f0fbee22df5b0e33ef22adfc3a801375a354775dd4d40",
+      "text_sha256": "00c3e76935f592f2e5a517b43c53a505742dbea5459b0665c107a6379735d2f5",
+      "partition": {
+        "header_characters": 638,
+        "header_sha256": "9f12228c9e1c4b1b401f0a124f2a577c90ab0956dfe0ef8cdc7d4207ec46aff3",
+        "raw_body_sha256": "67945a70f9e3a0f225c52020961a62657368ed8d6a0fdf0db2c772da040e7000",
+        "page_break_paragraphs": [
+          1
+        ],
+        "page_break_joins": [],
+        "internal_paragraph_starts": [
+          2742,
+          3784
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-55-21-content-identity-2026-11-15",
+        "review_basis": "Compared both complete retained source extractions with the complete Sujato SN 55.21 and inspected both original PDF pages at 1600 pixels. Mahanama's crowded-city fear and loss of recollection, the reassurance, five cultivated qualities, four-element body versus rising mind, broken ghee/oil pot simile and repeated reassurance establish content identity. Preserve the literal printed opening The is, varying Sangha spellings and every repeated formulation. The PDF's page boundary is a paragraph; page 2 also visibly separates It is exactly like that and So, rest assured into new paragraphs although both text engines supply only single line breaks there. The two hash-bound source character offsets preserve those original paragraphs. No source words, punctuation, closing or note is removed or repaired. Identity and source presentation only: no human proofreading, qualified Pali translation assessment or full completeness approval.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn55/sn55.21.txt",
+        "canonical_text_sha256": "a0ae337efffc1f768c13aaded6274b480fbdd6a8b54789f55ebfb1bcd9dd1bdd",
+        "source_anchors": [
+          {
+            "start": 1067,
+            "end": 1197,
+            "sha256": "60ce7f421cc778aa877d1c7709fc4db3d1060d2f585273c5b2961177aa743452"
+          },
+          {
+            "start": 2708,
+            "end": 2906,
+            "sha256": "9cab1aadad540c8236fc01d67d900504326186e218522a0680a55e32210975a9"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 626,
+            "end": 772,
+            "sha256": "82769af4b17d5bf830464230c2d6b9a2a8dea5df151b7e9ec612d06e623a8265"
+          },
+          {
+            "start": 1437,
+            "end": 1630,
+            "sha256": "de8ebe7a58a925334cfe1cfeb64145041679ccce1480c7ccc50fd1c3bbc63d55"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-b7d41a739e9e03ac7e3fdfd5",
+      "completeness_status": "UNKNOWN"
     }
   ]
 }

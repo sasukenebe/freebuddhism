@@ -49,7 +49,7 @@ def sha(data: bytes) -> str:
 
 def _validate_partition(recipe: dict, pdf_pages: int) -> None:
     required = {"header_characters", "header_sha256", "raw_body_sha256", "page_break_paragraphs"}
-    if not isinstance(recipe, dict) or not required <= set(recipe) <= required | {"page_break_joins"}:
+    if not isinstance(recipe, dict) or not required <= set(recipe) <= required | {"page_break_joins", "internal_paragraph_starts"}:
         raise ValueError("Source partition contains unexpected or missing fields")
     if type(pdf_pages) is not int or pdf_pages < 1:
         raise ValueError("Invalid reviewed PDF page count")
@@ -67,6 +67,12 @@ def _validate_partition(recipe: dict, pdf_pages: int) -> None:
         classified.update(boundaries)
     if classified != set(range(1, pdf_pages)):
         raise ValueError("Every page break must be explicitly classified exactly once")
+    if "internal_paragraph_starts" in recipe:
+        starts = recipe["internal_paragraph_starts"]
+        if ("page_break_joins" not in recipe or not isinstance(starts, list)
+                or any(type(index) is not int or index <= 0 for index in starts)
+                or starts != sorted(set(starts))):
+            raise ValueError("Internal paragraphs need explicit page review and sorted unique positive character offsets")
 
 
 def changes_for(row: dict) -> str:
@@ -129,11 +135,23 @@ def reflow_body(source: str, recipe: dict, pdf_pages: int) -> str:
     The recipe is the complete partition metadata. Presence of page_break_joins,
     even an empty list, selects explicit layout review. Callers must still verify
     the pinned source/header/output hashes and independent extractor agreement.
+    Internal starts are character offsets into that original, hash-bound body,
+    before margin removal. They may only add whitespace at physical line starts;
+    original-page inspection, not extractor agreement alone, establishes them.
     """
     _validate_partition(recipe, pdf_pages)
     pages = pages_of(source)
     if len(pages) != pdf_pages or re.search(r"\w-\n[ \t]*\w", source):
         raise ValueError("Unreviewed page-break or hyphen-wrap layout")
+    for index in reversed(recipe.get("internal_paragraph_starts", [])):
+        if index >= len(source) or source[index - 1] != "\n":
+            raise ValueError("Internal paragraph must start at an existing physical line")
+        previous = source[source.rfind("\n", 0, index - 1) + 1:index - 1]
+        following = source[index:].split("\n", 1)[0]
+        if not previous.strip() or not following.strip() or "\f" in previous + following:
+            raise ValueError("Internal paragraph cannot replace a blank line or page-break classification")
+        source = source[:index] + "\n" + source[index:]
+    pages = pages_of(source)
     if "page_break_joins" in recipe:
         joins = set(recipe["page_break_joins"])
         parts = []

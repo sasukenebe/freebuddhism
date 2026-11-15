@@ -73,6 +73,26 @@ class SuttaCoverageTests(unittest.TestCase):
         self.assertEqual(row["completeness"], "WHOLE_BOOK_SCOPE_ALIGNMENT_UNVERIFIED")
         self.assertFalse(row["semantic_identity_fully_audited"])
 
+    def test_repeated_apadana_narratives_do_not_fill_different_reference_versions(self):
+        # Walters articles 20/24 preserve these narratives under their original
+        # IDs. Later reference units 563/562 add formulas/end matter. Article
+        # completeness must not spread to those different units by alias/title.
+        reference = self.reference()
+        collection = "khuddaka-nikaya/apadana"
+        for number in (20, 24, 562, 563):
+            reference["units"].append({"id": f"tha-ap{number}", "collection": collection,
+                                       "path": "test", "git_blob": "a" * 40})
+        reference["unit_count"] = len(reference["units"])
+        editions = [self.edition(f"Tha Ap {number}", collection, "COMPLETE") for number in (20, 24)]
+        report = build_report(reference, editions, {})
+        rows = {row["id"]: row for row in report["units"]}
+        for number in (20, 24):
+            self.assertEqual(rows[f"tha-ap{number}"]["completeness"], "COMPLETE_WITHIN_RECORDED_SCOPE")
+            self.assertEqual(rows[f"tha-ap{number}"]["edition_count"], 1)
+        for number in (562, 563):
+            self.assertEqual(rows[f"tha-ap{number}"]["availability"], "NO_LOCAL_EDITION")
+            self.assertEqual(rows[f"tha-ap{number}"]["edition_count"], 0)
+
     def test_checked_in_report_is_reproducible_and_has_deferred_abhidhamma(self):
         ref = json.loads((ROOT / "metadata/sutta-reference-units.json").read_text())
         for path, expected in output_payloads(ref).items():

@@ -232,8 +232,9 @@ def render_html(config: dict, body: str) -> str:
         + '<p>' + html.escape(config.get("license_notice", "")) + '</p>'
         if config.get("license_notice") else ""
     )
+    references_heading = config.get("publisher_references_heading", "Publisher references (not part of the sutta)")
     publisher_references = (
-        '<details class="publisher-references"><summary>Publisher references (not part of the sutta)</summary>'
+        '<details class="publisher-references"><summary>' + html.escape(references_heading) + '</summary>'
         '<pre style="white-space:pre-wrap;font:inherit">'
         + html.escape(config["publisher_references"]) + '</pre></details>'
         if config.get("publisher_references") else ""
@@ -413,7 +414,8 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             story.append(Spacer(1, 2 * mm))
 
     if config.get("publisher_references"):
-        story.append(Paragraph("Publisher references (not part of the sutta)", styles["heading"]))
+        story.append(Paragraph(pdf_markup(config.get(
+            "publisher_references_heading", "Publisher references (not part of the sutta)")), styles["heading"]))
         for line in config["publisher_references"].splitlines():
             if line:
                 story.append(Paragraph(pdf_markup(line), styles["body"]))
@@ -439,7 +441,8 @@ def normalized(value: str) -> str:
     return " ".join(value.split())
 
 
-def verify_pdf_body(pdf_path: Path, body: str, publisher_references: str = "") -> None:
+def verify_pdf_body(pdf_path: Path, body: str, publisher_references: str = "",
+                    references_heading: str = "Publisher references (not part of the sutta)") -> None:
     """Check that extracted PDF text contains the complete source in order."""
     if not pdf_path.is_file() or not pdf_path.stat().st_size:
         raise ValueError(f"PDF is missing or empty: {pdf_path}")
@@ -456,7 +459,7 @@ def verify_pdf_body(pdf_path: Path, body: str, publisher_references: str = "") -
     if normalized(body.replace("\u00ad", "")) not in normalized(extracted):
         raise ValueError(f"PDF text does not contain the complete source body in order: {pdf_path}")
     if publisher_references:
-        heading = "Publisher references (not part of the sutta)"
+        heading = normalized(references_heading)
         text = normalized(extracted)
         if heading not in text or normalized(publisher_references) not in text.split(heading, 1)[1]:
             raise ValueError(f"PDF is missing its separate publisher-reference appendix: {pdf_path}")
@@ -487,7 +490,8 @@ def validate_outputs(config: dict, body: str, expected_html: str) -> None:
     entry_parser.feed(entry_path.read_text(encoding="utf-8"))
     if config["entry_href"] not in entry_parser.links:
         raise ValueError(f"Reader pilot is not linked from {config['entry_page']}")
-    verify_pdf_body(pdf_path, body, config.get("publisher_references", ""))
+    verify_pdf_body(pdf_path, body, config.get("publisher_references", ""),
+                    config.get("publisher_references_heading", "Publisher references (not part of the sutta)"))
 
 
 def run(manifest_path: Path, check: bool) -> None:

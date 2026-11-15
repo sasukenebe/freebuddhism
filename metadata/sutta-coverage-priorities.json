@@ -26,8 +26,8 @@
       "sources": ["https://archive.org/details/questionsofkingm01davi", "https://archive.org/details/questionsofkingm02davi"]
     },
     "khuddaka-nikaya/apadana": {
-      "next_action": "Review source/publisher numbering. The unmatched reference IDs tha-ap562 and tha-ap563 name Upavana and Ratthapala, not empty headings. Check whether existing Walters articles cover them under different numbers before claiming missing translations or reassigning any ID.",
-      "sources": ["https://apadanatranslation.org/", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap562_root-pli-ms.json", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap563_root-pli-ms.json"]
+      "next_action": "Content review finds the Upavana narrative of reference tha-ap562 in the existing Walters tha-ap24 article, and the Ratthapala narrative of tha-ap563 in tha-ap20; both narratives also occur under those earlier reference IDs. These are not complete aliases: the later reference units add closing formulas at 562:55-56 and 563:15-16, and 563:20-23 adds chapter/end matter. Preserve the existing publisher IDs and article bodies. Establish translation coverage of these differing passages before closing either gap; do not reassign readers or count whole-unit coverage from shared titles or narrative overlap.",
+      "sources": ["https://apadanatranslation.org/", "https://suttacentral.net/tha-ap24/en/walters", "https://suttacentral.net/tha-ap20/en/walters", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap562_root-pli-ms.json", "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/pli/ms/sutta/kn/tha-ap/tha-ap563_root-pli-ms.json"]
     },
     "khuddaka-nikaya/jataka": {
       "next_action": "Distinguish canonical verses, commentary stories and full narratives. Recorded completeness of a verse-only edition does not certify a complete narrative; retain the separate Cowell whole-source scope.",
