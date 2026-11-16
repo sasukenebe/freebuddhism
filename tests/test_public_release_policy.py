@@ -690,6 +690,7 @@ class PublicReleasePolicyTests(unittest.TestCase):
                     self.assertNotIn(" — expand", markup)
                     self.assertNotIn("font-family:", markup)
                     self.assertNotIn("max-width:", markup)
+                    self.assertNotRegex(markup, r"<details\b[^>]*\bopen\b")
                     result = (root / nodes[key]["route"]).read_text(encoding="utf-8")
                     self.assertIn('class="collection-description"', result)
                     self.assertTrue(nodes[key]["description"])
@@ -699,6 +700,26 @@ class PublicReleasePolicyTests(unittest.TestCase):
             })
             self.assertIn('data-browse-font="increase"', markup)
             self.assertIn('data-browse-font="decrease"', markup)
+            self.assertNotRegex(markup, r"<details\b[^>]*\bopen\b")
+
+    def test_tipitaka_children_are_inside_closed_parent_branches(self):
+        source = (ROOT / "theravada/tipitaka/site/tipitaka.html").read_text(encoding="utf-8")
+        tree = source.split('<ul id="tipitaka-tree">', 1)[1].split(
+            '</ul>\n<p>The text index retains', 1
+        )[0]
+        hierarchy = ElementTree.fromstring('<ul>' + tree + '</ul>')
+        branches = hierarchy.findall('.//details')
+        self.assertGreater(len(branches), 30)
+        for item in hierarchy.iter('li'):
+            self.assertIsNone(item.find('ul'), 'Child groups must collapse with their parent')
+            self.assertIsNotNone(item.find('details/summary'))
+        for branch in branches:
+            self.assertNotIn('open', branch.attrib)
+        root = hierarchy.find('li/details')
+        baskets = root.findall('ul/li/details')
+        self.assertEqual(len(baskets), 3)
+        self.assertEqual(len(baskets[1].findall('ul/li/details')), 5)
+        self.assertEqual(len(baskets[2].findall('ul/li/details')), 7)
 
     def test_tipitaka_tree_is_the_complete_existing_hierarchy_without_wrapper(self):
         nodes = navigation_nodes()

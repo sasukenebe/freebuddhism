@@ -721,7 +721,7 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
         f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
         + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
-        '<div data-view="tree"><details open><summary>Translations</summary>' + listing + '</details></div>'
+        '<div data-view="tree"><details><summary>Translations</summary>' + listing + '</details></div>'
         '<div data-view="list" hidden>' + listing + '</div>' + _BROWSE_SCRIPT + '</section>'
     )
 

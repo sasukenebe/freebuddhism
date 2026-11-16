@@ -17583,7 +17583,7 @@
     },
     {
       "path": "tests/test_public_release_policy.py",
-      "sha256": "b9fbdbb597d3c8442469f025a3a422686784dec30cf14b8e0ccf409203731e12",
+      "sha256": "1949f693b1085c6a2d8fc7010d99c8b5363fd29d238c05232743c0c7ec49f01a",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
@@ -17889,7 +17889,7 @@
     },
     {
       "path": "theravada/tipitaka/site/tipitaka.html",
-      "sha256": "0a894131e9a9292ef77ff5c532ea90bf15493d06fedaade200e23fb9e24881a4",
+      "sha256": "27c82d6e8431dc275fd14e5b0fea055fbce860294c35a6b3625f49d3114a3b43",
       "license_scope": "CC0-1.0 project-authored website content",
       "rights_basis": "Original project-authored site content released under CC0-1.0 by the repository owner."
     },
@@ -130161,7 +130161,7 @@
     },
     {
       "path": "tools/buddhist_canon_pipeline/build_deploy_site.py",
-      "sha256": "0531d50d55df74f9778154f7ae1e1b12cd1fcaf5a4a5f789c513760e3aadd12c",
+      "sha256": "e41130ca2894e636c66de28844dc3784052a4778ef0c84c08ddabe1b36e77e69",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },
