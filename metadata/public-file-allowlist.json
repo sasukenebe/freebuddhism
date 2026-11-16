@@ -303,7 +303,7 @@
     },
     {
       "path": "metadata/site-content.json",
-      "sha256": "50f6e40e6ed6b92ac6b7d7a8a1e91901af20d5f99527d9ecd829178d6e2ec2df",
+      "sha256": "fec6c1c5f7abacc8f3faace0fc95eba23e1d8f09243bfded5973420aac8d927a",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
