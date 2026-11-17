@@ -27,7 +27,7 @@
     },
     {
       "path": "CURRENT.md",
-      "sha256": "f96f5b010d6cd874c08ac72e72802982be189547c6cbfe974f40786332d44927",
+      "sha256": "eda4f3cf970f4f23d05e5930984c89665d5f623ac7c20b069b2ff8e6f1604ecc",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -141,7 +141,7 @@
     },
     {
       "path": "docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md",
-      "sha256": "0a729686f324fb62d09ea49449737191ad7dc41a17a010a599662e191e604b51",
+      "sha256": "f51c7e01e6f12e39b771d78f5b17d47d73bd56e5cfdd947e974e40f61d5f16bb",
       "license_scope": "CC0-1.0 project documentation",
       "rights_basis": "Owner-authored project documentation is released under CC0-1.0 in LICENSE."
     },
@@ -321,7 +321,7 @@
     },
     {
       "path": "metadata/source-manifests/candana-website.json",
-      "sha256": "d89548d2c0927906e88ffc96b5aa7bf710d49c1b91aaff345a291b8e534d554e",
+      "sha256": "591b6f817fc938aaf8cabc5dcfc45eb28ca1441ea42d2a97ae2eb1c4b29369c9",
       "license_scope": "CC0-1.0 project metadata",
       "rights_basis": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied."
     },
@@ -17565,7 +17565,7 @@
     },
     {
       "path": "tests/test_candana_website.py",
-      "sha256": "2362addc464694e9ea7e8fb0c0536a06b12030a8ea542bf94b7e957c743d5dac",
+      "sha256": "4d6811ddecd70a57df474c34baff9476d3e3003885f8e7ecb09385fc7ed65680",
       "license_scope": "0BSD",
       "rights_basis": "Original project code and test fixtures are released under 0BSD in LICENSE."
     },

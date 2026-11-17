@@ -1045,6 +1045,311 @@
       },
       "processing_review_entry_id": "candana-f4360adbb3c9c9760bc64870",
       "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 35.240",
+      "collection": "samyutta-nikaya",
+      "title": "Kummopama Sutta — The Tortoise Simile",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-35-240-Kummopama-Sutta.pdf",
+      "source_sha256": "4506d314d501d0ffb7b263164c7596f5da61a176d8f16b1b8763f8b814a67073",
+      "copyright": "Copyright © Bhikkhu Candana 2021",
+      "pdf_pages": 2,
+      "raw_text_sha256": "3c5d359a169d6e125eecd458a607b3ce5b736b8b3f10cde2f8e39c96878c6aff",
+      "body_sha256": "7002c7789194590895d61a8f07644cee8f6b6fd3f153e09137ce19f58e155239",
+      "text_sha256": "9958d8f03b7ae06789e48cd9984e07765accbc9230913fc28c9376f712618d4a",
+      "partition": {
+        "header_characters": 485,
+        "header_sha256": "70a6d93b0b62e14508cc97f5e004f9cec19132248c9e0f45b1dc25cd484e6087",
+        "raw_body_sha256": "b575520121d1282366af0071c6b4f6f7ac153722394bf9aab67ea5f39f3929a6",
+        "page_break_paragraphs": [],
+        "page_break_joins": [
+          1
+        ],
+        "internal_paragraph_starts": [
+          25,
+          137,
+          189,
+          294,
+          538,
+          808,
+          988,
+          1218,
+          1293,
+          1640,
+          1978,
+          2334,
+          2678,
+          3040,
+          3408
+        ],
+        "lineated_paragraphs": [
+          17
+        ],
+        "italic_spans": [
+          {
+            "start": 3706,
+            "end": 3894,
+            "sha256": "fdfd1529f3a8f5a610a11d64c38016a9452c7afc7c60d8e98e6d99b723a2cecb"
+          }
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-35-240-content-identity-2026-11-17",
+        "review_basis": "Compared both complete preserved extractions and the entire eligible Sujato SN 35.240 and visually inspected both original page images from exact PDF 4506d314d501d0ffb7b263164c7596f5da61a176d8f16b1b8763f8b814a67073. Both contain tortoise and waiting predator, withdrawal of limbs, disappointed predator, Mara seeking a weakness in six faculties, six sense-restraint instructions, disappointed Mara and the closing tortoise/collected-thought/non-harm/blameless verse. Candana spells out all six repeated instructions while Sujato abbreviates several; retain every repetition. Candana's fox versus the comparator's jackal and its narrative framing remain source wording, not conversion repairs or a Pali-accuracy verdict. Original spacing and MuPDF block coordinates corroborate fifteen internal paragraph starts at exact physical-line offsets in the hash-bound raw body. Suddenly and The tortoise realizing belong to the same original paragraph; do not split there. Page 1 ends evil unwholesome and page 2 continues thoughts of like and dislike inside the nose instruction: join that physical boundary. The final four deliberately separated lines form paragraph 17 and are italic in original images and font spans: preserve four line breaks and exact italic interval without altering words. Retain all three Sadhu closings, title, attribution and copyright; no footnotes found. Decorative source heading/closing typography is not claimed facsimile reproduction. This records source identity and presentation only; release validation and human proofreading remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn35/sn35.240.txt",
+        "canonical_text_sha256": "a14e09bba483efe53776464485ca725a55cf6e2d6bdc371312cb33990b513067",
+        "source_anchors": [
+          {
+            "start": 588,
+            "end": 695,
+            "sha256": "99eea07b47922668046c72e9f92cb66a33d6b4d5d54f07cda33fb3670d2baf05"
+          },
+          {
+            "start": 1375,
+            "end": 1415,
+            "sha256": "066146f94275a6c9c220dfebb86bbbea9399a3c7c7213406c6142959a33940f5"
+          },
+          {
+            "start": 4033,
+            "end": 4076,
+            "sha256": "a712d2c867fd9f26502d1817f1af57ae01ab6b009f08f21d83862719a4510b28"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 439,
+            "end": 515,
+            "sha256": "f5a8018351a368d2fa57d1f0568d45d7cefd3398406a1526341294e2f7bce8ee"
+          },
+          {
+            "start": 1003,
+            "end": 1085,
+            "sha256": "34983ee09df44eb4b659fdf80335a57fbc05c3fe136792aa140f7779db3f5af2"
+          },
+          {
+            "start": 2214,
+            "end": 2251,
+            "sha256": "369ca063e8d2de5201161563b6949d9e360ccd93b5e807e21d10b56967edd134"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-b9b7939d3da9baa08152ba47",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 45.55",
+      "collection": "samyutta-nikaya",
+      "title": "Yoniso Manasikāra Sampadā Sutta — Accomplishment of Radical Attention",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-4555-Yoniso-Manasikra-Sampad-Sutta.pdf",
+      "source_sha256": "43d4f9e914a710088f507d534ca9b6ad7108b5240394628377cd6734fec40293",
+      "copyright": "Copyright © Bhikkhu Candana 2023",
+      "pdf_pages": 2,
+      "raw_text_sha256": "d9a231f0dd212c1920087f595100a944360ccab448b7fc16f2c8e417644e5c4a",
+      "body_sha256": "7c5973a45333948e94ce904f3bd588bbe3926400bc51e687ecef0384705c5b17",
+      "text_sha256": "1b87d9a6a272f7fbc81668c14be153739efd53c750c4f7909490feead171db2e",
+      "partition": {
+        "header_characters": 631,
+        "header_sha256": "b773b41ee3e2336c97d9eaf5d3ce007e70d9404ca06163749165a864c8825b79",
+        "raw_body_sha256": "e894f9f2d2e68c0e9bebea136362b4e1140fcb8a2e95d539d06362797dc5d3db",
+        "page_break_paragraphs": [],
+        "page_break_joins": [
+          1
+        ],
+        "internal_paragraph_starts": [
+          1553
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-45-55-content-identity-2026-11-17",
+        "review_basis": "Compared both full retained extractions with the entire eligible Sujato SN 45.55 and visually inspected both original PDF pages. Dawn as forerunner, accomplishment in attention preceding the path, question and all eight ordered factors, common seclusion/dispassion/cessation/relinquishment qualifications and concluding explanation establish identity beyond title/number. Candana repeats the common qualification for each factor while Sujato states it once: retain all source repetitions and all three Sadhu words. Page 1 ends while his and page 2 continues suffering reduces within Right Communication; join that physical boundary. Add one paragraph start at raw-body offset 1553 before the separately printed Right Action paragraph; all other blank-line paragraphs remain. This records the reviewed continuation and paragraph boundary, not a full-site release result. No deliberate verse or body italic run is present. Copyright, complete original header and attribution remain. Terminology and interpretive details are not rewritten or certified against Pali; human proofreading remains separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn45/sn45.55.txt",
+        "canonical_text_sha256": "59ab1ac8338e3f436135d3d36c5c4cd45d7cf8a774e784b753eb2cac645461df",
+        "source_anchors": [
+          {
+            "start": 311,
+            "end": 411,
+            "sha256": "dfb2829725926826861a93e6635973770c8899cb220038a4401588f61e884f4d"
+          },
+          {
+            "start": 1583,
+            "end": 1663,
+            "sha256": "85c3eefee750698ed59f9f8b83183b9ad92db22de3e18f9fc33114eb16a4620e"
+          },
+          {
+            "start": 3113,
+            "end": 3176,
+            "sha256": "665e290b703ed818c37eda234161569bf1fa9cac80d488f02dd3d632b8cc95c3"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 283,
+            "end": 339,
+            "sha256": "327318cb56a72c07c351dc0153ee5bf216f15e85fef4fe195dfa839f35c6ac05"
+          },
+          {
+            "start": 775,
+            "end": 873,
+            "sha256": "f612ce0e643b82aa54f801ecfa6b515777c318d9f265bdb35a235c80f58cdfa9"
+          },
+          {
+            "start": 875,
+            "end": 952,
+            "sha256": "b5209d34d299485caeaa21aac5b51f935d0228001beec8cc362536edcb0534da"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-5695a798135087dffc3aba02",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 47.41",
+      "collection": "samyutta-nikaya",
+      "title": "Amata Sutta — The Deathless",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-4741-Amata-Sutta.pdf",
+      "source_sha256": "1e3d78d42b62ae6cb7c255c67c6070df88df8a58e32264829711a0c683dd8505",
+      "copyright": "Copyright © Bhikkhu Candana 2024",
+      "pdf_pages": 2,
+      "raw_text_sha256": "cb2b89d2ccfd944f95fd9089df849b3fdd62bf3aeaf617b01c184a24bccc3ef8",
+      "body_sha256": "15ae3a8be30f3a8f7ab81d4f2837aee88750676391b9c33c63716ae78d0acd9f",
+      "text_sha256": "ef3bab05d9267bfc7c6d5c85e3fcf5d7b6932bef35126faba03b65d4c923f01a",
+      "partition": {
+        "header_characters": 745,
+        "header_sha256": "11f2b838adec5036391d93000b0b8cbaa344c40383451a1ece4504b32aba6301",
+        "raw_body_sha256": "5b7e64bc7b07c02f0f5be846dbf83da9f43e370c64f6d08c5417030591ba0311",
+        "page_break_paragraphs": [],
+        "page_break_joins": [
+          1
+        ],
+        "internal_paragraph_starts": [
+          285,
+          311,
+          697,
+          1112,
+          1594
+        ],
+        "italic_spans": [
+          {
+            "start": 171,
+            "end": 183,
+            "sha256": "f2e4abeed074eed342ef812f464ada45e9da0f69c5ea55cd52ea8f754475138b"
+          },
+          {
+            "start": 494,
+            "end": 497,
+            "sha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0"
+          },
+          {
+            "start": 607,
+            "end": 614,
+            "sha256": "1216b2a88975f9d3c0ba5e043bae1803d4f0f1cfab98eeccb800fdd82fff9aca"
+          },
+          {
+            "start": 866,
+            "end": 869,
+            "sha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0"
+          },
+          {
+            "start": 1023,
+            "end": 1030,
+            "sha256": "1216b2a88975f9d3c0ba5e043bae1803d4f0f1cfab98eeccb800fdd82fff9aca"
+          },
+          {
+            "start": 1262,
+            "end": 1267,
+            "sha256": "49aea258621eec7a8737959afa7fca61065e629126d33c081c00d17b9edcda9b"
+          },
+          {
+            "start": 1319,
+            "end": 1322,
+            "sha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0"
+          },
+          {
+            "start": 1382,
+            "end": 1387,
+            "sha256": "49aea258621eec7a8737959afa7fca61065e629126d33c081c00d17b9edcda9b"
+          },
+          {
+            "start": 1505,
+            "end": 1512,
+            "sha256": "1216b2a88975f9d3c0ba5e043bae1803d4f0f1cfab98eeccb800fdd82fff9aca"
+          },
+          {
+            "start": 1737,
+            "end": 1746,
+            "sha256": "b3feb300d4ef04c1dcef3ac422cec3d9693f754aca516063566a9de9771ca155"
+          },
+          {
+            "start": 1855,
+            "end": 1858,
+            "sha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0"
+          },
+          {
+            "start": 2035,
+            "end": 2042,
+            "sha256": "1216b2a88975f9d3c0ba5e043bae1803d4f0f1cfab98eeccb800fdd82fff9aca"
+          },
+          {
+            "start": 2253,
+            "end": 2261,
+            "sha256": "52ccbc4a7617819d554a20a8576170c095bdf754d3995060f81784dcb08a68b6"
+          }
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-47-41-content-identity-2026-11-17",
+        "review_basis": "Both complete preserved extractions, the entire eligible Sujato SN 47.41 and both original PDF-page images are inspected. Savatthi setting, four mindfulness domains in body/feelings/Citta/dhamma order, ardent attention without longing/resentment and repeated deathless injunction establish content identity; preserve Candana's full four instructions where the comparator abbreviates. Do not assess or rewrite Candana's most pronounced sensation/state elaborations as if this were a Pali accuracy audit. Join the physical page boundary inside remaining mindful of it in all its transitions; add five exact raw-body paragraph starts for the question and separate instructions, retaining existing blank lines around the opening warning and final injunction. Original images and exact font-run context establish thirteen body italic intervals: Satipatthana, four the words before most, four without words, both Citta words, the original (dhamma), interval, and final will not. Explicit hash-bound character intervals record that source-image review; no generic style inference or source wording change is used. This addresses the prior page-join/internal-paragraph limitation but requires subsequent actual reader/style checks. All three Sadhu words, original header, copyright and conditions remain. No deliberate verse or source footnote is present.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn47/sn47.41.txt",
+        "canonical_text_sha256": "eae92ff270efb5fde79922d9f74dd60ef48d5ad6f5cb100408f27876f51db424",
+        "source_anchors": [
+          {
+            "start": 415,
+            "end": 497,
+            "sha256": "ce46677537b93570ee6701326f16e8e806b76985fda79fb1761415bd6cd2021c"
+          },
+          {
+            "start": 1535,
+            "end": 1591,
+            "sha256": "6b2666e948bc4842e87c1323a14febc3cd37901d20757cabcfe7c998485b30a1"
+          },
+          {
+            "start": 2570,
+            "end": 2640,
+            "sha256": "fb233bf4475920fdc50655db0d012e9c5062fe5e45efdba7518eef5ca7f11772"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 218,
+            "end": 316,
+            "sha256": "dd23ae52e9be53d42e66474ae4dd9c48d1bf30c63db96fda3a9ca1aa007a20bd"
+          },
+          {
+            "start": 517,
+            "end": 582,
+            "sha256": "765ddb99a18573ef07f071054ac694c9cd2bc741ea77d9d6a265f0530a6710ef"
+          },
+          {
+            "start": 373,
+            "end": 516,
+            "sha256": "08078d82dd69b1c1f894b4355aa2dd8e4f0989f2c4c507d3834699c7f52d3b30"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-9e4996d53216616d37ef4e47",
+      "completeness_status": "UNKNOWN"
     }
   ]
 }

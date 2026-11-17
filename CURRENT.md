@@ -55,14 +55,19 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The verified live release is source 63a6bba0a3ccc035f638eb9b204bf708d53116d0,
-with 10,074 reader versions and fourteen standalone website-only Candana editions,
+The verified live release is source 800a4b829d5315940dca128391aae29e1c2e42ed,
+with 10,076 reader versions and sixteen standalone website-only Candana editions,
 verified November 17. Translation choices start open; collection trees stay closed.
 The [November 17 review follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md)
 addresses source emphasis, PDF presentation, edition availability and search
-discoverability. Its next candidates add Candana AN 6.106 and SN 41.1 without
-claiming new identifier coverage. They remain unpublished until the full source,
-rights, build and actual deployed-page checks pass. These counts include alternatives
+discoverability; Candana AN 6.106 and SN 41.1 are included in that live release.
+The next checked candidates are SN 35.240, SN 45.55 and SN 47.41. Their full
+enabled-site preview and bounded browser checks pass; clean-source release and
+actual deployed-page checks remain before publication. AN 6.49 remains held
+because its original underlining is not supported.
+AN 3.116's standalone source is checked privately but is not added over the existing
+Candana Book 3 reader; the full build rejects that duplicate text/version identity.
+These additions are alternative translations, not new identifier coverage. Counts include alternatives
 and Vinaya; they are not counts of distinct complete suttas or human approvals.
 
 ## First execution checkpoint

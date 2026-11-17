@@ -1,6 +1,8 @@
 # Source fidelity and navigation follow-up
 
-Status: modified-source preview checked; clean release and deployment still pending.
+Status: source 800a4b82 is live; the next three standalone candidates pass full-site
+preview checks and await clean-source release/publication. No translation-accuracy
+or human-proofreading approval.
 The November 17 supplied review examines two Candana editions at live source
 63a6bba0. It reports no word-level conversion errors in that sample and explicitly
 leaves full translation accuracy and interactive accessibility unreviewed.
@@ -86,3 +88,61 @@ receipt for these presentation options. Synthetic regressions exercise missing a
 changed settings, stale or missing receipts, altered PDF bytes and legacy defaults.
 Ordinary builds still regenerate stale PDFs. No broader translation change follows
 from these findings.
+
+## Next source-preserving editions
+
+AN 3.116, SN 35.240, SN 45.55 and SN 47.41 receive complete dual-extractor and
+content-identity comparisons plus inspection of all eight original PDF pages.
+Standalone candidates pass twelve actual HTML/TXT/PDF responses and eight
+desktop/mobile body and emphasis checks; all nine generated PDF pages are inspected.
+This is source-preservation evidence, not a complete-site or live-release result.
+
+- AN 3.116 retains all three attainment/rebirth/lifespan cases and joins only the
+  physical page boundary inside the third case.
+- SN 35.240 retains all six sense-restraint repetitions, fifteen source-confirmed
+  paragraph starts and the four-line italic closing verse.
+- SN 45.55 joins the continued Right Communication instruction and retains the
+  separately printed Right Action paragraph and every repeated path qualification.
+- SN 47.41 joins the continued Citta instruction, preserves the separate mindfulness
+  domains and all thirteen source-image-confirmed italic intervals.
+
+All headings, attribution, copyright, closing words and website-permission conditions
+remain. Only existing explicit paragraph, page-join, lineation and italic metadata
+are used; no new automatic style inference or wording repair is introduced.
+AN 6.49 stays held because its original underlined emphasis is not representable by
+the current reader metadata. Earlier issues remain in the private review history.
+
+The four texts add Candana alternatives, not previously missing reference units.
+The first full preview runs 361 tests successfully, with eleven optional skips,
+then rejects a duplicate text/version identity: AN 3.116 already has the collected
+Book 3 Candana reader. Preserve that existing reader and keep the checked standalone
+source private; do not override it or weaken the duplicate gate. A focused regression
+now checks optional records against the earlier Candana book records before build.
+The remaining publication candidates are SN 35.240, SN 45.55 and SN 47.41.
+The failed preview remains retained; its standalone checks are not a release PASS.
+
+Their release still requires the complete enabled-site, archive/exclusion, prior-reader,
+download, navigation, clean-source and actual deployed-page checks above.
+
+The corrected three-edition preview passes all nine full checks, 362 tests with
+eleven optional skips, 10,079 reader editions and nineteen optional sources. All
+875 older Candana readers and 2,821 other licensed editions preserve their checked
+bodies. Archive/combined-reader exclusions, original notices and homepage checks pass.
+
+All sixty-four earlier optional payloads are compared: sixty-three are byte-identical;
+SN 47.42's HTML changes only its exact Previous link from the shared SN 47.41 page
+to the newly available Candana edition and its source title. Its body, TXT and PDF
+stay unchanged. The first strict comparison rejects that intended navigation update
+and is retained; the revised check permits only that exact anchor replacement,
+with negative tests rejecting unrelated body, target and path changes.
+
+Fifteen actual preview HTTP responses and six desktop/mobile views pass for the
+three additions. Complete browser bodies and all source italic intervals match.
+Their PDFs and TXT are byte-identical to the checked standalone presentation receipts.
+Two native keyboard journeys find compact SN47.41, open its result, toggle the
+initially open Translations section and select Candana. Both sampled collection
+trees start closed; neither journey observes JavaScript exceptions or horizontal
+overflow. All eight copied viewport images are inspected. The browser's incidental
+favicon request is 404; required reader, search and download routes return 200.
+These bounded checks do not establish full accessibility or translation accuracy.
+No deployment or clean-source release result is implied by this preview.

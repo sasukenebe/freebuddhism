@@ -19,6 +19,35 @@ import build_eligible_readers as readers
 
 
 class CandanaWebsiteTests(unittest.TestCase):
+    def test_reviewed_three_edition_layout_and_held_source_boundary(self):
+        rows = {row["canonical_id"]: row for row in website.manifest(ROOT)["records"]}
+        expected = {
+            "SN 35.240": ("4506d314d501d0ffb7b263164c7596f5da61a176d8f16b1b8763f8b814a67073", 15, 1),
+            "SN 45.55": ("43d4f9e914a710088f507d534ca9b6ad7108b5240394628377cd6734fec40293", 1, 0),
+            "SN 47.41": ("1e3d78d42b62ae6cb7c255c67c6070df88df8a58e32264829711a0c683dd8505", 5, 13),
+        }
+        for canonical_id, (source_sha, paragraphs, italics) in expected.items():
+            with self.subTest(canonical_id=canonical_id):
+                row = rows[canonical_id]
+                self.assertEqual(row["source_sha256"], source_sha)
+                self.assertEqual(row["pdf_pages"], 2)
+                self.assertEqual(row["partition"]["page_break_joins"], [1])
+                self.assertEqual(row["partition"]["page_break_paragraphs"], [])
+                self.assertEqual(len(row["partition"].get("internal_paragraph_starts", [])), paragraphs)
+                self.assertEqual(len(row["partition"].get("italic_spans", [])), italics)
+                self.assertEqual(row["completeness_status"], "UNKNOWN")
+        self.assertEqual(rows["SN 35.240"]["partition"]["lineated_paragraphs"], [17])
+        self.assertNotIn("AN 6.49", rows)  # Original underlining remains unsupported.
+
+    def test_optional_editions_do_not_shadow_existing_candana_book_readers(self):
+        optional = website.manifest(ROOT)["records"]
+        books = json.loads((ROOT / "metadata/source-manifests/candana.json").read_bytes())["texts"]
+        old_keys = {(row["canonical_id"], row["version"]) for row in books}
+        new_keys = {(row["canonical_id"], row["version"]) for row in optional}
+        self.assertFalse(old_keys & new_keys)
+        self.assertIn(("AN 3.116", "candana"), old_keys)
+        self.assertNotIn(("AN 3.116", "candana"), new_keys)
+
     def test_incremental_output_preserves_active_download_and_removes_only_known_stale_text(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
