@@ -40,6 +40,8 @@ CHANGES = ("Presentation only: original heading retained in edition details; phy
            "reviewed page breaks retained as paragraph breaks. No words, punctuation, notes or closings removed or repaired.")
 LAYOUT_CHANGES = ("Presentation only: original heading retained in edition details; reviewed paragraph boundaries retained "
                   "and continued prose reflowed without word changes. No words, punctuation, notes or closings removed or repaired.")
+LINEATED_CHANGES = ("Presentation only: original heading retained in edition details; reviewed prose reflowed and "
+                    "source line breaks preserved in explicitly reviewed paragraphs. No words, punctuation, notes or closings removed or repaired.")
 SCOPE = "Whole reviewed source translation, including section headings and closings; completeness and translation accuracy remain unverified."
 
 
@@ -49,7 +51,7 @@ def sha(data: bytes) -> str:
 
 def _validate_partition(recipe: dict, pdf_pages: int) -> None:
     required = {"header_characters", "header_sha256", "raw_body_sha256", "page_break_paragraphs"}
-    if not isinstance(recipe, dict) or not required <= set(recipe) <= required | {"page_break_joins", "internal_paragraph_starts"}:
+    if not isinstance(recipe, dict) or not required <= set(recipe) <= required | {"page_break_joins", "internal_paragraph_starts", "lineated_paragraphs", "italic_spans"}:
         raise ValueError("Source partition contains unexpected or missing fields")
     if type(pdf_pages) is not int or pdf_pages < 1:
         raise ValueError("Invalid reviewed PDF page count")
@@ -73,10 +75,24 @@ def _validate_partition(recipe: dict, pdf_pages: int) -> None:
                 or any(type(index) is not int or index <= 0 for index in starts)
                 or starts != sorted(set(starts))):
             raise ValueError("Internal paragraphs need explicit page review and sorted unique positive character offsets")
+    if "lineated_paragraphs" in recipe:
+        lineated = recipe["lineated_paragraphs"]
+        if ("page_break_joins" not in recipe or not isinstance(lineated, list) or not lineated
+                or any(type(index) is not int or index <= 0 for index in lineated)
+                or lineated != sorted(set(lineated))):
+            raise ValueError("Source line breaks need explicit layout review and sorted unique positive paragraph indexes")
+    if "italic_spans" in recipe and (not isinstance(recipe["italic_spans"], list) or not recipe["italic_spans"]):
+        raise ValueError("Reviewed italic spans must be a nonempty list")
 
 
 def changes_for(row: dict) -> str:
-    return LAYOUT_CHANGES if "page_break_joins" in row["partition"] else CHANGES
+    if "lineated_paragraphs" in row["partition"]:
+        result = LINEATED_CHANGES
+    else:
+        result = LAYOUT_CHANGES if "page_break_joins" in row["partition"] else CHANGES
+    if "italic_spans" in row["partition"]:
+        result += " Reviewed source italic emphasis is retained in HTML and PDF; plain TXT has no font styling."
+    return result
 
 
 def manifest(root: Path = ROOT) -> dict:
@@ -138,6 +154,8 @@ def reflow_body(source: str, recipe: dict, pdf_pages: int) -> str:
     Internal starts are character offsets into that original, hash-bound body,
     before margin removal. They may only add whitespace at physical line starts;
     original-page inspection, not extractor agreement alone, establishes them.
+    Lineated paragraphs are one-based indexes after those reviewed boundaries.
+    Their physical lines retain separate breaks; no verse detection is inferred.
     """
     _validate_partition(recipe, pdf_pages)
     pages = pages_of(source)
@@ -165,8 +183,15 @@ def reflow_body(source: str, recipe: dict, pdf_pages: int) -> str:
     else:
         # Preserve the original recipe's page-margin handling and output bytes.
         layout = "\n\n".join(pages).strip()
-    paragraphs = re.split(r"\n[ \t]*\n+", layout)
-    body = "\n\n".join(" ".join(p.split()) for p in paragraphs if p.strip()) + "\n"
+    paragraphs = [p for p in re.split(r"\n[ \t]*\n+", layout) if p.strip()]
+    lineated = set(recipe.get("lineated_paragraphs", []))
+    if any(index > len(paragraphs) for index in lineated):
+        raise ValueError("Reviewed source-line paragraph index exceeds the source paragraph count")
+    body = "\n\n".join(
+        "\n".join(" ".join(line.split()) for line in paragraph.splitlines() if line.strip())
+        if index in lineated else " ".join(paragraph.split())
+        for index, paragraph in enumerate(paragraphs, 1)
+    ) + "\n"
     if source.split() != body.split():
         raise ValueError("Reader reflow changed words/order")
     return body
@@ -192,6 +217,9 @@ def partition(raw: str, row: dict) -> tuple[str, str]:
     body = reflow_body(source, recipe, row["pdf_pages"])
     if raw.split() != (header + "\n" + body).split() or sha(body.encode()) != row["body_sha256"]:
         raise ValueError("Reader reflow changed words/order or differs from reviewed output")
+    if "italic_spans" in recipe:
+        from render_cc0_reader import checked_italic_spans
+        checked_italic_spans(body, recipe["italic_spans"])
     return header, body
 
 
@@ -291,6 +319,8 @@ def collect_records(output_root: Path, root: Path = ROOT) -> list[dict]:
             "source_label": "Mind Released · original Candana PDF", "text_path": text_path,
             "site_text_path": root / public_text_path(item), "source_sha256": sha(text.encode()),
             "body": body, "body_sha256": body_hash, "metadata_notes": notes,
+            "pdf_text_first": True,
+            **({"body_italics": item["partition"]["italic_spans"]} if "italic_spans" in item["partition"] else {}),
         })
     return records
 
@@ -307,6 +337,8 @@ def verify_record(record: dict, root: Path = ROOT) -> bool:
             and record.get("body_sha256") == item["body_sha256"] and record.get("source_sha256") == item["text_sha256"]
             and record.get("distribution") == WEBSITE_DISTRIBUTION and record.get("conditions") == CONDITIONS
             and record.get("changes") == changes_for(item)
+            and record.get("pdf_text_first") is True
+            and record.get("body_italics", []) == item["partition"].get("italic_spans", [])
             and record.get("license_notice") == NOTICE and record.get("license_url") == RIGHTS_URL
             and record.get("title") == item["title"] and record.get("copyright") == item["copyright"]
             and isinstance(record.get("body"), str) and sha(record["body"].encode()) == item["body_sha256"]

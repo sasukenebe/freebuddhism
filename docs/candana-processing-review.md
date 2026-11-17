@@ -106,9 +106,29 @@ required; the printed number alone is insufficient.
 Continuation reflow removes only physical wrapping and page-margin whitespace;
 the ordered words and punctuation must match both extractors and the pinned
 source/output hashes. Older recipes retain their exact previous output and
-notices. This does not infer paragraph boundaries elsewhere, join hyphenated
-words or preserve deliberately lineated verse. Sources needing those operations
-remain held until their layout has its own checked representation.
+notices. Explicitly reviewed passages may additionally use lineated_paragraphs:
+sorted unique one-based paragraph indexes after the declared page/internal
+boundaries. Each selected paragraph retains its source physical line breaks,
+while margin whitespace is normalized within each line. This field requires
+explicit page_break_joins metadata, even an empty list for a one-page source;
+empty, invalid or out-of-range selections fail. It does not detect verse or
+approve an unexamined passage. Header/body/output hashes and token-order checks
+remain mandatory. These options do not infer other paragraph boundaries, join
+hyphenated words, repair wording or supply missing repetitions. Sources needing
+unsupported operations remain held.
+
+Source-image-reviewed italic emphasis may be recorded separately as italic_spans:
+ordered, nonoverlapping start/end character offsets into the final preserved body,
+each with its exact substring SHA-256. HTML and PDF render those intervals in
+italics without adding markup to TXT or changing words. Missing/changed text,
+invalid ranges and altered hashes fail. This metadata records a manual source
+layout decision; agreement between text extractors alone does not establish fonts.
+
+Website-only reader PDFs place the translation after the title, translator and
+short copyright/licence label. The complete source, conditions, original heading,
+scope and processing information remain after the text under Source and license.
+This changes presentation, not permission or completeness. Other reader families
+retain their earlier layout until separately reviewed.
 
 Stage the exact original PDF explicitly, then enable website editions:
 

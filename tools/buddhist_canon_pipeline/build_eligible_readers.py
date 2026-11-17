@@ -260,13 +260,24 @@ def collect_records(output_root: Path = ROOT, *, include_website_editions: bool 
     return records
 
 
+def licensed_version_label(item: dict) -> str:
+    """Distinguish source editions without changing the translator attribution."""
+    host = (urlsplit(item["source_url"]).hostname or "").removeprefix("www.")
+    if "thanissaro" in item["version"]:
+        source = {"accesstoinsight.org": "Access to Insight", "dhammatalks.org": "dhammatalks.org"}.get(host)
+        if source:
+            return item["translator"] + " — " + source
+    return item["translator"]
+
+
 def collect_licensed_records(output_root: Path) -> list[dict]:
     """Read complete, individually pinned editions under the revised rights policy."""
     manifest = licensed_manifest()
     records = []
     for item in manifest["records"]:
+        version_label = licensed_version_label(item)
         row = {"canonical_id": item["canonical_id"], "collection_path": item["collection"],
-               "version": item["version"], "version_label": item["translator"],
+               "version": item["version"], "version_label": version_label,
                "source_url": item["source_url"], "txt_path": item["local_path"]}
         text_path = repo_path(item["local_path"])
         source, body, notes, translator, body_hash = parse_source_text(text_path, row, item["license"])
@@ -287,7 +298,7 @@ def collect_licensed_records(output_root: Path) -> list[dict]:
             "site_path": site_path, "output_root": output_root,
             "pdf_path": folder / (base + "-reader.pdf"), "entry_page": entry,
             "entry_href": route_for(entry, site_path), "version": item["version"],
-            "version_label": item["translator"], "translator": translator, "title": item["title"],
+            "version_label": version_label, "translator": translator, "title": item["title"],
             "source_url": item["source_url"], "source_repository": item.get("source_repository", ""),
             "source_revision": item.get("source_revision", ""),
             "upstream_file": item.get("upstream_file", ""),
@@ -474,6 +485,8 @@ def config_for(record: dict, reader_index: dict) -> dict:
         "metadata_notes": record["metadata_notes"],
         "pdf_separator_spaces": bool(re.search(r"(?m)^\s*\*(?:[ \t]+\*)+[ \t]*$", record["body"])),
         "pdf_soft_hyphens": "\u00ad" in record["body"],
+        **({"pdf_text_first": True} if record.get("pdf_text_first") else {}),
+        **({"body_italics": record["body_italics"]} if "body_italics" in record else {}),
         "original_book_href": record.get("original_book_url", ""),
         "collection_label": record["collection_label"],
         "collection_href": route_for(record["site_path"], record["collection_page"]),
@@ -506,6 +519,10 @@ def expected_html(record: dict, reader_index: dict) -> str:
 
 def pdf_render_hash(config: dict) -> str:
     inputs = {key: config.get(key) for key in PDF_CONFIG_FIELDS}
+    if config.get("pdf_text_first"):
+        inputs["pdf_text_first"] = True
+    if "body_italics" in config:
+        inputs["body_italics"] = config["body_italics"]
     if config.get("pdf_separator_spaces"):
         inputs["pdf_separator_spaces"] = 1
     if config.get("pdf_soft_hyphens"):
@@ -734,6 +751,12 @@ def build(records: list[dict], all_records: list[dict], jobs: int, check: bool,
     if check:
         for index, (record, content) in enumerate(expected, start=1):
             cached = pdf_cached(record, cache)
+            if not cached and (record.get("body_italics") or record.get("pdf_text_first")):
+                # Extracted words cannot prove emphasis or metadata placement.
+                raise ValueError(
+                    "PDF presentation lacks a matching cache receipt; rebuild readers: "
+                    f"{record['pdf_path'].relative_to(ROOT)}"
+                )
             validate_page(record, content, check_pdf=not cached)
             if not cached:
                 cache["pdfs"].pop(record["pdf_path"].relative_to(ROOT).as_posix(), None)

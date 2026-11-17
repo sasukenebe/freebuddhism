@@ -835,7 +835,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "70a394b1b8f8140b8ccc310ee8685de21fc85cead829c909d5c275d13a52a93e",
       "body_sha256": "4550b2c98818de608c0f0fbee22df5b0e33ef22adfc3a801375a354775dd4d40",
-      "text_sha256": "00c3e76935f592f2e5a517b43c53a505742dbea5459b0665c107a6379735d2f5",
+      "text_sha256": "d5c29bb64df966edd777efec440a0207215a862431c21ab22be858658d88f58c",
       "partition": {
         "header_characters": 638,
         "header_sha256": "9f12228c9e1c4b1b401f0a124f2a577c90ab0956dfe0ef8cdc7d4207ec46aff3",
@@ -847,6 +847,23 @@
         "internal_paragraph_starts": [
           2742,
           3784
+        ],
+        "italic_spans": [
+          {
+            "start": 1081,
+            "end": 1230,
+            "sha256": "bcbb1ddcb7b214917674615ae6da460590ac43bf9b48e2e099a751ac6fbe36a7"
+          },
+          {
+            "start": 1383,
+            "end": 1386,
+            "sha256": "254bb97b57f12e1608fefc4517de768427b2fd6d2cffbbfcbc09f3c818198d5f"
+          },
+          {
+            "start": 4304,
+            "end": 4307,
+            "sha256": "254bb97b57f12e1608fefc4517de768427b2fd6d2cffbbfcbc09f3c818198d5f"
+          }
         ]
       },
       "identity_review": {
@@ -882,6 +899,151 @@
         ]
       },
       "processing_review_entry_id": "candana-b7d41a739e9e03ac7e3fdfd5",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "AN 6.106",
+      "collection": "anguttara-nikaya",
+      "title": "Taṇhā Sutta — Craving & its Constant Thirst for More",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/AN-6106-Tah-Sutta.pdf",
+      "source_sha256": "e3c5799267ea61b73892f44c5fecff82e952ca877c46b99a74083e2db434f0f2",
+      "copyright": "Copyright © Bhikkhu Candana 2022, 2026",
+      "pdf_pages": 1,
+      "raw_text_sha256": "34ead12aef98408c777f981885e149cb6de423f3f5c1cced052568d7ff59bceb",
+      "body_sha256": "ef199f7d8ac986deb331e51e42252af8170adfb3018694992664fc56d97502b3",
+      "text_sha256": "c3a515e5aff4e5db75b6bb79defaba9260c6e7af9ce5891c9ca9d15c369b9ffb",
+      "partition": {
+        "header_characters": 524,
+        "header_sha256": "57315a19fe341ab69f8d204b59dd524b0b5ab3ac3370b2819ead6f46cdad9eee",
+        "raw_body_sha256": "42fb5ea36c0c8daf2921f441a2b4af1f95864ad1a9c25d0b3d6b6d5465095a9b",
+        "page_break_paragraphs": [],
+        "page_break_joins": [],
+        "internal_paragraph_starts": [
+          1166
+        ],
+        "lineated_paragraphs": [
+          7
+        ],
+        "italic_spans": [
+          {
+            "start": 791,
+            "end": 998,
+            "sha256": "ece2bde1b161b1dac0331af1a0d0f81475dcb6e7d2214cc47da9e4d4c662324b"
+          }
+        ]
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-an-6-106-content-identity-2026-11-17",
+        "review_basis": "Read both complete frozen extractions and the complete local Sujato AN 6.106; visually inspected the full original one-page PDF rendered at 1800 pixels. The ordered three cravings (sensual pleasures, becoming, nonexistence), three conceits (measuring attitude, inferiority, superiority) and ending about cutting craving/fetters/conceit and ending suffering establish identity, not merely the matching number/title. This does not adjudicate Candana's interpretive wording against Pali. All source questions, responses and final quotation are present. Preserve the four deliberately separate physical lines of the closing quotation as paragraph 7. The repeated 2022, 2026 copyright below the three Sadhu closings is visibly a separate footer; insert only a paragraph boundary at original-body offset 1166, retaining every footer word unchanged as a separate paragraph. All three accented Sadhu words, original header, attribution and both copyright occurrences remain. No words, punctuation, notes or repetitions are removed or repaired. Complete human proofreading, translation accuracy and publication/download checks remain separate.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/an/an6/an6.106.txt",
+        "canonical_text_sha256": "8dddf8bcd974ffa34c4ede9865188e530534f1b3a54be095b16510a1834bf64b",
+        "source_anchors": [
+          {
+            "start": 406,
+            "end": 494,
+            "sha256": "190e22bda8ed980bccd251579afcc09cdc8bbd8bf430cc1ee4f112d46ab6d8b6"
+          },
+          {
+            "start": 729,
+            "end": 788,
+            "sha256": "30812ad90e9345e126bb0ed582917af60d1a5894fdec35b834d21a7a35e7f760"
+          },
+          {
+            "start": 1160,
+            "end": 1198,
+            "sha256": "c56555b808900e6a800b2f55f9688824a9571599ea6f894b00bfdf5c7e4d92f7"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 275,
+            "end": 368,
+            "sha256": "a1ab4f950f547195742e70b03d1fd8b9eae01a820a7cc11a23dc27220b48eb4a"
+          },
+          {
+            "start": 458,
+            "end": 512,
+            "sha256": "323a71ce72ca30d8c9d9f5e41435524157379ed69fe887c7a48e2aae435a697b"
+          },
+          {
+            "start": 716,
+            "end": 778,
+            "sha256": "a4c45343620f9100dc3799e1b17f7772f1be6ce7f18c42c99a5f2ea916fab171"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-92a11b40b2b9a7355ce7d8f2",
+      "completeness_status": "UNKNOWN"
+    },
+    {
+      "canonical_id": "SN 41.1",
+      "collection": "samyutta-nikaya",
+      "title": "Saṃyojana Sutta — Discourse on the Fetter",
+      "translator": "Bhikkhu Candana",
+      "version": "candana",
+      "source_url": "https://www.mindreleased.com/s/SN-41-1-Sayojana-Sutta-9c96.pdf",
+      "source_sha256": "57e9ddaf1cb94dc6fcd614999617964cd3fc42b77a000c1bee0699cce64d23ad",
+      "copyright": "Copyright © Bhikkhu Candana 2021",
+      "pdf_pages": 2,
+      "raw_text_sha256": "9727b87efd6a91cf6f1855520c7e2badf7e2b1187097936eaedbcb6715980d58",
+      "body_sha256": "ea0df83e158806e399c88dc8e4bd484092f79194b59d37f85830b28732f1ac6a",
+      "text_sha256": "1079cdba25c2a44f8f734966d908a94dc6d89da6f56150bbeb8185dff98b446a",
+      "partition": {
+        "header_characters": 404,
+        "header_sha256": "e14fc056d205cce6bf631698f1bd8f3a7109da640aa5b51482e97d492aa3a651",
+        "raw_body_sha256": "abd0db79715985b43993a4edcae22847f42334ec73c1ad1657d26de87b399910",
+        "page_break_paragraphs": [
+          1
+        ],
+        "page_break_joins": []
+      },
+      "identity_review": {
+        "status": "VERIFIED",
+        "review_kind": "CONTENT_IDENTITY_REVIEW",
+        "review_id": "candana-sn-41-1-content-identity-2026-11-17",
+        "review_basis": "Read both complete frozen extractions and the entire local Sujato SN 41.1, and visually inspected both original PDF pages at 1800 pixels. Both present senior monks debating fetter versus fettered things, Citta's intervention, black/white oxen joined by a yoke, desire/lust arising from sense faculty and object as the actual fetter, and the final praise of Citta's wisdom. Candana spells out all six sense pairs while the comparison abbreviates after the eye; preserve these source repetitions without expansion or omission. The starting place-name rendering differs from the comparison; it is retained as printed, not silently corrected or asserted accurate against Pali. The distinctive dialogue and complete argument establish identity independently of the shared title/number. The physical break after page 1 is a paragraph boundary before I will share with you a simile. On page 2 the indented The body paragraph follows The tongue; fresh inspection of literal bytes confirms an existing blank line before it. The first proposed offset 3386 is therefore redundant and was rejected by the unchanged safety check; do not insert an extra boundary there. Retain all quoted wording, existing punctuation, all six cases, complete praise and all three Sadhu words. No lineated verse found. No human/full-character proofread, Pali accuracy or public-release approval is claimed by this scoped source/layout/content-identity comparison.",
+        "canonical_text_path": "theravada/tipitaka/translations/en/suttacentral/sujato/sutta/sn/sn41/sn41.1.txt",
+        "canonical_text_sha256": "43235301be8c123f94e1c08fe6808a599f0d641ba2c8bc087a826ba02cc93314",
+        "source_anchors": [
+          {
+            "start": 2088,
+            "end": 2175,
+            "sha256": "069e63cf1a9458770d97a7223704333fcc2edd96ca799b8b951f9aac54692c54"
+          },
+          {
+            "start": 3569,
+            "end": 3635,
+            "sha256": "6052bdbeb07a097ed146d8ba937aa786b0d442d1795a789d0e8a2d43f50a12a5"
+          },
+          {
+            "start": 4198,
+            "end": 4292,
+            "sha256": "6fe520f0e116d471acfacefe629495e8d799e8128a3ec13a7071132a8a906268"
+          }
+        ],
+        "canonical_anchors": [
+          {
+            "start": 1632,
+            "end": 1710,
+            "sha256": "4d0cd74b5f35dd0a6dcc444923e75db071dbeebb3678bf3517472a446ea2ba32"
+          },
+          {
+            "start": 2009,
+            "end": 2100,
+            "sha256": "1535a7a382727d1c5b8293cbb9ba1aa242a6ddfab04ab571903b75f5ae648cc3"
+          },
+          {
+            "start": 2409,
+            "end": 2472,
+            "sha256": "b072906654141a9b3f870a7740ad0e4a5d028de791f446ccd1d7031c9b5ffeb2"
+          }
+        ]
+      },
+      "processing_review_entry_id": "candana-f4360adbb3c9c9760bc64870",
       "completeness_status": "UNKNOWN"
     }
   ]

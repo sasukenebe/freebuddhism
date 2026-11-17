@@ -706,6 +706,51 @@ if(search){
 }})();</script>'''
 
 
+def _combined_reader_link(tipitaka_root: Path, page: Path, read_url: str, records: list[dict]) -> str:
+    website_editions = [record for record in records if record.get("website_record")]
+    label = "All Text on One Page"
+    if website_editions:
+        scope = "website-only edition" if len(website_editions) == 1 else "website-only editions"
+        label += f" ({scope} not included)"
+    link = f'<a href="{html.escape(read_url, quote=True)}">{label}</a>'
+    if not website_editions:
+        return link
+    individual_links = []
+    for record in website_editions:
+        reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
+        href = html.escape(_relative_href(page, tipitaka_root / reader), quote=True)
+        individual_links.append(f'<a href="{href}">{html.escape(record["version_label"])}</a>')
+    instruction = "Use the individual reader" if len(website_editions) == 1 else "Use the individual readers"
+    return (link + ' <span class="combined-reader-exclusion">' + instruction + ': '
+            + ' · '.join(individual_links) + '.</span>')
+
+
+def _excluded_editions_markup(info: dict) -> str:
+    restricted = sorted(info["restricted"], key=lambda row: (
+        row.get("source_group", "").casefold(), row.get("title", "").casefold()))
+    if not restricted:
+        return ""
+    body = ["<h2>Excluded source files and editions</h2>"]
+    available_candana = any(record.get("website_record") or record.get("license") == CANDANA_LICENSE
+                           for record in info["eligible"])
+    excluded_candana = any("candana" in row.get("source_group", "").casefold() for row in restricted)
+    if available_candana and excluded_candana:
+        body.append(
+            "<p>Individually reviewed Candana readers remain available above. "
+            "The exclusions below concern the listed historical source files and editions; "
+            "their original PDFs remain excluded from local publication.</p>"
+        )
+    body.append("<ul>")
+    for edition in restricted:
+        label = edition.get("source_group") or edition.get("license") or "Edition not cleared for reuse"
+        completeness = edition.get("completeness_status", "UNKNOWN")
+        scope = edition.get("completeness_scope", "")
+        note = f"Completeness: {completeness}. {scope}" if scope else f"Completeness: {completeness}."
+        body.append(f"<li>{html.escape(label)} — {html.escape(note)}</li>")
+    body.append("</ul>")
+    return "\n".join(body)
+
+
 def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
     page = tipitaka_root / route
     editions = []
@@ -715,11 +760,12 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
         editions.append(f'<li><a href="{href}">{html.escape(record["version_label"])}</a></li>')
     listing = '<ul>' + ''.join(editions) + '</ul>'
     read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
+    read_control = _combined_reader_link(tipitaka_root, page, read_url, info["eligible"])
     return (
         '<section id="collection-browser"><h2>Translations</h2><nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
-        f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
+        + read_control + '</nav>'
         + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
         '<div data-view="tree"><details open><summary>Translations</summary>' + listing + '</details></div>'
         '<div data-view="list" hidden>' + listing + '</div>' + _BROWSE_SCRIPT + '</section>'
@@ -817,7 +863,8 @@ def _collection_browse_markup(
         '<nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
         '<button type="button" data-mode="list" aria-pressed="false">Flat list</button> '
-        + read_control + '</nav>' + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
+        + read_control + ' · <a href="?view=list#collection-browser">Find by sutta number/title</a>'
+        '</nav>' + _BROWSE_FONT_CONTROLS + _BROWSE_STYLE +
         f'<p class="collection-counts">{count} indexed text entries; '
         f'{available_texts} with local translations; {editions} local editions. '
         'Availability does not establish translation completeness.</p>'
@@ -1280,6 +1327,7 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
     """Apply the same headers and remove links to unavailable text pages everywhere."""
     tipitaka_root = destination / "theravada/tipitaka"
     contexts = {node["route"]: (key, None) for key, node in nodes.items()}
+    reader_records = {}
     routes_by_info = {id(info): route for route, info in pages.items()}
     unavailable_routes = {path.as_posix() for path in unavailable}
     available_collections = {node["id"] for info in pages.values() if info["eligible"]
@@ -1296,6 +1344,7 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
                 continue
             reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
             contexts[reader.as_posix()] = (info["collection"], info)
+            reader_records[reader.as_posix()] = record
     unavailable_routes.update(node["route"] for key, node in nodes.items() if key not in available_collections)
     replaced_links = 0
     normalized_headers = 0
@@ -1338,11 +1387,13 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
                     route = routes_by_info[id(info)]
                     node_url = TIPITAKA_URL_PREFIX + route
                     read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
+                    read_control = _combined_reader_link(
+                        tipitaka_root, page, read_url, [reader_records[relative]])
                     controls = (
                         '<nav aria-label="Collection views">'
                         f'<a href="{html.escape(node_url, quote=True)}">All translations for {html.escape(info["canonical_id"])}</a> · '
                         f'<a href="{html.escape(node_url, quote=True)}?view=list">Flat list</a> · '
-                        f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a></nav>'
+                        + read_control + '</nav>'
                     )
                     source = re.sub(r'</h1>', '</h1>\n' + controls, source, count=1)
             normalized_headers += 1
@@ -2049,16 +2100,8 @@ def _write_navigation_pages(
                     f'<p><a href="{audio_href}">Open {html.escape(audio_title)} recordings</a> '
                     "(recordings may cover groups of texts).</p>"
                 )
-        restricted = sorted(info["restricted"], key=lambda row: (row.get("source_group", "").casefold(), row.get("title", "").casefold()))
-        if restricted:
-            body.append("<h2>Not included in this build</h2><ul>")
-            for edition in restricted:
-                label = edition.get("source_group") or edition.get("license") or "Edition not cleared for reuse"
-                completeness = edition.get("completeness_status", "UNKNOWN")
-                scope = edition.get("completeness_scope", "")
-                note = f"Completeness: {completeness}. {scope}" if scope else f"Completeness: {completeness}."
-                body.append(f"<li>{html.escape(label)} — {html.escape(note)}</li>")
-            body.append("</ul>")
+        if info["restricted"]:
+            body.append(_excluded_editions_markup(info))
         body.append("<p>Same-ID editions are not assumed to be equivalent or equally complete. Rights status does not establish translation completeness.</p>")
         _write_page(page, title, "\n".join(body), tipitaka_root)
         _register_generated_page(allowed, tipitaka_root, page, info["collection"])

@@ -55,15 +55,15 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The previously verified live release is source
-c244ce390ef353264c53d6fc0f83f00be9df941b, with 10,072 reader versions and twelve
-standalone website-only Candana editions, verified November 15. The next checked
-batch adds Candana AN 7.65 and SN 55.21 plus easier number/title search and clearer
-links back to all translations. Its preview has 10,074 readers and fourteen
-website-only editions. Original wording, source paragraphs, notices and archive
-exclusions are preserved. Publication requires the clean-source checks and actual
-deployed-page verification above. These counts include alternatives and Vinaya;
-they are not counts of distinct complete suttas or human proofreading approvals.
+The verified live release is source 63a6bba0a3ccc035f638eb9b204bf708d53116d0,
+with 10,074 reader versions and fourteen standalone website-only Candana editions,
+verified November 17. Translation choices start open; collection trees stay closed.
+The [November 17 review follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md)
+addresses source emphasis, PDF presentation, edition availability and search
+discoverability. Its next candidates add Candana AN 6.106 and SN 41.1 without
+claiming new identifier coverage. They remain unpublished until the full source,
+rights, build and actual deployed-page checks pass. These counts include alternatives
+and Vinaya; they are not counts of distinct complete suttas or human approvals.
 
 ## First execution checkpoint
 

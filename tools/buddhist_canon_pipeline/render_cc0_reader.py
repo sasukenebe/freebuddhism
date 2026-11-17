@@ -129,6 +129,34 @@ def verify_source(config: dict) -> str:
     return body
 
 
+def checked_italic_spans(body: str, spans: list) -> list:
+    """Validate explicit, source-reviewed italic intervals without changing text."""
+    if not isinstance(spans, list):
+        raise ValueError("Italic spans must be a list")
+    previous_end = 0
+    for span in spans:
+        if (not isinstance(span, dict) or set(span) != {"start", "end", "sha256"}
+                or type(span["start"]) is not int or type(span["end"]) is not int
+                or not 0 <= span["start"] < span["end"] <= len(body)
+                or span["start"] < previous_end
+                or not isinstance(span["sha256"], str)
+                or hashlib.sha256(body[span["start"]:span["end"]].encode()).hexdigest() != span["sha256"]
+                or not body[span["start"]:span["end"]].strip()):
+            raise ValueError("Italic spans need ordered nonoverlapping, exact source-text intervals")
+        previous_end = span["end"]
+    return spans
+
+
+def source_body_html(body: str, spans: list) -> str:
+    parts, start = [], 0
+    for span in checked_italic_spans(body, spans):
+        parts.extend((html.escape(body[start:span["start"]], quote=False),
+                      '<em>' + html.escape(body[span["start"]:span["end"]], quote=False) + '</em>'))
+        start = span["end"]
+    parts.append(html.escape(body[start:], quote=False))
+    return "".join(parts)
+
+
 def render_html(config: dict, body: str) -> str:
     def esc(value: str) -> str:
         return html.escape(value, quote=True)
@@ -275,7 +303,7 @@ footer {{ overflow-wrap: break-word; }}
 <main>
 <article>
 <h2>Text</h2>
-<pre class="source-text">{html.escape(body, quote=False)}</pre>
+<pre class="source-text">{source_body_html(body, config.get('body_italics', []))}</pre>
 </article>
 </main>
 <footer>
@@ -298,6 +326,7 @@ footer {{ overflow-wrap: break-word; }}
 
 def render_pdf(config: dict, body: str, target: Path) -> None:
     global _FONT_PATHS
+    italics = checked_italic_spans(body, config.get("body_italics", []))
     try:
         from reportlab.lib.pagesizes import A4
         from reportlab.lib.styles import ParagraphStyle
@@ -330,6 +359,18 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             pdfmetrics.registerFont(TTFont("ReaderNotoSans", _FONT_PATHS[0]))
         if "ReaderNotoSansBold" not in registered:
             pdfmetrics.registerFont(TTFont("ReaderNotoSansBold", _FONT_PATHS[1]))
+        if italics and "ReaderNotoSansItalic" not in pdfmetrics.getRegisteredFontNames():
+            fontconfig = shutil.which("fc-match")
+            if not fontconfig:
+                raise RuntimeError("fontconfig is required to locate the source-emphasis font")
+            selected = subprocess.run(
+                [fontconfig, "-f", "%{file}\n%{family}\n%{style}", "Noto Sans:style=Italic"],
+                check=True, capture_output=True, text=True,
+            ).stdout.splitlines()
+            if (len(selected) != 3 or "Noto Sans" not in selected[1].split(",")
+                    or "italic" not in selected[2].lower() or not Path(selected[0]).is_file()):
+                raise RuntimeError("The actual Noto Sans Italic font is required for reviewed source emphasis")
+            pdfmetrics.registerFont(TTFont("ReaderNotoSansItalic", selected[0]))
     styles = {
         "title": ParagraphStyle(
             "ReaderTitle", fontName="ReaderNotoSansBold", fontSize=16, leading=20,
@@ -351,10 +392,10 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
 
     fallback_names = {}
 
-    def pdf_markup(value: str) -> str:
+    def pdf_markup(value: str, italic: bool = False) -> str:
         # Noto Sans lacks some scholarly symbols (for example the Pali root
         # marker √). Select a real Unicode glyph instead of silently dropping it.
-        primary = pdfmetrics.getFont("ReaderNotoSans").face.charToGlyph
+        primary = pdfmetrics.getFont("ReaderNotoSansItalic" if italic else "ReaderNotoSans").face.charToGlyph
         parts = []
         # U+00AD is a discretionary line-layout hint, not a printed hyphen.
         # Keep it in source TXT/HTML, but do not create a visible PDF hyphen.
@@ -396,15 +437,33 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
           if "\u00ad" in body else []),
     ]
     display_reference = config.get("group_reference", "").strip() or config["canonical_id"]
+    text_first = config.get("pdf_text_first", False)
+    if type(text_first) is not bool:
+        raise ValueError("PDF text-first selection must be boolean")
     story = [
         Paragraph(pdf_markup(display_reference + " — " + config["title"]), styles["title"]),
         Paragraph("English translation by " + pdf_markup(config["translator"]) + ".", styles["metadata"]),
-        *(Paragraph(pdf_markup(line), styles["metadata"]) for line in metadata),
-        Paragraph("Text", styles["heading"]),
     ]
-    for line in body.splitlines():
+    if text_first:
+        for line in (config.get("copyright", ""), "License: " + config["license"]):
+            if line:
+                story.append(Paragraph(pdf_markup(line), styles["metadata"]))
+    else:
+        story.extend(Paragraph(pdf_markup(line), styles["metadata"]) for line in metadata)
+    story.append(Paragraph("Text", styles["heading"]))
+    offset = 0
+    for source_line in body.splitlines(keepends=True):
+        line = source_line.rstrip("\r\n")
         if line:
-            rendered = pdf_markup(line)
+            segments, cursor = [], 0
+            for span in italics:
+                left, right = max(span["start"] - offset, 0), min(span["end"] - offset, len(line))
+                if left < right:
+                    segments.extend((pdf_markup(line[cursor:left]),
+                        '<font name="ReaderNotoSansItalic">' + pdf_markup(line[left:right], italic=True) + '</font>'))
+                    cursor = right
+            segments.append(pdf_markup(line[cursor:]))
+            rendered = "".join(segments)
             # ReportLab/Poppler otherwise collapse the publisher's spaced
             # ornamental separator into "***". Preserve its visible spacing.
             if re.fullmatch(r"\s*(?:\*(?:\s+\*)+|\[[ \t]+[IVXLCDM]+[ \t]+\])\s*", line):
@@ -412,6 +471,7 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
             story.append(Paragraph(rendered, styles["body"]))
         else:
             story.append(Spacer(1, 2 * mm))
+        offset += len(source_line)
 
     if config.get("publisher_references"):
         story.append(Paragraph(pdf_markup(config.get(
@@ -419,6 +479,9 @@ def render_pdf(config: dict, body: str, target: Path) -> None:
         for line in config["publisher_references"].splitlines():
             if line:
                 story.append(Paragraph(pdf_markup(line), styles["body"]))
+    if text_first:
+        story.append(Paragraph("Source and license", styles["heading"]))
+        story.extend(Paragraph(pdf_markup(line), styles["metadata"]) for line in metadata)
     target.parent.mkdir(parents=True, exist_ok=True)
     document = SimpleDocTemplate(
         str(target), pagesize=A4, rightMargin=24 * mm, leftMargin=24 * mm,
