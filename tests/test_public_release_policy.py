@@ -700,7 +700,25 @@ class PublicReleasePolicyTests(unittest.TestCase):
             })
             self.assertIn('data-browse-font="increase"', markup)
             self.assertIn('data-browse-font="decrease"', markup)
-            self.assertNotRegex(markup, r"<details\b[^>]*\bopen\b")
+            self.assertIn('<details open><summary>Translations</summary>', markup)
+            self.assertEqual(markup.count('<details open>'), 1)
+
+    def test_translation_choices_are_visible_without_expanding_a_branch(self):
+        root = ROOT / "theravada/tipitaka"
+        record = {
+            "html_path": str(root / "sutta/anguttara-nikaya/an01-01/example.html"),
+            "output_root": str(ROOT), "version_label": "Example translator",
+        }
+        markup = _text_node_browser(root, "sutta/anguttara-nikaya/an01-01/index.html", {
+            "collection": "anguttara-nikaya", "eligible": [record],
+        })
+        tree = markup.split('<div data-view="tree">', 1)[1].split('</div>', 1)[0]
+        branch = ElementTree.fromstring(tree.replace('<details open>', '<details open="open">', 1))
+        self.assertEqual(branch.tag, "details")
+        self.assertIn("open", branch.attrib)
+        self.assertEqual(branch.findtext("summary"), "Translations")
+        self.assertEqual(branch.findtext("ul/li/a"), "Example translator")
+        self.assertEqual(branch.find("ul/li/a").attrib["href"], "example.html")
 
     def test_tipitaka_children_are_inside_closed_parent_branches(self):
         source = (ROOT / "theravada/tipitaka/site/tipitaka.html").read_text(encoding="utf-8")
