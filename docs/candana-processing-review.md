@@ -154,11 +154,24 @@ and source/body/download hashes were included. A successful default CI build is
 not evidence that the optional editions were built or deployed.
 
 Website-only readers use the ordinary plain reading template, with HTML/TXT/PDF
-downloads retaining all three permission conditions. The current build policy
-excludes them from combined readers and collection/source archives. This is the
-project's conservative distribution boundary, not an assertion that the author
-provided an individual-sutta-only license. Original publisher PDFs remain external
-source links; no wider archive or Git-publication permission is inferred.
+downloads retaining all three permission conditions. On November 24 the owner
+directed inclusion of approved editions in the website's combined reader and
+collection ZIPs. The recorded named-website permission is not individual-sutta-only;
+the previous combined-reader/website-ZIP exclusion was our conservative build rule.
+
+Approved editions now participate in those website formats without changing their
+translation bodies, source hashes, identity reviews or notices. Download headers
+and their hashes change only to describe the updated build policy. Each ZIP keeps
+file-specific attribution, copyright, source, all conditions and the named-website
+scope; adjacent public-domain or Creative Commons files retain their own rights.
+Checks require the exact payloads in all four global ZIP formats and each relevant
+collection ZIP, plus a correctly attributed choice in the combined reading index.
+Missing choices, missing/changed payloads and reduced notices fail validation.
+
+Public Git/source archives still omit the translation bodies and original PDFs.
+No third-party republication right is inferred from offering a website download.
+Sutta Friends' separate individual-sutta-only restrictions remain unchanged.
+Original publisher PDFs remain external source links.
 
 Before release, run the full site/link/archive build, the website-only checker,
 normal reader regressions and deployed-page checks. Human proofreading and

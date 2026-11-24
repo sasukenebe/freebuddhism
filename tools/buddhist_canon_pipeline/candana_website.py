@@ -230,7 +230,7 @@ def attributed_text(row: dict, header: str, body: str) -> str:
         "License URL: " + RIGHTS_URL, "Copyright: " + row["copyright"],
         "License notice: " + NOTICE,
         "Original document heading: " + " ".join(header.split()),
-        "Distribution: Website-only edition; excluded from combined readers and site/source archives in this build.",
+        "Distribution: Published on freebuddhism.org in individual and combined readers and website collection downloads; excluded from public Git/source archives.",
         "Changes: " + changes_for(row), "Completeness: UNKNOWN. " + SCOPE,
     ]) + "\n\n" + body
 
@@ -369,13 +369,75 @@ def write_permission_page(destination: Path, records: list[dict]) -> set[Path]:
             '<p>The website owner supplied permission to republish Bhikkhu Candana’s sutta translations on freebuddhism.org '
             'and reported sending the required confirmation. Private correspondence is not reproduced here.</p><ul>'
             + ''.join('<li>' + html.escape(condition) + '</li>' for condition in CONDITIONS)
-            + '</ul><p>This is not CC0 or a general third-party republication grant. These editions are excluded from '
-            'combined readers and collection/source archives in this build. Earlier exact-book grants remain separate.</p>'
+            + '</ul><p>Approved editions are included in individual and combined readers and collection ZIP downloads '
+            'published on freebuddhism.org, with their complete notices and conditions. This is not CC0 or a general '
+            'third-party republication grant; the translation bodies remain excluded from public Git/source archives. '
+            'Earlier exact-book grants remain separate.</p>'
             '<p>Original PDFs and source hashes are linked from the individual readers. '
             'Processing and discourse-identity checks do not certify translation accuracy or a complete human proofread.</p>'
             '<p><a href="tipitaka.html">Buddhist Texts</a></p></body></html>\n')
     path.write_text(body, encoding="utf-8")
     return {path}
+
+
+def check_distribution(site: Path, records: list[dict]) -> dict:
+    """Independently verify combined choices and exact website ZIP payloads/rights."""
+    if __package__:
+        from .archive_rights import edition_rights, MANIFEST_NAME, TERMS_NAME, TERMS
+        from .build_deploy_site import _archive_collection
+        from .build_eligible_readers import COLLECTION_TITLES
+    else:
+        from archive_rights import edition_rights, MANIFEST_NAME, TERMS_NAME, TERMS
+        from build_deploy_site import _archive_collection
+        from build_eligible_readers import COLLECTION_TITLES
+    index = json.loads((site / "theravada/tipitaka/site/reading-index.json").read_bytes())
+    payloads = {}
+    for record in records:
+        item = record["website_record"]
+        relative = record["html_path"].relative_to(record["output_root"])
+        matches = [edition for text in index["texts"] if text["canonical_id"] == item["canonical_id"]
+                   for edition in text["editions"] if edition["id"] == item["version"]]
+        expected = {"url": "/" + relative.as_posix(), "license": WEBSITE_LICENSE,
+                    "license_url": RIGHTS_URL, "license_notice": NOTICE, "copyright": item["copyright"],
+                    "source_url": item["source_url"], "conditions": CONDITIONS,
+                    "distribution": WEBSITE_DISTRIBUTION}
+        if len(matches) != 1 or any(matches[0].get(key) != value for key, value in expected.items()):
+            raise ValueError("Combined reader lost a Candana choice, source or permission condition")
+        pdf = relative.with_name(record["pdf_path"].name)
+        for target in (relative, Path(public_text_path(item)), pdf):
+            name = target.relative_to("theravada/tipitaka").as_posix()
+            payloads[name] = {"record": record, "sha256": sha((site / target).read_bytes())}
+    archives = list((site / "theravada/tipitaka/downloads").glob("*.zip"))
+    required = {"tipitaka-all.zip", "tipitaka-html.zip", "tipitaka-txt.zip", "tipitaka-pdf.zip"}
+    required |= {record["collection"].replace("/", "-") + ".zip" for record in records}
+    if not required <= {path.name for path in archives}:
+        raise ValueError("Cannot verify Candana distribution without every global and relevant collection ZIP")
+    for archive_path in archives:
+        name = archive_path.name
+        suffix = {"tipitaka-html.zip": ".html", "tipitaka-txt.zip": ".txt", "tipitaka-pdf.zip": ".pdf"}.get(name)
+        collection = _archive_collection(name, set(COLLECTION_TITLES))
+        expected_names = {path for path, info in payloads.items()
+                          if (name == "tipitaka-all.zip" or (suffix and path.endswith(suffix))
+                              or (not suffix and info["record"]["collection"] == collection))}
+        with zipfile.ZipFile(archive_path) as archive:
+            names = archive.namelist()
+            if len(names) != len(set(names)) or set(names) & set(payloads) != expected_names:
+                raise ValueError("Website collection archive membership differs from approved Candana editions")
+            if not expected_names:
+                continue
+            manifest = json.loads(archive.read(MANIFEST_NAME))
+            entries = {entry["path"]: entry for entry in manifest["files"]}
+            if len(entries) != len(manifest["files"]) or archive.read(TERMS_NAME) != TERMS.encode():
+                raise ValueError("Website archive lacks its exact file-specific reuse notice")
+            for path in expected_names:
+                info = payloads[path]
+                rights = edition_rights(info["record"])
+                entry = entries.get(path, {})
+                if (entry.get("editions") != [rights] or entry.get("sha256") != info["sha256"]
+                        or sha(archive.read(path)) != info["sha256"]):
+                    raise ValueError("Website archive changed a Candana payload or its complete permission metadata")
+    return {"combined_reader_inclusion": "PASS", "website_collection_archives": "PASS",
+            "archives_checked": len(archives)}
 
 
 def check_site(site: Path, root: Path = ROOT) -> dict:
@@ -384,8 +446,8 @@ def check_site(site: Path, root: Path = ROOT) -> dict:
         from .render_cc0_reader import ReaderParser, verify_pdf_body
     else:
         from render_cc0_reader import ReaderParser, verify_pdf_body
+    verify_public_boundary(root)
     records = collect_records(root / "build/candana-website-check", root)
-    excluded = set()
     for record in records:
         item = record["website_record"]
         relative = record["html_path"].relative_to(record["output_root"])
@@ -408,19 +470,7 @@ def check_site(site: Path, root: Path = ROOT) -> dict:
         for condition in CONDITIONS:
             if condition not in html.unescape(document) or " ".join(condition.split()) not in " ".join(pdf_text.split()):
                 raise ValueError("Website HTML/PDF download lost a permission condition")
-        for target in (relative, Path(public_text_path(item)), pdf.relative_to(site)):
-            excluded.add(target.relative_to("theravada/tipitaka").as_posix())
-        index = json.loads((site / "theravada/tipitaka/site/reading-index.json").read_bytes())
-        if any(row["canonical_id"] == item["canonical_id"] and any(e["id"] == item["version"] for e in row["editions"])
-               for row in index["texts"]):
-            raise ValueError("Website-only edition entered the combined reader")
-    archives = list((site / "theravada/tipitaka/downloads").glob("*.zip"))
-    if not archives:
-        raise ValueError("Cannot check website archive exclusions without built archives")
-    for archive_path in archives:
-        with zipfile.ZipFile(archive_path) as archive:
-            if any(name == blocked or name.endswith("/" + blocked) for name in archive.namelist() for blocked in excluded):
-                raise ValueError("Website-only payload entered a collection archive")
+    distribution_checks = check_distribution(site, records)
     notice = (site / RIGHTS_PATH).read_text(encoding="utf-8")
     if any(condition not in notice for condition in CONDITIONS):
         raise ValueError("Website permission page is incomplete")
@@ -430,8 +480,8 @@ def check_site(site: Path, root: Path = ROOT) -> dict:
                 for row in records]
     if release.get("website_only_editions") != expected:
         raise ValueError("Website release does not identify its exact optional inputs")
-    return {"website_editions": len(records), "archives_checked": len(archives),
-            "body_download_notice_checks": "PASS", "combined_reader_exclusion": "PASS",
+    return {"website_editions": len(records), **distribution_checks,
+            "body_download_notice_checks": "PASS", "public_source_exclusion": "PASS",
             "scope": "Built website-only editions; not human proofreading or deployment evidence"}
 
 

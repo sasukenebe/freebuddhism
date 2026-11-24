@@ -8,8 +8,8 @@
   ],
   "distribution": {
     "individual_readers": true,
-    "continuous_reader": false,
-    "site_archives": false,
+    "continuous_reader": true,
+    "site_archives": true,
     "source_archives": false
   },
   "permission": {
@@ -18,7 +18,7 @@
     "recorded_on": "2026-11-12",
     "website": "https://freebuddhism.org",
     "confirmation_reported": true,
-    "scope": "Candana's sutta translations on the named website; no broader archive or public-repository grant inferred. Private correspondence is retained separately."
+    "scope": "Candana's sutta translations on freebuddhism.org, including its combined readers and collection ZIP downloads with unchanged content and all conditions. No public-repository or third-party republication grant inferred. Private correspondence is retained separately."
   },
   "scope": "Opt-in website editions. This metadata contains no translated body or source PDF. Missing checked inputs fail an enabled build, not the default public-source build.",
   "records": [
@@ -34,7 +34,7 @@
       "pdf_pages": 3,
       "raw_text_sha256": "bdd1f9559d0e38e2acc7b4a5d9ffa04d1404cecc734aa6e399fd3bbdcf3d0220",
       "body_sha256": "7457f49c7b4127f7d7a131ff7e4f8a323af441df502c50181dcfd01f6e05f9fc",
-      "text_sha256": "aeb5d714d4ed7f4a9515a539bad6737ea0ba4d7cef69d9fdcb1f365b0b7977f5",
+      "text_sha256": "4ad5b81e703ac75c808c505998ca5cf7c852a71996374e2ed70f55dfe47140e7",
       "partition": {
         "header_characters": 303,
         "header_sha256": "2d4afa8da3c113ffb8b5385f21670b08ffd1dabcfcf3a9b0db7872519590617d",
@@ -91,7 +91,7 @@
       "pdf_pages": 1,
       "raw_text_sha256": "09e1fefb843383cd58c9026d757113b25a9c661d2f7509d47990ee4232fd46f8",
       "body_sha256": "42136ce63025834a8eb961e3016fa7610a8a506e3fa8d3a831c667384382d0c4",
-      "text_sha256": "e6feb24dcbcb140eef8fafbd085ef72b1b7688ed651b33bd32e8e151a5e2ec5f",
+      "text_sha256": "9494ee0651f72646f4f21a7d53aab38d81269574792f5e096e3b8e7ef563e72c",
       "partition": {
         "header_characters": 291,
         "header_sha256": "c98de8f166af5dd55c8f84b08538f0df95535b50070c19abc83c830b63aa1c2e",
@@ -145,7 +145,7 @@
       "pdf_pages": 1,
       "raw_text_sha256": "44e20c5ba93539ecd2e43e3a177362c146b14bde8426f37c7f08dd81ef374bbb",
       "body_sha256": "6924e514919f57a73bcada8edc47d791aeda520a562b0a203dd45890383fa5d3",
-      "text_sha256": "5ae6b9d0541f5ca928f098127d86f89666b7bf054ec67ab3440f7173bc5baced",
+      "text_sha256": "bf0c0f6d26a52ec667a6823607c4adbc281a4cdf71c0e0c5f8106ab7f65b33fc",
       "partition": {
         "header_characters": 301,
         "header_sha256": "49ac040e809e9bfa535a30817e4845f71c436923033759020953775609e1c7e5",
@@ -199,7 +199,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "e3ae1ce1d4faa90d0523f204eed33161ac8c99211303be83100b67a42768d993",
       "body_sha256": "a994d397ad940b510d93833e2e4740c33fe6c30d5361613889d63159330450e9",
-      "text_sha256": "f69ccbbb685389266f56fefe875f1c2393347931d7b6abd3c7a35962be8b95fe",
+      "text_sha256": "1bbc423ffeb00c9fd5c5d3ed895b1bd5e7fa9cbd6a13af870240187c97552176",
       "partition": {
         "header_characters": 290,
         "header_sha256": "18561a151fa46522d9d1d3d13c212ec325f9fc3c45ce5203a2766d5856295d70",
@@ -255,7 +255,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "ce856c7fe30281681e6159a396c2b17ca46c4d92c8cc6a884ec3f62ccb9a2880",
       "body_sha256": "55d565b4c9bb85fb5fa33b65b9839ccbe5efb08c762ec7647583f57dbea31398",
-      "text_sha256": "0e4eed26808d0fff6e520d1540d4f7fee2683daa2f0f790cbb6ee1209263453a",
+      "text_sha256": "27363190cf7df7b80271d243d380cd709bbe12a73596a784d121056f4c842ea8",
       "partition": {
         "header_characters": 297,
         "header_sha256": "fbe2fa57800660b20a85621c2751d0e6e2d45ba90bfc31ed27747bb1322a6a81",
@@ -311,7 +311,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "7a3b154b2e172e70bed825a8e6e36e9001394eba8925d863b911c1539eb1b19d",
       "body_sha256": "33a831c0e8dd8ea15d860925e13b29b87570f03995f61a505eb0751da1f41521",
-      "text_sha256": "9c20c5c3c4709255eb19e99a44bea97fefb896e39303a75006d5eb11cd3b2595",
+      "text_sha256": "215e075d2f8149b03e554bbdced4821cee460f386309025cc112048d8011744f",
       "partition": {
         "header_characters": 528,
         "header_sha256": "2d106541d7ba2a5b3bceffee6217ac86a3bd322572366a5959f684066e08bb9a",
@@ -367,7 +367,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "1a8e91bc4b58a6cd2da9672998bfdd07ee229885cf4e46bd8745b1ca15db13d0",
       "body_sha256": "b604caa738c33235d8edadf9c34c86a2f5a42c18f9ae523623169dbe081a61ae",
-      "text_sha256": "4d653d7627eed6dba2920dc1c54e64836740ff98bd0e811cf69cd815ddbb49f0",
+      "text_sha256": "4a121a54f54f90d16b1fc2243b4daf6460e54c54d78e29ad285e33eae5a89455",
       "partition": {
         "header_characters": 750,
         "header_sha256": "42fec948da3e68dab2b15ba3a9d74cb270923e313c48273c96f25d8d017f140a",
@@ -423,7 +423,7 @@
       "pdf_pages": 3,
       "raw_text_sha256": "536e6297a7ab9388b867c83c79b424302a410a64b856b5b85a614626c7cc3981",
       "body_sha256": "9c036ddce3914d6cda5ac58b59f01029611b8be3718602c79f28d24db1fc23a8",
-      "text_sha256": "5ed061539eb7607cff2d06cb7ab1b73fcff703f6b7b5596ef42237afb37e031e",
+      "text_sha256": "4ad62d7ab9dbf8f8645712d87844b051949f1005d59343ff594a5531fd85f61b",
       "partition": {
         "header_characters": 307,
         "header_sha256": "ed9cb4b3bedc97374c30b2a3ce71d0b4355afe99f9d60625a9316087bd0784ae",
@@ -492,7 +492,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "1300152dbc40541ce7f9f36b635e5fdadb88ea913fc60773c215d5af628d88a3",
       "body_sha256": "e96666ee9586687799bf2706b8b0d1c1e1b3f1b05d5bb27cac8717649ac234bf",
-      "text_sha256": "0d3dc8cf11d52fd50134c10bea3a21c1a36606b0a72c79045d52ae73691f6d67",
+      "text_sha256": "2fa6c3d726aa3e64de6cbb1ed0e21834a21c659d347ee45bb82512c7ee54477c",
       "partition": {
         "header_characters": 726,
         "header_sha256": "4549150bfe67dc6e2a8f0232e1d107e3ff0eda00a451f2c65e56a048266e4714",
@@ -559,7 +559,7 @@
       "pdf_pages": 3,
       "raw_text_sha256": "ecfc193e5c3e6d9c69626f78061f40317090e527b1e7b2438fe6dc227096f979",
       "body_sha256": "66b7d6f44d6e705202ff2fbccf40ca3d797d874ad43303e517964affecc74911",
-      "text_sha256": "eaed275a0e1350d3f2ba0c3bece301509de97e1252378dc0ace680f196a53a4e",
+      "text_sha256": "e255bdc793ea4b9a5105947bd2cb2382fd01bfd0adb7df812c04f5bceaf779cb",
       "partition": {
         "header_characters": 524,
         "header_sha256": "5013f2a8dd30f1b1c5ea0aa0afc5223b700ba9e36f67be767e74a7cac65998f2",
@@ -638,7 +638,7 @@
       "pdf_pages": 4,
       "raw_text_sha256": "509b565e7ba96787cb627db79e7fdeb7a6d522bd786950f94c8ad797a227984a",
       "body_sha256": "0e4790dfb7fce7f5d1a86fa31e07f90145b1b9ff08cf6ac53c319cb272532293",
-      "text_sha256": "c6c2ed79123fb8022312e065fc7d808c302af8f1ac3d1db64f699d18dd6e82bc",
+      "text_sha256": "ac21a2a8aff9c4a7ad92e59ac3b5e7cea4c465c4a88d5db6aed97905c93bcd5d",
       "partition": {
         "header_characters": 524,
         "header_sha256": "8ccb2b1133869a8dbcdee33b3a009d1b0a1250101f0262c3cf94cf211ae358e1",
@@ -722,7 +722,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "0e8c67a98077dbb33b8de3fd5a23707b99492f245bd42887fc3983ce4c38401c",
       "body_sha256": "12cc530a813c2e2e11701781037c9aa51960ae0d26228d32aabae156ad4cf2fd",
-      "text_sha256": "1959685438648e3bae7d522b2cd9c789d8de1844bd76251c1a57e24818cdb8f1",
+      "text_sha256": "10d5c1fc10e3943a50b6d97f458e0598f60cef8cd54ae0c9527cf0827f204861",
       "partition": {
         "header_characters": 650,
         "header_sha256": "d5c18acd12a410101de51ff2b50240d84485564fbd969201b0f50337a4bb6d63",
@@ -778,7 +778,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "e6b67af54a74d6cec7c2363bbef3be4fe1a14da2a1dcd23ee46db581cf16923e",
       "body_sha256": "73d859844a28ec1bcd09f840346dc39bb43afb6716d08a0870f04d4e610f68b4",
-      "text_sha256": "39f2951ff71958c08d2314b959ea594f1043cd8b5cad52b580ee577e9fa5cafd",
+      "text_sha256": "71bba814c0c558202c9044e00748b536a38d0445054f29bcff3045fd43a0c22d",
       "partition": {
         "header_characters": 301,
         "header_sha256": "54bc4e2527d1be79c7205e9acf54e83fa692038c6426172cc6950986a8dc85dc",
@@ -835,7 +835,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "70a394b1b8f8140b8ccc310ee8685de21fc85cead829c909d5c275d13a52a93e",
       "body_sha256": "4550b2c98818de608c0f0fbee22df5b0e33ef22adfc3a801375a354775dd4d40",
-      "text_sha256": "d5c29bb64df966edd777efec440a0207215a862431c21ab22be858658d88f58c",
+      "text_sha256": "5a43dd737aec0aa91ddaf3f5824e9735328e46dbe64d1da06efb0b0cf489518f",
       "partition": {
         "header_characters": 638,
         "header_sha256": "9f12228c9e1c4b1b401f0a124f2a577c90ab0956dfe0ef8cdc7d4207ec46aff3",
@@ -913,7 +913,7 @@
       "pdf_pages": 1,
       "raw_text_sha256": "34ead12aef98408c777f981885e149cb6de423f3f5c1cced052568d7ff59bceb",
       "body_sha256": "ef199f7d8ac986deb331e51e42252af8170adfb3018694992664fc56d97502b3",
-      "text_sha256": "c3a515e5aff4e5db75b6bb79defaba9260c6e7af9ce5891c9ca9d15c369b9ffb",
+      "text_sha256": "ced6b9d8a6a5c01e3e5ac6fafe9efb033365e2eba3b9eedafda052bd3bd77825",
       "partition": {
         "header_characters": 524,
         "header_sha256": "57315a19fe341ab69f8d204b59dd524b0b5ab3ac3370b2819ead6f46cdad9eee",
@@ -991,7 +991,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "9727b87efd6a91cf6f1855520c7e2badf7e2b1187097936eaedbcb6715980d58",
       "body_sha256": "ea0df83e158806e399c88dc8e4bd484092f79194b59d37f85830b28732f1ac6a",
-      "text_sha256": "1079cdba25c2a44f8f734966d908a94dc6d89da6f56150bbeb8185dff98b446a",
+      "text_sha256": "1e105c4cdb8af8f12cd75b2476aa40321946aa745ee57a22ed2f40fd367b1288",
       "partition": {
         "header_characters": 404,
         "header_sha256": "e14fc056d205cce6bf631698f1bd8f3a7109da640aa5b51482e97d492aa3a651",
@@ -1058,7 +1058,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "3c5d359a169d6e125eecd458a607b3ce5b736b8b3f10cde2f8e39c96878c6aff",
       "body_sha256": "7002c7789194590895d61a8f07644cee8f6b6fd3f153e09137ce19f58e155239",
-      "text_sha256": "9958d8f03b7ae06789e48cd9984e07765accbc9230913fc28c9376f712618d4a",
+      "text_sha256": "64271d4dc6bc29f8984e489d995a9f9d742e78ba1d52747217813de649cdf0e7",
       "partition": {
         "header_characters": 485,
         "header_sha256": "70a6d93b0b62e14508cc97f5e004f9cec19132248c9e0f45b1dc25cd484e6087",
@@ -1152,7 +1152,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "d9a231f0dd212c1920087f595100a944360ccab448b7fc16f2c8e417644e5c4a",
       "body_sha256": "7c5973a45333948e94ce904f3bd588bbe3926400bc51e687ecef0384705c5b17",
-      "text_sha256": "1b87d9a6a272f7fbc81668c14be153739efd53c750c4f7909490feead171db2e",
+      "text_sha256": "3b1631b9f04246413942be30385582251c6bdb8ed8dde2a78b33adfe3f8f65fe",
       "partition": {
         "header_characters": 631,
         "header_sha256": "b773b41ee3e2336c97d9eaf5d3ce007e70d9404ca06163749165a864c8825b79",
@@ -1222,7 +1222,7 @@
       "pdf_pages": 2,
       "raw_text_sha256": "cb2b89d2ccfd944f95fd9089df849b3fdd62bf3aeaf617b01c184a24bccc3ef8",
       "body_sha256": "15ae3a8be30f3a8f7ab81d4f2837aee88750676391b9c33c63716ae78d0acd9f",
-      "text_sha256": "ef3bab05d9267bfc7c6d5c85e3fcf5d7b6932bef35126faba03b65d4c923f01a",
+      "text_sha256": "7c52c7e294d419013ceb7d8dd9baea26146ad66ef646a471fd740df59e1e7162",
       "partition": {
         "header_characters": 745,
         "header_sha256": "11f2b838adec5036391d93000b0b8cbaa344c40383451a1ece4504b32aba6301",

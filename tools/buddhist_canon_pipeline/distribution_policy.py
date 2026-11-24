@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: 0BSD
-"""Keep individual-sharing grants out of combined readers and bulk exports."""
+"""Keep individual-only and named-website grants within their separate scopes."""
 from __future__ import annotations
 
 INDIVIDUAL_LICENSE = "Sutta Friends — individual sutta sharing permission"
@@ -16,8 +16,8 @@ INDIVIDUAL_RIGHTS_BASIS = (
     "text/markup is copied. Combined readers, site archives and source archives are excluded."
 )
 WEBSITE_LICENSE = "Candana — permission for freebuddhism.org"
-WEBSITE_DISTRIBUTION = {"individual_readers": True, "continuous_reader": False,
-                        "site_archives": False, "source_archives": False}
+WEBSITE_DISTRIBUTION = {"individual_readers": True, "continuous_reader": True,
+                        "site_archives": True, "source_archives": False}
 
 
 def distribution(record: dict) -> dict:
@@ -25,7 +25,7 @@ def distribution(record: dict) -> dict:
     if record.get("license") == WEBSITE_LICENSE:
         if (explicit != WEBSITE_DISTRIBUTION or not isinstance(explicit, dict)
                 or any(type(value) is not bool for value in explicit.values())):
-            raise ValueError("Website-only edition needs its exact restricted distribution policy")
+            raise ValueError("Named-website edition needs its exact distribution policy")
         return dict(explicit)
     if record.get("license") == INDIVIDUAL_LICENSE:
         if (explicit != INDIVIDUAL_DISTRIBUTION or not isinstance(explicit, dict)

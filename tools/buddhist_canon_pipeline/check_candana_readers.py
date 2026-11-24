@@ -21,24 +21,33 @@ else:
 class SourceText(HTMLParser):
     """Read source text independently of the HTML renderer."""
 
-    def __init__(self):
+    def __init__(self, italic_spans=None):
         super().__init__(convert_charrefs=True)
         self.count = 0
         self.active = False
         self.parts = []
+        self.expected_italics = [(span['start'], span['end']) for span in (italic_spans or [])]
+        self.italic_start = None
+        self.italics = []
 
     def handle_starttag(self, tag, attrs):
-        if 'source-text' in dict(attrs).get('class', '').split():
+        if self.active:
+            if tag != 'em' or attrs or self.italic_start is not None or not self.expected_italics:
+                raise ValueError('Unexpected markup inside plain source text')
+            self.italic_start = sum(map(len, self.parts))
+        elif 'source-text' in dict(attrs).get('class', '').split():
             if tag != 'pre' or self.count:
                 raise ValueError('Expected exactly one plain source container')
             self.count += 1
             self.active = True
-        elif self.active:
-            raise ValueError('Unexpected markup inside plain source text')
 
     def handle_endtag(self, tag):
         if self.active:
-            if tag != 'pre':
+            if tag == 'em' and self.italic_start is not None:
+                self.italics.append((self.italic_start, sum(map(len, self.parts))))
+                self.italic_start = None
+                return
+            if tag != 'pre' or self.italic_start is not None:
                 raise ValueError('Unexpected closing markup inside source text')
             self.active = False
 
@@ -47,8 +56,8 @@ class SourceText(HTMLParser):
             self.parts.append(value)
 
     def body(self):
-        if self.count != 1 or self.active:
-            raise ValueError('Missing or incomplete source container')
+        if self.count != 1 or self.active or self.italics != self.expected_italics:
+            raise ValueError('Missing/incomplete source container or changed reviewed emphasis')
         return ''.join(self.parts)
 
 
@@ -87,7 +96,7 @@ def compare(index: dict, sources: dict, read) -> dict:
 
     def check(item):
         identity, url, _ = item
-        parser = SourceText()
+        parser = SourceText(sources[identity].get('italic_spans'))
         parser.feed(read(url).decode('utf-8', errors='strict'))
         if parser.body() != sources[identity]['body']:
             raise ValueError('Displayed source differs from pinned TXT: ' + identity)
@@ -110,6 +119,29 @@ def compare(index: dict, sources: dict, read) -> dict:
             'comparison': 'Exact decoded source characters, including whitespace and punctuation.',
             'model_calls': 0, 'human_proofreading_approved': False,
             'layout_checked_by_this_command': False, 'suggested_spot_checks': samples}
+
+
+def include_website_sources(sources: dict, release: dict, root: Path = ROOT) -> None:
+    """Add only the exact enabled manifest; default builds need no private inputs."""
+    if not release.get('website_only_editions'):
+        return
+    if __package__:
+        from .candana_website import manifest, checked_input
+    else:
+        from candana_website import manifest, checked_input
+    rows = manifest(root)['records']
+    expected = [{key: row[key] for key in
+                 ('canonical_id', 'source_sha256', 'body_sha256', 'text_sha256', 'processing_review_entry_id')}
+                for row in rows]
+    if release['website_only_editions'] != expected:
+        raise ValueError('Release website sources differ from the exact reviewed manifest')
+    for row in rows:
+        if row['canonical_id'] in sources:
+            raise ValueError('Website edition shadows an imported Candana source')
+        _raw, _header, text = checked_input(row, root)
+        sources[row['canonical_id']] = {'body': text.split('\n\n', 1)[1],
+            'book': 'standalone-website-editions', 'source_url': row['source_url'],
+            'italic_spans': row['partition'].get('italic_spans', [])}
 
 
 def check_release(site_root: Path, public_base: str | None = None) -> dict:
@@ -138,6 +170,7 @@ def check_release(site_root: Path, public_base: str | None = None) -> dict:
             path.resolve().relative_to(site_root.resolve())
             return path.read_bytes()
     index = json.loads(read('/theravada/tipitaka/site/reading-index.json'))
+    include_website_sources(sources, json.loads(read('/release.json')))
     return dict(compare(index, sources, read), target=public_base or str(site_root))
 
 

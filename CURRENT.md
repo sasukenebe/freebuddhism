@@ -55,20 +55,33 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The verified live release is source 800a4b829d5315940dca128391aae29e1c2e42ed,
-with 10,076 reader versions and sixteen standalone website-only Candana editions,
-verified November 17. Translation choices start open; collection trees stay closed.
+The verified live release is source 74941d7cac190795f25544ffe10655c610cb7d80,
+with 10,079 reader versions and nineteen standalone website-only Candana editions,
+verified November 24. Translation choices start open; collection trees stay closed.
 The [November 17 review follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md)
 addresses source emphasis, PDF presentation, edition availability and search
 discoverability; Candana AN 6.106 and SN 41.1 are included in that live release.
-The next checked candidates are SN 35.240, SN 45.55 and SN 47.41. Their full
-enabled-site preview and bounded browser checks pass; clean-source release and
-actual deployed-page checks remain before publication. AN 6.49 remains held
-because its original underlining is not supported.
+SN 35.240, SN 45.55 and SN 47.41 are now published. Their complete enabled build,
+38,461 deployed-file inventory, eighty public responses, desktop/mobile views and
+two native keyboard journeys pass. No Pāli or human-proofreading approval follows.
+AN 6.49 remains held because its original underlining is not supported.
 AN 3.116's standalone source is checked privately but is not added over the existing
 Candana Book 3 reader; the full build rejects that duplicate text/version identity.
 These additions are alternative translations, not new identifier coverage. Counts include alternatives
 and Vinaya; they are not counts of distinct complete suttas or human approvals.
+
+Current implementation: the owner's November 24 direction removes our conservative
+combined-reader and website-ZIP exclusion for the nineteen approved Candana editions.
+The change preserves each translation body and all three permission conditions,
+keeps public Git/source archives excluded, and leaves Sutta Friends' individual-only
+limits unchanged. The full preview builds 10,079 readers and 31 ZIPs without broken
+links. All 368 tests pass (eleven optional skips), as do exact-body checks for all
+894 Candana editions and 2,821 other licensed editions. Eight sampled desktop/mobile
+keyboard journeys enter the combined reader, switch translators and preserve text,
+emphasis and conditions. Clean-source release and deployed checks remain before this
+behavior is claimed live. Ten staged Candana MN sources remain
+the next content-preparation batch; this build change does not add suttas or clear
+unreviewed originals. See the [current follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md).
 
 ## First execution checkpoint
 

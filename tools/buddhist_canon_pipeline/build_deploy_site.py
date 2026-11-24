@@ -706,23 +706,8 @@ if(search){
 }})();</script>'''
 
 
-def _combined_reader_link(tipitaka_root: Path, page: Path, read_url: str, records: list[dict]) -> str:
-    website_editions = [record for record in records if record.get("website_record")]
-    label = "All Text on One Page"
-    if website_editions:
-        scope = "website-only edition" if len(website_editions) == 1 else "website-only editions"
-        label += f" ({scope} not included)"
-    link = f'<a href="{html.escape(read_url, quote=True)}">{label}</a>'
-    if not website_editions:
-        return link
-    individual_links = []
-    for record in website_editions:
-        reader = _record_relative_path(record, "html_path", Path(record["output_root"]), ROOT)
-        href = html.escape(_relative_href(page, tipitaka_root / reader), quote=True)
-        individual_links.append(f'<a href="{href}">{html.escape(record["version_label"])}</a>')
-    instruction = "Use the individual reader" if len(website_editions) == 1 else "Use the individual readers"
-    return (link + ' <span class="combined-reader-exclusion">' + instruction + ': '
-            + ' · '.join(individual_links) + '.</span>')
+def _combined_reader_link(read_url: str) -> str:
+    return f'<a href="{html.escape(read_url, quote=True)}">All Text on One Page</a>'
 
 
 def _excluded_editions_markup(info: dict) -> str:
@@ -760,7 +745,7 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
         editions.append(f'<li><a href="{href}">{html.escape(record["version_label"])}</a></li>')
     listing = '<ul>' + ''.join(editions) + '</ul>'
     read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
-    read_control = _combined_reader_link(tipitaka_root, page, read_url, info["eligible"])
+    read_control = _combined_reader_link(read_url)
     return (
         '<section id="collection-browser"><h2>Translations</h2><nav aria-label="Collection views">'
         '<button type="button" data-mode="tree" aria-pressed="true">Tree</button> '
@@ -1212,6 +1197,8 @@ def _write_continuous_reader(
                 "group_id": record.get("group_id", ""),
                 "group_reference": record.get("group_reference", ""),
                 "canonical_ids": record.get("canonical_ids", []),
+                **({"distribution": distribution(record), "conditions": record["conditions"]}
+                   if record.get("website_record") else {}),
             })
         if not editions:
             continue
@@ -1387,8 +1374,7 @@ def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records
                     route = routes_by_info[id(info)]
                     node_url = TIPITAKA_URL_PREFIX + route
                     read_url = TIPITAKA_URL_PREFIX + 'site/read.html?collection=' + quote(info["collection"], safe="/-") + '&text=' + quote(route.removesuffix('/index.html'), safe="/-")
-                    read_control = _combined_reader_link(
-                        tipitaka_root, page, read_url, [reader_records[relative]])
+                    read_control = _combined_reader_link(read_url)
                     controls = (
                         '<nav aria-label="Collection views">'
                         f'<a href="{html.escape(node_url, quote=True)}">All translations for {html.escape(info["canonical_id"])}</a> · '

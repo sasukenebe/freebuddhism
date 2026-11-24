@@ -88,7 +88,7 @@ class ReviewNavigationTests(unittest.TestCase):
             }
             if website_only:
                 record.update(website_record={"canonical_id": "AN 1.1"},
-                              distribution=dict(WEBSITE_DISTRIBUTION))
+                              distribution=dict(WEBSITE_DISTRIBUTION), conditions=["Synthetic website condition"])
             records.append(record)
         return records
 
@@ -128,7 +128,7 @@ class ReviewNavigationTests(unittest.TestCase):
             info["restricted"] = []
             self.assertEqual(site._excluded_editions_markup(info), "")
 
-    def test_shared_and_current_reader_links_explain_only_the_website_edition_exclusion(self):
+    def test_shared_and_current_reader_links_include_approved_website_editions(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
             tipitaka = root / "theravada/tipitaka"
@@ -151,10 +151,10 @@ class ReviewNavigationTests(unittest.TestCase):
             site._finish_page_navigation(root, {self.route: info}, navigation_nodes(), records, set())
             shared = node.read_text(encoding="utf-8")
             shared_probe = NavigationProbe(shared)
-            label = "All Text on One Page (website-only edition not included)"
+            label = "All Text on One Page"
             shared_control = next(link for link in shared_probe.links if link["label"] == label)
             self.assertIn("&text=" + self.route.removesuffix("/index.html"), shared_control["href"])
-            self.assertIn("Use the individual reader", shared)
+            self.assertNotIn("website-only edition not included", shared)
             self.assertIn("Excluded source files and editions", shared)
             self.assertIn("Candana readers remain available above", shared)
             self.assertIn('data-view="tree"><details open><summary>Translations</summary>', shared)
@@ -166,11 +166,8 @@ class ReviewNavigationTests(unittest.TestCase):
                     self.assertEqual("".join(probe.body_parts), self.body)
                     combined = [link for link in probe.links if link["label"].startswith("All Text on One Page")]
                     self.assertEqual(len(combined), 1)
-                    self.assertEqual(combined[0]["label"], label if website_only else "All Text on One Page")
-                    self.assertEqual('class="combined-reader-exclusion"' in result, website_only)
-                    if website_only:
-                        self.assertTrue(any(link["href"] == reader.name and link["label"] == records[0]["version_label"]
-                                            for link in probe.links))
+                    self.assertEqual(combined[0]["label"], label)
+                    self.assertNotIn('class="combined-reader-exclusion"', result)
             self.assertTrue(any(link["href"] == readers[0].name and link["label"] == records[0]["version_label"]
                                 for link in shared_probe.links))
             self.assertEqual(homepage.read_bytes(), original_homepage)
@@ -185,7 +182,7 @@ class ReviewNavigationTests(unittest.TestCase):
         self.assertEqual([link["label"] for link in combined], ["All Text on One Page"])
         self.assertNotIn("combined-reader-exclusion", markup)
 
-    def test_combined_payload_still_excludes_website_only_edition(self):
+    def test_combined_payload_includes_approved_website_edition_with_notices(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
             records = self.records(root)
@@ -194,13 +191,16 @@ class ReviewNavigationTests(unittest.TestCase):
             self.assertEqual(site._write_continuous_reader(tipitaka, {self.route: info}, {}), 1)
             payload = json.loads((tipitaka / "site/reading-index.json").read_text(encoding="utf-8"))
             editions = payload["texts"][0]["editions"]
-            self.assertEqual([edition["id"] for edition in editions], ["other"])
-            self.assertEqual(editions[0]["license_notice"], records[1]["license_notice"])
+            self.assertEqual({edition["id"] for edition in editions}, {"candana-website", "other"})
+            candana = next(edition for edition in editions if edition["id"] == "candana-website")
+            self.assertEqual(candana["license_notice"], records[0]["license_notice"])
+            self.assertEqual(candana["conditions"], records[0]["conditions"])
+            self.assertEqual(candana["distribution"], WEBSITE_DISTRIBUTION)
             self.assertEqual(editions[0]["completeness_status"], "UNKNOWN")
             info["eligible"] = records[:1]
-            self.assertEqual(site._write_continuous_reader(tipitaka, {self.route: info}, {}), 0)
+            self.assertEqual(site._write_continuous_reader(tipitaka, {self.route: info}, {}), 1)
             payload = json.loads((tipitaka / "site/reading-index.json").read_text(encoding="utf-8"))
-            self.assertEqual(payload["texts"], [])
+            self.assertEqual(payload["texts"][0]["editions"][0]["id"], "candana-website")
 
     def test_search_link_is_visible_outside_closed_tree_and_reuses_the_flat_list(self):
         with TemporaryDirectory() as directory:

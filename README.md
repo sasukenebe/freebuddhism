@@ -104,8 +104,11 @@ Candana editions covered by the new website-specific permission use an
 [explicitly enabled website-only build](docs/candana-processing-review.md#build-website-only-readers).
 Their pinned PDFs and generated text stay in ignored build storage, not Git.
 The default source build omits them; an enabled build requires all checked inputs
-and records their hashes in release.json. These editions are excluded from combined
-readers and collection/source archives. Earlier exact-book grants remain unchanged.
+and records their hashes in release.json. Approved editions also appear in the
+website's combined reader and collection ZIP downloads, retaining unchanged text
+and all website-specific conditions. Their translation bodies remain excluded from
+public Git/source archives; downloading a ZIP does not grant republication elsewhere.
+Earlier exact-book grants and other authors' individual-only limits remain unchanged.
 
 Run `python tools/validate_public_tree.py` and
 `python -m unittest discover -s tests` before review. The repository file

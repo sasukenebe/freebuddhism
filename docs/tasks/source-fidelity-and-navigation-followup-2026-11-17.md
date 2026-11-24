@@ -1,8 +1,10 @@
 # Source fidelity and navigation follow-up
 
-Status: source 800a4b82 is live; the next three standalone candidates pass full-site
-preview checks and await clean-source release/publication. No translation-accuracy
-or human-proofreading approval.
+Status: source 74941d7c is live with nineteen standalone Candana editions, including
+SN 35.240, SN 45.55 and SN 47.41, verified November 24. The owner-directed combined
+reader/website-ZIP change below is implemented with passing focused worker tests;
+its complete preview and publication remain pending. No translation-accuracy or
+human-proofreading approval.
 The November 17 supplied review examines two Candana editions at live source
 63a6bba0. It reports no word-level conversion errors in that sample and explicitly
 leaves full translation accuracy and interactive accessibility unreviewed.
@@ -16,7 +18,9 @@ This is not a whole-corpus or human-proofreading approval.
 - Distinguish historical excluded source files/editions from available individually
   checked Candana readers. Preserve all excluded-source metadata and rights limits.
 - Explain beside combined-reader links that website-only editions are absent,
-  with a link to the individual edition. Do not relax combined/archive exclusions.
+  with a link to the individual edition. This original conservative build rule is
+  superseded only for approved Candana website editions by the November 24 direction
+  below; other publishers' individual-only limits are unchanged.
 - Put website-only PDF translation text before lengthy provenance. Keep a short
   title/translator/copyright/licence heading and all complete notices/source/scope
   information after the text. Other reader families retain their existing layout.
@@ -146,3 +150,42 @@ overflow. All eight copied viewport images are inspected. The browser's incident
 favicon request is 404; required reader, search and download routes return 200.
 These bounded checks do not establish full accessibility or translation accuracy.
 No deployment or clean-source release result is implied by this preview.
+
+## November 24: approved Candana combined reading and website downloads
+
+The owner explicitly requests including the approved Candana editions in combined
+readers and collection downloads. The recorded permission covers the translations
+on freebuddhism.org and does not impose an individual-sutta-only limit. Our previous
+exclusion was a conservative build setting, not a quotation of the grant.
+
+The implementation allows all nineteen checked website editions in the combined
+reader and the site's matching HTML/TXT/PDF/global/collection ZIPs. It retains every
+translation body, pinned original, layout decision, review entry and permission
+condition. Only the download's distribution-description header and corresponding
+text hash change. Original publisher PDFs remain linked, not added to ZIPs.
+
+Each bundled file has its exact payload hash and complete, file-specific rights
+in LICENSE-MANIFEST.json. The ZIP's REUSE-TERMS.txt explains that named-website
+permission is not a grant to republish elsewhere. Public Git/source archives still
+exclude these translation bodies and PDFs. Earlier exact-book grants remain
+separate, and Sutta Friends' individual-only policy is unchanged.
+
+Independent checks now require the combined reader's exact source/permission data,
+all website-edition files in the four global ZIP formats and the appropriate
+collection ZIP, identical bundled and individual bytes, and all conditions/notices.
+Corruptions exercise missing/duplicate choices, missing ZIPs/members, altered bytes
+and reduced permission records. The enabled preview builds 10,079 readers and 31
+ZIPs with zero broken links. All 368 tests pass with eleven optional skips; all 894
+Candana and 2,821 other licensed editions preserve their expected bodies. Eight
+sampled desktop/mobile native keyboard journeys enter the combined reader and
+switch Candana to Sujato and back, preserving exact text, reviewed emphasis and
+complete conditions without horizontal overflow or JavaScript exceptions. All eight
+viewport images are hash-checked and inspected. These checks are not Pāli approval.
+
+The first legacy Candana check rejected SN 12.38 because it assumed that the
+combined index contained only older book-derived editions. Its failed result is
+retained. The repaired check admits only the exact additional editions declared by
+the release and reviewed source manifest, validates their original bodies and
+reviewed emphasis, and still rejects missing, duplicate or changed editions. The
+completed preview is preserved rather than relabeled as an original full success.
+Clean-source release and actual public checks remain before publication is claimed.

@@ -12,8 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools/buddhist_canon_pipeline"))
 import candana_website as website
 from distribution_policy import distribution, WEBSITE_LICENSE, WEBSITE_DISTRIBUTION
-from archive_rights import edition_rights, write_release_metadata
-from build_deploy_site import _zip_write
+from archive_rights import edition_rights, write_release_metadata, MANIFEST_NAME
+from build_deploy_site import _zip_write, _write_continuous_reader, _write_archives
 from build_eligible_readers import parse_args
 import build_eligible_readers as readers
 
@@ -170,7 +170,7 @@ class CandanaWebsiteTests(unittest.TestCase):
             self.assertFalse((root / website.public_text_path(row)).exists())
             website.verify_public_boundary(root)
 
-    def test_legacy_fixture_bytes_hashes_and_notice_are_unchanged(self):
+    def test_approved_distribution_notice_changes_metadata_not_source_body(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
             _pdf, raw, row, _value = self.fixture(root)
@@ -191,7 +191,7 @@ class CandanaWebsiteTests(unittest.TestCase):
                 "The content of these translations must never be used for advertisements. "
                 "Permission is for republication on freebuddhism.org; no general public-repository or third-party archive grant is claimed.\n"
                 "Original document heading: AN 4.1 Synthetic title Translated by Bhikkhu Candana Copyright synthetic\n"
-                "Distribution: Website-only edition; excluded from combined readers and site/source archives in this build.\n"
+                "Distribution: Published on freebuddhism.org in individual and combined readers and website collection downloads; excluded from public Git/source archives.\n"
                 "Changes: " + changes + "\n"
                 "Completeness: UNKNOWN. Whole reviewed source translation, including section headings and closings; "
                 "completeness and translation accuracy remain unverified.\n\n" + expected_body)
@@ -404,19 +404,93 @@ class CandanaWebsiteTests(unittest.TestCase):
             record["text_path"].write_text("Changed saved download")
             self.assertFalse(website.verify_record(record, root))
 
-    def test_archive_writer_refuses_even_an_incorrect_archive_true_flag(self):
+    def test_website_policy_keeps_public_source_archives_excluded(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)
             rights = {"license": WEBSITE_LICENSE, "distribution": WEBSITE_DISTRIBUTION}
-            self.assertFalse(distribution(rights)["site_archives"])
+            self.assertTrue(distribution(rights)["site_archives"])
+            self.assertTrue(distribution(rights)["continuous_reader"])
+            self.assertFalse(distribution(rights)["source_archives"])
             with self.assertRaises(ValueError): edition_rights(rights)
             payload = root / "website.txt"
             payload.write_text("Original synthetic words")
             allowed = {Path("website.txt"): {"source": payload, "archive": True, "rights": [rights]}}
             with self.assertRaises(ValueError): _zip_write(root / "bad.zip", list(allowed), root, allowed)
             changed = deepcopy(rights)
-            changed["distribution"]["site_archives"] = True
+            changed["distribution"] = dict(WEBSITE_DISTRIBUTION, source_archives=True)
             with self.assertRaises(ValueError): distribution(changed)
+
+    def distribution_fixture(self, root):
+        import zipfile
+        pdf, raw, row, _value = self.fixture(root)
+        with self.extractor(raw):
+            website.stage(pdf, root)
+            record = website.collect_records(root / "build/readers", root)[0]
+        site = root / "build/site"
+        tipitaka = site / "theravada/tipitaka"
+        relative = record["html_path"].relative_to(record["output_root"]).relative_to("theravada/tipitaka")
+        paths = [relative, Path(website.public_text_path(row)).relative_to("theravada/tipitaka"),
+                 relative.with_name(record["pdf_path"].name)]
+        allowed = {}
+        rights = edition_rights(record)
+        for path in paths:
+            target = tipitaka / path
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(b"Synthetic original payload: " + path.suffix.encode())
+            allowed[path] = {"archive": True, "rights": [rights], "collection": record["collection"]}
+        route = relative.with_name("index.html").as_posix()
+        info = {"canonical_id": row["canonical_id"], "title": row["title"],
+                "collection": record["collection"], "eligible": [record]}
+        _write_continuous_reader(tipitaka, {route: info}, {})
+        archives = ["tipitaka-all.zip", "tipitaka-html.zip", "tipitaka-txt.zip", "tipitaka-pdf.zip", "anguttara-nikaya.zip"]
+        _write_archives(tipitaka, allowed, archives, {record["collection"]})
+        return site, record, paths
+
+    def test_combined_reader_and_all_website_zip_formats_include_exact_payloads_and_terms(self):
+        with TemporaryDirectory() as directory:
+            site, record, _paths = self.distribution_fixture(Path(directory))
+            result = website.check_distribution(site, [record])
+            self.assertEqual(result["combined_reader_inclusion"], "PASS")
+            self.assertEqual(result["website_collection_archives"], "PASS")
+            self.assertEqual(result["archives_checked"], 5)
+
+    def test_missing_changed_or_unlicensed_combined_choice_fails(self):
+        for fault in ("missing", "copyright", "conditions", "distribution", "duplicate"):
+            with self.subTest(fault=fault), TemporaryDirectory() as directory:
+                site, record, _paths = self.distribution_fixture(Path(directory))
+                path = site / "theravada/tipitaka/site/reading-index.json"
+                data = json.loads(path.read_bytes())
+                editions = data["texts"][0]["editions"]
+                if fault == "missing": editions.clear()
+                elif fault == "duplicate": editions.append(deepcopy(editions[0]))
+                else: editions[0][fault] = None
+                path.write_text(json.dumps(data))
+                with self.assertRaisesRegex(ValueError, "Combined reader"):
+                    website.check_distribution(site, [record])
+
+    def test_zip_missing_payload_changed_bytes_and_reduced_permission_fail(self):
+        import zipfile
+        for fault in ("missing", "bytes", "conditions", "missing_manifest", "missing_zip"):
+            with self.subTest(fault=fault), TemporaryDirectory() as directory:
+                site, record, paths = self.distribution_fixture(Path(directory))
+                path = site / "theravada/tipitaka/downloads/anguttara-nikaya.zip"
+                if fault == "missing_zip":
+                    path.unlink()
+                else:
+                    with zipfile.ZipFile(path) as archive:
+                        parts = {name: archive.read(name) for name in archive.namelist()}
+                    member = paths[0].as_posix()
+                    if fault == "missing": parts.pop(member)
+                    if fault == "bytes": parts[member] += b" changed"
+                    if fault == "missing_manifest": parts.pop(MANIFEST_NAME)
+                    if fault == "conditions":
+                        manifest = json.loads(parts[MANIFEST_NAME])
+                        manifest["files"][0]["editions"][0]["conditions"] = []
+                        parts[MANIFEST_NAME] = json.dumps(manifest).encode()
+                    with zipfile.ZipFile(path, "w") as archive:
+                        for name, data in parts.items(): archive.writestr(name, data)
+                with self.assertRaises((ValueError, KeyError)):
+                    website.check_distribution(site, [record])
 
     def test_public_source_tree_cannot_contain_website_only_payloads(self):
         with TemporaryDirectory() as directory:

@@ -10,7 +10,7 @@ import re
 import subprocess
 import zipfile
 
-from distribution_policy import require_archive_permission
+from distribution_policy import require_archive_permission, WEBSITE_LICENSE
 
 TERMS_NAME = "REUSE-TERMS.txt"
 MANIFEST_NAME = "LICENSE-MANIFEST.json"
@@ -24,6 +24,8 @@ TERMS = (
     "Do not assume every file permits commercial reuse or modification.\n"
     "CC0/public-domain files do not acquire restrictions from neighboring works.\n"
     "Keep the original attribution, copyright, license and permission notices.\n"
+    "A named-website permission does not grant republication on another website\n"
+    "or in a public source repository. Check each file's own scope and conditions.\n"
 )
 CANDANA_LICENSE = "Candana — free distribution, unaltered contents"
 CANDANA_CONDITIONS = ["Copies must be available free of charge", "Do not alter the contents"]
@@ -52,10 +54,15 @@ def edition_rights(record: dict) -> dict:
               "license", "license_url", "copyright", "license_notice", "attribution_notice",
               "conditions", "changes", "completeness_status", "completeness_scope",
               "metadata_notes", "group_reference", "canonical_ids", "permission_pages")
-    fields += ("title", "edition", "rights_note", "rights_evidence", "scope", "print_notice_note")
+    fields += ("title", "edition", "rights_note", "rights_evidence", "scope", "print_notice_note", "distribution")
     result = {key: record[key] for key in fields if key in record}
     if not result.get("license") or not result.get("source_url"):
         raise ValueError("Archive payload needs its file-specific license and source")
+    if result["license"] == WEBSITE_LICENSE:
+        from candana_website import CONDITIONS, NOTICE, RIGHTS_URL
+        if (result.get("conditions") != CONDITIONS or result.get("license_notice") != NOTICE
+                or result.get("license_url") != RIGHTS_URL or not result.get("copyright")):
+            raise ValueError("Candana website archives need the complete named-website notice and conditions")
     if result["license"] == CANDANA_LICENSE:
         if record.get("original_book_path"):
             path = Path(record["original_book_path"])

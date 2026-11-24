@@ -1,10 +1,11 @@
 import sys
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools/buddhist_canon_pipeline'))
-from check_candana_readers import compare, relative_url, SourceText, NoRedirect
+from check_candana_readers import compare, relative_url, SourceText, NoRedirect, include_website_sources
 
 
 class CandanaReaderCheckTests(unittest.TestCase):
@@ -62,3 +63,49 @@ class CandanaReaderCheckTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertEqual([r['text'] for r in first['suggested_spot_checks']],
                          ['Snp 1.1', 'Snp 1.3', 'Snp 1.5'])
+
+    def test_only_exact_reviewed_attribute_free_italic_intervals_are_allowed(self):
+        expected = [{'start': 0, 'end': 5}]
+        parser = SourceText(expected)
+        parser.feed('<pre class="source-text"><em>First</em> words.</pre>')
+        self.assertEqual(parser.body(), 'First words.')
+        for markup in ('<em>First words.</em>', '<em class="unreviewed">First</em> words.',
+                       '<em><em>First</em></em> words.', 'First words.', '<em>First words.'):
+            with self.subTest(markup=markup), self.assertRaises(ValueError):
+                parser = SourceText(expected)
+                parser.feed('<pre class="source-text">' + markup + '</pre>')
+                parser.body()
+
+    def test_website_sources_extend_rather_than_bypass_the_exact_reader_comparison(self):
+        import candana_website as website
+        index, sources, rendered = self.fixtures()
+        row = {'canonical_id': 'SN 1.1', 'source_sha256': 'a' * 64, 'body_sha256': 'b' * 64,
+               'text_sha256': 'c' * 64, 'processing_review_entry_id': 'synthetic-entry',
+               'source_url': 'https://example.org/standalone.pdf', 'partition': {'italic_spans': [{'start': 0, 'end': 5}]}}
+        fields = ('canonical_id', 'source_sha256', 'body_sha256', 'text_sha256', 'processing_review_entry_id')
+        release = {'website_only_editions': [{key: row[key] for key in fields}]}
+        with patch.object(website, 'manifest', return_value={'records': [row]}), \
+                patch.object(website, 'checked_input', return_value=('', '', 'Synthetic header\n\nFirst words.')):
+            include_website_sources(sources, release)
+        index['texts'].append({'canonical_id': 'SN 1.1', 'url': '/standalone/index.html',
+                               'editions': [{'id': 'candana', 'url': '/standalone/candana.html'}]})
+        read = lambda path: (b'<pre class="source-text"><em>First</em> words.</pre>'
+                             if path.startswith('/standalone/') else rendered)
+        self.assertEqual(compare(index, sources, read)['readers_verified'], 2)
+        with self.assertRaisesRegex(ValueError, 'differs'):
+            compare(index, sources, lambda path: read(path).replace(b'First', b'Wrong'))
+        with self.assertRaisesRegex(ValueError, 'missing'):
+            compare({'texts': index['texts'][:1]}, sources, read)
+        with patch.object(website, 'manifest', return_value={'records': [row]}):
+            with self.assertRaisesRegex(ValueError, 'shadows'):
+                include_website_sources(sources, release)
+            changed = {'website_only_editions': [dict(release['website_only_editions'][0], text_sha256='d' * 64)]}
+            with self.assertRaisesRegex(ValueError, 'manifest'):
+                include_website_sources({}, changed)
+
+    def test_default_release_does_not_open_optional_private_inputs(self):
+        import candana_website as website
+        with patch.object(website, 'manifest', side_effect=AssertionError('Must remain offline')):
+            sources = {}
+            include_website_sources(sources, {})
+            self.assertEqual(sources, {})
