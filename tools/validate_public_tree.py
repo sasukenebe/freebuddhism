@@ -64,6 +64,7 @@ RIGHTS_BASIS_BY_SCOPE = {
     "CC0-1.0 project metadata": "Owner-authored project metadata is released under CC0-1.0; excluded source text is not copied.",
     "CC0-1.0 project source metadata": "Owner-authored provenance ledgers contain source metadata, not translated passages.",
     "CC0-1.0 SuttaCentral reference metadata": "SuttaCentral reference metadata is released under CC0-1.0; these files contain names and navigation ranges, not translated passages.",
+    "CC0-1.0 names and factual navigation metadata": "Pinned Bilara navigation names are CC0-1.0; chapter structure contains factual identifiers and ordered edges extracted from the cited compatible sc-data tree, not publisher prose or a blanket sc-data license claim.",
     NAVIGATION_SCOPE: NAVIGATION_RIGHTS_BASIS,
     SITE_SCOPE: SITE_RIGHTS_BASIS,
     "CC0-1.0": "Source license and revision are recorded in the approved text or asset manifest and pinned by SHA-256.",

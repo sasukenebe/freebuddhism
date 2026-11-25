@@ -8,6 +8,8 @@ import html
 import re
 from pathlib import Path
 
+from samyutta_navigation import thematic_navigation_nodes
+
 
 ROOT = Path(__file__).resolve().parents[2]
 _CATALOG = json.loads((ROOT / "metadata/site-catalog.json").read_text(encoding="utf-8"))
@@ -68,6 +70,8 @@ def navigation_nodes(extra_collections=()) -> dict[str, dict]:
     add("abhidhamma", "Abhidhamma Piṭaka", "abhidhamma/index.html", "tipitaka")
     for key, title, english, _description in ABHIDHAMMA_BOOKS:
         add("abhidhamma/" + key, title + " (" + english + ")", "abhidhamma/" + key + "/index.html", "abhidhamma")
+    thematic = thematic_navigation_nodes()
+    nodes.update(thematic)
     descriptions = {
         "tipitaka": "The Theravāda Buddhist texts, arranged in three baskets.",
         "vinaya": "Rules and procedures for Buddhist monks and nuns.",
@@ -85,9 +89,28 @@ def navigation_nodes(extra_collections=()) -> dict[str, dict]:
     descriptions.update({"abhidhamma/" + key: english + ". " + description
                          for key, _title, english, description in ABHIDHAMMA_BOOKS})
     for key, node in nodes.items():
+        if key in thematic:
+            continue
         node["tree_title"] = node["title"].split(" (", 1)[0]
         node["description"] = descriptions.get(key, "")
-    return nodes
+    # Insert the sourced SN subdivisions inside their collection, rather than
+    # appending them after Abhidhamma in the combined reader's order.
+    ordered = {}
+    children = {}
+    for key, node in nodes.items():
+        children.setdefault(node["parent"], []).append(key)
+
+    def visit(key):
+        ordered[key] = nodes[key]
+        for child in children.get(key, ()):
+            visit(child)
+
+    visit("tipitaka")
+    if len(ordered) != len(nodes):
+        raise ValueError("Navigation contains unreachable collections")
+    for order, node in enumerate(ordered.values()):
+        node["order"] = order
+    return ordered
 
 
 def collection_path(collection: str, nodes: dict[str, dict]) -> list[dict]:

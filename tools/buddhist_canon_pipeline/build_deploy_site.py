@@ -28,6 +28,7 @@ from build_eligible_readers import VINAYA_CONTENTS, collect_records
 from import_candana import LICENSE as CANDANA_LICENSE, verified_manifest as candana_manifest
 from public_html_policy import NAVIGATION_SCOPE, SITE_SCOPE, require_allowlisted_page, validate_site_content_manifest
 from public_candana_review import write_review as write_public_candana_review
+from samyutta_navigation import samyutta_collection
 from archive_rights import (
     TERMS_NAME, MANIFEST_NAME, RESERVED_NAMES, TERMS, edition_rights, metadata_bytes,
     verify_archive_rights, archive_label, write_release_metadata,
@@ -757,6 +758,13 @@ def _text_node_browser(tipitaka_root: Path, route: str, info: dict) -> str:
     )
 
 
+def _browse_order(info: dict, nodes: dict) -> tuple:
+    # The thematic tree must not reorder the numeric flat list or combined
+    # reader, including grouped references placed at a shared ancestor.
+    collection = info.get("source_collection", info["collection"])
+    return nodes[collection]["order"], natural_key(info["canonical_id"])
+
+
 def _collection_browse_markup(
     tipitaka_root: Path,
     collection: str,
@@ -771,7 +779,7 @@ def _collection_browse_markup(
         (route, info) for route, info in canonical_pages.items()
         if info["collection"] in descendant_ids
     ]
-    descendants.sort(key=lambda pair: (nodes[pair[1]["collection"]]["order"], natural_key(pair[1]["canonical_id"])))
+    descendants.sort(key=lambda pair: _browse_order(pair[1], nodes))
     def render_tree(node: str) -> str:
         output: list[str] = []
         children = sorted(
@@ -785,7 +793,7 @@ def _collection_browse_markup(
             child_title = nodes[child]["tree_title"]
             href = html.escape(_relative_href(index_path, child_index), quote=True)
             output.append(
-                f'<details><summary>{html.escape(child_title)}</summary>'
+                f'<details data-collection="{html.escape(child, quote=True)}"><summary>{html.escape(child_title)}</summary>'
                 f'<p><a href="{href}">Open {html.escape(child_title)} collection page</a></p>'
                 f'{render_tree(child)}</details>'
             )
@@ -795,7 +803,8 @@ def _collection_browse_markup(
         ]
         groups: dict[str, list[tuple[str, dict]]] = defaultdict(list)
         for route, info in direct:
-            groups[_text_group_label(info["canonical_id"])].append((route, info))
+            label = "" if nodes[node].get("thematic") else _text_group_label(info["canonical_id"])
+            groups[label].append((route, info))
         for label, rows in sorted(groups.items(), key=lambda pair: natural_key(pair[0])):
             rows.sort(key=lambda pair: natural_key(pair[1]["canonical_id"]))
             if label:
@@ -818,6 +827,16 @@ def _collection_browse_markup(
         return "\n".join(output)
 
     tree = render_tree(collection)
+    if collection == "samyutta-nikaya":
+        tree = ('<p>Browse the five books, named thematic collections and source-defined chapters. '
+                'Names follow SuttaCentral’s Pāli and Sujato English navigation labels; '
+                'individual translations retain their own wording.</p>' + tree)
+        unmatched = [info["canonical_id"] for _route, info in descendants
+                     if info.get("thematic_unmapped")]
+        if unmatched:
+            tree += ('<p>These existing references have no complete match in the pinned chapter map '
+                     'and remain in the numbered list above: '
+                     + html.escape(", ".join(unmatched)) + '. No numbering equivalence is assumed.</p>')
     listing = []
     for route, info in descendants:
         href = html.escape(_relative_href(index_path, tipitaka_root / route), quote=True)
@@ -825,7 +844,9 @@ def _collection_browse_markup(
         display_title = info.get("display_title") or _display_canonical_title(info["canonical_id"], info["title"])
         label_text = html.escape(display_title)
         availability = len(info["eligible"])
-        search = html.escape(f'{info["canonical_id"]} {display_title}', quote=True)
+        topics = " ".join(node["title"] for node in collection_path(info["collection"], nodes)
+                          if node.get("thematic"))
+        search = html.escape(f'{info["canonical_id"]} {display_title} {topics}', quote=True)
         status = f"{availability} eligible edition{'s' if availability != 1 else ''}"
         if not availability:
             status = "no eligible local edition"
@@ -893,6 +914,15 @@ def _collection_browse_markup(
             r'<h2>Available here</h2>\s*<p>.*?</p>\s*$', "", legacy,
             flags=re.DOTALL,
         ).strip()
+        # Keep the original three-basket overview and its counts, but make its
+        # SN branch use the same named hierarchy as the collection pages.
+        sn_branch = re.compile(
+            r'(<details><summary><a href="\.\./sutta/samyutta-nikaya/index\.html"[^>]*>.*?</summary>\s*<p>.*?</p>)(</details>)',
+            re.DOTALL,
+        )
+        legacy, changes = sn_branch.subn(lambda match: match[1] + render_tree("samyutta-nikaya") + match[2], legacy)
+        if changes != 1 and '../sutta/samyutta-nikaya/index.html' in legacy:
+            raise ValueError("Could not insert the thematic Saṃyutta overview")
         generated_tree = (
             '<p>Expand a group to browse; use its separate link to open a collection page.</p>'
             + tree
@@ -1168,7 +1198,7 @@ def _write_continuous_reader(
     ]
     text_rows = []
     for route, info in sorted(
-        canonical_pages.items(), key=lambda pair: (nodes[pair[1]["collection"]]["order"], natural_key(pair[1]["canonical_id"]))
+        canonical_pages.items(), key=lambda pair: _browse_order(pair[1], nodes)
     ):
         if not info["eligible"]:
             continue
@@ -1278,8 +1308,21 @@ def _write_collection_browsers(
     return written
 
 
-def _browse_data(tipitaka_root: Path, canonical_pages: dict, records: list[dict], collections: dict) -> tuple[dict, dict]:
+def _samyutta_browse_pages(canonical_pages: dict) -> dict:
+    """Use thematic placement only for browsing, not edition/archive identity."""
     pages = dict(canonical_pages)
+    for route, info in canonical_pages.items():
+        if info["collection"] == "samyutta-nikaya":
+            collection = samyutta_collection(info["canonical_id"])
+            if collection is None:
+                raise ValueError("Non-SN identifier in Saṃyutta collection: " + info["canonical_id"])
+            pages[route] = {**info, "source_collection": info["collection"], "collection": collection,
+                            "thematic_unmapped": collection == "samyutta-nikaya"}
+    return pages
+
+
+def _browse_data(tipitaka_root: Path, canonical_pages: dict, records: list[dict], collections: dict) -> tuple[dict, dict]:
+    pages = _samyutta_browse_pages(canonical_pages)
     by_id = defaultdict(list)
     for record in records:
         if record["kind"] == "vinaya":
@@ -1308,6 +1351,28 @@ def _browse_data(tipitaka_root: Path, canonical_pages: dict, records: list[dict]
             if heading:
                 node["title"] = html.unescape(re.sub(r'<[^>]+>', '', heading[1])).strip()
     return pages, nodes
+
+
+def _write_samyutta_navigation_pages(tipitaka_root: Path, allowed: dict, nodes: dict) -> int:
+    """New metadata-only routes; never move existing text or edition files."""
+    written = 0
+    for node in nodes.values():
+        if not node.get("thematic"):
+            continue
+        path = tipitaka_root / node["route"]
+        body = ('<h1>' + html.escape(node["title"]) + '</h1>'
+                '<p>Browse the source-defined chapter hierarchy below, or choose Flat list '
+                'to search every indexed text in this group. Availability is not a claim '
+                'of translation completeness.</p>'
+                '<p>Navigation names: SuttaCentral Pāli and Sujato English labels. '
+                '<a href="https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/translation/en/sujato/name/sutta/sn-name_translation-en-sujato.json">'
+                'Pinned name source</a>; '
+                '<a href="https://github.com/suttacentral/sc-data/blob/c8b50ad760f8dbf74a883bce9b35a3db0a95f503/structure/tree/sutta/sn-tree.json">'
+                'pinned chapter membership</a>. Existing text IDs, URLs and translation wording are unchanged.</p>')
+        _write_page(path, node["title"], body, tipitaka_root)
+        _register_generated_page(allowed, tipitaka_root, path, "samyutta-nikaya")
+        written += 1
+    return written
 
 
 def _finish_page_navigation(destination: Path, pages: dict, nodes: dict, records: list[dict], unavailable: set[Path]) -> dict:
@@ -2358,6 +2423,7 @@ def _write_navigation_pages(
     tipitaka_page.write_text(tipitaka_html, encoding="utf-8", newline="\n")
 
     browse_pages, browse_nodes = _browse_data(tipitaka_root, canonical_pages, records, collections)
+    samyutta_navigation_pages = _write_samyutta_navigation_pages(tipitaka_root, allowed, browse_nodes)
     continuous_reader_entries = _write_continuous_reader(tipitaka_root, browse_pages, allowed, browse_nodes)
     collection_browsers = _write_collection_browsers(tipitaka_root, browse_pages, collections, browse_nodes)
 
@@ -2375,6 +2441,7 @@ def _write_navigation_pages(
         "canonical_pages": len(canonical_pages),
         "continuous_reader_entries": continuous_reader_entries,
         "collection_browsers": collection_browsers,
+        "samyutta_navigation_pages": samyutta_navigation_pages,
         "vimanavatthu_story_availability_pages": vimanavatthu_story_pages,
         "source_index_entries": len(source_rows),
         "available_canonical_ids": available_ids,

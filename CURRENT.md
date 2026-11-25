@@ -55,7 +55,7 @@ checks. Preserve the original homepage and established plain reading presentatio
 Human proofreading remains separately recorded; automated agreement is not its
 replacement. Author contact requires a separately approved exact message.
 
-The verified live release is source 74941d7cac190795f25544ffe10655c610cb7d80,
+The verified live release is source 6e0a5e8f9fd5967599cd27fb8c4231f01507fe13,
 with 10,079 reader versions and nineteen standalone website-only Candana editions,
 verified November 24. Translation choices start open; collection trees stay closed.
 The [November 17 review follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md)
@@ -70,7 +70,7 @@ Candana Book 3 reader; the full build rejects that duplicate text/version identi
 These additions are alternative translations, not new identifier coverage. Counts include alternatives
 and Vinaya; they are not counts of distinct complete suttas or human approvals.
 
-Current implementation: the owner's November 24 direction removes our conservative
+Completed: the owner's November 24 direction removes our conservative
 combined-reader and website-ZIP exclusion for the nineteen approved Candana editions.
 The change preserves each translation body and all three permission conditions,
 keeps public Git/source archives excluded, and leaves Sutta Friends' individual-only
@@ -78,10 +78,19 @@ limits unchanged. The full preview builds 10,079 readers and 31 ZIPs without bro
 links. All 368 tests pass (eleven optional skips), as do exact-body checks for all
 894 Candana editions and 2,821 other licensed editions. Eight sampled desktop/mobile
 keyboard journeys enter the combined reader, switch translators and preserve text,
-emphasis and conditions. Clean-source release and deployed checks remain before this
-behavior is claimed live. Ten staged Candana MN sources remain
+emphasis and conditions. The clean-source release, all 38,461 deployed-file hashes,
+eighty public responses, 31 ZIP availability checks and eighteen sampled browser
+views pass. This combined reading and website-download behavior is live. Ten staged
+Candana MN sources remain
 the next content-preparation batch; this build change does not add suttas or clear
 unreviewed originals. See the [current follow-up](docs/tasks/source-fidelity-and-navigation-followup-2026-11-17.md).
+
+Current implementation: add [thematic Saṃyutta navigation](docs/samyutta-navigation.md)
+from the checked names and membership map. Five books, all 56 saṃyuttas and their
+source-defined chapters share the existing browsing and combined-reader controls.
+Existing URLs, edition identities, numeric search/order, text and rights stay intact.
+Collection branches remain closed and individual Translations remains open. This
+change still requires the full release and public checks before it is called live.
 
 ## First execution checkpoint
 

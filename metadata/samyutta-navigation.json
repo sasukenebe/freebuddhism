@@ -1,0 +1,5492 @@
+{
+  "schema_version": 1,
+  "scope": "Saṃyutta Nikāya navigation names, ordered structural edges and exact reference IDs only",
+  "reference": {
+    "path": "metadata/sutta-reference-units.json",
+    "repository": "https://github.com/suttacentral/bilara-data",
+    "commit": "d26ba0072c9e1f7a238159f583720edacb9f05f9",
+    "sutta_tree": "4d736429e54946e4eb13c914ee90aa00dfc95690",
+    "sha256": "7db5ea44168eb261e854897d0460e11b9ac832bf141d4dffc702614d118dec7f"
+  },
+  "sources": {
+    "structure": {
+      "repository": "https://github.com/suttacentral/sc-data",
+      "commit": "c8b50ad760f8dbf74a883bce9b35a3db0a95f503",
+      "path": "structure/tree/sutta/sn-tree.json",
+      "git_blob": "a7270896f5200e036fa4c67a5572f0bb70935844",
+      "sha256": "5ebe6f6881b287f2caa9eb37159645cbb71a1e76ba34151600376389d6705508",
+      "url": "https://github.com/suttacentral/sc-data/blob/c8b50ad760f8dbf74a883bce9b35a3db0a95f503/structure/tree/sutta/sn-tree.json"
+    },
+    "pli_names": {
+      "repository": "https://github.com/suttacentral/bilara-data",
+      "commit": "d26ba0072c9e1f7a238159f583720edacb9f05f9",
+      "path": "root/misc/site/name/sutta/sn-name_root-misc-site.json",
+      "git_blob": "b39865fac555a874eb1f246e292e64012c0dc51a",
+      "sha256": "0029c46a775f13c71a3be8226191bcca38d25dd7da45f9f83e39e162dbc5a192",
+      "url": "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/root/misc/site/name/sutta/sn-name_root-misc-site.json"
+    },
+    "en_names": {
+      "repository": "https://github.com/suttacentral/bilara-data",
+      "commit": "d26ba0072c9e1f7a238159f583720edacb9f05f9",
+      "path": "translation/en/sujato/name/sutta/sn-name_translation-en-sujato.json",
+      "git_blob": "66a15fa66c4a0081610e8535a8756607463acaff",
+      "sha256": "4395a666482e25a1947d3e24881be9e9964b00545b657080f9293c25699c4e62",
+      "translator": "Sujato",
+      "url": "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/translation/en/sujato/name/sutta/sn-name_translation-en-sujato.json"
+    }
+  },
+  "compatibility": {
+    "bilara_root_tree": "3648b2f3d1e7373d0338426dbeb5ecf35450065f",
+    "sc_data_mirrored_root_tree": "3648b2f3d1e7373d0338426dbeb5ecf35450065f",
+    "selection": "The structure commit precedes the pinned Bilara commit; their root trees are identical and the exact SN terminal ID sets agree."
+  },
+  "rights": {
+    "names": {
+      "license": "CC0-1.0",
+      "scope": "Pāli navigation names and Sujato English navigation names from the pinned Bilara files only.",
+      "source_url": "https://github.com/suttacentral/bilara-data/blob/d26ba0072c9e1f7a238159f583720edacb9f05f9/LICENSE.md",
+      "git_blob": "c155eef42a6314444acc74b0df4ce894f70ef730",
+      "sha256": "fb244eaafc121b9f5b14dbecb20ac407b3acf6eec8c5028fc1e3bd0afb1a6f3f"
+    },
+    "structure": {
+      "scope": "Factual source identifiers and ordered parent/child memberships only.",
+      "license_evidence": "No blanket sc-data repository license established; no source prose or translation bodies included."
+    }
+  },
+  "normalization": "Trim leading/trailing label whitespace only; preserve source spelling, IDs and child order",
+  "mapping": {
+    "accepted_references": "SN N, SN N-M, and SN N.S[-E], with positive ASCII integers; a range dash may be hyphen or en dash.",
+    "membership": "Join numeric intervals to explicit terminal IDs without rewriting or expanding the stored grouped IDs. Require complete interval coverage; use the lowest common ancestor for ranges and whole saṃyuttas.",
+    "unmatched": "Syntactically valid SN references absent from the pinned terminal intervals return samyutta-nikaya. Historical numbering is not converted or inferred.",
+    "invalid": "Malformed or non-SN references return null.",
+    "identity": "Navigation placement is an identifier join, not evidence of translation completeness or cross-edition content equivalence."
+  },
+  "limitations": [
+    "Memberships are verified against the compatible source tree; only SN 47.41 was also checked against an individual root-text chapter header.",
+    "English names are Sujato's navigation labels and do not rename another translation's headings or bodies.",
+    "These metadata establish no new rights for publisher translations or prose."
+  ],
+  "books": [
+    "sn-sagathavaggasamyutta",
+    "sn-nidanavaggasamyutta",
+    "sn-khandhavaggasamyutta",
+    "sn-salayatanavaggasamyutta",
+    "sn-mahavaggasamyutta"
+  ],
+  "nodes": {
+    "sn-sagathavaggasamyutta": {
+      "parent": "sn",
+      "kind": "book",
+      "name_key": "sn-name:1.sn-sagathavaggasamyutta",
+      "names": {
+        "pli": "Sagāthāvaggasaṁyutta",
+        "en": "The Group of Linked Discourses With Verses"
+      },
+      "children": [
+        "sn1",
+        "sn2",
+        "sn3",
+        "sn4",
+        "sn5",
+        "sn6",
+        "sn7",
+        "sn8",
+        "sn9",
+        "sn10",
+        "sn11"
+      ]
+    },
+    "sn1": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:2.sn1",
+      "names": {
+        "pli": "Devatāsaṁyutta",
+        "en": "Linked Discourses With Deities"
+      },
+      "children": [
+        "sn1-nalavagga",
+        "sn1-nandanavagga",
+        "sn1-sattivagga",
+        "sn1-satullapakayikavagga",
+        "sn1-adittavagga",
+        "sn1-jaravagga",
+        "sn1-addhavagga",
+        "sn1-chetvavagga"
+      ]
+    },
+    "sn1-nalavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:3.sn1-nalavagga",
+      "names": {
+        "pli": "Naḷavagga",
+        "en": "The Chapter on a Reed"
+      },
+      "children": [
+        "sn1.1",
+        "sn1.2",
+        "sn1.3",
+        "sn1.4",
+        "sn1.5",
+        "sn1.6",
+        "sn1.7",
+        "sn1.8",
+        "sn1.9",
+        "sn1.10"
+      ]
+    },
+    "sn1-nandanavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:14.sn1-nandanavagga",
+      "names": {
+        "pli": "Nandanavagga",
+        "en": "The Chapter on the Garden of Delight"
+      },
+      "children": [
+        "sn1.11",
+        "sn1.12",
+        "sn1.13",
+        "sn1.14",
+        "sn1.15",
+        "sn1.16",
+        "sn1.17",
+        "sn1.18",
+        "sn1.19",
+        "sn1.20"
+      ]
+    },
+    "sn1-sattivagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:25.sn1-sattivagga",
+      "names": {
+        "pli": "Sattivagga",
+        "en": "The Chapter on a Sword"
+      },
+      "children": [
+        "sn1.21",
+        "sn1.22",
+        "sn1.23",
+        "sn1.24",
+        "sn1.25",
+        "sn1.26",
+        "sn1.27",
+        "sn1.28",
+        "sn1.29",
+        "sn1.30"
+      ]
+    },
+    "sn1-satullapakayikavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:36.sn1-satullapakayikavagga",
+      "names": {
+        "pli": "Satullapakāyikavagga",
+        "en": "The Chapter on the Satullapa Group"
+      },
+      "children": [
+        "sn1.31",
+        "sn1.32",
+        "sn1.33",
+        "sn1.34",
+        "sn1.35",
+        "sn1.36",
+        "sn1.37",
+        "sn1.38",
+        "sn1.39",
+        "sn1.40"
+      ]
+    },
+    "sn1-adittavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:47.sn1-adittavagga",
+      "names": {
+        "pli": "Ādittavagga",
+        "en": "The Chapter on Fire"
+      },
+      "children": [
+        "sn1.41",
+        "sn1.42",
+        "sn1.43",
+        "sn1.44",
+        "sn1.45",
+        "sn1.46",
+        "sn1.47",
+        "sn1.48",
+        "sn1.49",
+        "sn1.50"
+      ]
+    },
+    "sn1-jaravagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:58.sn1-jaravagga",
+      "names": {
+        "pli": "Jarāvagga",
+        "en": "The Chapter on Old Age"
+      },
+      "children": [
+        "sn1.51",
+        "sn1.52",
+        "sn1.53",
+        "sn1.54",
+        "sn1.55",
+        "sn1.56",
+        "sn1.57",
+        "sn1.58",
+        "sn1.59",
+        "sn1.60"
+      ]
+    },
+    "sn1-addhavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:69.sn1-addhavagga",
+      "names": {
+        "pli": "Addhavagga",
+        "en": "The Chapter on Oppressed"
+      },
+      "children": [
+        "sn1.61",
+        "sn1.62",
+        "sn1.63",
+        "sn1.64",
+        "sn1.65",
+        "sn1.66",
+        "sn1.67",
+        "sn1.68",
+        "sn1.69",
+        "sn1.70"
+      ]
+    },
+    "sn1-chetvavagga": {
+      "parent": "sn1",
+      "kind": "vagga",
+      "name_key": "sn-name:80.sn1-chetvavagga",
+      "names": {
+        "pli": "Chetvāvagga",
+        "en": "The Chapter on Incinerated"
+      },
+      "children": [
+        "sn1.71",
+        "sn1.72",
+        "sn1.73",
+        "sn1.74",
+        "sn1.75",
+        "sn1.76",
+        "sn1.77",
+        "sn1.78",
+        "sn1.79",
+        "sn1.80",
+        "sn1.81"
+      ]
+    },
+    "sn2": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:92.sn2",
+      "names": {
+        "pli": "Devaputtasaṁyutta",
+        "en": "Linked Discourses on Godlings"
+      },
+      "children": [
+        "sn2-pathamavagga",
+        "sn2-anathapindikavagga",
+        "sn2-nanatitthiyavagga"
+      ]
+    },
+    "sn2-pathamavagga": {
+      "parent": "sn2",
+      "kind": "vagga",
+      "name_key": "sn-name:93.sn2-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn2.1",
+        "sn2.2",
+        "sn2.3",
+        "sn2.4",
+        "sn2.5",
+        "sn2.6",
+        "sn2.7",
+        "sn2.8",
+        "sn2.9",
+        "sn2.10"
+      ]
+    },
+    "sn2-anathapindikavagga": {
+      "parent": "sn2",
+      "kind": "vagga",
+      "name_key": "sn-name:104.sn2-anathapindikavagga",
+      "names": {
+        "pli": "Anāthapiṇḍikavagga",
+        "en": "The Chapter with Anāthapiṇḍika"
+      },
+      "children": [
+        "sn2.11",
+        "sn2.12",
+        "sn2.13",
+        "sn2.14",
+        "sn2.15",
+        "sn2.16",
+        "sn2.17",
+        "sn2.18",
+        "sn2.19",
+        "sn2.20"
+      ]
+    },
+    "sn2-nanatitthiyavagga": {
+      "parent": "sn2",
+      "kind": "vagga",
+      "name_key": "sn-name:115.sn2-nanatitthiyavagga",
+      "names": {
+        "pli": "Nānātitthiyavagga",
+        "en": "The Chapter on Various Sectarians"
+      },
+      "children": [
+        "sn2.21",
+        "sn2.22",
+        "sn2.23",
+        "sn2.24",
+        "sn2.25",
+        "sn2.26",
+        "sn2.27",
+        "sn2.28",
+        "sn2.29",
+        "sn2.30"
+      ]
+    },
+    "sn3": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:126.sn3",
+      "names": {
+        "pli": "Kosalasaṁyutta",
+        "en": "Linked Discourses With King Pasenadi of Kosala"
+      },
+      "children": [
+        "sn3-pathamavagga",
+        "sn3-dutiyavagga",
+        "sn3-tatiyavagga"
+      ]
+    },
+    "sn3-pathamavagga": {
+      "parent": "sn3",
+      "kind": "vagga",
+      "name_key": "sn-name:127.sn3-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn3.1",
+        "sn3.2",
+        "sn3.3",
+        "sn3.4",
+        "sn3.5",
+        "sn3.6",
+        "sn3.7",
+        "sn3.8",
+        "sn3.9",
+        "sn3.10"
+      ]
+    },
+    "sn3-dutiyavagga": {
+      "parent": "sn3",
+      "kind": "vagga",
+      "name_key": "sn-name:138.sn3-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn3.11",
+        "sn3.12",
+        "sn3.13",
+        "sn3.14",
+        "sn3.15",
+        "sn3.16",
+        "sn3.17",
+        "sn3.18",
+        "sn3.19",
+        "sn3.20"
+      ]
+    },
+    "sn3-tatiyavagga": {
+      "parent": "sn3",
+      "kind": "vagga",
+      "name_key": "sn-name:149.sn3-tatiyavagga",
+      "names": {
+        "pli": "Tatiyavagga",
+        "en": "Chapter Three"
+      },
+      "children": [
+        "sn3.21",
+        "sn3.22",
+        "sn3.23",
+        "sn3.24",
+        "sn3.25"
+      ]
+    },
+    "sn4": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:155.sn4",
+      "names": {
+        "pli": "Mārasaṁyutta",
+        "en": "Linked Discourses With Māra"
+      },
+      "children": [
+        "sn4-pathamavagga",
+        "sn4-dutiyavagga",
+        "sn4-tatiyavagga"
+      ]
+    },
+    "sn4-pathamavagga": {
+      "parent": "sn4",
+      "kind": "vagga",
+      "name_key": "sn-name:156.sn4-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn4.1",
+        "sn4.2",
+        "sn4.3",
+        "sn4.4",
+        "sn4.5",
+        "sn4.6",
+        "sn4.7",
+        "sn4.8",
+        "sn4.9",
+        "sn4.10"
+      ]
+    },
+    "sn4-dutiyavagga": {
+      "parent": "sn4",
+      "kind": "vagga",
+      "name_key": "sn-name:167.sn4-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn4.11",
+        "sn4.12",
+        "sn4.13",
+        "sn4.14",
+        "sn4.15",
+        "sn4.16",
+        "sn4.17",
+        "sn4.18",
+        "sn4.19",
+        "sn4.20"
+      ]
+    },
+    "sn4-tatiyavagga": {
+      "parent": "sn4",
+      "kind": "vagga",
+      "name_key": "sn-name:178.sn4-tatiyavagga",
+      "names": {
+        "pli": "Tatiyavagga",
+        "en": "Chapter Three"
+      },
+      "children": [
+        "sn4.21",
+        "sn4.22",
+        "sn4.23",
+        "sn4.24",
+        "sn4.25"
+      ]
+    },
+    "sn5": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:184.sn5",
+      "names": {
+        "pli": "Bhikkhunīsaṁyutta",
+        "en": "Linked Discourses With Nuns"
+      },
+      "children": [
+        "sn5-bhikkhunivagga"
+      ]
+    },
+    "sn5-bhikkhunivagga": {
+      "parent": "sn5",
+      "kind": "vagga",
+      "name_key": "sn-name:185.sn5-bhikkhunivagga",
+      "names": {
+        "pli": "Bhikkhunīvagga",
+        "en": "The Chapter on Nuns"
+      },
+      "children": [
+        "sn5.1",
+        "sn5.2",
+        "sn5.3",
+        "sn5.4",
+        "sn5.5",
+        "sn5.6",
+        "sn5.7",
+        "sn5.8",
+        "sn5.9",
+        "sn5.10"
+      ]
+    },
+    "sn6": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:196.sn6",
+      "names": {
+        "pli": "Brahmasaṁyutta",
+        "en": "Linked Discourses With Divinities"
+      },
+      "children": [
+        "sn6-pathamavagga",
+        "sn6-dutiyavagga"
+      ]
+    },
+    "sn6-pathamavagga": {
+      "parent": "sn6",
+      "kind": "vagga",
+      "name_key": "sn-name:197.sn6-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn6.1",
+        "sn6.2",
+        "sn6.3",
+        "sn6.4",
+        "sn6.5",
+        "sn6.6",
+        "sn6.7",
+        "sn6.8",
+        "sn6.9",
+        "sn6.10"
+      ]
+    },
+    "sn6-dutiyavagga": {
+      "parent": "sn6",
+      "kind": "vagga",
+      "name_key": "sn-name:208.sn6-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn6.11",
+        "sn6.12",
+        "sn6.13",
+        "sn6.14",
+        "sn6.15"
+      ]
+    },
+    "sn7": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:214.sn7",
+      "names": {
+        "pli": "Brāhmaṇasaṁyutta",
+        "en": "Linked Discourses with Brahmins"
+      },
+      "children": [
+        "sn7-arahantavagga",
+        "sn7-upasakavagga"
+      ]
+    },
+    "sn7-arahantavagga": {
+      "parent": "sn7",
+      "kind": "vagga",
+      "name_key": "sn-name:215.sn7-arahantavagga",
+      "names": {
+        "pli": "Arahantavagga",
+        "en": "The Chapter on the Perfected Ones"
+      },
+      "children": [
+        "sn7.1",
+        "sn7.2",
+        "sn7.3",
+        "sn7.4",
+        "sn7.5",
+        "sn7.6",
+        "sn7.7",
+        "sn7.8",
+        "sn7.9",
+        "sn7.10"
+      ]
+    },
+    "sn7-upasakavagga": {
+      "parent": "sn7",
+      "kind": "vagga",
+      "name_key": "sn-name:226.sn7-upasakavagga",
+      "names": {
+        "pli": "Upāsakavagga",
+        "en": "The Chapter on a Lay Follower"
+      },
+      "children": [
+        "sn7.11",
+        "sn7.12",
+        "sn7.13",
+        "sn7.14",
+        "sn7.15",
+        "sn7.16",
+        "sn7.17",
+        "sn7.18",
+        "sn7.19",
+        "sn7.20",
+        "sn7.21",
+        "sn7.22"
+      ]
+    },
+    "sn8": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:239.sn8",
+      "names": {
+        "pli": "Vaṅgīsasaṁyutta",
+        "en": "Linked Discourses With Vaṅgīsa"
+      },
+      "children": [
+        "sn8-vangisavagga"
+      ]
+    },
+    "sn8-vangisavagga": {
+      "parent": "sn8",
+      "kind": "vagga",
+      "name_key": "sn-name:240.sn8-vangisavagga",
+      "names": {
+        "pli": "Vaṅgīsavagga",
+        "en": "The Chapter with the Poet Vaṅgīsa"
+      },
+      "children": [
+        "sn8.1",
+        "sn8.2",
+        "sn8.3",
+        "sn8.4",
+        "sn8.5",
+        "sn8.6",
+        "sn8.7",
+        "sn8.8",
+        "sn8.9",
+        "sn8.10",
+        "sn8.11",
+        "sn8.12"
+      ]
+    },
+    "sn9": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:253.sn9",
+      "names": {
+        "pli": "Vanasaṁyutta",
+        "en": "Linked Discourses in the Woods"
+      },
+      "children": [
+        "sn9-vanavagga"
+      ]
+    },
+    "sn9-vanavagga": {
+      "parent": "sn9",
+      "kind": "vagga",
+      "name_key": "sn-name:254.sn9-vanavagga",
+      "names": {
+        "pli": "Vanavagga",
+        "en": "The Chapter on In the Woods"
+      },
+      "children": [
+        "sn9.1",
+        "sn9.2",
+        "sn9.3",
+        "sn9.4",
+        "sn9.5",
+        "sn9.6",
+        "sn9.7",
+        "sn9.8",
+        "sn9.9",
+        "sn9.10",
+        "sn9.11",
+        "sn9.12",
+        "sn9.13",
+        "sn9.14"
+      ]
+    },
+    "sn10": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:269.sn10",
+      "names": {
+        "pli": "Yakkhasaṁyutta",
+        "en": "Linked Discourses with Spirits"
+      },
+      "children": [
+        "sn10-indakavagga"
+      ]
+    },
+    "sn10-indakavagga": {
+      "parent": "sn10",
+      "kind": "vagga",
+      "name_key": "sn-name:270.sn10-indakavagga",
+      "names": {
+        "pli": "Indakavagga",
+        "en": "The Chapter with Indaka"
+      },
+      "children": [
+        "sn10.1",
+        "sn10.2",
+        "sn10.3",
+        "sn10.4",
+        "sn10.5",
+        "sn10.6",
+        "sn10.7",
+        "sn10.8",
+        "sn10.9",
+        "sn10.10",
+        "sn10.11",
+        "sn10.12"
+      ]
+    },
+    "sn11": {
+      "parent": "sn-sagathavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:283.sn11",
+      "names": {
+        "pli": "Sakkasaṁyutta",
+        "en": "Linked Discourses with Sakka"
+      },
+      "children": [
+        "sn11-pathamavagga",
+        "sn11-dutiyavagga",
+        "sn11-tatiyavagga"
+      ]
+    },
+    "sn11-pathamavagga": {
+      "parent": "sn11",
+      "kind": "vagga",
+      "name_key": "sn-name:284.sn11-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn11.1",
+        "sn11.2",
+        "sn11.3",
+        "sn11.4",
+        "sn11.5",
+        "sn11.6",
+        "sn11.7",
+        "sn11.8",
+        "sn11.9",
+        "sn11.10"
+      ]
+    },
+    "sn11-dutiyavagga": {
+      "parent": "sn11",
+      "kind": "vagga",
+      "name_key": "sn-name:295.sn11-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn11.11",
+        "sn11.12",
+        "sn11.13",
+        "sn11.14",
+        "sn11.15",
+        "sn11.16",
+        "sn11.17",
+        "sn11.18",
+        "sn11.19",
+        "sn11.20"
+      ]
+    },
+    "sn11-tatiyavagga": {
+      "parent": "sn11",
+      "kind": "vagga",
+      "name_key": "sn-name:306.sn11-tatiyavagga",
+      "names": {
+        "pli": "Tatiyavagga",
+        "en": "Chapter Three"
+      },
+      "children": [
+        "sn11.21",
+        "sn11.22",
+        "sn11.23",
+        "sn11.24",
+        "sn11.25"
+      ]
+    },
+    "sn-nidanavaggasamyutta": {
+      "parent": "sn",
+      "kind": "book",
+      "name_key": "sn-name:312.sn-nidanavaggasamyutta",
+      "names": {
+        "pli": "Nidānavaggasaṁyutta",
+        "en": "The Group of Linked Discourses Beginning With Causation"
+      },
+      "children": [
+        "sn12",
+        "sn13",
+        "sn14",
+        "sn15",
+        "sn16",
+        "sn17",
+        "sn18",
+        "sn19",
+        "sn20",
+        "sn21"
+      ]
+    },
+    "sn12": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:313.sn12",
+      "names": {
+        "pli": "Nidānasaṁyutta",
+        "en": "Linked Discourses on Causation"
+      },
+      "children": [
+        "sn12-buddhavagga",
+        "sn12-aharavagga",
+        "sn12-dasabalavagga",
+        "sn12-kalarakhattiyavagga",
+        "sn12-gahapativagga",
+        "sn12-dukkhavagga",
+        "sn12-mahavagga",
+        "sn12-samanabrahmanavagga",
+        "sn12-antarapeyyala"
+      ]
+    },
+    "sn12-buddhavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:314.sn12-buddhavagga",
+      "names": {
+        "pli": "Buddhavagga",
+        "en": "The Chapter on the Buddhas"
+      },
+      "children": [
+        "sn12.1",
+        "sn12.2",
+        "sn12.3",
+        "sn12.4",
+        "sn12.5",
+        "sn12.6",
+        "sn12.7",
+        "sn12.8",
+        "sn12.9",
+        "sn12.10"
+      ]
+    },
+    "sn12-aharavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:325.sn12-aharavagga",
+      "names": {
+        "pli": "Āhāravagga",
+        "en": "The Chapter on Fuel"
+      },
+      "children": [
+        "sn12.11",
+        "sn12.12",
+        "sn12.13",
+        "sn12.14",
+        "sn12.15",
+        "sn12.16",
+        "sn12.17",
+        "sn12.18",
+        "sn12.19",
+        "sn12.20"
+      ]
+    },
+    "sn12-dasabalavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:336.sn12-dasabalavagga",
+      "names": {
+        "pli": "Dasabalavagga",
+        "en": "The Chapter on the Ten Powers"
+      },
+      "children": [
+        "sn12.21",
+        "sn12.22",
+        "sn12.23",
+        "sn12.24",
+        "sn12.25",
+        "sn12.26",
+        "sn12.27",
+        "sn12.28",
+        "sn12.29",
+        "sn12.30"
+      ]
+    },
+    "sn12-kalarakhattiyavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:347.sn12-kalarakhattiyavagga",
+      "names": {
+        "pli": "Kaḷārakhattiyavagga",
+        "en": "The Chapter with Kaḷāra the Aristocrat"
+      },
+      "children": [
+        "sn12.31",
+        "sn12.32",
+        "sn12.33",
+        "sn12.34",
+        "sn12.35",
+        "sn12.36",
+        "sn12.37",
+        "sn12.38",
+        "sn12.39",
+        "sn12.40"
+      ]
+    },
+    "sn12-gahapativagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:358.sn12-gahapativagga",
+      "names": {
+        "pli": "Gahapativagga",
+        "en": "The Chapter on Householders"
+      },
+      "children": [
+        "sn12.41",
+        "sn12.42",
+        "sn12.43",
+        "sn12.44",
+        "sn12.45",
+        "sn12.46",
+        "sn12.47",
+        "sn12.48",
+        "sn12.49",
+        "sn12.50"
+      ]
+    },
+    "sn12-dukkhavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:369.sn12-dukkhavagga",
+      "names": {
+        "pli": "Dukkhavagga",
+        "en": "The Chapter on Suffering"
+      },
+      "children": [
+        "sn12.51",
+        "sn12.52",
+        "sn12.53",
+        "sn12.54",
+        "sn12.55",
+        "sn12.56",
+        "sn12.57",
+        "sn12.58",
+        "sn12.59",
+        "sn12.60"
+      ]
+    },
+    "sn12-mahavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:380.sn12-mahavagga",
+      "names": {
+        "pli": "Mahāvagga",
+        "en": "The Great Chapter"
+      },
+      "children": [
+        "sn12.61",
+        "sn12.62",
+        "sn12.63",
+        "sn12.64",
+        "sn12.65",
+        "sn12.66",
+        "sn12.67",
+        "sn12.68",
+        "sn12.69",
+        "sn12.70"
+      ]
+    },
+    "sn12-samanabrahmanavagga": {
+      "parent": "sn12",
+      "kind": "vagga",
+      "name_key": "sn-name:391.sn12-samanabrahmanavagga",
+      "names": {
+        "pli": "Samaṇabrāhmaṇavagga",
+        "en": "The Chapter on Ascetics and Brahmins"
+      },
+      "children": [
+        "sn12.71",
+        "sn12.72-81"
+      ]
+    },
+    "sn12-antarapeyyala": {
+      "parent": "sn12",
+      "kind": "division",
+      "name_key": "sn-name:394.sn12-antarapeyyala",
+      "names": {
+        "pli": "Antarapeyyāla",
+        "en": "Consecutive Repetitions"
+      },
+      "children": [
+        "sn12-satthusuttadi",
+        "sn12-sikkhasuttadipeyyalaekadasaka"
+      ]
+    },
+    "sn12-satthusuttadi": {
+      "parent": "sn12-antarapeyyala",
+      "kind": "division",
+      "name_key": "sn-name:395.sn12-satthusuttadi",
+      "names": {
+        "pli": "Satthusuttādi",
+        "en": "The Teacher, etc."
+      },
+      "children": [
+        "sn12.82",
+        "sn12.83-92"
+      ]
+    },
+    "sn12-sikkhasuttadipeyyalaekadasaka": {
+      "parent": "sn12-antarapeyyala",
+      "kind": "division",
+      "name_key": "sn-name:398.sn12-sikkhasuttadipeyyalaekadasaka",
+      "names": {
+        "pli": "Sikkhāsuttādipeyyālaekādasaka",
+        "en": "Sets of Eleven on Training, Etc."
+      },
+      "children": [
+        "sn12.93-213"
+      ]
+    },
+    "sn13": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:400.sn13",
+      "names": {
+        "pli": "Abhisamayasaṁyutta",
+        "en": "Linked Discourses on Comprehension"
+      },
+      "children": [
+        "sn13-abhisamayavagga"
+      ]
+    },
+    "sn13-abhisamayavagga": {
+      "parent": "sn13",
+      "kind": "vagga",
+      "name_key": "sn-name:401.sn13-abhisamayavagga",
+      "names": {
+        "pli": "Abhisamayavagga",
+        "en": "The Chapter on Comprehension"
+      },
+      "children": [
+        "sn13.1",
+        "sn13.2",
+        "sn13.3",
+        "sn13.4",
+        "sn13.5",
+        "sn13.6",
+        "sn13.7",
+        "sn13.8",
+        "sn13.9",
+        "sn13.10",
+        "sn13.11"
+      ]
+    },
+    "sn14": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:413.sn14",
+      "names": {
+        "pli": "Dhātusaṁyutta",
+        "en": "Linked Discourses on the Elements"
+      },
+      "children": [
+        "sn14-nanattavagga",
+        "sn14-dutiyavagga",
+        "sn14-kammapathavagga",
+        "sn14-catutthavagga"
+      ]
+    },
+    "sn14-nanattavagga": {
+      "parent": "sn14",
+      "kind": "vagga",
+      "name_key": "sn-name:414.sn14-nanattavagga",
+      "names": {
+        "pli": "Nānattavagga",
+        "en": "The Chapter on Diversity"
+      },
+      "children": [
+        "sn14.1",
+        "sn14.2",
+        "sn14.3",
+        "sn14.4",
+        "sn14.5",
+        "sn14.6",
+        "sn14.7",
+        "sn14.8",
+        "sn14.9",
+        "sn14.10"
+      ]
+    },
+    "sn14-dutiyavagga": {
+      "parent": "sn14",
+      "kind": "vagga",
+      "name_key": "sn-name:425.sn14-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn14.11",
+        "sn14.12",
+        "sn14.13",
+        "sn14.14",
+        "sn14.15",
+        "sn14.16",
+        "sn14.17",
+        "sn14.18",
+        "sn14.19",
+        "sn14.20",
+        "sn14.21",
+        "sn14.22"
+      ]
+    },
+    "sn14-kammapathavagga": {
+      "parent": "sn14",
+      "kind": "vagga",
+      "name_key": "sn-name:438.sn14-kammapathavagga",
+      "names": {
+        "pli": "Kammapathavagga",
+        "en": "The Chapter on Ways of Performing Deeds"
+      },
+      "children": [
+        "sn14.23",
+        "sn14.24",
+        "sn14.25",
+        "sn14.26",
+        "sn14.27",
+        "sn14.28",
+        "sn14.29"
+      ]
+    },
+    "sn14-catutthavagga": {
+      "parent": "sn14",
+      "kind": "vagga",
+      "name_key": "sn-name:446.sn14-catutthavagga",
+      "names": {
+        "pli": "Catutthavagga",
+        "en": "Chapter Four"
+      },
+      "children": [
+        "sn14.30",
+        "sn14.31",
+        "sn14.32",
+        "sn14.33",
+        "sn14.34",
+        "sn14.35",
+        "sn14.36",
+        "sn14.37",
+        "sn14.38",
+        "sn14.39"
+      ]
+    },
+    "sn15": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:457.sn15",
+      "names": {
+        "pli": "Anamataggasaṁyutta",
+        "en": "Linked Discourses on the Unknowable Beginning"
+      },
+      "children": [
+        "sn15-pathamavagga",
+        "sn15-dutiyavagga"
+      ]
+    },
+    "sn15-pathamavagga": {
+      "parent": "sn15",
+      "kind": "vagga",
+      "name_key": "sn-name:458.sn15-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn15.1",
+        "sn15.2",
+        "sn15.3",
+        "sn15.4",
+        "sn15.5",
+        "sn15.6",
+        "sn15.7",
+        "sn15.8",
+        "sn15.9",
+        "sn15.10"
+      ]
+    },
+    "sn15-dutiyavagga": {
+      "parent": "sn15",
+      "kind": "vagga",
+      "name_key": "sn-name:469.sn15-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn15.11",
+        "sn15.12",
+        "sn15.13",
+        "sn15.14",
+        "sn15.15",
+        "sn15.16",
+        "sn15.17",
+        "sn15.18",
+        "sn15.19",
+        "sn15.20"
+      ]
+    },
+    "sn16": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:480.sn16",
+      "names": {
+        "pli": "Kassapasaṁyutta",
+        "en": "Linked Discourses with Kassapa"
+      },
+      "children": [
+        "sn16-kassapavagga"
+      ]
+    },
+    "sn16-kassapavagga": {
+      "parent": "sn16",
+      "kind": "vagga",
+      "name_key": "sn-name:481.sn16-kassapavagga",
+      "names": {
+        "pli": "Kassapavagga",
+        "en": "The Chapter with Kassapa"
+      },
+      "children": [
+        "sn16.1",
+        "sn16.2",
+        "sn16.3",
+        "sn16.4",
+        "sn16.5",
+        "sn16.6",
+        "sn16.7",
+        "sn16.8",
+        "sn16.9",
+        "sn16.10",
+        "sn16.11",
+        "sn16.12",
+        "sn16.13"
+      ]
+    },
+    "sn17": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:495.sn17",
+      "names": {
+        "pli": "Lābhasakkārasaṁyutta",
+        "en": "Linked Discourses on Gains and Honor"
+      },
+      "children": [
+        "sn17-pathamavagga",
+        "sn17-dutiyavagga",
+        "sn17-tatiyavagga",
+        "sn17-catutthavagga"
+      ]
+    },
+    "sn17-pathamavagga": {
+      "parent": "sn17",
+      "kind": "vagga",
+      "name_key": "sn-name:496.sn17-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn17.1",
+        "sn17.2",
+        "sn17.3",
+        "sn17.4",
+        "sn17.5",
+        "sn17.6",
+        "sn17.7",
+        "sn17.8",
+        "sn17.9",
+        "sn17.10"
+      ]
+    },
+    "sn17-dutiyavagga": {
+      "parent": "sn17",
+      "kind": "vagga",
+      "name_key": "sn-name:507.sn17-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn17.11",
+        "sn17.12",
+        "sn17.13-20"
+      ]
+    },
+    "sn17-tatiyavagga": {
+      "parent": "sn17",
+      "kind": "vagga",
+      "name_key": "sn-name:511.sn17-tatiyavagga",
+      "names": {
+        "pli": "Tatiyavagga",
+        "en": "Chapter Three"
+      },
+      "children": [
+        "sn17.21",
+        "sn17.22",
+        "sn17.23",
+        "sn17.24",
+        "sn17.25",
+        "sn17.26",
+        "sn17.27",
+        "sn17.28",
+        "sn17.29",
+        "sn17.30"
+      ]
+    },
+    "sn17-catutthavagga": {
+      "parent": "sn17",
+      "kind": "vagga",
+      "name_key": "sn-name:522.sn17-catutthavagga",
+      "names": {
+        "pli": "Catutthavagga",
+        "en": "Chapter Four"
+      },
+      "children": [
+        "sn17.31",
+        "sn17.32",
+        "sn17.33",
+        "sn17.34",
+        "sn17.35",
+        "sn17.36",
+        "sn17.37",
+        "sn17.38-43"
+      ]
+    },
+    "sn18": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:531.sn18",
+      "names": {
+        "pli": "Rāhulasaṁyutta",
+        "en": "Linked Discourses with Rāhula"
+      },
+      "children": [
+        "sn18-pathamavagga",
+        "sn18-dutiyavagga"
+      ]
+    },
+    "sn18-pathamavagga": {
+      "parent": "sn18",
+      "kind": "vagga",
+      "name_key": "sn-name:532.sn18-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn18.1",
+        "sn18.2",
+        "sn18.3",
+        "sn18.4",
+        "sn18.5",
+        "sn18.6",
+        "sn18.7",
+        "sn18.8",
+        "sn18.9",
+        "sn18.10"
+      ]
+    },
+    "sn18-dutiyavagga": {
+      "parent": "sn18",
+      "kind": "vagga",
+      "name_key": "sn-name:543.sn18-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn18.11",
+        "sn18.12-20",
+        "sn18.21",
+        "sn18.22"
+      ]
+    },
+    "sn19": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:548.sn19",
+      "names": {
+        "pli": "Lakkhaṇasaṁyutta",
+        "en": "Linked Discourses with Lakkhaṇa"
+      },
+      "children": [
+        "sn19-pathamavagga",
+        "sn19-dutiyavagga"
+      ]
+    },
+    "sn19-pathamavagga": {
+      "parent": "sn19",
+      "kind": "vagga",
+      "name_key": "sn-name:549.sn19-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn19.1",
+        "sn19.2",
+        "sn19.3",
+        "sn19.4",
+        "sn19.5",
+        "sn19.6",
+        "sn19.7",
+        "sn19.8",
+        "sn19.9",
+        "sn19.10"
+      ]
+    },
+    "sn19-dutiyavagga": {
+      "parent": "sn19",
+      "kind": "vagga",
+      "name_key": "sn-name:560.sn19-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn19.11",
+        "sn19.12",
+        "sn19.13",
+        "sn19.14",
+        "sn19.15",
+        "sn19.16",
+        "sn19.17",
+        "sn19.18",
+        "sn19.19",
+        "sn19.20",
+        "sn19.21"
+      ]
+    },
+    "sn20": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:572.sn20",
+      "names": {
+        "pli": "Opammasaṁyutta",
+        "en": "Linked Discourses with Similes"
+      },
+      "children": [
+        "sn20-opammavagga"
+      ]
+    },
+    "sn20-opammavagga": {
+      "parent": "sn20",
+      "kind": "vagga",
+      "name_key": "sn-name:573.sn20-opammavagga",
+      "names": {
+        "pli": "Opammavagga",
+        "en": "The Chapter on the Similes"
+      },
+      "children": [
+        "sn20.1",
+        "sn20.2",
+        "sn20.3",
+        "sn20.4",
+        "sn20.5",
+        "sn20.6",
+        "sn20.7",
+        "sn20.8",
+        "sn20.9",
+        "sn20.10",
+        "sn20.11",
+        "sn20.12"
+      ]
+    },
+    "sn21": {
+      "parent": "sn-nidanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:586.sn21",
+      "names": {
+        "pli": "Bhikkhusaṁyutta",
+        "en": "Linked Discourses with Monks"
+      },
+      "children": [
+        "sn21-bhikkhuvagga"
+      ]
+    },
+    "sn21-bhikkhuvagga": {
+      "parent": "sn21",
+      "kind": "vagga",
+      "name_key": "sn-name:587.sn21-bhikkhuvagga",
+      "names": {
+        "pli": "Bhikkhuvagga",
+        "en": "The Chapter on Monks"
+      },
+      "children": [
+        "sn21.1",
+        "sn21.2",
+        "sn21.3",
+        "sn21.4",
+        "sn21.5",
+        "sn21.6",
+        "sn21.7",
+        "sn21.8",
+        "sn21.9",
+        "sn21.10",
+        "sn21.11",
+        "sn21.12"
+      ]
+    },
+    "sn-khandhavaggasamyutta": {
+      "parent": "sn",
+      "kind": "book",
+      "name_key": "sn-name:600.sn-khandhavaggasamyutta",
+      "names": {
+        "pli": "Khandhavaggasaṁyutta",
+        "en": "The Group of Linked Discourses Beginning With the Aggregates"
+      },
+      "children": [
+        "sn22",
+        "sn23",
+        "sn24",
+        "sn25",
+        "sn26",
+        "sn27",
+        "sn28",
+        "sn29",
+        "sn30",
+        "sn31",
+        "sn32",
+        "sn33",
+        "sn34"
+      ]
+    },
+    "sn22": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:601.sn22",
+      "names": {
+        "pli": "Khandhasaṁyutta",
+        "en": "Linked Discourses on the Aggregates"
+      },
+      "children": [
+        "sn22-mulapannasaka",
+        "sn22-majjhimapannasaka",
+        "sn22-uparipannasaka"
+      ]
+    },
+    "sn22-mulapannasaka": {
+      "parent": "sn22",
+      "kind": "division",
+      "name_key": "sn-name:602.sn22-mulapannasaka",
+      "names": {
+        "pli": "Mūlapaṇṇāsaka",
+        "en": "The First Fifty"
+      },
+      "children": [
+        "sn22-nakulapituvagga",
+        "sn22-aniccavagga",
+        "sn22-bharavagga",
+        "sn22-natumhakavagga",
+        "sn22-attadipavagga"
+      ]
+    },
+    "sn22-nakulapituvagga": {
+      "parent": "sn22-mulapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:603.sn22-nakulapituvagga",
+      "names": {
+        "pli": "Nakulapituvagga",
+        "en": "The Chapter on Nakula’s Father"
+      },
+      "children": [
+        "sn22.1",
+        "sn22.2",
+        "sn22.3",
+        "sn22.4",
+        "sn22.5",
+        "sn22.6",
+        "sn22.7",
+        "sn22.8",
+        "sn22.9",
+        "sn22.10",
+        "sn22.11"
+      ]
+    },
+    "sn22-aniccavagga": {
+      "parent": "sn22-mulapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:615.sn22-aniccavagga",
+      "names": {
+        "pli": "Aniccavagga",
+        "en": "The Chapter on Impermanence"
+      },
+      "children": [
+        "sn22.12",
+        "sn22.13",
+        "sn22.14",
+        "sn22.15",
+        "sn22.16",
+        "sn22.17",
+        "sn22.18",
+        "sn22.19",
+        "sn22.20",
+        "sn22.21"
+      ]
+    },
+    "sn22-bharavagga": {
+      "parent": "sn22-mulapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:626.sn22-bharavagga",
+      "names": {
+        "pli": "Bhāravagga",
+        "en": "The Chapter on the Burden"
+      },
+      "children": [
+        "sn22.22",
+        "sn22.23",
+        "sn22.24",
+        "sn22.25",
+        "sn22.26",
+        "sn22.27",
+        "sn22.28",
+        "sn22.29",
+        "sn22.30",
+        "sn22.31",
+        "sn22.32"
+      ]
+    },
+    "sn22-natumhakavagga": {
+      "parent": "sn22-mulapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:638.sn22-natumhakavagga",
+      "names": {
+        "pli": "Natumhākavagga",
+        "en": "The Chapter on Not Yours"
+      },
+      "children": [
+        "sn22.33",
+        "sn22.34",
+        "sn22.35",
+        "sn22.36",
+        "sn22.37",
+        "sn22.38",
+        "sn22.39",
+        "sn22.40",
+        "sn22.41",
+        "sn22.42"
+      ]
+    },
+    "sn22-attadipavagga": {
+      "parent": "sn22-mulapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:649.sn22-attadipavagga",
+      "names": {
+        "pli": "Attadīpavagga",
+        "en": "The Chapter on Be Your Own Island"
+      },
+      "children": [
+        "sn22.43",
+        "sn22.44",
+        "sn22.45",
+        "sn22.46",
+        "sn22.47",
+        "sn22.48",
+        "sn22.49",
+        "sn22.50",
+        "sn22.51",
+        "sn22.52"
+      ]
+    },
+    "sn22-majjhimapannasaka": {
+      "parent": "sn22",
+      "kind": "division",
+      "name_key": "sn-name:660.sn22-majjhimapannasaka",
+      "names": {
+        "pli": "Majjhimapaṇṇāsaka",
+        "en": "The Middle Fifty"
+      },
+      "children": [
+        "sn22-upayavagga",
+        "sn22-arahantavagga",
+        "sn22-khajjaniyavagga",
+        "sn22-theravagga",
+        "sn22-pupphavagga"
+      ]
+    },
+    "sn22-upayavagga": {
+      "parent": "sn22-majjhimapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:661.sn22-upayavagga",
+      "names": {
+        "pli": "Upayavagga",
+        "en": "The Chapter on Involvement"
+      },
+      "children": [
+        "sn22.53",
+        "sn22.54",
+        "sn22.55",
+        "sn22.56",
+        "sn22.57",
+        "sn22.58",
+        "sn22.59",
+        "sn22.60",
+        "sn22.61",
+        "sn22.62"
+      ]
+    },
+    "sn22-arahantavagga": {
+      "parent": "sn22-majjhimapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:672.sn22-arahantavagga",
+      "names": {
+        "pli": "Arahantavagga",
+        "en": "The Chapter on the Perfected Ones"
+      },
+      "children": [
+        "sn22.63",
+        "sn22.64",
+        "sn22.65",
+        "sn22.66",
+        "sn22.67",
+        "sn22.68",
+        "sn22.69",
+        "sn22.70",
+        "sn22.71",
+        "sn22.72"
+      ]
+    },
+    "sn22-khajjaniyavagga": {
+      "parent": "sn22-majjhimapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:683.sn22-khajjaniyavagga",
+      "names": {
+        "pli": "Khajjanīyavagga",
+        "en": "The Chapter on Itchy"
+      },
+      "children": [
+        "sn22.73",
+        "sn22.74",
+        "sn22.75",
+        "sn22.76",
+        "sn22.77",
+        "sn22.78",
+        "sn22.79",
+        "sn22.80",
+        "sn22.81",
+        "sn22.82"
+      ]
+    },
+    "sn22-theravagga": {
+      "parent": "sn22-majjhimapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:694.sn22-theravagga",
+      "names": {
+        "pli": "Theravagga",
+        "en": "The Chapter on Senior Mendicants"
+      },
+      "children": [
+        "sn22.83",
+        "sn22.84",
+        "sn22.85",
+        "sn22.86",
+        "sn22.87",
+        "sn22.88",
+        "sn22.89",
+        "sn22.90",
+        "sn22.91",
+        "sn22.92"
+      ]
+    },
+    "sn22-pupphavagga": {
+      "parent": "sn22-majjhimapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:705.sn22-pupphavagga",
+      "names": {
+        "pli": "Pupphavagga",
+        "en": "The Chapter on Flowers"
+      },
+      "children": [
+        "sn22.93",
+        "sn22.94",
+        "sn22.95",
+        "sn22.96",
+        "sn22.97",
+        "sn22.98",
+        "sn22.99",
+        "sn22.100",
+        "sn22.101",
+        "sn22.102"
+      ]
+    },
+    "sn22-uparipannasaka": {
+      "parent": "sn22",
+      "kind": "division",
+      "name_key": "sn-name:716.sn22-uparipannasaka",
+      "names": {
+        "pli": "Uparipaṇṇāsaka",
+        "en": "The Final Fifty"
+      },
+      "children": [
+        "sn22-antavagga",
+        "sn22-dhammakathikavagga",
+        "sn22-avijjavagga",
+        "sn22-kukkulavagga",
+        "sn22-ditthivagga"
+      ]
+    },
+    "sn22-antavagga": {
+      "parent": "sn22-uparipannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:717.sn22-antavagga",
+      "names": {
+        "pli": "Antavagga",
+        "en": "The Chapter on Sides"
+      },
+      "children": [
+        "sn22.103",
+        "sn22.104",
+        "sn22.105",
+        "sn22.106",
+        "sn22.107",
+        "sn22.108",
+        "sn22.109",
+        "sn22.110",
+        "sn22.111",
+        "sn22.112"
+      ]
+    },
+    "sn22-dhammakathikavagga": {
+      "parent": "sn22-uparipannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:728.sn22-dhammakathikavagga",
+      "names": {
+        "pli": "Dhammakathikavagga",
+        "en": "The Chapter on a Dhamma Speaker"
+      },
+      "children": [
+        "sn22.113",
+        "sn22.114",
+        "sn22.115",
+        "sn22.116",
+        "sn22.117",
+        "sn22.118",
+        "sn22.119",
+        "sn22.120",
+        "sn22.121",
+        "sn22.122",
+        "sn22.123",
+        "sn22.124",
+        "sn22.125"
+      ]
+    },
+    "sn22-avijjavagga": {
+      "parent": "sn22-uparipannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:742.sn22-avijjavagga",
+      "names": {
+        "pli": "Avijjāvagga",
+        "en": "The Chapter on Ignorance"
+      },
+      "children": [
+        "sn22.126",
+        "sn22.127",
+        "sn22.128",
+        "sn22.129",
+        "sn22.130",
+        "sn22.131",
+        "sn22.132",
+        "sn22.133",
+        "sn22.134",
+        "sn22.135"
+      ]
+    },
+    "sn22-kukkulavagga": {
+      "parent": "sn22-uparipannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:753.sn22-kukkulavagga",
+      "names": {
+        "pli": "Kukkuḷavagga",
+        "en": "The Chapter on Burning Chaff"
+      },
+      "children": [
+        "sn22.136",
+        "sn22.137",
+        "sn22.138",
+        "sn22.139",
+        "sn22.140",
+        "sn22.141",
+        "sn22.142",
+        "sn22.143",
+        "sn22.144",
+        "sn22.145",
+        "sn22.146",
+        "sn22.147",
+        "sn22.148",
+        "sn22.149"
+      ]
+    },
+    "sn22-ditthivagga": {
+      "parent": "sn22-uparipannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:768.sn22-ditthivagga",
+      "names": {
+        "pli": "Diṭṭhivagga",
+        "en": "The Chapter on Views"
+      },
+      "children": [
+        "sn22.150",
+        "sn22.151",
+        "sn22.152",
+        "sn22.153",
+        "sn22.154",
+        "sn22.155",
+        "sn22.156",
+        "sn22.157",
+        "sn22.158",
+        "sn22.159"
+      ]
+    },
+    "sn23": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:779.sn23",
+      "names": {
+        "pli": "Rādhasaṁyutta",
+        "en": "Linked Discourses with Rādha"
+      },
+      "children": [
+        "sn23-pathamamaravagga",
+        "sn23-dutiyamaravagga",
+        "sn23-ayacanavagga",
+        "sn23-upanisinnavagga"
+      ]
+    },
+    "sn23-pathamamaravagga": {
+      "parent": "sn23",
+      "kind": "vagga",
+      "name_key": "sn-name:780.sn23-pathamamaravagga",
+      "names": {
+        "pli": "Paṭhamamāravagga",
+        "en": "First Chapter About Māra"
+      },
+      "children": [
+        "sn23.1",
+        "sn23.2",
+        "sn23.3",
+        "sn23.4",
+        "sn23.5",
+        "sn23.6",
+        "sn23.7",
+        "sn23.8",
+        "sn23.9",
+        "sn23.10"
+      ]
+    },
+    "sn23-dutiyamaravagga": {
+      "parent": "sn23",
+      "kind": "vagga",
+      "name_key": "sn-name:791.sn23-dutiyamaravagga",
+      "names": {
+        "pli": "Dutiyamāravagga",
+        "en": "Second Chapter About Māra"
+      },
+      "children": [
+        "sn23.11",
+        "sn23.12",
+        "sn23.13",
+        "sn23.14",
+        "sn23.15",
+        "sn23.16",
+        "sn23.17",
+        "sn23.18",
+        "sn23.19",
+        "sn23.20",
+        "sn23.21",
+        "sn23.22"
+      ]
+    },
+    "sn23-ayacanavagga": {
+      "parent": "sn23",
+      "kind": "vagga",
+      "name_key": "sn-name:804.sn23-ayacanavagga",
+      "names": {
+        "pli": "Āyācanavagga",
+        "en": "The Chapter on Aspiration"
+      },
+      "children": [
+        "sn23.23-33",
+        "sn23.34"
+      ]
+    },
+    "sn23-upanisinnavagga": {
+      "parent": "sn23",
+      "kind": "vagga",
+      "name_key": "sn-name:807.sn23-upanisinnavagga",
+      "names": {
+        "pli": "Upanisinnavagga",
+        "en": "The Chapter on Sitting Close"
+      },
+      "children": [
+        "sn23.35-45",
+        "sn23.46"
+      ]
+    },
+    "sn24": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:810.sn24",
+      "names": {
+        "pli": "Diṭṭhisaṁyutta",
+        "en": "Linked Discourses on Views"
+      },
+      "children": [
+        "sn24-sotapattivagga",
+        "sn24-dutiyagamanavagga",
+        "sn24-tatiyagamanavagga",
+        "sn24-catutthagamanavagga"
+      ]
+    },
+    "sn24-sotapattivagga": {
+      "parent": "sn24",
+      "kind": "vagga",
+      "name_key": "sn-name:811.sn24-sotapattivagga",
+      "names": {
+        "pli": "Sotāpattivagga",
+        "en": "The Chapter on Stream-Entry"
+      },
+      "children": [
+        "sn24.1",
+        "sn24.2",
+        "sn24.3",
+        "sn24.4",
+        "sn24.5",
+        "sn24.6",
+        "sn24.7",
+        "sn24.8",
+        "sn24.9",
+        "sn24.10",
+        "sn24.11",
+        "sn24.12",
+        "sn24.13",
+        "sn24.14",
+        "sn24.15",
+        "sn24.16",
+        "sn24.17",
+        "sn24.18"
+      ]
+    },
+    "sn24-dutiyagamanavagga": {
+      "parent": "sn24",
+      "kind": "vagga",
+      "name_key": "sn-name:830.sn24-dutiyagamanavagga",
+      "names": {
+        "pli": "Dutiyagamanavagga",
+        "en": "The Chapter on the Second Round"
+      },
+      "children": [
+        "sn24.19",
+        "sn24.20-35",
+        "sn24.36",
+        "sn24.37",
+        "sn24.38",
+        "sn24.39",
+        "sn24.40",
+        "sn24.41",
+        "sn24.42",
+        "sn24.43",
+        "sn24.44"
+      ]
+    },
+    "sn24-tatiyagamanavagga": {
+      "parent": "sn24",
+      "kind": "vagga",
+      "name_key": "sn-name:842.sn24-tatiyagamanavagga",
+      "names": {
+        "pli": "Tatiyagamanavagga",
+        "en": "The Chapter on the Third Round"
+      },
+      "children": [
+        "sn24.45",
+        "sn24.46-69",
+        "sn24.70"
+      ]
+    },
+    "sn24-catutthagamanavagga": {
+      "parent": "sn24",
+      "kind": "vagga",
+      "name_key": "sn-name:846.sn24-catutthagamanavagga",
+      "names": {
+        "pli": "Catutthagamanavagga",
+        "en": "The Chapter on the Fourth Round"
+      },
+      "children": [
+        "sn24.71",
+        "sn24.72-95",
+        "sn24.96"
+      ]
+    },
+    "sn25": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:850.sn25",
+      "names": {
+        "pli": "Okkantasaṁyutta",
+        "en": "Linked Discourses on Stepping Into"
+      },
+      "children": [
+        "sn25-cakkhuvagga"
+      ]
+    },
+    "sn25-cakkhuvagga": {
+      "parent": "sn25",
+      "kind": "vagga",
+      "name_key": "sn-name:851.sn25-cakkhuvagga",
+      "names": {
+        "pli": "Cakkhuvagga",
+        "en": "The Chapter on the Eye"
+      },
+      "children": [
+        "sn25.1",
+        "sn25.2",
+        "sn25.3",
+        "sn25.4",
+        "sn25.5",
+        "sn25.6",
+        "sn25.7",
+        "sn25.8",
+        "sn25.9",
+        "sn25.10"
+      ]
+    },
+    "sn26": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:862.sn26",
+      "names": {
+        "pli": "Uppādasaṁyutta",
+        "en": "Linked Discourses on Arising"
+      },
+      "children": [
+        "sn26-uppadavagga"
+      ]
+    },
+    "sn26-uppadavagga": {
+      "parent": "sn26",
+      "kind": "vagga",
+      "name_key": "sn-name:863.sn26-uppadavagga",
+      "names": {
+        "pli": "Uppādavagga",
+        "en": "The Chapter on Arising"
+      },
+      "children": [
+        "sn26.1",
+        "sn26.2",
+        "sn26.3",
+        "sn26.4",
+        "sn26.5",
+        "sn26.6",
+        "sn26.7",
+        "sn26.8",
+        "sn26.9",
+        "sn26.10"
+      ]
+    },
+    "sn27": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:874.sn27",
+      "names": {
+        "pli": "Kilesasaṁyutta",
+        "en": "Linked Discourses on Corruptions"
+      },
+      "children": [
+        "sn27-kilesavagga"
+      ]
+    },
+    "sn27-kilesavagga": {
+      "parent": "sn27",
+      "kind": "vagga",
+      "name_key": "sn-name:875.sn27-kilesavagga",
+      "names": {
+        "pli": "Kilesavagga",
+        "en": "The Chapter on Corruptions"
+      },
+      "children": [
+        "sn27.1",
+        "sn27.2",
+        "sn27.3",
+        "sn27.4",
+        "sn27.5",
+        "sn27.6",
+        "sn27.7",
+        "sn27.8",
+        "sn27.9",
+        "sn27.10"
+      ]
+    },
+    "sn28": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:886.sn28",
+      "names": {
+        "pli": "Sāriputtasaṁyutta",
+        "en": "Linked Discourses with Sāriputta"
+      },
+      "children": [
+        "sn28-sariputtavagga"
+      ]
+    },
+    "sn28-sariputtavagga": {
+      "parent": "sn28",
+      "kind": "vagga",
+      "name_key": "sn-name:887.sn28-sariputtavagga",
+      "names": {
+        "pli": "Sāriputtavagga",
+        "en": "The Chapter with Sāriputta"
+      },
+      "children": [
+        "sn28.1",
+        "sn28.2",
+        "sn28.3",
+        "sn28.4",
+        "sn28.5",
+        "sn28.6",
+        "sn28.7",
+        "sn28.8",
+        "sn28.9",
+        "sn28.10"
+      ]
+    },
+    "sn29": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:898.sn29",
+      "names": {
+        "pli": "Nāgasaṁyutta",
+        "en": "Linked Discourses on Dragons"
+      },
+      "children": [
+        "sn29-nagavagga"
+      ]
+    },
+    "sn29-nagavagga": {
+      "parent": "sn29",
+      "kind": "vagga",
+      "name_key": "sn-name:899.sn29-nagavagga",
+      "names": {
+        "pli": "Nāgavagga",
+        "en": "The Chapter on Dragons"
+      },
+      "children": [
+        "sn29.1",
+        "sn29.2",
+        "sn29.3",
+        "sn29.4",
+        "sn29.5",
+        "sn29.6",
+        "sn29.7",
+        "sn29.8",
+        "sn29.9",
+        "sn29.10",
+        "sn29.11-20",
+        "sn29.21-50"
+      ]
+    },
+    "sn30": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:912.sn30",
+      "names": {
+        "pli": "Supaṇṇasaṁyutta",
+        "en": "Linked Discourses on Phoenixes"
+      },
+      "children": [
+        "sn30-supannavagga"
+      ]
+    },
+    "sn30-supannavagga": {
+      "parent": "sn30",
+      "kind": "vagga",
+      "name_key": "sn-name:913.sn30-supannavagga",
+      "names": {
+        "pli": "Supaṇṇavagga",
+        "en": "The Chapter on Phoenixes"
+      },
+      "children": [
+        "sn30.1",
+        "sn30.2",
+        "sn30.3",
+        "sn30.4-6",
+        "sn30.7-16",
+        "sn30.17-46"
+      ]
+    },
+    "sn31": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:920.sn31",
+      "names": {
+        "pli": "Gandhabbakāyasaṁyutta",
+        "en": "Linked Discourses on Centaurs"
+      },
+      "children": [
+        "sn31-gandhabbavagga"
+      ]
+    },
+    "sn31-gandhabbavagga": {
+      "parent": "sn31",
+      "kind": "vagga",
+      "name_key": "sn-name:921.sn31-gandhabbavagga",
+      "names": {
+        "pli": "Gandhabbavagga",
+        "en": "The Chapter on Centaurs"
+      },
+      "children": [
+        "sn31.1",
+        "sn31.2",
+        "sn31.3",
+        "sn31.4-12",
+        "sn31.13-22",
+        "sn31.23-112"
+      ]
+    },
+    "sn32": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:928.sn32",
+      "names": {
+        "pli": "Valāhakasaṁyutta",
+        "en": "Linked Discourses on Cloud Gods"
+      },
+      "children": [
+        "sn32-valahakavagga"
+      ]
+    },
+    "sn32-valahakavagga": {
+      "parent": "sn32",
+      "kind": "vagga",
+      "name_key": "sn-name:929.sn32-valahakavagga",
+      "names": {
+        "pli": "Valāhakavagga",
+        "en": "The Chapter on Gods of the Clouds"
+      },
+      "children": [
+        "sn32.1",
+        "sn32.2",
+        "sn32.3-12",
+        "sn32.13-52",
+        "sn32.53",
+        "sn32.54",
+        "sn32.55",
+        "sn32.56",
+        "sn32.57"
+      ]
+    },
+    "sn33": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:939.sn33",
+      "names": {
+        "pli": "Vacchagottasaṁyutta",
+        "en": "Linked Discourses with Vacchagotta"
+      },
+      "children": [
+        "sn33-vacchagottavagga"
+      ]
+    },
+    "sn33-vacchagottavagga": {
+      "parent": "sn33",
+      "kind": "vagga",
+      "name_key": "sn-name:940.sn33-vacchagottavagga",
+      "names": {
+        "pli": "Vacchagottavagga",
+        "en": "The Chapter with Vacchagotta"
+      },
+      "children": [
+        "sn33.1",
+        "sn33.2",
+        "sn33.3",
+        "sn33.4",
+        "sn33.5",
+        "sn33.6-10",
+        "sn33.11-15",
+        "sn33.16-20",
+        "sn33.21-25",
+        "sn33.26-30",
+        "sn33.31-35",
+        "sn33.36-40",
+        "sn33.41-45",
+        "sn33.46-50",
+        "sn33.51-54",
+        "sn33.55"
+      ]
+    },
+    "sn34": {
+      "parent": "sn-khandhavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:957.sn34",
+      "names": {
+        "pli": "Jhānasaṁyutta",
+        "en": "Linked Discourses on Absorption"
+      },
+      "children": [
+        "sn34-jhanavagga"
+      ]
+    },
+    "sn34-jhanavagga": {
+      "parent": "sn34",
+      "kind": "vagga",
+      "name_key": "sn-name:958.sn34-jhanavagga",
+      "names": {
+        "pli": "Jhānavagga",
+        "en": "The Chapter on Absorption"
+      },
+      "children": [
+        "sn34.1",
+        "sn34.2",
+        "sn34.3",
+        "sn34.4",
+        "sn34.5",
+        "sn34.6",
+        "sn34.7",
+        "sn34.8",
+        "sn34.9",
+        "sn34.10",
+        "sn34.11",
+        "sn34.12",
+        "sn34.13",
+        "sn34.14",
+        "sn34.15",
+        "sn34.16",
+        "sn34.17",
+        "sn34.18",
+        "sn34.19",
+        "sn34.20-27",
+        "sn34.28-34",
+        "sn34.35-40",
+        "sn34.41-45",
+        "sn34.46-49",
+        "sn34.50-52",
+        "sn34.53-54",
+        "sn34.55"
+      ]
+    },
+    "sn-salayatanavaggasamyutta": {
+      "parent": "sn",
+      "kind": "book",
+      "name_key": "sn-name:986.sn-salayatanavaggasamyutta",
+      "names": {
+        "pli": "Saḷāyatanavaggasaṁyutta",
+        "en": "The Group of Linked Discourses Beginning With the Six Sense Fields"
+      },
+      "children": [
+        "sn35",
+        "sn36",
+        "sn37",
+        "sn38",
+        "sn39",
+        "sn40",
+        "sn41",
+        "sn42",
+        "sn43",
+        "sn44"
+      ]
+    },
+    "sn35": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:987.sn35",
+      "names": {
+        "pli": "Saḷāyatanasaṁyutta",
+        "en": "Linked Discourses on the Six Sense Fields"
+      },
+      "children": [
+        "sn35-pathamapannasaka",
+        "sn35-dutiyapannasaka",
+        "sn35-tatiyapannasaka",
+        "sn35-catutthapannasaka"
+      ]
+    },
+    "sn35-pathamapannasaka": {
+      "parent": "sn35",
+      "kind": "division",
+      "name_key": "sn-name:988.sn35-pathamapannasaka",
+      "names": {
+        "pli": "Paṭhamapaṇṇāsaka",
+        "en": "The First Fifty"
+      },
+      "children": [
+        "sn35-aniccavagga",
+        "sn35-yamakavagga",
+        "sn35-sabbavagga",
+        "sn35-jatidhammavagga",
+        "sn35-sabbaaniccavagga"
+      ]
+    },
+    "sn35-aniccavagga": {
+      "parent": "sn35-pathamapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:989.sn35-aniccavagga",
+      "names": {
+        "pli": "Aniccavagga",
+        "en": "The Chapter on  Impermanence"
+      },
+      "children": [
+        "sn35.1",
+        "sn35.2",
+        "sn35.3",
+        "sn35.4",
+        "sn35.5",
+        "sn35.6",
+        "sn35.7",
+        "sn35.8",
+        "sn35.9",
+        "sn35.10",
+        "sn35.11",
+        "sn35.12"
+      ]
+    },
+    "sn35-yamakavagga": {
+      "parent": "sn35-pathamapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1002.sn35-yamakavagga",
+      "names": {
+        "pli": "Yamakavagga",
+        "en": "The Chapter on Pairs"
+      },
+      "children": [
+        "sn35.13",
+        "sn35.14",
+        "sn35.15",
+        "sn35.16",
+        "sn35.17",
+        "sn35.18",
+        "sn35.19",
+        "sn35.20",
+        "sn35.21",
+        "sn35.22"
+      ]
+    },
+    "sn35-sabbavagga": {
+      "parent": "sn35-pathamapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1013.sn35-sabbavagga",
+      "names": {
+        "pli": "Sabbavagga",
+        "en": "The Chapter on the All"
+      },
+      "children": [
+        "sn35.23",
+        "sn35.24",
+        "sn35.25",
+        "sn35.26",
+        "sn35.27",
+        "sn35.28",
+        "sn35.29",
+        "sn35.30",
+        "sn35.31",
+        "sn35.32"
+      ]
+    },
+    "sn35-jatidhammavagga": {
+      "parent": "sn35-pathamapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1024.sn35-jatidhammavagga",
+      "names": {
+        "pli": "Jātidhammavagga",
+        "en": "The Chapter on Liable to Be Reborn"
+      },
+      "children": [
+        "sn35.33-42"
+      ]
+    },
+    "sn35-sabbaaniccavagga": {
+      "parent": "sn35-pathamapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1026.sn35-sabbaaniccavagga",
+      "names": {
+        "pli": "Sabbaaniccavagga",
+        "en": "The Chapter on All is Impermanent"
+      },
+      "children": [
+        "sn35.43-51",
+        "sn35.52"
+      ]
+    },
+    "sn35-dutiyapannasaka": {
+      "parent": "sn35",
+      "kind": "division",
+      "name_key": "sn-name:1029.sn35-dutiyapannasaka",
+      "names": {
+        "pli": "Dutiyapaṇṇāsaka",
+        "en": "The Second Fifty"
+      },
+      "children": [
+        "sn35-avijjavagga",
+        "sn35-migajalavagga",
+        "sn35-gilanavagga",
+        "sn35-channavagga",
+        "sn35-salavagga"
+      ]
+    },
+    "sn35-avijjavagga": {
+      "parent": "sn35-dutiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1030.sn35-avijjavagga",
+      "names": {
+        "pli": "Avijjāvagga",
+        "en": "The Chapter on Ignorance"
+      },
+      "children": [
+        "sn35.53",
+        "sn35.54",
+        "sn35.55",
+        "sn35.56",
+        "sn35.57",
+        "sn35.58",
+        "sn35.59",
+        "sn35.60",
+        "sn35.61",
+        "sn35.62"
+      ]
+    },
+    "sn35-migajalavagga": {
+      "parent": "sn35-dutiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1041.sn35-migajalavagga",
+      "names": {
+        "pli": "Migajālavagga",
+        "en": "The Chapter with Migajāla"
+      },
+      "children": [
+        "sn35.63",
+        "sn35.64",
+        "sn35.65",
+        "sn35.66",
+        "sn35.67",
+        "sn35.68",
+        "sn35.69",
+        "sn35.70",
+        "sn35.71",
+        "sn35.72",
+        "sn35.73"
+      ]
+    },
+    "sn35-gilanavagga": {
+      "parent": "sn35-dutiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1053.sn35-gilanavagga",
+      "names": {
+        "pli": "Gilānavagga",
+        "en": "The Chapter on Sick"
+      },
+      "children": [
+        "sn35.74",
+        "sn35.75",
+        "sn35.76",
+        "sn35.77",
+        "sn35.78",
+        "sn35.79",
+        "sn35.80",
+        "sn35.81",
+        "sn35.82",
+        "sn35.83"
+      ]
+    },
+    "sn35-channavagga": {
+      "parent": "sn35-dutiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1064.sn35-channavagga",
+      "names": {
+        "pli": "Channavagga",
+        "en": "The Chapter with Channa"
+      },
+      "children": [
+        "sn35.84",
+        "sn35.85",
+        "sn35.86",
+        "sn35.87",
+        "sn35.88",
+        "sn35.89",
+        "sn35.90",
+        "sn35.91",
+        "sn35.92",
+        "sn35.93"
+      ]
+    },
+    "sn35-salavagga": {
+      "parent": "sn35-dutiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1075.sn35-salavagga",
+      "names": {
+        "pli": "Saḷavagga",
+        "en": "The Chapter on the Sixes"
+      },
+      "children": [
+        "sn35.94",
+        "sn35.95",
+        "sn35.96",
+        "sn35.97",
+        "sn35.98",
+        "sn35.99",
+        "sn35.100",
+        "sn35.101",
+        "sn35.102",
+        "sn35.103"
+      ]
+    },
+    "sn35-tatiyapannasaka": {
+      "parent": "sn35",
+      "kind": "division",
+      "name_key": "sn-name:1086.sn35-tatiyapannasaka",
+      "names": {
+        "pli": "Tatiyapaṇṇāsaka",
+        "en": "The Third Fifty"
+      },
+      "children": [
+        "sn35-yogakkhemivagga",
+        "sn35-lokakamagunavagga",
+        "sn35-gahapativagga",
+        "sn35-devadahavagga",
+        "sn35-navapuranavagga"
+      ]
+    },
+    "sn35-yogakkhemivagga": {
+      "parent": "sn35-tatiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1087.sn35-yogakkhemivagga",
+      "names": {
+        "pli": "Yogakkhemivagga",
+        "en": "The Chapter on Sanctuary"
+      },
+      "children": [
+        "sn35.104",
+        "sn35.105",
+        "sn35.106",
+        "sn35.107",
+        "sn35.108",
+        "sn35.109",
+        "sn35.110",
+        "sn35.111",
+        "sn35.112",
+        "sn35.113"
+      ]
+    },
+    "sn35-lokakamagunavagga": {
+      "parent": "sn35-tatiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1098.sn35-lokakamagunavagga",
+      "names": {
+        "pli": "Lokakāmaguṇavagga",
+        "en": "The Chapter on the World and the Kinds of Sensual Stimulation"
+      },
+      "children": [
+        "sn35.114",
+        "sn35.115",
+        "sn35.116",
+        "sn35.117",
+        "sn35.118",
+        "sn35.119",
+        "sn35.120",
+        "sn35.121",
+        "sn35.122",
+        "sn35.123"
+      ]
+    },
+    "sn35-gahapativagga": {
+      "parent": "sn35-tatiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1109.sn35-gahapativagga",
+      "names": {
+        "pli": "Gahapativagga",
+        "en": "The Chapter on Householders"
+      },
+      "children": [
+        "sn35.124",
+        "sn35.125",
+        "sn35.126",
+        "sn35.127",
+        "sn35.128",
+        "sn35.129",
+        "sn35.130",
+        "sn35.131",
+        "sn35.132",
+        "sn35.133"
+      ]
+    },
+    "sn35-devadahavagga": {
+      "parent": "sn35-tatiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1120.sn35-devadahavagga",
+      "names": {
+        "pli": "Devadahavagga",
+        "en": "The Chapter at Devadaha"
+      },
+      "children": [
+        "sn35.134",
+        "sn35.135",
+        "sn35.136",
+        "sn35.137",
+        "sn35.138",
+        "sn35.139",
+        "sn35.140",
+        "sn35.141",
+        "sn35.142",
+        "sn35.143",
+        "sn35.144",
+        "sn35.145"
+      ]
+    },
+    "sn35-navapuranavagga": {
+      "parent": "sn35-tatiyapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1133.sn35-navapuranavagga",
+      "names": {
+        "pli": "Navapurāṇavagga",
+        "en": "The Chapter on the Old and the New"
+      },
+      "children": [
+        "sn35.146",
+        "sn35.147",
+        "sn35.148",
+        "sn35.149",
+        "sn35.150",
+        "sn35.151",
+        "sn35.152",
+        "sn35.153",
+        "sn35.154",
+        "sn35.155"
+      ]
+    },
+    "sn35-catutthapannasaka": {
+      "parent": "sn35",
+      "kind": "division",
+      "name_key": "sn-name:1144.sn35-catutthapannasaka",
+      "names": {
+        "pli": "Catutthapaṇṇāsaka",
+        "en": "The Fourth Fifty"
+      },
+      "children": [
+        "sn35-nandikkhayavagga",
+        "sn35-satthipeyyalavagga",
+        "sn35-samuddavagga",
+        "sn35-asivisavagga"
+      ]
+    },
+    "sn35-nandikkhayavagga": {
+      "parent": "sn35-catutthapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1145.sn35-nandikkhayavagga",
+      "names": {
+        "pli": "Nandikkhayavagga",
+        "en": "The Chapter on the End of Relishing"
+      },
+      "children": [
+        "sn35.156",
+        "sn35.157",
+        "sn35.158",
+        "sn35.159",
+        "sn35.160",
+        "sn35.161",
+        "sn35.162",
+        "sn35.163",
+        "sn35.164",
+        "sn35.165",
+        "sn35.166",
+        "sn35.167"
+      ]
+    },
+    "sn35-satthipeyyalavagga": {
+      "parent": "sn35-catutthapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1158.sn35-satthipeyyalavagga",
+      "names": {
+        "pli": "Saṭṭhipeyyālavagga",
+        "en": "The Chapter on Sixty Abbreviated Texts"
+      },
+      "children": [
+        "sn35.168",
+        "sn35.169",
+        "sn35.170",
+        "sn35.171-173",
+        "sn35.174-176",
+        "sn35.177-179",
+        "sn35.180-182",
+        "sn35.183-185",
+        "sn35.186",
+        "sn35.187",
+        "sn35.188",
+        "sn35.189-191",
+        "sn35.192-194",
+        "sn35.195-197",
+        "sn35.198-200",
+        "sn35.201-203",
+        "sn35.204",
+        "sn35.205",
+        "sn35.206",
+        "sn35.207-209",
+        "sn35.210-212",
+        "sn35.213-215",
+        "sn35.216-218",
+        "sn35.219-221",
+        "sn35.222",
+        "sn35.223",
+        "sn35.224",
+        "sn35.225",
+        "sn35.226",
+        "sn35.227"
+      ]
+    },
+    "sn35-samuddavagga": {
+      "parent": "sn35-catutthapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1189.sn35-samuddavagga",
+      "names": {
+        "pli": "Samuddavagga",
+        "en": "The Chapter on the Ocean"
+      },
+      "children": [
+        "sn35.228",
+        "sn35.229",
+        "sn35.230",
+        "sn35.231",
+        "sn35.232",
+        "sn35.233",
+        "sn35.234",
+        "sn35.235",
+        "sn35.236",
+        "sn35.237"
+      ]
+    },
+    "sn35-asivisavagga": {
+      "parent": "sn35-catutthapannasaka",
+      "kind": "vagga",
+      "name_key": "sn-name:1200.sn35-asivisavagga",
+      "names": {
+        "pli": "Āsīvisavagga",
+        "en": "The Chapter on the Simile of the Vipers"
+      },
+      "children": [
+        "sn35.238",
+        "sn35.239",
+        "sn35.240",
+        "sn35.241",
+        "sn35.242",
+        "sn35.243",
+        "sn35.244",
+        "sn35.245",
+        "sn35.246",
+        "sn35.247",
+        "sn35.248"
+      ]
+    },
+    "sn36": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1212.sn36",
+      "names": {
+        "pli": "Vedanāsaṁyutta",
+        "en": "Linked Discourses on Feelings"
+      },
+      "children": [
+        "sn36-sagathavagga",
+        "sn36-rahogatavagga",
+        "sn36-atthasatapariyayavagga"
+      ]
+    },
+    "sn36-sagathavagga": {
+      "parent": "sn36",
+      "kind": "vagga",
+      "name_key": "sn-name:1213.sn36-sagathavagga",
+      "names": {
+        "pli": "Sagāthāvagga",
+        "en": "The Chapter with Verses"
+      },
+      "children": [
+        "sn36.1",
+        "sn36.2",
+        "sn36.3",
+        "sn36.4",
+        "sn36.5",
+        "sn36.6",
+        "sn36.7",
+        "sn36.8",
+        "sn36.9",
+        "sn36.10"
+      ]
+    },
+    "sn36-rahogatavagga": {
+      "parent": "sn36",
+      "kind": "vagga",
+      "name_key": "sn-name:1224.sn36-rahogatavagga",
+      "names": {
+        "pli": "Rahogatavagga",
+        "en": "The Chapter on In Private"
+      },
+      "children": [
+        "sn36.11",
+        "sn36.12",
+        "sn36.13",
+        "sn36.14",
+        "sn36.15",
+        "sn36.16",
+        "sn36.17",
+        "sn36.18",
+        "sn36.19",
+        "sn36.20"
+      ]
+    },
+    "sn36-atthasatapariyayavagga": {
+      "parent": "sn36",
+      "kind": "vagga",
+      "name_key": "sn-name:1235.sn36-atthasatapariyayavagga",
+      "names": {
+        "pli": "Aṭṭhasatapariyāyavagga",
+        "en": "The Chapter on the Explanation of the Hundred and Eight"
+      },
+      "children": [
+        "sn36.21",
+        "sn36.22",
+        "sn36.23",
+        "sn36.24",
+        "sn36.25",
+        "sn36.26",
+        "sn36.27",
+        "sn36.28",
+        "sn36.29",
+        "sn36.30",
+        "sn36.31"
+      ]
+    },
+    "sn37": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1247.sn37",
+      "names": {
+        "pli": "Mātugāmasaṁyutta",
+        "en": "Linked Discourses on Females"
+      },
+      "children": [
+        "sn37-pathamapeyyalavagga",
+        "sn37-dutiyapeyyalavagga",
+        "sn37-balavagga"
+      ]
+    },
+    "sn37-pathamapeyyalavagga": {
+      "parent": "sn37",
+      "kind": "vagga",
+      "name_key": "sn-name:1248.sn37-pathamapeyyalavagga",
+      "names": {
+        "pli": "Paṭhamapeyyālavagga",
+        "en": "First Chapter of Abbreviated Texts"
+      },
+      "children": [
+        "sn37.1",
+        "sn37.2",
+        "sn37.3",
+        "sn37.4",
+        "sn37.5",
+        "sn37.6",
+        "sn37.7",
+        "sn37.8",
+        "sn37.9",
+        "sn37.10",
+        "sn37.11",
+        "sn37.12",
+        "sn37.13",
+        "sn37.14"
+      ]
+    },
+    "sn37-dutiyapeyyalavagga": {
+      "parent": "sn37",
+      "kind": "vagga",
+      "name_key": "sn-name:1263.sn37-dutiyapeyyalavagga",
+      "names": {
+        "pli": "Dutiyapeyyālavagga",
+        "en": "Second Chapter of Abbreviated Texts"
+      },
+      "children": [
+        "sn37.15",
+        "sn37.16",
+        "sn37.17",
+        "sn37.18",
+        "sn37.19",
+        "sn37.20",
+        "sn37.21",
+        "sn37.22",
+        "sn37.23",
+        "sn37.24"
+      ]
+    },
+    "sn37-balavagga": {
+      "parent": "sn37",
+      "kind": "vagga",
+      "name_key": "sn-name:1274.sn37-balavagga",
+      "names": {
+        "pli": "Balavagga",
+        "en": "The Chapter on Powers"
+      },
+      "children": [
+        "sn37.25",
+        "sn37.26",
+        "sn37.27",
+        "sn37.28",
+        "sn37.29",
+        "sn37.30",
+        "sn37.31",
+        "sn37.32",
+        "sn37.33",
+        "sn37.34"
+      ]
+    },
+    "sn38": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1285.sn38",
+      "names": {
+        "pli": "Jambukhādakasaṁyutta",
+        "en": "Linked Discourses with Jambukhādaka"
+      },
+      "children": [
+        "sn38-jambukhadakavagga"
+      ]
+    },
+    "sn38-jambukhadakavagga": {
+      "parent": "sn38",
+      "kind": "vagga",
+      "name_key": "sn-name:1286.sn38-jambukhadakavagga",
+      "names": {
+        "pli": "Jambukhādakavagga",
+        "en": "The Chapter with Jambukhādaka"
+      },
+      "children": [
+        "sn38.1",
+        "sn38.2",
+        "sn38.3",
+        "sn38.4",
+        "sn38.5",
+        "sn38.6",
+        "sn38.7",
+        "sn38.8",
+        "sn38.9",
+        "sn38.10",
+        "sn38.11",
+        "sn38.12",
+        "sn38.13",
+        "sn38.14",
+        "sn38.15",
+        "sn38.16"
+      ]
+    },
+    "sn39": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1303.sn39",
+      "names": {
+        "pli": "Sāmaṇḍakasaṁyutta",
+        "en": "Linked Discourses with Sāmaṇḍaka"
+      },
+      "children": [
+        "sn39-samandakavagga"
+      ]
+    },
+    "sn39-samandakavagga": {
+      "parent": "sn39",
+      "kind": "vagga",
+      "name_key": "sn-name:1304.sn39-samandakavagga",
+      "names": {
+        "pli": "Sāmaṇḍakavagga",
+        "en": "The Chapter with Sāmaṇḍaka"
+      },
+      "children": [
+        "sn39.1-15",
+        "sn39.16"
+      ]
+    },
+    "sn40": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1307.sn40",
+      "names": {
+        "pli": "Moggallānasaṁyutta",
+        "en": "Linked Discourses with Moggallāna"
+      },
+      "children": [
+        "sn40-moggallanavagga"
+      ]
+    },
+    "sn40-moggallanavagga": {
+      "parent": "sn40",
+      "kind": "vagga",
+      "name_key": "sn-name:1308.sn40-moggallanavagga",
+      "names": {
+        "pli": "Moggallānavagga",
+        "en": "The Chapter with Moggallāna"
+      },
+      "children": [
+        "sn40.1",
+        "sn40.2",
+        "sn40.3",
+        "sn40.4",
+        "sn40.5",
+        "sn40.6",
+        "sn40.7",
+        "sn40.8",
+        "sn40.9",
+        "sn40.10",
+        "sn40.11"
+      ]
+    },
+    "sn41": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1320.sn41",
+      "names": {
+        "pli": "Cittasaṁyutta",
+        "en": "Linked Discourses with Citta the Householder"
+      },
+      "children": [
+        "sn41-cittavagga"
+      ]
+    },
+    "sn41-cittavagga": {
+      "parent": "sn41",
+      "kind": "vagga",
+      "name_key": "sn-name:1321.sn41-cittavagga",
+      "names": {
+        "pli": "Cittavagga",
+        "en": "The Chapter with Citta"
+      },
+      "children": [
+        "sn41.1",
+        "sn41.2",
+        "sn41.3",
+        "sn41.4",
+        "sn41.5",
+        "sn41.6",
+        "sn41.7",
+        "sn41.8",
+        "sn41.9",
+        "sn41.10"
+      ]
+    },
+    "sn42": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1332.sn42",
+      "names": {
+        "pli": "Gāmaṇisaṁyutta",
+        "en": "Linked Discourses with Chiefs"
+      },
+      "children": [
+        "sn42-gamanivagga"
+      ]
+    },
+    "sn42-gamanivagga": {
+      "parent": "sn42",
+      "kind": "vagga",
+      "name_key": "sn-name:1333.sn42-gamanivagga",
+      "names": {
+        "pli": "Gāmaṇivagga",
+        "en": "The Chapter on Chiefs"
+      },
+      "children": [
+        "sn42.1",
+        "sn42.2",
+        "sn42.3",
+        "sn42.4",
+        "sn42.5",
+        "sn42.6",
+        "sn42.7",
+        "sn42.8",
+        "sn42.9",
+        "sn42.10",
+        "sn42.11",
+        "sn42.12",
+        "sn42.13"
+      ]
+    },
+    "sn43": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1347.sn43",
+      "names": {
+        "pli": "Asaṅkhatasaṁyutta",
+        "en": "Linked Discourses on the Unconditioned"
+      },
+      "children": [
+        "sn43-pathamavagga",
+        "sn43-dutiyavagga"
+      ]
+    },
+    "sn43-pathamavagga": {
+      "parent": "sn43",
+      "kind": "vagga",
+      "name_key": "sn-name:1348.sn43-pathamavagga",
+      "names": {
+        "pli": "Paṭhamavagga",
+        "en": "Chapter One"
+      },
+      "children": [
+        "sn43.1",
+        "sn43.2",
+        "sn43.3",
+        "sn43.4",
+        "sn43.5",
+        "sn43.6",
+        "sn43.7",
+        "sn43.8",
+        "sn43.9",
+        "sn43.10",
+        "sn43.11"
+      ]
+    },
+    "sn43-dutiyavagga": {
+      "parent": "sn43",
+      "kind": "vagga",
+      "name_key": "sn-name:1360.sn43-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn43.12",
+        "sn43.13",
+        "sn43.14-43",
+        "sn43.44"
+      ]
+    },
+    "sn44": {
+      "parent": "sn-salayatanavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1365.sn44",
+      "names": {
+        "pli": "Abyākatasaṁyutta",
+        "en": "Linked Discourses on the Undeclared"
+      },
+      "children": [
+        "sn44-abyakatavagga"
+      ]
+    },
+    "sn44-abyakatavagga": {
+      "parent": "sn44",
+      "kind": "vagga",
+      "name_key": "sn-name:1366.sn44-abyakatavagga",
+      "names": {
+        "pli": "Abyākatavagga",
+        "en": "The Chapter on the Undeclared Points"
+      },
+      "children": [
+        "sn44.1",
+        "sn44.2",
+        "sn44.3",
+        "sn44.4",
+        "sn44.5",
+        "sn44.6",
+        "sn44.7",
+        "sn44.8",
+        "sn44.9",
+        "sn44.10",
+        "sn44.11"
+      ]
+    },
+    "sn-mahavaggasamyutta": {
+      "parent": "sn",
+      "kind": "book",
+      "name_key": "sn-name:1378.sn-mahavaggasamyutta",
+      "names": {
+        "pli": "Mahāvaggasaṁyutta",
+        "en": "The Group of Linked Discourses on the Path"
+      },
+      "children": [
+        "sn45",
+        "sn46",
+        "sn47",
+        "sn48",
+        "sn49",
+        "sn50",
+        "sn51",
+        "sn52",
+        "sn53",
+        "sn54",
+        "sn55",
+        "sn56"
+      ]
+    },
+    "sn45": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1379.sn45",
+      "names": {
+        "pli": "Maggasaṁyutta",
+        "en": "Linked Discourses on the Eightfold Path"
+      },
+      "children": [
+        "sn45-avijjavagga",
+        "sn45-viharavagga",
+        "sn45-micchattavagga",
+        "sn45-patipattivagga",
+        "sn45-annatitthiyapeyyalavagga",
+        "sn45-suriyapeyyalavagga",
+        "sn45-ekadhammapeyyalavagga",
+        "sn45-dutiyaekadhammapeyyalavagga",
+        "sn45-gangapeyyalavagga",
+        "sn45-dutiyagangapeyyalavagga",
+        "sn45-appamadapeyyalavagga",
+        "sn45-balakaraniyavagga",
+        "sn45-esanavagga",
+        "sn45-oghavagga"
+      ]
+    },
+    "sn45-avijjavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1380.sn45-avijjavagga",
+      "names": {
+        "pli": "Avijjāvagga",
+        "en": "The Chapter on Ignorance"
+      },
+      "children": [
+        "sn45.1",
+        "sn45.2",
+        "sn45.3",
+        "sn45.4",
+        "sn45.5",
+        "sn45.6",
+        "sn45.7",
+        "sn45.8",
+        "sn45.9",
+        "sn45.10"
+      ]
+    },
+    "sn45-viharavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1391.sn45-viharavagga",
+      "names": {
+        "pli": "Vihāravagga",
+        "en": "The Chapter on Meditation"
+      },
+      "children": [
+        "sn45.11",
+        "sn45.12",
+        "sn45.13",
+        "sn45.14",
+        "sn45.15",
+        "sn45.16",
+        "sn45.17",
+        "sn45.18",
+        "sn45.19",
+        "sn45.20"
+      ]
+    },
+    "sn45-micchattavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1402.sn45-micchattavagga",
+      "names": {
+        "pli": "Micchattavagga",
+        "en": "The Chapter on the Wrong Way"
+      },
+      "children": [
+        "sn45.21",
+        "sn45.22",
+        "sn45.23",
+        "sn45.24",
+        "sn45.25",
+        "sn45.26",
+        "sn45.27",
+        "sn45.28",
+        "sn45.29",
+        "sn45.30"
+      ]
+    },
+    "sn45-patipattivagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1413.sn45-patipattivagga",
+      "names": {
+        "pli": "Paṭipattivagga",
+        "en": "The Chapter on Practice"
+      },
+      "children": [
+        "sn45.31",
+        "sn45.32",
+        "sn45.33",
+        "sn45.34",
+        "sn45.35",
+        "sn45.36",
+        "sn45.37",
+        "sn45.38",
+        "sn45.39",
+        "sn45.40"
+      ]
+    },
+    "sn45-annatitthiyapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1424.sn45-annatitthiyapeyyalavagga",
+      "names": {
+        "pli": "Aññatitthiyapeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on Followers of Other Paths"
+      },
+      "children": [
+        "sn45.41",
+        "sn45.42-47",
+        "sn45.48"
+      ]
+    },
+    "sn45-suriyapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1428.sn45-suriyapeyyalavagga",
+      "names": {
+        "pli": "Sūriyapeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Sun"
+      },
+      "children": [
+        "sn45.49",
+        "sn45.50-54",
+        "sn45.55",
+        "sn45.56",
+        "sn45.57-61",
+        "sn45.62"
+      ]
+    },
+    "sn45-ekadhammapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1435.sn45-ekadhammapeyyalavagga",
+      "names": {
+        "pli": "Ekadhammapeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on One Thing"
+      },
+      "children": [
+        "sn45.63",
+        "sn45.64-68",
+        "sn45.69",
+        "sn45.70",
+        "sn45.71-75",
+        "sn45.76"
+      ]
+    },
+    "sn45-dutiyaekadhammapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1442.sn45-dutiyaekadhammapeyyalavagga",
+      "names": {
+        "pli": "Dutiyaekadhammapeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on One Thing"
+      },
+      "children": [
+        "sn45.77",
+        "sn45.78-82",
+        "sn45.83",
+        "sn45.84",
+        "sn45.85-89",
+        "sn45.90"
+      ]
+    },
+    "sn45-gangapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1449.sn45-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn45.91",
+        "sn45.92-95",
+        "sn45.96",
+        "sn45.97",
+        "sn45.98-102"
+      ]
+    },
+    "sn45-dutiyagangapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1455.sn45-dutiyagangapeyyalavagga",
+      "names": {
+        "pli": "Dutiyagaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn45.103",
+        "sn45.104-108",
+        "sn45.109",
+        "sn45.110-114",
+        "sn45.115",
+        "sn45.116-120",
+        "sn45.121",
+        "sn45.122-126",
+        "sn45.127",
+        "sn45.128-132",
+        "sn45.133",
+        "sn45.134-138"
+      ]
+    },
+    "sn45-appamadapeyyalavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1468.sn45-appamadapeyyalavagga",
+      "names": {
+        "pli": "Appamādapeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on Diligence"
+      },
+      "children": [
+        "sn45.139",
+        "sn45.140",
+        "sn45.141-145",
+        "sn45.146-148"
+      ]
+    },
+    "sn45-balakaraniyavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1473.sn45-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn45.149",
+        "sn45.150",
+        "sn45.151",
+        "sn45.152",
+        "sn45.153",
+        "sn45.154",
+        "sn45.155",
+        "sn45.156",
+        "sn45.157",
+        "sn45.158",
+        "sn45.159",
+        "sn45.160"
+      ]
+    },
+    "sn45-esanavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1486.sn45-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn45.161",
+        "sn45.162",
+        "sn45.163",
+        "sn45.164",
+        "sn45.165",
+        "sn45.166",
+        "sn45.167",
+        "sn45.168",
+        "sn45.169",
+        "sn45.170"
+      ]
+    },
+    "sn45-oghavagga": {
+      "parent": "sn45",
+      "kind": "vagga",
+      "name_key": "sn-name:1497.sn45-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn45.171",
+        "sn45.172",
+        "sn45.173",
+        "sn45.174",
+        "sn45.175",
+        "sn45.176",
+        "sn45.177",
+        "sn45.178",
+        "sn45.179",
+        "sn45.180"
+      ]
+    },
+    "sn46": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1508.sn46",
+      "names": {
+        "pli": "Bojjhaṅgasaṁyutta",
+        "en": "Linked Discourses on the Awakening Factors"
+      },
+      "children": [
+        "sn46-pabbatavagga",
+        "sn46-gilanavagga",
+        "sn46-udayivagga",
+        "sn46-nivaranavagga",
+        "sn46-cakkavattivagga",
+        "sn46-sakacchavagga",
+        "sn46-anapanavagga",
+        "sn46-nirodhavagga",
+        "sn46-gangapeyyalavagga",
+        "sn46-appamadavagga",
+        "sn46-balakaraniyavagga",
+        "sn46-esanavagga",
+        "sn46-oghavagga",
+        "sn46-punagangapeyyalavagga",
+        "sn46-punaappamadavagga",
+        "sn46-punabalakaraniyavagga",
+        "sn46-punaesanavagga",
+        "sn46-punaoghavagga"
+      ]
+    },
+    "sn46-pabbatavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1509.sn46-pabbatavagga",
+      "names": {
+        "pli": "Pabbatavagga",
+        "en": "The Chapter on Mountains"
+      },
+      "children": [
+        "sn46.1",
+        "sn46.2",
+        "sn46.3",
+        "sn46.4",
+        "sn46.5",
+        "sn46.6",
+        "sn46.7",
+        "sn46.8",
+        "sn46.9",
+        "sn46.10"
+      ]
+    },
+    "sn46-gilanavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1520.sn46-gilanavagga",
+      "names": {
+        "pli": "Gilānavagga",
+        "en": "The Chapter on Sick"
+      },
+      "children": [
+        "sn46.11",
+        "sn46.12",
+        "sn46.13",
+        "sn46.14",
+        "sn46.15",
+        "sn46.16",
+        "sn46.17",
+        "sn46.18",
+        "sn46.19",
+        "sn46.20"
+      ]
+    },
+    "sn46-udayivagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1531.sn46-udayivagga",
+      "names": {
+        "pli": "Udāyivagga",
+        "en": "The Chapter with Udāyī"
+      },
+      "children": [
+        "sn46.21",
+        "sn46.22",
+        "sn46.23",
+        "sn46.24",
+        "sn46.25",
+        "sn46.26",
+        "sn46.27",
+        "sn46.28",
+        "sn46.29",
+        "sn46.30"
+      ]
+    },
+    "sn46-nivaranavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1542.sn46-nivaranavagga",
+      "names": {
+        "pli": "Nīvaraṇavagga",
+        "en": "The Chapter on Hindrances"
+      },
+      "children": [
+        "sn46.31",
+        "sn46.32",
+        "sn46.33",
+        "sn46.34",
+        "sn46.35",
+        "sn46.36",
+        "sn46.37",
+        "sn46.38",
+        "sn46.39",
+        "sn46.40"
+      ]
+    },
+    "sn46-cakkavattivagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1553.sn46-cakkavattivagga",
+      "names": {
+        "pli": "Cakkavattivagga",
+        "en": "The Chapter on the Wheel-Turning Monarch"
+      },
+      "children": [
+        "sn46.41",
+        "sn46.42",
+        "sn46.43",
+        "sn46.44",
+        "sn46.45",
+        "sn46.46",
+        "sn46.47",
+        "sn46.48",
+        "sn46.49",
+        "sn46.50"
+      ]
+    },
+    "sn46-sakacchavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1564.sn46-sakacchavagga",
+      "names": {
+        "pli": "Sākacchavagga",
+        "en": "The Chapter on Discussion"
+      },
+      "children": [
+        "sn46.51",
+        "sn46.52",
+        "sn46.53",
+        "sn46.54",
+        "sn46.55",
+        "sn46.56"
+      ]
+    },
+    "sn46-anapanavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1571.sn46-anapanavagga",
+      "names": {
+        "pli": "Ānāpānavagga",
+        "en": "The Chapter on Breathing"
+      },
+      "children": [
+        "sn46.57",
+        "sn46.58",
+        "sn46.59",
+        "sn46.60",
+        "sn46.61",
+        "sn46.62",
+        "sn46.63",
+        "sn46.64",
+        "sn46.65",
+        "sn46.66"
+      ]
+    },
+    "sn46-nirodhavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1582.sn46-nirodhavagga",
+      "names": {
+        "pli": "Nirodhavagga",
+        "en": "The Chapter on Cessation"
+      },
+      "children": [
+        "sn46.67",
+        "sn46.68",
+        "sn46.69",
+        "sn46.70",
+        "sn46.71",
+        "sn46.72",
+        "sn46.73",
+        "sn46.74",
+        "sn46.75",
+        "sn46.76"
+      ]
+    },
+    "sn46-gangapeyyalavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1593.sn46-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn46.77-88"
+      ]
+    },
+    "sn46-appamadavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1595.sn46-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn46.89-98"
+      ]
+    },
+    "sn46-balakaraniyavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1597.sn46-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn46.99-110"
+      ]
+    },
+    "sn46-esanavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1599.sn46-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn46.111-120"
+      ]
+    },
+    "sn46-oghavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1601.sn46-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn46.121-129",
+        "sn46.130"
+      ]
+    },
+    "sn46-punagangapeyyalavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1604.sn46-punagangapeyyalavagga",
+      "names": {
+        "pli": "Punagaṅgāpeyyālavagga",
+        "en": "Another Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn46.131-142"
+      ]
+    },
+    "sn46-punaappamadavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1606.sn46-punaappamadavagga",
+      "names": {
+        "pli": "Punaappamādavagga",
+        "en": "Another Chapter on Diligence"
+      },
+      "children": [
+        "sn46.143-152"
+      ]
+    },
+    "sn46-punabalakaraniyavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1608.sn46-punabalakaraniyavagga",
+      "names": {
+        "pli": "Punabalakaraṇīyavagga",
+        "en": "Another Chapter on Hard Work"
+      },
+      "children": [
+        "sn46.153-164"
+      ]
+    },
+    "sn46-punaesanavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1610.sn46-punaesanavagga",
+      "names": {
+        "pli": "Punaesanāvagga",
+        "en": "Another Chapter on Searches"
+      },
+      "children": [
+        "sn46.165-174"
+      ]
+    },
+    "sn46-punaoghavagga": {
+      "parent": "sn46",
+      "kind": "vagga",
+      "name_key": "sn-name:1612.sn46-punaoghavagga",
+      "names": {
+        "pli": "Punaoghavagga",
+        "en": "Another Chapter on Floods"
+      },
+      "children": [
+        "sn46.175-184"
+      ]
+    },
+    "sn47": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1614.sn47",
+      "names": {
+        "pli": "Satipaṭṭhānasaṁyutta",
+        "en": "Linked Discourses on Mindfulness Meditation"
+      },
+      "children": [
+        "sn47-ambapalivagga",
+        "sn47-nalandavagga",
+        "sn47-silatthitivagga",
+        "sn47-ananussutavagga",
+        "sn47-amatavagga",
+        "sn47-gangapeyyalavagga",
+        "sn47-appamadavagga",
+        "sn47-balakaraniyavagga",
+        "sn47-esanavagga",
+        "sn47-oghavagga"
+      ]
+    },
+    "sn47-ambapalivagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1615.sn47-ambapalivagga",
+      "names": {
+        "pli": "Ambapālivagga",
+        "en": "The Chapter on Ambapālī the Courtesan"
+      },
+      "children": [
+        "sn47.1",
+        "sn47.2",
+        "sn47.3",
+        "sn47.4",
+        "sn47.5",
+        "sn47.6",
+        "sn47.7",
+        "sn47.8",
+        "sn47.9",
+        "sn47.10"
+      ]
+    },
+    "sn47-nalandavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1626.sn47-nalandavagga",
+      "names": {
+        "pli": "Nālandavagga",
+        "en": "The Chapter at Nālandā"
+      },
+      "children": [
+        "sn47.11",
+        "sn47.12",
+        "sn47.13",
+        "sn47.14",
+        "sn47.15",
+        "sn47.16",
+        "sn47.17",
+        "sn47.18",
+        "sn47.19",
+        "sn47.20"
+      ]
+    },
+    "sn47-silatthitivagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1637.sn47-silatthitivagga",
+      "names": {
+        "pli": "Sīlaṭṭhitivagga",
+        "en": "The Chapter on Ethics and Duration"
+      },
+      "children": [
+        "sn47.21",
+        "sn47.22",
+        "sn47.23",
+        "sn47.24",
+        "sn47.25",
+        "sn47.26",
+        "sn47.27",
+        "sn47.28",
+        "sn47.29",
+        "sn47.30"
+      ]
+    },
+    "sn47-ananussutavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1648.sn47-ananussutavagga",
+      "names": {
+        "pli": "Ananussutavagga",
+        "en": "The Chapter on Not Learned From Anyone Else"
+      },
+      "children": [
+        "sn47.31",
+        "sn47.32",
+        "sn47.33",
+        "sn47.34",
+        "sn47.35",
+        "sn47.36",
+        "sn47.37",
+        "sn47.38",
+        "sn47.39",
+        "sn47.40"
+      ]
+    },
+    "sn47-amatavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1659.sn47-amatavagga",
+      "names": {
+        "pli": "Amatavagga",
+        "en": "The Chapter on Freedom From Death"
+      },
+      "children": [
+        "sn47.41",
+        "sn47.42",
+        "sn47.43",
+        "sn47.44",
+        "sn47.45",
+        "sn47.46",
+        "sn47.47",
+        "sn47.48",
+        "sn47.49",
+        "sn47.50"
+      ]
+    },
+    "sn47-gangapeyyalavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1670.sn47-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn47.51-62"
+      ]
+    },
+    "sn47-appamadavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1672.sn47-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn47.63-72"
+      ]
+    },
+    "sn47-balakaraniyavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1674.sn47-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn47.73-84"
+      ]
+    },
+    "sn47-esanavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1676.sn47-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn47.85-94"
+      ]
+    },
+    "sn47-oghavagga": {
+      "parent": "sn47",
+      "kind": "vagga",
+      "name_key": "sn-name:1678.sn47-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn47.95-104"
+      ]
+    },
+    "sn48": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1680.sn48",
+      "names": {
+        "pli": "Indriyasaṁyutta",
+        "en": "Linked Discourses on the Faculties"
+      },
+      "children": [
+        "sn48-suddhikavagga",
+        "sn48-mudutaravagga",
+        "sn48-chalindriyavagga",
+        "sn48-sukhindriyavagga",
+        "sn48-jaravagga",
+        "sn48-sukarakhatavagga",
+        "sn48-bodhipakkhiyavagga",
+        "sn48-gangapeyyalavagga",
+        "sn48-appamadavagga",
+        "sn48-balakaraniyavagga",
+        "sn48-esanavagga",
+        "sn48-oghavagga",
+        "sn48-punagangapeyyalavagga",
+        "sn48-punaappamadavagga",
+        "sn48-punabalakaraniyavagga",
+        "sn48-punaesanavagga",
+        "sn48-punaoghavagga"
+      ]
+    },
+    "sn48-suddhikavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1681.sn48-suddhikavagga",
+      "names": {
+        "pli": "Suddhikavagga",
+        "en": "The Chapter on the Plain Version"
+      },
+      "children": [
+        "sn48.1",
+        "sn48.2",
+        "sn48.3",
+        "sn48.4",
+        "sn48.5",
+        "sn48.6",
+        "sn48.7",
+        "sn48.8",
+        "sn48.9",
+        "sn48.10"
+      ]
+    },
+    "sn48-mudutaravagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1692.sn48-mudutaravagga",
+      "names": {
+        "pli": "Mudutaravagga",
+        "en": "The Chapter on Weaker"
+      },
+      "children": [
+        "sn48.11",
+        "sn48.12",
+        "sn48.13",
+        "sn48.14",
+        "sn48.15",
+        "sn48.16",
+        "sn48.17",
+        "sn48.18",
+        "sn48.19",
+        "sn48.20"
+      ]
+    },
+    "sn48-chalindriyavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1703.sn48-chalindriyavagga",
+      "names": {
+        "pli": "Chaḷindriyavagga",
+        "en": "The Chapter on the Six Faculties"
+      },
+      "children": [
+        "sn48.21",
+        "sn48.22",
+        "sn48.23",
+        "sn48.24",
+        "sn48.25",
+        "sn48.26",
+        "sn48.27",
+        "sn48.28",
+        "sn48.29",
+        "sn48.30"
+      ]
+    },
+    "sn48-sukhindriyavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1714.sn48-sukhindriyavagga",
+      "names": {
+        "pli": "Sukhindriyavagga",
+        "en": "The Chapter on the Pleasure Faculty"
+      },
+      "children": [
+        "sn48.31",
+        "sn48.32",
+        "sn48.33",
+        "sn48.34",
+        "sn48.35",
+        "sn48.36",
+        "sn48.37",
+        "sn48.38",
+        "sn48.39",
+        "sn48.40"
+      ]
+    },
+    "sn48-jaravagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1725.sn48-jaravagga",
+      "names": {
+        "pli": "Jarāvagga",
+        "en": "The Chapter on Old Age"
+      },
+      "children": [
+        "sn48.41",
+        "sn48.42",
+        "sn48.43",
+        "sn48.44",
+        "sn48.45",
+        "sn48.46",
+        "sn48.47",
+        "sn48.48",
+        "sn48.49",
+        "sn48.50"
+      ]
+    },
+    "sn48-sukarakhatavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1736.sn48-sukarakhatavagga",
+      "names": {
+        "pli": "Sūkarakhatavagga",
+        "en": "The Chapter on the Boar’s Cave"
+      },
+      "children": [
+        "sn48.51",
+        "sn48.52",
+        "sn48.53",
+        "sn48.54",
+        "sn48.55",
+        "sn48.56",
+        "sn48.57",
+        "sn48.58",
+        "sn48.59",
+        "sn48.60"
+      ]
+    },
+    "sn48-bodhipakkhiyavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1747.sn48-bodhipakkhiyavagga",
+      "names": {
+        "pli": "Bodhipakkhiyavagga",
+        "en": "The Chapter on Leading to Awakening"
+      },
+      "children": [
+        "sn48.61",
+        "sn48.62",
+        "sn48.63",
+        "sn48.64",
+        "sn48.65",
+        "sn48.66",
+        "sn48.67",
+        "sn48.68",
+        "sn48.69",
+        "sn48.70"
+      ]
+    },
+    "sn48-gangapeyyalavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1758.sn48-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn48.71-82"
+      ]
+    },
+    "sn48-appamadavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1760.sn48-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn48.83-92"
+      ]
+    },
+    "sn48-balakaraniyavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1762.sn48-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn48.93-104"
+      ]
+    },
+    "sn48-esanavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1764.sn48-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn48.105-114"
+      ]
+    },
+    "sn48-oghavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1766.sn48-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn48.115-124"
+      ]
+    },
+    "sn48-punagangapeyyalavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1768.sn48-punagangapeyyalavagga",
+      "names": {
+        "pli": "Punagaṅgāpeyyālavagga",
+        "en": "Another Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn48.125-136"
+      ]
+    },
+    "sn48-punaappamadavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1770.sn48-punaappamadavagga",
+      "names": {
+        "pli": "Punaappamādavagga",
+        "en": "Another Chapter on Diligence"
+      },
+      "children": [
+        "sn48.137-146"
+      ]
+    },
+    "sn48-punabalakaraniyavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1772.sn48-punabalakaraniyavagga",
+      "names": {
+        "pli": "Punabalakaraṇīyavagga",
+        "en": "Another Chapter on Hard Work"
+      },
+      "children": [
+        "sn48.147-158"
+      ]
+    },
+    "sn48-punaesanavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1774.sn48-punaesanavagga",
+      "names": {
+        "pli": "Punaesanāvagga",
+        "en": "Another Chapter on Searches"
+      },
+      "children": [
+        "sn48.159-168"
+      ]
+    },
+    "sn48-punaoghavagga": {
+      "parent": "sn48",
+      "kind": "vagga",
+      "name_key": "sn-name:1776.sn48-punaoghavagga",
+      "names": {
+        "pli": "Punaoghavagga",
+        "en": "Another Chapter on Floods"
+      },
+      "children": [
+        "sn48.169-178"
+      ]
+    },
+    "sn49": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1778.sn49",
+      "names": {
+        "pli": "Sammappadhānasaṁyutta",
+        "en": "Linked Discourses on the Right Efforts"
+      },
+      "children": [
+        "sn49-gangapeyyalavagga",
+        "sn49-appamadavagga",
+        "sn49-balakaraniyavagga",
+        "sn49-esanavagga",
+        "sn49-oghavagga"
+      ]
+    },
+    "sn49-gangapeyyalavagga": {
+      "parent": "sn49",
+      "kind": "vagga",
+      "name_key": "sn-name:1779.sn49-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn49.1-12"
+      ]
+    },
+    "sn49-appamadavagga": {
+      "parent": "sn49",
+      "kind": "vagga",
+      "name_key": "sn-name:1781.sn49-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn49.13-22"
+      ]
+    },
+    "sn49-balakaraniyavagga": {
+      "parent": "sn49",
+      "kind": "vagga",
+      "name_key": "sn-name:1783.sn49-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn49.23-34"
+      ]
+    },
+    "sn49-esanavagga": {
+      "parent": "sn49",
+      "kind": "vagga",
+      "name_key": "sn-name:1785.sn49-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn49.35-44"
+      ]
+    },
+    "sn49-oghavagga": {
+      "parent": "sn49",
+      "kind": "vagga",
+      "name_key": "sn-name:1787.sn49-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn49.45-54"
+      ]
+    },
+    "sn50": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1789.sn50",
+      "names": {
+        "pli": "Balasaṁyutta",
+        "en": "Linked Discourses on the Five Powers"
+      },
+      "children": [
+        "sn50-gangapeyyalavagga",
+        "sn50-appamadavagga",
+        "sn50-balakaraniyavagga",
+        "sn50-esanavagga",
+        "sn50-oghavagga",
+        "sn50-punagangapeyyalavagga",
+        "sn50-punaappamadavagga",
+        "sn50-punabalakaraniyavagga",
+        "sn50-punaesanavagga",
+        "sn50-punaoghavagga"
+      ]
+    },
+    "sn50-gangapeyyalavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1790.sn50-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn50.1-12"
+      ]
+    },
+    "sn50-appamadavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1792.sn50-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn50.13-22"
+      ]
+    },
+    "sn50-balakaraniyavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1794.sn50-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn50.23-34"
+      ]
+    },
+    "sn50-esanavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1796.sn50-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn50.35-44"
+      ]
+    },
+    "sn50-oghavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1798.sn50-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn50.45-54"
+      ]
+    },
+    "sn50-punagangapeyyalavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1800.sn50-punagangapeyyalavagga",
+      "names": {
+        "pli": "Punagaṅgāpeyyālavagga",
+        "en": "Another Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn50.55-66"
+      ]
+    },
+    "sn50-punaappamadavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1802.sn50-punaappamadavagga",
+      "names": {
+        "pli": "Punaappamādavagga",
+        "en": "Another Chapter on Diligence"
+      },
+      "children": [
+        "sn50.67-76"
+      ]
+    },
+    "sn50-punabalakaraniyavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1804.sn50-punabalakaraniyavagga",
+      "names": {
+        "pli": "Punabalakaraṇīyavagga",
+        "en": "Another Chapter on Hard Work"
+      },
+      "children": [
+        "sn50.77-88"
+      ]
+    },
+    "sn50-punaesanavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1806.sn50-punaesanavagga",
+      "names": {
+        "pli": "Punaesanāvagga",
+        "en": "Another Chapter on Searches"
+      },
+      "children": [
+        "sn50.89-98"
+      ]
+    },
+    "sn50-punaoghavagga": {
+      "parent": "sn50",
+      "kind": "vagga",
+      "name_key": "sn-name:1808.sn50-punaoghavagga",
+      "names": {
+        "pli": "Punaoghavagga",
+        "en": "Another Chapter on Floods"
+      },
+      "children": [
+        "sn50.99-108"
+      ]
+    },
+    "sn51": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1810.sn51",
+      "names": {
+        "pli": "Iddhipādasaṁyutta",
+        "en": "Linked Discourses on the Bases of Psychic Power"
+      },
+      "children": [
+        "sn51-capalavagga",
+        "sn51-pasadakampanavagga",
+        "sn51-ayogulavagga",
+        "sn51-gangapeyyalavagga",
+        "sn51-appamadavagga",
+        "sn51-balakaraniyavagga",
+        "sn51-esanavagga",
+        "sn51-oghavagga"
+      ]
+    },
+    "sn51-capalavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1811.sn51-capalavagga",
+      "names": {
+        "pli": "Cāpālavagga",
+        "en": "The Chapter at the Cāpāla Shrine"
+      },
+      "children": [
+        "sn51.1",
+        "sn51.2",
+        "sn51.3",
+        "sn51.4",
+        "sn51.5",
+        "sn51.6",
+        "sn51.7",
+        "sn51.8",
+        "sn51.9",
+        "sn51.10"
+      ]
+    },
+    "sn51-pasadakampanavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1822.sn51-pasadakampanavagga",
+      "names": {
+        "pli": "Pāsādakampanavagga",
+        "en": "The Chapter on Shaking the Stilt Longhouse"
+      },
+      "children": [
+        "sn51.11",
+        "sn51.12",
+        "sn51.13",
+        "sn51.14",
+        "sn51.15",
+        "sn51.16",
+        "sn51.17",
+        "sn51.18",
+        "sn51.19",
+        "sn51.20"
+      ]
+    },
+    "sn51-ayogulavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1833.sn51-ayogulavagga",
+      "names": {
+        "pli": "Ayoguḷavagga",
+        "en": "The Chapter on the Iron Ball"
+      },
+      "children": [
+        "sn51.21",
+        "sn51.22",
+        "sn51.23",
+        "sn51.24",
+        "sn51.25",
+        "sn51.26",
+        "sn51.27",
+        "sn51.28",
+        "sn51.29",
+        "sn51.30",
+        "sn51.31",
+        "sn51.32"
+      ]
+    },
+    "sn51-gangapeyyalavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1846.sn51-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn51.33-44"
+      ]
+    },
+    "sn51-appamadavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1848.sn51-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn51.45-54"
+      ]
+    },
+    "sn51-balakaraniyavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1850.sn51-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn51.55-66"
+      ]
+    },
+    "sn51-esanavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1852.sn51-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn51.67-76"
+      ]
+    },
+    "sn51-oghavagga": {
+      "parent": "sn51",
+      "kind": "vagga",
+      "name_key": "sn-name:1854.sn51-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn51.77-86"
+      ]
+    },
+    "sn52": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1856.sn52",
+      "names": {
+        "pli": "Anuruddhasaṁyutta",
+        "en": "Linked Discourses with Anuruddha"
+      },
+      "children": [
+        "sn52-rahogatavagga",
+        "sn52-dutiyavagga"
+      ]
+    },
+    "sn52-rahogatavagga": {
+      "parent": "sn52",
+      "kind": "vagga",
+      "name_key": "sn-name:1857.sn52-rahogatavagga",
+      "names": {
+        "pli": "Rahogatavagga",
+        "en": "The Chapter on In Private"
+      },
+      "children": [
+        "sn52.1",
+        "sn52.2",
+        "sn52.3",
+        "sn52.4",
+        "sn52.5",
+        "sn52.6",
+        "sn52.7",
+        "sn52.8",
+        "sn52.9",
+        "sn52.10"
+      ]
+    },
+    "sn52-dutiyavagga": {
+      "parent": "sn52",
+      "kind": "vagga",
+      "name_key": "sn-name:1868.sn52-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn52.11",
+        "sn52.12",
+        "sn52.13",
+        "sn52.14",
+        "sn52.15",
+        "sn52.16",
+        "sn52.17",
+        "sn52.18",
+        "sn52.19",
+        "sn52.20",
+        "sn52.21",
+        "sn52.22",
+        "sn52.23",
+        "sn52.24"
+      ]
+    },
+    "sn53": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1883.sn53",
+      "names": {
+        "pli": "Jhānasaṁyutta",
+        "en": "Linked Discourses on Absorption"
+      },
+      "children": [
+        "sn53-gangapeyyalavagga",
+        "sn53-appamadavagga",
+        "sn53-balakaraniyavagga",
+        "sn53-esanavagga",
+        "sn53-oghavagga"
+      ]
+    },
+    "sn53-gangapeyyalavagga": {
+      "parent": "sn53",
+      "kind": "vagga",
+      "name_key": "sn-name:1884.sn53-gangapeyyalavagga",
+      "names": {
+        "pli": "Gaṅgāpeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on the Ganges"
+      },
+      "children": [
+        "sn53.1-12"
+      ]
+    },
+    "sn53-appamadavagga": {
+      "parent": "sn53",
+      "kind": "vagga",
+      "name_key": "sn-name:1886.sn53-appamadavagga",
+      "names": {
+        "pli": "Appamādavagga",
+        "en": "The Chapter on Diligence"
+      },
+      "children": [
+        "sn53.13-22"
+      ]
+    },
+    "sn53-balakaraniyavagga": {
+      "parent": "sn53",
+      "kind": "vagga",
+      "name_key": "sn-name:1888.sn53-balakaraniyavagga",
+      "names": {
+        "pli": "Balakaraṇīyavagga",
+        "en": "The Chapter on Hard Work"
+      },
+      "children": [
+        "sn53.23-34"
+      ]
+    },
+    "sn53-esanavagga": {
+      "parent": "sn53",
+      "kind": "vagga",
+      "name_key": "sn-name:1890.sn53-esanavagga",
+      "names": {
+        "pli": "Esanāvagga",
+        "en": "The Chapter on Searches"
+      },
+      "children": [
+        "sn53.35-44"
+      ]
+    },
+    "sn53-oghavagga": {
+      "parent": "sn53",
+      "kind": "vagga",
+      "name_key": "sn-name:1892.sn53-oghavagga",
+      "names": {
+        "pli": "Oghavagga",
+        "en": "The Chapter on Floods"
+      },
+      "children": [
+        "sn53.45-54"
+      ]
+    },
+    "sn54": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1894.sn54",
+      "names": {
+        "pli": "Ānāpānasaṁyutta",
+        "en": "Linked Discourses on Breath Meditation"
+      },
+      "children": [
+        "sn54-ekadhammavagga",
+        "sn54-dutiyavagga"
+      ]
+    },
+    "sn54-ekadhammavagga": {
+      "parent": "sn54",
+      "kind": "vagga",
+      "name_key": "sn-name:1895.sn54-ekadhammavagga",
+      "names": {
+        "pli": "Ekadhammavagga",
+        "en": "The Chapter on One Thing"
+      },
+      "children": [
+        "sn54.1",
+        "sn54.2",
+        "sn54.3",
+        "sn54.4",
+        "sn54.5",
+        "sn54.6",
+        "sn54.7",
+        "sn54.8",
+        "sn54.9",
+        "sn54.10"
+      ]
+    },
+    "sn54-dutiyavagga": {
+      "parent": "sn54",
+      "kind": "vagga",
+      "name_key": "sn-name:1906.sn54-dutiyavagga",
+      "names": {
+        "pli": "Dutiyavagga",
+        "en": "Chapter Two"
+      },
+      "children": [
+        "sn54.11",
+        "sn54.12",
+        "sn54.13",
+        "sn54.14",
+        "sn54.15",
+        "sn54.16",
+        "sn54.17",
+        "sn54.18",
+        "sn54.19",
+        "sn54.20"
+      ]
+    },
+    "sn55": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1917.sn55",
+      "names": {
+        "pli": "Sotāpattisaṁyutta",
+        "en": "Linked Discourses on Stream-Entry"
+      },
+      "children": [
+        "sn55-veludvaravagga",
+        "sn55-rajakaramavagga",
+        "sn55-sarananivagga",
+        "sn55-punnabhisandavagga",
+        "sn55-sagathakapunnabhisandavagga",
+        "sn55-sappannavagga",
+        "sn55-mahapannavagga"
+      ]
+    },
+    "sn55-veludvaravagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1918.sn55-veludvaravagga",
+      "names": {
+        "pli": "Veḷudvāravagga",
+        "en": "The Chapter at Bamboo Gate"
+      },
+      "children": [
+        "sn55.1",
+        "sn55.2",
+        "sn55.3",
+        "sn55.4",
+        "sn55.5",
+        "sn55.6",
+        "sn55.7",
+        "sn55.8",
+        "sn55.9",
+        "sn55.10"
+      ]
+    },
+    "sn55-rajakaramavagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1929.sn55-rajakaramavagga",
+      "names": {
+        "pli": "Rājakārāmavagga",
+        "en": "The Chapter on the Royal Monastery"
+      },
+      "children": [
+        "sn55.11",
+        "sn55.12",
+        "sn55.13",
+        "sn55.14",
+        "sn55.15",
+        "sn55.16",
+        "sn55.17",
+        "sn55.18",
+        "sn55.19",
+        "sn55.20"
+      ]
+    },
+    "sn55-sarananivagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1940.sn55-sarananivagga",
+      "names": {
+        "pli": "Saraṇānivagga",
+        "en": "The Chapter with Sarakāni"
+      },
+      "children": [
+        "sn55.21",
+        "sn55.22",
+        "sn55.23",
+        "sn55.24",
+        "sn55.25",
+        "sn55.26",
+        "sn55.27",
+        "sn55.28",
+        "sn55.29",
+        "sn55.30"
+      ]
+    },
+    "sn55-punnabhisandavagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1951.sn55-punnabhisandavagga",
+      "names": {
+        "pli": "Puññābhisandavagga",
+        "en": "The Chapter on Overflowing Merit"
+      },
+      "children": [
+        "sn55.31",
+        "sn55.32",
+        "sn55.33",
+        "sn55.34",
+        "sn55.35",
+        "sn55.36",
+        "sn55.37",
+        "sn55.38",
+        "sn55.39",
+        "sn55.40"
+      ]
+    },
+    "sn55-sagathakapunnabhisandavagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1962.sn55-sagathakapunnabhisandavagga",
+      "names": {
+        "pli": "Sagāthakapuññābhisandavagga",
+        "en": "The Chapter on Overflowing Merit, With Verses"
+      },
+      "children": [
+        "sn55.41",
+        "sn55.42",
+        "sn55.43",
+        "sn55.44",
+        "sn55.45",
+        "sn55.46",
+        "sn55.47",
+        "sn55.48",
+        "sn55.49",
+        "sn55.50"
+      ]
+    },
+    "sn55-sappannavagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1973.sn55-sappannavagga",
+      "names": {
+        "pli": "Sappaññavagga",
+        "en": "The Chapter on a Wise Person"
+      },
+      "children": [
+        "sn55.51",
+        "sn55.52",
+        "sn55.53",
+        "sn55.54",
+        "sn55.55",
+        "sn55.56",
+        "sn55.57",
+        "sn55.58",
+        "sn55.59",
+        "sn55.60",
+        "sn55.61"
+      ]
+    },
+    "sn55-mahapannavagga": {
+      "parent": "sn55",
+      "kind": "vagga",
+      "name_key": "sn-name:1985.sn55-mahapannavagga",
+      "names": {
+        "pli": "Mahāpaññavagga",
+        "en": "The Chapter on Great Wisdom"
+      },
+      "children": [
+        "sn55.62",
+        "sn55.63",
+        "sn55.64",
+        "sn55.65",
+        "sn55.66",
+        "sn55.67",
+        "sn55.68",
+        "sn55.69",
+        "sn55.70",
+        "sn55.71",
+        "sn55.72",
+        "sn55.73",
+        "sn55.74"
+      ]
+    },
+    "sn56": {
+      "parent": "sn-mahavaggasamyutta",
+      "kind": "samyutta",
+      "name_key": "sn-name:1999.sn56",
+      "names": {
+        "pli": "Saccasaṁyutta",
+        "en": "Linked Discourses on the Truths"
+      },
+      "children": [
+        "sn56-samadhivagga",
+        "sn56-dhammacakkappavattanavagga",
+        "sn56-kotigamavagga",
+        "sn56-sisapavanavagga",
+        "sn56-papatavagga",
+        "sn56-abhisamayavagga",
+        "sn56-pathamaamakadhannapeyyalavagga",
+        "sn56-dutiyaamakadhannapeyyalavagga",
+        "sn56-tatiyaamakadhannapeyyalavagga",
+        "sn56-catutthaamakadhannapeyyalavagga",
+        "sn56-pancagatipeyyalavagga"
+      ]
+    },
+    "sn56-samadhivagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2000.sn56-samadhivagga",
+      "names": {
+        "pli": "Samādhivagga",
+        "en": "The Chapter on Immersion"
+      },
+      "children": [
+        "sn56.1",
+        "sn56.2",
+        "sn56.3",
+        "sn56.4",
+        "sn56.5",
+        "sn56.6",
+        "sn56.7",
+        "sn56.8",
+        "sn56.9",
+        "sn56.10"
+      ]
+    },
+    "sn56-dhammacakkappavattanavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2011.sn56-dhammacakkappavattanavagga",
+      "names": {
+        "pli": "Dhammacakkappavattanavagga",
+        "en": "The Chapter on Rolling Forth the Wheel of Dhamma"
+      },
+      "children": [
+        "sn56.11",
+        "sn56.12",
+        "sn56.13",
+        "sn56.14",
+        "sn56.15",
+        "sn56.16",
+        "sn56.17",
+        "sn56.18",
+        "sn56.19",
+        "sn56.20"
+      ]
+    },
+    "sn56-kotigamavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2022.sn56-kotigamavagga",
+      "names": {
+        "pli": "Koṭigāmavagga",
+        "en": "The Chapter at the Village of Koṭi"
+      },
+      "children": [
+        "sn56.21",
+        "sn56.22",
+        "sn56.23",
+        "sn56.24",
+        "sn56.25",
+        "sn56.26",
+        "sn56.27",
+        "sn56.28",
+        "sn56.29",
+        "sn56.30"
+      ]
+    },
+    "sn56-sisapavanavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2033.sn56-sisapavanavagga",
+      "names": {
+        "pli": "Sīsapāvanavagga",
+        "en": "The Chapter in a Rosewood Forest"
+      },
+      "children": [
+        "sn56.31",
+        "sn56.32",
+        "sn56.33",
+        "sn56.34",
+        "sn56.35",
+        "sn56.36",
+        "sn56.37",
+        "sn56.38",
+        "sn56.39",
+        "sn56.40"
+      ]
+    },
+    "sn56-papatavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2044.sn56-papatavagga",
+      "names": {
+        "pli": "Papātavagga",
+        "en": "The Chapter on a Cliff"
+      },
+      "children": [
+        "sn56.41",
+        "sn56.42",
+        "sn56.43",
+        "sn56.44",
+        "sn56.45",
+        "sn56.46",
+        "sn56.47",
+        "sn56.48",
+        "sn56.49",
+        "sn56.50"
+      ]
+    },
+    "sn56-abhisamayavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2055.sn56-abhisamayavagga",
+      "names": {
+        "pli": "Abhisamayavagga",
+        "en": "The Chapter on Comprehension"
+      },
+      "children": [
+        "sn56.51",
+        "sn56.52",
+        "sn56.53",
+        "sn56.54",
+        "sn56.55",
+        "sn56.56",
+        "sn56.57",
+        "sn56.58",
+        "sn56.59",
+        "sn56.60"
+      ]
+    },
+    "sn56-pathamaamakadhannapeyyalavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2066.sn56-pathamaamakadhannapeyyalavagga",
+      "names": {
+        "pli": "Paṭhamaāmakadhaññapeyyālavagga",
+        "en": "The First Chapter of Abbreviated Texts on Raw Grain"
+      },
+      "children": [
+        "sn56.61",
+        "sn56.62",
+        "sn56.63",
+        "sn56.64",
+        "sn56.65",
+        "sn56.66",
+        "sn56.67",
+        "sn56.68",
+        "sn56.69",
+        "sn56.70"
+      ]
+    },
+    "sn56-dutiyaamakadhannapeyyalavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2077.sn56-dutiyaamakadhannapeyyalavagga",
+      "names": {
+        "pli": "Dutiyaāmakadhaññapeyyālavagga",
+        "en": "The Second Chapter of Abbreviated Texts on Raw Grain"
+      },
+      "children": [
+        "sn56.71",
+        "sn56.72",
+        "sn56.73",
+        "sn56.74",
+        "sn56.75",
+        "sn56.76",
+        "sn56.77",
+        "sn56.78",
+        "sn56.79",
+        "sn56.80"
+      ]
+    },
+    "sn56-tatiyaamakadhannapeyyalavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2088.sn56-tatiyaamakadhannapeyyalavagga",
+      "names": {
+        "pli": "Tatiyaāmakadhaññapeyyālavagga",
+        "en": "The Third Chapter of Abbreviated Texts on Raw Grain"
+      },
+      "children": [
+        "sn56.81",
+        "sn56.82",
+        "sn56.83",
+        "sn56.84",
+        "sn56.85",
+        "sn56.86",
+        "sn56.87",
+        "sn56.88",
+        "sn56.89",
+        "sn56.90"
+      ]
+    },
+    "sn56-catutthaamakadhannapeyyalavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2099.sn56-catutthaamakadhannapeyyalavagga",
+      "names": {
+        "pli": "Catutthaāmakadhaññapeyyālavagga",
+        "en": "The Fourth Chapter of Abbreviated Texts on Raw Grain"
+      },
+      "children": [
+        "sn56.91",
+        "sn56.92",
+        "sn56.93",
+        "sn56.94",
+        "sn56.95",
+        "sn56.96-101"
+      ]
+    },
+    "sn56-pancagatipeyyalavagga": {
+      "parent": "sn56",
+      "kind": "vagga",
+      "name_key": "sn-name:2106.sn56-pancagatipeyyalavagga",
+      "names": {
+        "pli": "Pañcagatipeyyālavagga",
+        "en": "The Chapter of Abbreviated Texts on Five Destinations"
+      },
+      "children": [
+        "sn56.102",
+        "sn56.103",
+        "sn56.104",
+        "sn56.105-107",
+        "sn56.108-110",
+        "sn56.111-113",
+        "sn56.114-116",
+        "sn56.117-119",
+        "sn56.120-122",
+        "sn56.123-125",
+        "sn56.126-128",
+        "sn56.129-130",
+        "sn56.131"
+      ]
+    }
+  }
+}
